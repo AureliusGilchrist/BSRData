@@ -97,41 +97,41 @@ var rarityBySlug = map[string]string{
 // this map by hand to re-rank a character. Valid values: "S+", "S", "A", "B", "C".
 var tierBySlug = map[string]string{
 	// S — must-build / meta-defining
-	"aizen":        "S",
-	"gin":          "S",
-	"kenpachi":     "A",
-	"kisuke":       "S",
-	"mayuri":       "S",
-	"nelliel":      "S",
-	"soi-fon":      "S",
-	"szayelaporro": "A",
-
-	// A — strong pick
-	"byakuya":          "D",
-	"grimmjow":         "A",
+	"aizen":	        "S",
+	"gin": 	    	    "S",
+	"kisuke":      	 	"S",
+	"mayuri":       	"S",
+	"nelliel":      	"S",
+	"soi-fon":      	"S",
+	"toshiro":          "S",
 	"grimmjow-pantera": "S",
+	"szayelaporro": 	"S",
+
+	// A — strong pick	
+	"kenpachi":     	"A",
+	"grimmjow":         "A",
 	"ichigo-bankai":    "A",
+	"tosen":            "A",
+
+	"yachiru":          "B",
 	"momo":             "B",
 	"rangiku":          "B",
-	"rukia":            "C",
-	"tosen":            "A",
-	"toshiro":          "S",
-	"yachiru":          "B",
-
+	"yoruichi": 		"B",
+	"ikkaku":   		"B",
 	// B — situational
-	"ikkaku":   "B",
-	"komamura": "C",
-	"orihime":  "D",
-	"yoruichi": "B",
+	"rukia":            "C",
+	"komamura": 		"C",
+	"uryu":           	"C",
+	"ichigo-shikai":  	"C",
 
 	// C — niche / starter
-	"chad":           "D",
-	"ichigo-initial": "D",
-	"ichigo-shikai":  "C",
-	"nemu":           "D",
-	"renji":          "D",
-	"ururu":          "D",
-	"uryu":           "C",
+	"chad":           	"D",
+	"ichigo-initial": 	"D",
+	"orihime":        	"D",
+	"nemu":           	"D",
+	"renji":          	"D",
+	"ururu":          	"D",
+	"byakuya":        	"D",
 }
 
 // Note: release dates are no longer hard-coded here. The scraper (../Main.go)
