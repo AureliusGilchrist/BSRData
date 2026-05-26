@@ -1,0 +1,239 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Zaraki_Kenpachi",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/kenpachi/art.png",
+  "bestStamp": {
+    "setName": "Nozarashi (4) + Slash (2)",
+    "mainStats": "1: Slash DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e HP%",
+    "notes": "Tank-DPS hybrid — HP% sub can sub in once survivability dips."
+  },
+  "bondPriority": [
+    {
+      "description": "Increases Technique DMG by 32% during battle. When Ailment DMG Bonus is equal or higher than 80%, Ailment DMG Bonus is increased by extra 80%.",
+      "name": "Gin Bond"
+    },
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "Spiritual Pressure gained from releasing Special Attacks is increased by 100%, and the damage dealt by Special Attacks is increased by 50%.",
+      "icon": "/Images/kenpachi/boundary-1.png",
+      "level": 1,
+      "name": "Wandering Beast"
+    },
+    {
+      "description": "For every 1% of Ailment DMG Bonus Kenpachi has, his Crit Rate increases by 0.5%, up to 30%.",
+      "icon": "/Images/kenpachi/boundary-2.png",
+      "level": 2,
+      "name": "The Name of Kenpachi"
+    },
+    {
+      "icon": "/Images/kenpachi/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Increases the damage dealt by all Sever Attacks by 30%.",
+      "icon": "/Images/kenpachi/boundary-4.png",
+      "level": 4,
+      "name": "Fearless Demon"
+    },
+    {
+      "icon": "/Images/kenpachi/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "Each time an on-field enemy is inflicted with Cleave, Kenpachi's Crit DMG and Ailment Mastery are increased by 30% and 20%, respectively, for 30 seconds, stacking up to 2 times.",
+      "icon": "/Images/kenpachi/boundary-6.png",
+      "level": 6,
+      "name": "Driven to the Edge"
+    }
+  ],
+  "build": {
+    "passiveSkills": [
+      "All DMG Dealt/Bonus +9%",
+      "Increase Technique DMG +30%",
+      "Increase Ultimate DMG +22.5%"
+    ],
+    "range": "B0W1C1 - B6W5C5",
+    "setName": "Ready to Go",
+    "setPieces": [
+      {
+        "mainStat": "Slash DMG Bonus \u003e Atk%",
+        "slot": 1
+      },
+      {
+        "mainStat": "Crit Rate \u003e Crit DMG",
+        "slot": 2
+      },
+      {
+        "mainStat": "Ailment DMG Bonus \u003e Atk%",
+        "slot": 3
+      }
+    ],
+    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Ailment DMG Bonus \u003e Atk% \u003e Atk",
+    "targets": {
+      "ultChargeRate": "~114% - 130%"
+    }
+  },
+  "builds": [
+    {
+      "label": "P2W (value ceiling)",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Nozarashi (4) + Slash (2)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e HP%"
+    },
+    {
+      "label": "F2P (practical stop)",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B1W5C5",
+      "setName": "Nozarashi (4) + Slash (2)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e HP%"
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "Kenpachi's Special Attack, Spiritual Pressure Burst, and Ultimate are Sever attacks that apply Sever Points to the enemy. Upon reaching 100 Sever Points, the enemy will be inflicted with Cleave. Applying Sever Attacks to a Cleaved enemy deals extra Cleave DMG equal to 20% of that attack, which counts as Ailment DMG, but no longer applies Sever Points.",
+      "icon": "/Images/kenpachi/passive-1.png",
+      "name": "Cleave"
+    },
+    {
+      "description": "While Kenpachi is using Special Attacks, Spiritual Pressure Burst, or his Ultimate, his damage taken is reduced by 60%, and interruption resistance is increased.",
+      "icon": "/Images/kenpachi/passive-2.png",
+      "name": "Selfless"
+    },
+    {
+      "description": "After the battle begins, Kenpachi gains 1 stack of Excitement every 2 seconds. Each stack increases his ATK by 2.5%, stacking up to 10 times.",
+      "icon": "/Images/kenpachi/passive-3.png",
+      "name": "Excitement"
+    },
+    {
+      "description": "Acquiring Frenzy increases the damage of Kenpachi's Special Attacks by 90% for the next 15 seconds. Kenpachi gains 1 Frenzy upon defeating an enemy.",
+      "icon": "/Images/kenpachi/passive-4.png",
+      "name": "De-Rust"
+    }
+  ],
+  "damageType": "Slash",
+  "name": "Kenpachi Zaraki",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "30 Jan 2026",
+  "role": "Assault",
+  "rotations": [
+    {
+      "name": "Battle Lust",
+      "notes": "His damage scales with missing HP — let him take a few hits before bursting.",
+      "steps": [
+        "Take damage to charge",
+        "Basic ×3",
+        "Technique",
+        "Ultimate (eye-patch off)",
+        "Battlefield Skill"
+      ],
+      "tags": [
+        "Burst",
+        "Boss"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/kenpachi/skill-basic.png",
+      "kind": "Basic Attack",
+      "name": "Malicious Blade Rip",
+      "variant": "War Wraith"
+    },
+    {
+      "description": "",
+      "icon": "/Images/kenpachi/skill-technique.png",
+      "kind": "Technique",
+      "name": "Spiritual Pressure Burst",
+      "variant": "Max SP"
+    },
+    {
+      "description": "",
+      "icon": "/Images/kenpachi/skill-ultimate.png",
+      "kind": "Ultimate",
+      "name": "Kendo",
+      "variant": "War Wraith"
+    },
+    {
+      "description": "",
+      "icon": "/Images/kenpachi/skill-counter.png",
+      "kind": "Counter",
+      "name": "Counter",
+      "variant": null
+    }
+  ],
+  "slug": "kenpachi",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/kenpachi",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "Casting Ultimate inflicts Cleave on all enemies (extends by 8s if already Cleaved)",
+        "During War Wraith: each basic attack hit increases Kendo DMG by 10%, up to 10 stacks",
+        "Spiritual Pressure Burst grants Technique DMG +25% for 5s (up to 2 stacks)",
+        "Rampage Raid: Crit Rate +10% for 30s (up to 2 stacks)"
+      ],
+      "ascend5": [
+        "Casting Ultimate inflicts Cleave (extends by 8s if already Cleaved)",
+        "During War Wraith: each basic attack hit increases Kendo DMG by 20%, up to 10 stacks",
+        "Spiritual Pressure Burst grants Technique DMG +50% for 5s (up to 2 stacks)",
+        "Rampage Raid: Crit Rate +10% for 30s (up to 2 stacks)"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "Releasing the final hit of a Special Attack returns 1 point of Frenzy",
+        "Increases the damage dealt by every technique by 50%",
+        "When any of Kenpachi's attacks lands a critical hit, it triggers an additional hit dealing damage equal to 20% of that attack"
+      ],
+      "ascend5": [
+        "Releasing the final hit of a Special Attack returns 1 point of Frenzy",
+        "Increases the damage dealt by every technique by 100%",
+        "When any of Kenpachi's attacks lands a critical hit, it triggers an additional hit dealing damage equal to 40% of that attack"
+      ]
+    }
+  },
+  "tier": "A"
+}

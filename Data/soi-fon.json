@@ -1,0 +1,207 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Soi_Fon",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/soi-fon/art.png",
+  "bestStamp": {
+    "setName": "Suzumebachi (4) + Strike (2)",
+    "mainStats": "1: Strike DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+    "notes": "Two-hit execute Tactician — the second sting deletes bosses."
+  },
+  "bondPriority": [
+    {
+      "description": "Increases Strike DMG by 18% during battle and Ultimate DMG by 10%. When equipped by a Tactic character, increases the above effects by an extra 100%.",
+      "name": "Soi Fon Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "Reduces the cooldown of Ultimate by 10 seconds and increases Ultimate Energy Charge Rate by 100%. Increases Soi Fon's Crit Rate by 15%.",
+      "icon": "/Images/soi-fon/boundary-1.png",
+      "level": 1,
+      "name": "Beyond Admiration"
+    },
+    {
+      "description": "Increases All-Skill Mastery by 40%.",
+      "icon": "/Images/soi-fon/boundary-2.png",
+      "level": 2,
+      "name": "Unforgivable Betrayal"
+    },
+    {
+      "icon": "/Images/soi-fon/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "When any character in the team lands a critical hit, an extra Sting is triggered, dealing damage equal to 500% of Soi Fon's ATK. Cooldown: 4 seconds.",
+      "icon": "/Images/soi-fon/boundary-4.png",
+      "level": 4,
+      "name": "Flashy Ambush"
+    },
+    {
+      "icon": "/Images/soi-fon/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "Reduces the Strike Resistance of enemies inflicted with Execution Target by an extra 20% and increases all damage they receive by 15%.",
+      "icon": "/Images/soi-fon/boundary-6.png",
+      "level": 6,
+      "name": "Don't Slow Me Down"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Endgame",
+      "passiveSkills": [
+        "Enhanced Damage OR Overdrive"
+      ],
+      "range": "B1W5C5 - B6W5C5",
+      "setName": "Stealth Force",
+      "setPieces": [
+        {
+          "mainStat": "Strike DMG Bonus \u003e Atk%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG \u003e Crit Rate",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk% \u003e Ailment DMG Bonus",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Ailment DMG Bonus \u003e Atk",
+      "targets": {
+        "ultChargeRate": "Any%"
+      }
+    },
+    {
+      "label": "Early",
+      "passiveSkills": [
+        "Enhanced Damage OR Overdrive"
+      ],
+      "range": "B0W1C1",
+      "setName": "Stealth Force",
+      "setPieces": [
+        {
+          "mainStat": "Strike DMG Bonus \u003e Atk%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate \u003e Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ultimate Charge Rate \u003e Atk% \u003e Ailment DMG Bonus",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Ailment DMG Bonus \u003e Atk",
+      "targets": {
+        "ultChargeRate": "140%+"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "When Soi Fon releases the Special Attack - Time's Up or Battlefield Skill - Twin-Strike Execution, she inflicts the enemy with Execution Target for 15 seconds. During this time, whenever the enemy is attacked by any character, an extra Sting equal to 55% of Soi Fon's ATK is triggered. Cooldown: 2 seconds. Tapping Basic Attack after Soi Fon's Perfect Dodge, or her icon after a teammate's Perfect Dodge, triggers Windmill. Cooldown: 14 seconds.",
+      "icon": "/Images/soi-fon/passive-1.png",
+      "name": "Execution Begins"
+    },
+    {
+      "description": "Reduces the Strike Resistance of enemies inflicted with Execution Target by 20%.",
+      "icon": "/Images/soi-fon/passive-2.png",
+      "name": "Nowhere to Escape"
+    },
+    {
+      "description": "When any character in the team triggers a Perfect Dodge, the entire team gains 15% ATK for 25 seconds. Unstackable. This bonus is 30% for Yoruichi.",
+      "icon": "/Images/soi-fon/passive-3.png",
+      "name": "Blink"
+    },
+    {
+      "description": "Each time 1 point of Deathmark is consumed, the entire team gains 4% Crit DMG for 15 seconds, stacking up to 10 times. This bonus is 8% for Yoruichi.",
+      "icon": "/Images/soi-fon/passive-4.png",
+      "name": "Force Tactic"
+    }
+  ],
+  "damageType": "Strike",
+  "name": "Soi Fon",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "3 Apr 2026",
+  "role": "Tactician",
+  "rotations": [
+    {
+      "name": "Nigeki Kessatsu",
+      "notes": "Mark must be applied first — DON'T fire Ult until you see the Homonka stack.",
+      "steps": [
+        "Basic ×3 → Technique (mark target with Homonka)",
+        "Swap out, let mark persist",
+        "Swap back: Ultimate (second strike → execute)"
+      ],
+      "tags": [
+        "Burst",
+        "Boss"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/soi-fon/skill-basic.png",
+      "kind": "Basic Attack",
+      "name": "Real Assassination",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/soi-fon/skill-ultimate.png",
+      "kind": "Ultimate",
+      "name": "Bankai: Jakuho Raikoben",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/soi-fon/skill-counter.png",
+      "kind": "Counter",
+      "name": "Counter",
+      "variant": null
+    }
+  ],
+  "slug": "soi-fon",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/soi-fon",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "Each time 1 point of Deathmark is consumed, Soi Fon gains 1 stack of Insight, increasing her Technique DMG by 2.5%. This effect stacks up to 10 times, and upon reaching 10 stacks, her Ultimate also gains a 150% Crit DMG bonus",
+        "When her Ultimate lands a critical hit, it immediately triggers an extra Sting equal to 750% of Soi Fon's ATK",
+        "After her Ultimate hits an enemy, all damage the target takes afterward is increased by 10% for 30 seconds"
+      ],
+      "ascend5": [
+        "Each Deathmark consumed: 1 Insight stack (Technique DMG +5%, up to 10; at 10: Ultimate Crit DMG +300%)",
+        "Ultimate Crit hit: extra Sting 1500% ATK",
+        "After Ultimate hits: target takes +20% damage for 30 seconds"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "The Spiritual Pressure and Deathmark Soi Fon gains from technique, counter, Special Attack - Back Strike, and Special Attack - Windmill are increased by an extra 50%",
+        "Each time Soi Fon is switched in, she gains 1 stack of Conviction, with each stack increasing her Crit Rate by 10% for 25 seconds, stacking up to 3 times",
+        "Increases the damage dealt by Sting by 25%"
+      ],
+      "ascend5": [
+        "SP and Deathmark from technique/counter/Back Strike/Windmill +50%",
+        "Each switch-in: 1 Conviction stack (Crit Rate +20% for 15 seconds, stacking up to 3 times)",
+        "Increases the damage dealt by Sting by 50%"
+      ]
+    }
+  },
+  "tier": "S"
+}

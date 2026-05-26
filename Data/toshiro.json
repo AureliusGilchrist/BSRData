@@ -1,0 +1,244 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/T%C5%8Dshir%C5%8D_Hitsugaya",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "affiliation": "Shinigami",
+  "art": "/Images/toshiro/art.png",
+  "bestStamp": {
+    "setName": "Hyorinmaru (4) + Spirit (2)",
+    "mainStats": "1: Spirit DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+    "notes": "S+ DPS — the spirit-team carry. Push Crit Rate to 70% then dump into Crit DMG."
+  },
+  "bondPriority": [
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    },
+    {
+      "description": "Increase Crit DMG during battle by 30%.",
+      "name": "Crit DMG Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "When entering Bankai state, immediately gains 3 Ice Blossoms. All damage dealt by Toshiro increases by 25%.",
+      "icon": "/Images/toshiro/boundary-1.png",
+      "level": 1,
+      "name": "In the Name of Snow"
+    },
+    {
+      "description": "Increases Critical Rate by 20% for 8 seconds after releasing a technique or counterattack. Stacks up to 2 times.",
+      "icon": "/Images/toshiro/boundary-2.png",
+      "level": 2,
+      "name": "Dive"
+    },
+    {
+      "description": "Increases Level of Basic Attack, Technique, Ultimate and Counterattack by 2.",
+      "icon": "/Images/toshiro/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Increases all technique damage by 150%.",
+      "icon": "/Images/toshiro/boundary-4.png",
+      "level": 4,
+      "name": "Talent"
+    },
+    {
+      "description": "Increases Level of Basic Attack, Technique, Ultimate and Counterattack by 2.",
+      "icon": "/Images/toshiro/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "Instantly fills Spiritual Pressure to maximum at the start of battle. The Ultimate Hyoten Hyakkaso gains extra Critical DMG equal to current Build Up stacks x40%. Each Build Up stack consumed increases basic attack damage by 60% for 8 seconds.",
+      "icon": "/Images/toshiro/boundary-6.png",
+      "level": 6,
+      "name": "Throne of Frost"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Endgame",
+      "passiveSkills": [
+        "Basic Attack DMG +30%",
+        "Increase Ultimate DMG +22.5%"
+      ],
+      "range": "B2W5C5 - B6W5C5",
+      "setName": "World Conquest",
+      "setPieces": [
+        {
+          "mainStat": "Spirit DMG Bonus \u003e Atk%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG \u003e Crit Rate",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk% \u003e Ult Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+      "targets": {
+        "ultChargeRate": "114%+"
+      }
+    },
+    {
+      "label": "Early",
+      "passiveSkills": [
+        "Basic Attack DMG +30%",
+        "Increase Ultimate DMG +22.5%"
+      ],
+      "range": "B0W1C1 - B1W5C5",
+      "setName": "World Conquest",
+      "setPieces": [
+        {
+          "mainStat": "Spirit DMG Bonus \u003e Atk%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk% \u003e Ult Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e Atk% \u003e Atk",
+      "targets": {
+        "ultChargeRate": "114%+"
+      }
+    }
+  ],
+  "color": "Blue",
+  "corePassives": [
+    {
+      "description": "Toshiro charges up when releasing his basic attacks, Ice Dragon Lunge and Daiguren - Flock of Ice Pillars, his Technique, Daiguren - Hyoryu Senbi, and his Counterattack, Ryuusenka. Charging to a certain level generates 1 Ice Blossom, up to a maximum of 8. The number of Ice Blossoms is displayed in cross-shaped ice crystals to the left of HP. When Toshiro releases his Ultimate Hyoten Hyakkaso, all Ice Blossoms are consumed to deal 6% additional DMG for each one consumed.",
+      "icon": "/Images/toshiro/passive-1.png",
+      "name": "Ice Blossom"
+    },
+    {
+      "description": "When releasing a basic attack while moving in Bankai state, Toshiro gains 1 stack of Build Up, up to 5 stacks. When Toshiro releases his Ultimate Hyoten Hyakkaso, all stacks of Build Up are consumed to deal 5% additional Spirit DMG for each stack consumed. If 5 stacks of Build Up are consumed, Toshiro's Spiritual Pressure is instantly filled to maximum at the end of Bankai state.",
+      "icon": "/Images/toshiro/passive-2.png",
+      "name": "Build Up"
+    },
+    {
+      "description": "When Toshiro enters Bankai State, each Ice Blossom grants 5% Ultimate Energy. if Toshiro releases Ultimate, Hyoten Hyakkaso, within 20 seconds, raises the Ultimate's damage by 40%.",
+      "icon": "/Images/toshiro/passive-3.png",
+      "name": "All Water is My Weapon"
+    },
+    {
+      "description": "For each 1% Critical Rate Toshiro has, his basic attack, Ice Dragon Lunge, deals 1.5% more damage, up to 90%.",
+      "icon": "/Images/toshiro/passive-4.png",
+      "name": "The Sky is at My Disposal"
+    }
+  ],
+  "damageType": "Spirit",
+  "limited": "Limited",
+  "name": "Toshiro Hitsugaya",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 2,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "5 Dec 2025",
+  "role": "Full Assault/DPS",
+  "rotations": [
+    {
+      "name": "Frost Burst",
+      "notes": "Toshiro wants frost stacks applied before burst — Technique first, then dump.",
+      "steps": [
+        "Aizen / Momo open with buffs",
+        "Swap Toshiro in",
+        "Technique (Sennen Hyoro – frost stacks)",
+        "Basic ×3 to detonate frost",
+        "Ultimate (Bankai – Daiguren Hyorinmaru)",
+        "Battlefield Skill (ice dragon)"
+      ],
+      "tags": [
+        "Burst",
+        "Boss"
+      ]
+    },
+    {
+      "name": "Sustained Frost",
+      "steps": [
+        "Basic combo → counter",
+        "Refresh Technique on cooldown",
+        "Battlefield Skill on every charge"
+      ],
+      "tags": [
+        "Sustain"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "Toshiro wields Hyorinmaru to strike 5 times, dealing damage equal to 215%~537.5% of ATK and accumulating Spiritual Pressure. Ice Dragon Lunge: Toshiro condenses water vapor into an ice dragon which hits 5 times, dealing total DMG equal to 568%~1420% of ATK. Each hit landed charges Ice Blossom by the number of successful hits. Dodging or countering does not reset the attack streak. If the attack is Interrupted, Tenso Jyurin will be prematurely removed.",
+      "icon": "/Images/toshiro/skill-1.png",
+      "kind": "Basic Attack",
+      "name": "Frost unto the heavens, Hyorinmaru"
+    },
+    {
+      "description": "Toshiro instantly creates massive ice crystals and fires them forward, dealing damage equal to 105%~262.5% of ATK and accumulating Spiritual Pressure. Enemies hit by the technique are inflicted with 5 Freeze Points. After releasing the technique, creates an area filled with ice pillars ahead. The ice pillars explode in 2.5 seconds, dealing damage equal to 67%~167.5% of ATK to the enemies in the area, inflicting 5 Freeze Points on them, and granting Spiritual Pressure to Toshiro.",
+      "icon": "/Images/toshiro/skill-2.png",
+      "kind": "Technique",
+      "name": "Ice Wall"
+    },
+    {
+      "description": "Toshiro covers his body with ice and enters Bankai state. In this state, Toshiro can fly above the ground and all his moves will be replaced by more powerful ones.",
+      "icon": "/Images/toshiro/skill-3.png",
+      "kind": "Ultimate",
+      "name": "Bankai - Daiguren Hyorinmaru"
+    },
+    {
+      "description": "",
+      "icon": "/Images/toshiro/skill-counter.png",
+      "kind": "counter",
+      "name": ""
+    }
+  ],
+  "slug": "toshiro",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/toshiro",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "Increases the cap of Ice Blossoms to 12, with each Ice Blossom increasing the DMG and Crit DMG of the Ultimate Hyoten Hyakkaso by 2% and 5%. Releasing Hyoten Hyakkaso with 12 Ice Blossoms grants an extra damage bonus by 20% of Ultimate Mastery",
+        "Basic attacks deal 20% more DMG to targets affected by Freeze Points, and hitting targets charges Ice Blossom"
+      ],
+      "ascend5": [
+        "Ice Blossom cap to 12; each +6% DMG and +15% Crit DMG. At 12: extra bonus = 50% of Ultimate Mastery",
+        "Basic attacks deal 80% more DMG to frozen targets, and hitting targets charges Ice Blossom"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "Crit Rate increases by 30%",
+        "During Tenso Jyurin, basic attack damage is increased by 50%, damage taken is reduced by 25% while using basic attacks, and they cannot be interrupted"
+      ],
+      "ascend5": [
+        "Crit Rate increases by 60%",
+        "During Tenso Jyurin, basic attack damage is increased by 100%, damage taken is reduced by 50% while using basic attacks, and they cannot be interrupted"
+      ]
+    }
+  },
+  "stats": {
+    "atk": "335",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "327",
+    "hp": "1623"
+  },
+  "tier": "S",
+  "weaponStats": {
+    "atk": "201",
+    "def": "119",
+    "hp": "581"
+  },
+  "wikiSource": "https://bleachsoulresonance.wiki.gg/wiki/Toshiro_Hitsugaya"
+}

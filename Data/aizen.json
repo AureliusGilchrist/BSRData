@@ -1,0 +1,227 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/S%C5%8Dsuke_Aizen",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "affiliation": "Shinigami",
+  "art": "/Images/aizen/art.png",
+  "bestStamp": {
+    "setName": "Immeasurable Gap (4) + Spirit DMG (2)",
+    "mainStats": "1: Spirit DMG Bonus \u003e Atk%  •  2: Crit Rate \u003e Crit DMG  •  3: Atk% \u003e Ult Charge Rate",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+    "notes": "Aim for ~119% Ult Charge Rate to align Kyokasuigetsu windows with team buffs. Crit DMG scales hardest because of the B6 Crit→CritDMG conversion."
+  },
+  "bondPriority": [
+    {
+      "description": "Increases all damage by 10% during battle. When equipped by a Tactic character, increases an extra 25% Battlefield Skill DMG.",
+      "name": "Aizen Bond"
+    },
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "Enters Complete Suppression upon entering the battle. When Aizen releases a backline Battlefield Skill while under Complete Suppression, he gains 50% Battlefield Skill Energy.",
+      "icon": "/Images/aizen/boundary-1.png",
+      "level": 1,
+      "name": "Perception of Power"
+    },
+    {
+      "description": "All characters in the team deal 20% more Spirit DMG.",
+      "icon": "/Images/aizen/boundary-2.png",
+      "level": 2,
+      "name": "As Expected"
+    },
+    {
+      "description": "Increases Level of Basic Attack, Technique, Ultimate, Counterattack, and Battlefield Skill by 2.",
+      "icon": "/Images/aizen/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Aizen's basic attacks, techniques, and counterattacks ignore 50% of the enemy's DEF. Each stack of Ravage applied on the enemy further increases 5% of DEF ignored. When Aizen is switched in through a backline Battlefield Skill, he can release a counterattack. This effect lasts until Aizen is switched to the backline again. Cooldown: 20 second(s). Increases the cap of Ravage to 3 stacks.",
+      "icon": "/Images/aizen/boundary-4.png",
+      "level": 4,
+      "name": "Don't Let Me Down"
+    },
+    {
+      "description": "Increases Level of Basic Attack, Technique, Ultimate, Counterattack and Battlefield Skill by 2.",
+      "icon": "/Images/aizen/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "Upon releasing a Battlefield Skill, the current Crit Rate is multiplied by 2. Any excess Crit Rate converts into Crit DMG for that attack at a 1:1 ratio.",
+      "icon": "/Images/aizen/boundary-6.png",
+      "level": 6,
+      "name": "Under Control"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "All DMG Dealt/Bonus +9%",
+        "Increase Battlefield Skill DMG +22.5%"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Immeasurable Gap",
+      "setPieces": [
+        {
+          "mainStat": "Spirit DMG Bonus \u003e Atk%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate \u003e Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk% \u003e Ult Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+      "targets": {
+        "ultChargeRate": "~119%"
+      }
+    }
+  ],
+  "color": "Blue",
+  "corePassives": [
+    {
+      "description": "Aizen accumulates Pressure Stacks through various attacks. Upon reaching 3 Pressure Stacks, releasing any Battlefield Skill, or landing the last strike of the basic attack will activate Spiritual Pressure Intimidation for 10 seconds. While Spiritual Pressure Intimidation is active, any Pressure Stacks gained are converted into Enhanced Pressure Stacks. When Aizen is releasing the Battlefield Skill Hado 90: Kurohitsugi, every successful hit consumes 1 Enhanced Pressure Stack. If 3 points are consumed at once, then for the next 8 seconds, switching to another teammate will auto-trigger that teammate's counterattack, with its damage and Spiritual Pressure Reduction Rate reduced by 50%. Additionally, for every 1 Enhanced Pressure Stack consumed, the team gains 1 stack of Illusion Shield for 8 seconds, up to 3 stacks.",
+      "icon": "/Images/aizen/passive-1.png",
+      "name": "Battle of Spiritual Pressure"
+    },
+    {
+      "description": "While releasing the Battlefield Skill Hado 90: Kurohitsugi, each Enhanced Pressure Stack consumed inflicts 1 extra stack of Ravage to the target, up to 6 extra stacks. The effect of Ravage is increased to 2.25%.",
+      "icon": "/Images/aizen/passive-2.png",
+      "name": "Tainted Form"
+    },
+    {
+      "description": "When Aizen releases a backline Battlefield Skill while under Complete Suppression, the damage of the next Hado 90: Kurohitsugi is increased by 37.5%.",
+      "icon": "/Images/aizen/passive-3.png",
+      "name": "Dustwring"
+    },
+    {
+      "description": "During Kyokasuigetsu, the entire team gains an extra 11.25% ATK.",
+      "icon": "/Images/aizen/passive-4.png",
+      "name": "False Perception"
+    }
+  ],
+  "damageType": "Spirit",
+  "limited": "Limited",
+  "name": "Sosuke Aizen",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 2,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "19 Dec 2025",
+  "role": "Tactician",
+  "rotations": [
+    {
+      "name": "Opener (Kyokasuigetsu Burst)",
+      "notes": "Open with the support so Aizen enters with Suppression already filling. Save Ultimate until enemy is locked, then dump Hado 90.",
+      "steps": [
+        "Swap support in to apply buffs",
+        "Aizen on-field: Technique (Fated Demise) → Basic Attack (Hado 63: Raikoho branch)",
+        "Build to 3 Pressure Stacks → Ultimate (Shatter, Kyokasuigetsu)",
+        "During Kyokasuigetsu: Battlefield Skill (Hado 90: Kurohitsugi)",
+        "Spam Exposed Weakspot basics for stack consumption"
+      ],
+      "tags": [
+        "Burst",
+        "Boss"
+      ]
+    },
+    {
+      "name": "Sustained / Off-field",
+      "notes": "B4 lets him counter on swap-in — perfect for stall fights. Each backline BFS while Complete Suppression buffs the next Hado 90 by 37.5% (Dustwring).",
+      "steps": [
+        "Backline while ally builds Suppression Gauge",
+        "Swap-in counter (B4) for free counterattack",
+        "Backline Battlefield Skill at Complete Suppression",
+        "Return to backline, repeat"
+      ],
+      "tags": [
+        "Sustain",
+        "PvP"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "Aizen wields his Zanpakuto to strike 5 times, dealing damage equal to 301%~???% of ATK to the enemy ahead. If the last strike lands while having 3 Pressure Stacks, Aizen enters Spiritual Pressure Intimidation; otherwise, he gains 1 Pressure Stack instead. Releasing dodge and counter in between basic attacks will not interrupt the current basic attack sequence. Exposed Weakspot (Kyokasuigetsu Basic Attack): Aizen wields his Zanpakuto to strike 5 times while releasing Kido, dealing damage equal to 1145%~???% of ATK to the enemy ahead and gaining 1 Pressure Stack for landing each of the first three strikes. The last two strikes trigger Hado 90: Kurohitsugi, counted as a Battlefield Skill. Releasing dodge and counter in between basic attacks will not interrupt the current basic attack sequence. After Hado 90: Kurohitsugi is triggered, basic attacks switch from Exposed Weakspot to Slash.",
+      "icon": "/Images/aizen/skill-1.png",
+      "kind": "Basic Attack",
+      "name": "Slash"
+    },
+    {
+      "description": "Aizen steps back and releases a Sword Pressure, dealing damage equal to 258%~???% of ATK and gaining 1 Pressure Stack. Within 6 seconds after releasing this skill, the technique and Basic Attack buttons become active, and tapping them can trigger the second phase of the technique, Unavoidable, or the Special Attack, Hado 63: Raikoho. If Fated Demise is released at the moment the enemy strikes, the damage of both Unavoidable and Hado 63: Raikoho is increased by 25%~???%. Unavoidable: (After Releasing the Technique \"Fated Demise\", tap Technique) Aizen instantly dashes through the enemy in front of him, dealing damage equal to 257%~???% of ATK and gaining 1 Pressure Stack. Using this skill allows your next Basic Attack to skip directly to the third phase. Hado 63: Raikoho: (After Releasing the Technique \"Fated Demise\", tap Basic Attack) Aizen unleashes Hado 63: Raikoho toward the front, pulling enemies slightly together and dealing damage equal to 258%~???% of ATK and gaining 1 Pressure Stack. Using this skill allows your next Basic Attack to skip directly to the third phase.",
+      "icon": "/Images/aizen/skill-2.png",
+      "kind": "Technique",
+      "name": "Fated Demise"
+    },
+    {
+      "description": "Aizen ascends his Zanpakuto, dealing damage equal to 433%~???% of ATK and activating Kyokasuigetsu for 18 seconds. During Kyokasuigetsu, Aizen stays in Spiritual Pressure Intimidation the whole time and can release an enhanced basic attack combo that includes Hado 90: Kurohitsugi. While Kyokasuigetsu is active, Aizen can release one enhanced Battlefield Skill, I Will Stand Atop the Heavens, and the damage boost from Complete Suppression applied to this Battlefield Skill is increased by 4 times.",
+      "icon": "/Images/aizen/skill-3.png",
+      "kind": "Ultimate",
+      "name": "Shatter, Kyokasuigetsu"
+    },
+    {
+      "description": "",
+      "icon": "/Images/aizen/skill-counter.png",
+      "kind": "counter",
+      "name": ""
+    }
+  ],
+  "slug": "aizen",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/aizen",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "On Ultimate: on-field character gains 1 Illusion stack per hit (Spirit DMG +0.5% each, up to 10, until Kyokasuigetsu ends)",
+        "Passive counterattack trigger: new character inherits Illusion stacks, cap ×2 up to 40; at max: Crit DMG +25%",
+        "Under Spiritual Domination: Aizen Basic Attacks/Techniques/Counters deal 300% more damage"
+      ],
+      "ascend5": [
+        "Illusion stacks: Spirit DMG +1% each (up to 10)",
+        "Inherited cap up to 40; at max: Crit DMG +50%",
+        "Under Spiritual Domination: +500% damage"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "Crit Rate +25%",
+        "Counter damage from Battle of Spiritual Pressure passive +12.5%",
+        "Enhanced Pressure Stack cap to 6; consuming all 6 triggers extra switch counterattack",
+        "Each Ravage stack reduces enemy Spirit Resistance by extra 1%",
+        "Releasing any Battlefield Skill grants 3 Pressure Stacks"
+      ],
+      "ascend5": [
+        "Crit Rate +50%",
+        "Counter damage from passive +25%",
+        "Enhanced Pressure Stack cap to 6; all 6 consumed = extra switch counterattack",
+        "Each Ravage stack reduces Spirit Resistance by extra 2%",
+        "Releasing any Battlefield Skill grants 3 Pressure Stacks"
+      ]
+    }
+  },
+  "stats": {
+    "atk": "335",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "325",
+    "hp": "1628"
+  },
+  "tier": "S",
+  "weaponStats": {
+    "atk": "201",
+    "def": "118",
+    "hp": "583"
+  },
+  "wikiSource": "https://bleachsoulresonance.wiki.gg/wiki/Sosuke_Aizen"
+}

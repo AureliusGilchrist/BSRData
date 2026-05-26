@@ -1,0 +1,145 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Abarai_Renji",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/renji/art.png",
+  "bestStamp": {
+    "setName": "Zabimaru (4) + Slash (2)",
+    "mainStats": "1: Slash DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk",
+    "notes": "B-tier Assault — solid until Bankai/Bansho form drops."
+  },
+  "bondPriority": [],
+  "boundaries": [
+    {
+      "icon": "/Images/renji/boundary-1.png",
+      "level": 1
+    },
+    {
+      "icon": "/Images/renji/boundary-2.png",
+      "level": 2
+    },
+    {
+      "icon": "/Images/renji/boundary-3.png",
+      "level": 3
+    },
+    {
+      "icon": "/Images/renji/boundary-4.png",
+      "level": 4
+    },
+    {
+      "icon": "/Images/renji/boundary-5.png",
+      "level": 5
+    },
+    {
+      "icon": "/Images/renji/boundary-6.png",
+      "level": 6
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B5W5C5",
+      "setName": "Zabimaru (4) + Slash (2)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk"
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "",
+      "icon": "/Images/renji/passive-1.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/renji/passive-2.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/renji/passive-3.png",
+      "name": ""
+    }
+  ],
+  "damageType": "Slash",
+  "name": "Renji Abarai",
+  "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
+  "rarity": "SR",
+  "recommendedStopBoundary": 5,
+  "recommendedStopBoundaryF2P": 5,
+  "recommendedStopBoundaryP2W": 5,
+  "releaseDate": "21 Nov 2025",
+  "role": "Assault",
+  "rotations": [
+    {
+      "name": "Whip Combo",
+      "steps": [
+        "Basic ×3",
+        "Technique (whip extension)",
+        "Ultimate",
+        "Counter"
+      ],
+      "tags": [
+        "Sustain"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/renji/skill-basic.png",
+      "kind": "basic",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/renji/skill-technique.png",
+      "kind": "technique",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/renji/skill-ultimate.png",
+      "kind": "ultimate",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/renji/skill-counter.png",
+      "kind": "counter",
+      "name": ""
+    }
+  ],
+  "slug": "renji",
+  "source": null,
+  "stamps": {
+    "core": {
+      "ascend1": [],
+      "ascend5": []
+    },
+    "weapon": {
+      "ascend1": [],
+      "ascend5": []
+    }
+  },
+  "tier": "D"
+}

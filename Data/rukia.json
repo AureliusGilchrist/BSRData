@@ -1,0 +1,169 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Kuchiki_Rukia_%28Shikai%29",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/rukia/art.png",
+  "bestStamp": {
+    "setName": "Sode no Shirayuki (4) + Spirit (2)",
+    "mainStats": "1: Spirit DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Ult Charge Rate",
+    "notes": "S-tier Tactician — freeze-control opens long burst windows."
+  },
+  "bondPriority": [
+    {
+      "description": "Increases all damage by 10% during battle. When equipped by a Tactic character, increases an extra 25% Battlefield Skill DMG.",
+      "name": "Aizen Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "Increases the Freeze Points inflicted by the Battlefield Skill Icy Sword Wave by an extra 25.",
+      "icon": "/Images/rukia/boundary-1.png",
+      "level": 1,
+      "name": "Butterflies From Hell"
+    },
+    {
+      "description": "Increases DMG dealt by the Battlefield Skill Icy Sword Wave by 30%. Triggering the Battlefield Skill Chill Release's combo attack grants a 66% chance to release a second Ice Spike and a 33% chance to release a third.",
+      "icon": "/Images/rukia/boundary-2.png",
+      "level": 2,
+      "name": "Rain of Repentance"
+    },
+    {
+      "icon": "/Images/rukia/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Increases Rukia's Spirit DMG by 20%.",
+      "icon": "/Images/rukia/boundary-4.png",
+      "level": 4,
+      "name": "Noble Ascension"
+    },
+    {
+      "icon": "/Images/rukia/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "Releases the Battlefield Skill Chill Release when the battle begins. When an enemy triggers Breaking Ice or is within range of the Battlefield Skill Chill Release, their Spirit Resistance is reduced by 15% for 20s.",
+      "icon": "/Images/rukia/boundary-6.png",
+      "level": 6,
+      "name": "Snow of Dance"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "Option 1: All DMG dealt/bonus +9%, Battlefield Skill DMG +22.5%",
+        "Option 2: Invigorate, Restrain"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Blooming Sakura",
+      "setPieces": [
+        {
+          "mainStat": "Spirit DMG Bonus OR Any other",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate OR any other",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ult Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG OR Crit Rate OR Atk% OR ATK OR Any other",
+      "targets": {
+        "ultChargeRate": "More = Better"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "Some of Rukia's attacks inflict Freeze Points. When an enemy reaches 100 Freeze Points, they become Frozen, unable to move or attack for 2s.",
+      "icon": "/Images/rukia/passive-1.png",
+      "name": "Freeze"
+    },
+    {
+      "description": "Triggering Breaking Ice reduces All-Type Resistance of the enemy by 20% for 20s. Unstackable.",
+      "icon": "/Images/rukia/passive-2.png",
+      "name": "Necrosis"
+    },
+    {
+      "description": "While the Chill Release Battlefield Skill is active, reduces the damage the on-field character takes by 30% and restores their HP by 4% of their own Max HP every second.",
+      "icon": "/Images/rukia/passive-3.png",
+      "name": "Solid Ice"
+    }
+  ],
+  "damageType": "Spirit",
+  "name": "Rukia Kuchiki",
+  "rarity": "SR",
+  "recommendedStopBoundary": 5,
+  "recommendedStopBoundaryF2P": 5,
+  "recommendedStopBoundaryP2W": 5,
+  "releaseDate": "21 Nov 2025",
+  "role": "Tactician",
+  "rotations": [
+    {
+      "name": "Freeze Burst",
+      "notes": "Hold burst until enemy is frozen — damage on frozen targets is amplified.",
+      "steps": [
+        "Open: Technique (Some no Mai)",
+        "Basic ×3 (frost stacks)",
+        "Ultimate (Tsugi no Mai – Hakuren)",
+        "Battlefield Skill on frozen target"
+      ],
+      "tags": [
+        "Burst",
+        "Boss"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/rukia/skill-technique.png",
+      "kind": "Technique",
+      "name": "Tsuginomai Hakuren",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/rukia/skill-counter.png",
+      "kind": "Counter",
+      "name": "Counter",
+      "variant": null
+    }
+  ],
+  "slug": "rukia",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/rukia",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "Increases Ultimate DMG by 60%",
+        "Extends duration of Freeze applied by the Ultimate by 4s"
+      ],
+      "ascend5": [
+        "Increases Ultimate DMG by 200%",
+        "Extends duration of Freeze applied by the Ultimate by 4s"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "Triggering Breaking Ice launches 4 extra ice spikes at the enemy, dealing total DMG equal to 8% of Rukia's ATK",
+        "Increases Breaking Ice DMG by 15%",
+        "Increases DMG from the Battlefield Skill Chill Release by 30% and Rukia's Ice Spike combo attack DMG by 20% while the realm is active"
+      ],
+      "ascend5": [
+        "Triggering Breaking Ice launches 4 extra ice spikes dealing total DMG equal to 16% of Rukia's ATK",
+        "Breaking Ice DMG +30%",
+        "Chill Release DMG +60%, Ice Spike combo attack DMG +40% while realm is active"
+      ]
+    }
+  },
+  "tier": "C"
+}

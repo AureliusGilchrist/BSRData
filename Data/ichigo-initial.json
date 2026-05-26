@@ -1,0 +1,166 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Kurosaki_Ichigo",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/ichigo-initial/art.png",
+  "bestStamp": {
+    "setName": "Substitute Shinigami (4) + Slash (2)",
+    "mainStats": "1: Slash DMG Bonus  •  2: Crit Rate  •  3: Atk%",
+    "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk",
+    "notes": "Starter character — useful early, replace with Shikai/Bankai once available."
+  },
+  "bondPriority": [],
+  "boundaries": [
+    {
+      "icon": "/Images/ichigo-initial/boundary-1.png",
+      "level": 1
+    },
+    {
+      "icon": "/Images/ichigo-initial/boundary-2.png",
+      "level": 2
+    },
+    {
+      "icon": "/Images/ichigo-initial/boundary-3.png",
+      "level": 3
+    },
+    {
+      "icon": "/Images/ichigo-initial/boundary-4.png",
+      "level": 4
+    },
+    {
+      "icon": "/Images/ichigo-initial/boundary-5.png",
+      "level": 5
+    },
+    {
+      "icon": "/Images/ichigo-initial/boundary-6.png",
+      "level": 6
+    }
+  ],
+  "builds": [
+    {
+      "label": "P2W (value ceiling)",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B5W5C5",
+      "setName": "Substitute Shinigami (4) + Slash (2)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk"
+    },
+    {
+      "label": "F2P (practical stop)",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Substitute Shinigami (4) + Slash (2)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk"
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "",
+      "icon": "/Images/ichigo-initial/passive-1.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-initial/passive-2.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-initial/passive-3.png",
+      "name": ""
+    }
+  ],
+  "damageType": "Slash",
+  "name": "Ichigo Kurosaki (Initial)",
+  "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
+  "rarity": "SR",
+  "recommendedStopBoundary": 5,
+  "recommendedStopBoundaryF2P": 6,
+  "recommendedStopBoundaryP2W": 5,
+  "releaseDate": "21 Nov 2025",
+  "role": "Assault",
+  "rotations": [
+    {
+      "name": "Basic Combo",
+      "steps": [
+        "Basic ×3",
+        "Technique",
+        "Ultimate",
+        "Counter"
+      ],
+      "tags": [
+        "Sustain"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/ichigo-initial/skill-basic.png",
+      "kind": "basic",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-initial/skill-technique.png",
+      "kind": "technique",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-initial/skill-ultimate.png",
+      "kind": "ultimate",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-initial/skill-counter.png",
+      "kind": "counter",
+      "name": ""
+    }
+  ],
+  "slug": "ichigo-initial",
+  "source": null,
+  "stamps": {
+    "core": {
+      "ascend1": [],
+      "ascend5": []
+    },
+    "weapon": {
+      "ascend1": [],
+      "ascend5": []
+    }
+  },
+  "tier": "D"
+}

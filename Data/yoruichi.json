@@ -1,0 +1,192 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Yoruichi_Shih%C5%8Din",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/yoruichi/art.png",
+  "bestStamp": {
+    "setName": "Shunko (4) + Strike (2)",
+    "mainStats": "1: Strike DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Ult Charge Rate",
+    "notes": "S-tier Assault — high mobility, Shunko stance multiplies damage."
+  },
+  "bondPriority": [
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "Yoruichi gains 20% Spiritual Pressure whenever she dodges an attack.",
+      "icon": "/Images/yoruichi/boundary-1.png",
+      "level": 1,
+      "name": "Hidden in Night"
+    },
+    {
+      "description": "Increases the Lightning Seal stack limit to 8.",
+      "icon": "/Images/yoruichi/boundary-2.png",
+      "level": 2,
+      "name": "Tenshiheiso"
+    },
+    {
+      "icon": "/Images/yoruichi/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Increases DMG dealt by the special attack Hakuda - Stomping Strike by 100%.",
+      "icon": "/Images/yoruichi/boundary-4.png",
+      "level": 4,
+      "name": "Disguise"
+    },
+    {
+      "icon": "/Images/yoruichi/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "Reduces Yoruichi's Perfect Dodge cooldown to 8s. Every Perfect Dodge increases Crit DMG by 30% for 15s, stacking up to 3 times.",
+      "icon": "/Images/yoruichi/boundary-6.png",
+      "level": 6,
+      "name": "Pose of Flash Goddess"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "All DMG Dealt/Bonus +9%",
+        "Increase Ultimate DMG +22.5%",
+        "Special Attack 22.5%"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Midnight Specter",
+      "setPieces": [
+        {
+          "mainStat": "Strike DMG Bonus \u003e Atk%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate \u003e Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk% \u003e Ultimate Charge",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Atk",
+      "targets": {
+        "ultChargeRate": "~124%"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "After Yoruichi successfully dodges an enemy attack, tap the basic attack button to release the dodge attack Hakuda - Stomping Strike and gain 20% Spiritual Pressure. This counts as a special attack. After releasing Hakuda Stomping Strike, tap the basic attack button again to instantly perform the 5th strike of her basic attack.",
+      "icon": "/Images/yoruichi/passive-1.png",
+      "name": "Lightning Flash"
+    },
+    {
+      "description": "Yoruichi gains 1 stack of Lightning Seal for 15 seconds each time she releases a technique, counterattack, or special attack. Stacks up to 4 times. Lightning Seal: Increases Yoruichi's Strike DMG by 10%.",
+      "icon": "/Images/yoruichi/passive-2.png",
+      "name": "Thunderclap"
+    },
+    {
+      "description": "By dodging into an enemy, Yoruichi can trigger Perfect Dodge and increase the damage of her next special attack, Hakuda Blitz, by 200%.",
+      "icon": "/Images/yoruichi/passive-3.png",
+      "name": "Shadow Step"
+    },
+    {
+      "description": "While in the Shunko form, Yoruichi gains an extra 30% increase in ATK.",
+      "icon": "/Images/yoruichi/passive-4.png",
+      "name": "Swift Lightning"
+    }
+  ],
+  "damageType": "Strike",
+  "name": "Yoruichi Shihoin",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "21 Nov 2025",
+  "role": "Assault",
+  "rotations": [
+    {
+      "name": "Shunko Burst",
+      "notes": "Burst window is short — pre-buff with Urahara before opening.",
+      "steps": [
+        "Technique (Shunko on)",
+        "Basic ×3 (rapid strikes)",
+        "Ultimate",
+        "Battlefield Skill",
+        "Counter on incoming"
+      ],
+      "tags": [
+        "Burst",
+        "Boss"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/yoruichi/skill-basic.png",
+      "kind": "Basic Attack",
+      "name": "Hakuda: Combo",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/yoruichi/skill-technique.png",
+      "kind": "Technique",
+      "name": "Anken, Dark Sword",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/yoruichi/skill-ultimate.png",
+      "kind": "Ultimate",
+      "name": "Shunko State",
+      "variant": "State"
+    },
+    {
+      "description": "",
+      "icon": "/Images/yoruichi/skill-counter.png",
+      "kind": "Counter",
+      "name": "Counter",
+      "variant": null
+    }
+  ],
+  "slug": "yoruichi",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/yoruichi",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "Upon entering battle, immediately gain full Ultimate Energy",
+        "Increases duration of Shunko by 5s. Increases Spiritual Pressure Charge Rate of Shunko by an extra 40%. Increases Ultimate DMG by 200%"
+      ],
+      "ascend5": [
+        "Upon entering battle, immediately gain full Ultimate Energy",
+        "Shunko duration +5s, Spiritual Pressure Charge Rate +40%, Ultimate DMG +400%"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "Using counterattack instantly maxes out your Spiritual Pressure. After each Ultimate, you can actively release a counterattack once",
+        "When Shunko is active, you gain half of the max stacks of Lightning Seal instantly",
+        "Each stack of Lightning Seal increases Yoruichi's Crit Rate by an extra 5%, up to 20%",
+        "Increases the DMG of the special attack Hakuda - Blitz by 60%"
+      ],
+      "ascend5": [
+        "Counterattack instantly maxes Spiritual Pressure. After each Ultimate, can actively release counterattack once",
+        "When Shunko activates: gain half max Lightning Seal stacks",
+        "Each Lightning Seal stack: Crit Rate +12%, up to 48%",
+        "Hakuda Blitz DMG +100%"
+      ]
+    }
+  },
+  "tier": "B"
+}

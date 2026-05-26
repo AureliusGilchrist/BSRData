@@ -1,0 +1,167 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Inoue_Orihime",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/orihime/art.png",
+  "bestStamp": {
+    "setName": "Shun Shun Rikka (4) + Atk (2)",
+    "mainStats": "1: Atk%  •  2: Crit Rate  •  3: HP% \u003e Ult Charge Rate",
+    "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e HP% \u003e Crit DMG",
+    "notes": "Healer / shield Support — Ult Charge keeps shields permanent."
+  },
+  "bondPriority": [],
+  "boundaries": [
+    {
+      "icon": "/Images/orihime/boundary-1.png",
+      "level": 1
+    },
+    {
+      "icon": "/Images/orihime/boundary-2.png",
+      "level": 2
+    },
+    {
+      "icon": "/Images/orihime/boundary-3.png",
+      "level": 3
+    },
+    {
+      "icon": "/Images/orihime/boundary-4.png",
+      "level": 4
+    },
+    {
+      "icon": "/Images/orihime/boundary-5.png",
+      "level": 5
+    },
+    {
+      "icon": "/Images/orihime/boundary-6.png",
+      "level": 6
+    }
+  ],
+  "builds": [
+    {
+      "label": "P2W (value ceiling)",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Shun Shun Rikka (4) + Atk (2)",
+      "setPieces": [
+        {
+          "mainStat": "Atk%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate",
+          "slot": 2
+        },
+        {
+          "mainStat": "HP% \u003e Ult Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e HP% \u003e Crit DMG"
+    },
+    {
+      "label": "F2P (practical stop)",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B5W5C5",
+      "setName": "Shun Shun Rikka (4) + Atk (2)",
+      "setPieces": [
+        {
+          "mainStat": "Atk%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate",
+          "slot": 2
+        },
+        {
+          "mainStat": "HP% \u003e Ult Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e HP% \u003e Crit DMG"
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "",
+      "icon": "/Images/orihime/passive-1.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/orihime/passive-2.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/orihime/passive-3.png",
+      "name": ""
+    }
+  ],
+  "damageType": "Spirit",
+  "name": "Orihime Inoue",
+  "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
+  "rarity": "SR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 5,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "21 Nov 2025",
+  "role": "Support",
+  "rotations": [
+    {
+      "name": "Shield Loop",
+      "steps": [
+        "Ultimate (Santen Kesshun shield)",
+        "Technique (heal)",
+        "Swap to DPS",
+        "Return on shield cooldown"
+      ],
+      "tags": [
+        "Sustain",
+        "PvP"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/orihime/skill-basic.png",
+      "kind": "basic",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/orihime/skill-technique.png",
+      "kind": "technique",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/orihime/skill-ultimate.png",
+      "kind": "ultimate",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/orihime/skill-counter.png",
+      "kind": "counter",
+      "name": ""
+    }
+  ],
+  "slug": "orihime",
+  "source": null,
+  "stamps": {
+    "core": {
+      "ascend1": [],
+      "ascend5": []
+    },
+    "weapon": {
+      "ascend1": [],
+      "ascend5": []
+    }
+  },
+  "tier": "D"
+}

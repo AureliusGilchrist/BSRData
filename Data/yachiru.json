@@ -1,0 +1,172 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Yachiru_Kusajishi",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/yachiru/art.png",
+  "bestStamp": {
+    "setName": "Sanbe Kawaki (4) + Slash (2)",
+    "mainStats": "1: Slash DMG Bonus  •  2: Atk%  •  3: Ult Charge Rate",
+    "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e Crit DMG \u003e Crit Rate",
+    "notes": "A-tier Support — buffs adjacent assault chars (esp. Kenpachi)."
+  },
+  "bondPriority": [
+    {
+      "description": "During battle, teammates other than yourself gain 40% Crit DMG. Unstackable.",
+      "name": "Mayuri Bond"
+    },
+    {
+      "description": "Increase ATK of all team characters during battle by 6%.",
+      "name": "ATK +6% Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "Yachiru gains 1% Ultimate Energy every second while Spectating.",
+      "icon": "/Images/yachiru/boundary-1.png",
+      "level": 1,
+      "name": "Innocent Smile"
+    },
+    {
+      "description": "Inspiration grants an extra 8% Slash DMG Bonus.",
+      "icon": "/Images/yachiru/boundary-2.png",
+      "level": 2,
+      "name": "Ever With the Blade"
+    },
+    {
+      "icon": "/Images/yachiru/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Yachiru's Ultimate Energy Charge Rate increases by 30%.",
+      "icon": "/Images/yachiru/boundary-4.png",
+      "level": 4,
+      "name": "Bloodstain"
+    },
+    {
+      "icon": "/Images/yachiru/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "When Yachiru is Spectating, the on-field character's ATK increases by an extra 12%.",
+      "icon": "/Images/yachiru/boundary-6.png",
+      "level": 6,
+      "name": "Distant Name"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Hidden Wisdom",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus OR Any other",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate OR any other",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ult Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG OR Crit Rate OR Atk% OR ATK OR Any other",
+      "targets": {
+        "ultChargeRate": "More = Better"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "Spectate: Within 3s after Yachiru releases her technique or successfully counters, switch her to the backline to have her Spectate. On-field characters increase their ATK by 20%, while their basic and special attacks grant Ultimate Energy to Yachiru (once per second). Switching Yachiru back in will stop her from Spectating. Inspiration: When Yachiru's Ultimate Energy reaches 50% or 100%, all her teammates gain Inspiration, increasing their Slash DMG by 10% for 6s. Exclusive Seat: When Kenpachi Zaraki is in the team, the bonuses from Spectate and Inspiration on him are increased by 1.5 times.",
+      "icon": "/Images/yachiru/passive-1.png",
+      "name": "Sideline Cheer"
+    },
+    {
+      "description": "If other characters already have Inspiration when Yachiru releases her Ultimate, its duration resets and Slash DMG increases by 10% for 15s.",
+      "icon": "/Images/yachiru/passive-2.png",
+      "name": "Exhilaration"
+    },
+    {
+      "description": "The duration of Inspiration increases by 4s when granted to deployed Slash characters.",
+      "icon": "/Images/yachiru/passive-3.png",
+      "name": "Absolute Focus"
+    }
+  ],
+  "damageType": "Slash",
+  "name": "Yachiru Kusajishi",
+  "rarity": "SR",
+  "recommendedStopBoundary": 5,
+  "recommendedStopBoundaryF2P": 5,
+  "recommendedStopBoundaryP2W": 5,
+  "releaseDate": "21 Nov 2025",
+  "role": "Support",
+  "rotations": [
+    {
+      "name": "Buff Hop",
+      "notes": "She's basically a Kenpachi battery — pair them.",
+      "steps": [
+        "Technique (buff applied)",
+        "Ultimate",
+        "Swap to Kenpachi"
+      ],
+      "tags": [
+        "Sustain"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/yachiru/skill-technique.png",
+      "kind": "Technique",
+      "name": "Time to Spectate",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/yachiru/skill-ultimate.png",
+      "kind": "Ultimate",
+      "name": "Yachiru is Angry!",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/yachiru/skill-counter.png",
+      "kind": "Counter",
+      "name": "Counter",
+      "variant": null
+    }
+  ],
+  "slug": "yachiru",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/yachiru",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "When Yachiru is Spectating, releasing her Ultimate does not replace the current on-field character. Instead, all characters in the team gain 15% Crit Rate Bonus for 15s"
+      ],
+      "ascend5": [
+        "When Yachiru is Spectating, releasing her Ultimate does not replace the current on-field character. Instead, all characters in the team gain 30% Crit Rate Bonus for 15s"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "When Yachiru is Spectating, reaching 25% or 75% of her Ultimate Energy grants teammates Inspiration, which also provides an extra 10% Crit DMG Bonus"
+      ],
+      "ascend5": [
+        "When Yachiru is Spectating, reaching 25% or 75% of her Ultimate Energy grants teammates Inspiration, which also provides an extra 30% Crit DMG Bonus"
+      ]
+    }
+  },
+  "tier": "B"
+}

@@ -1,0 +1,152 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Kaname_T%C5%8Dsen",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/tosen/art.png",
+  "bestStamp": {
+    "setName": "Suzumushi (4) + Thrust (2)",
+    "mainStats": "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+    "notes": "Stealth Tactician — burst on the silence window."
+  },
+  "bondPriority": [],
+  "boundaries": [
+    {
+      "icon": "/Images/tosen/boundary-1.png",
+      "level": 1
+    },
+    {
+      "icon": "/Images/tosen/boundary-2.png",
+      "level": 2
+    },
+    {
+      "icon": "/Images/tosen/boundary-3.png",
+      "level": 3
+    },
+    {
+      "icon": "/Images/tosen/boundary-4.png",
+      "level": 4
+    },
+    {
+      "icon": "/Images/tosen/boundary-5.png",
+      "level": 5
+    },
+    {
+      "icon": "/Images/tosen/boundary-6.png",
+      "level": 6
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B5W5C5",
+      "setName": "Suzumushi (4) + Thrust (2)",
+      "setPieces": [
+        {
+          "mainStat": "Thrust DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "",
+      "icon": "/Images/tosen/passive-1.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/tosen/passive-2.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/tosen/passive-3.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/tosen/passive-4.png",
+      "name": ""
+    }
+  ],
+  "damageType": "Thrust",
+  "name": "Kaname Tosen",
+  "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 5,
+  "recommendedStopBoundaryF2P": 0,
+  "recommendedStopBoundaryP2W": 5,
+  "releaseDate": "21 Nov 2025",
+  "role": "Tactician",
+  "rotations": [
+    {
+      "name": "Suzumushi Setup",
+      "notes": "His silence prevents enemy counters — burst your whole team inside it.",
+      "steps": [
+        "Technique (silence / stealth)",
+        "Basic ×3",
+        "Ultimate (Bankai)",
+        "Battlefield Skill"
+      ],
+      "tags": [
+        "Burst",
+        "PvP"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/tosen/skill-basic.png",
+      "kind": "basic",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/tosen/skill-technique.png",
+      "kind": "technique",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/tosen/skill-ultimate.png",
+      "kind": "ultimate",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/tosen/skill-counter.png",
+      "kind": "counter",
+      "name": ""
+    }
+  ],
+  "slug": "tosen",
+  "source": null,
+  "stamps": {
+    "core": {
+      "ascend1": [],
+      "ascend5": []
+    },
+    "weapon": {
+      "ascend1": [],
+      "ascend5": []
+    }
+  },
+  "tier": "A"
+}

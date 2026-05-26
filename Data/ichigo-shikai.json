@@ -1,0 +1,133 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Kurosaki_Ichigo_%28Shikai%29",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/ichigo-shikai/art.png",
+  "bestStamp": {
+    "setName": "Zangetsu (4) + Slash (2)",
+    "mainStats": "1: Slash DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Atk% \u003e Crit Rate \u003e Atk",
+    "notes": "Stepping stone to Bankai form — invest just enough to clear story."
+  },
+  "bondPriority": [],
+  "boundaries": [
+    {
+      "icon": "/Images/ichigo-shikai/boundary-1.png",
+      "level": 1
+    },
+    {
+      "icon": "/Images/ichigo-shikai/boundary-2.png",
+      "level": 2
+    },
+    {
+      "icon": "/Images/ichigo-shikai/boundary-3.png",
+      "level": 3
+    },
+    {
+      "icon": "/Images/ichigo-shikai/boundary-4.png",
+      "level": 4
+    },
+    {
+      "icon": "/Images/ichigo-shikai/boundary-5.png",
+      "level": 5
+    },
+    {
+      "icon": "/Images/ichigo-shikai/boundary-6.png",
+      "level": 6
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B5W5C5",
+      "setName": "Zangetsu (4) + Slash (2)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e Atk% \u003e Crit Rate \u003e Atk"
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "",
+      "icon": "/Images/ichigo-shikai/passive-1.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-shikai/passive-2.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-shikai/passive-3.png",
+      "name": ""
+    }
+  ],
+  "damageType": "Slash",
+  "name": "Ichigo Kurosaki (Shikai)",
+  "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
+  "rarity": "SR",
+  "recommendedStopBoundary": 5,
+  "recommendedStopBoundaryF2P": 5,
+  "recommendedStopBoundaryP2W": 5,
+  "releaseDate": "21 Nov 2025",
+  "role": "Assault",
+  "rotations": [
+    {
+      "name": "Getsuga Combo",
+      "steps": [
+        "Basic ×3",
+        "Technique (Getsuga)",
+        "Ultimate",
+        "Battlefield Skill"
+      ],
+      "tags": [
+        "Sustain"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/ichigo-shikai/skill-technique.png",
+      "kind": "technique",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-shikai/skill-counter.png",
+      "kind": "counter",
+      "name": ""
+    }
+  ],
+  "slug": "ichigo-shikai",
+  "source": null,
+  "stamps": {
+    "core": {
+      "ascend1": [],
+      "ascend5": []
+    },
+    "weapon": {
+      "ascend1": [],
+      "ascend5": []
+    }
+  },
+  "tier": "C"
+}

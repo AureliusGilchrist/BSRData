@@ -1,0 +1,207 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Grimmjow_-_Resurreci%C3%B3n",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/grimmjow-pantera/art.png",
+  "bestStamp": {
+    "setName": "Pantera (4) + Strike (2)",
+    "mainStats": "1: Strike DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+    "notes": "B6 unlocks the second Resurrección burst — worth the full investment."
+  },
+  "bondPriority": [
+    {
+      "description": "Increases All-Skill Mastery by 7% and Ailment Mastery by 7% during battle. When equipped by a Full Assault character, increases Strike Mastery by an extra 15%.",
+      "name": "Grimmjow Bond"
+    },
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "The passive, Bare Killing Intent, increases the maximum stack of Killing Intent to 10. Each stack also increases the damage of the next Special Attack, Pounce, by 5%.",
+      "icon": "/Images/grimmjow-pantera/boundary-1.png",
+      "level": 1,
+      "name": "Evolutionary Path"
+    },
+    {
+      "description": "When Pounce hits an enemy, it immediately deals Lacerate DMG. The Prey Mark applied to the enemy also reduces their Strike Resistance by 10%.",
+      "icon": "/Images/grimmjow-pantera/boundary-2.png",
+      "level": 2,
+      "name": "Spare No One"
+    },
+    {
+      "icon": "/Images/grimmjow-pantera/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "When Prey Mark applied by Pounce ends, it deals an additional round of damage to the enemy equal to 15% of the total Strike DMG the target took during Prey Mark, up to a maximum of 3000× Grimmjow's current ATK.",
+      "icon": "/Images/grimmjow-pantera/boundary-4.png",
+      "level": 4,
+      "name": "Worth the Hunt"
+    },
+    {
+      "icon": "/Images/grimmjow-pantera/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "Grimmjow enters Destructive Urge immediately after battle starts. Lacerate Points accumulation rate increased by 40%. Each Lacerate trigger grants 8% All-Skill Mastery and 20% Crit DMG for 15 seconds, stacking up to 3 times.",
+      "icon": "/Images/grimmjow-pantera/boundary-6.png",
+      "level": 6,
+      "name": "I Will Be King"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "All DMG Dealt/Bonus +9%",
+        "Increase Ultimate DMG +22.5%",
+        "Special Attack +22.5%"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Becoming the King",
+      "setPieces": [
+        {
+          "mainStat": "Atk% \u003e Strike DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate \u003e Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk% \u003e Ailment DMG Bonus",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Atk/Ailment DMG \u003e Ultimate Charge",
+      "targets": {
+        "ultChargeRate": "100-109%"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "When Grimmjow's Spiritual Pressure is equal to or above 50, tap and hold Basic Attack to enter Rush. Release the Basic Attack button during Rush to make Grimmjow release Pounce on the target and apply Prey Mark. When Grimmjow attacks a target affected by Prey Mark, he applies Lacerate Points. Triggers Lacerate once for every 100 Lacerate Points accumulated, dealing Ailment DMG equal to 200% of ATK to the target.",
+      "icon": "/Images/grimmjow-pantera/passive-1.png",
+      "name": "Royal Hunt"
+    },
+    {
+      "description": "After Grimmjow actively crashes into an enemy using Sonido or his technique, Razor Kick, Perfect Dodge is triggered. Each time Perfect Dodge is triggered, Grimmjow gains 20% ATK for 25 seconds. Unstackable.",
+      "icon": "/Images/grimmjow-pantera/passive-2.png",
+      "name": "Panther Speed"
+    },
+    {
+      "description": "After Grimmjow enters Rush, he gains 1 stack of Killing Intent every 0.1 second, up to 5 stacks. When releasing Special Attack, Pounce, all Killing Intent stacks are consumed to increase Grimmjow's Crit DMG by 15% per stack for 10 seconds.",
+      "icon": "/Images/grimmjow-pantera/passive-3.png",
+      "name": "Bare Killing Intent"
+    },
+    {
+      "description": "Increases Grimmjow's Ailment Mastery by 80%.",
+      "icon": "/Images/grimmjow-pantera/passive-4.png",
+      "name": "Rip Everything Apart"
+    }
+  ],
+  "damageType": "Strike",
+  "name": "Grimmjow Jaegerjaquez (Pantera)",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "15 May 2026",
+  "role": "Assault",
+  "rotations": [
+    {
+      "name": "Resurrección Burst",
+      "steps": [
+        "Swap-in with full ult charge",
+        "Technique → Basic ×3 (rage stacks)",
+        "Ultimate (Pantera)",
+        "Battlefield Skill while resurrected"
+      ],
+      "tags": [
+        "Burst",
+        "Boss"
+      ]
+    },
+    {
+      "name": "Rage Sustain",
+      "steps": [
+        "Counter-bait → Technique → Basic combo",
+        "Refresh rage stacks before Ult"
+      ],
+      "tags": [
+        "Sustain",
+        "PvP"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/grimmjow-pantera/skill-basic.png",
+      "kind": "Basic Attack",
+      "name": "Grind, Pantera!",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/grimmjow-pantera/skill-technique.png",
+      "kind": "Technique",
+      "name": "Death Grip",
+      "variant": "Chain"
+    },
+    {
+      "description": "",
+      "icon": "/Images/grimmjow-pantera/skill-ultimate.png",
+      "kind": "Ultimate",
+      "name": "Desgarron",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/grimmjow-pantera/skill-counter.png",
+      "kind": "Counter",
+      "name": "Counter",
+      "variant": null
+    }
+  ],
+  "slug": "grimmjow-pantera",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/grimmjow-res",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "Increases Ailment DMG Bonus by 25%",
+        "When releasing a technique, Special Attack, or Ultimate, Crit DMG increased by 50%",
+        "Death Grip consumes 1 less Hunting Point and converts all remaining Hunting Points into damage. Each Hunting Point increases this skill's damage by 50%"
+      ],
+      "ascend5": [
+        "Increases Ailment DMG Bonus by 50%",
+        "When releasing a technique, Special Attack, or Ultimate, Crit DMG increased by 100%",
+        "Death Grip consumes 1 less Hunting Point and converts all remaining Hunting Points into damage. Each Hunting Point increases this skill's damage by 100%"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "Increases Crit Rate by 22.5%",
+        "Increases Spiritual Pressure Charge Rate by 100% and reduces the Spiritual Pressure required to enter Rush by 50%",
+        "When releasing Pounce, each stack of Killing Intent reduces target's Strike Resistance by 0.7% for 10 seconds",
+        "Triggering Lacerate increases next Ultimate DMG by 15%, stacking up to 4 times"
+      ],
+      "ascend5": [
+        "Increases Crit Rate by 45%",
+        "Increases Spiritual Pressure Charge Rate by 100% and reduces the Spiritual Pressure required to enter Rush by 50%",
+        "When releasing Pounce, each stack of Killing Intent reduces target's Strike Resistance by 1.5% for 10 seconds",
+        "Triggering Lacerate increases next Ultimate DMG by 30%, stacking up to 4 times"
+      ]
+    }
+  },
+  "tier": "S"
+}

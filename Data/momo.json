@@ -1,0 +1,198 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Hinamori_Momo",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "affiliation": "Shinigami",
+  "art": "/Images/momo/art.png",
+  "bestStamp": {
+    "setName": "Tobiume (4) + Spirit (2)",
+    "mainStats": "1: Spirit DMG Bonus  •  2: Crit Rate  •  3: Ult Charge Rate",
+    "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e Crit Rate \u003e Crit DMG",
+    "notes": "Only SR Support that hits S — Ult Charge Rate is non-negotiable to keep her buff up."
+  },
+  "bondPriority": [
+    {
+      "description": "During battle, teammates other than yourself gain 40% Crit DMG. Unstackable.",
+      "name": "Mayuri Bond"
+    },
+    {
+      "description": "Increase ATK of all team characters during battle by 6%.",
+      "name": "ATK +6% Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "The maximum number of Insight stacks increases to 6.",
+      "icon": "/Images/momo/boundary-1.png",
+      "level": 1,
+      "name": "Distant Feelings"
+    },
+    {
+      "description": "When Hinamori takes fatal DMG, she immediately heals 50% of max HP instead of becoming incapacitated, and gains 3 stacks of Insight. Triggers once every 180 seconds.",
+      "icon": "/Images/momo/boundary-2.png",
+      "level": 2,
+      "name": "Blade of Truth"
+    },
+    {
+      "description": "Increases Level of Basic Attack, Technique, Ultimate and Counterattack by 2.",
+      "icon": "/Images/momo/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Increases DMG dealt by the special attack Bombardment by 100%.",
+      "icon": "/Images/momo/boundary-4.png",
+      "level": 4,
+      "name": "Steadfast"
+    },
+    {
+      "description": "Increases Level of Basic Attack, Technique, Ultimate and Counterattack by 2.",
+      "icon": "/Images/momo/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "The explosion damage from igniting a Kido Snare increases to the number of Insight stacks x10%. Reaching maximum Insight stacks increases Explosion DMG by an extra30%.",
+      "icon": "/Images/momo/boundary-6.png",
+      "level": 6,
+      "name": "Dancing Plum Blossoms"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Hidden Wisdom",
+      "setPieces": [
+        {
+          "mainStat": "Spirit DMG Bonus OR any other",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate OR any other",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ult Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG OR Crit Rate OR Atk% OR ATK OR Any other",
+      "targets": {
+        "ultChargeRate": "More = Better"
+      }
+    }
+  ],
+  "color": "Blue",
+  "corePassives": [
+    {
+      "description": "Upon hitting the Kido Snare, Hinamori's special attack, Ultimate, and counterattack will ignite it, deal damage to nearby enemies, and grant the Insight state to the team. Each ignition of the Kido Snare will extend the effect's duration by 5 seconds.",
+      "icon": "/Images/momo/passive-1.png",
+      "name": "Conflagration"
+    },
+    {
+      "description": "When there are 3 or more stacks of Insight, the team's Spirit DMG increases by an extra 13.5%~18%.",
+      "icon": "/Images/momo/passive-2.png",
+      "name": "Tactic"
+    },
+    {
+      "description": "Increases Ultimate Energy Charge Rate by 15%~20%.",
+      "icon": "/Images/momo/passive-3.png",
+      "name": "Full Bloom"
+    }
+  ],
+  "damageType": "Spirit",
+  "limited": "Permanent",
+  "name": "Momo Hinamori",
+  "rarity": "SR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 6,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "5 Dec 2025",
+  "role": "Support",
+  "rotations": [
+    {
+      "name": "Hado Buff Loop",
+      "notes": "Best pair with Aizen — her bond gives him extra crit conversion.",
+      "steps": [
+        "Front-line: Technique (Hado 31)",
+        "Ultimate (team Spirit DMG buff)",
+        "Swap to Aizen/Toshiro",
+        "Return to refresh ult"
+      ],
+      "tags": [
+        "Sustain"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "Hinamori wields Tobiume continuously to ignite a distant flame per slash, dealing damage equal to 30%~75% of ATK over 4 strikes. If the enemy is near Hinamori when the attack is launched, also deals melee damage equal to 15%~37.5% of ATK to them. Bombardment: Hinamori releases a more powerful flame attack, dealing 47%~117.5% AoE damage. The skill can ignite Kido Snare and grant 1 stack of Insight to the team. Hinamori has her Spiritual Pressure immediately filled to the maximum at the beginning of the battle and automatically gains Spiritual Pressure during the battle.",
+      "icon": "/Images/momo/skill-1.png",
+      "kind": "Basic Attack",
+      "name": "Snap, Tobiume"
+    },
+    {
+      "description": "Hinamori expands a 15-second Kido Snare woven through Hado at the target location. When Hinamori's special attack, counterattack, or Ultimate hits the Kido Snare, the snare wil be ignited and deal damage equal to 53%~132.5% of ATK. The snare will be expanded in front of Hinamori if the target is too far away. There can only be 1 Kido Snare on the battlefield.",
+      "icon": "/Images/momo/skill-2.png",
+      "kind": "Technique",
+      "name": "Combo Spell - Crimson Fire Net"
+    },
+    {
+      "description": "Hinamori wields Tobiume with full force, launching a huge, explosive flame at the enemy, which deals DMG equal to 150%~375% of ATK. If the attacks hits a Kido Snare, it ignites the snare and grants 2 stacks of Insight to the team.",
+      "icon": "/Images/momo/skill-3.png",
+      "kind": "Ultimate",
+      "name": "Tobiume Spurt"
+    },
+    {
+      "description": "",
+      "icon": "/Images/momo/skill-counter.png",
+      "kind": "counter",
+      "name": ""
+    }
+  ],
+  "slug": "momo",
+  "source": null,
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "Increases the damage dealt by Ultimate by 35%",
+        "When releasing Ultimate, the entire team gains a Crit Rate boost equal to Insight stacks × 2.5% for 15s"
+      ],
+      "ascend5": [
+        "Increases the damage dealt by Ultimate by 70%",
+        "When releasing Ultimate, the entire team gains a Crit Rate boost equal to Insight stacks × 5% for 15s"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "Momo Hinamori gains double the number of stacks when receiving Insight",
+        "Each stack of Insight grants an extra 1% Spirit DMG Bonus"
+      ],
+      "ascend5": [
+        "Momo Hinamori gains double the number of stacks when receiving Insight",
+        "Each stack of Insight grants an extra 3% Spirit DMG Bonus"
+      ]
+    }
+  },
+  "stats": {
+    "atk": "284",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "296",
+    "hp": "1426"
+  },
+  "tier": "B",
+  "weaponStats": {
+    "atk": "170",
+    "def": "108",
+    "hp": "520"
+  },
+  "wikiSource": "https://bleachsoulresonance.wiki.gg/wiki/Momo_Hinamori"
+}

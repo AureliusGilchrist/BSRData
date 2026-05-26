@@ -1,0 +1,197 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Nelliel_Tu_Odelschwanck",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/nelliel/art.png",
+  "bestStamp": {
+    "setName": "Gamuza (4) + Thrust (2)",
+    "mainStats": "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Ult Charge Rate",
+    "notes": "S-tier Tactician — applies vulnerability that amplifies the on-field DPS."
+  },
+  "bondPriority": [
+    {
+      "description": "Increases Ailment DMG Bonus by 60% during battle. When equipped by a Tactic character, increases an extra 60% Crit DMG.",
+      "name": "Nelliel Bond"
+    },
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "When releasing the Ultimate, Praise, Gamuza, immediately gains 3 points of Battle Will. Each time any Battlefield Skill is released, Nelliel gains Reckoning for 8 seconds, during which all Battlefield Skills deal 50% increased damage. All characters in the team deal 20% more Thrust DMG.",
+      "icon": "/Images/nelliel/boundary-1.png",
+      "level": 1,
+      "name": "Reckoning Time"
+    },
+    {
+      "description": "During Resurreccion, releasing the Technique: Verde Whirl, Special Attacks: Lance Execution, or landing the final hit of counterattack: Heroic Stomp grants 1 stack of Harass, increasing the entire team's Crit DMG by 20% for 30 seconds, stacking up to 4 times.",
+      "icon": "/Images/nelliel/boundary-2.png",
+      "level": 2,
+      "name": "Rebirth Amid Calamity"
+    },
+    {
+      "icon": "/Images/nelliel/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "When any teammate triggers a counterattack, Nelliel's Crit Rate and Critical DMG are increased by 20% and 40%, respectively, for 30 seconds. Unstackable.",
+      "icon": "/Images/nelliel/boundary-4.png",
+      "level": 4,
+      "name": "You've Got This"
+    },
+    {
+      "icon": "/Images/nelliel/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "Releasing Cero Sincretico enables an immediate counterattack. During Resurreccion, the first hit of Lanzador Verde costs 0 Ultimate Energy and does not end the Resurreccion state. It also refreshes Heroic Stomp and maxes out Battle Will.",
+      "icon": "/Images/nelliel/boundary-6.png",
+      "level": 6,
+      "name": "The Return of Gamuza"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "All DMG Dealt/Bonus +9%",
+        "Increase Ultimate DMG +22.5%",
+        "Increase Battlefield Skill DMG +22.5%"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Knight's Anthem",
+      "setPieces": [
+        {
+          "mainStat": "Thrust DMG Bonus \u003e Atk%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate \u003e Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ult Charge Rate \u003e Atk% / Ailment DMG Bonus",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Ailment DMG Bonus \u003e Atk",
+      "targets": {
+        "ultChargeRate": "124% OR 154% OR 172%"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "Most of Nelliel's attacks trigger Verde Rush, dealing Ailment DMG equal to 50% of ATK and applying 1 stack of Verde Rush Mark. Each stack reduces the enemy's Ailment Resistance by 2.5% for 20 second(s), stacking up to 10 times.",
+      "icon": "/Images/nelliel/passive-1.png",
+      "name": "Verde Rush"
+    },
+    {
+      "description": "The direct damage of Verde Rush is increased by 40%.",
+      "icon": "/Images/nelliel/passive-2.png",
+      "name": "Triumph"
+    },
+    {
+      "description": "While in Resurreccion, Nelliel's ATK is increased by 25% as long as the shield is active.",
+      "icon": "/Images/nelliel/passive-3.png",
+      "name": "Crushing Pressure"
+    },
+    {
+      "description": "Increases Nelliel's Crit Rate by 25% in battle.",
+      "icon": "/Images/nelliel/passive-4.png",
+      "name": "Dead Aim"
+    }
+  ],
+  "damageType": "Thrust",
+  "name": "Nelliel Tu Odelschwanck",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 5,
+  "recommendedStopBoundaryF2P": 2,
+  "recommendedStopBoundaryP2W": 5,
+  "releaseDate": "20 Feb 2026",
+  "role": "Tactician",
+  "rotations": [
+    {
+      "name": "Lance Setup",
+      "notes": "Her vulnerability debuff IS the team-amp window — burst inside it.",
+      "steps": [
+        "Open: Technique (lance throw – applies vulnerability)",
+        "Basic ×3",
+        "Ultimate (Resurrección)",
+        "Swap to DPS for the burst window"
+      ],
+      "tags": [
+        "Burst",
+        "Boss"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/nelliel/skill-basic.png",
+      "kind": "Basic Attack",
+      "name": "Piercing Charge",
+      "variant": "Resurreccion"
+    },
+    {
+      "description": "",
+      "icon": "/Images/nelliel/skill-technique.png",
+      "kind": "Technique",
+      "name": "Verde Whirl",
+      "variant": "Resurreccion"
+    },
+    {
+      "description": "",
+      "icon": "/Images/nelliel/skill-ultimate.png",
+      "kind": "Ultimate",
+      "name": "Lanzador Verde",
+      "variant": "Resurreccion, Max Energy"
+    },
+    {
+      "description": "",
+      "icon": "/Images/nelliel/skill-counter.png",
+      "kind": "Counter",
+      "name": "Heroic Stomp",
+      "variant": "Resurreccion"
+    }
+  ],
+  "slug": "nelliel",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/nelliel",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "Increases the direct damage of the Ultimate by 30%",
+        "During Resurreccion, every 1 point of Battle Will consumed increases the damage of the Ultimate, Lanzador Verde, by 5%, stacking up to 9 times (lasts until Resurreccion ends)",
+        "Increases Ailment Mastery by 20% during battle",
+        "Enemies hit by the Ultimate, Lanzador Verde, are inflicted with Armor Shatter for 30 seconds, reducing their All-Type Resistance by 15%"
+      ],
+      "ascend5": [
+        "Ultimate direct DMG +60%",
+        "Each Battle Will consumed +10% Lanzador Verde DMG (up to 9 stacks)",
+        "Ailment Mastery +40%",
+        "Lanzador Verde: Armor Shatter 30s, All-Type Resistance -30%"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "The number of Verde Rush applied and the efficiency of Verde Rush Points are increased by 25%. The maximum stacks of Verde Rush Mark are increased to 20",
+        "Damage dealt by all Techniques and Battlefield Skills is increased by 100%",
+        "When the Battlefield Skill, Cero Sincretico, hits, it triggers an additional Verde Rush. The Base DMG of this Verde Rush equals to 200% of Nelliel's ATK. For each different debuff previously triggered on the enemy, this damage is doubled, up to a maximum of 8 times"
+      ],
+      "ascend5": [
+        "Verde Rush count and efficiency +50%. Max Verde Rush Mark stacks to 20",
+        "Techniques and Battlefield Skills DMG +200%",
+        "Cero Sincretico additional Verde Rush: Base DMG = 400% ATK, doubled per debuff up to 8 times"
+      ]
+    }
+  },
+  "tier": "S"
+}

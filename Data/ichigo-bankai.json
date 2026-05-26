@@ -1,0 +1,260 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Kurosaki_Ichigo_%28Bankai%29",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "affiliation": "Shinigami",
+  "art": "/Images/ichigo-bankai/art.png",
+  "bestStamp": {
+    "setName": "Tensa Zangetsu (4) + Slash (2)",
+    "mainStats": "1: Slash DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+    "notes": "S+ DPS — Crit DMG scaling is uncapped, push Crit Rate to ~70% first."
+  },
+  "bondPriority": [
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "After using a technique or counterattack, the critical rate of the special attack increases by 30% for 6 seconds, and can be stacked up to 2 times. Each time a special attack lands a critical hit, the cooldown of the technique is reduced by 0.5 seconds. This activates once every 0.5 seconds.",
+      "icon": "/Images/ichigo-bankai/boundary-1.png",
+      "level": 1,
+      "name": "Sun That Seals the Sky"
+    },
+    {
+      "description": "Increases Getsuga Mark duration by 3 seconds. Each time Ichigo hits an enemy affected by Getsuga Mark, all damage dealt by him increases by 3% for 5 seconds, stacking up to 5 times. When Ichigo is in the Hollowfied state, can be stacked up to 10 times.",
+      "icon": "/Images/ichigo-bankai/boundary-2.png",
+      "level": 2,
+      "name": "Rising Black Moon"
+    },
+    {
+      "description": "Increases Level of Basic Attack, Technique, Ultimate and Counterattack by 2.",
+      "icon": "/Images/ichigo-bankai/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Ichigo's counterattack deals 100% more damage.",
+      "icon": "/Images/ichigo-bankai/boundary-4.png",
+      "level": 4,
+      "name": "Soul Convergence"
+    },
+    {
+      "description": "Increases Level of Basic Attack, Technique, Ultimate and Counterattack by 2.",
+      "icon": "/Images/ichigo-bankai/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "When Ichigo launches a special attack, it will grant a quick charge if one is not already present. Otherwise, it will be consumed instantly, increasing the damage of the special attack by an additional 100%.",
+      "icon": "/Images/ichigo-bankai/boundary-6.png",
+      "level": 6,
+      "name": "Edge of Black \u0026 White"
+    }
+  ],
+  "build": {
+    "passiveSkills": [
+      "Special Attack +22.5%",
+      "All DMG Dealt/Bonus +9%",
+      "Increase Ultimate DMG +22.5%"
+    ],
+    "range": "B0W1C1 - B6W5C5",
+    "setName": "Rising Black Moon",
+    "setPieces": [
+      {
+        "mainStat": "Slash DMG Bonus \u003e Atk%",
+        "slot": 1
+      },
+      {
+        "mainStat": "Crit Rate",
+        "slot": 2
+      },
+      {
+        "mainStat": "Atk% \u003e Ultimate Charge",
+        "slot": 3
+      }
+    ],
+    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Atk",
+    "targets": {
+      "ultChargeRate": "140%+"
+    }
+  },
+  "builds": [
+    {
+      "label": "P2W (value ceiling)",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Tensa Zangetsu (4) + Slash (2)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+    },
+    {
+      "label": "F2P (practical stop)",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B2W5C5",
+      "setName": "Tensa Zangetsu (4) + Slash (2)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+    }
+  ],
+  "color": "Red",
+  "corePassives": [
+    {
+      "description": "Special attacks will prioritize enemies inflicted with Getsuga Mark.",
+      "icon": "/Images/ichigo-bankai/passive-1.png",
+      "name": "Getsuga"
+    },
+    {
+      "description": "Ichigo deals 18.75% more damage against enemies inflicted with Getsuga Mark.",
+      "icon": "/Images/ichigo-bankai/passive-2.png",
+      "name": "Follow-up Attack"
+    },
+    {
+      "description": "While in the Hollowfied state, releasing special attacks increases the damage of the next Ultimate Deathblow by 15%. Stacks up to 4 times.",
+      "icon": "/Images/ichigo-bankai/passive-3.png",
+      "name": "Mask of Hollow"
+    },
+    {
+      "description": "When Ichigo's critical rate exceeds 100%, each 1% over will convert into 1.5% additional critical damage.",
+      "icon": "/Images/ichigo-bankai/passive-4.png",
+      "name": "Spiritual Surge"
+    }
+  ],
+  "damageType": "Slash",
+  "limited": "Limited",
+  "name": "Ichigo Kurosaki (Bankai)",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 2,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "21 Nov 2025",
+  "role": "Full Assault/DPS",
+  "rotations": [
+    {
+      "name": "Getsuga Burst",
+      "notes": "Drop the Ultimate inside the buffer's Battlefield Skill window for max scaling.",
+      "steps": [
+        "Buffer (Urahara/Momo) front, applies buffs",
+        "Swap Ichigo in (carries buffs)",
+        "Technique → Basic ×3 (Getsuga charges)",
+        "Ultimate (Getsuga Tensho)",
+        "Battlefield Skill on Resonance peak"
+      ],
+      "tags": [
+        "Burst",
+        "Boss"
+      ]
+    },
+    {
+      "name": "Counter Sustain",
+      "steps": [
+        "Counter on incoming hit (B4 swap-in counter)",
+        "Basic ×3 → Technique",
+        "Repeat"
+      ],
+      "tags": [
+        "Sustain",
+        "PvP"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "Ichigo strikes the enemy 5 times, dealing damage equal to 247%~???% of ATK and gaining spiritual pressure. If you stop the attack after the third strike, Ichigo will briefly charge up and then a glow will appear on his body. At that moment, press the basic attack button to unleash a special attack. Hollowfied: After becoming Hollowfied, Ichigo's ability greatly improves. The total damage of the basic attack increases to 367%~???%. The total damage of the special attack increases to 266%~???%. Special attack: Ichigo performs 6 continuous high-speed slashes, dealing damage equal to 179%~???% of ATK.",
+      "icon": "/Images/ichigo-bankai/skill-1.png",
+      "kind": "Basic Attack",
+      "name": "Corte a alta velocidad"
+    },
+    {
+      "description": "Ichigo releases his spiritual pressure to attack from a distance toward the target, dealing damage equal to 232%~???% of ATK and applying one stack of Getsuga Mark for 5 seconds. When the technique hits the enemy, press the basic attack button and Ichigo will rush forward and immediately launch a special attack.",
+      "icon": "/Images/ichigo-bankai/skill-2.png",
+      "kind": "Technique",
+      "name": "Getsuga Tensho"
+    },
+    {
+      "description": "Ichigo unleashes the power of Hollowfication, immediately resets the technique's cooldown, and enters the Hollowfied state, which lasts for 10 seconds. In the Hollowfied state, Ichigo will instantly counterattack and gain the following effects: he is less likely to be interrupted by enemies, the damage he deals is greatly increased, he can unleash techniques twice in a row, his health will not fall below 1, and his Ultimate will be replaced by Black Getsuga Tensho.",
+      "icon": "/Images/ichigo-bankai/skill-3.png",
+      "kind": "Ultimate",
+      "name": "Hollowfication"
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-bankai/skill-counter.png",
+      "kind": "counter",
+      "name": ""
+    }
+  ],
+  "slug": "ichigo-bankai",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/ichigo-bankai",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "While Hollowfied, the counter button can be manually tapped to launch counterattacks",
+        "While Hollowfied, Ichigo's Crit Rate increases by 15%. Manually releasing counterattacks increases the Crit Rate Bonus to 25%",
+        "Increases counterattack DMG by 60%",
+        "Increases Ultimate Energy Charge Rate by 20% and gains full Ultimate Energy upon the battle begins",
+        "For 20 seconds after Hollowfied state ends, Technique cooldown is reduced by 70%"
+      ],
+      "ascend5": [
+        "While Hollowfied, manual counterattacks enabled. Crit Rate +30%; manually releasing counterattacks: +50%",
+        "Counterattack DMG +120%",
+        "Ultimate Energy Charge Rate +40%, full Ultimate Energy at battle start",
+        "20s after Hollowfication ends: Technique cooldown -70%"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "Increases Crit Rate by 15%",
+        "When releasing special attacks, Ichigo summons two afterimages to attack the target, dealing total DMG equal to 100% of the special attack ATK. This also counts as a special attack"
+      ],
+      "ascend5": [
+        "Increases Crit Rate by 30%",
+        "When releasing special attacks, Ichigo summons two afterimages dealing total DMG equal to 200% of the special attack ATK. This also counts as a special attack"
+      ]
+    }
+  },
+  "stats": {
+    "atk": "335",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "327",
+    "hp": "1626"
+  },
+  "tier": "A",
+  "weaponStats": {
+    "atk": "201",
+    "def": "119",
+    "hp": "582"
+  },
+  "wikiSource": "https://bleachsoulresonance.wiki.gg/wiki/Ichigo_Kurosaki_(Bankai)"
+}

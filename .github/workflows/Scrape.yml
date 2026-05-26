@@ -1,0 +1,47 @@
+# Daily scrape + curate. Commits fresh Data/ and Images/ back to main.
+
+name: Scrape
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: Run scraper
+        working-directory: ./Scraper
+        run: go run .
+
+      - name: Run curate
+        working-directory: ./Curate
+        run: go run .
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "bsrdata-bot"
+          git config user.email "bsrdata-bot@users.noreply.github.com"
+          git add Data Images
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "chore(data): daily refresh"
+            git push
+          fi

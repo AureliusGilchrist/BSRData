@@ -1,0 +1,190 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Ichimaru_Gin",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/gin/art.png",
+  "bestStamp": {
+    "setName": "Shinso (4) + Thrust (2)",
+    "mainStats": "1: Thrust DMG Bonus \u003e Atk%  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+    "notes": "Pure single-target DPS — Crit DMG is king once Crit Rate hits ~60%."
+  },
+  "bondPriority": [
+    {
+      "description": "Increases Technique DMG by 32% during battle. When Ailment DMG Bonus is equal or higher than 80%, Ailment DMG Bonus is increased by extra 80%.",
+      "name": "Gin Bond"
+    },
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "Gains 3 Technique Points immediately when entering battle. Fully restores Technique Points after releasing the Ultimate.",
+      "icon": "/Images/gin/boundary-1.png",
+      "level": 1,
+      "name": "Devouring Mouth"
+    },
+    {
+      "description": "For every 1 Technique Point consumed, the Crit DMG of the next Ultimate is increased by 35%, stacking up to 6 times. Hitting the enemy with the final strike of the Basic Attack reduces Technique Points recovery time by 2 seconds.",
+      "icon": "/Images/gin/boundary-2.png",
+      "level": 2,
+      "name": "Manhunt"
+    },
+    {
+      "icon": "/Images/gin/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Impale DMG increases by 100%.",
+      "icon": "/Images/gin/boundary-4.png",
+      "level": 4,
+      "name": "Icy Demeanor"
+    },
+    {
+      "icon": "/Images/gin/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "The Ultimate inflicts Snake Venom on the enemy, dealing DMG equal to 50% of ATK every second. Snake Venom explodes after 12 seconds, dealing further DMG equal to 40% of the total DMG dealt by Gin during this 12-second period, up to 2500× of Gin's current ATK. While charging a technique, an additional wide-area Thrust attack is released without interrupting the charge (up to 600% of ATK based on charge time).",
+      "icon": "/Images/gin/boundary-6.png",
+      "level": 6,
+      "name": "Cell Dissolution"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "All DMG Dealt/Bonus +9%",
+        "Increase Technique DMG +30%",
+        "Increase Ultimate DMG +22.5%"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Mocking Visage",
+      "setPieces": [
+        {
+          "mainStat": "Thrust DMG Bonus \u003e Atk%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate \u003e Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ailment DMG Bonus \u003e Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit Rate \u003e Ailment DMG Bonus \u003e Crit DMG \u003e Atk% \u003e Atk",
+      "targets": {
+        "ultChargeRate": "Any%"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "Gin's attacks inflict Impale Scale on the enemy. Upon reaching 100, triggers Impale once, dealing damage equal to 500% of Gin's ATK to the target. Teammates' special attacks, techniques, Battlefield Skills, Ultimates, and counterattacks also inflict 35 Impale Scale on the enemy (1s cooldown). Impale triggered by teammates counts as if triggered by Gin's attacks.",
+      "icon": "/Images/gin/passive-1.png",
+      "name": "Hundred Blades"
+    },
+    {
+      "description": "Increases the Spiritual Pressure Charge Rate by 100% when landing a basic attack.",
+      "icon": "/Images/gin/passive-2.png",
+      "name": "Disguise"
+    },
+    {
+      "description": "Each time Impale damage is triggered, Technique Points recovery time is reduced by 5 seconds. Cooldown: 4 seconds.",
+      "icon": "/Images/gin/passive-3.png",
+      "name": "Lurking"
+    },
+    {
+      "description": "Increases Technique DMG by an extra 60% when attacking enemies affected by debuffs.",
+      "icon": "/Images/gin/passive-4.png",
+      "name": "Into the Abyss"
+    }
+  ],
+  "damageType": "Thrust",
+  "name": "Gin Ichimaru",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "9 Jan 2026",
+  "role": "Assault",
+  "rotations": [
+    {
+      "name": "Pierce Opener",
+      "notes": "Gin's Ult ignores DEF in his B6 line — line up with armor-shred from a tactician.",
+      "steps": [
+        "Tactician (Nelliel/Aizen) applies vulnerability",
+        "Gin: Basic ×2 → Technique (Shinso extension)",
+        "Ultimate (Kamishini no Yari) at burst window",
+        "Battlefield Skill on cooldown"
+      ],
+      "tags": [
+        "Burst",
+        "Boss"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/gin/skill-basic.png",
+      "kind": "Basic Attack",
+      "name": "Serpent Tail Penetration",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/gin/skill-technique.png",
+      "kind": "Technique",
+      "name": "Blade-Sundering Spear",
+      "variant": "3 Points"
+    },
+    {
+      "description": "",
+      "icon": "/Images/gin/skill-counter.png",
+      "kind": "Counter",
+      "name": "Counter",
+      "variant": null
+    }
+  ],
+  "slug": "gin",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/gin",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "Technique DMG +50%",
+        "Ultimate DMG +75%",
+        "Ailment Mastery +20%. If target has an ongoing debuff, Ailment DMG dealt by Gin +30%"
+      ],
+      "ascend5": [
+        "Technique DMG +100%",
+        "Ultimate DMG +150%",
+        "Ailment Mastery +40%. If target has an ongoing debuff, Ailment DMG +60%"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "Triggered 1 time: Technique DMG +12.5% for 15s (up to 5 stacks)",
+        "Triggered 2 times: Crit Rate +15% for 20s",
+        "Triggered 3 times: Special counterattack 800% ATK + 50 Impale Scale + 1 Tech Point",
+        "Team inflicts Impale Scale at 30% higher rate"
+      ],
+      "ascend5": [
+        "Triggered 1 time: Technique DMG +25% for 15s (up to 5 stacks)",
+        "Triggered 2 times: Crit Rate +30% for 20s",
+        "Triggered 3 times: Special counterattack 1600% ATK + 50 Impale Scale + 1 Tech Point",
+        "Team inflicts Impale Scale at 60% higher rate"
+      ]
+    }
+  },
+  "tier": "S"
+}

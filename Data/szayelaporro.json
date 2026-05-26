@@ -1,0 +1,189 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Szayelaporro_Granz",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/szayelaporro/art.png",
+  "bestStamp": {
+    "setName": "Fornicarás (4) + Spirit (2)",
+    "mainStats": "1: Spirit DMG Bonus  •  2: Crit Rate  •  3: Ult Charge Rate",
+    "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e Crit DMG \u003e Crit Rate",
+    "notes": "Debuff Support — Ult Charge keeps the debuff window open permanently."
+  },
+  "bondPriority": [
+    {
+      "description": "During battle, teammates other than yourself gain 40% Crit DMG. Unstackable.",
+      "name": "Mayuri Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "When releasing a Special Attack, if there are 6 stacks of Intel Control, the entire team gains an additional 10% Spirit DMG Bonus for 20 seconds. Increases Ultimate Charge Rate by 40%.",
+      "icon": "/Images/szayelaporro/boundary-1.png",
+      "level": 1,
+      "name": "Aligned Interests"
+    },
+    {
+      "description": "Each time a Special Attack is released, enemies hit have their Spirit Resistance reduced by 10% for 20 seconds.",
+      "icon": "/Images/szayelaporro/boundary-2.png",
+      "level": 2,
+      "name": "A Guest of Honor"
+    },
+    {
+      "icon": "/Images/szayelaporro/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Increases Ultimate DMG by 600%, up to 1800 times of Szayelaporro's ATK. The buff provided by the passive, Research Expert, is increased by an extra 5%.",
+      "icon": "/Images/szayelaporro/boundary-4.png",
+      "level": 4,
+      "name": "Grand Entrance"
+    },
+    {
+      "icon": "/Images/szayelaporro/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "Increases the Crit Rate of all Special Attacks and counterattacks by 80% and their damage dealt by 50%. Each release also increases the entire team's counterattack damage by 200% for 20 seconds.",
+      "icon": "/Images/szayelaporro/boundary-6.png",
+      "level": 6,
+      "name": "How Unfortunate"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Curtain Falls",
+      "setPieces": [
+        {
+          "mainStat": "Atk%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk% \u003e Ultimate Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Atk% \u003e Crit DMG \u003e Atk \u003e Crit Rate \u003e Ultimate Charge Rate",
+      "targets": {
+        "ultChargeRate": "any%"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "Many of Szayelaporro's attacks summon his Fracciones to attack. After attacking, these Fracciones turn into Sacrificial Materials on the field. Szayelaporro can detonate them using a Special Attack to grant teammates stacks of Intel Control. Each stack increases Spirit Mastery by 0.4% for 20 seconds, up to 6 stacks. When entering Resurreccion, Szayelaporro grants all Spirit characters 1 stack of Sample Analysis. Whenever an on-field character with Sample Analysis deals damage, all Spirit characters gain 1 additional stack of Sample Analysis. Each stack increases their Crit DMG by 0.5% for 30 seconds, stacking up to 30 times. When the team includes 1/2 Spirit characters other than Szayelaporro, the buff effects provided by Intel Control, Sample Analysis, and the passives Research Expert, Backstage Monitoring, and Corridor Modification are increased to 2/4 times their original values.",
+      "icon": "/Images/szayelaporro/passive-1.png",
+      "name": "Miserable End"
+    },
+    {
+      "description": "Each time Szayelaporro releases a technique or counterattack, the entire team's ATK increases by 10% for 20 seconds.",
+      "icon": "/Images/szayelaporro/passive-2.png",
+      "name": "Research Expert"
+    },
+    {
+      "description": "At the start of battle, if Szayelaporro's ATK is higher than 3280, every additional 500 ATK increases the effect of Intel Control by 0.15%, up to 0.6%.",
+      "icon": "/Images/szayelaporro/passive-3.png",
+      "name": "Backstage Monitoring"
+    },
+    {
+      "description": "At the start of battle, if Szayelaporro's Crit DMG is higher than 75, every additional 25 Crit DMG increases the effect of Sample Analysis by 0.25%, up to 1%.",
+      "icon": "/Images/szayelaporro/passive-4.png",
+      "name": "Corridor Modification"
+    }
+  ],
+  "damageType": "Spirit",
+  "name": "Szayelaporro Granz",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 5,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 5,
+  "releaseDate": "24 Apr 2026",
+  "role": "Support",
+  "rotations": [
+    {
+      "name": "Debuff Cycle",
+      "steps": [
+        "Technique (apply debuff)",
+        "Ultimate (Resurrección – team debuff)",
+        "Swap to DPS",
+        "Return to refresh"
+      ],
+      "tags": [
+        "Sustain",
+        "Boss"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/szayelaporro/skill-basic.png",
+      "kind": "Basic Attack",
+      "name": "Don't Make Me Do It Myself",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/szayelaporro/skill-technique.png",
+      "kind": "Technique",
+      "name": "Trap Activation",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/szayelaporro/skill-ultimate.png",
+      "kind": "Ultimate",
+      "name": "Control of the Five Senses",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/szayelaporro/skill-counter.png",
+      "kind": "Counter",
+      "name": "Counter",
+      "variant": null
+    }
+  ],
+  "slug": "szayelaporro",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/szayelaporro",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "At the start of battle, the entire team gains 3 stacks of Intel Control",
+        "When Resurreccion is released, immediately grants all Spirit characters Sample Analysis equal to the current number of Intel Control stacks",
+        "Within 20 seconds after using a Special Attack, all Spirit characters gain 40% increased Crit DMG, and the on-field character gains 15% increased Ultimate Charge Rate"
+      ],
+      "ascend5": [
+        "At the start of battle, the entire team gains 3 stacks of Intel Control",
+        "When Resurreccion is released, immediately grants all Spirit characters Sample Analysis equal to the current number of Intel Control stacks",
+        "Within 20 seconds after using a Special Attack, all Spirit characters gain 80% increased Crit DMG, and the on-field character gains 15% increased Ultimate Charge Rate"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "Using a technique immediately generates 3 Sacrificial Materials",
+        "Releasing Control of the Five Senses increases the entire team's ATK by 15% for 35 seconds",
+        "Increases Crit DMG by 22.5%"
+      ],
+      "ascend5": [
+        "Using a technique immediately generates 3 Sacrificial Materials",
+        "Releasing Control of the Five Senses increases the entire team's ATK by 30% for 35 seconds",
+        "Increases Crit DMG by 45%"
+      ]
+    }
+  },
+  "tier": "A"
+}

@@ -1,0 +1,292 @@
+[
+  {
+    "slug": "aizen",
+    "name": "Sosuke Aizen",
+    "role": "Tactician",
+    "tier": "S",
+    "damageType": "Spirit",
+    "rarity": "SSR",
+    "art": "/Images/aizen/art.png",
+    "releaseDate": "19 Dec 2025"
+  },
+  {
+    "slug": "byakuya",
+    "name": "Byakuya Kuchiki",
+    "role": "Tactician",
+    "tier": "D",
+    "damageType": "Slash",
+    "rarity": "SSR",
+    "art": "/Images/byakuya/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "chad",
+    "name": "Yasutora Sado (Chad)",
+    "role": "Assault",
+    "tier": "D",
+    "damageType": "Strike",
+    "rarity": "SR",
+    "art": "/Images/chad/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "gin",
+    "name": "Gin Ichimaru",
+    "role": "Assault",
+    "tier": "S",
+    "damageType": "Thrust",
+    "rarity": "SSR",
+    "art": "/Images/gin/art.png",
+    "releaseDate": "9 Jan 2026"
+  },
+  {
+    "slug": "grimmjow",
+    "name": "Grimmjow Jaegerjaquez",
+    "role": "Assault",
+    "tier": "A",
+    "damageType": "Strike",
+    "rarity": "SR+",
+    "art": "/Images/grimmjow/art.png",
+    "releaseDate": "24 Apr 2026"
+  },
+  {
+    "slug": "grimmjow-pantera",
+    "name": "Grimmjow Jaegerjaquez (Pantera)",
+    "role": "Assault",
+    "tier": "S",
+    "damageType": "Strike",
+    "rarity": "SSR",
+    "art": "/Images/grimmjow-pantera/art.png",
+    "releaseDate": "15 May 2026"
+  },
+  {
+    "slug": "ichigo-bankai",
+    "name": "Ichigo Kurosaki (Bankai)",
+    "role": "Full Assault/DPS",
+    "tier": "A",
+    "damageType": "Slash",
+    "rarity": "SSR",
+    "art": "/Images/ichigo-bankai/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "ichigo-initial",
+    "name": "Ichigo Kurosaki (Initial)",
+    "role": "Assault",
+    "tier": "D",
+    "damageType": "Slash",
+    "rarity": "SR",
+    "art": "/Images/ichigo-initial/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "ichigo-shikai",
+    "name": "Ichigo Kurosaki (Shikai)",
+    "role": "Assault",
+    "tier": "C",
+    "damageType": "Slash",
+    "rarity": "SR",
+    "art": "/Images/ichigo-shikai/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "ikkaku",
+    "name": "Ikkaku Madarame",
+    "role": "Assault",
+    "tier": "B",
+    "damageType": "Thrust",
+    "rarity": "SSR",
+    "art": "/Images/ikkaku/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "kenpachi",
+    "name": "Kenpachi Zaraki",
+    "role": "Assault",
+    "tier": "A",
+    "damageType": "Slash",
+    "rarity": "SSR",
+    "art": "/Images/kenpachi/art.png",
+    "releaseDate": "30 Jan 2026"
+  },
+  {
+    "slug": "kisuke",
+    "name": "Kisuke Urahara",
+    "role": "Support",
+    "tier": "S",
+    "damageType": "Slash",
+    "rarity": "SSR",
+    "art": "/Images/kisuke/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "komamura",
+    "name": "Sajin Komamura",
+    "role": "Assault",
+    "tier": "C",
+    "damageType": "Strike",
+    "rarity": "SSR",
+    "art": "/Images/komamura/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "mayuri",
+    "name": "Kurotsuchi Mayuri",
+    "role": "Support",
+    "tier": "S",
+    "damageType": "Thrust",
+    "rarity": "SSR",
+    "art": "/Images/mayuri/art.png",
+    "releaseDate": "13 Mar 2026"
+  },
+  {
+    "slug": "momo",
+    "name": "Momo Hinamori",
+    "role": "Support",
+    "tier": "B",
+    "damageType": "Spirit",
+    "rarity": "SR",
+    "art": "/Images/momo/art.png",
+    "releaseDate": "5 Dec 2025"
+  },
+  {
+    "slug": "nelliel",
+    "name": "Nelliel Tu Odelschwanck",
+    "role": "Tactician",
+    "tier": "S",
+    "damageType": "Thrust",
+    "rarity": "SSR",
+    "art": "/Images/nelliel/art.png",
+    "releaseDate": "20 Feb 2026"
+  },
+  {
+    "slug": "nemu",
+    "name": "Nemu Kurotsuchi",
+    "role": "Support",
+    "tier": "D",
+    "damageType": "Strike",
+    "rarity": "SR",
+    "art": "/Images/nemu/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "orihime",
+    "name": "Orihime Inoue",
+    "role": "Support",
+    "tier": "D",
+    "damageType": "Spirit",
+    "rarity": "SR",
+    "art": "/Images/orihime/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "rangiku",
+    "name": "Rangiku Matsumoto",
+    "role": "Support",
+    "tier": "B",
+    "damageType": "Thrust",
+    "rarity": "SR",
+    "art": "/Images/rangiku/art.png",
+    "releaseDate": "23 Jan 2026"
+  },
+  {
+    "slug": "renji",
+    "name": "Renji Abarai",
+    "role": "Assault",
+    "tier": "D",
+    "damageType": "Slash",
+    "rarity": "SR",
+    "art": "/Images/renji/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "rukia",
+    "name": "Rukia Kuchiki",
+    "role": "Tactician",
+    "tier": "C",
+    "damageType": "Spirit",
+    "rarity": "SR",
+    "art": "/Images/rukia/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "soi-fon",
+    "name": "Soi Fon",
+    "role": "Tactician",
+    "tier": "S",
+    "damageType": "Strike",
+    "rarity": "SSR",
+    "art": "/Images/soi-fon/art.png",
+    "releaseDate": "3 Apr 2026"
+  },
+  {
+    "slug": "szayelaporro",
+    "name": "Szayelaporro Granz",
+    "role": "Support",
+    "tier": "A",
+    "damageType": "Spirit",
+    "rarity": "SSR",
+    "art": "/Images/szayelaporro/art.png",
+    "releaseDate": "24 Apr 2026"
+  },
+  {
+    "slug": "tosen",
+    "name": "Kaname Tosen",
+    "role": "Tactician",
+    "tier": "A",
+    "damageType": "Thrust",
+    "rarity": "SSR",
+    "art": "/Images/tosen/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "toshiro",
+    "name": "Toshiro Hitsugaya",
+    "role": "Full Assault/DPS",
+    "tier": "S",
+    "damageType": "Spirit",
+    "rarity": "SSR",
+    "art": "/Images/toshiro/art.png",
+    "releaseDate": "5 Dec 2025"
+  },
+  {
+    "slug": "ururu",
+    "name": "Ururu Tsumigaya",
+    "role": "Support",
+    "tier": "D",
+    "damageType": "Spirit",
+    "rarity": "SR",
+    "art": "/Images/ururu/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "uryu",
+    "name": "Uryu Ishida",
+    "role": "Tactician",
+    "tier": "C",
+    "damageType": "Thrust",
+    "rarity": "SR",
+    "art": "/Images/uryu/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "yachiru",
+    "name": "Yachiru Kusajishi",
+    "role": "Support",
+    "tier": "B",
+    "damageType": "Slash",
+    "rarity": "SR",
+    "art": "/Images/yachiru/art.png",
+    "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "yoruichi",
+    "name": "Yoruichi Shihoin",
+    "role": "Assault",
+    "tier": "B",
+    "damageType": "Strike",
+    "rarity": "SSR",
+    "art": "/Images/yoruichi/art.png",
+    "releaseDate": "21 Nov 2025"
+  }
+]

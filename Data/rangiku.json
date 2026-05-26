@@ -1,0 +1,176 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Matsumoto_Rangiku",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/rangiku/art.png",
+  "bestStamp": {
+    "setName": "Haineko (4) + Thrust (2)",
+    "mainStats": "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+    "notes": "Ash-cloud DPS Support — pairs with Toshiro for spirit-team synergy."
+  },
+  "bondPriority": [
+    {
+      "description": "During battle, teammates other than yourself gain 40% Crit DMG. Unstackable.",
+      "name": "Mayuri Bond"
+    },
+    {
+      "description": "Increase ATK of all team characters during battle by 6%.",
+      "name": "ATK +6% Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "Every time Ash Blade hits an enemy, Rangiku gains 2.5% Ultimate Energy.",
+      "icon": "/Images/rangiku/boundary-1.png",
+      "level": 1,
+      "name": "Dust Settled"
+    },
+    {
+      "description": "Haineko's Assist grants teammates extra Ailment DMG Bonus equal to 30% of Rangiku's Ailment DMG Bonus.",
+      "icon": "/Images/rangiku/boundary-2.png",
+      "level": 2,
+      "name": "Cat's Helping Paw"
+    },
+    {
+      "icon": "/Images/rangiku/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Every time Ash Blade hits an enemy, subsequent Ash Blade DMG increases by 20% for 15 seconds. Stacks up to 10 times.",
+      "icon": "/Images/rangiku/boundary-4.png",
+      "level": 4,
+      "name": "Scratch Marks"
+    },
+    {
+      "icon": "/Images/rangiku/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "The drag range for techniques is expanded, and their DMG is increased by 200%.",
+      "icon": "/Images/rangiku/boundary-6.png",
+      "level": 6,
+      "name": "Sandstorm"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Hidden Wisdom",
+      "setPieces": [
+        {
+          "mainStat": "Thrust DMG Bonus OR Any other",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate OR any other",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ailment DMG Bonus \u003e Ult Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Ailment DMG Bonus \u003e Any other",
+      "targets": {
+        "ultChargeRate": "More = Better"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "When a teammate hits an enemy with their Special Attack or technique, generates multiple Ash Blades based on the number of enemies inflicted with the Haineko Mark. On hit, each Ash Blade deals damage equal to 200% of the on-field character's ATK and consumes 1 stack of Haineko Mark. All characters in the team take 10% less damage. Teammates other than Rangiku gain 40% Ailment DMG Bonus.",
+      "icon": "/Images/rangiku/passive-1.png",
+      "name": "Haineko's Assist"
+    },
+    {
+      "description": "When you tap and hold the Technique button to the maximum limit, inflicts 5 extra stack(s) of Haineko Mark on the enemy.",
+      "icon": "/Images/rangiku/passive-2.png",
+      "name": "Pervading Ash"
+    },
+    {
+      "description": "Increases Ash Blade DMG by 150%.",
+      "icon": "/Images/rangiku/passive-3.png",
+      "name": "Bone Crusher"
+    }
+  ],
+  "damageType": "Thrust",
+  "name": "Rangiku Matsumoto",
+  "rarity": "SR",
+  "recommendedStopBoundary": 5,
+  "recommendedStopBoundaryF2P": 5,
+  "recommendedStopBoundaryP2W": 5,
+  "releaseDate": "23 Jan 2026",
+  "role": "Support",
+  "rotations": [
+    {
+      "name": "Ash Field",
+      "steps": [
+        "Technique (Haineko cloud)",
+        "Basic ×3",
+        "Ultimate",
+        "Swap"
+      ],
+      "tags": [
+        "Sustain"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/rangiku/skill-basic.png",
+      "kind": "Basic Attack",
+      "name": "Growl, Haineko",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/rangiku/skill-technique.png",
+      "kind": "Technique",
+      "name": "Channeled Attack",
+      "variant": "Hold"
+    },
+    {
+      "description": "",
+      "icon": "/Images/rangiku/skill-counter.png",
+      "kind": "Counter",
+      "name": "Counter",
+      "variant": null
+    }
+  ],
+  "slug": "rangiku",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/rangiku",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "Increases Rangiku's Ultimate Energy Charge Rate by 25%",
+        "Increases Ultimate DMG by 100% and inflicts 4 extra stacks of Haineko Mark on the enemy"
+      ],
+      "ascend5": [
+        "Increases Rangiku's Ultimate Energy Charge Rate by 50%",
+        "Increases Ultimate DMG by 200% and inflicts 4 extra stacks of Haineko Mark on the enemy"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "Every time an enemy is hit by Ash Blade, the Thrust DMG they receive increases by 1.2% for 20 seconds. Stacks up to 10 times",
+        "Release Rangiku's Technique to switch characters immediately, but Rangiku will remain on the field channeling until the effect reaches its peak"
+      ],
+      "ascend5": [
+        "Every time an enemy is hit by Ash Blade, the Thrust DMG they receive increases by 3% for 20 seconds. Stacks up to 10 times",
+        "Release Rangiku's Technique to switch characters immediately, but Rangiku will remain on the field channeling until the effect reaches its peak"
+      ]
+    }
+  },
+  "tier": "B"
+}

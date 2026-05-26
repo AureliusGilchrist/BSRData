@@ -1,0 +1,188 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Grimmjow_Jaegerjaques",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/grimmjow/art.png",
+  "bestStamp": {
+    "setName": "Pantera (4) + Strike (2)",
+    "mainStats": "1: Strike DMG Bonus  •  2: Crit Rate  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+    "notes": "SR Assault — invest only to ascend5, then prefer the SSR Pantera form."
+  },
+  "bondPriority": [
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "Technique can be released 1 additional time. After Grimmjow releases his Ultimate and enters Form of Destruction, switching him to the backline will stop Ultimate Energy from draining. Each point of Spiritual Pressure Reserve doubles Grimmjow's Strike DMG bonus.",
+      "icon": "/Images/grimmjow/boundary-1.png",
+      "level": 1,
+      "name": "Total Annihilation"
+    },
+    {
+      "description": "The Ultimate, Gran Rey Cero, and Enhanced Basic Attack, Form of Destruction, ignore 60% of the enemy's DEF.",
+      "icon": "/Images/grimmjow/boundary-2.png",
+      "level": 2,
+      "name": "Battle Thirst"
+    },
+    {
+      "icon": "/Images/grimmjow/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Increases the damage dealt by Grimmjow's Ultimate, Gran Rey Cero, and Enhanced Basic Attack, Form of Destruction, by 50%. When releasing Ultimate, Gran Rey Cero, additionally inflicts 5 stacks of Destruction Mark to the enemy.",
+      "icon": "/Images/grimmjow/boundary-4.png",
+      "level": 4,
+      "name": "Strongest Cero"
+    },
+    {
+      "icon": "/Images/grimmjow/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "Each time Destruction Mark is detonated, inflicts 1 stack of Battle Mark on the enemy, increasing the damage they take from Grimmjow's Ultimate, Gran Rey Cero, and Enhanced Basic Attack, Form of Destruction, by 7.5%. Lasts 20 seconds, stacking up to 10 times.",
+      "icon": "/Images/grimmjow/boundary-6.png",
+      "level": 6,
+      "name": "Duel of Equals"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "All DMG Dealt/Bonus +9%",
+        "Increase Ultimate DMG +22.5%"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Ready to Go",
+      "setPieces": [
+        {
+          "mainStat": "Strike DMG Bonus \u003e Atk%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate \u003e Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ultimate Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Ultimate Charge Rate \u003e Crit Rate \u003e Crit DMG \u003e Atk% \u003e Atk",
+      "targets": {
+        "ultChargeRate": "Higher = Better"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "Grimmjow's technique, Ultimate, and counterattack apply Destruction Mark to enemies. It can be detonated by basic attacks during the Ultimate, basic attacks chained after a technique or counterattack, granting 1 point of Spiritual Pressure Reserve. Each point of Spiritual Pressure Reserve increases Grimmjow's Basic ASPD and Strike DMG by 3%, up to 5 points. During battle, Grimmjow's Spiritual Pressure continuously drains. The more Spiritual Pressure Reserve he has, the faster it drains. When Spiritual Pressure reaches zero, 1 point of Spiritual Pressure Reserve is automatically deducted. Grimmjow can use his Ultimate once his Ultimate Energy reaches 50%.",
+      "icon": "/Images/grimmjow/passive-1.png",
+      "name": "Worthy Prey"
+    },
+    {
+      "description": "Using Sonido to ram into enemies allows Grimmjow to trigger Perfect Dodge manually. During Form of Destruction, after using his Ultimate, Perfect Dodge also triggers automatically whenever he is attacked. Each trigger increases Grimmjow's Strike DMG by 20% for 20 seconds.",
+      "icon": "/Images/grimmjow/passive-2.png",
+      "name": "Swift and Deadly"
+    },
+    {
+      "description": "During battle, Grimmjow's Strike DMG increases by an amount equal to 15% of his Ultimate Charge Rate.",
+      "icon": "/Images/grimmjow/passive-3.png",
+      "name": "Fervor"
+    },
+    {
+      "description": "When releasing his Ultimate, if Ultimate Energy is above 50%, the excess portion increases the damage of Gran Rey Cero and Enhanced Basic Attack, Form of Destruction, at a certain ratio, up to 100%. Each time Grimmjow defeats an enemy in battle, he gains Spiritual Pressure and Ultimate Energy.",
+      "icon": "/Images/grimmjow/passive-4.png",
+      "name": "Impulse"
+    }
+  ],
+  "damageType": "Strike",
+  "name": "Grimmjow Jaegerjaquez",
+  "rarity": "SR+",
+  "recommendedStopBoundary": 5,
+  "recommendedStopBoundaryF2P": 3,
+  "recommendedStopBoundaryP2W": 5,
+  "releaseDate": "24 Apr 2026",
+  "role": "Assault",
+  "rotations": [
+    {
+      "name": "Rip Combo",
+      "steps": [
+        "Basic ×3",
+        "Technique (Desgarrón)",
+        "Counter on incoming",
+        "Ultimate"
+      ],
+      "tags": [
+        "Sustain"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/grimmjow/skill-basic.png",
+      "kind": "Basic Attack",
+      "name": "Don't Disappoint Me",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/grimmjow/skill-technique.png",
+      "kind": "Technique",
+      "name": "Killing Intent",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/grimmjow/skill-ultimate.png",
+      "kind": "Ultimate",
+      "name": "Form of Destruction",
+      "variant": "Enhanced Basic"
+    },
+    {
+      "description": "",
+      "icon": "/Images/grimmjow/skill-counter.png",
+      "kind": "Counter",
+      "name": "Counter",
+      "variant": null
+    }
+  ],
+  "slug": "grimmjow",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/grimmjow",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "Increases Ultimate Charge Rate by 15%",
+        "Damage dealt by Ultimate, Gran Rey Cero, and Enhanced Basic Attack, Form of Destruction, increases by 37.5%",
+        "Each point of Spiritual Pressure Reserve increases Grimmjow's Crit Rate by 4% and Crit DMG by 8%"
+      ],
+      "ascend5": [
+        "Increases Ultimate Charge Rate by 30%",
+        "Damage dealt by Ultimate, Gran Rey Cero, and Enhanced Basic Attack, Form of Destruction, increases by 75%",
+        "Each point of Spiritual Pressure Reserve increases Grimmjow's Crit Rate by 8% and Crit DMG by 16%"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "In battle, increases ATK by an amount equal to 9% of the character's Ultimate Charge Rate",
+        "When detonating Destruction Mark, deals additional damage equal to 100% of ATK to the enemy. For every 1% Ultimate Charge Rate, the damage is further increased by 0.5%",
+        "Each time Grimmjow's attack hits an enemy, slightly reduces the cooldown of technique and Perfect Dodge"
+      ],
+      "ascend5": [
+        "In battle, increases ATK by an amount equal to 18% of the character's Ultimate Charge Rate",
+        "When detonating Destruction Mark, deals additional damage equal to 100% of ATK to the enemy. For every 1% Ultimate Charge Rate, the damage is further increased by 1%",
+        "Each time Grimmjow's attack hits an enemy, slightly reduces the cooldown of technique and Perfect Dodge"
+      ]
+    }
+  },
+  "tier": "A"
+}

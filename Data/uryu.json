@@ -1,0 +1,166 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Ury%C5%AB_Ishida",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/uryu/art.png",
+  "bestStamp": {
+    "setName": "Quincy Bow (4) + Thrust (2)",
+    "mainStats": "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+    "notes": "Ranged Tactician — arrow stacks scale with Crit DMG."
+  },
+  "bondPriority": [],
+  "boundaries": [
+    {
+      "icon": "/Images/uryu/boundary-1.png",
+      "level": 1
+    },
+    {
+      "icon": "/Images/uryu/boundary-2.png",
+      "level": 2
+    },
+    {
+      "icon": "/Images/uryu/boundary-3.png",
+      "level": 3
+    },
+    {
+      "icon": "/Images/uryu/boundary-4.png",
+      "level": 4
+    },
+    {
+      "icon": "/Images/uryu/boundary-5.png",
+      "level": 5
+    },
+    {
+      "icon": "/Images/uryu/boundary-6.png",
+      "level": 6
+    }
+  ],
+  "builds": [
+    {
+      "label": "P2W (value ceiling)",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B4W5C5",
+      "setName": "Quincy Bow (4) + Thrust (2)",
+      "setPieces": [
+        {
+          "mainStat": "Thrust DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+    },
+    {
+      "label": "F2P (practical stop)",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B5W5C5",
+      "setName": "Quincy Bow (4) + Thrust (2)",
+      "setPieces": [
+        {
+          "mainStat": "Thrust DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "",
+      "icon": "/Images/uryu/passive-1.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/uryu/passive-2.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/uryu/passive-3.png",
+      "name": ""
+    }
+  ],
+  "damageType": "Thrust",
+  "name": "Uryu Ishida",
+  "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
+  "rarity": "SR",
+  "recommendedStopBoundary": 4,
+  "recommendedStopBoundaryF2P": 5,
+  "recommendedStopBoundaryP2W": 4,
+  "releaseDate": "21 Nov 2025",
+  "role": "Tactician",
+  "rotations": [
+    {
+      "name": "Arrow Volley",
+      "steps": [
+        "Basic ×3 (build Reishi)",
+        "Technique (Heilig Pfeil)",
+        "Ultimate (Licht Regen)",
+        "Counter"
+      ],
+      "tags": [
+        "Sustain"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/uryu/skill-basic.png",
+      "kind": "basic",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/uryu/skill-technique.png",
+      "kind": "technique",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/uryu/skill-ultimate.png",
+      "kind": "ultimate",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/uryu/skill-counter.png",
+      "kind": "counter",
+      "name": ""
+    }
+  ],
+  "slug": "uryu",
+  "source": null,
+  "stamps": {
+    "core": {
+      "ascend1": [],
+      "ascend5": []
+    },
+    "weapon": {
+      "ascend1": [],
+      "ascend5": []
+    }
+  },
+  "tier": "C"
+}

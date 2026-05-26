@@ -1,0 +1,191 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Urahara_Kisuke",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/kisuke/art.png",
+  "bestStamp": {
+    "setName": "Benihime (4) + Atk (2)",
+    "mainStats": "1: Atk%  •  2: Crit Rate  •  3: Ult Charge Rate",
+    "subStatPriority": "Ult Charge Rate \u003e Crit Rate \u003e Atk% \u003e Crit DMG",
+    "notes": "S+ Support — Ult Charge Rate to keep his team-wide ATK% buff on permanent uptime."
+  },
+  "bondPriority": [
+    {
+      "description": "During battle, teammates other than yourself gain 40% Crit DMG. Unstackable.",
+      "name": "Mayuri Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "Upon gaining Reishi Analysis, gains 10% extra Slash DMG Bonus.",
+      "icon": "/Images/kisuke/boundary-1.png",
+      "level": 1,
+      "name": "Vanished Mystery"
+    },
+    {
+      "description": "Enemies near Portable Gigai receive 15% more DMG for 6s. Taking Explosion DMG from Portable Gigai refreshes the duration.",
+      "icon": "/Images/kisuke/boundary-2.png",
+      "level": 2,
+      "name": "Sinless Sin"
+    },
+    {
+      "icon": "/Images/kisuke/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Reduces the cooldown of the Ultimate by 5s.",
+      "icon": "/Images/kisuke/boundary-4.png",
+      "level": 4,
+      "name": "Carefree"
+    },
+    {
+      "icon": "/Images/kisuke/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "Each stack of Reishi Analysis increases Urahara's Crit Rate by an extra 10% and Crit DMG by an extra 10%.",
+      "icon": "/Images/kisuke/boundary-6.png",
+      "level": 6,
+      "name": "Benihime's Scream"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Hidden Wisdom",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus OR Atk% OR any other",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG !ONLY!",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ult Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e\u003e\u003e Atk% \u003e Atk",
+      "targets": {
+        "ultChargeRate": "Main stat on 3rd stamp"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "Whenever Urahara releases his special attack, technique, Ultimate, or counterattack, grants 1 stack of Reishi Analysis to the team. Each stack increases the team's ATK by 10% for 25 seconds, up to 3 stacks.",
+      "icon": "/Images/kisuke/passive-1.png",
+      "name": "Reishi Analysis"
+    },
+    {
+      "description": "Urahara gains an extra 100% Spiritual Pressure when releasing a technique.",
+      "icon": "/Images/kisuke/passive-2.png",
+      "name": "Battlefield Observation"
+    },
+    {
+      "description": "Urahara's Ultimate Energy Charge Rate increases by 20%.",
+      "icon": "/Images/kisuke/passive-3.png",
+      "name": "Kido Master"
+    },
+    {
+      "description": "Whenever Urahara releases a special attack, increases the next Ultimate DMG by 20%, stacking up to 4 times.",
+      "icon": "/Images/kisuke/passive-4.png",
+      "name": "Spiritual Power Up"
+    }
+  ],
+  "damageType": "Slash",
+  "name": "Kisuke Urahara",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 2,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "21 Nov 2025",
+  "role": "Support",
+  "rotations": [
+    {
+      "name": "Buff Loop",
+      "notes": "His buff window IS the team's burst window — line up DPS Ult inside it.",
+      "steps": [
+        "Enter front-line",
+        "Technique (apply blood mist)",
+        "Ultimate (team ATK buff)",
+        "Swap to main DPS",
+        "Swap back on cooldown to refresh"
+      ],
+      "tags": [
+        "Sustain",
+        "Boss"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/kisuke/skill-basic.png",
+      "kind": "Basic Attack",
+      "name": "Awaken, Benihime",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/kisuke/skill-technique.png",
+      "kind": "Technique",
+      "name": "Portable Gigai",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/kisuke/skill-ultimate.png",
+      "kind": "Ultimate",
+      "name": "Hado Number 91: Senjukotentaiho",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/kisuke/skill-counter.png",
+      "kind": "Counter",
+      "name": "Counter",
+      "variant": null
+    }
+  ],
+  "slug": "kisuke",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/kisuke",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "After Ultimate: enter stealth 5s, technique replaced with Bakudo No.4: Hainawa",
+        "Hainawa: pulls enemies for 6s, 560% ATK, then 25% of DMG received (up to Base ATK x20,000%)",
+        "Releasing Hainawa also grants 1 Reishi Analysis to team"
+      ],
+      "ascend5": [
+        "After Ultimate: enter stealth 5s, technique replaced with Bakudo No.4: Hainawa",
+        "Hainawa: pulls enemies for 6s, 1120% ATK, then 50% of DMG received (up to Base ATK x40,000%)",
+        "Releasing Hainawa also grants 1 Reishi Analysis to team"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "Releasing special attacks generates an additional sword wave which also grants 1 stack of Reishi Analysis to the entire team",
+        "Increases maximum Reishi Analysis stacks to 6",
+        "Increases special attack DMG by 15%"
+      ],
+      "ascend5": [
+        "Releasing special attacks generates an additional sword wave which also grants 1 stack of Reishi Analysis to the entire team",
+        "Increases maximum Reishi Analysis stacks to 6",
+        "Increases special attack DMG by 40%"
+      ]
+    }
+  },
+  "tier": "S"
+}

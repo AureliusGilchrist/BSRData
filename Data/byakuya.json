@@ -1,0 +1,205 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Kuchiki_Byakuya",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "affiliation": "Shinigami",
+  "art": "/Images/byakuya/art.png",
+  "bestStamp": {
+    "setName": "Senbonzakura (4) + Crit (2)",
+    "mainStats": "1: Slash DMG Bonus  •  2: Crit Rate / Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+    "notes": "Tactician hybrid — keep enough Ult Charge Rate (~110%) so Senbonzakura petals refresh between waves."
+  },
+  "bondPriority": [],
+  "boundaries": [
+    {
+      "description": "When Byakuya releases the Ultimate, he instantly gains 30% Spiritual Pressure.",
+      "icon": "/Images/byakuya/boundary-1.png",
+      "level": 1
+    },
+    {
+      "description": "When in the Bankai state, each time Byakuya uses a technique, he will gain 1 stack of Determination based on the number of successful hits landed. Each stack of Determination increases all of Byakuya's damage by 2% for 12 seconds and stacks up to 14 times. When Determination reaches more than 8 stacks, Byakuya gains an additional 40% Critical DMG.",
+      "icon": "/Images/byakuya/boundary-2.png",
+      "level": 2
+    },
+    {
+      "description": "Increases Level of Basic Attack, Technique, Ultimate, Counterattack, and Battlefield Skill by 2.",
+      "icon": "/Images/byakuya/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Techniques deal 100% more damage.",
+      "icon": "/Images/byakuya/boundary-4.png",
+      "level": 4
+    },
+    {
+      "description": "Increases Level of Basic Attack, Technique, Ultimate, Counterattack, and Battlefield Skill by 2.",
+      "icon": "/Images/byakuya/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "When Byakuya uses his technique in the Bankai state, his Spiritual Pressure will be consumed 50% slower.",
+      "icon": "/Images/byakuya/boundary-6.png",
+      "level": 6
+    }
+  ],
+  "builds": [
+    {
+      "label": "P2W (value ceiling)",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B5W5C5",
+      "setName": "Senbonzakura (4) + Crit (2)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate / Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+    },
+    {
+      "label": "F2P (practical stop)",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B1W5C5",
+      "setName": "Senbonzakura (4) + Crit (2)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate / Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+    }
+  ],
+  "color": "Red",
+  "corePassives": [
+    {
+      "description": "Releasing the Battlefield Skill, Thousand Blade Funeral, reduces Byakuya's technique cooldown by 1.5 seconds. Each time he releases a technique, he deals 20% more damage with his next Battlefield Skill. This effect lasts 3.5 seconds and stacks up to 4 times.",
+      "icon": "/Images/byakuya/passive-1.png",
+      "name": "Flawless"
+    },
+    {
+      "description": "Byakuya deals 15% more Slash DMG with all of his attacks while he's off-field.",
+      "icon": "/Images/byakuya/passive-2.png",
+      "name": "Noble Dignity"
+    },
+    {
+      "description": "Releasing and Ultimate attack or the Basic Attack Piercing Blade inflicts all enemies with Senka, reducing their slash resistance by 30% for 15 seconds.",
+      "icon": "/Images/byakuya/passive-3.png",
+      "name": "Senka"
+    },
+    {
+      "description": "The Battlefield Skill, Thousand Blade Funeral, inflicts 1 stack of Slaughter on hit. Each stack fo Slaughter reduces the enemy's Slash Resistance by 6.75% for 6 seconds, stacking up to 4 times.",
+      "icon": "/Images/byakuya/passive-4.png",
+      "name": "Peerless"
+    }
+  ],
+  "damageType": "Slash",
+  "limited": "Permanent",
+  "name": "Byakuya Kuchiki",
+  "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 5,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 5,
+  "releaseDate": "21 Nov 2025",
+  "role": "Tactician",
+  "rotations": [
+    {
+      "name": "Petal Burst Opener",
+      "notes": "Layer the petal field early — damage scales while he's off-field, making him perfect for rotations.",
+      "steps": [
+        "Front-line entry → Basic ×3",
+        "Technique (Scatter, Senbonzakura)",
+        "Ultimate at full charge",
+        "Battlefield Skill while petals stack",
+        "Swap out to retain petal field"
+      ],
+      "tags": [
+        "Burst"
+      ]
+    },
+    {
+      "name": "Off-field Pressure",
+      "steps": [
+        "Open with petal field, swap to main DPS",
+        "Swap back for counter / refresh petals"
+      ],
+      "tags": [
+        "Sustain"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "Byakuya slashes the enemy in front with Senbonzakura up to 4 times, dealing damage equal to 194%~???% of ATK. Dancing Petals (Bankai Basic Attack): Byakuya wields the blade formed by sakura petals and attacks the enemy up to 5 times, dealing damage equal to 410%~???% of ATK and accumulating Spiritual Pressure on hit. Piercing Blade (In Bankai state, press and hold basic attack when Spiritual Pressure is 50% or higher): Byakuya controls the Sakura Blade to release a continous shockwave on the enemy, consuming Spiritual Pressure over time and dealing damage equal to 594%~???% of ATK. When the attack ends, deals extra damage equal to 360%~???% of ATK. While active, pauses all of Byakuya's status timers. Removes Bankai when the attack ends.",
+      "icon": "/Images/byakuya/skill-1.png",
+      "kind": "Basic Attack",
+      "name": "Zanjustu"
+    },
+    {
+      "description": "Senbonzakura's blade scatters into countless tiny sharp pieces that strike the enemy after 3.5 seconds, dealing damage equal to 287%~???% of ATK. During this time, you can switch on-field characters, and Byakuya will remain on the field until the attack completes. While Byakuya's Battlefield Skill is active, releasing this technique grants 4 Battlefield Skill Energy.",
+      "icon": "/Images/byakuya/skill-2.png",
+      "kind": "Technique",
+      "name": "Scatter, Senbonzakura"
+    },
+    {
+      "description": "Byakuya fully splits the blade into tiny blades and strikes multiple times faster than Shikai, dealing damage equal to 264~???% of ATK. He then enters the Bankai state, enhancing both of his basic attacks and techniques. The Bankai state lasts 15 seconds and remains active even if Byakuya is switched out.",
+      "icon": "/Images/byakuya/skill-3.png",
+      "kind": "Ultimate",
+      "name": "Bankai - Senbonsakura Kageyoshi"
+    },
+    {
+      "description": "",
+      "icon": "/Images/byakuya/skill-counter.png",
+      "kind": "counter",
+      "name": ""
+    }
+  ],
+  "slug": "byakuya",
+  "source": null,
+  "stamps": {
+    "core": {
+      "ascend1": [],
+      "ascend5": []
+    },
+    "weapon": {
+      "ascend1": [],
+      "ascend5": []
+    }
+  },
+  "stats": {
+    "atk": "333",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "325",
+    "hp": "1636"
+  },
+  "tier": "D",
+  "weaponStats": {
+    "atk": "200",
+    "def": "118",
+    "hp": "588"
+  },
+  "wikiSource": "https://bleachsoulresonance.wiki.gg/wiki/Byakuya_Kuchiki"
+}

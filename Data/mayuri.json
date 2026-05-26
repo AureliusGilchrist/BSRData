@@ -1,0 +1,192 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Kurotsuchi_Mayuri",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/mayuri/art.png",
+  "bestStamp": {
+    "setName": "Konjiki Ashisogi (4) + Spirit (2)",
+    "mainStats": "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Ult Charge Rate",
+    "notes": "S-tier debuffer/poison — poison ticks off Atk%, so stack it."
+  },
+  "bondPriority": [
+    {
+      "description": "During battle, teammates other than yourself gain 40% Crit DMG. Unstackable.",
+      "name": "Mayuri Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "Excitement can now stack up 4 times.",
+      "icon": "/Images/mayuri/boundary-1.png",
+      "level": 1,
+      "name": "Seeker's Heart"
+    },
+    {
+      "description": "Increases the Spiritual Pressure Charge Rate by 50% and the efficiency of inflicting Poison Scale to enemies by 100%. Increases the damage bonuses for Superhuman Potion and Double-Barreled by an extra 5%.",
+      "icon": "/Images/mayuri/boundary-2.png",
+      "level": 2,
+      "name": "Collapsed Functionality"
+    },
+    {
+      "icon": "/Images/mayuri/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Increases the entire team's Ailment DMG Bonus equal to 20% of Mayuri Kurotsuchi's Ultimate Charge Rate, up to 50%.",
+      "icon": "/Images/mayuri/boundary-4.png",
+      "level": 4,
+      "name": "Absolute Madness"
+    },
+    {
+      "icon": "/Images/mayuri/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "Increases the Spiritual Pressure Reduction effect of Flesh Bomb and Double-Barreled when hitting enemies by an extra 50%. Increases the damage dealt by 10% when hitting enemies affected by Spiritual Pressure Dissipation.",
+      "icon": "/Images/mayuri/boundary-6.png",
+      "level": 6,
+      "name": "Depletion Engraftment"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Sample Collection",
+      "setPieces": [
+        {
+          "mainStat": "Thrust DMG Bonus OR Any Other",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate OR Atk% OR Any Other",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ultimate Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Ultimate Charge Rate \u003e Ailment DMG Bonus \u003e Crit Rate / Crit DMG / Atk%",
+      "targets": {
+        "ultChargeRate": "250%+"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "All of Mayuri Kurotsuchi's damage-dealing attacks apply a certain amount of Poison Scale to enemies. When it reaches 100, the Poison debuff is triggered once, dealing damage equal to 100% of ATK. Each time Poison is triggered, all characters in the team gain 1 stack of Excitement, increasing their Ailment Mastery by 7.5% for 15 seconds, up to 3 stacks.",
+      "icon": "/Images/mayuri/passive-1.png",
+      "name": "Toxin Encroachment"
+    },
+    {
+      "description": "Increases Mayuri Kurotsuchi's Ultimate Charge Rate during battle by 50%.",
+      "icon": "/Images/mayuri/passive-2.png",
+      "name": "Research Obsession"
+    },
+    {
+      "description": "Increases Mayuri Kurotsuchi's Ailment DMG Bonus during battle by 75%.",
+      "icon": "/Images/mayuri/passive-3.png",
+      "name": "Formulation"
+    },
+    {
+      "description": "Each time a debuff on an enemy is triggered, the Crit DMG of the one who triggered it is increased by 100% for 30 seconds. Unstackable.",
+      "icon": "/Images/mayuri/passive-4.png",
+      "name": "Terror"
+    }
+  ],
+  "damageType": "Thrust",
+  "name": "Kurotsuchi Mayuri",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 5,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 5,
+  "releaseDate": "13 Mar 2026",
+  "role": "Support",
+  "rotations": [
+    {
+      "name": "Poison Setup",
+      "notes": "His best damage comes off-field — apply poison and rotate.",
+      "steps": [
+        "Technique (apply poison/decay)",
+        "Basic ×3 (stack debuff)",
+        "Ultimate (Bankai)",
+        "Swap out — poison ticks off-field"
+      ],
+      "tags": [
+        "Sustain",
+        "Boss"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/mayuri/skill-basic.png",
+      "kind": "Basic Attack",
+      "name": "Claw out, Ashisogi Jizo",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/mayuri/skill-technique.png",
+      "kind": "Technique",
+      "name": "Double-Barreled",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/mayuri/skill-ultimate.png",
+      "kind": "Ultimate",
+      "name": "Bankai: Konjiki Ashisogijizo",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/mayuri/skill-counter.png",
+      "kind": "Counter",
+      "name": "Counter",
+      "variant": null
+    }
+  ],
+  "slug": "mayuri",
+  "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/mayuri",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "Increases Ultimate DMG by 75%",
+        "Each stack of Excitement grants an extra 5% ATK to the entire team",
+        "The Crit DMG granted by Terror is additionally increased by 80%",
+        "When receiving fatal damage, transforms into a puddle of green liquid and revives after a short while with full Spiritual Pressure and Ultimate Energy. Cooldown: 120 seconds"
+      ],
+      "ascend5": [
+        "Increases Ultimate DMG by 150%",
+        "Each stack of Excitement grants an extra 10% ATK to the entire team",
+        "The Crit DMG granted by Terror is additionally increased by 160%",
+        "When receiving fatal damage, transforms into a puddle and revives with full SP and Ultimate Energy. Cooldown: 120 seconds"
+      ]
+    },
+    "weapon": {
+      "ascend1": [
+        "When the battle begins, increases Ultimate Energy and Spiritual Pressure to the maximum",
+        "Increases Technique DMG by 50% and healing effects by 25%",
+        "When releasing the Ultimate, increases the entire team's All-Skill Mastery by an extra 5% and Ailment Mastery by 10%"
+      ],
+      "ascend5": [
+        "When the battle begins, increases Ultimate Energy and Spiritual Pressure to the maximum",
+        "Increases Technique DMG by 100% and healing effects by 50%",
+        "When releasing the Ultimate, increases the entire team's All-Skill Mastery by an extra 10% and Ailment Mastery by 20%"
+      ]
+    }
+  },
+  "tier": "S"
+}
