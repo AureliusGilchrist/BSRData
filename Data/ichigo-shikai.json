@@ -44,7 +44,7 @@
     {
       "label": "Main",
       "passiveSkills": [],
-      "range": "B0W1C1 - B5W5C5",
+      "range": "B0W1C1 - B6W5C5",
       "setName": "Zangetsu (4) + Slash (2)",
       "setPieces": [
         {
@@ -84,9 +84,9 @@
   "name": "Ichigo Kurosaki (Shikai)",
   "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
   "rarity": "SR",
-  "recommendedStopBoundary": 5,
-  "recommendedStopBoundaryF2P": 5,
-  "recommendedStopBoundaryP2W": 5,
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 6,
+  "recommendedStopBoundaryP2W": 6,
   "releaseDate": "21 Nov 2025",
   "role": "Full Assault",
   "rotations": [

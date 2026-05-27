@@ -44,7 +44,7 @@
     {
       "label": "P2W (value ceiling)",
       "passiveSkills": [],
-      "range": "B0W1C1 - B4W5C5",
+      "range": "B0W1C1 - B6W5C5",
       "setName": "Quincy Bow (4) + Thrust (2)",
       "setPieces": [
         {
@@ -105,9 +105,9 @@
   "name": "Uryu Ishida",
   "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
   "rarity": "SR",
-  "recommendedStopBoundary": 4,
+  "recommendedStopBoundary": 6,
   "recommendedStopBoundaryF2P": 5,
-  "recommendedStopBoundaryP2W": 4,
+  "recommendedStopBoundaryP2W": 6,
   "releaseDate": "21 Nov 2025",
   "role": "Tactician",
   "rotations": [

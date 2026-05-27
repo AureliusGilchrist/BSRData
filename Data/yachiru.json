@@ -106,9 +106,9 @@
   "damageType": "Slash",
   "name": "Yachiru Kusajishi",
   "rarity": "SR",
-  "recommendedStopBoundary": 5,
+  "recommendedStopBoundary": 6,
   "recommendedStopBoundaryF2P": 5,
-  "recommendedStopBoundaryP2W": 5,
+  "recommendedStopBoundaryP2W": 6,
   "releaseDate": "21 Nov 2025",
   "role": "Support",
   "rotations": [

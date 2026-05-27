@@ -42,7 +42,28 @@
   ],
   "builds": [
     {
-      "label": "Main",
+      "label": "P2W (value ceiling)",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Zabimaru (4) + Slash (2)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk"
+    },
+    {
+      "label": "F2P (practical stop)",
       "passiveSkills": [],
       "range": "B0W1C1 - B5W5C5",
       "setName": "Zabimaru (4) + Slash (2)",
@@ -84,9 +105,9 @@
   "name": "Renji Abarai",
   "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
   "rarity": "SR",
-  "recommendedStopBoundary": 5,
+  "recommendedStopBoundary": 6,
   "recommendedStopBoundaryF2P": 5,
-  "recommendedStopBoundaryP2W": 5,
+  "recommendedStopBoundaryP2W": 6,
   "releaseDate": "21 Nov 2025",
   "role": "Full Assault",
   "rotations": [

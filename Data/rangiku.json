@@ -106,9 +106,9 @@
   "damageType": "Thrust",
   "name": "Rangiku Matsumoto",
   "rarity": "SR",
-  "recommendedStopBoundary": 5,
+  "recommendedStopBoundary": 6,
   "recommendedStopBoundaryF2P": 5,
-  "recommendedStopBoundaryP2W": 5,
+  "recommendedStopBoundaryP2W": 6,
   "releaseDate": "23 Jan 2026",
   "role": "Support",
   "rotations": [
