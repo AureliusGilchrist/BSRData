@@ -1175,7 +1175,7 @@ func main() {
 		// "Full Assault/DPS" but mechanically that's identical to Assault.
 		// Collapse the redundant label so filters and counts work cleanly.
 		if rs, ok := obj["role"].(string); ok && rs == "Assault" {
-			obj["role"] = "Full Assault"
+			obj["role"] = "Full Assault / DPS"
 		}
 		// Release date is now written directly by the scraper (extracted from
 		// the Spanish wiki's "Release Date" template field, Global value). No
