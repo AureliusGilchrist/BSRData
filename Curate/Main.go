@@ -143,7 +143,6 @@ var tierBySlug = map[string]string{
 // Per-character curated data.
 
 var curation = map[string]CharacterCuration{
-
 	"aizen": {
 		StopBoundaryP2W: 6,
 		StopBoundaryF2P: 2,
@@ -687,7 +686,7 @@ var teams = []Team{
 		Difficulty: "Medium",
 		Content:    "Boss / Trial Tower / Co-op",
 		Members: []TeamMember{
-			{Slug: "toshiro", Name: "Toshiro Hitsugaya", Role: "Full Assault/DPS", DamageType: "Spirit",
+			{Slug: "toshiro", Name: "Toshiro Hitsugaya", Role: "Assault", DamageType: "Spirit",
 				Notes: []string{
 					"S+ Spirit DPS — main damage",
 					"Frost stack detonator inside Aizen's pressure window",
@@ -720,7 +719,7 @@ var teams = []Team{
 		Difficulty: "Easy",
 		Content:    "Boss / Story / Co-op",
 		Members: []TeamMember{
-			{Slug: "ichigo-bankai", Name: "Ichigo Kurosaki (Bankai)", Role: "Full Assault/DPS", DamageType: "Slash",
+			{Slug: "ichigo-bankai", Name: "Ichigo Kurosaki (Bankai)", Role: "Assault", DamageType: "Slash",
 				Notes: []string{
 					"S+ Slash DPS — Getsuga burst",
 					"Carries buffs through swap-in",
@@ -821,7 +820,7 @@ var teams = []Team{
 		Difficulty: "Hard",
 		Content:    "End-game / Whale comp",
 		Members: []TeamMember{
-			{Slug: "ichigo-bankai", Name: "Ichigo Kurosaki (Bankai)", Role: "Full Assault/DPS", DamageType: "Slash",
+			{Slug: "ichigo-bankai", Name: "Ichigo Kurosaki (Bankai)", Role: "Assault", DamageType: "Slash",
 				Notes: []string{
 					"S+ Slash DPS — highest single-target ceiling",
 					"Swap to Toshiro for an all-Spirit shift",
@@ -924,7 +923,7 @@ var teams = []Team{
 					"Frozen target = burst window for any Spirit DPS",
 				},
 				Swappable: []string{"aizen", "byakuya"}},
-			{Slug: "toshiro", Name: "Toshiro Hitsugaya", Role: "Full Assault/DPS", DamageType: "Spirit",
+			{Slug: "toshiro", Name: "Toshiro Hitsugaya", Role: "Assault", DamageType: "Spirit",
 				Notes: []string{
 					"S+ Spirit DPS — bonus damage on frozen",
 					"Frost stack synergy with Rukia",
@@ -1171,6 +1170,12 @@ func main() {
 		// override — the scraper has no tier data; edit the map to re-rank.
 		if t, ok := tierBySlug[slug]; ok {
 			obj["tier"] = t
+		}
+		// Role normalization: the wiki labels Toshiro and Ichigo (Bankai) as
+		// "Full Assault/DPS" but mechanically that's identical to Assault.
+		// Collapse the redundant label so filters and counts work cleanly.
+		if rs, ok := obj["role"].(string); ok && rs == "Assault" {
+			obj["role"] = "Full Assault"
 		}
 		// Release date is now written directly by the scraper (extracted from
 		// the Spanish wiki's "Release Date" template field, Global value). No

@@ -10,7 +10,7 @@
       {
         "slug": "toshiro",
         "name": "Toshiro Hitsugaya",
-        "role": "Full Assault/DPS",
+        "role": "Assault",
         "damageType": "Spirit",
         "notes": [
           "S+ Spirit DPS — main damage",
@@ -66,7 +66,7 @@
       {
         "slug": "ichigo-bankai",
         "name": "Ichigo Kurosaki (Bankai)",
-        "role": "Full Assault/DPS",
+        "role": "Assault",
         "damageType": "Slash",
         "notes": [
           "S+ Slash DPS — Getsuga burst",
@@ -235,7 +235,7 @@
       {
         "slug": "ichigo-bankai",
         "name": "Ichigo Kurosaki (Bankai)",
-        "role": "Full Assault/DPS",
+        "role": "Assault",
         "damageType": "Slash",
         "notes": [
           "S+ Slash DPS — highest single-target ceiling",
@@ -406,7 +406,7 @@
       {
         "slug": "toshiro",
         "name": "Toshiro Hitsugaya",
-        "role": "Full Assault/DPS",
+        "role": "Assault",
         "damageType": "Spirit",
         "notes": [
           "S+ Spirit DPS — bonus damage on frozen",

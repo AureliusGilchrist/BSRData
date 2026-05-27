@@ -22,7 +22,7 @@
   {
     "slug": "chad",
     "name": "Yasutora Sado (Chad)",
-    "role": "Assault",
+    "role": "Full Assault",
     "tier": "D",
     "damageType": "Strike",
     "rarity": "SR",
@@ -32,7 +32,7 @@
   {
     "slug": "gin",
     "name": "Gin Ichimaru",
-    "role": "Assault",
+    "role": "Full Assault",
     "tier": "S",
     "damageType": "Thrust",
     "rarity": "SSR",
@@ -42,7 +42,7 @@
   {
     "slug": "grimmjow",
     "name": "Grimmjow Jaegerjaquez",
-    "role": "Assault",
+    "role": "Full Assault",
     "tier": "A",
     "damageType": "Strike",
     "rarity": "SR+",
@@ -52,7 +52,7 @@
   {
     "slug": "grimmjow-pantera",
     "name": "Grimmjow Jaegerjaquez (Pantera)",
-    "role": "Assault",
+    "role": "Full Assault",
     "tier": "S",
     "damageType": "Strike",
     "rarity": "SSR",
@@ -72,7 +72,7 @@
   {
     "slug": "ichigo-initial",
     "name": "Ichigo Kurosaki (Initial)",
-    "role": "Assault",
+    "role": "Full Assault",
     "tier": "D",
     "damageType": "Slash",
     "rarity": "SR",
@@ -82,7 +82,7 @@
   {
     "slug": "ichigo-shikai",
     "name": "Ichigo Kurosaki (Shikai)",
-    "role": "Assault",
+    "role": "Full Assault",
     "tier": "C",
     "damageType": "Slash",
     "rarity": "SR",
@@ -92,7 +92,7 @@
   {
     "slug": "ikkaku",
     "name": "Ikkaku Madarame",
-    "role": "Assault",
+    "role": "Full Assault",
     "tier": "B",
     "damageType": "Thrust",
     "rarity": "SSR",
@@ -102,7 +102,7 @@
   {
     "slug": "kenpachi",
     "name": "Kenpachi Zaraki",
-    "role": "Assault",
+    "role": "Full Assault",
     "tier": "A",
     "damageType": "Slash",
     "rarity": "SSR",
@@ -122,7 +122,7 @@
   {
     "slug": "komamura",
     "name": "Sajin Komamura",
-    "role": "Assault",
+    "role": "Full Assault",
     "tier": "C",
     "damageType": "Strike",
     "rarity": "SSR",
@@ -192,7 +192,7 @@
   {
     "slug": "renji",
     "name": "Renji Abarai",
-    "role": "Assault",
+    "role": "Full Assault",
     "tier": "D",
     "damageType": "Slash",
     "rarity": "SR",
@@ -282,7 +282,7 @@
   {
     "slug": "yoruichi",
     "name": "Yoruichi Shihoin",
-    "role": "Assault",
+    "role": "Full Assault",
     "tier": "B",
     "damageType": "Strike",
     "rarity": "SSR",
