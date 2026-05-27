@@ -96,7 +96,6 @@ var rarityBySlug = map[string]string{
 // and on character cards. The scraper does not derive this from the wiki; edit
 // this map by hand to re-rank a character. Valid values: "S+", "S", "A", "B", "C".
 var tierBySlug = map[string]string{
-	// S — must-build / meta-defining
 	"aizen":	        "S",
 	"gin": 	    	    "S",
 	"kisuke":      	 	"S",
@@ -107,7 +106,6 @@ var tierBySlug = map[string]string{
 	"grimmjow-pantera": "S",
 	"szayelaporro": 	"S",
 
-	// A — strong pick	
 	"kenpachi":     	"A",
 	"grimmjow":         "A",
 	"ichigo-bankai":    "A",
@@ -117,14 +115,13 @@ var tierBySlug = map[string]string{
 	"momo":             "B",
 	"rangiku":          "B",
 	"yoruichi": 		"B",
-	"ikkaku":   		"B",
-	// B — situational
+
+	"ikkaku":   		"C",
 	"rukia":            "C",
 	"komamura": 		"C",
 	"uryu":           	"C",
 	"ichigo-shikai":  	"C",
 
-	// C — niche / starter
 	"chad":           	"D",
 	"ichigo-initial": 	"D",
 	"orihime":        	"D",
