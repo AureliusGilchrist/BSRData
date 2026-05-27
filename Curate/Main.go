@@ -232,7 +232,7 @@ var curation = map[string]CharacterCuration{
 
 	"gin": {
 		StopBoundaryP2W: 6,
-		StopBoundaryF2P: 1,
+		StopBoundaryF2P: 2,
 		BestStamp: BestStamp{
 			SetName:         "Shinso (4) + Thrust (2)",
 			MainStats:       "1: Thrust DMG Bonus > Atk%  •  2: Crit DMG  •  3: Atk%",
@@ -331,7 +331,7 @@ var curation = map[string]CharacterCuration{
 	},
 
 	"ichigo-initial": {
-		StopBoundaryP2W: 5,
+		StopBoundaryP2W: 6,
 		StopBoundaryF2P: 6,
 		BestStamp: BestStamp{
 			SetName:         "Substitute Shinigami (4) + Slash (2)",
@@ -345,8 +345,8 @@ var curation = map[string]CharacterCuration{
 	},
 
 	"ichigo-shikai": {
-		StopBoundaryP2W: 5,
-		StopBoundaryF2P: 5,
+		StopBoundaryP2W: 6,
+		StopBoundaryF2P: 6,
 		BestStamp: BestStamp{
 			SetName:         "Zangetsu (4) + Slash (2)",
 			MainStats:       "1: Slash DMG Bonus  •  2: Crit DMG  •  3: Atk%",
@@ -462,7 +462,7 @@ var curation = map[string]CharacterCuration{
 	},
 
 	"nemu": {
-		StopBoundaryP2W: 5,
+		StopBoundaryP2W: 6,
 		StopBoundaryF2P: 5,
 		BestStamp: BestStamp{
 			SetName:         "Synthetic Body (4) + Atk (2)",
@@ -490,7 +490,7 @@ var curation = map[string]CharacterCuration{
 	},
 
 	"rangiku": {
-		StopBoundaryP2W: 5,
+		StopBoundaryP2W: 6,
 		StopBoundaryF2P: 5,
 		BestStamp: BestStamp{
 			SetName:         "Haineko (4) + Thrust (2)",
@@ -504,7 +504,7 @@ var curation = map[string]CharacterCuration{
 	},
 
 	"renji": {
-		StopBoundaryP2W: 5,
+		StopBoundaryP2W: 6,
 		StopBoundaryF2P: 5,
 		BestStamp: BestStamp{
 			SetName:         "Zabimaru (4) + Slash (2)",
@@ -518,7 +518,7 @@ var curation = map[string]CharacterCuration{
 	},
 
 	"rukia": {
-		StopBoundaryP2W: 5,
+		StopBoundaryP2W: 6,
 		StopBoundaryF2P: 5,
 		BestStamp: BestStamp{
 			SetName:         "Sode no Shirayuki (4) + Spirit (2)",
@@ -533,7 +533,7 @@ var curation = map[string]CharacterCuration{
 
 	"soi-fon": {
 		StopBoundaryP2W: 6,
-		StopBoundaryF2P: 1,
+		StopBoundaryF2P: 4,
 		BestStamp: BestStamp{
 			SetName:         "Suzumebachi (4) + Strike (2)",
 			MainStats:       "1: Strike DMG Bonus  •  2: Crit DMG  •  3: Atk%",
@@ -547,7 +547,7 @@ var curation = map[string]CharacterCuration{
 
 	"szayelaporro": {
 		StopBoundaryP2W: 5,
-		StopBoundaryF2P: 1,
+		StopBoundaryF2P: 2,
 		BestStamp: BestStamp{
 			SetName:         "Fornicarás (4) + Spirit (2)",
 			MainStats:       "1: Spirit DMG Bonus  •  2: Crit Rate  •  3: Ult Charge Rate",
@@ -605,7 +605,7 @@ var curation = map[string]CharacterCuration{
 	},
 
 	"ururu": {
-		StopBoundaryP2W: 5,
+		StopBoundaryP2W: 6,
 		StopBoundaryF2P: 5,
 		BestStamp: BestStamp{
 			SetName:         "Cannon (4) + Spirit (2)",
@@ -619,7 +619,7 @@ var curation = map[string]CharacterCuration{
 	},
 
 	"uryu": {
-		StopBoundaryP2W: 4,
+		StopBoundaryP2W: 6,
 		StopBoundaryF2P: 5,
 		BestStamp: BestStamp{
 			SetName:         "Quincy Bow (4) + Thrust (2)",
@@ -633,7 +633,7 @@ var curation = map[string]CharacterCuration{
 	},
 
 	"yachiru": {
-		StopBoundaryP2W: 5,
+		StopBoundaryP2W: 6,
 		StopBoundaryF2P: 5,
 		BestStamp: BestStamp{
 			SetName:         "Sanbe Kawaki (4) + Slash (2)",
