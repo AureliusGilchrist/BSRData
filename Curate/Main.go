@@ -142,11 +142,11 @@ var tierBySlug = map[string]string{
 var curation = map[string]CharacterCuration{
 	"aizen": {
 		StopBoundaryP2W: 6,
-		StopBoundaryF2P: 2,
+		StopBoundaryF2P: 1,
 		BestStamp: BestStamp{
 			SetName:         "Immeasurable Gap (4) + Spirit DMG (2)",
-			MainStats:       "1: Spirit DMG Bonus > Atk%  •  2: Crit Rate > Crit DMG  •  3: Atk% > Ult Charge Rate",
-			SubStatPriority: "Crit DMG > Crit Rate > Atk% > Atk",
+			MainStats:       "1: Spirit DMG Bonus > Atk%  •  2: Crit Rate > Crit DMG  •  3: Atk%",
+			SubStatPriority: "Crit DMG > Crit Rate > Atk% > Ult Charge Rate > Flat Atk",
 			Notes:           "Aim for ~119% Ult Charge Rate to align Kyokasuigetsu windows with team buffs. Crit DMG scales hardest because of the B6 Crit→CritDMG conversion.",
 		},
 		Rotations: []Rotation{
@@ -177,8 +177,8 @@ var curation = map[string]CharacterCuration{
 	},
 
 	"byakuya": {
-		StopBoundaryP2W: 5,
-		StopBoundaryF2P: 1,
+		StopBoundaryP2W: 0,
+		StopBoundaryF2P: 0,
 		BestStamp: BestStamp{
 			SetName:         "Senbonzakura (4) + Crit (2)",
 			MainStats:       "1: Slash DMG Bonus  •  2: Crit Rate / Crit DMG  •  3: Atk%",
@@ -211,7 +211,7 @@ var curation = map[string]CharacterCuration{
 
 	"chad": {
 		StopBoundaryP2W: 5,
-		StopBoundaryF2P: 5,
+		StopBoundaryF2P: 1,
 		BestStamp: BestStamp{
 			SetName:         "Brazo Derecho (4) + Strike (2)",
 			MainStats:       "1: Strike DMG Bonus  •  2: Crit DMG  •  3: Atk%",
@@ -228,7 +228,7 @@ var curation = map[string]CharacterCuration{
 	},
 
 	"gin": {
-		StopBoundaryP2W: 6,
+		StopBoundaryP2W: 4,
 		StopBoundaryF2P: 2,
 		BestStamp: BestStamp{
 			SetName:         "Shinso (4) + Thrust (2)",
@@ -271,7 +271,7 @@ var curation = map[string]CharacterCuration{
 
 	"grimmjow-pantera": {
 		StopBoundaryP2W: 6,
-		StopBoundaryF2P: 1,
+		StopBoundaryF2P: 0,
 		BestStamp: BestStamp{
 			SetName:         "Pantera (4) + Strike (2)",
 			MainStats:       "1: Strike DMG Bonus  •  2: Crit DMG  •  3: Atk%",
@@ -299,7 +299,7 @@ var curation = map[string]CharacterCuration{
 
 	"ichigo-bankai": {
 		StopBoundaryP2W: 6,
-		StopBoundaryF2P: 2,
+		StopBoundaryF2P: 1,
 		BestStamp: BestStamp{
 			SetName:         "Tensa Zangetsu (4) + Slash (2)",
 			MainStats:       "1: Slash DMG Bonus  •  2: Crit DMG  •  3: Atk%",
@@ -376,11 +376,11 @@ var curation = map[string]CharacterCuration{
 
 	"kenpachi": {
 		StopBoundaryP2W: 6,
-		StopBoundaryF2P: 1,
+		StopBoundaryF2P: 2,
 		BestStamp: BestStamp{
 			SetName:         "Nozarashi (4) + Slash (2)",
-			MainStats:       "1: Slash DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-			SubStatPriority: "Crit DMG > Crit Rate > Atk% > HP%",
+			MainStats:       "1: ATK%  •  2: Crit DMG  •  3: Atk%",
+			SubStatPriority: "Crit DMG > Crit Rate > Atk% > Ailment%",
 			Notes:           "Tank-DPS hybrid — HP% sub can sub in once survivability dips.",
 		},
 		Rotations: []Rotation{
@@ -417,12 +417,12 @@ var curation = map[string]CharacterCuration{
 	},
 
 	"mayuri": {
-		StopBoundaryP2W: 5,
-		StopBoundaryF2P: 1,
+		StopBoundaryP2W: 6,
+		StopBoundaryF2P: 2,
 		BestStamp: BestStamp{
 			SetName:         "Konjiki Ashisogi (4) + Spirit (2)",
-			MainStats:       "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-			SubStatPriority: "Atk% > Crit DMG > Crit Rate > Ult Charge Rate",
+			MainStats:       "1: Thrust DMG Bonus  •  2: Crit Rate  •  3: Atk%",
+			SubStatPriority: "Ult Charge Rate > Atk% > Crit DMG > Crit Rate",
 			Notes:           "S-tier debuffer/poison — poison ticks off Atk%, so stack it.",
 		},
 		Rotations: []Rotation{
@@ -445,12 +445,12 @@ var curation = map[string]CharacterCuration{
 	},
 
 	"nelliel": {
-		StopBoundaryP2W: 5,
+		StopBoundaryP2W: 6,
 		StopBoundaryF2P: 2,
 		BestStamp: BestStamp{
 			SetName:         "Gamuza (4) + Thrust (2)",
-			MainStats:       "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-			SubStatPriority: "Crit DMG > Crit Rate > Atk% > Ult Charge Rate",
+			MainStats:       "1: ATK%  •  2: Crit Rate  •  3: Ult Charge Rate",
+			SubStatPriority: "Crit Rate > Ult Charge Rate > Atk% > Crit DMG > Ailment%",
 			Notes:           "S-tier Tactician — applies vulnerability that amplifies the on-field DPS.",
 		},
 		Rotations: []Rotation{
@@ -460,7 +460,7 @@ var curation = map[string]CharacterCuration{
 
 	"nemu": {
 		StopBoundaryP2W: 6,
-		StopBoundaryF2P: 5,
+		StopBoundaryF2P: 0,
 		BestStamp: BestStamp{
 			SetName:         "Synthetic Body (4) + Atk (2)",
 			MainStats:       "1: Atk%  •  2: Crit DMG  •  3: Atk%",
@@ -474,7 +474,7 @@ var curation = map[string]CharacterCuration{
 
 	"orihime": {
 		StopBoundaryP2W: 6,
-		StopBoundaryF2P: 5,
+		StopBoundaryF2P: 0,
 		BestStamp: BestStamp{
 			SetName:         "Shun Shun Rikka (4) + Atk (2)",
 			MainStats:       "1: Atk%  •  2: Crit Rate  •  3: HP% > Ult Charge Rate",
@@ -488,7 +488,7 @@ var curation = map[string]CharacterCuration{
 
 	"rangiku": {
 		StopBoundaryP2W: 6,
-		StopBoundaryF2P: 5,
+		StopBoundaryF2P: 6,
 		BestStamp: BestStamp{
 			SetName:         "Haineko (4) + Thrust (2)",
 			MainStats:       "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
@@ -530,7 +530,7 @@ var curation = map[string]CharacterCuration{
 
 	"soi-fon": {
 		StopBoundaryP2W: 6,
-		StopBoundaryF2P: 4,
+		StopBoundaryF2P: 1,
 		BestStamp: BestStamp{
 			SetName:         "Suzumebachi (4) + Strike (2)",
 			MainStats:       "1: Strike DMG Bonus  •  2: Crit DMG  •  3: Atk%",
