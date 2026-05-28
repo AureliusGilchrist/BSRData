@@ -9,8 +9,8 @@
   "art": "/Images/nelliel/art.png",
   "bestStamp": {
     "setName": "Gamuza (4) + Thrust (2)",
-    "mainStats": "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Ult Charge Rate",
+    "mainStats": "1: ATK%  •  2: Crit Rate  •  3: Ult Charge Rate",
+    "subStatPriority": "Crit Rate \u003e Ult Charge Rate \u003e Atk% \u003e Crit DMG \u003e Ailment%",
     "notes": "S-tier Tactician — applies vulnerability that amplifies the on-field DPS."
   },
   "bondPriority": [
@@ -112,9 +112,9 @@
   "damageType": "Thrust",
   "name": "Nelliel Tu Odelschwanck",
   "rarity": "SSR",
-  "recommendedStopBoundary": 5,
+  "recommendedStopBoundary": 6,
   "recommendedStopBoundaryF2P": 2,
-  "recommendedStopBoundaryP2W": 5,
+  "recommendedStopBoundaryP2W": 6,
   "releaseDate": "20 Feb 2026",
   "role": "Tactician",
   "rotations": [

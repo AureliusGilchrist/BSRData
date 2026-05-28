@@ -9,8 +9,8 @@
   "art": "/Images/kenpachi/art.png",
   "bestStamp": {
     "setName": "Nozarashi (4) + Slash (2)",
-    "mainStats": "1: Slash DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e HP%",
+    "mainStats": "1: ATK%  •  2: Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Ailment%",
     "notes": "Tank-DPS hybrid — HP% sub can sub in once survivability dips."
   },
   "bondPriority": [
@@ -92,7 +92,7 @@
       "setName": "Nozarashi (4) + Slash (2)",
       "setPieces": [
         {
-          "mainStat": "Slash DMG Bonus",
+          "mainStat": "ATK%",
           "slot": 1
         },
         {
@@ -104,16 +104,16 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e HP%"
+      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Ailment%"
     },
     {
       "label": "F2P (practical stop)",
       "passiveSkills": [],
-      "range": "B0W1C1 - B1W5C5",
+      "range": "B0W1C1 - B2W5C5",
       "setName": "Nozarashi (4) + Slash (2)",
       "setPieces": [
         {
-          "mainStat": "Slash DMG Bonus",
+          "mainStat": "ATK%",
           "slot": 1
         },
         {
@@ -125,7 +125,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e HP%"
+      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Ailment%"
     }
   ],
   "corePassives": [
@@ -154,7 +154,7 @@
   "name": "Kenpachi Zaraki",
   "rarity": "SSR",
   "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryF2P": 2,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "30 Jan 2026",
   "role": "Full Assault",

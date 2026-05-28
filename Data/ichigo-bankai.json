@@ -108,7 +108,7 @@
     {
       "label": "F2P (practical stop)",
       "passiveSkills": [],
-      "range": "B0W1C1 - B2W5C5",
+      "range": "B0W1C1 - B1W5C5",
       "setName": "Tensa Zangetsu (4) + Slash (2)",
       "setPieces": [
         {
@@ -155,7 +155,7 @@
   "name": "Ichigo Kurosaki (Bankai)",
   "rarity": "SSR",
   "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 2,
+  "recommendedStopBoundaryF2P": 1,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "21 Nov 2025",
   "role": "Full Assault/DPS",

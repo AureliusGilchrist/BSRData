@@ -49,30 +49,8 @@
   ],
   "builds": [
     {
-      "label": "P2W (value ceiling)",
+      "label": "Main",
       "passiveSkills": [],
-      "range": "B0W1C1 - B5W5C5",
-      "setName": "Senbonzakura (4) + Crit (2)",
-      "setPieces": [
-        {
-          "mainStat": "Slash DMG Bonus",
-          "slot": 1
-        },
-        {
-          "mainStat": "Crit Rate / Crit DMG",
-          "slot": 2
-        },
-        {
-          "mainStat": "Atk%",
-          "slot": 3
-        }
-      ],
-      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
-    },
-    {
-      "label": "F2P (practical stop)",
-      "passiveSkills": [],
-      "range": "B0W1C1 - B1W5C5",
       "setName": "Senbonzakura (4) + Crit (2)",
       "setPieces": [
         {
@@ -119,9 +97,9 @@
   "name": "Byakuya Kuchiki",
   "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
   "rarity": "SSR",
-  "recommendedStopBoundary": 5,
-  "recommendedStopBoundaryF2P": 1,
-  "recommendedStopBoundaryP2W": 5,
+  "recommendedStopBoundary": 0,
+  "recommendedStopBoundaryF2P": 0,
+  "recommendedStopBoundaryP2W": 0,
   "releaseDate": "21 Nov 2025",
   "role": "Tactician",
   "rotations": [
@@ -195,7 +173,7 @@
     "def": "325",
     "hp": "1636"
   },
-  "tier": "D",
+  "tier": "C",
   "weaponStats": {
     "atk": "200",
     "def": "118",
