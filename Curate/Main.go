@@ -128,7 +128,7 @@ var tierBySlug = map[string]string{
 	"nemu":           	"D",
 	"renji":          	"D",
 	"ururu":          	"D",
-	"byakuya":        	"D",
+	"byakuya":        	"C",
 }
 
 // Note: release dates are no longer hard-coded here. The scraper (../Main.go)
