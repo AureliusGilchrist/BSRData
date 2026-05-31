@@ -58,6 +58,39 @@ type Team struct {
 	Source        string       `json:"source,omitempty"`
 }
 
+// Banner is a single summon/rate-up banner. The site shows the `current`
+// banner on the home page with a live countdown to EndDate, and lists the
+// `upcoming` banners on the /upcoming page.
+//
+// Dates are plain ISO calendar dates ("YYYY-MM-DD"). The site treats EndDate
+// as the END of that day in UTC (i.e. the banner is considered live through
+// 23:59:59 UTC on EndDate) when computing the real-time countdown.
+type Banner struct {
+	// Display name, e.g. "Grimmjow (Pantera) Rate-Up".
+	Name string `json:"name"`
+	// Featured character slugs (must match a /Data/<slug>.json). The site uses
+	// the first slug's art for the banner image and links each to its page.
+	Slugs []string `json:"slugs"`
+	// Featured signature weapon/light-cone name, if any (optional).
+	Weapon string `json:"weapon,omitempty"`
+	// ISO calendar dates "YYYY-MM-DD".
+	StartDate string `json:"startDate,omitempty"`
+	EndDate   string `json:"endDate,omitempty"`
+	// Optional explicit banner artwork URL. When empty the site falls back to
+	// the featured character's art image.
+	Image string `json:"image,omitempty"`
+	// Free-form note shown under the banner (optional).
+	Note string `json:"note,omitempty"`
+	// Where this info came from (optional).
+	Source string `json:"source,omitempty"`
+}
+
+// BannerData is the shape written to Data/Banners.json.
+type BannerData struct {
+	Current  *Banner  `json:"current"`
+	Upcoming []Banner `json:"upcoming"`
+}
+
 // CharacterCuration holds per-character merged fields.
 type CharacterCuration struct {
 	StopBoundary    int // legacy / back-compat (mirrors P2W)
@@ -1003,6 +1036,52 @@ var teams = []Team{
 }
 
 // ---------------------------------------------------------------------------
+// Banners.
+//
+// Sourced from the Spanish BSR Fandom wiki "Eventos China" timeline:
+//   https://bleach-soul-resonance-esp.fandom.com/es/wiki/Eventos_China
+// The `current` banner powers the home-page countdown; `upcoming` is shown on
+// the /upcoming page.
+//
+// TO UPDATE: edit `banners` below. When a new rate-up goes live, move the next
+// `upcoming` entry into `current` and add the following one to `upcoming`.
+// Slugs must match a /Data/<slug>.json file so the site can pull art + link.
+var banners = BannerData{
+	Current: &Banner{
+		Name:      "Grimmjow (Pantera) Rate-Up",
+		Slugs:     []string{"grimmjow-pantera"},
+		Weapon:    "Sed de batalla",
+		StartDate: "2026-05-14",
+		EndDate:   "2026-06-04",
+		Note:      "Resurrección Grimmjow returns with his signature weapon.",
+		Source:    "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Eventos_China",
+	},
+	// ---------------------------------------------------------------------
+	// UPCOMING — fill these out as new banners are announced. Add the
+	// character slug(s), display name, the signature weapon, and the
+	// start/end dates (YYYY-MM-DD). Delete the placeholder entries you
+	// don't need. Each entry is shown on the /upcoming page in order.
+	Upcoming: []Banner{
+		{
+			Name:      "", // e.g. "Tōshirō Hitsugaya Rate-Up"
+			Slugs:     []string{""}, // e.g. "toshiro"
+			Weapon:    "",
+			StartDate: "", // YYYY-MM-DD
+			EndDate:   "", // YYYY-MM-DD
+			Note:      "",
+		},
+		{
+			Name:      "",
+			Slugs:     []string{""},
+			Weapon:    "",
+			StartDate: "",
+			EndDate:   "",
+			Note:      "",
+		},
+	},
+}
+
+// ---------------------------------------------------------------------------
 // Merge & write.
 
 // synthesizeBuilds derives a Build[] from the curated BestStamp + boundaries.
@@ -1214,6 +1293,17 @@ func main() {
 		panic(err)
 	}
 
+	// Write Banners.json (current + upcoming rate-up banners).
+	bannersPath := filepath.Join(dataDir, "Banners.json")
+	bannersOut, err := json.MarshalIndent(banners, "", "  ")
+	if err != nil {
+		panic(err)
+	}
+	if err := os.WriteFile(bannersPath, bannersOut, 0644); err != nil {
+		panic(err)
+	}
+	fmt.Printf("Wrote banners to %s\n", bannersPath)
+
 	// Regenerate Index.json so it picks up releaseDate (and any new chars).
 	if err := regenerateIndex(dataDir); err != nil {
 		fmt.Printf("  ! index regen: %v\n", err)
@@ -1255,7 +1345,7 @@ func regenerateIndex(dataDir string) error {
 		if filepath.Ext(name) != ".json" {
 			continue
 		}
-		if name == "Index.json" || name == "Stamps.json" || name == "Teams.json" {
+		if name == "Index.json" || name == "Stamps.json" || name == "Teams.json" || name == "Banners.json" {
 			continue
 		}
 		raw, err := os.ReadFile(filepath.Join(dataDir, name))
