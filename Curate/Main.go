@@ -1103,7 +1103,7 @@ var banners = BannerData{
 			Weapon:    "Murciélago",
 			StartDate: "2026-06-27",
 			EndDate:   "2026-07-18",
-			Note:      "TBD",
+			Note:      "Ulquiorra Shifar set to compete against Toshiro as a Spirit Full Assault with his dual forms; Murciélago and Segunda Etapa.",
 		},
 	},
 	// ---------------------------------------------------------------------
