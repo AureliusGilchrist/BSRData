@@ -119,7 +119,7 @@ var tierBySlug = map[string]string{
 	"ikkaku":   		"C",
 	"rukia":            "C",
 	"komamura": 		"C",
-	"uryu":           	"C",
+	"uryu":           	"D",
 	"ichigo-shikai":  	"C",
 
 	"chad":           	"D",
@@ -153,10 +153,10 @@ var curation = map[string]CharacterCuration{
 			{
 				Name: "Opener (Kyokasuigetsu Burst)",
 				Steps: []string{
-					"Swap support in to apply buffs",
-					"Aizen on-field: Technique (Fated Demise) → Basic Attack (Hado 63: Raikoho branch)",
-					"Build to 3 Pressure Stacks → Ultimate (Shatter, Kyokasuigetsu)",
-					"During Kyokasuigetsu: Battlefield Skill (Hado 90: Kurohitsugi)",
+					"Start with support to apply buffs",
+					"Aizen battlefield: Technique (Fated Demise) → Basic Attack (Hado 63: Raikoho branch)",
+					"Build to 3 Pressure Stacks → Battlefield",
+					"Enter Ultimate: Kyokasuigetsu whenever available",
 					"Spam Exposed Weakspot basics for stack consumption",
 				},
 				Notes: "Open with the support so Aizen enters with Suppression already filling. Save Ultimate until enemy is locked, then dump Hado 90.",
@@ -182,7 +182,7 @@ var curation = map[string]CharacterCuration{
 		BestStamp: BestStamp{
 			SetName:         "Senbonzakura (4) + Crit (2)",
 			MainStats:       "1: Slash DMG Bonus  •  2: Crit Rate / Crit DMG  •  3: Atk%",
-			SubStatPriority: "Crit DMG > Crit Rate > Atk% > Atk",
+			SubStatPriority: "Crit Rate > Crit DMG > Atk% > Ult Charge Rate > Atk",
 			Notes:           "Tactician hybrid — keep enough Ult Charge Rate (~110%) so Senbonzakura petals refresh between waves.",
 		},
 		Rotations: []Rotation{
@@ -232,20 +232,20 @@ var curation = map[string]CharacterCuration{
 		StopBoundaryF2P: 2,
 		BestStamp: BestStamp{
 			SetName:         "Shinso (4) + Thrust (2)",
-			MainStats:       "1: Thrust DMG Bonus > Atk%  •  2: Crit DMG  •  3: Atk%",
-			SubStatPriority: "Crit DMG > Crit Rate > Atk% > Atk",
-			Notes:           "Pure single-target DPS — Crit DMG is king once Crit Rate hits ~60%.",
+			MainStats:       "1: Atk% > Thrust DMG Bonus •  2: Crit Rate  •  3: Ailment%",
+			SubStatPriority: "Crit Rate > Ailment% > Atk% > Crit DMG > Flat Atk > Ult Charge Rate",
+			Notes:           "Pure Ailment DPS — Ailment% is king once Crit Rate hits ~70%.",
 		},
 		Rotations: []Rotation{
 			{
 				Name: "Pierce Opener",
 				Steps: []string{
-					"Tactician (Nelliel/Aizen) applies vulnerability",
+					"Tactician (Nelliel/Aizen) opener",
 					"Gin: Basic ×2 → Technique (Shinso extension)",
 					"Ultimate (Kamishini no Yari) at burst window",
 					"Battlefield Skill on cooldown",
 				},
-				Notes: "Gin's Ult ignores DEF in his B6 line — line up with armor-shred from a tactician.",
+				Notes: "Gin's Weapon Ascension 3 is crucial to the unit's overall damage. Prioritize upgrading the weapon over boundaries after B2.",
 				Tags:  []string{"Burst", "Boss"},
 			},
 		},
@@ -274,8 +274,8 @@ var curation = map[string]CharacterCuration{
 		StopBoundaryF2P: 0,
 		BestStamp: BestStamp{
 			SetName:         "Pantera (4) + Strike (2)",
-			MainStats:       "1: Strike DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-			SubStatPriority: "Crit DMG > Crit Rate > Atk% > Atk",
+			MainStats:       "1: Strike DMG Bonus  •  2: Crit Rate  •  3: Atk%",
+			SubStatPriority: "ATK% > Crit Rate > Crit DMG > Flat Atk",
 			Notes:           "B6 unlocks the second Resurrección burst — worth the full investment.",
 		},
 		Rotations: []Rotation{
@@ -302,8 +302,8 @@ var curation = map[string]CharacterCuration{
 		StopBoundaryF2P: 1,
 		BestStamp: BestStamp{
 			SetName:         "Tensa Zangetsu (4) + Slash (2)",
-			MainStats:       "1: Slash DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-			SubStatPriority: "Crit DMG > Crit Rate > Atk% > Atk",
+			MainStats:       "1: Slash DMG Bonus > ATK%  •  2: Crit Rate  •  3: Atk%",
+			SubStatPriority: "Crit Rate > Crit DMG > Atk% > Flat Atk",
 			Notes:           "S+ DPS — Crit DMG scaling is uncapped, push Crit Rate to ~70% first.",
 		},
 		Rotations: []Rotation{
@@ -432,7 +432,7 @@ var curation = map[string]CharacterCuration{
 
 	"momo": {
 		StopBoundaryP2W: 6,
-		StopBoundaryF2P: 6,
+		StopBoundaryF2P: 1,
 		BestStamp: BestStamp{
 			SetName:         "Tobiume (4) + Spirit (2)",
 			MainStats:       "1: Spirit DMG Bonus  •  2: Crit Rate  •  3: Ult Charge Rate",
@@ -454,7 +454,7 @@ var curation = map[string]CharacterCuration{
 			Notes:           "S-tier Tactician — applies vulnerability that amplifies the on-field DPS.",
 		},
 		Rotations: []Rotation{
-			{Name: "Lance Setup", Steps: []string{"Open: Technique (lance throw – applies vulnerability)", "Basic ×3", "Ultimate (Resurrección)", "Swap to DPS for the burst window"}, Notes: "Her vulnerability debuff IS the team-amp window — burst inside it.", Tags: []string{"Burst", "Boss"}},
+			{Name: "Battlefield Setup", Steps: []string{"Open: Battlefield", "Technique", "Swap to support (Mayuri Ultimate then technique)", "Swap to DPS for the setup phase"}, Notes: "Her ultimate applies a typing shred — burst after using it.", Tags: []string{"Burst", "Boss"}},
 		},
 	},
 
@@ -533,8 +533,8 @@ var curation = map[string]CharacterCuration{
 		StopBoundaryF2P: 1,
 		BestStamp: BestStamp{
 			SetName:         "Suzumebachi (4) + Strike (2)",
-			MainStats:       "1: Strike DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-			SubStatPriority: "Crit DMG > Crit Rate > Atk% > Atk",
+			MainStats:       "1: ATK% > Strike DMG Bonus  •  2: Crit DMG > ATK%  •  3: Atk%",
+			SubStatPriority: "Crit DMG > Crit Rate > Ailment% > Atk% > Flat Atk",
 			Notes:           "Two-hit execute Tactician — the second sting deletes bosses.",
 		},
 		Rotations: []Rotation{
@@ -543,22 +543,22 @@ var curation = map[string]CharacterCuration{
 	},
 
 	"szayelaporro": {
-		StopBoundaryP2W: 5,
+		StopBoundaryP2W: 6,
 		StopBoundaryF2P: 2,
 		BestStamp: BestStamp{
 			SetName:         "Fornicarás (4) + Spirit (2)",
-			MainStats:       "1: Spirit DMG Bonus  •  2: Crit Rate  •  3: Ult Charge Rate",
-			SubStatPriority: "Ult Charge Rate > Atk% > Crit DMG > Crit Rate",
-			Notes:           "Debuff Support — Ult Charge keeps the debuff window open permanently.",
+			MainStats:       "1: ATK%  •  2: Crit DMG > ATK%  •  3: ATK%",
+			SubStatPriority: "Atk% > Flat ATK > Crit DMG > Crit Rate > Ultimate Charge Rate",
+			Notes:           "Easiest unit to build. Minimum stats required: 5280 ATK and 175% Crit DMG.",
 		},
 		Rotations: []Rotation{
-			{Name: "Debuff Cycle", Steps: []string{"Technique (apply debuff)", "Ultimate (Resurrección – team debuff)", "Swap to DPS", "Return to refresh"}, Tags: []string{"Sustain", "Boss"}},
+			{Name: "Debuff Cycle", Steps: []string{"Technique", "Swap to Tactical unit (Aizen)", "Get a manual counter", "Counter with Szayelaporro", "Use Ultimate"}, Tags: []string{"Sustain", "Boss"}},
 		},
 	},
 
 	"tosen": {
-		StopBoundaryP2W: 5,
-		StopBoundaryF2P: 0,
+		StopBoundaryP2W: 6,
+		StopBoundaryF2P: 1,
 		BestStamp: BestStamp{
 			SetName:         "Suzumushi (4) + Thrust (2)",
 			MainStats:       "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
@@ -576,19 +576,19 @@ var curation = map[string]CharacterCuration{
 		BestStamp: BestStamp{
 			SetName:         "Hyorinmaru (4) + Spirit (2)",
 			MainStats:       "1: Spirit DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-			SubStatPriority: "Crit DMG > Crit Rate > Atk% > Atk",
-			Notes:           "S+ DPS — the spirit-team carry. Push Crit Rate to 70% then dump into Crit DMG.",
+			SubStatPriority: "Crit DMG > Crit Rate > Atk% > Flat Atk > Ult Charge Rate",
+			Notes:           "S+ DPS — the spirit-team carry. Push Crit Rate to 100% (based on your weapon stamp) then dump into Crit DMG.",
 		},
 		Rotations: []Rotation{
 			{
 				Name: "Frost Burst",
 				Steps: []string{
-					"Aizen / Momo open with buffs",
+					"Szayel / Momo open with technique",
 					"Swap Toshiro in",
 					"Technique (Sennen Hyoro – frost stacks)",
-					"Basic ×3 to detonate frost",
-					"Ultimate (Bankai – Daiguren Hyorinmaru)",
-					"Battlefield Skill (ice dragon)",
+					"Battlefield skill",
+					"Manual Counter with Toshiro",
+					"Spam basic attacks",
 				},
 				Notes: "Toshiro wants frost stacks applied before burst — Technique first, then dump.",
 				Tags:  []string{"Burst", "Boss"},
@@ -648,7 +648,7 @@ var curation = map[string]CharacterCuration{
 		StopBoundaryF2P: 1,
 		BestStamp: BestStamp{
 			SetName:         "Shunko (4) + Strike (2)",
-			MainStats:       "1: Strike DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+			MainStats:       "1: Strike DMG Bonus  •  2: Crit Rate  •  3: Atk%",
 			SubStatPriority: "Crit DMG > Crit Rate > Atk% > Ult Charge Rate",
 			Notes:           "S-tier Assault — high mobility, Shunko stance multiplies damage.",
 		},
