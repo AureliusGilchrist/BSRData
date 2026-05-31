@@ -1098,7 +1098,7 @@ var banners = BannerData{
 			Note:      "Base form Ulquiorra, and will be free via mail on the 5th.",
 		},
 		{
-			Name:      "Ulquiorra Shifar (Resurrección) SSR",
+			Name:      "Ulquiorra Shifar (Resurrección) SSR Rate-Up",
 			Slugs:     []string{""},
 			Weapon:    "Murciélago",
 			StartDate: "2026-06-27",
