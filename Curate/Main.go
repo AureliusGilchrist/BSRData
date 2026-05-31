@@ -1069,10 +1069,10 @@ var banners = BannerData{
 	Current: &Banner{
 		Name:      "Grimmjow (Pantera) Rate-Up",
 		Slugs:     []string{"grimmjow-pantera"},
-		Weapon:    "Sed de batalla",
+		Weapon:    "Pantera",
 		StartDate: "2026-05-14",
 		EndDate:   "2026-06-04",
-		Note:      "Resurrección Grimmjow returns with his signature weapon.",
+		Note:      "Resurrección Grimmjow's debut with his SSR Pantera form. Triple-SSR Strike comp with Soi Fon and Mayuri, plus the new Pantera weapon.",
 		Source:    "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Eventos_China",
 	},
 	// ---------------------------------------------------------------------
@@ -1082,19 +1082,27 @@ var banners = BannerData{
 	// don't need. Each entry is shown on the /upcoming page in order.
 	Upcoming: []Banner{
 		{
-			Name:      "", // e.g. "Tōshirō Hitsugaya Rate-Up"
+			Name:      "Ichigo Kurosaki・Inner Hollow Rate-Up", // e.g. "Tōshirō Hitsugaya Rate-Up"
 			Slugs:     []string{""}, // e.g. "toshiro"
-			Weapon:    "",
-			StartDate: "", // YYYY-MM-DD
-			EndDate:   "", // YYYY-MM-DD
-			Note:      "",
+			Weapon:    "Zangetsu", // e.g. "Zangetsu"
+			StartDate: "2026-06-05", // YYYY-MM-DD
+			EndDate:   "2026-06-26", // YYYY-MM-DD
+			Note:      "First limited Slash Tactic SSR. White debuts in his Shikai and Bankai forms.",
 		},
 		{
-			Name:      "",
+			Name:      "Ulquiorra Shifar (Base) SR+ Free Unit by Mail",
 			Slugs:     []string{""},
-			Weapon:    "",
-			StartDate: "",
-			EndDate:   "",
+			Weapon:    "Murciélago",
+			StartDate: "2026-06-05",
+			EndDate:   "2026-06-05",
+			Note:      "Base form Ulquiorra, and will be free via mail on the 5th.",
+		},
+		{
+			Name:      "Ulquiorra Shifar (Resurrección) SSR",
+			Slugs:     []string{""},
+			Weapon:    "Murciélago",
+			StartDate: "2026-06-27",
+			EndDate:   "2026-07-18",
 			Note:      "",
 		},
 	},
