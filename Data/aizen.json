@@ -10,8 +10,8 @@
   "art": "/Images/aizen/art.png",
   "bestStamp": {
     "setName": "Immeasurable Gap (4) + Spirit DMG (2)",
-    "mainStats": "1: Spirit DMG Bonus \u003e Atk%  •  2: Crit Rate \u003e Crit DMG  •  3: Atk% \u003e Ult Charge Rate",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+    "mainStats": "1: Spirit DMG Bonus \u003e Atk%  •  2: Crit Rate \u003e Crit DMG  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Ult Charge Rate \u003e Flat Atk",
     "notes": "Aim for ~119% Ult Charge Rate to align Kyokasuigetsu windows with team buffs. Crit DMG scales hardest because of the B6 Crit→CritDMG conversion."
   },
   "bondPriority": [
@@ -117,7 +117,7 @@
   "name": "Sosuke Aizen",
   "rarity": "SSR",
   "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 2,
+  "recommendedStopBoundaryF2P": 1,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "19 Dec 2025",
   "role": "Tactician",

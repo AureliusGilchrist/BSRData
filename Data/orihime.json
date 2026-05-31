@@ -42,30 +42,9 @@
   ],
   "builds": [
     {
-      "label": "P2W (value ceiling)",
+      "label": "Main",
       "passiveSkills": [],
       "range": "B0W1C1 - B6W5C5",
-      "setName": "Shun Shun Rikka (4) + Atk (2)",
-      "setPieces": [
-        {
-          "mainStat": "Atk%",
-          "slot": 1
-        },
-        {
-          "mainStat": "Crit Rate",
-          "slot": 2
-        },
-        {
-          "mainStat": "HP% \u003e Ult Charge Rate",
-          "slot": 3
-        }
-      ],
-      "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e HP% \u003e Crit DMG"
-    },
-    {
-      "label": "F2P (practical stop)",
-      "passiveSkills": [],
-      "range": "B0W1C1 - B5W5C5",
       "setName": "Shun Shun Rikka (4) + Atk (2)",
       "setPieces": [
         {
@@ -106,7 +85,7 @@
   "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
   "rarity": "SR",
   "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 5,
+  "recommendedStopBoundaryF2P": 0,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "21 Nov 2025",
   "role": "Support",

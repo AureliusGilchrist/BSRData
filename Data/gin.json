@@ -112,9 +112,9 @@
   "damageType": "Thrust",
   "name": "Gin Ichimaru",
   "rarity": "SSR",
-  "recommendedStopBoundary": 6,
+  "recommendedStopBoundary": 4,
   "recommendedStopBoundaryF2P": 2,
-  "recommendedStopBoundaryP2W": 6,
+  "recommendedStopBoundaryP2W": 4,
   "releaseDate": "9 Jan 2026",
   "role": "Full Assault",
   "rotations": [
