@@ -1103,7 +1103,7 @@ var banners = BannerData{
 			Weapon:    "Murciélago",
 			StartDate: "2026-06-27",
 			EndDate:   "2026-07-18",
-			Note:      "",
+			Note:      "TBD",
 		},
 	},
 	// ---------------------------------------------------------------------
