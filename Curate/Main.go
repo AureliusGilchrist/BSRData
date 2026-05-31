@@ -85,10 +85,29 @@ type Banner struct {
 	Source string `json:"source,omitempty"`
 }
 
+// Leak is an unconfirmed, datamined/leaked future character. Unlike a Banner,
+// a leak does NOT link anywhere — the site only shows who they are plus their
+// role and damage type. No dates, no art links, no character page.
+type Leak struct {
+	// Character name, e.g. "Ulquiorra Cifer".
+	Name string `json:"name"`
+	// Role class: "Assault" / "Full Assault / DPS" / "Tactician" / "Support".
+	Role string `json:"role,omitempty"`
+	// Damage type: "Slash" / "Strike" / "Thrust" / "Spirit".
+	DamageType string `json:"damageType,omitempty"`
+	// Rarity, if known: "SSR" / "SR+" / "SR" (optional).
+	Rarity string `json:"rarity,omitempty"`
+	// Free-form note (optional), e.g. "datamined, subject to change".
+	Note string `json:"note,omitempty"`
+}
+
 // BannerData is the shape written to Data/Banners.json.
 type BannerData struct {
 	Current  *Banner  `json:"current"`
 	Upcoming []Banner `json:"upcoming"`
+	// Leaks: unconfirmed future characters. Shown on /upcoming with name +
+	// role + type only (no links). Filled in by hand.
+	Leaks []Leak `json:"leaks"`
 }
 
 // CharacterCuration holds per-character merged fields.
@@ -1077,6 +1096,29 @@ var banners = BannerData{
 			StartDate: "",
 			EndDate:   "",
 			Note:      "",
+		},
+	},
+	// ---------------------------------------------------------------------
+	// LEAKS — unconfirmed datamined/leaked characters. These DON'T link to a
+	// character page; the site only shows the name, role, and damage type.
+	// Fill these in by hand. Delete the placeholders you don't need.
+	//   Role:       "Full Assault / DPS" | "Tactician" | "Support"
+	//   DamageType: "Slash" | "Strike" | "Thrust" | "Spirit"
+	//   Rarity:     "SSR" | "SR+" | "SR" (optional)
+	Leaks: []Leak{
+		{
+			Name:       "", // e.g. "Ulquiorra Cifer"
+			Role:       "", // e.g. "Full Assault / DPS"
+			DamageType: "", // e.g. "Spirit"
+			Rarity:     "", // e.g. "SSR"
+			Note:       "",
+		},
+		{
+			Name:       "",
+			Role:       "",
+			DamageType: "",
+			Rarity:     "",
+			Note:       "",
 		},
 	},
 }

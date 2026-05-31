@@ -31,5 +31,21 @@
       "endDate": "",
       "note": ""
     }
+  ],
+  "leaks": [
+    {
+      "name": "",
+      "role": "",
+      "damageType": "",
+      "rarity": "",
+      "note": ""
+    },
+    {
+      "name": "",
+      "role": "",
+      "damageType": "",
+      "rarity": "",
+      "note": ""
+    }
   ]
 }
