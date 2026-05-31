@@ -119,13 +119,13 @@
   "role": "Tactician",
   "rotations": [
     {
-      "name": "Lance Setup",
-      "notes": "Her vulnerability debuff IS the team-amp window — burst inside it.",
+      "name": "Battlefield Setup",
+      "notes": "Her ultimate applies a typing shred — burst after using it.",
       "steps": [
-        "Open: Technique (lance throw – applies vulnerability)",
-        "Basic ×3",
-        "Ultimate (Resurrección)",
-        "Swap to DPS for the burst window"
+        "Open: Battlefield",
+        "Technique",
+        "Swap to support (Mayuri Ultimate then technique)",
+        "Swap to DPS for the setup phase"
       ],
       "tags": [
         "Burst",

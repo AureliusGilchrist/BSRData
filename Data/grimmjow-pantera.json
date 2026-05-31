@@ -9,8 +9,8 @@
   "art": "/Images/grimmjow-pantera/art.png",
   "bestStamp": {
     "setName": "Pantera (4) + Strike (2)",
-    "mainStats": "1: Strike DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+    "mainStats": "1: Strike DMG Bonus  •  2: Crit Rate  •  3: Atk%",
+    "subStatPriority": "ATK% \u003e Crit Rate \u003e Crit DMG \u003e Flat Atk",
     "notes": "B6 unlocks the second Resurrección burst — worth the full investment."
   },
   "bondPriority": [

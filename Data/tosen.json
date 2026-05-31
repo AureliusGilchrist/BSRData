@@ -42,9 +42,30 @@
   ],
   "builds": [
     {
-      "label": "Main",
+      "label": "P2W (value ceiling)",
       "passiveSkills": [],
-      "range": "B0W1C1 - B5W5C5",
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Suzumushi (4) + Thrust (2)",
+      "setPieces": [
+        {
+          "mainStat": "Thrust DMG Bonus",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+    },
+    {
+      "label": "F2P (practical stop)",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B1W5C5",
       "setName": "Suzumushi (4) + Thrust (2)",
       "setPieces": [
         {
@@ -89,9 +110,9 @@
   "name": "Kaname Tosen",
   "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
   "rarity": "SSR",
-  "recommendedStopBoundary": 5,
-  "recommendedStopBoundaryF2P": 0,
-  "recommendedStopBoundaryP2W": 5,
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 6,
   "releaseDate": "21 Nov 2025",
   "role": "Tactician",
   "rotations": [

@@ -11,8 +11,8 @@
   "bestStamp": {
     "setName": "Hyorinmaru (4) + Spirit (2)",
     "mainStats": "1: Spirit DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
-    "notes": "S+ DPS — the spirit-team carry. Push Crit Rate to 70% then dump into Crit DMG."
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Flat Atk \u003e Ult Charge Rate",
+    "notes": "S+ DPS — the spirit-team carry. Push Crit Rate to 100% (based on your weapon stamp) then dump into Crit DMG."
   },
   "bondPriority": [
     {
@@ -153,12 +153,12 @@
       "name": "Frost Burst",
       "notes": "Toshiro wants frost stacks applied before burst — Technique first, then dump.",
       "steps": [
-        "Aizen / Momo open with buffs",
+        "Szayel / Momo open with technique",
         "Swap Toshiro in",
         "Technique (Sennen Hyoro – frost stacks)",
-        "Basic ×3 to detonate frost",
-        "Ultimate (Bankai – Daiguren Hyorinmaru)",
-        "Battlefield Skill (ice dragon)"
+        "Battlefield skill",
+        "Manual Counter with Toshiro",
+        "Spam basic attacks"
       ],
       "tags": [
         "Burst",

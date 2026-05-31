@@ -9,9 +9,9 @@
   "art": "/Images/szayelaporro/art.png",
   "bestStamp": {
     "setName": "Fornicarás (4) + Spirit (2)",
-    "mainStats": "1: Spirit DMG Bonus  •  2: Crit Rate  •  3: Ult Charge Rate",
-    "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e Crit DMG \u003e Crit Rate",
-    "notes": "Debuff Support — Ult Charge keeps the debuff window open permanently."
+    "mainStats": "1: ATK%  •  2: Crit DMG \u003e ATK%  •  3: ATK%",
+    "subStatPriority": "Atk% \u003e Flat ATK \u003e Crit DMG \u003e Crit Rate \u003e Ultimate Charge Rate",
+    "notes": "Easiest unit to build. Minimum stats required: 5280 ATK and 175% Crit DMG."
   },
   "bondPriority": [
     {
@@ -107,19 +107,20 @@
   "damageType": "Spirit",
   "name": "Szayelaporro Granz",
   "rarity": "SSR",
-  "recommendedStopBoundary": 5,
+  "recommendedStopBoundary": 6,
   "recommendedStopBoundaryF2P": 2,
-  "recommendedStopBoundaryP2W": 5,
+  "recommendedStopBoundaryP2W": 6,
   "releaseDate": "24 Apr 2026",
   "role": "Support",
   "rotations": [
     {
       "name": "Debuff Cycle",
       "steps": [
-        "Technique (apply debuff)",
-        "Ultimate (Resurrección – team debuff)",
-        "Swap to DPS",
-        "Return to refresh"
+        "Technique",
+        "Swap to Tactical unit (Aizen)",
+        "Get a manual counter",
+        "Counter with Szayelaporro",
+        "Use Ultimate"
       ],
       "tags": [
         "Sustain",

@@ -126,10 +126,10 @@
       "name": "Opener (Kyokasuigetsu Burst)",
       "notes": "Open with the support so Aizen enters with Suppression already filling. Save Ultimate until enemy is locked, then dump Hado 90.",
       "steps": [
-        "Swap support in to apply buffs",
-        "Aizen on-field: Technique (Fated Demise) → Basic Attack (Hado 63: Raikoho branch)",
-        "Build to 3 Pressure Stacks → Ultimate (Shatter, Kyokasuigetsu)",
-        "During Kyokasuigetsu: Battlefield Skill (Hado 90: Kurohitsugi)",
+        "Start with support to apply buffs",
+        "Aizen battlefield: Technique (Fated Demise) → Basic Attack (Hado 63: Raikoho branch)",
+        "Build to 3 Pressure Stacks → Battlefield",
+        "Enter Ultimate: Kyokasuigetsu whenever available",
         "Spam Exposed Weakspot basics for stack consumption"
       ],
       "tags": [

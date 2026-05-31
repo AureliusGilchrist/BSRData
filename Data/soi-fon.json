@@ -9,8 +9,8 @@
   "art": "/Images/soi-fon/art.png",
   "bestStamp": {
     "setName": "Suzumebachi (4) + Strike (2)",
-    "mainStats": "1: Strike DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+    "mainStats": "1: ATK% \u003e Strike DMG Bonus  •  2: Crit DMG \u003e ATK%  •  3: Atk%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Ailment% \u003e Atk% \u003e Flat Atk",
     "notes": "Two-hit execute Tactician — the second sting deletes bosses."
   },
   "bondPriority": [

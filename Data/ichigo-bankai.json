@@ -10,8 +10,8 @@
   "art": "/Images/ichigo-bankai/art.png",
   "bestStamp": {
     "setName": "Tensa Zangetsu (4) + Slash (2)",
-    "mainStats": "1: Slash DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+    "mainStats": "1: Slash DMG Bonus \u003e ATK%  •  2: Crit Rate  •  3: Atk%",
+    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Flat Atk",
     "notes": "S+ DPS — Crit DMG scaling is uncapped, push Crit Rate to ~70% first."
   },
   "bondPriority": [
@@ -91,11 +91,11 @@
       "setName": "Tensa Zangetsu (4) + Slash (2)",
       "setPieces": [
         {
-          "mainStat": "Slash DMG Bonus",
+          "mainStat": "Slash DMG Bonus \u003e ATK%",
           "slot": 1
         },
         {
-          "mainStat": "Crit DMG",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
@@ -103,7 +103,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Flat Atk"
     },
     {
       "label": "F2P (practical stop)",
@@ -112,11 +112,11 @@
       "setName": "Tensa Zangetsu (4) + Slash (2)",
       "setPieces": [
         {
-          "mainStat": "Slash DMG Bonus",
+          "mainStat": "Slash DMG Bonus \u003e ATK%",
           "slot": 1
         },
         {
-          "mainStat": "Crit DMG",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
@@ -124,7 +124,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Flat Atk"
     }
   ],
   "color": "Red",

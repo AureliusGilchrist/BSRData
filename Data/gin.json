@@ -9,9 +9,9 @@
   "art": "/Images/gin/art.png",
   "bestStamp": {
     "setName": "Shinso (4) + Thrust (2)",
-    "mainStats": "1: Thrust DMG Bonus \u003e Atk%  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
-    "notes": "Pure single-target DPS — Crit DMG is king once Crit Rate hits ~60%."
+    "mainStats": "1: Atk% \u003e Thrust DMG Bonus •  2: Crit Rate  •  3: Ailment%",
+    "subStatPriority": "Crit Rate \u003e Ailment% \u003e Atk% \u003e Crit DMG \u003e Flat Atk \u003e Ult Charge Rate",
+    "notes": "Pure Ailment DPS — Ailment% is king once Crit Rate hits ~70%."
   },
   "bondPriority": [
     {
@@ -120,9 +120,9 @@
   "rotations": [
     {
       "name": "Pierce Opener",
-      "notes": "Gin's Ult ignores DEF in his B6 line — line up with armor-shred from a tactician.",
+      "notes": "Gin's Weapon Ascension 3 is crucial to the unit's overall damage. Prioritize upgrading the weapon over boundaries after B2.",
       "steps": [
-        "Tactician (Nelliel/Aizen) applies vulnerability",
+        "Tactician (Nelliel/Aizen) opener",
         "Gin: Basic ×2 → Technique (Shinso extension)",
         "Ultimate (Kamishini no Yari) at burst window",
         "Battlefield Skill on cooldown"
