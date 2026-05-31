@@ -1097,14 +1097,6 @@ var banners = BannerData{
 			EndDate:   "2026-06-05",
 			Note:      "Base form Ulquiorra, and will be free via mail on the 5th.",
 		},
-		{
-			Name:      "Ulquiorra Shifar (Resurrección) SSR Rate-Up",
-			Slugs:     []string{""},
-			Weapon:    "Murciélago",
-			StartDate: "2026-06-27",
-			EndDate:   "2026-07-18",
-			Note:      "Ulquiorra Shifar set to compete against Toshiro as a Spirit Full Assault with his dual forms; Murciélago and Segunda Etapa.",
-		},
 	},
 	// ---------------------------------------------------------------------
 	// LEAKS — unconfirmed datamined/leaked characters. These DON'T link to a
@@ -1115,11 +1107,11 @@ var banners = BannerData{
 	//   Rarity:     "SSR" | "SR+" | "SR" (optional)
 	Leaks: []Leak{
 		{
-			Name:       "", // e.g. "Ulquiorra Cifer"
-			Role:       "", // e.g. "Full Assault / DPS"
-			DamageType: "", // e.g. "Spirit"
-			Rarity:     "", // e.g. "SSR"
-			Note:       "",
+			Name:      "Ulquiorra Shifar (Resurrección) SSR Rate-Up",
+			Role:      "Full Assault / DPS",
+			DamageType: "Spirit",
+			Rarity:     "SSR",
+			Note:      "Ulquiorra Shifar set to compete against Toshiro as a Spirit Full Assault with his dual forms; Murciélago and Segunda Etapa.",
 		},
 		{
 			Name:       "",
