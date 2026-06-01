@@ -1240,6 +1240,24 @@ func atoi(s string) int {
 	return n
 }
 
+// normalizeRole maps any of the scraper's role-string variants
+// ("Full Assault", "Full Assault/DPS", "Full Assault / DPS", "DPS", etc.) to a
+// canonical RoleClass value: "Assault" | "Tactician" | "Support". Returns the
+// trimmed input unchanged if it doesn't match a known class.
+func normalizeRole(s string) string {
+	r := strings.ToLower(strings.TrimSpace(s))
+	switch {
+	case strings.Contains(r, "tactician"):
+		return "Tactician"
+	case strings.Contains(r, "support"):
+		return "Support"
+	case strings.Contains(r, "assault") || strings.Contains(r, "dps"):
+		return "Assault"
+	default:
+		return strings.TrimSpace(s)
+	}
+}
+
 func main() {
 	// Walk up from "BSRData/Curate" to the BSRData root.
 	wd, err := os.Getwd()
@@ -1319,11 +1337,20 @@ func main() {
 		if t, ok := tierBySlug[slug]; ok {
 			obj["tier"] = t
 		}
-		// Role normalization: the wiki labels Toshiro and Ichigo (Bankai) as
-		// "Full Assault/DPS" but mechanically that's identical to Assault.
-		// Collapse the redundant label so filters and counts work cleanly.
-		if rs, ok := obj["role"].(string); ok && rs == "Assault" {
-			obj["role"] = "Full Assault / DPS"
+		// Role normalization: the scraper writes a few variants for the same
+		// class — "Full Assault", "Full Assault/DPS", "Full Assault / DPS" all
+		// mean the canonical "Assault" role. Collapse every variant to the
+		// canonical RoleClass value ("Assault" / "Tactician" / "Support") so the
+		// site's filters, ROLE_LABEL, and ROLE_KANJI lookups all match.
+		if rs, ok := obj["role"].(string); ok {
+			switch normalizeRole(rs) {
+			case "Assault":
+				obj["role"] = "Assault"
+			case "Tactician":
+				obj["role"] = "Tactician"
+			case "Support":
+				obj["role"] = "Support"
+			}
 		}
 		// Release date is now written directly by the scraper (extracted from
 		// the Spanish wiki's "Release Date" template field, Global value). No
