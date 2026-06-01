@@ -11,22 +11,22 @@
   },
   "upcoming": [
     {
-      "name": "Ichigo Kurosaki・Inner Hollow Rate-Up",
+      "name": "Ichigo Kurosaki・Inner Hollow Releases!",
       "slugs": [
         ""
       ],
       "startDate": "2026-06-05",
       "endDate": "2026-06-26",
-      "note": "First limited Slash Tactic SSR. White debuts in his Shikai and Bankai forms."
+      "note": "First limited Slash Tactic SSR. White debuts in his Shikai as well as Bankai forms."
     },
     {
-      "name": "Ulquiorra Shifar (Base) SR+ Free Unit by Mail",
+      "name": "Ulquiorra Shifar (Base) SR+ Free Unit",
       "slugs": [
         ""
       ],
       "startDate": "2026-06-05",
       "endDate": "2026-06-05",
-      "note": "Base form Ulquiorra, and will be free via mail on the 5th."
+      "note": "Base form Ulquiorra, and will be free via mail on the 5th of June, 2026 (UTC)."
     }
   ],
   "leaks": [
@@ -38,7 +38,46 @@
       "note": "Ulquiorra Shifar set to compete against Toshiro as a Spirit Full Assault with his dual forms; Murciélago and Segunda Etapa."
     },
     {
-      "name": ""
+      "name": "Yammy Llargo",
+      "role": "TBD",
+      "damageType": "TBD",
+      "rarity": "TBD",
+      "note": "He was added to the game files, however no details upon him were found."
+    },
+    {
+      "name": "Nnoitorra Gilga",
+      "role": "TBD",
+      "damageType": "TBD",
+      "rarity": "TBD",
+      "note": "He was added to the game files, however no details upon him were found."
+    },
+    {
+      "name": "Kyouraku Shunsui",
+      "role": "TBD",
+      "damageType": "TBD",
+      "rarity": "TBD",
+      "note": "He was added to the game files, however no details upon him were found."
+    },
+    {
+      "name": "Shuuhei Hisagi",
+      "role": "TBD",
+      "damageType": "TBD",
+      "rarity": "TBD",
+      "note": "He was added to the game files, however no details upon him were found."
+    },
+    {
+      "name": "Yamamoto Genryuusai",
+      "role": "TBD",
+      "damageType": "TBD",
+      "rarity": "TBD",
+      "note": "He was added to the game files, however no details upon him were found."
+    },
+    {
+      "name": "Unohana Yachiru",
+      "role": "TBD",
+      "damageType": "TBD",
+      "rarity": "TBD",
+      "note": "She was added to the game files, however no details upon her were found."
     }
   ]
 }
