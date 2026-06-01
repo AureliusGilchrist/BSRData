@@ -1122,6 +1122,34 @@ var banners = BannerData{
 			Rarity:     "TBD",
 			Note:       "He was added to the game files, however no details upon him were found.",
 		},
+		{
+			Name:       "Kyouraku Shunsui",
+			Role:       "TBD",
+			DamageType: "TBD",
+			Rarity:     "TBD",
+			Note:       "He was added to the game files, however no details upon him were found.",
+		},
+		{
+			Name:       "Shuuhei Hisagi",
+			Role:       "TBD",
+			DamageType: "TBD",
+			Rarity:     "TBD",
+			Note:       "He was added to the game files, however no details upon him were found.",
+		},
+		{
+			Name:       "Yamamoto Genryuusai",
+			Role:       "TBD",
+			DamageType: "TBD",
+			Rarity:     "TBD",
+			Note:       "He was added to the game files, however no details upon him were found.",
+		},
+		{
+			Name:       "Unohana Yachiru",
+			Role:       "TBD",
+			DamageType: "TBD",
+			Rarity:     "TBD",
+			Note:       "She was added to the game files, however no details upon her were found.",
+		},
 	},
 }
 
