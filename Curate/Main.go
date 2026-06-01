@@ -71,8 +71,6 @@ type Banner struct {
 	// Featured character slugs (must match a /Data/<slug>.json). The site uses
 	// the first slug's art for the banner image and links each to its page.
 	Slugs []string `json:"slugs"`
-	// Featured signature weapon/light-cone name, if any (optional).
-	Weapon string `json:"weapon,omitempty"`
 	// ISO calendar dates "YYYY-MM-DD".
 	StartDate string `json:"startDate,omitempty"`
 	EndDate   string `json:"endDate,omitempty"`
@@ -1069,7 +1067,6 @@ var banners = BannerData{
 	Current: &Banner{
 		Name:      "Grimmjow (Pantera) Rate-Up",
 		Slugs:     []string{"grimmjow-pantera"},
-		Weapon:    "Pantera",
 		StartDate: "2026-05-14",
 		EndDate:   "2026-06-04",
 		Note:      "Resurrección Grimmjow's debut with his SSR Pantera form. Triple-SSR Strike comp with Soi Fon and Mayuri, plus the new Pantera weapon.",
@@ -1082,20 +1079,18 @@ var banners = BannerData{
 	// don't need. Each entry is shown on the /upcoming page in order.
 	Upcoming: []Banner{
 		{
-			Name:      "Ichigo Kurosaki・Inner Hollow Rate-Up", // e.g. "Tōshirō Hitsugaya Rate-Up"
+			Name:      "Ichigo Kurosaki・Inner Hollow Releases!", // e.g. "Tōshirō Hitsugaya Rate-Up"
 			Slugs:     []string{""}, // e.g. "toshiro"
-			Weapon:    "Zangetsu", // e.g. "Zangetsu"
 			StartDate: "2026-06-05", // YYYY-MM-DD
 			EndDate:   "2026-06-26", // YYYY-MM-DD
-			Note:      "First limited Slash Tactic SSR. White debuts in his Shikai and Bankai forms.",
+			Note:      "First limited Slash Tactic SSR. White debuts in his Shikai as well as Bankai forms.",
 		},
 		{
-			Name:      "Ulquiorra Shifar (Base) SR+ Free Unit by Mail",
+			Name:      "Ulquiorra Shifar (Base) SR+ Free Unit",
 			Slugs:     []string{""},
-			Weapon:    "Murciélago",
 			StartDate: "2026-06-05",
 			EndDate:   "2026-06-05",
-			Note:      "Base form Ulquiorra, and will be free via mail on the 5th.",
+			Note:      "Base form Ulquiorra, and will be free via mail on the 5th of June, 2026 (UTC).",
 		},
 	},
 	// ---------------------------------------------------------------------
@@ -1114,11 +1109,18 @@ var banners = BannerData{
 			Note:      "Ulquiorra Shifar set to compete against Toshiro as a Spirit Full Assault with his dual forms; Murciélago and Segunda Etapa.",
 		},
 		{
-			Name:       "",
-			Role:       "",
-			DamageType: "",
-			Rarity:     "",
-			Note:       "",
+			Name:       "Yammy Llargo",
+			Role:       "TBD",
+			DamageType: "TBD",
+			Rarity:     "TBD",
+			Note:       "He was added to the game files, however no details upon him were found.",
+		},
+		{
+			Name:       "Nnoitorra Gilga",
+			Role:       "TBD",
+			DamageType: "TBD",
+			Rarity:     "TBD",
+			Note:       "He was added to the game files, however no details upon him were found.",
 		},
 	},
 }
