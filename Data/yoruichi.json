@@ -33,6 +33,7 @@
       "name": "Tenshiheiso"
     },
     {
+      "description": "",
       "icon": "/Images/yoruichi/boundary-3.png",
       "level": 3
     },
@@ -43,6 +44,7 @@
       "name": "Disguise"
     },
     {
+      "description": "",
       "icon": "/Images/yoruichi/boundary-5.png",
       "level": 5
     },

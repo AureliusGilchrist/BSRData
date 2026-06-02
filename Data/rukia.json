@@ -33,6 +33,7 @@
       "name": "Rain of Repentance"
     },
     {
+      "description": "",
       "icon": "/Images/rukia/boundary-3.png",
       "level": 3
     },
@@ -43,6 +44,7 @@
       "name": "Noble Ascension"
     },
     {
+      "description": "",
       "icon": "/Images/rukia/boundary-5.png",
       "level": 5
     },

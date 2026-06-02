@@ -37,6 +37,7 @@
       "name": "Manhunt"
     },
     {
+      "description": "",
       "icon": "/Images/gin/boundary-3.png",
       "level": 3
     },
@@ -47,6 +48,7 @@
       "name": "Icy Demeanor"
     },
     {
+      "description": "",
       "icon": "/Images/gin/boundary-5.png",
       "level": 5
     },

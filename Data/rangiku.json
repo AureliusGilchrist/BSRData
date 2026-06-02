@@ -37,6 +37,7 @@
       "name": "Cat's Helping Paw"
     },
     {
+      "description": "",
       "icon": "/Images/rangiku/boundary-3.png",
       "level": 3
     },
@@ -47,6 +48,7 @@
       "name": "Scratch Marks"
     },
     {
+      "description": "",
       "icon": "/Images/rangiku/boundary-5.png",
       "level": 5
     },

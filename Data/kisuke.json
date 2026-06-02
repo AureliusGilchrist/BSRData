@@ -33,6 +33,7 @@
       "name": "Sinless Sin"
     },
     {
+      "description": "",
       "icon": "/Images/kisuke/boundary-3.png",
       "level": 3
     },
@@ -43,6 +44,7 @@
       "name": "Carefree"
     },
     {
+      "description": "",
       "icon": "/Images/kisuke/boundary-5.png",
       "level": 5
     },

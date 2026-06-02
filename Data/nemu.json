@@ -16,26 +16,32 @@
   "bondPriority": [],
   "boundaries": [
     {
+      "description": "",
       "icon": "/Images/nemu/boundary-1.png",
       "level": 1
     },
     {
+      "description": "",
       "icon": "/Images/nemu/boundary-2.png",
       "level": 2
     },
     {
+      "description": "",
       "icon": "/Images/nemu/boundary-3.png",
       "level": 3
     },
     {
+      "description": "",
       "icon": "/Images/nemu/boundary-4.png",
       "level": 4
     },
     {
+      "description": "",
       "icon": "/Images/nemu/boundary-5.png",
       "level": 5
     },
     {
+      "description": "",
       "icon": "/Images/nemu/boundary-6.png",
       "level": 6
     }

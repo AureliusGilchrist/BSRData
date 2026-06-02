@@ -33,6 +33,7 @@
       "name": "Unforgivable Betrayal"
     },
     {
+      "description": "",
       "icon": "/Images/soi-fon/boundary-3.png",
       "level": 3
     },
@@ -43,6 +44,7 @@
       "name": "Flashy Ambush"
     },
     {
+      "description": "",
       "icon": "/Images/soi-fon/boundary-5.png",
       "level": 5
     },

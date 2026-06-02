@@ -37,6 +37,7 @@
       "name": "The Name of Kenpachi"
     },
     {
+      "description": "",
       "icon": "/Images/kenpachi/boundary-3.png",
       "level": 3
     },
@@ -47,6 +48,7 @@
       "name": "Fearless Demon"
     },
     {
+      "description": "",
       "icon": "/Images/kenpachi/boundary-5.png",
       "level": 5
     },

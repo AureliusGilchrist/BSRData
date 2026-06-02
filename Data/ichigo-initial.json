@@ -16,26 +16,32 @@
   "bondPriority": [],
   "boundaries": [
     {
+      "description": "",
       "icon": "/Images/ichigo-initial/boundary-1.png",
       "level": 1
     },
     {
+      "description": "",
       "icon": "/Images/ichigo-initial/boundary-2.png",
       "level": 2
     },
     {
+      "description": "",
       "icon": "/Images/ichigo-initial/boundary-3.png",
       "level": 3
     },
     {
+      "description": "",
       "icon": "/Images/ichigo-initial/boundary-4.png",
       "level": 4
     },
     {
+      "description": "",
       "icon": "/Images/ichigo-initial/boundary-5.png",
       "level": 5
     },
     {
+      "description": "",
       "icon": "/Images/ichigo-initial/boundary-6.png",
       "level": 6
     }

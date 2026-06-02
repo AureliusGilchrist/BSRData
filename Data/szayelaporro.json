@@ -33,6 +33,7 @@
       "name": "A Guest of Honor"
     },
     {
+      "description": "",
       "icon": "/Images/szayelaporro/boundary-3.png",
       "level": 3
     },
@@ -43,6 +44,7 @@
       "name": "Grand Entrance"
     },
     {
+      "description": "",
       "icon": "/Images/szayelaporro/boundary-5.png",
       "level": 5
     },

@@ -85,7 +85,8 @@ type Banner struct {
 
 // Leak is an unconfirmed, datamined/leaked future character. Unlike a Banner,
 // a leak does NOT link anywhere — the site only shows who they are plus their
-// role and damage type. No dates, no art links, no character page.
+// role and damage type. No art links, no character page. An optional expected
+// date drives a "Time until" countdown on the site (there is no end date).
 type Leak struct {
 	// Character name, e.g. "Ulquiorra Cifer".
 	Name string `json:"name"`
@@ -95,6 +96,10 @@ type Leak struct {
 	DamageType string `json:"damageType,omitempty"`
 	// Rarity, if known: "SSR" / "SR+" / "SR" (optional).
 	Rarity string `json:"rarity,omitempty"`
+	// Optional expected/leaked ISO date "YYYY-MM-DD". When set, the site shows
+	// a live "Time until" countdown to the START of that day. There is no end
+	// date for leaks — the countdown simply disappears once the day arrives.
+	Date string `json:"date,omitempty"`
 	// Free-form note (optional), e.g. "datamined, subject to change".
 	Note string `json:"note,omitempty"`
 }
@@ -106,6 +111,19 @@ type BannerData struct {
 	// Leaks: unconfirmed future characters. Shown on /upcoming with name +
 	// role + type only (no links). Filled in by hand.
 	Leaks []Leak `json:"leaks"`
+}
+
+// Boundary is one of a character's six Boundary unlocks. The curated
+// boundariesBySlug map below OVERRIDES the scraped boundary text in each JSON
+// so all six always render with consistent wording. Icons are not listed here
+// — they're derived from the slug + level ("/Images/<slug>/boundary-<n>.png").
+type Boundary struct {
+	// Boundary level, 1..6.
+	Level int `json:"level"`
+	// Optional title shown above the description (B3/B5 are usually unnamed).
+	Name string `json:"name,omitempty"`
+	// Effect text shown on the character page.
+	Description string `json:"description"`
 }
 
 // CharacterCuration holds per-character merged fields.
@@ -167,9 +185,9 @@ var tierBySlug = map[string]string{
 	"yoruichi": 		"B",
 
 	"ikkaku":   		"C",
+	"byakuya":        	"C",
 	"rukia":            "C",
 	"komamura": 		"C",
-	"uryu":           	"D",
 	"ichigo-shikai":  	"C",
 
 	"chad":           	"D",
@@ -178,7 +196,249 @@ var tierBySlug = map[string]string{
 	"nemu":           	"D",
 	"renji":          	"D",
 	"ururu":          	"D",
-	"byakuya":        	"C",
+	"uryu":           	"D",
+}
+
+// boundariesBySlug is the authoritative, hand-curated Boundary text for every
+// character. When a slug is present here it OVERRIDES whatever the scraper
+// wrote into <slug>.json so all six boundaries always render with consistent
+// wording. Each entry's icon is derived from the slug + level, so only the
+// level / name / description are listed. Edit the text here, then re-run curate
+// to push it into the JSONs (and Index regen). Empty descriptions are
+// placeholders — fill them in as the wiki/data surfaces the effect text.
+var boundariesBySlug = map[string][]Boundary{
+	"aizen": {
+		{Level: 1, Name: "Perception of Power", Description: "Enters Complete Suppression upon entering the battle. When Aizen releases a backline Battlefield Skill while under Complete Suppression, he gains 50% Battlefield Skill Energy."},
+		{Level: 2, Name: "As Expected", Description: "All characters in the team deal 20% more Spirit DMG."},
+		{Level: 3, Description: "Increases Level of Basic Attack, Technique, Ultimate, Counterattack, and Battlefield Skill by 2."},
+		{Level: 4, Name: "Don't Let Me Down", Description: "Aizen's basic attacks, techniques, and counterattacks ignore 50% of the enemy's DEF. Each stack of Ravage applied on the enemy further increases 5% of DEF ignored. When Aizen is switched in through a backline Battlefield Skill, he can release a counterattack. This effect lasts until Aizen is switched to the backline again. Cooldown: 20 second(s). Increases the cap of Ravage to 3 stacks."},
+		{Level: 5, Description: "Increases Level of Basic Attack, Technique, Ultimate, Counterattack and Battlefield Skill by 2."},
+		{Level: 6, Name: "Under Control", Description: "Upon releasing a Battlefield Skill, the current Crit Rate is multiplied by 2. Any excess Crit Rate converts into Crit DMG for that attack at a 1:1 ratio."},
+	},
+	"byakuya": {
+		{Level: 1, Description: "When Byakuya releases the Ultimate, he instantly gains 30% Spiritual Pressure."},
+		{Level: 2, Description: "When in the Bankai state, each time Byakuya uses a technique, he will gain 1 stack of Determination based on the number of successful hits landed. Each stack of Determination increases all of Byakuya's damage by 2% for 12 seconds and stacks up to 14 times. When Determination reaches more than 8 stacks, Byakuya gains an additional 40% Critical DMG."},
+		{Level: 3, Description: "Increases Level of Basic Attack, Technique, Ultimate, Counterattack, and Battlefield Skill by 2."},
+		{Level: 4, Description: "Techniques deal 100% more damage."},
+		{Level: 5, Description: "Increases Level of Basic Attack, Technique, Ultimate, Counterattack, and Battlefield Skill by 2."},
+		{Level: 6, Description: "When Byakuya uses his technique in the Bankai state, his Spiritual Pressure will be consumed 50% slower."},
+	},
+	"chad": {
+		{Level: 1, Description: ""},
+		{Level: 2, Description: ""},
+		{Level: 3, Description: ""},
+		{Level: 4, Description: ""},
+		{Level: 5, Description: ""},
+		{Level: 6, Description: ""},
+	},
+	"gin": {
+		{Level: 1, Name: "Devouring Mouth", Description: "Gains 3 Technique Points immediately when entering battle. Fully restores Technique Points after releasing the Ultimate."},
+		{Level: 2, Name: "Manhunt", Description: "For every 1 Technique Point consumed, the Crit DMG of the next Ultimate is increased by 35%, stacking up to 6 times. Hitting the enemy with the final strike of the Basic Attack reduces Technique Points recovery time by 2 seconds."},
+		{Level: 3, Description: ""},
+		{Level: 4, Name: "Icy Demeanor", Description: "Impale DMG increases by 100%."},
+		{Level: 5, Description: ""},
+		{Level: 6, Name: "Cell Dissolution", Description: "The Ultimate inflicts Snake Venom on the enemy, dealing DMG equal to 50% of ATK every second. Snake Venom explodes after 12 seconds, dealing further DMG equal to 40% of the total DMG dealt by Gin during this 12-second period, up to 2500× of Gin's current ATK. While charging a technique, an additional wide-area Thrust attack is released without interrupting the charge (up to 600% of ATK based on charge time)."},
+	},
+	"grimmjow": {
+		{Level: 1, Name: "Total Annihilation", Description: "Technique can be released 1 additional time. After Grimmjow releases his Ultimate and enters Form of Destruction, switching him to the backline will stop Ultimate Energy from draining. Each point of Spiritual Pressure Reserve doubles Grimmjow's Strike DMG bonus."},
+		{Level: 2, Name: "Battle Thirst", Description: "The Ultimate, Gran Rey Cero, and Enhanced Basic Attack, Form of Destruction, ignore 60% of the enemy's DEF."},
+		{Level: 3, Description: ""},
+		{Level: 4, Name: "Strongest Cero", Description: "Increases the damage dealt by Grimmjow's Ultimate, Gran Rey Cero, and Enhanced Basic Attack, Form of Destruction, by 50%. When releasing Ultimate, Gran Rey Cero, additionally inflicts 5 stacks of Destruction Mark to the enemy."},
+		{Level: 5, Description: ""},
+		{Level: 6, Name: "Duel of Equals", Description: "Each time Destruction Mark is detonated, inflicts 1 stack of Battle Mark on the enemy, increasing the damage they take from Grimmjow's Ultimate, Gran Rey Cero, and Enhanced Basic Attack, Form of Destruction, by 7.5%. Lasts 20 seconds, stacking up to 10 times."},
+	},
+	"grimmjow-pantera": {
+		{Level: 1, Name: "Evolutionary Path", Description: "The passive, Bare Killing Intent, increases the maximum stack of Killing Intent to 10. Each stack also increases the damage of the next Special Attack, Pounce, by 5%."},
+		{Level: 2, Name: "Spare No One", Description: "When Pounce hits an enemy, it immediately deals Lacerate DMG. The Prey Mark applied to the enemy also reduces their Strike Resistance by 10%."},
+		{Level: 3, Description: ""},
+		{Level: 4, Name: "Worth the Hunt", Description: "When Prey Mark applied by Pounce ends, it deals an additional round of damage to the enemy equal to 15% of the total Strike DMG the target took during Prey Mark, up to a maximum of 3000× Grimmjow's current ATK."},
+		{Level: 5, Description: ""},
+		{Level: 6, Name: "I Will Be King", Description: "Grimmjow enters Destructive Urge immediately after battle starts. Lacerate Points accumulation rate increased by 40%. Each Lacerate trigger grants 8% All-Skill Mastery and 20% Crit DMG for 15 seconds, stacking up to 3 times."},
+	},
+	"ichigo-bankai": {
+		{Level: 1, Name: "Sun That Seals the Sky", Description: "After using a technique or counterattack, the critical rate of the special attack increases by 30% for 6 seconds, and can be stacked up to 2 times. Each time a special attack lands a critical hit, the cooldown of the technique is reduced by 0.5 seconds. This activates once every 0.5 seconds."},
+		{Level: 2, Name: "Rising Black Moon", Description: "Increases Getsuga Mark duration by 3 seconds. Each time Ichigo hits an enemy affected by Getsuga Mark, all damage dealt by him increases by 3% for 5 seconds, stacking up to 5 times. When Ichigo is in the Hollowfied state, can be stacked up to 10 times."},
+		{Level: 3, Description: "Increases Level of Basic Attack, Technique, Ultimate and Counterattack by 2."},
+		{Level: 4, Name: "Soul Convergence", Description: "Ichigo's counterattack deals 100% more damage."},
+		{Level: 5, Description: "Increases Level of Basic Attack, Technique, Ultimate and Counterattack by 2."},
+		{Level: 6, Name: "Edge of Black & White", Description: "When Ichigo launches a special attack, it will grant a quick charge if one is not already present. Otherwise, it will be consumed instantly, increasing the damage of the special attack by an additional 100%."},
+	},
+	"ichigo-initial": {
+		{Level: 1, Description: ""},
+		{Level: 2, Description: ""},
+		{Level: 3, Description: ""},
+		{Level: 4, Description: ""},
+		{Level: 5, Description: ""},
+		{Level: 6, Description: ""},
+	},
+	"ichigo-shikai": {
+		{Level: 1, Description: ""},
+		{Level: 2, Description: ""},
+		{Level: 3, Description: ""},
+		{Level: 4, Description: ""},
+		{Level: 5, Description: ""},
+		{Level: 6, Description: ""},
+	},
+	"ikkaku": {
+		{Level: 1, Description: ""},
+		{Level: 2, Description: ""},
+		{Level: 3, Description: ""},
+		{Level: 4, Description: ""},
+		{Level: 5, Description: ""},
+		{Level: 6, Description: ""},
+	},
+	"kenpachi": {
+		{Level: 1, Name: "Wandering Beast", Description: "Spiritual Pressure gained from releasing Special Attacks is increased by 100%, and the damage dealt by Special Attacks is increased by 50%."},
+		{Level: 2, Name: "The Name of Kenpachi", Description: "For every 1% of Ailment DMG Bonus Kenpachi has, his Crit Rate increases by 0.5%, up to 30%."},
+		{Level: 3, Description: ""},
+		{Level: 4, Name: "Fearless Demon", Description: "Increases the damage dealt by all Sever Attacks by 30%."},
+		{Level: 5, Description: ""},
+		{Level: 6, Name: "Driven to the Edge", Description: "Each time an on-field enemy is inflicted with Cleave, Kenpachi's Crit DMG and Ailment Mastery are increased by 30% and 20%, respectively, for 30 seconds, stacking up to 2 times."},
+	},
+	"kisuke": {
+		{Level: 1, Name: "Vanished Mystery", Description: "Upon gaining Reishi Analysis, gains 10% extra Slash DMG Bonus."},
+		{Level: 2, Name: "Sinless Sin", Description: "Enemies near Portable Gigai receive 15% more DMG for 6s. Taking Explosion DMG from Portable Gigai refreshes the duration."},
+		{Level: 3, Description: ""},
+		{Level: 4, Name: "Carefree", Description: "Reduces the cooldown of the Ultimate by 5s."},
+		{Level: 5, Description: ""},
+		{Level: 6, Name: "Benihime's Scream", Description: "Each stack of Reishi Analysis increases Urahara's Crit Rate by an extra 10% and Crit DMG by an extra 10%."},
+	},
+	"komamura": {
+		{Level: 1, Description: ""},
+		{Level: 2, Description: ""},
+		{Level: 3, Description: ""},
+		{Level: 4, Description: ""},
+		{Level: 5, Description: ""},
+		{Level: 6, Description: ""},
+	},
+	"mayuri": {
+		{Level: 1, Name: "Seeker's Heart", Description: "Excitement can now stack up 4 times."},
+		{Level: 2, Name: "Collapsed Functionality", Description: "Increases the Spiritual Pressure Charge Rate by 50% and the efficiency of inflicting Poison Scale to enemies by 100%. Increases the damage bonuses for Superhuman Potion and Double-Barreled by an extra 5%."},
+		{Level: 3, Description: ""},
+		{Level: 4, Name: "Absolute Madness", Description: "Increases the entire team's Ailment DMG Bonus equal to 20% of Mayuri Kurotsuchi's Ultimate Charge Rate, up to 50%."},
+		{Level: 5, Description: ""},
+		{Level: 6, Name: "Depletion Engraftment", Description: "Increases the Spiritual Pressure Reduction effect of Flesh Bomb and Double-Barreled when hitting enemies by an extra 50%. Increases the damage dealt by 10% when hitting enemies affected by Spiritual Pressure Dissipation."},
+	},
+	"momo": {
+		{Level: 1, Name: "Distant Feelings", Description: "The maximum number of Insight stacks increases to 6."},
+		{Level: 2, Name: "Blade of Truth", Description: "When Hinamori takes fatal DMG, she immediately heals 50% of max HP instead of becoming incapacitated, and gains 3 stacks of Insight. Triggers once every 180 seconds."},
+		{Level: 3, Description: "Increases Level of Basic Attack, Technique, Ultimate and Counterattack by 2."},
+		{Level: 4, Name: "Steadfast", Description: "Increases DMG dealt by the special attack Bombardment by 100%."},
+		{Level: 5, Description: "Increases Level of Basic Attack, Technique, Ultimate and Counterattack by 2."},
+		{Level: 6, Name: "Dancing Plum Blossoms", Description: "The explosion damage from igniting a Kido Snare increases to the number of Insight stacks x10%. Reaching maximum Insight stacks increases Explosion DMG by an extra30%."},
+	},
+	"nelliel": {
+		{Level: 1, Name: "Reckoning Time", Description: "When releasing the Ultimate, Praise, Gamuza, immediately gains 3 points of Battle Will. Each time any Battlefield Skill is released, Nelliel gains Reckoning for 8 seconds, during which all Battlefield Skills deal 50% increased damage. All characters in the team deal 20% more Thrust DMG."},
+		{Level: 2, Name: "Rebirth Amid Calamity", Description: "During Resurreccion, releasing the Technique: Verde Whirl, Special Attacks: Lance Execution, or landing the final hit of counterattack: Heroic Stomp grants 1 stack of Harass, increasing the entire team's Crit DMG by 20% for 30 seconds, stacking up to 4 times."},
+		{Level: 3, Description: ""},
+		{Level: 4, Name: "You've Got This", Description: "When any teammate triggers a counterattack, Nelliel's Crit Rate and Critical DMG are increased by 20% and 40%, respectively, for 30 seconds. Unstackable."},
+		{Level: 5, Description: ""},
+		{Level: 6, Name: "The Return of Gamuza", Description: "Releasing Cero Sincretico enables an immediate counterattack. During Resurreccion, the first hit of Lanzador Verde costs 0 Ultimate Energy and does not end the Resurreccion state. It also refreshes Heroic Stomp and maxes out Battle Will."},
+	},
+	"nemu": {
+		{Level: 1, Description: ""},
+		{Level: 2, Description: ""},
+		{Level: 3, Description: ""},
+		{Level: 4, Description: ""},
+		{Level: 5, Description: ""},
+		{Level: 6, Description: ""},
+	},
+	"orihime": {
+		{Level: 1, Description: ""},
+		{Level: 2, Description: ""},
+		{Level: 3, Description: ""},
+		{Level: 4, Description: ""},
+		{Level: 5, Description: ""},
+		{Level: 6, Description: ""},
+	},
+	"rangiku": {
+		{Level: 1, Name: "Dust Settled", Description: "Every time Ash Blade hits an enemy, Rangiku gains 2.5% Ultimate Energy."},
+		{Level: 2, Name: "Cat's Helping Paw", Description: "Haineko's Assist grants teammates extra Ailment DMG Bonus equal to 30% of Rangiku's Ailment DMG Bonus."},
+		{Level: 3, Description: ""},
+		{Level: 4, Name: "Scratch Marks", Description: "Every time Ash Blade hits an enemy, subsequent Ash Blade DMG increases by 20% for 15 seconds. Stacks up to 10 times."},
+		{Level: 5, Description: ""},
+		{Level: 6, Name: "Sandstorm", Description: "The drag range for techniques is expanded, and their DMG is increased by 200%."},
+	},
+	"renji": {
+		{Level: 1, Description: ""},
+		{Level: 2, Description: ""},
+		{Level: 3, Description: ""},
+		{Level: 4, Description: ""},
+		{Level: 5, Description: ""},
+		{Level: 6, Description: ""},
+	},
+	"rukia": {
+		{Level: 1, Name: "Butterflies From Hell", Description: "Increases the Freeze Points inflicted by the Battlefield Skill Icy Sword Wave by an extra 25."},
+		{Level: 2, Name: "Rain of Repentance", Description: "Increases DMG dealt by the Battlefield Skill Icy Sword Wave by 30%. Triggering the Battlefield Skill Chill Release's combo attack grants a 66% chance to release a second Ice Spike and a 33% chance to release a third."},
+		{Level: 3, Description: ""},
+		{Level: 4, Name: "Noble Ascension", Description: "Increases Rukia's Spirit DMG by 20%."},
+		{Level: 5, Description: ""},
+		{Level: 6, Name: "Snow of Dance", Description: "Releases the Battlefield Skill Chill Release when the battle begins. When an enemy triggers Breaking Ice or is within range of the Battlefield Skill Chill Release, their Spirit Resistance is reduced by 15% for 20s."},
+	},
+	"soi-fon": {
+		{Level: 1, Name: "Beyond Admiration", Description: "Reduces the cooldown of Ultimate by 10 seconds and increases Ultimate Energy Charge Rate by 100%. Increases Soi Fon's Crit Rate by 15%."},
+		{Level: 2, Name: "Unforgivable Betrayal", Description: "Increases All-Skill Mastery by 40%."},
+		{Level: 3, Description: ""},
+		{Level: 4, Name: "Flashy Ambush", Description: "When any character in the team lands a critical hit, an extra Sting is triggered, dealing damage equal to 500% of Soi Fon's ATK. Cooldown: 4 seconds."},
+		{Level: 5, Description: ""},
+		{Level: 6, Name: "Don't Slow Me Down", Description: "Reduces the Strike Resistance of enemies inflicted with Execution Target by an extra 20% and increases all damage they receive by 15%."},
+	},
+	"szayelaporro": {
+		{Level: 1, Name: "Aligned Interests", Description: "When releasing a Special Attack, if there are 6 stacks of Intel Control, the entire team gains an additional 10% Spirit DMG Bonus for 20 seconds. Increases Ultimate Charge Rate by 40%."},
+		{Level: 2, Name: "A Guest of Honor", Description: "Each time a Special Attack is released, enemies hit have their Spirit Resistance reduced by 10% for 20 seconds."},
+		{Level: 3, Description: ""},
+		{Level: 4, Name: "Grand Entrance", Description: "Increases Ultimate DMG by 600%, up to 1800 times of Szayelaporro's ATK. The buff provided by the passive, Research Expert, is increased by an extra 5%."},
+		{Level: 5, Description: ""},
+		{Level: 6, Name: "How Unfortunate", Description: "Increases the Crit Rate of all Special Attacks and counterattacks by 80% and their damage dealt by 50%. Each release also increases the entire team's counterattack damage by 200% for 20 seconds."},
+	},
+	"tosen": {
+		{Level: 1, Description: ""},
+		{Level: 2, Description: ""},
+		{Level: 3, Description: ""},
+		{Level: 4, Description: ""},
+		{Level: 5, Description: ""},
+		{Level: 6, Description: ""},
+	},
+	"toshiro": {
+		{Level: 1, Name: "In the Name of Snow", Description: "When entering Bankai state, immediately gains 3 Ice Blossoms. All damage dealt by Toshiro increases by 25%."},
+		{Level: 2, Name: "Dive", Description: "Increases Critical Rate by 20% for 8 seconds after releasing a technique or counterattack. Stacks up to 2 times."},
+		{Level: 3, Description: "Increases Level of Basic Attack, Technique, Ultimate and Counterattack by 2."},
+		{Level: 4, Name: "Talent", Description: "Increases all technique damage by 150%."},
+		{Level: 5, Description: "Increases Level of Basic Attack, Technique, Ultimate and Counterattack by 2."},
+		{Level: 6, Name: "Throne of Frost", Description: "Instantly fills Spiritual Pressure to maximum at the start of battle. The Ultimate Hyoten Hyakkaso gains extra Critical DMG equal to current Build Up stacks x40%. Each Build Up stack consumed increases basic attack damage by 60% for 8 seconds."},
+	},
+	"ururu": {
+		{Level: 1, Description: ""},
+		{Level: 2, Description: ""},
+		{Level: 3, Description: ""},
+		{Level: 4, Description: ""},
+		{Level: 5, Description: ""},
+		{Level: 6, Description: ""},
+	},
+	"uryu": {
+		{Level: 1, Description: ""},
+		{Level: 2, Description: ""},
+		{Level: 3, Description: ""},
+		{Level: 4, Description: ""},
+		{Level: 5, Description: ""},
+		{Level: 6, Description: ""},
+	},
+	"yachiru": {
+		{Level: 1, Name: "Innocent Smile", Description: "Yachiru gains 1% Ultimate Energy every second while Spectating."},
+		{Level: 2, Name: "Ever With the Blade", Description: "Inspiration grants an extra 8% Slash DMG Bonus."},
+		{Level: 3, Description: ""},
+		{Level: 4, Name: "Bloodstain", Description: "Yachiru's Ultimate Energy Charge Rate increases by 30%."},
+		{Level: 5, Description: ""},
+		{Level: 6, Name: "Distant Name", Description: "When Yachiru is Spectating, the on-field character's ATK increases by an extra 12%."},
+	},
+	"yoruichi": {
+		{Level: 1, Name: "Hidden in Night", Description: "Yoruichi gains 20% Spiritual Pressure whenever she dodges an attack."},
+		{Level: 2, Name: "Tenshiheiso", Description: "Increases the Lightning Seal stack limit to 8."},
+		{Level: 3, Description: ""},
+		{Level: 4, Name: "Disguise", Description: "Increases DMG dealt by the special attack Hakuda - Stomping Strike by 100%."},
+		{Level: 5, Description: ""},
+		{Level: 6, Name: "Pose of Flash Goddess", Description: "Reduces Yoruichi's Perfect Dodge cooldown to 8s. Every Perfect Dodge increases Crit DMG by 30% for 15s, stacking up to 3 times."},
+	},
 }
 
 // Note: release dates are no longer hard-coded here. The scraper (../Main.go)
@@ -1100,12 +1360,15 @@ var banners = BannerData{
 	//   Role:       "Full Assault / DPS" | "Tactician" | "Support"
 	//   DamageType: "Slash" | "Strike" | "Thrust" | "Spirit"
 	//   Rarity:     "SSR" | "SR+" | "SR" (optional)
+	//   Date:       "YYYY-MM-DD" (optional) — drives a "Time until" countdown;
+	//               leaks have no end date.
 	Leaks: []Leak{
 		{
 			Name:      "Ulquiorra Shifar (Resurrección) SSR Rate-Up",
 			Role:      "Full Assault / DPS",
 			DamageType: "Spirit",
 			Rarity:     "SSR",
+			Date:       "2026-06-26",
 			Note:      "Ulquiorra Shifar set to compete against Toshiro as a Spirit Full Assault with his dual forms; Murciélago and Segunda Etapa.",
 		},
 		{
@@ -1113,6 +1376,7 @@ var banners = BannerData{
 			Role:       "TBD",
 			DamageType: "TBD",
 			Rarity:     "TBD",
+			Date:       "TBD",
 			Note:       "He was added to the game files, however no details upon him were found.",
 		},
 		{
@@ -1120,6 +1384,7 @@ var banners = BannerData{
 			Role:       "TBD",
 			DamageType: "TBD",
 			Rarity:     "TBD",
+			Date:       "TBD",
 			Note:       "He was added to the game files, however no details upon him were found.",
 		},
 		{
@@ -1127,6 +1392,7 @@ var banners = BannerData{
 			Role:       "TBD",
 			DamageType: "TBD",
 			Rarity:     "TBD",
+			Date:       "TBD",
 			Note:       "He was added to the game files, however no details upon him were found.",
 		},
 		{
@@ -1134,6 +1400,7 @@ var banners = BannerData{
 			Role:       "TBD",
 			DamageType: "TBD",
 			Rarity:     "TBD",
+			Date:       "TBD",
 			Note:       "He was added to the game files, however no details upon him were found.",
 		},
 		{
@@ -1141,6 +1408,7 @@ var banners = BannerData{
 			Role:       "TBD",
 			DamageType: "TBD",
 			Rarity:     "TBD",
+			Date:       "TBD",
 			Note:       "He was added to the game files, however no details upon him were found.",
 		},
 		{
@@ -1148,6 +1416,7 @@ var banners = BannerData{
 			Role:       "TBD",
 			DamageType: "TBD",
 			Rarity:     "TBD",
+			Date:       "TBD",
 			Note:       "She was added to the game files, however no details upon her were found.",
 		},
 	},
@@ -1336,6 +1605,24 @@ func main() {
 		// override — the scraper has no tier data; edit the map to re-rank.
 		if t, ok := tierBySlug[slug]; ok {
 			obj["tier"] = t
+		}
+		// Boundaries: boundariesBySlug is the authoritative, hand-curated
+		// boundary text. When present it OVERRIDES the scraped boundaries so all
+		// six always render. Icons are derived from the slug + level.
+		if bs, ok := boundariesBySlug[slug]; ok && len(bs) > 0 {
+			out := make([]map[string]any, 0, len(bs))
+			for _, b := range bs {
+				m := map[string]any{
+					"level":       b.Level,
+					"description": b.Description,
+					"icon":        fmt.Sprintf("/Images/%s/boundary-%d.png", slug, b.Level),
+				}
+				if b.Name != "" {
+					m["name"] = b.Name
+				}
+				out = append(out, m)
+			}
+			obj["boundaries"] = out
 		}
 		// Role normalization: the scraper writes a few variants for the same
 		// class — "Full Assault", "Full Assault/DPS", "Full Assault / DPS" all

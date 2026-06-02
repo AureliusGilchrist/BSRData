@@ -33,6 +33,7 @@
       "name": "Battle Thirst"
     },
     {
+      "description": "",
       "icon": "/Images/grimmjow/boundary-3.png",
       "level": 3
     },
@@ -43,6 +44,7 @@
       "name": "Strongest Cero"
     },
     {
+      "description": "",
       "icon": "/Images/grimmjow/boundary-5.png",
       "level": 5
     },
