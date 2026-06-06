@@ -484,9 +484,30 @@ var curation = map[string]CharacterCuration{
 	// CharacterCuration's doc comment; stamps/rotations stay empty until the
 	// build data is known, so curate only fills rarity/tier/boundaries here. ---
 	"ichigo-white": {
-		StopBoundaryP2W: 2,
-		StopBoundaryF2P: 1,
+		StopBoundaryP2W: 6,
+		StopBoundaryF2P: 0,
+		BestStamp: BestStamp{
+			SetName:         "Mindscape Encroachment (3)",
+			MainStats:       "1: Slash DMG Bonus > Atk%  •  2: Crit DMG (W5/C5) > Crit Rate •  3: Atk% > Ult Charge Rate",
+			SubStatPriority: "Crit DMG > Crit Rate (25% for W5/C5) > Atk% > Ult Charge Rate > Flat Atk",
+			Notes:           "Aim for ~119% Ult Charge Rate to align Ultimate with team buffs.",
+		},
+		Rotations: []Rotation{
+			{
+				Name: "Opener (Cleaving Throw)",
+				Steps: []string{
+					"Start with Slash Full Assault's Technique",
+					"Swap to White → Special Attack",
+					"Technique",
+					"Enter Ultimate whenever available",
+					"Swap to another character (White will continuously shoot Getsuga Tensho whenever you hit the enemy)",
+					"Use the Ultimate Finisher whenever it's charged",
+				},
+				Notes: "White's Special Attack provides a manual counter. ",
+				Tags:  []string{"Burst", "Boss"},
+            },
 	},
+
 	"ulquiorra": {
 		StopBoundaryP2W: 3,
 		StopBoundaryF2P: 3,
