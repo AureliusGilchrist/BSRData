@@ -178,9 +178,9 @@ var tierBySlug = map[string]string{
 	"ichigo-white": "S",
 	"ulquiorra-resurreccion": "S",
 
-	"kenpachi":     	"A",
+	"kenpachi":     	"S",
 	"grimmjow":         "A",
-	"ichigo-bankai":    "A",
+	"ichigo-bankai":    "S",
 	"tosen":            "A",
 
 	"yachiru":          "B",
@@ -409,9 +409,9 @@ var boundariesBySlug = map[string][]Boundary{
 		{Level: 1, Name: "Beyond Admiration", Description: "Reduces the cooldown of Ultimate by 10 seconds and increases Ultimate Energy Charge Rate by 100%. Increases Soi Fon's Crit Rate by 15%."},
 		{Level: 2, Name: "Unforgivable Betrayal", Description: "Increases All-Skill Mastery by 40%."},
 		{Level: 3, Description: ""},
-		{Level: 4, Name: "Flashy Ambush", Description: "When any character in the team lands a critical hit, an extra Sting is triggered, dealing damage equal to 500% of Soi Fon's ATK. Cooldown: 4 seconds."},
+		{Level: 4, Name: "Don't Slow Me Down", Description: "Reduces the Strike Resistance of enemies inflicted with Execution Target by an extra 20% and increases all damage they receive by 15%."},
 		{Level: 5, Description: ""},
-		{Level: 6, Name: "Don't Slow Me Down", Description: "Reduces the Strike Resistance of enemies inflicted with Execution Target by an extra 20% and increases all damage they receive by 15%."},
+		{Level: 6, Name: "Flashy Ambush", Description: "When any character in the team lands a critical hit, an extra Sting is triggered, dealing damage equal to 500% of Soi Fon's ATK. Cooldown: 4 seconds."},
 	},
 	"szayelaporro": {
 		{Level: 1, Name: "Aligned Interests", Description: "When releasing a Special Attack, if there are 6 stacks of Intel Control, the entire team gains an additional 10% Spirit DMG Bonus for 20 seconds. Increases Ultimate Charge Rate by 40%."},
@@ -629,9 +629,9 @@ var curation = map[string]CharacterCuration{
 		StopBoundaryP2W: 6,
 		StopBoundaryF2P: 0,
 		BestStamp: BestStamp{
-			SetName:         "Pantera (4) + Strike (2)",
+			SetName:         "Becoming the King (3)",
 			MainStats:       "1: Strike DMG Bonus  •  2: Crit Rate  •  3: Atk%",
-			SubStatPriority: "ATK% > Crit Rate > Crit DMG > Flat Atk",
+			SubStatPriority: "ATK% > Crit Rate (50%) > Crit DMG > Flat Atk > Ailment%",
 			Notes:           "B6 unlocks the second Resurrección burst — worth the full investment.",
 		},
 		Rotations: []Rotation{
@@ -776,13 +776,13 @@ var curation = map[string]CharacterCuration{
 		StopBoundaryP2W: 6,
 		StopBoundaryF2P: 2,
 		BestStamp: BestStamp{
-			SetName:         "Konjiki Ashisogi (4) + Spirit (2)",
-			MainStats:       "1: Thrust DMG Bonus  •  2: Crit Rate  •  3: Atk%",
-			SubStatPriority: "Ult Charge Rate > Atk% > Crit DMG > Crit Rate",
-			Notes:           "S-tier debuffer/poison — poison ticks off Atk%, so stack it.",
+			SetName:         "Sample Collection (3)",
+			MainStats:       "1: ATK%  •  2: Crit Rate  •  3: Ult Charge Rate",
+			SubStatPriority: "Ult Charge Rate (228%)> Crit Rate > Ailment% > ATK% > Crit DMG",
+			Notes:           "S-tier Support — poison can crit, so stack crit rate after obtaining 228% Ult Charge Rate.",
 		},
 		Rotations: []Rotation{
-			{Name: "Poison Setup", Steps: []string{"Technique (apply poison/decay)", "Basic ×3 (stack debuff)", "Ultimate (Bankai)", "Swap out — poison ticks off-field"}, Notes: "His best damage comes off-field — apply poison and rotate.", Tags: []string{"Sustain", "Boss"}},
+			{Name: "Poison Setup", Steps: []string{"Ultimate", "Technique", "Swap out — poison ticks off-field"}, Notes: "His best damage comes off-field — apply poison and rotate.", Tags: []string{"Sustain", "Boss"}},
 		},
 	},
 
@@ -888,13 +888,13 @@ var curation = map[string]CharacterCuration{
 		StopBoundaryP2W: 6,
 		StopBoundaryF2P: 1,
 		BestStamp: BestStamp{
-			SetName:         "Suzumebachi (4) + Strike (2)",
-			MainStats:       "1: ATK% > Strike DMG Bonus  •  2: Crit DMG > ATK%  •  3: Atk%",
-			SubStatPriority: "Crit DMG > Crit Rate > Ailment% > Atk% > Flat Atk",
-			Notes:           "Two-hit execute Tactician — the second sting deletes bosses.",
+			SetName:         "Stealth Force (3)",
+			MainStats:       "1: ATK% > Strike DMG Bonus  •  2: Crit DMG > ATK%  •  3: Ailment% > ATK%",
+			SubStatPriority: "Ailment% > Crit DMG > Crit Rate (25%) > Atk% > Flat Atk",
+			Notes:           "Two-rotation Tactician — the second deletes bosses.",
 		},
 		Rotations: []Rotation{
-			{Name: "Nigeki Kessatsu", Steps: []string{"Basic ×3 → Technique (mark target with Homonka)", "Swap out, let mark persist", "Swap back: Ultimate (second strike → execute)"}, Notes: "Mark must be applied first — DON'T fire Ult until you see the Homonka stack.", Tags: []string{"Burst", "Boss"}},
+			{Name: "Nigeki Kessatsu", Steps: []string{"Battlefield → Manual Counter → Technique", "Use Strike Full Assault to trigger Perfect Dodge", "Swap back using Windmill → Ultimate"}, Notes: "Soi Fon swaps must be done at intervals of 10 Battlefield Skill Energy.", Tags: []string{"Burst", "Boss"}},
 		},
 	},
 
