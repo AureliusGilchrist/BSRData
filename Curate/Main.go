@@ -151,8 +151,10 @@ var rarityBySlug = map[string]string{
 	"ichigo-bankai": "SSR", "ikkaku": "SSR", "kenpachi": "SSR", "kisuke": "SSR",
 	"mayuri": "SSR", "nelliel": "SSR", "soi-fon": "SSR", "komamura": "SSR",
 	"szayelaporro": "SSR", "toshiro": "SSR", "yoruichi": "SSR", "tosen": "SSR",
-	
+	"ichigo-white": "SSR", "ulquiorra-resurreccion": "SSR",
+
 	"grimmjow": "SR+",
+	"ulquiorra": "SR+",
 
 	"rangiku": "SR", "yachiru": "SR", "rukia": "SR",
 	"chad": "SR", "ichigo-initial": "SR", "ichigo-shikai": "SR",
@@ -173,6 +175,8 @@ var tierBySlug = map[string]string{
 	"toshiro":          "S",
 	"grimmjow-pantera": "S",
 	"szayelaporro": 	"S",
+	"ichigo-white": "S",
+	"ulquiorra-resurreccion": "S",
 
 	"kenpachi":     	"A",
 	"grimmjow":         "A",
@@ -183,6 +187,7 @@ var tierBySlug = map[string]string{
 	"momo":             "B",
 	"rangiku":          "B",
 	"yoruichi": 		"B",
+	"ulquiorra":        "B",
 
 	"ikkaku":   		"C",
 	"byakuya":        	"C",
@@ -207,6 +212,31 @@ var tierBySlug = map[string]string{
 // to push it into the JSONs (and Index regen). Empty descriptions are
 // placeholders — fill them in as the wiki/data surfaces the effect text.
 var boundariesBySlug = map[string][]Boundary{
+	// --- New characters: empty placeholders until the wiki surfaces text. ---
+	"ichigo-white": {
+		{Level: 1, Description: ""},
+		{Level: 2, Description: ""},
+		{Level: 3, Description: ""},
+		{Level: 4, Description: ""},
+		{Level: 5, Description: ""},
+		{Level: 6, Description: ""},
+	},
+	"ulquiorra": {
+		{Level: 1, Description: ""},
+		{Level: 2, Description: ""},
+		{Level: 3, Description: ""},
+		{Level: 4, Description: ""},
+		{Level: 5, Description: ""},
+		{Level: 6, Description: ""},
+	},
+	"ulquiorra-resurreccion": {
+		{Level: 1, Description: ""},
+		{Level: 2, Description: ""},
+		{Level: 3, Description: ""},
+		{Level: 4, Description: ""},
+		{Level: 5, Description: ""},
+		{Level: 6, Description: ""},
+	},
 	"aizen": {
 		{Level: 1, Name: "Perception of Power", Description: "Enters Complete Suppression upon entering the battle. When Aizen releases a backline Battlefield Skill while under Complete Suppression, he gains 50% Battlefield Skill Energy."},
 		{Level: 2, Name: "As Expected", Description: "All characters in the team deal 20% more Spirit DMG."},
@@ -450,6 +480,22 @@ var boundariesBySlug = map[string][]Boundary{
 // Per-character curated data.
 
 var curation = map[string]CharacterCuration{
+	// --- New characters. Stop-boundary defaults follow the rarity rules in
+	// CharacterCuration's doc comment; stamps/rotations stay empty until the
+	// build data is known, so curate only fills rarity/tier/boundaries here. ---
+	"ichigo-white": {
+		StopBoundaryP2W: 2,
+		StopBoundaryF2P: 1,
+	},
+	"ulquiorra": {
+		StopBoundaryP2W: 3,
+		StopBoundaryF2P: 3,
+	},
+	"ulquiorra-resurreccion": {
+		StopBoundaryP2W: 2,
+		StopBoundaryF2P: 1,
+	},
+
 	"aizen": {
 		StopBoundaryP2W: 6,
 		StopBoundaryF2P: 1,
@@ -1325,12 +1371,11 @@ var teams = []Team{
 // Slugs must match a /Data/<slug>.json file so the site can pull art + link.
 var banners = BannerData{
 	Current: &Banner{
-		Name:      "Grimmjow (Pantera) Rate-Up",
-		Slugs:     []string{"grimmjow-pantera"},
-		StartDate: "2026-05-14",
-		EndDate:   "2026-06-04",
-		Note:      "Resurrección Grimmjow's debut with his SSR Pantera form. Triple-SSR Strike comp with Soi Fon and Mayuri, plus the new Pantera weapon.",
-		Source:    "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Eventos_China",
+		Name:      "Ichigo Kurosaki・Inner Hollow Releases!",
+		Slugs:     []string{"ichigo-white"},
+		StartDate: "2026-06-05",
+		EndDate:   "2026-06-26",
+		Note:      "First limited Slash Tactic SSR. White debuts in his Shikai as well as Bankai forms.",
 	},
 	// ---------------------------------------------------------------------
 	// UPCOMING — fill these out as new banners are announced. Add the
@@ -1339,18 +1384,17 @@ var banners = BannerData{
 	// don't need. Each entry is shown on the /upcoming page in order.
 	Upcoming: []Banner{
 		{
-			Name:      "Ichigo Kurosaki・Inner Hollow Releases!", // e.g. "Tōshirō Hitsugaya Rate-Up"
-			Slugs:     []string{""}, // e.g. "toshiro"
-			StartDate: "2026-06-05", // YYYY-MM-DD
-			EndDate:   "2026-06-26", // YYYY-MM-DD
-			Note:      "First limited Slash Tactic SSR. White debuts in his Shikai as well as Bankai forms.",
-		},
-		{
 			Name:      "Ulquiorra Shifar (Base) SR+ Free Unit",
-			Slugs:     []string{""},
+			Slugs:     []string{"ulquiorra"},
 			StartDate: "2026-06-05",
 			EndDate:   "2026-06-05",
 			Note:      "Base form Ulquiorra, and will be free via mail on the 5th of June, 2026 (UTC).",
+		},
+		{
+			Name:      "Ulquiorra Shifar (Resurrección) SSR Rate-Up",
+			Slugs:     []string{"ulquiorra-resurreccion"},
+			StartDate: "2026-06-26",
+			Note:      "Ulquiorra Shifar set to compete against Toshiro as a Spirit Full Assault with his dual forms; Murciélago and Segunda Etapa.",
 		},
 	},
 	// ---------------------------------------------------------------------
@@ -1363,14 +1407,6 @@ var banners = BannerData{
 	//   Date:       "YYYY-MM-DD" (optional) — drives a "Time until" countdown;
 	//               leaks have no end date.
 	Leaks: []Leak{
-		{
-			Name:      "Ulquiorra Shifar (Resurrección) SSR Rate-Up",
-			Role:      "Full Assault / DPS",
-			DamageType: "Spirit",
-			Rarity:     "SSR",
-			Date:       "2026-06-26",
-			Note:      "Ulquiorra Shifar set to compete against Toshiro as a Spirit Full Assault with his dual forms; Murciélago and Segunda Etapa.",
-		},
 		{
 			Name:       "Yammy Llargo",
 			Role:       "TBD",

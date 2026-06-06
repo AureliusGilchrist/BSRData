@@ -90,6 +90,16 @@
     "releaseDate": "21 Nov 2025"
   },
   {
+    "slug": "ichigo-white",
+    "name": "Inner Hollow Ichigo (Shikai)",
+    "role": "Tactician",
+    "tier": "S",
+    "damageType": "Slash",
+    "rarity": "SSR",
+    "art": "/Images/ichigo-white/art.png",
+    "releaseDate": "5 Jun 2026"
+  },
+  {
     "slug": "ikkaku",
     "name": "Ikkaku Madarame",
     "role": "Assault",
@@ -248,6 +258,26 @@
     "rarity": "SSR",
     "art": "/Images/toshiro/art.png",
     "releaseDate": "5 Dec 2025"
+  },
+  {
+    "slug": "ulquiorra",
+    "name": "Ulquiorra Shifar",
+    "role": "Assault",
+    "tier": "B",
+    "damageType": "Spirit",
+    "rarity": "SR+",
+    "art": "/Images/ulquiorra/art.png",
+    "releaseDate": "5 Jun 2026"
+  },
+  {
+    "slug": "ulquiorra-resurreccion",
+    "name": "Ulquiorra Shifar (Resurrección 1 \u0026 2)",
+    "role": "Assault",
+    "tier": "S",
+    "damageType": "Spirit",
+    "rarity": "SSR",
+    "art": "/Images/ulquiorra-resurreccion/art.png",
+    "releaseDate": "26 Jun 2026"
   },
   {
     "slug": "ururu",

@@ -61,6 +61,7 @@ var slugToEspPage = map[string]string{
 	"ichigo-bankai":    "Kurosaki Ichigo (Bankai)",
 	"ichigo-shikai":    "Kurosaki Ichigo (Shikai)",
 	"ichigo-initial":   "Kurosaki Ichigo (Initial)",
+	"ichigo-white": 	"Kurosaki Ichigo (Inner Hollow)",
 	"ikkaku":           "Ikkaku Madarame",
 	"kenpachi":         "Zaraki Kenpachi",
 	"kisuke":           "Urahara Kisuke",
@@ -77,6 +78,8 @@ var slugToEspPage = map[string]string{
 	"szayelaporro":     "Szayelaporro Granz",
 	"tosen":            "Kaname Tōsen",
 	"toshiro":          "Tōshirō Hitsugaya",
+	"ulquiorra":        "Ulquiorra Cifer (SR+)",
+	"ulquiorra-resurreccion": "Ulquiorra - Resurrección",
 	"ururu":            "Ururu Tsumugiya",
 	"uryu":             "Uryū Ishida",
 	"yachiru":          "Yachiru Kusajishi",
@@ -161,6 +164,11 @@ func main() {
 	mustMk(cacheDir)
 	mustMk(imagesDir)
 
+	// Guard against roster drift: warn loudly about any character that the
+	// curate step / data already knows about but that has no scraper entry, so
+	// brand-new banners/characters can't silently stop being scraped.
+	warnMissingScraperEntries()
+
 	slugs := sortedKeys(slugToPage)
 	for _, slug := range slugs {
 		page := slugToPage[slug]
@@ -191,6 +199,78 @@ func main() {
 		log.Fatalf("write index: %v", err)
 	}
 	log.Printf("done")
+}
+
+// warnMissingScraperEntries cross-checks the roster the rest of the pipeline
+// already knows about (per-character JSON files in ../Data and the slugs that
+// appear in Banners.json) against the scraper's own slugToEspPage / slugToPage
+// maps. Any slug that has data or a banner reference but no scraper entry is
+// reported so a freshly-added character/banner can't silently fall out of the
+// scrape. It only logs — it never edits maps or fails the run.
+func warnMissingScraperEntries() {
+	known := func(slug string) bool {
+		if _, ok := slugToEspPage[slug]; ok {
+			return true
+		}
+		_, ok := slugToPage[slug]
+		return ok
+	}
+
+	missing := map[string]string{} // slug -> where we saw it
+
+	// 1) Every Data/<slug>.json (skip the aggregate files).
+	if files, err := os.ReadDir(dataDir); err == nil {
+		skip := map[string]bool{
+			"Index.json": true, "Stamps.json": true,
+			"Teams.json": true, "Banners.json": true,
+		}
+		for _, f := range files {
+			name := f.Name()
+			if f.IsDir() || filepath.Ext(name) != ".json" || skip[name] {
+				continue
+			}
+			slug := strings.TrimSuffix(name, ".json")
+			if !known(slug) {
+				missing[slug] = "Data/" + name
+			}
+		}
+	}
+
+	// 2) Every slug referenced by the current + upcoming banners.
+	if raw, err := os.ReadFile(filepath.Join(dataDir, "Banners.json")); err == nil {
+		var bd struct {
+			Current  *struct{ Slugs []string `json:"slugs"` } `json:"current"`
+			Upcoming []struct {
+				Slugs []string `json:"slugs"`
+			} `json:"upcoming"`
+		}
+		if json.Unmarshal(raw, &bd) == nil {
+			collect := func(slugs []string) {
+				for _, s := range slugs {
+					s = strings.TrimSpace(s)
+					if s != "" && !known(s) {
+						if _, seen := missing[s]; !seen {
+							missing[s] = "Banners.json"
+						}
+					}
+				}
+			}
+			if bd.Current != nil {
+				collect(bd.Current.Slugs)
+			}
+			for _, b := range bd.Upcoming {
+				collect(b.Slugs)
+			}
+		}
+	}
+
+	if len(missing) == 0 {
+		return
+	}
+	for _, slug := range sortedKeys(missing) {
+		log.Printf("WARNING: slug %q (referenced by %s) has no scraper entry — add it to slugToEspPage to scrape it",
+			slug, missing[slug])
+	}
 }
 
 // processRawURLArt downloads a portrait from any direct image URL and writes

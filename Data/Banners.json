@@ -1,43 +1,33 @@
 {
   "current": {
-    "name": "Grimmjow (Pantera) Rate-Up",
+    "name": "Ichigo Kurosaki・Inner Hollow Releases!",
     "slugs": [
-      "grimmjow-pantera"
+      "ichigo-white"
     ],
-    "startDate": "2026-05-14",
-    "endDate": "2026-06-04",
-    "note": "Resurrección Grimmjow's debut with his SSR Pantera form. Triple-SSR Strike comp with Soi Fon and Mayuri, plus the new Pantera weapon.",
-    "source": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Eventos_China"
+    "startDate": "2026-06-05",
+    "endDate": "2026-06-26",
+    "note": "First limited Slash Tactic SSR. White debuts in his Shikai as well as Bankai forms."
   },
   "upcoming": [
     {
-      "name": "Ichigo Kurosaki・Inner Hollow Releases!",
-      "slugs": [
-        ""
-      ],
-      "startDate": "2026-06-05",
-      "endDate": "2026-06-26",
-      "note": "First limited Slash Tactic SSR. White debuts in his Shikai as well as Bankai forms."
-    },
-    {
       "name": "Ulquiorra Shifar (Base) SR+ Free Unit",
       "slugs": [
-        ""
+        "ulquiorra"
       ],
       "startDate": "2026-06-05",
       "endDate": "2026-06-05",
       "note": "Base form Ulquiorra, and will be free via mail on the 5th of June, 2026 (UTC)."
+    },
+    {
+      "name": "Ulquiorra Shifar (Resurrección) SSR Rate-Up",
+      "slugs": [
+        "ulquiorra-resurreccion"
+      ],
+      "startDate": "2026-06-26",
+      "note": "Ulquiorra Shifar set to compete against Toshiro as a Spirit Full Assault with his dual forms; Murciélago and Segunda Etapa."
     }
   ],
   "leaks": [
-    {
-      "name": "Ulquiorra Shifar (Resurrección) SSR Rate-Up",
-      "role": "Full Assault / DPS",
-      "damageType": "Spirit",
-      "rarity": "SSR",
-      "date": "2026-06-26",
-      "note": "Ulquiorra Shifar set to compete against Toshiro as a Spirit Full Assault with his dual forms; Murciélago and Segunda Etapa."
-    },
     {
       "name": "Yammy Llargo",
       "role": "TBD",

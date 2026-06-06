@@ -1,0 +1,72 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Ulquiorra_Cifer",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/ulquiorra/art.png",
+  "bestStamp": {
+    "setName": ""
+  },
+  "bondPriority": [],
+  "boundaries": [
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra/boundary-1.png",
+      "level": 1
+    },
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra/boundary-2.png",
+      "level": 2
+    },
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra/boundary-4.png",
+      "level": 4
+    },
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra/boundary-6.png",
+      "level": 6
+    }
+  ],
+  "builds": [],
+  "corePassives": [],
+  "damageType": "Spirit",
+  "name": "Ulquiorra Shifar",
+  "note": "Stub pending first scrape. Base-form Ulquiorra, a free SR+ unit. Fields confirmed from the banner; skills/boundaries/stats fill in on the next scraper run.",
+  "rarity": "SR+",
+  "recommendedStopBoundary": 3,
+  "recommendedStopBoundaryF2P": 3,
+  "recommendedStopBoundaryP2W": 3,
+  "releaseDate": "5 Jun 2026",
+  "role": "Assault",
+  "rotations": [],
+  "skills": [],
+  "slug": "ulquiorra",
+  "source": null,
+  "stamps": {
+    "core": {
+      "ascend1": [],
+      "ascend5": []
+    },
+    "weapon": {
+      "ascend1": [],
+      "ascend5": []
+    }
+  },
+  "tier": "B"
+}
