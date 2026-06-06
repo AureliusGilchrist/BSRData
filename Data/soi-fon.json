@@ -8,10 +8,10 @@
   },
   "art": "/Images/soi-fon/art.png",
   "bestStamp": {
-    "setName": "Suzumebachi (4) + Strike (2)",
-    "mainStats": "1: ATK% \u003e Strike DMG Bonus  •  2: Crit DMG \u003e ATK%  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Ailment% \u003e Atk% \u003e Flat Atk",
-    "notes": "Two-hit execute Tactician — the second sting deletes bosses."
+    "setName": "Stealth Force (3)",
+    "mainStats": "1: ATK% \u003e Strike DMG Bonus  •  2: Crit DMG \u003e ATK%  •  3: Ailment% \u003e ATK%",
+    "subStatPriority": "Ailment% \u003e Crit DMG \u003e Crit Rate (25%) \u003e Atk% \u003e Flat Atk",
+    "notes": "Two-rotation Tactician — the second deletes bosses."
   },
   "bondPriority": [
     {
@@ -38,10 +38,10 @@
       "level": 3
     },
     {
-      "description": "When any character in the team lands a critical hit, an extra Sting is triggered, dealing damage equal to 500% of Soi Fon's ATK. Cooldown: 4 seconds.",
+      "description": "Reduces the Strike Resistance of enemies inflicted with Execution Target by an extra 20% and increases all damage they receive by 15%.",
       "icon": "/Images/soi-fon/boundary-4.png",
       "level": 4,
-      "name": "Flashy Ambush"
+      "name": "Don't Slow Me Down"
     },
     {
       "description": "",
@@ -49,10 +49,10 @@
       "level": 5
     },
     {
-      "description": "Reduces the Strike Resistance of enemies inflicted with Execution Target by an extra 20% and increases all damage they receive by 15%.",
+      "description": "When any character in the team lands a critical hit, an extra Sting is triggered, dealing damage equal to 500% of Soi Fon's ATK. Cooldown: 4 seconds.",
       "icon": "/Images/soi-fon/boundary-6.png",
       "level": 6,
-      "name": "Don't Slow Me Down"
+      "name": "Flashy Ambush"
     }
   ],
   "builds": [
@@ -142,11 +142,11 @@
   "rotations": [
     {
       "name": "Nigeki Kessatsu",
-      "notes": "Mark must be applied first — DON'T fire Ult until you see the Homonka stack.",
+      "notes": "Soi Fon swaps must be done at intervals of 10 Battlefield Skill Energy.",
       "steps": [
-        "Basic ×3 → Technique (mark target with Homonka)",
-        "Swap out, let mark persist",
-        "Swap back: Ultimate (second strike → execute)"
+        "Battlefield → Manual Counter → Technique",
+        "Use Strike Full Assault to trigger Perfect Dodge",
+        "Swap back using Windmill → Ultimate"
       ],
       "tags": [
         "Burst",

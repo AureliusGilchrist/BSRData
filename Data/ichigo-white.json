@@ -8,7 +8,10 @@
   },
   "art": "/Images/ichigo-white/art.png",
   "bestStamp": {
-    "setName": ""
+    "setName": "Mindscape Encroachment (3)",
+    "mainStats": "1: Slash DMG Bonus \u003e Atk%  •  2: Crit DMG (W5/C5) \u003e Crit Rate •  3: Atk% \u003e Ult Charge Rate",
+    "subStatPriority": "Crit DMG \u003e Crit Rate (25% for W5/C5) \u003e Atk% \u003e Ult Charge Rate \u003e Flat Atk",
+    "notes": "Aim for ~119% Ult Charge Rate to align Ultimate with team buffs."
   },
   "bondPriority": [],
   "boundaries": [
@@ -43,18 +46,73 @@
       "level": 6
     }
   ],
-  "builds": [],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Mindscape Encroachment (3)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus \u003e Atk%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG (W5/C5) \u003e Crit Rate",
+          "slot": 2
+        },
+        {
+          "mainStat": "Atk% \u003e Ult Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e Crit Rate (25% for W5/C5) \u003e Atk% \u003e Ult Charge Rate \u003e Flat Atk"
+    }
+  ],
   "corePassives": [],
   "damageType": "Slash",
-  "name": "Inner Hollow Ichigo (Shikai)",
-  "note": "Stub pending first scrape. First limited Slash Tactician SSR — White's Shikai debut. Fields confirmed from the banner; skills/boundaries/stats fill in on the next scraper run.",
+  "name": "Kurosaki Ichigo (Inner Hollow)",
+  "note": "First limited Slash Tactician SSR — White's debut.",
   "rarity": "SSR",
-  "recommendedStopBoundary": 2,
-  "recommendedStopBoundaryF2P": 1,
-  "recommendedStopBoundaryP2W": 2,
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 0,
+  "recommendedStopBoundaryP2W": 6,
   "releaseDate": "5 Jun 2026",
   "role": "Tactician",
-  "rotations": [],
+  "rotation": {
+    "name": "Opener (Cleaving Throw)",
+    "notes": "White's Special Attack provides a manual counter. ",
+    "steps": [
+      "Start with Slash Full Assault's Technique",
+      "Swap to White → Special Attack",
+      "Technique",
+      "Enter Ultimate whenever available",
+      "Swap to another character (White will continuously shoot Getsuga Tensho whenever you hit the enemy)",
+      "Use the Ultimate Finisher whenever it's charged"
+    ],
+    "tags": [
+      "Burst",
+      "Boss"
+    ]
+  },
+  "rotations": [
+    {
+      "name": "Opener (Cleaving Throw)",
+      "notes": "White's Special Attack provides a manual counter. ",
+      "steps": [
+        "Start with Slash Full Assault's Technique",
+        "Swap to White → Special Attack",
+        "Technique",
+        "Enter Ultimate whenever available",
+        "Swap to another character (White will continuously shoot Getsuga Tensho whenever you hit the enemy)",
+        "Use the Ultimate Finisher whenever it's charged"
+      ],
+      "tags": [
+        "Burst",
+        "Boss"
+      ]
+    }
+  ],
   "skills": [],
   "slug": "ichigo-white",
   "source": null,

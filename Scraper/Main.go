@@ -1,10 +1,15 @@
 // Bleach Soul Resonance data generator.
 //
 // Pulls character data from https://bleachsoulresonance.wiki.gg via the
-// MediaWiki API, parses the rendered HTML, downloads images, and merges the
-// wiki fields into existing per-character JSON files under ../Data/.
-// Build/stamp/bond data already present in those files (e.g. from
-// hideoutgacha) is preserved.
+// MediaWiki API, parses the rendered HTML, downloads images, and writes a
+// per-character JSON file under ../Data/.
+//
+// IMPORTANT: the scraper only ever creates JSON for NEW characters. Any slug
+// that already has a ../Data/<slug>.json is skipped entirely on every run, so
+// existing per-character data (build/stamp/bond/curated text) is never
+// modified. To onboard a new character, add it to slugToEspPage (and
+// slugToPage if it has a full English wiki page); the next run scrapes it and
+// creates its JSON.
 //
 // Run from inside the "BSRData/Scraper" folder:
 //   go run .
@@ -78,8 +83,6 @@ var slugToEspPage = map[string]string{
 	"szayelaporro":     "Szayelaporro Granz",
 	"tosen":            "Kaname Tōsen",
 	"toshiro":          "Tōshirō Hitsugaya",
-	"ulquiorra":        "Ulquiorra Cifer (SR+)",
-	"ulquiorra-resurreccion": "Ulquiorra - Resurrección",
 	"ururu":            "Ururu Tsumugiya",
 	"uryu":             "Uryū Ishida",
 	"yachiru":          "Yachiru Kusajishi",
@@ -169,10 +172,21 @@ func main() {
 	// brand-new banners/characters can't silently stop being scraped.
 	warnMissingScraperEntries()
 
+	// Snapshot which characters already have a JSON BEFORE this run starts. The
+	// scraper only creates JSON for NEW characters; any slug already present is
+	// skipped so existing per-character data is never modified. Snapshotting up
+	// front (instead of an os.Stat per pass) ensures a brand-new character still
+	// gets BOTH the English and ESP passes on the same run.
+	existing := existingCharacterSlugs()
+
 	slugs := sortedKeys(slugToPage)
 	for _, slug := range slugs {
+		if existing[slug] {
+			log.Printf("[%s] skip — existing character (JSON not modified)", slug)
+			continue
+		}
 		page := slugToPage[slug]
-		log.Printf("[%s] processing %s", slug, page)
+		log.Printf("[%s] new character — processing %s", slug, page)
 		if err := processCharacter(slug, page); err != nil {
 			log.Printf("[%s] FAIL: %v", slug, err)
 			continue
@@ -180,16 +194,17 @@ func main() {
 		log.Printf("[%s] OK", slug)
 	}
 
-	// Second pass: scrape Spanish Fandom wiki pages for every slug. This is the
-	// authoritative source of portrait art for every character — the English
-	// wiki doesn't have art for most of the roster — plus skill/boundary/passive
-	// icons and Spanish ability text. For characters already covered by the
-	// English wiki the merge step preserves existing populated text fields, but
-	// the portrait art is always overridden so the UI shows the Spanish wiki's
-	// official BSR card art consistently across all 29 characters.
+	// Second pass: scrape Spanish Fandom wiki pages for every NEW slug. This is
+	// the authoritative source of portrait art for the roster — the English wiki
+	// doesn't have art for most characters — plus skill/boundary/passive icons
+	// and Spanish ability text. Existing characters are skipped here too.
 	for _, slug := range sortedKeys(slugToEspPage) {
+		if existing[slug] {
+			log.Printf("[%s] esp-fandom skip — existing character", slug)
+			continue
+		}
 		page := slugToEspPage[slug]
-		log.Printf("[%s] esp-fandom %s", slug, page)
+		log.Printf("[%s] esp-fandom new character %s", slug, page)
 		if err := processEspFandomCharacter(slug, page); err != nil {
 			log.Printf("[%s] esp-fandom FAIL: %v", slug, err)
 		}
@@ -199,6 +214,30 @@ func main() {
 		log.Fatalf("write index: %v", err)
 	}
 	log.Printf("done")
+}
+
+// existingCharacterSlugs returns the set of slugs that already have a
+// ../Data/<slug>.json file (excluding the aggregate files). The scraper uses
+// this to skip characters that already exist: only BRAND-NEW characters get a
+// JSON created, and existing per-character JSON is never rewritten.
+func existingCharacterSlugs() map[string]bool {
+	out := map[string]bool{}
+	files, err := os.ReadDir(dataDir)
+	if err != nil {
+		return out
+	}
+	skip := map[string]bool{
+		"Index.json": true, "Stamps.json": true,
+		"Teams.json": true, "Banners.json": true,
+	}
+	for _, f := range files {
+		name := f.Name()
+		if f.IsDir() || filepath.Ext(name) != ".json" || skip[name] {
+			continue
+		}
+		out[strings.TrimSuffix(name, ".json")] = true
+	}
+	return out
 }
 
 // warnMissingScraperEntries cross-checks the roster the rest of the pipeline

@@ -8,10 +8,10 @@
   },
   "art": "/Images/mayuri/art.png",
   "bestStamp": {
-    "setName": "Konjiki Ashisogi (4) + Spirit (2)",
-    "mainStats": "1: Thrust DMG Bonus  •  2: Crit Rate  •  3: Atk%",
-    "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e Crit DMG \u003e Crit Rate",
-    "notes": "S-tier debuffer/poison — poison ticks off Atk%, so stack it."
+    "setName": "Sample Collection (3)",
+    "mainStats": "1: ATK%  •  2: Crit Rate  •  3: Ult Charge Rate",
+    "subStatPriority": "Ult Charge Rate (228%)\u003e Crit Rate \u003e Ailment% \u003e ATK% \u003e Crit DMG",
+    "notes": "S-tier Support — poison can crit, so stack crit rate after obtaining 228% Ult Charge Rate."
   },
   "bondPriority": [
     {
@@ -119,9 +119,8 @@
       "name": "Poison Setup",
       "notes": "His best damage comes off-field — apply poison and rotate.",
       "steps": [
-        "Technique (apply poison/decay)",
-        "Basic ×3 (stack debuff)",
-        "Ultimate (Bankai)",
+        "Ultimate",
+        "Technique",
         "Swap out — poison ticks off-field"
       ],
       "tags": [

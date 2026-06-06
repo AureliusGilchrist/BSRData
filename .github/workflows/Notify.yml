@@ -1,0 +1,50 @@
+# Notify the site to redeploy whenever BSRData's data changes on a push.
+#
+# This covers MANUAL / human pushes to BSRData (e.g. hand-edited JSON). The
+# automated daily scrape commits with the default GITHUB_TOKEN, and GitHub
+# deliberately does NOT trigger `on: push` workflows for token-made commits to
+# avoid recursion — so that path dispatches from Scrape.yml's own "Notify site
+# to deploy" step instead. Between the two, every data change (automated or
+# manual) redeploys the site within minutes.
+#
+# Requires a repo secret SITE_DISPATCH_TOKEN: a PAT with "contents: write"
+# (classic repo scope) or a fine-grained PAT with Contents: read/write on the
+# AureliusGilchrist/Bleach-Soul-Calculator repo.
+
+name: Notify Site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Data/**'
+      - 'Images/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: notify-site
+  cancel-in-progress: true
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch deploy to site repo
+        env:
+          SITE_DISPATCH_TOKEN: ${{ secrets.SITE_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$SITE_DISPATCH_TOKEN" ]; then
+            echo "SITE_DISPATCH_TOKEN is not set — skipping site dispatch."
+            echo "Add it under Settings → Secrets and variables → Actions to enable auto-deploy."
+            exit 0
+          fi
+          curl -fsSL -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $SITE_DISPATCH_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/AureliusGilchrist/Bleach-Soul-Calculator/dispatches" \
+            -d '{"event_type":"bsrdata-updated"}'
+          echo "Dispatched bsrdata-updated to the site repo."

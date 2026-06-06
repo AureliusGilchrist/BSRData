@@ -8,9 +8,9 @@
   },
   "art": "/Images/grimmjow-pantera/art.png",
   "bestStamp": {
-    "setName": "Pantera (4) + Strike (2)",
+    "setName": "Becoming the King (3)",
     "mainStats": "1: Strike DMG Bonus  •  2: Crit Rate  •  3: Atk%",
-    "subStatPriority": "ATK% \u003e Crit Rate \u003e Crit DMG \u003e Flat Atk",
+    "subStatPriority": "ATK% \u003e Crit Rate (50%) \u003e Crit DMG \u003e Flat Atk \u003e Ailment%",
     "notes": "B6 unlocks the second Resurrección burst — worth the full investment."
   },
   "bondPriority": [

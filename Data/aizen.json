@@ -86,7 +86,8 @@
       "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
       "targets": {
         "ultChargeRate": "~119%"
-      }
+      },
+      "notes":           "Aim for ~119% Ult Charge Rate to align Kyokasuigetsu windows with team buffs. Crit DMG scales hardest because of the B6 Crit→CritDMG conversion."
     }
   ],
   "color": "Blue",
