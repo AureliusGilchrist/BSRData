@@ -66,11 +66,17 @@ var slugToEspPage = map[string]string{
 	"ichigo-bankai":    "Kurosaki Ichigo (Bankai)",
 	"ichigo-shikai":    "Kurosaki Ichigo (Shikai)",
 	"ichigo-initial":   "Kurosaki Ichigo (Initial)",
-	"ichigo-white": 	"Kurosaki Ichigo (Inner Hollow)",
+	"ichigo-white": 	"Kurosaki Ichigo (Hollow Interior)",
 	"ikkaku":           "Ikkaku Madarame",
 	"kenpachi":         "Zaraki Kenpachi",
 	"kisuke":           "Urahara Kisuke",
 	"komamura":         "Komamura Sajin",
+	"ulquiorra": "Ulquiorra Cifer",
+	// NOTE: "ulquiorra-resurreccion" intentionally has no entry — the only ESP
+	// Fandom source page ("Ulquiorra Cifer") covers solely the base form, so
+	// scraping it under this slug would just duplicate the base form's art and
+	// icons under a misleading "Resurrección" label. Leave it without images
+	// until a dedicated source page exists.
 	"mayuri":           "Kurotsuchi Mayuri",
 	"momo":             "Hinamori Momo",
 	"nelliel":          "Nelliel Tu Odelschwanck",
@@ -199,11 +205,22 @@ func main() {
 	// doesn't have art for most characters — plus skill/boundary/passive icons
 	// and Spanish ability text. Existing characters are skipped here too.
 	for _, slug := range sortedKeys(slugToEspPage) {
+		page := slugToEspPage[slug]
 		if existing[slug] {
-			log.Printf("[%s] esp-fandom skip — existing character", slug)
+			// JSON already exists — normally we leave it untouched. But if its
+			// image folder is missing/empty (e.g. a prior run's downloads failed
+			// after the JSON was committed), re-run the ESP pass to backfill
+			// images only; mergeEspIntoJSON preserves all existing curated text.
+			if hasImages(slug) {
+				log.Printf("[%s] esp-fandom skip — existing character with images", slug)
+				continue
+			}
+			log.Printf("[%s] esp-fandom backfill — existing character missing images, re-fetching from %s", slug, page)
+			if err := processEspFandomCharacter(slug, page); err != nil {
+				log.Printf("[%s] esp-fandom backfill FAIL: %v", slug, err)
+			}
 			continue
 		}
-		page := slugToEspPage[slug]
 		log.Printf("[%s] esp-fandom new character %s", slug, page)
 		if err := processEspFandomCharacter(slug, page); err != nil {
 			log.Printf("[%s] esp-fandom FAIL: %v", slug, err)
@@ -238,6 +255,23 @@ func existingCharacterSlugs() map[string]bool {
 		out[strings.TrimSuffix(name, ".json")] = true
 	}
 	return out
+}
+
+// hasImages reports whether ../Images/<slug>/ exists and contains at least one
+// file. Used to detect characters whose JSON was committed but whose image
+// download failed/was skipped at the time (e.g. a transient fetch error), so
+// the ESP-fandom pass can backfill their images without touching curated text.
+func hasImages(slug string) bool {
+	entries, err := os.ReadDir(filepath.Join(imagesDir, slug))
+	if err != nil {
+		return false
+	}
+	for _, e := range entries {
+		if !e.IsDir() {
+			return true
+		}
+	}
+	return false
 }
 
 // warnMissingScraperEntries cross-checks the roster the rest of the pipeline
@@ -1524,7 +1558,7 @@ func writeIndex() error {
 		if f.IsDir() || !strings.HasSuffix(f.Name(), ".json") {
 			continue
 		}
-		if f.Name() == "Index.json" || f.Name() == "Stamps.json" || f.Name() == "Teams.json" {
+		if f.Name() == "Index.json" || f.Name() == "Stamps.json" || f.Name() == "Teams.json" || f.Name() == "Banners.json" {
 			continue
 		}
 		raw, err := os.ReadFile(filepath.Join(dataDir, f.Name()))

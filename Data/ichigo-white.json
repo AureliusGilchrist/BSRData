@@ -1,5 +1,5 @@
 {
-  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Kurosaki_Ichigo_(Hollow_Interior)",
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Kurosaki_Ichigo_%28Hollow_Interior%29",
   "_spanishText": {
     "basic": "",
     "counter": "",
@@ -8,10 +8,10 @@
   },
   "art": "/Images/ichigo-white/art.png",
   "bestStamp": {
-    "setName": "Mindscape Encroachment (3)",
     "mainStats": "1: Slash DMG Bonus \u003e Atk%  •  2: Crit DMG (W5/C5) \u003e Crit Rate •  3: Atk% \u003e Ult Charge Rate",
-    "subStatPriority": "Crit DMG \u003e Crit Rate (25% for W5/C5) \u003e Atk% \u003e Ult Charge Rate \u003e Flat Atk",
-    "notes": "Aim for ~119% Ult Charge Rate to align Ultimate with team buffs."
+    "notes": "Aim for ~119% Ult Charge Rate to align Ultimate with team buffs.",
+    "setName": "Mindscape Encroachment (3)",
+    "subStatPriority": "Crit DMG \u003e Crit Rate (25% for W5/C5) \u003e Atk% \u003e Ult Charge Rate \u003e Flat Atk"
   },
   "bondPriority": [],
   "boundaries": [
@@ -69,7 +69,28 @@
       "subStatPriority": "Crit DMG \u003e Crit Rate (25% for W5/C5) \u003e Atk% \u003e Ult Charge Rate \u003e Flat Atk"
     }
   ],
-  "corePassives": [],
+  "corePassives": [
+    {
+      "description": "",
+      "icon": "/Images/ichigo-white/passive-1.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-white/passive-2.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-white/passive-3.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-white/passive-4.png",
+      "name": ""
+    }
+  ],
   "damageType": "Slash",
   "name": "Kurosaki Ichigo (Inner Hollow)",
   "note": "First limited Slash Tactician SSR — White's debut.",
@@ -113,7 +134,32 @@
       ]
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/ichigo-white/skill-basic.png",
+      "kind": "basic",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-white/skill-technique.png",
+      "kind": "technique",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-white/skill-ultimate.png",
+      "kind": "ultimate",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-white/skill-counter.png",
+      "kind": "counter",
+      "name": ""
+    }
+  ],
   "slug": "ichigo-white",
   "source": null,
   "stamps": {

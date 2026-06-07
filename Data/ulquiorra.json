@@ -44,7 +44,23 @@
     }
   ],
   "builds": [],
-  "corePassives": [],
+  "corePassives": [
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra/passive-1.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra/passive-2.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra/passive-3.png",
+      "name": ""
+    }
+  ],
   "damageType": "Spirit",
   "name": "Ulquiorra Shifar",
   "note": "Stub pending first scrape. Base-form Ulquiorra, a free SR+ unit. Fields confirmed from the banner; skills/boundaries/stats fill in on the next scraper run.",
@@ -55,7 +71,32 @@
   "releaseDate": "5 Jun 2026",
   "role": "Assault",
   "rotations": [],
-  "skills": [],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra/skill-basic.png",
+      "kind": "basic",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra/skill-technique.png",
+      "kind": "technique",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra/skill-ultimate.png",
+      "kind": "ultimate",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra/skill-counter.png",
+      "kind": "counter",
+      "name": ""
+    }
+  ],
   "slug": "ulquiorra",
   "source": null,
   "stamps": {
