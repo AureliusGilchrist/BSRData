@@ -63,7 +63,7 @@
   ],
   "damageType": "Spirit",
   "name": "Ulquiorra Shifar",
-  "note": "Stub pending first scrape. Base-form Ulquiorra, a free SR+ unit. Fields confirmed from the banner; skills/boundaries/stats fill in on the next scraper run.",
+  "note": "Base-form Ulquiorra, a free SR+ Spirit DPS unit.",
   "rarity": "SR+",
   "recommendedStopBoundary": 3,
   "recommendedStopBoundaryF2P": 3,
@@ -109,5 +109,5 @@
       "ascend5": []
     }
   },
-  "tier": "B"
+  "tier": "A"
 }
