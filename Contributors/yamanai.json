@@ -1,0 +1,20 @@
+{
+  "slug": "yamanai",
+  "displayName": "Yamanai",
+  "role": "Head of Builds",
+  "bio": "High-level player and build optimizer. They, so far, have done Ulquiorra SR+ and just that.",
+  "pfp": "/Contributors/yamanai/pfp.png",
+  "banner": "/Contributors/yamanai/banner.png",
+  "links": {
+    "youtube": "",
+    "twitter": "",
+    "discord": ""
+  },
+  "contributions": [
+    {
+      "charSlug": "ulquiorra",
+      "charName": "Ulquiorra Cifer (SR+)",
+      "rotationName": "Best Stamp Set"
+    }
+  ]
+}
