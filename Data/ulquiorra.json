@@ -8,19 +8,29 @@
   },
   "art": "/Images/ulquiorra/art.png",
   "bestStamp": {
-    "setName": ""
+    "setName": "Ready to Go (3)"
+    "mainStats": "1: Spirit%  •  2: Crit Rate  •  3: ATK%",
+    "subStatPriority": "Crit Rate \u003e ATK% \u003e Crit DMG \u003e Flat Atk",
+    "notes": "Spirit Full Assault whose main weapon is Cero."
   },
-  "bondPriority": [],
+  "bondPriority": [
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    },
+  ],
   "boundaries": [
     {
-      "description": "",
+      "description": "Increase Crit Rate by 15% and the damage of the Enhanced Technique, Flash of Nihility, by 20%.",
       "icon": "/Images/ulquiorra/boundary-1.png",
       "level": 1
+      "name": "Las Noches Executor"
     },
     {
-      "description": "",
+      "description": "Increase the damage boost effect of Form of Void by an extra 80%.",
       "icon": "/Images/ulquiorra/boundary-2.png",
       "level": 2
+      "name": "The Meaning of Void"
     },
     {
       "description": "",
@@ -28,9 +38,10 @@
       "level": 3
     },
     {
-      "description": "",
+      "description": "Increases all Special Attack DMG by 50% and Technique DMG by 125%.",
       "icon": "/Images/ulquiorra/boundary-4.png",
       "level": 4
+      "name": "A Worthy Opponent"
     },
     {
       "description": "",
@@ -38,17 +49,21 @@
       "level": 5
     },
     {
-      "description": "",
+      "description": "While Form of Void is active, all attacks ignore 85% of the enemy's defense.",
       "icon": "/Images/ulquiorra/boundary-6.png",
       "level": 6
+      "name": "Nightfall Lockdown"
     }
   ],
   "builds": [],
   "corePassives": [
     {
-      "description": "",
+      "description": "Techniques, or Counterattacks, he launches 4 different types of Cero at enemies: Cero Combo - Basic attack, Cero Combo - Special Attack,
+Cero Combo - Technique, and Cero Combo - Counter. Each Cero activates its corresponding Cero Mark. When all 4 Cero Marks are activated, the technique is enhanced.
+After every 2 releases of Cero Combo - Special Attack, Ulquiorra can actively release 1 counterattack, which deals 50% less damage.
+If Ulquiorra's basic attacks, Unsheathed and Blade Pursuit, or the technique, Heavy Pressure, are used at the right moment, they can block enemy attacks.",
       "icon": "/Images/ulquiorra/passive-1.png",
-      "name": ""
+      "name": "Cero Mark"
     },
     {
       "description": "",
@@ -65,9 +80,9 @@
   "name": "Ulquiorra Shifar",
   "note": "Base-form Ulquiorra, a free SR+ Spirit DPS unit.",
   "rarity": "SR+",
-  "recommendedStopBoundary": 3,
-  "recommendedStopBoundaryF2P": 3,
-  "recommendedStopBoundaryP2W": 3,
+  "recommendedStopBoundary": 0,
+  "recommendedStopBoundaryF2P": 0,
+  "recommendedStopBoundaryP2W": 0,
   "releaseDate": "5 Jun 2026",
   "role": "Assault",
   "rotations": [],
