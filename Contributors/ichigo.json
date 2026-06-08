@@ -1,0 +1,20 @@
+{
+  "slug": "ichigo",
+  "displayName": "༺Ichigo༻",
+  "role": "Head of Builds",
+  "bio": "High-level player and build optimizer. They did most of the rotations and 'best stamps' sections for most characters.",
+  "pfp": "/Contributors/ichigo/pfp.png",
+  "banner": "/Contributors/ichigo/banner.png",
+  "links": {
+    "youtube": "",
+    "twitter": "",
+    "discord": ""
+  },
+  "contributions": [
+    {
+      "charSlug": "ichigo-white",
+      "charName": "Ichigo Kurosaki (Inner Hollow)",
+      "rotationName": "Opener (Cleaving Throw)"
+    }
+  ]
+}
