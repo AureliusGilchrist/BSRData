@@ -261,9 +261,9 @@
   },
   {
     "slug": "ulquiorra",
-    "name": "Ulquiorra Shifar",
+    "name": "Ulquiorra Shifar (SR+)",
     "role": "Assault",
-    "tier": "B",
+    "tier": "A",
     "damageType": "Spirit",
     "rarity": "SR+",
     "art": "/Images/ulquiorra/art.png",
@@ -271,13 +271,13 @@
   },
   {
     "slug": "ulquiorra-resurreccion",
-    "name": "Ulquiorra Shifar (Resurrección 1 \u0026 2)",
+    "name": "Ulquiorra Shifar (Resurrección)",
     "role": "Assault",
-    "tier": "S",
+    "tier": "TBD",
     "damageType": "Spirit",
     "rarity": "SSR",
     "art": "/Images/ulquiorra-resurreccion/art.png",
-    "releaseDate": "26 Jun 2026"
+    "releaseDate": "5 Jun 2026"
   },
   {
     "slug": "ururu",
