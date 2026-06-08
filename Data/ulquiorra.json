@@ -63,14 +63,20 @@
       "name": "Cero Mark"
     },
     {
-      "description": "",
+      "description": "For each Cero Mark Ulquiorra consumes, his ATK is increased by 3.5% for 25 seconds. Stacks up to 4 times.",
       "icon": "/Images/ulquiorra/passive-2.png",
-      "name": ""
+      "name": "Nihility"
     },
     {
-      "description": "",
+      "description": "Whenever Ulquiorra releases a Cero, increases the next Ultimate DMG by 10%, stacking up to 8 times, with an extra 20% increase at full stacks.",
       "icon": "/Images/ulquiorra/passive-3.png",
-      "name": ""
+      "name": "Void"
+    }
+    {
+      "description": "Increases the Spiritual Pressure gained by Ulquiorra through his basic attack, Blade Pursuit, by 100%.
+When an attack is blocked by his core passive, Cero Mark, he gains an extra 15 Spiritual Pressure.",
+      "icon": "/Images/ulquiorra/passive-3.png",
+      "name": "Obliteration"
     }
   ],
   "damageType": "Spirit",
