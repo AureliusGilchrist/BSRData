@@ -71,10 +71,9 @@
       "description": "Whenever Ulquiorra releases a Cero, increases the next Ultimate DMG by 10%, stacking up to 8 times, with an extra 20% increase at full stacks.",
       "icon": "/Images/ulquiorra/passive-3.png",
       "name": "Void"
-    }
+    },
     {
-      "description": "Increases the Spiritual Pressure gained by Ulquiorra through his basic attack, Blade Pursuit, by 100%.
-When an attack is blocked by his core passive, Cero Mark, he gains an extra 15 Spiritual Pressure.",
+      "description": "Increases the Spiritual Pressure gained by Ulquiorra through his basic attack, Blade Pursuit, by 100%. When an attack is blocked by his core passive, Cero Mark, he gains an extra 15 Spiritual Pressure.",
       "icon": "/Images/ulquiorra/passive-3.png",
       "name": "Obliteration"
     }
