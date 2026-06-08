@@ -43,7 +43,7 @@
     "slug": "grimmjow",
     "name": "Grimmjow Jaegerjaquez",
     "role": "Assault",
-    "tier": "TBD",
+    "tier": "A",
     "damageType": "Strike",
     "rarity": "SR+",
     "art": "/Images/grimmjow/art.png",
@@ -263,7 +263,7 @@
     "slug": "ulquiorra",
     "name": "Ulquiorra Shifar (SR+)",
     "role": "Assault",
-    "tier": "TBD",
+    "tier": "A",
     "damageType": "Spirit",
     "rarity": "SR+",
     "art": "/Images/ulquiorra/art.png",
@@ -277,7 +277,7 @@
     "damageType": "Spirit",
     "rarity": "SSR",
     "art": "/Images/ulquiorra-resurreccion/art.png",
-    "releaseDate": "26 Jun 2026"
+    "releaseDate": "5 Jun 2026"
   },
   {
     "slug": "ururu",
