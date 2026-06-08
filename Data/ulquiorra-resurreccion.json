@@ -1,0 +1,113 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Ulquiorra_Cifer",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/ulquiorra-resurreccion/art.png",
+  "bestStamp": {
+    "setName": "TBD"
+  },
+  "bondPriority": [],
+  "boundaries": [
+    {
+      "description": "TBD",
+      "icon": "/Images/ulquiorra-resurreccion/boundary-1.png",
+      "level": 1
+    },
+    {
+      "description": "TBD",
+      "icon": "/Images/ulquiorra-resurreccion/boundary-2.png",
+      "level": 2
+    },
+    {
+      "description": "TBD",
+      "icon": "/Images/ulquiorra-resurreccion/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "TBD",
+      "icon": "/Images/ulquiorra-resurreccion/boundary-4.png",
+      "level": 4
+    },
+    {
+      "description": "TBD",
+      "icon": "/Images/ulquiorra-resurreccion/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "TBD",
+      "icon": "/Images/ulquiorra-resurreccion/boundary-6.png",
+      "level": 6
+    }
+  ],
+  "builds": [],
+  "corePassives": [
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra-resurreccion/passive-1.png",
+      "name": "TBD"
+    },
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra-resurreccion/passive-2.png",
+      "name": "TBD"
+    },
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra-resurreccion/passive-3.png",
+      "name": "TBD"
+    }
+  ],
+  "damageType": "Spirit",
+  "name": "Ulquiorra Shifar (Resurrección)",
+  "note": "This Resurrección form of Ulquiorra, is a highly sought-after SSR Spirit DPS unit. (Currently only in leaks)",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 0,
+  "recommendedStopBoundaryF2P": 0,
+  "recommendedStopBoundaryP2W": 0,
+  "releaseDate": "5 Jun 2026",
+  "role": "Assault",
+  "rotations": [],
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra-resurreccion/skill-basic.png",
+      "kind": "basic",
+      "name": "TBD"
+    },
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra-resurreccion/skill-technique.png",
+      "kind": "technique",
+      "name": "TBD"
+    },
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra-resurreccion/skill-ultimate.png",
+      "kind": "ultimate",
+      "name": "TBD"
+    },
+    {
+      "description": "",
+      "icon": "/Images/ulquiorra-resurreccion/skill-counter.png",
+      "kind": "counter",
+      "name": "TBD"
+    }
+  ],
+  "slug": "ulquiorra-resurreccion",
+  "source": null,
+  "stamps": {
+    "core": {
+      "ascend1": [],
+      "ascend5": []
+    },
+    "weapon": {
+      "ascend1": [],
+      "ascend5": []
+    }
+  },
+  "tier": "TBD"
+}
