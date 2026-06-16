@@ -16,14 +16,16 @@
   "bondPriority": [],
   "boundaries": [
     {
-      "description": "",
+      "description": "Increases the duration of Tsubaki's Support to 20s.",
       "icon": "/Images/orihime/boundary-1.png",
       "level": 1
+      "name": "Strength of Blossoms"
     },
     {
-      "description": "",
+      "description": "After releasing the technique Santenkesshun, instantly heals all characters in the team for 10% of Orihime's Max HP.",
       "icon": "/Images/orihime/boundary-2.png",
       "level": 2
+      "name": "All Things Denied"
     },
     {
       "description": "",
@@ -31,9 +33,10 @@
       "level": 3
     },
     {
-      "description": "",
+      "description": "Increases Healing Effects provided by Orihime by 20%.",
       "icon": "/Images/orihime/boundary-4.png",
       "level": 4
+      "name": "Splendor"
     },
     {
       "description": "",
@@ -41,9 +44,10 @@
       "level": 5
     },
     {
-      "description": "",
+      "description": "When an on-field character takes fatal DMG, Inoue instantly provides aid, restoring their HP to 50% of Max HP and granting them Invincibility for 3s. Triggers only once per stage.",
       "icon": "/Images/orihime/boundary-6.png",
       "level": 6
+      "name": "The Final Gift"
     }
   ],
   "builds": [
@@ -71,19 +75,19 @@
   ],
   "corePassives": [
     {
-      "description": "",
+      "description": "The first character you switch in after Orihime releases a technique gains Tsubaki's Support for 10s. Tsubaki's Support: Increases All-Type DMG by 25%.",
       "icon": "/Images/orihime/passive-1.png",
-      "name": ""
+      "name": "Tsubaki's Support"
     },
     {
-      "description": "",
+      "description": "Increases Orihime's Max HP by 25%.",
       "icon": "/Images/orihime/passive-2.png",
-      "name": ""
+      "name": "Rikka's Protection"
     },
     {
-      "description": "",
+      "description": "Tsubaki's Support additionally increases the current character's ATK by an extra 25%.",
       "icon": "/Images/orihime/passive-3.png",
-      "name": ""
+      "name": "Power of Rejection"
     }
   ],
   "damageType": "Spirit",
