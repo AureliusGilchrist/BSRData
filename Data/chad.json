@@ -96,19 +96,19 @@
   ],
   "corePassives": [
     {
-      "description": "",
+      "description": "When Chad's HP  drops below 75%, his Crit Rate increases by 20% and his Crit DMG by 40%. When his HP drops below 50%, his Crit Rate increases by 30% and his Crit DMG by 60%.",
       "icon": "/Images/chad/passive-1.png",
-      "name": ""
+      "name": "Transformation Power"
     },
     {
-      "description": "",
+      "description": "Chad gains extra ATK equal to 15% of his extra HP, up to 480.",
       "icon": "/Images/chad/passive-2.png",
-      "name": ""
+      "name": "Iron Body"
     },
     {
-      "description": "",
+      "description": "When triggering a Perfect Dodge, Chad instantly gains 100 Spiritual Pressure and nicreases the DMG of his next special attack by an extra 100%.",
       "icon": "/Images/chad/passive-3.png",
-      "name": ""
+      "name": "Power Transfer"
     }
   ],
   "damageType": "Strike",
