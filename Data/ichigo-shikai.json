@@ -16,14 +16,16 @@
   "bondPriority": [],
   "boundaries": [
     {
-      "description": "",
+      "description": "Increases DMG dealt tto enemies with less than 50% HP by 40%.",
       "icon": "/Images/ichigo-shikai/boundary-1.png",
       "level": 1
+      "name": "Reclaim Soul Reaper Power"
     },
     {
-      "description": "",
+      "description": "While in Spiritual Power Release, all DMG dealt by Ichigo increases by 35%.",
       "icon": "/Images/ichigo-shikai/boundary-2.png",
       "level": 2
+      "name": "Back From the Darkness"
     },
     {
       "description": "",
@@ -31,9 +33,10 @@
       "level": 3
     },
     {
-      "description": "",
+      "description": "Increases the DMG of the Ultimate Getsuga Tensho by 100%.",
       "icon": "/Images/ichigo-shikai/boundary-4.png",
       "level": 4
+      "name": "Unwavering Resolve"
     },
     {
       "description": "",
@@ -41,9 +44,10 @@
       "level": 5
     },
     {
-      "description": "",
+      "description": "While in Spiritual Power Release, basic attacks have a 35% chance to release an extra sword wave.",
       "icon": "/Images/ichigo-shikai/boundary-6.png",
       "level": 6
+      "name": "Oath of the Soul"
     }
   ],
   "builds": [
@@ -71,19 +75,19 @@
   ],
   "corePassives": [
     {
-      "description": "",
+      "description": "Upon releasing the Spiritual Pressure Burst technique, Ichigo enters the Spiritual Power Release state for 5s. During this time, basic attacks release sword waves instead of dealing direct damage. Each wave Penetrates all enemies in its path, dealing damage equal to 55% of ATK. (Each basic attack level increases Sword Wave DMG by 6%.)",
       "icon": "/Images/ichigo-shikai/passive-1.png",
-      "name": ""
+      "name": "Spiritual Power Release"
     },
     {
-      "description": "",
+      "description": "While under the Spiritual Power Release state, Ichigo's basic attacks gain a(n) 25% increase in ASPD.",
       "icon": "/Images/ichigo-shikai/passive-2.png",
-      "name": ""
+      "name": "Fierce Sword Waves"
     },
     {
-      "description": "",
+      "description": "Wile under the Spiritual Power Release state, has a(n) 50% chance to double the damage dealt by all sword waves.",
       "icon": "/Images/ichigo-shikai/passive-3.png",
-      "name": ""
+      "name": "Battle Resolve"
     }
   ],
   "damageType": "Slash",
