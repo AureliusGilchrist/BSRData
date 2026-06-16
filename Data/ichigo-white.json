@@ -9,21 +9,23 @@
   "art": "/Images/ichigo-white/art.png",
   "bestStamp": {
     "mainStats": "1: Slash DMG Bonus \u003e Atk%  •  2: Crit DMG (W5/C5) \u003e Crit Rate •  3: Atk% \u003e Ult Charge Rate",
-    "notes": "Aim for ~119% Ult Charge Rate to align Ultimate with team buffs.",
+    "notes": "No Ult Charge is necessary.",
     "setName": "Mindscape Encroachment (3)",
     "subStatPriority": "Crit DMG \u003e Crit Rate (25% for W5/C5) \u003e Atk% \u003e Ult Charge Rate \u003e Flat Atk"
   },
   "bondPriority": [],
   "boundaries": [
     {
-      "description": "",
+      "description": "Increase all Battlefield Skill DMG by 30%. While Instinct Burst is activated, Inner Hollow's Slash DMG increases by 30%.",
       "icon": "/Images/ichigo-white/boundary-1.png",
       "level": 1
+      "name": "You Are Pathetic"
     },
     {
-      "description": "",
+      "description": "Increases Special Attack DMG by 50%. After releasing a Special Attack, the entire team's Slash Mastery increases by 20% for 30 seconds.",
       "icon": "/Images/ichigo-white/boundary-2.png",
       "level": 2
+      "name": "You Will Never Learn"
     },
     {
       "description": "",
@@ -31,9 +33,10 @@
       "level": 3
     },
     {
-      "description": "",
+      "description": "Whenever Inner Hollow releases Getsuga Tensho, all characters in the team gain 20% All-Skill Mastery for 20 seconds.",
       "icon": "/Images/ichigo-white/boundary-4.png",
       "level": 4
+      "name": "The Same Moment"
     },
     {
       "description": "",
@@ -41,9 +44,10 @@
       "level": 5
     },
     {
-      "description": "",
+      "description": "Each time Getsuga Tensho is released, several extra rounds of Bala are fired at the target, dealing damage equal to 2,100% of ATK. Cooldown: 2.5 second(s). Bala can trigger all Getsuga Tensho effects.",
       "icon": "/Images/ichigo-white/boundary-6.png",
       "level": 6
+      "name": "That's Why You're Weaker"
     }
   ],
   "builds": [
@@ -71,24 +75,24 @@
   ],
   "corePassives": [
     {
-      "description": "",
+      "description": "After gaining 2 Instinct Points, Inner Hollow enters Instinct Burst, increasing his ATK by 20%. While in Shikai, the 4th hit of his basic attack, the 2nd hit of his technique, and counterattack each consume 1 Instinct Point to release Getsuga Tensho. When Inner Hollow and Ichigo Kurosaki - Bankai are in the same team, Ichigo's ATK increases by 30% during his Hollowfied Ultimate state.",
       "icon": "/Images/ichigo-white/passive-1.png",
-      "name": ""
+      "name": "Instinct Burst"
     },
     {
-      "description": "",
+      "description": "Increases Inner Hollow's Crit DMG during battle by 60%.",
       "icon": "/Images/ichigo-white/passive-2.png",
-      "name": ""
+      "name": "Frenzy Resonance"
     },
     {
-      "description": "",
+      "description": "Each hit from Getsuga Tensho reduces the target's Slash Resistance by 23% for 20 seconds, stacking up to 3 times.",
       "icon": "/Images/ichigo-white/passive-3.png",
-      "name": ""
+      "name": "Hollowfication Intimidation"
     },
     {
-      "description": "",
+      "description": "Increases Inner Hollow's ATK by 20%.",
       "icon": "/Images/ichigo-white/passive-4.png",
-      "name": ""
+      "name": "Stripped Rationality"
     }
   ],
   "damageType": "Slash",
