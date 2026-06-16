@@ -16,14 +16,16 @@
   "bondPriority": [],
   "boundaries": [
     {
-      "description": "",
+      "description": "Increases all DMG dealt by Nemu by 25%. Increases Nemu's Base ATK by 20%.",
       "icon": "/Images/nemu/boundary-1.png",
       "level": 1
+      "name": "Seed of Evolution"
     },
     {
-      "description": "",
+      "description": "Nemu accumulates Spiritual Pressure every second while in Full-Body Overdrive.",
       "icon": "/Images/nemu/boundary-2.png",
       "level": 2
+      "name": "Nearing Perfection"
     },
     {
       "description": "",
@@ -31,9 +33,10 @@
       "level": 3
     },
     {
-      "description": "",
+      "description": "Increases DMG dealt by special attacks, Enhanced Barrage and Enhanced Sweeping Kick, by 50%.",
       "icon": "/Images/nemu/boundary-4.png",
       "level": 4
+      "name": "Duty"
     },
     {
       "description": "",
@@ -41,9 +44,10 @@
       "level": 5
     },
     {
-      "description": "",
+      "description": "Gains Upper Body Overdrive and Lower Body  Overdrive for 30s when the battle begins, and instantly fills Ultimate Energy to maximum.",
       "icon": "/Images/nemu/boundary-6.png",
       "level": 6
+      "name": "Supreme Masterpiece"
     }
   ],
   "builds": [
@@ -71,19 +75,19 @@
   ],
   "corePassives": [
     {
-      "description": "",
+      "description": "When Upper Body Overdrive and Lower Body Overdrive are active at the same time, Nemu activates Full-Body Overdrive: Doubles the bonus effects of Uper Body Overdrive and Lower Body Overdrive. Durations of Upper Body Overdrive and Lower Body Overdrive are mutually independent. Should either mode end, Full-Body Overdrive ends as well. Overdrive mode countdowns continue even when Nemu is off-field.",
       "icon": "/Images/nemu/passive-1.png",
-      "name": ""
+      "name": "Full-Body Overdrive"
     },
     {
-      "description": "",
+      "description": "Increases the bonus effects of Lower Body Overdrive by an amount equal to 20% of Nemu's Base ATK, up to a maximum of 360.",
       "icon": "/Images/nemu/passive-2.png",
-      "name": ""
+      "name": "Supreme"
     },
     {
-      "description": "",
+      "description": "Nemu's Base ATK increases by 40%.",
       "icon": "/Images/nemu/passive-3.png",
-      "name": ""
+      "name": "Mod Soul"
     }
   ],
   "damageType": "Strike",
