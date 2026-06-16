@@ -16,14 +16,16 @@
   "bondPriority": [],
   "boundaries": [
     {
-      "description": "",
+      "description": "Reishi Gathering can now stack up to 5 times instead of 2 times.",
       "icon": "/Images/ichigo-initial/boundary-1.png",
       "level": 1
+      "name": "Become a Substitute Soul Reaper"
     },
     {
-      "description": "",
+      "description": "Ichigo takes 50% less DMG while releasing his special attack.",
       "icon": "/Images/ichigo-initial/boundary-2.png",
       "level": 2
+      "name": "Endless Rain"
     },
     {
       "description": "",
@@ -31,9 +33,10 @@
       "level": 3
     },
     {
-      "description": "",
+      "description": "Increases basic attack DMG by 100%.",
       "icon": "/Images/ichigo-initial/boundary-4.png",
       "level": 4
+      "name": "Destiny"
     },
     {
       "description": "",
@@ -41,9 +44,10 @@
       "level": 5
     },
     {
-      "description": "",
+      "description": "After releasing an Ultimate, the next special attack deals 400% increased DMG.",
       "icon": "/Images/ichigo-initial/boundary-6.png",
       "level": 6
+      "name": "Vow to Protect"
     }
   ],
   "builds": [
@@ -71,19 +75,19 @@
   ],
   "corePassives": [
     {
-      "description": "",
+      "description": "Ichigo gains 1 stack of Reishi Gathering every time he releases a special attack, increasing the DMG of subsequent special attacks by 20%. Stacks up to 2 times, and the effects lasts until the character is Severely Wounded or the stage ends.",
       "icon": "/Images/ichigo-initial/passive-1.png",
-      "name": ""
+      "name": "Reishi Gathering"
     },
     {
-      "description": "",
+      "description": "Each enemy hit by Ichigo's techniques increases the DMG of his next special attack by 40%, up to a maximum of 200%.",
       "icon": "/Images/ichigo-initial/passive-2.png",
-      "name": ""
+      "name": "Courage"
     },
     {
-      "description": "",
+      "description": "Increases all damage dealt by Ichigo by 25%.",
       "icon": "/Images/ichigo-initial/passive-3.png",
-      "name": ""
+      "name": "Resolve"
     }
   ],
   "damageType": "Slash",
