@@ -70,36 +70,6 @@
     "releaseDate": "21 Nov 2025"
   },
   {
-    "slug": "ichigo-initial",
-    "name": "Ichigo Kurosaki (Initial)",
-    "role": "Assault",
-    "tier": "D",
-    "damageType": "Slash",
-    "rarity": "SR",
-    "art": "/Images/ichigo-initial/art.png",
-    "releaseDate": "21 Nov 2025"
-  },
-  {
-    "slug": "ichigo-shikai",
-    "name": "Ichigo Kurosaki (Shikai)",
-    "role": "Assault",
-    "tier": "C",
-    "damageType": "Slash",
-    "rarity": "SR",
-    "art": "/Images/ichigo-shikai/art.png",
-    "releaseDate": "21 Nov 2025"
-  },
-  {
-    "slug": "ichigo-white",
-    "name": "Kurosaki Ichigo (Inner Hollow)",
-    "role": "Tactician",
-    "tier": "S",
-    "damageType": "Slash",
-    "rarity": "SSR",
-    "art": "/Images/ichigo-white/art.png",
-    "releaseDate": "5 Jun 2026"
-  },
-  {
     "slug": "ikkaku",
     "name": "Ikkaku Madarame",
     "role": "Assault",
@@ -168,26 +138,6 @@
     "rarity": "SSR",
     "art": "/Images/nelliel/art.png",
     "releaseDate": "20 Feb 2026"
-  },
-  {
-    "slug": "nemu",
-    "name": "Nemu Kurotsuchi",
-    "role": "Support",
-    "tier": "D",
-    "damageType": "Strike",
-    "rarity": "SR",
-    "art": "/Images/nemu/art.png",
-    "releaseDate": "21 Nov 2025"
-  },
-  {
-    "slug": "orihime",
-    "name": "Orihime Inoue",
-    "role": "Support",
-    "tier": "D",
-    "damageType": "Spirit",
-    "rarity": "SR",
-    "art": "/Images/orihime/art.png",
-    "releaseDate": "21 Nov 2025"
   },
   {
     "slug": "rangiku",
