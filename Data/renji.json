@@ -96,9 +96,9 @@
   ],
   "corePassives": [
     {
-      "description": "",
+      "description": "Renji continuously inflicts Lacerate Points during his special attacks. Reaching 100 Lacerate Points trigger Lacerate once, dealing DMG equal to 300% of ATK.",
       "icon": "/Images/renji/passive-1.png",
-      "name": ""
+      "name": "Lacerate"
     },
     {
       "description": "Increases Lacerate DMG by 75%.",
