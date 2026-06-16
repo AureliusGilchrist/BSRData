@@ -16,14 +16,16 @@
   "bondPriority": [],
   "boundaries": [
     {
-      "description": "",
+      "description": "Increases the limit of Spiritual Pressure Reserve to 20.",
       "icon": "/Images/ururu/boundary-1.png",
       "level": 1
+      "name": "Born From Nowhere"
     },
     {
-      "description": "",
+      "description": "When building up Spiritual Pressure, there's a 50%/30%/20% chance to gain 1/2/3 extra stacks of Spiritual Pressure Reserve.",
       "icon": "/Images/ururu/boundary-2.png",
       "level": 2
+      "name": "You Shall Perish"
     },
     {
       "description": "",
@@ -31,9 +33,10 @@
       "level": 3
     },
     {
-      "description": "",
+      "description": "Increases DMG dealt by the technique Maintain Safe Distance by 180%.",
       "icon": "/Images/ururu/boundary-4.png",
       "level": 4
+      "name": "Gentle"
     },
     {
       "description": "",
@@ -41,9 +44,10 @@
       "level": 5
     },
     {
-      "description": "",
+      "description": "When releasing a special attack, DMG received is reduced by 25%, and it's harder to interrupt. There's also a 40% chance the special attack will not consume any Spiritual Pressure Reserve.",
       "icon": "/Images/ururu/boundary-6.png",
       "level": 6
+      "name": "Threat Neutralized"
     }
   ],
   "builds": [
@@ -92,19 +96,19 @@
   ],
   "corePassives": [
     {
-      "description": "",
+      "description": "Ururu gains Spiritual Pressure Reserve when she uses basic attacks, Techniques, and counterattack, as well as when she triggers Perfect Dodge, up to 10 stacks. Spiritual Pressure Reserve can be used to launch special attacks.",
       "icon": "/Images/ururu/passive-1.png",
-      "name": ""
+      "name": "Ready to Fire"
     },
     {
-      "description": "",
+      "description": "Enemies within the Burning Area lose 50% Movement Speed and SPD. The effect ends 2s after they leave the Burning Area.",
       "icon": "/Images/ururu/passive-2.png",
-      "name": ""
+      "name": "Scorch"
     },
     {
-      "description": "",
+      "description": "When there is an enemy in the Burning Area, Ururu deals 30% more Spirit DMG.",
       "icon": "/Images/ururu/passive-3.png",
-      "name": ""
+      "name": "Supressing Fire"
     }
   ],
   "damageType": "Spirit",
