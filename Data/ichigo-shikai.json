@@ -18,13 +18,13 @@
     {
       "description": "Increases DMG dealt tto enemies with less than 50% HP by 40%.",
       "icon": "/Images/ichigo-shikai/boundary-1.png",
-      "level": 1
+      "level": 1,
       "name": "Reclaim Soul Reaper Power"
     },
     {
       "description": "While in Spiritual Power Release, all DMG dealt by Ichigo increases by 35%.",
       "icon": "/Images/ichigo-shikai/boundary-2.png",
-      "level": 2
+      "level": 2,
       "name": "Back From the Darkness"
     },
     {
@@ -35,7 +35,7 @@
     {
       "description": "Increases the DMG of the Ultimate Getsuga Tensho by 100%.",
       "icon": "/Images/ichigo-shikai/boundary-4.png",
-      "level": 4
+      "level": 4,
       "name": "Unwavering Resolve"
     },
     {
@@ -46,7 +46,7 @@
     {
       "description": "While in Spiritual Power Release, basic attacks have a 35% chance to release an extra sword wave.",
       "icon": "/Images/ichigo-shikai/boundary-6.png",
-      "level": 6
+      "level": 6,
       "name": "Oath of the Soul"
     }
   ],

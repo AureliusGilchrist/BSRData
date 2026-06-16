@@ -18,13 +18,13 @@
     {
       "description": "While releasing the special attack Crushing Charge, each time the enemy receives DMG, the DMG multiplier of the incoming 2nd follow-up attack increases by 15%, up to 75%.",
       "icon": "/Images/chad/boundary-1.png",
-      "level": 1
+      "level": 1,
       "name": "Iron Body"
     },
     {
       "description": "After landing a hit with a technique, Chad's subsequent Strike DMG increases by 30% for 12s.",
       "icon": "/Images/chad/boundary-2.png",
-      "level": 2
+      "level": 2,
       "name": "Reason to Punch"
     },
     {
@@ -35,7 +35,7 @@
     {
       "description": "Increases DMG dealt by the technique Heavy Toss by 100%.",
       "icon": "/Images/chad/boundary-4.png",
-      "level": 4
+      "level": 4,
       "name": "Scorching Heat"
     },
     {
@@ -46,7 +46,7 @@
     {
       "description": "Increases Chad's Strike DMG by 30% while the passive skikll Transformation Power is active.",
       "icon": "/Images/chad/boundary-6.png",
-      "level": 6
+      "level": 6,
       "name": "Awakened Right Arm"
     }
   ],

@@ -18,13 +18,13 @@
     {
       "description": "Reishi Gathering can now stack up to 5 times instead of 2 times.",
       "icon": "/Images/ichigo-initial/boundary-1.png",
-      "level": 1
+      "level": 1,
       "name": "Become a Substitute Soul Reaper"
     },
     {
       "description": "Ichigo takes 50% less DMG while releasing his special attack.",
       "icon": "/Images/ichigo-initial/boundary-2.png",
-      "level": 2
+      "level": 2,
       "name": "Endless Rain"
     },
     {
@@ -35,7 +35,7 @@
     {
       "description": "Increases basic attack DMG by 100%.",
       "icon": "/Images/ichigo-initial/boundary-4.png",
-      "level": 4
+      "level": 4,
       "name": "Destiny"
     },
     {
@@ -46,7 +46,7 @@
     {
       "description": "After releasing an Ultimate, the next special attack deals 400% increased DMG.",
       "icon": "/Images/ichigo-initial/boundary-6.png",
-      "level": 6
+      "level": 6,
       "name": "Vow to Protect"
     }
   ],

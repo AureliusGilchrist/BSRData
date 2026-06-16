@@ -18,13 +18,13 @@
     {
       "description": "Increases the duration of Tsubaki's Support to 20s.",
       "icon": "/Images/orihime/boundary-1.png",
-      "level": 1
+      "level": 1,
       "name": "Strength of Blossoms"
     },
     {
       "description": "After releasing the technique Santenkesshun, instantly heals all characters in the team for 10% of Orihime's Max HP.",
       "icon": "/Images/orihime/boundary-2.png",
-      "level": 2
+      "level": 2,
       "name": "All Things Denied"
     },
     {
@@ -35,7 +35,7 @@
     {
       "description": "Increases Healing Effects provided by Orihime by 20%.",
       "icon": "/Images/orihime/boundary-4.png",
-      "level": 4
+      "level": 4,
       "name": "Splendor"
     },
     {
@@ -46,7 +46,7 @@
     {
       "description": "When an on-field character takes fatal DMG, Inoue instantly provides aid, restoring their HP to 50% of Max HP and granting them Invincibility for 3s. Triggers only once per stage.",
       "icon": "/Images/orihime/boundary-6.png",
-      "level": 6
+      "level": 6,
       "name": "The Final Gift"
     }
   ],

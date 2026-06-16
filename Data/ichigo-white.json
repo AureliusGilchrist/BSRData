@@ -18,13 +18,13 @@
     {
       "description": "Increase all Battlefield Skill DMG by 30%. While Instinct Burst is activated, Inner Hollow's Slash DMG increases by 30%.",
       "icon": "/Images/ichigo-white/boundary-1.png",
-      "level": 1
+      "level": 1,
       "name": "You Are Pathetic"
     },
     {
       "description": "Increases Special Attack DMG by 50%. After releasing a Special Attack, the entire team's Slash Mastery increases by 20% for 30 seconds.",
       "icon": "/Images/ichigo-white/boundary-2.png",
-      "level": 2
+      "level": 2,
       "name": "You Will Never Learn"
     },
     {
@@ -35,7 +35,7 @@
     {
       "description": "Whenever Inner Hollow releases Getsuga Tensho, all characters in the team gain 20% All-Skill Mastery for 20 seconds.",
       "icon": "/Images/ichigo-white/boundary-4.png",
-      "level": 4
+      "level": 4,
       "name": "The Same Moment"
     },
     {
@@ -46,7 +46,7 @@
     {
       "description": "Each time Getsuga Tensho is released, several extra rounds of Bala are fired at the target, dealing damage equal to 2,100% of ATK. Cooldown: 2.5 second(s). Bala can trigger all Getsuga Tensho effects.",
       "icon": "/Images/ichigo-white/boundary-6.png",
-      "level": 6
+      "level": 6,
       "name": "That's Why You're Weaker"
     }
   ],

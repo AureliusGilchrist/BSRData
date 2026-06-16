@@ -18,13 +18,13 @@
     {
       "description": "When Renji releases his special attack, Crit Rate increases by 40%. If the target is under Spiritual Pressure Dissipation, Crit Rate increases by 60% instead.",
       "icon": "/Images/renji/boundary-1.png",
-      "level": 1
+      "level": 1,
       "name": "Roar at the Stars"
     },
     {
       "description": "Inflicting Zabi Mark on enemies already affected by Zabi Mark inflicts Lacerate on them immediately, dealing DMG equal to 300% of Renji's ATK. This effect triggers once every 5s.",
       "icon": "/Images/renji/boundary-2.png",
-      "level": 2
+      "level": 2,
       "name": "Stars Part Ways"
     },
     {
@@ -35,7 +35,7 @@
     {
       "description": "Increases Renji's Ailment DMG by 100%",
       "icon": "/Images/renji/boundary-4.png",
-      "level": 4
+      "level": 4,
       "name": "Fangs"
     },
     {
@@ -46,7 +46,7 @@
     {
       "description": "Each time Lacerate triggers, deal extra DMG based on the enemy's Max HP: 3% to enemies with Spiritual Pressure bar and 20% to other enemise. DMG is capped at 300% of Renji's ATK.",
       "icon": "/Images/renji/boundary-6.png",
-      "level": 6
+      "level": 6,
       "name": "Under the Stars"
     }
   ],

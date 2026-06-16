@@ -18,13 +18,13 @@
     {
       "description": "Increases all DMG dealt by Nemu by 25%. Increases Nemu's Base ATK by 20%.",
       "icon": "/Images/nemu/boundary-1.png",
-      "level": 1
+      "level": 1,
       "name": "Seed of Evolution"
     },
     {
       "description": "Nemu accumulates Spiritual Pressure every second while in Full-Body Overdrive.",
       "icon": "/Images/nemu/boundary-2.png",
-      "level": 2
+      "level": 2,
       "name": "Nearing Perfection"
     },
     {
@@ -35,7 +35,7 @@
     {
       "description": "Increases DMG dealt by special attacks, Enhanced Barrage and Enhanced Sweeping Kick, by 50%.",
       "icon": "/Images/nemu/boundary-4.png",
-      "level": 4
+      "level": 4,
       "name": "Duty"
     },
     {
@@ -46,7 +46,7 @@
     {
       "description": "Gains Upper Body Overdrive and Lower Body  Overdrive for 30s when the battle begins, and instantly fills Ultimate Energy to maximum.",
       "icon": "/Images/nemu/boundary-6.png",
-      "level": 6
+      "level": 6,
       "name": "Supreme Masterpiece"
     }
   ],
