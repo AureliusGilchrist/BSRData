@@ -58,7 +58,7 @@
       "setName": "Mindscape Encroachment (3)",
       "setPieces": [
         {
-          "mainStat": "Slash DMG Bonus \u003e Atk%",
+          "mainStat": "Slash DMG Bonus \u003e ATK%",
           "slot": 1
         },
         {
@@ -66,7 +66,7 @@
           "slot": 2
         },
         {
-          "mainStat": "Atk% \u003e Ult Charge Rate",
+          "mainStat": "ATK%",
           "slot": 3
         }
       ],
