@@ -177,6 +177,12 @@
       "icon": "/Images/aizen/skill-counter.png",
       "kind": "counter",
       "name": ""
+    },
+    {
+      "description": "All damage dealt by the team increases by 30%. Aizen has two types of Battlefield Skill energy: Battlefield Skill Amount and Suppression Value. Battlefield Skill Amount builds up while Aizen attacks on the field and is spent to release Kurohitsugi. Suppression Value builds up from teammates' attacks landing — if Aizen is the only character left in the team, his own attacks (other than I Will Stand Atop the Heavens) build it too. At maximum Suppression Value, Aizen enters Complete Suppression; releasing the Battlefield Skill from the backline at that point consumes all Suppression Value to increase the Battlefield Skill's damage by 150% (500% during Kyokasuigetsu, though the Suppression Value requirement doubles). When Battlefield Skill Amount is full, Aizen releases Kurohitsugi, dealing 438% of ATK and applying 1 stack of Ravage to enemies hit. Kurohitsugi cannot be triggered manually while Kyokasuigetsu is active.",
+      "icon": "/Images/aizen/skill-bfs.png",
+      "kind": "Battlefield Skill",
+      "name": "Hado 90: Kurohitsugi"
     }
   ],
   "slug": "aizen",

@@ -162,6 +162,12 @@
       "icon": "/Images/ichigo-white/skill-counter.png",
       "kind": "counter",
       "name": ""
+    },
+    {
+      "description": "While the Inner Hollow's Battlefield Skill is active, all teammates deal 40% more Slash DMG. It runs on two types of energy — Battlefield Skill Amount and Instinct Points — corresponding to two abilities: Devastating Round Dance and Lethal Strike. Any teammate's basic attacks, special attacks, and techniques landing build Battlefield Skill Amount (0.9s cooldown); Instinct Points are gained from releasing Devastating Round Dance or the Inner Hollow's special attacks. Battlefield Skill Amount stops building while Instinctive Surge is active. Devastating Round Dance switches the Inner Hollow in to spin Zangetsu through a wide arc, pulling in nearby enemies for 1074% of ATK and gaining 1 Instinct Point. Lethal Strike has the Inner Hollow leap high and swing down for 1604% of ATK; it is a Slash attack and ends Instinctive Surge on use.",
+      "icon": "/Images/ichigo-white/skill-bfs.png",
+      "kind": "Battlefield Skill",
+      "name": "I Will Be King"
     }
   ],
   "slug": "ichigo-white",

@@ -163,6 +163,13 @@
       "kind": "Counter",
       "name": "Heroic Stomp",
       "variant": "Resurreccion"
+    },
+    {
+      "description": "While Nelliel's Battlefield Skill is active, all allies gain 60% State Mastery. Her Battlefield Skill consumes two types of energy — Battlefield Skill Energy and Friendship Points — corresponding to Combo Attack and Synchro Cero, both gained from Nelliel's attacks landing (1.2s cooldown). Combo Attack: when another ally's attack hits an enemy, it automatically consumes 10 Battlefield Skill Energy to trigger Nelliel's Combo Attack, dealing 96% of her ATK and applying 10 stacks of Green Boost. If the enemy is hit again by another State-type instance of damage within 2 seconds, an additional Combo Attack triggers without consuming Battlefield Skill Energy (2s cooldown); each activation grants 1 Friendship Point. Synchro Cero: once Friendship Points reach 15, Pesche and Dondochakka appear and perform a Synchro Cero alongside Nelliel, dealing 1199% of her ATK.",
+      "icon": "/Images/nelliel/skill-bfs.png",
+      "kind": "Battlefield Skill",
+      "name": "For My Friend",
+      "variant": null
     }
   ],
   "slug": "nelliel",

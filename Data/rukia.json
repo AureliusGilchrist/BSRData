@@ -139,6 +139,13 @@
       "kind": "Counter",
       "name": "Counter",
       "variant": null
+    },
+    {
+      "description": "While active, Rukia's Battlefield Skill increases all teammates' damage of all types by 15%. Her Battlefield Skill runs on two types of energy — Battlefield Skill Energy and Chill — corresponding to two different Battlefield Skills, Cold Sword Surge and Chill Release. Any teammate's basic attacks and techniques landing build Battlefield Skill Energy (0.2s cooldown); releasing Shattering Ice builds 1 stack of Chill. Shattering Ice: whenever any teammate attacks an enemy that has been frozen for more than 1 second, Shattering Ice triggers, dealing bonus damage equal to 130% of Rukia's ATK and breaking the frozen state. Enemies frozen by the Ultimate can trigger Shattering Ice multiple times during the freeze, every 0.2 seconds, but only the first trigger grants Chill. Cold Sword Surge: Rukia appears on the field and releases a wave of cold steel at the current enemy, dealing 88% of ATK and applying 25 points of Chill.",
+      "icon": "/Images/rukia/skill-bfs.png",
+      "kind": "Battlefield Skill",
+      "name": "Cold Sword Surge",
+      "variant": null
     }
   ],
   "slug": "rukia",

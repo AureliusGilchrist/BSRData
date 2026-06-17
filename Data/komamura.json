@@ -138,6 +138,12 @@
       "icon": "/Images/komamura/skill-counter.png",
       "kind": "counter",
       "name": ""
+    },
+    {
+      "description": "While active, Komamura's Battlefield Skill increases all teammates' Strike DMG by 30%. The Battlefield Skill button activates when the last character on the field besides Komamura releases a technique or the final hit of their basic attack (3.5s cooldown on this trigger). Komamura joins forces with Tengen Myo'o to cleave the enemy, dealing 103% of ATK as area damage and applying 1 stack of Karma. After every 2 Battlefield Skill activations, the next one is upgraded into a more powerful flame-empowered strike.",
+      "icon": "/Images/komamura/skill-bfs.png",
+      "kind": "Battlefield Skill",
+      "name": "Tenken Release - Slash"
     }
   ],
   "slug": "komamura",

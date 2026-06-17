@@ -152,6 +152,12 @@
       "icon": "/Images/byakuya/skill-counter.png",
       "kind": "counter",
       "name": ""
+    },
+    {
+      "description": "While Byakuya's Battlefield Skill is active, all teammates deal 30% more Slash DMG. Byakuya condenses the petals floating around him into blades and stabs the enemy at the same time, pinning them to the ground for 75% of ATK damage. If Byakuya's Battlefield Skill energy has dropped to zero after releasing this attack, pressing the Battlefield Skill button again lets Byakuya release a follow-up strike equivalent to the fourth hit of his basic attack. The Battlefield Skill button activates within 2 seconds of any teammate releasing a special attack, technique, or counterattack, and cannot be triggered any other way.",
+      "icon": "/Images/byakuya/skill-bfs.png",
+      "kind": "Battlefield Skill",
+      "name": "Funeral of a Thousand Blades"
     }
   ],
   "slug": "byakuya",

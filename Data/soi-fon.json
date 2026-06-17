@@ -175,6 +175,13 @@
       "kind": "Counter",
       "name": "Counter",
       "variant": null
+    },
+    {
+      "description": "While active, Soi Fon's Battlefield Skill increases all teammates' Strike DMG by 40%. It runs on two types of energy — Death Mark and Battlefield Skill Energy — corresponding to her two Battlefield Skills, Combo Strike and Twin-Strike Execution. Soi Fon gains Battlefield Skill Energy by consuming Death Mark, and enters the field with Battlefield Skill Energy already at maximum. Combo Strike: when another teammate lands a hit while Soi Fon's Battlefield Skill Energy isn't at maximum, 1 point of Death Mark is automatically consumed to trigger Combo Strike, dealing 38% of Soi Fon's ATK and granting 1 point of Battlefield Skill Energy. Twin-Strike Execution: Soi Fon teleports to the enemy and strikes with Suzumebachi — if the target isn't marked with Homonka, this deals 755% of her ATK and applies Homonka; if it already is, it instead deals 662% of her ATK and triggers an additional Sting instance for 110% of her ATK, consuming the Homonka mark.",
+      "icon": "/Images/soi-fon/skill-bfs.png",
+      "kind": "Battlefield Skill",
+      "name": "Combined Strike",
+      "variant": null
     }
   ],
   "slug": "soi-fon",

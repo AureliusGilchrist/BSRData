@@ -161,6 +161,12 @@
       "icon": "/Images/tosen/skill-counter.png",
       "kind": "counter",
       "name": ""
+    },
+    {
+      "description": "While active, Tosen's Battlefield Skill grants the whole team 30% increased Pierce DMG. Tosen appears on the field to perform a coordinated strike equivalent to the fourth hit of his basic attack, and also gains 25 points of Battlefield Skill energy. This can only trigger once every 3 seconds, and Tosen cannot be switched out again while it's active; the Battlefield Skill won't trigger once its energy has reached maximum.",
+      "icon": "/Images/tosen/skill-bfs.png",
+      "kind": "Battlefield Skill",
+      "name": "Suzumushi Nishiki - Benihiko"
     }
   ],
   "slug": "tosen",
