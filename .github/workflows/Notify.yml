@@ -9,7 +9,7 @@
 #
 # Requires a repo secret SITE_DISPATCH_TOKEN: a PAT with "contents: write"
 # (classic repo scope) or a fine-grained PAT with Contents: read/write on the
-# AureliusGilchrist/Bleach-Soul-Calculator repo.
+# AureliusGilchrist/TheAdnyeusArchive repo.
 
 name: Notify Site
 
@@ -45,6 +45,6 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer $SITE_DISPATCH_TOKEN" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
-            "https://api.github.com/repos/AureliusGilchrist/Bleach-Soul-Calculator/dispatches" \
+            "https://api.github.com/repos/AureliusGilchrist/TheAdnyeusArchive/dispatches" \
             -d '{"event_type":"bsrdata-updated"}'
           echo "Dispatched bsrdata-updated to the site repo."
