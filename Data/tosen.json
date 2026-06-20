@@ -8,10 +8,10 @@
   },
   "art": "/Images/tosen/art.png",
   "bestStamp": {
-    "setName": "Suzumushi (4) + Thrust (2)",
     "mainStats": "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
-    "notes": "Stealth Tactician — burst on the silence window."
+    "notes": "Stealth Tactician — burst on the silence window.",
+    "setName": "Suzumushi (4) + Thrust (2)",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
   },
   "bondPriority": [],
   "boundaries": [
@@ -141,25 +141,25 @@
     {
       "description": "",
       "icon": "/Images/tosen/skill-basic.png",
-      "kind": "basic",
+      "kind": "Basic Attack",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/tosen/skill-technique.png",
-      "kind": "technique",
+      "kind": "Technique",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/tosen/skill-ultimate.png",
-      "kind": "ultimate",
+      "kind": "Ultimate",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/tosen/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
       "name": ""
     },
     {
@@ -167,6 +167,12 @@
       "icon": "/Images/tosen/skill-bfs.png",
       "kind": "Battlefield Skill",
       "name": "Suzumushi Nishiki - Benihiko"
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "tosen",

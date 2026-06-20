@@ -8,10 +8,10 @@
   },
   "art": "/Images/ururu/art.png",
   "bestStamp": {
-    "setName": "Cannon (4) + Spirit (2)",
     "mainStats": "1: Spirit DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk",
-    "notes": "A-tier Support — cannon-damage scales off Atk."
+    "notes": "A-tier Support — cannon-damage scales off Atk.",
+    "setName": "Cannon (4) + Spirit (2)",
+    "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk"
   },
   "bondPriority": [],
   "boundaries": [
@@ -137,25 +137,31 @@
     {
       "description": "",
       "icon": "/Images/ururu/skill-basic.png",
-      "kind": "basic",
+      "kind": "Basic Attack",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/ururu/skill-technique.png",
-      "kind": "technique",
+      "kind": "Technique",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/ururu/skill-ultimate.png",
-      "kind": "ultimate",
+      "kind": "Ultimate",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/ururu/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
       "name": ""
     }
   ],

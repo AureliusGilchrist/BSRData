@@ -8,10 +8,10 @@
   },
   "art": "/Images/rangiku/art.png",
   "bestStamp": {
-    "setName": "Haineko (4) + Thrust (2)",
     "mainStats": "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
-    "notes": "Ash-cloud DPS Support — pairs with Toshiro for spirit-team synergy."
+    "notes": "Ash-cloud DPS Support — pairs with Toshiro for spirit-team synergy.",
+    "setName": "Haineko (4) + Thrust (2)",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
   },
   "bondPriority": [
     {
@@ -144,10 +144,22 @@
     },
     {
       "description": "",
+      "icon": "/Images/rangiku/skill-ultimate.png",
+      "kind": "Ultimate",
+      "name": ""
+    },
+    {
+      "description": "",
       "icon": "/Images/rangiku/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",
       "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "rangiku",

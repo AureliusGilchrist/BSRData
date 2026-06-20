@@ -9,10 +9,10 @@
   "affiliation": "Shinigami",
   "art": "/Images/aizen/art.png",
   "bestStamp": {
-    "setName": "Immeasurable Gap (4) + Spirit DMG (2)",
     "mainStats": "1: Spirit DMG Bonus \u003e ATK%  •  2: Crit Rate \u003e Crit DMG  •  3: ATK%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e ATK% \u003e Ult Charge Rate \u003e Flat ATK",
-    "notes": "Aim for ~119% Ult Charge Rate to align Kyokasuigetsu windows with team buffs. Crit Rate scales hardest because of the B6 Crit→CritDMG conversion."
+    "notes": "Aim for ~119% Ult Charge Rate to align Kyokasuigetsu windows with team buffs. Crit Rate scales hardest because of the B6 Crit→CritDMG conversion.",
+    "setName": "Immeasurable Gap (4) + Spirit DMG (2)",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e ATK% \u003e Ult Charge Rate \u003e Flat ATK"
   },
   "bondPriority": [
     {
@@ -63,6 +63,7 @@
   "builds": [
     {
       "label": "Main",
+      "notes": "Aim for ~119% Ult Charge Rate to align Kyokasuigetsu windows with team buffs. Crit DMG scales hardest because of the B6 Crit→CritDMG conversion.",
       "passiveSkills": [
         "All DMG Dealt/Bonus +9%",
         "Increase Battlefield Skill DMG +22.5%"
@@ -86,8 +87,7 @@
       "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
       "targets": {
         "ultChargeRate": "~119%"
-      },
-      "notes":           "Aim for ~119% Ult Charge Rate to align Kyokasuigetsu windows with team buffs. Crit DMG scales hardest because of the B6 Crit→CritDMG conversion."
+      }
     }
   ],
   "color": "Blue",
@@ -175,7 +175,7 @@
     {
       "description": "After blocking an enemy's attack, Aizen immediately counterattacks in rapid succession, dealing damage equal to 1047.5% of ATK and gaining 1 Pressure Stack. Landing each of the first three strikes inflicts 1 stack of Ravage on the enemy.",
       "icon": "/Images/aizen/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
       "name": "Counter"
     },
     {
@@ -183,6 +183,12 @@
       "icon": "/Images/aizen/skill-bfs.png",
       "kind": "Battlefield Skill",
       "name": "Hado 90: Kurohitsugi"
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "aizen",

@@ -8,10 +8,10 @@
   },
   "art": "/Images/mayuri/art.png",
   "bestStamp": {
-    "setName": "Sample Collection (3)",
     "mainStats": "1: ATK%  •  2: Crit Rate  •  3: Ult Charge Rate",
-    "subStatPriority": "Ult Charge Rate (228%)\u003e Crit Rate \u003e Ailment% \u003e ATK% \u003e Crit DMG",
-    "notes": "S-tier Support — poison can crit, so stack crit rate after obtaining 228% Ult Charge Rate."
+    "notes": "S-tier Support — poison can crit, so stack crit rate after obtaining 228% Ult Charge Rate.",
+    "setName": "Sample Collection (3)",
+    "subStatPriority": "Ult Charge Rate (228%)\u003e Crit Rate \u003e Ailment% \u003e ATK% \u003e Crit DMG"
   },
   "bondPriority": [
     {
@@ -157,6 +157,12 @@
       "kind": "Counter",
       "name": "Counter",
       "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "mayuri",

@@ -8,10 +8,10 @@
   },
   "art": "/Images/komamura/art.png",
   "bestStamp": {
-    "setName": "Tenken (4) + Strike (2)",
     "mainStats": "1: Strike DMG Bonus  •  2: Crit DMG  •  3: HP% \u003e Atk%",
-    "subStatPriority": "Atk% \u003e Crit DMG \u003e HP% \u003e Crit Rate",
-    "notes": "Bruiser Assault — HP scales his giant strikes, but Atk% still leads."
+    "notes": "Bruiser Assault — HP scales his giant strikes, but Atk% still leads.",
+    "setName": "Tenken (4) + Strike (2)",
+    "subStatPriority": "Atk% \u003e Crit DMG \u003e HP% \u003e Crit Rate"
   },
   "bondPriority": [],
   "boundaries": [
@@ -118,25 +118,25 @@
     {
       "description": "",
       "icon": "/Images/komamura/skill-basic.png",
-      "kind": "basic",
+      "kind": "Basic Attack",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/komamura/skill-technique.png",
-      "kind": "technique",
+      "kind": "Technique",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/komamura/skill-ultimate.png",
-      "kind": "ultimate",
+      "kind": "Ultimate",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/komamura/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
       "name": ""
     },
     {
@@ -144,6 +144,12 @@
       "icon": "/Images/komamura/skill-bfs.png",
       "kind": "Battlefield Skill",
       "name": "Tenken Release - Slash"
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "komamura",

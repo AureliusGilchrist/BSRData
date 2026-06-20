@@ -1,10 +1,13 @@
-# Daily scrape + curate. Commits fresh Data/ and Images/ back to main.
+# Scheduled scrape + curate (every 3 hours). Commits fresh Data/ and Images/
+# back to main. Runs on the schedule below whenever there isn't already a
+# manual push driving an update.
 
 name: Scrape
 
 on:
   schedule:
-    - cron: '0 3 * * *'
+    # Every 3 hours, on the hour (00:00, 03:00, 06:00, … UTC).
+    - cron: '0 */3 * * *'
   workflow_dispatch:
 
 permissions:
@@ -44,7 +47,7 @@ jobs:
             echo "No data changes."
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "chore(data): daily refresh"
+            git commit -m "chore(data): scheduled refresh"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi

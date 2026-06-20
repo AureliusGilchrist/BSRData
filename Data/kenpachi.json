@@ -8,10 +8,10 @@
   },
   "art": "/Images/kenpachi/art.png",
   "bestStamp": {
-    "setName": "Nozarashi (4) + Slash (2)",
     "mainStats": "1: ATK%  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Ailment%",
-    "notes": "Tank-DPS hybrid — HP% sub can sub in once survivability dips."
+    "notes": "Tank-DPS hybrid — HP% sub can sub in once survivability dips.",
+    "setName": "Nozarashi (4) + Slash (2)",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Ailment%"
   },
   "bondPriority": [
     {
@@ -179,7 +179,7 @@
   ],
   "skills": [
     {
-      "description": "Kenpachi wields his Zanpakuto to strike 5 times, dealing damage equal to 870% of ATK to the enemy ahead, and gains 1 Frenzy when the last strike lands. Tap and hold the Basic Attack button when there's enough Frenzy. Kenpachi lunges forward with unstopapable momentum, slashing the enemy multiple times. Tapping Basic Attack again or holding it unleashes a powerful follow-up slash, dealing 5 hits for a total damage of 1772.5% of ATK as his Spiritual Pressure surges violenlty. In War Wraith Status, Kenpachi unleashes Malicious Blade rip, slashing at the enemy with overwhelming power. Each hit deals damage equal to 122.5% of ATK and builds Ultimate Energy. When the Ultimate Energy is nearly full again, he unleashes a heavy strike dealing damage equal to 635% of ATK. Damage dealt by Malicious Blade Rip counts as Ultimate DMG."
+      "description": "Kenpachi wields his Zanpakuto to strike 5 times, dealing damage equal to 870% of ATK to the enemy ahead, and gains 1 Frenzy when the last strike lands. Tap and hold the Basic Attack button when there's enough Frenzy. Kenpachi lunges forward with unstopapable momentum, slashing the enemy multiple times. Tapping Basic Attack again or holding it unleashes a powerful follow-up slash, dealing 5 hits for a total damage of 1772.5% of ATK as his Spiritual Pressure surges violenlty. In War Wraith Status, Kenpachi unleashes Malicious Blade rip, slashing at the enemy with overwhelming power. Each hit deals damage equal to 122.5% of ATK and builds Ultimate Energy. When the Ultimate Energy is nearly full again, he unleashes a heavy strike dealing damage equal to 635% of ATK. Damage dealt by Malicious Blade Rip counts as Ultimate DMG.",
       "icon": "/Images/kenpachi/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Malicious Blade Rip",
@@ -193,7 +193,7 @@
       "variant": "Max SP"
     },
     {
-      "description": "Kenpachi removes the eyepatch and fully unleashes his Spiritual Pressure, slashing the enemy and dealing damage equal to 2542.5% of ATK. He the enters the War Wraith state for 15 seconds. During this state, his basic attacks are greatly enhanced and can still generate Ultimate Energy, but techniques cannot be used. Kenpachi can unleash "Kendo" at Maximum Ultimate Energy. Kenpachi grips his Zanpakuto with both hands and delivers a devastating strike, dealing damage equal to 4245% of ATK and ending the War Wraith state.",
+      "description": "Kenpachi removes the eyepatch and fully unleashes his Spiritual Pressure, slashing the enemy and dealing damage equal to 2542.5% of ATK. He the enters the War Wraith state for 15 seconds. During this state, his basic attacks are greatly enhanced and can still generate Ultimate Energy, but techniques cannot be used. Kenpachi can unleash \"Kendo\" at Maximum Ultimate Energy. Kenpachi grips his Zanpakuto with both hands and delivers a devastating strike, dealing damage equal to 4245% of ATK and ending the War Wraith state.",
       "icon": "/Images/kenpachi/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Kendo",
@@ -205,6 +205,12 @@
       "kind": "Counter",
       "name": "Counter",
       "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "kenpachi",

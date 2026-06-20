@@ -9,10 +9,10 @@
   "affiliation": "Shinigami",
   "art": "/Images/toshiro/art.png",
   "bestStamp": {
-    "setName": "Hyorinmaru (4) + Spirit (2)",
     "mainStats": "1: Spirit DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Flat Atk \u003e Ult Charge Rate",
-    "notes": "S+ DPS — the spirit-team carry. Push Crit Rate to 100% (based on your weapon stamp) then dump into Crit DMG."
+    "notes": "S+ DPS — the spirit-team carry. Push Crit Rate to 100% (based on your weapon stamp) then dump into Crit DMG.",
+    "setName": "Hyorinmaru (4) + Spirit (2)",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Flat Atk \u003e Ult Charge Rate"
   },
   "bondPriority": [
     {
@@ -199,8 +199,14 @@
     {
       "description": "Toshiro falls back to create distance and then lunges at the enemy to counterattack, dealing damage equal to 1250% of ATK, inflicting 15 Freeze Points on them, and gaining Spiritual Pressure. In Bankai State, Toshiro thrusts forward and evenlopes the enemy in a huge ice cross, dealing damage equal to 1500% of ATK and inflicting 15 Freeze Points while applying 2 stacks of Ice Edge on himself. Counterattack DMG dealt by actively tapping the counter button is reduced to 25%.",
       "icon": "/Images/toshiro/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
       "name": "Counter"
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "toshiro",

@@ -8,10 +8,10 @@
   },
   "art": "/Images/soi-fon/art.png",
   "bestStamp": {
-    "setName": "Stealth Force (3)",
     "mainStats": "1: ATK% \u003e Strike DMG Bonus  •  2: Crit DMG \u003e ATK%  •  3: Ailment% \u003e ATK%",
-    "subStatPriority": "Ailment% \u003e Crit DMG \u003e Crit Rate (25%) \u003e Atk% \u003e Flat Atk",
-    "notes": "Two-rotation Tactician — the second deletes bosses."
+    "notes": "Two-rotation Tactician — the second deletes bosses.",
+    "setName": "Stealth Force (3)",
+    "subStatPriority": "Ailment% \u003e Crit DMG \u003e Crit Rate (25%) \u003e Atk% \u003e Flat Atk"
   },
   "bondPriority": [
     {
@@ -163,6 +163,12 @@
       "variant": null
     },
     {
+      "description": "",
+      "icon": "/Images/soi-fon/skill-technique.png",
+      "kind": "Technique",
+      "name": ""
+    },
+    {
       "description": "Soi Fon releases her Bankai and fires the devastating Jakuho Raikoben at the enemy, dealing damage equal to 6010% of ATK.",
       "icon": "/Images/soi-fon/skill-ultimate.png",
       "kind": "Ultimate",
@@ -182,6 +188,12 @@
       "kind": "Battlefield Skill",
       "name": "Combined Strike",
       "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "soi-fon",

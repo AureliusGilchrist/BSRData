@@ -9,10 +9,10 @@
   "affiliation": "Shinigami",
   "art": "/Images/momo/art.png",
   "bestStamp": {
-    "setName": "Tobiume (4) + Spirit (2)",
     "mainStats": "1: Spirit DMG Bonus  •  2: Crit Rate  •  3: Ult Charge Rate",
-    "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e Crit Rate \u003e Crit DMG",
-    "notes": "Only SR Support that hits S — Ult Charge Rate is non-negotiable to keep her buff up."
+    "notes": "Only SR Support that hits S — Ult Charge Rate is non-negotiable to keep her buff up.",
+    "setName": "Tobiume (4) + Spirit (2)",
+    "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e Crit Rate \u003e Crit DMG"
   },
   "bondPriority": [
     {
@@ -153,7 +153,13 @@
     {
       "description": "",
       "icon": "/Images/momo/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
       "name": ""
     }
   ],

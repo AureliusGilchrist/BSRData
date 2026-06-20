@@ -9,10 +9,10 @@
   "affiliation": "Shinigami",
   "art": "/Images/byakuya/art.png",
   "bestStamp": {
-    "setName": "Senbonzakura (4) + Crit (2)",
     "mainStats": "1: Slash DMG Bonus  •  2: Crit Rate / Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Ult Charge Rate \u003e Atk",
-    "notes": "Tactician hybrid — keep enough Ult Charge Rate (~110%) so Senbonzakura petals refresh between waves."
+    "notes": "Tactician hybrid — keep enough Ult Charge Rate (~110%) so Senbonzakura petals refresh between waves.",
+    "setName": "Senbonzakura (4) + Crit (2)",
+    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Ult Charge Rate \u003e Atk"
   },
   "bondPriority": [],
   "boundaries": [
@@ -150,7 +150,7 @@
     {
       "description": "After countering an attack, Byakuya instantly releases Bakudo to restrain an enemy and follows up with Hado Number 33: Sokatsui, dealing damage equal to ???% of ATK.",
       "icon": "/Images/byakuya/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
       "name": "Counter"
     },
     {
@@ -158,6 +158,12 @@
       "icon": "/Images/byakuya/skill-bfs.png",
       "kind": "Battlefield Skill",
       "name": "Funeral of a Thousand Blades"
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "byakuya",

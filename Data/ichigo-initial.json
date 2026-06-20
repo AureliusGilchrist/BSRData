@@ -8,10 +8,10 @@
   },
   "art": "/Images/ichigo-initial/art.png",
   "bestStamp": {
-    "setName": "Substitute Shinigami (4) + Slash (2)",
     "mainStats": "1: Slash DMG Bonus  •  2: Crit Rate  •  3: Atk%",
-    "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk",
-    "notes": "Starter character — useful early, replace with Shikai/Bankai once available."
+    "notes": "Starter character — useful early, replace with Shikai/Bankai once available.",
+    "setName": "Substitute Shinigami (4) + Slash (2)",
+    "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk"
   },
   "bondPriority": [],
   "boundaries": [
@@ -117,25 +117,31 @@
     {
       "description": "",
       "icon": "/Images/ichigo-initial/skill-basic.png",
-      "kind": "basic",
+      "kind": "Basic Attack",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/ichigo-initial/skill-technique.png",
-      "kind": "technique",
+      "kind": "Technique",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/ichigo-initial/skill-ultimate.png",
-      "kind": "ultimate",
+      "kind": "Ultimate",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/ichigo-initial/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
       "name": ""
     }
   ],

@@ -8,10 +8,10 @@
   },
   "art": "/Images/nemu/art.png",
   "bestStamp": {
-    "setName": "Synthetic Body (4) + Atk (2)",
     "mainStats": "1: Atk%  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e HP%",
-    "notes": "Niche Support — only invest as a Mayuri pair."
+    "notes": "Niche Support — only invest as a Mayuri pair.",
+    "setName": "Synthetic Body (4) + Atk (2)",
+    "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e HP%"
   },
   "bondPriority": [],
   "boundaries": [
@@ -116,25 +116,31 @@
     {
       "description": "",
       "icon": "/Images/nemu/skill-basic.png",
-      "kind": "basic",
+      "kind": "Basic Attack",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/nemu/skill-technique.png",
-      "kind": "technique",
+      "kind": "Technique",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/nemu/skill-ultimate.png",
-      "kind": "ultimate",
+      "kind": "Ultimate",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/nemu/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
       "name": ""
     }
   ],

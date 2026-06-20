@@ -8,10 +8,10 @@
   },
   "art": "/Images/ulquiorra/art.png",
   "bestStamp": {
-    "setName": "Ready to Go (3)",
     "mainStats": "1: Spirit%  •  2: Crit Rate  •  3: ATK%",
-    "subStatPriority": "Crit Rate \u003e ATK% \u003e Crit DMG \u003e Flat Atk",
-    "notes": "Spirit Full Assault whose main weapon is Cero."
+    "notes": "Spirit Full Assault whose main weapon is Cero.",
+    "setName": "Ready to Go (3)",
+    "subStatPriority": "Crit Rate \u003e ATK% \u003e Crit DMG \u003e Flat Atk"
   },
   "bondPriority": [
     {
@@ -92,25 +92,31 @@
     {
       "description": "",
       "icon": "/Images/ulquiorra/skill-basic.png",
-      "kind": "basic",
+      "kind": "Basic Attack",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/ulquiorra/skill-technique.png",
-      "kind": "technique",
+      "kind": "Technique",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/ulquiorra/skill-ultimate.png",
-      "kind": "ultimate",
+      "kind": "Ultimate",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/ulquiorra/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
       "name": ""
     }
   ],

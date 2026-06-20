@@ -8,10 +8,10 @@
   },
   "art": "/Images/orihime/art.png",
   "bestStamp": {
-    "setName": "Shun Shun Rikka (4) + Atk (2)",
     "mainStats": "1: Atk%  •  2: Crit Rate  •  3: HP% \u003e Ult Charge Rate",
-    "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e HP% \u003e Crit DMG",
-    "notes": "Healer / shield Support — Ult Charge keeps shields permanent."
+    "notes": "Healer / shield Support — Ult Charge keeps shields permanent.",
+    "setName": "Shun Shun Rikka (4) + Atk (2)",
+    "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e HP% \u003e Crit DMG"
   },
   "bondPriority": [],
   "boundaries": [
@@ -118,25 +118,31 @@
     {
       "description": "",
       "icon": "/Images/orihime/skill-basic.png",
-      "kind": "basic",
+      "kind": "Basic Attack",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/orihime/skill-technique.png",
-      "kind": "technique",
+      "kind": "Technique",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/orihime/skill-ultimate.png",
-      "kind": "ultimate",
+      "kind": "Ultimate",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/orihime/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
       "name": ""
     }
   ],

@@ -8,10 +8,10 @@
   },
   "art": "/Images/szayelaporro/art.png",
   "bestStamp": {
-    "setName": "Fornicarás (4) + Spirit (2)",
     "mainStats": "1: ATK%  •  2: Crit DMG \u003e ATK%  •  3: ATK%",
-    "subStatPriority": "Atk% \u003e Flat ATK \u003e Crit DMG \u003e Crit Rate \u003e Ultimate Charge Rate",
-    "notes": "Easiest unit to build. Minimum stats required: 5280 ATK and 175% Crit DMG."
+    "notes": "Easiest unit to build. Minimum stats required: 5280 ATK and 175% Crit DMG.",
+    "setName": "Fornicarás (4) + Spirit (2)",
+    "subStatPriority": "Atk% \u003e Flat ATK \u003e Crit DMG \u003e Crit Rate \u003e Ultimate Charge Rate"
   },
   "bondPriority": [
     {
@@ -158,6 +158,12 @@
       "kind": "Counter",
       "name": "Counter",
       "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "szayelaporro",

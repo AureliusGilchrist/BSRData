@@ -8,10 +8,10 @@
   },
   "art": "/Images/ikkaku/art.png",
   "bestStamp": {
-    "setName": "Hozukimaru (4) + Thrust (2)",
     "mainStats": "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
-    "notes": "S-tier Assault — counter-focused, prioritize Crit DMG once Crit Rate hits ~60%."
+    "notes": "S-tier Assault — counter-focused, prioritize Crit DMG once Crit Rate hits ~60%.",
+    "setName": "Hozukimaru (4) + Thrust (2)",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
   },
   "bondPriority": [],
   "boundaries": [
@@ -141,25 +141,31 @@
     {
       "description": "",
       "icon": "/Images/ikkaku/skill-basic.png",
-      "kind": "basic",
+      "kind": "Basic Attack",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/ikkaku/skill-technique.png",
-      "kind": "technique",
+      "kind": "Technique",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/ikkaku/skill-ultimate.png",
-      "kind": "ultimate",
+      "kind": "Ultimate",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/ikkaku/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
       "name": ""
     }
   ],

@@ -8,10 +8,10 @@
   },
   "art": "/Images/gin/art.png",
   "bestStamp": {
-    "setName": "Shinso (4) + Thrust (2)",
     "mainStats": "1: Atk% \u003e Thrust DMG Bonus •  2: Crit Rate  •  3: Ailment%",
-    "subStatPriority": "Crit Rate \u003e Ailment% \u003e Atk% \u003e Crit DMG \u003e Flat Atk \u003e Ult Charge Rate",
-    "notes": "Pure Ailment DPS — Ailment% is king once Crit Rate hits ~70%."
+    "notes": "Pure Ailment DPS — Ailment% is king once Crit Rate hits ~70%.",
+    "setName": "Shinso (4) + Thrust (2)",
+    "subStatPriority": "Crit Rate \u003e Ailment% \u003e Atk% \u003e Crit DMG \u003e Flat Atk \u003e Ult Charge Rate"
   },
   "bondPriority": [
     {
@@ -151,11 +151,23 @@
       "variant": "3 Points"
     },
     {
+      "description": "",
+      "icon": "/Images/gin/skill-ultimate.png",
+      "kind": "Ultimate",
+      "name": ""
+    },
+    {
       "description": "Gin seizes the enemy's opening and counterattacks with Shinso, dealing damage equal to 1600% of ATK and inflicting 50 Impale Scale. Gin gains 1 Technique Point(s) if he counters successfully.",
       "icon": "/Images/gin/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",
       "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "gin",

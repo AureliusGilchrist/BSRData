@@ -8,10 +8,10 @@
   },
   "art": "/Images/rukia/art.png",
   "bestStamp": {
-    "setName": "Sode no Shirayuki (4) + Spirit (2)",
     "mainStats": "1: Spirit DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Ult Charge Rate",
-    "notes": "S-tier Tactician — freeze-control opens long burst windows."
+    "notes": "S-tier Tactician — freeze-control opens long burst windows.",
+    "setName": "Sode no Shirayuki (4) + Spirit (2)",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Ult Charge Rate"
   },
   "bondPriority": [
     {
@@ -128,10 +128,22 @@
   "skills": [
     {
       "description": "",
+      "icon": "/Images/rukia/skill-basic.png",
+      "kind": "Basic Attack",
+      "name": ""
+    },
+    {
+      "description": "",
       "icon": "/Images/rukia/skill-technique.png",
       "kind": "Technique",
       "name": "Tsuginomai Hakuren",
       "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/rukia/skill-ultimate.png",
+      "kind": "Ultimate",
+      "name": ""
     },
     {
       "description": "",
@@ -146,6 +158,12 @@
       "kind": "Battlefield Skill",
       "name": "Cold Sword Surge",
       "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "rukia",

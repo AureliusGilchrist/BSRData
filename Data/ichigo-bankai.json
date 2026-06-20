@@ -9,10 +9,10 @@
   "affiliation": "Shinigami",
   "art": "/Images/ichigo-bankai/art.png",
   "bestStamp": {
-    "setName": "Tensa Zangetsu (4) + Slash (2)",
     "mainStats": "1: Slash DMG Bonus \u003e ATK%  •  2: Crit Rate  •  3: Atk%",
-    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Flat Atk",
-    "notes": "S+ DPS — Crit DMG scaling is uncapped, push Crit Rate to ~70% first."
+    "notes": "S+ DPS — Crit DMG scaling is uncapped, push Crit Rate to ~70% first.",
+    "setName": "Tensa Zangetsu (4) + Slash (2)",
+    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Flat Atk"
   },
   "bondPriority": [
     {
@@ -210,8 +210,14 @@
     {
       "description": "After dodging an enemy attack, Ichigo performs a rapid counterattack with Tensa Zangetsu, dealing 1262.5% damage and launching the attacker. The final strike of the counterattack inflicts 1 stack of Getsuga Mark on the target. Tap the Basic Attack button to instantly follow up with a special attack. While releasing the skill, Ichigo gains Invincibility.",
       "icon": "/Images/ichigo-bankai/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
       "name": "Counter"
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "ichigo-bankai",

@@ -8,10 +8,10 @@
   },
   "art": "/Images/ichigo-shikai/art.png",
   "bestStamp": {
-    "setName": "Zangetsu (4) + Slash (2)",
     "mainStats": "1: Slash DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Atk% \u003e Crit Rate \u003e Atk",
-    "notes": "Stepping stone to Bankai form — invest just enough to clear story."
+    "notes": "Stepping stone to Bankai form — invest just enough to clear story.",
+    "setName": "Zangetsu (4) + Slash (2)",
+    "subStatPriority": "Crit DMG \u003e Atk% \u003e Crit Rate \u003e Atk"
   },
   "bondPriority": [],
   "boundaries": [
@@ -116,14 +116,32 @@
   "skills": [
     {
       "description": "",
+      "icon": "/Images/ichigo-shikai/skill-basic.png",
+      "kind": "Basic Attack",
+      "name": ""
+    },
+    {
+      "description": "",
       "icon": "/Images/ichigo-shikai/skill-technique.png",
-      "kind": "technique",
+      "kind": "Technique",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-shikai/skill-ultimate.png",
+      "kind": "Ultimate",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/ichigo-shikai/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
       "name": ""
     }
   ],

@@ -8,10 +8,10 @@
   },
   "art": "/Images/grimmjow/art.png",
   "bestStamp": {
-    "setName": "Pantera (4) + Strike (2)",
     "mainStats": "1: Strike DMG Bonus  •  2: Crit Rate  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
-    "notes": "SR Assault — invest only to ascend5, then prefer the SSR Pantera form."
+    "notes": "SR Assault — invest only to ascend5, then prefer the SSR Pantera form.",
+    "setName": "Pantera (4) + Strike (2)",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
   },
   "bondPriority": [
     {
@@ -156,6 +156,12 @@
       "kind": "Counter",
       "name": "Counter",
       "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "grimmjow",

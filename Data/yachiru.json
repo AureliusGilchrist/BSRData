@@ -8,10 +8,10 @@
   },
   "art": "/Images/yachiru/art.png",
   "bestStamp": {
-    "setName": "Sanbe Kawaki (4) + Slash (2)",
     "mainStats": "1: Slash DMG Bonus  •  2: Atk%  •  3: Ult Charge Rate",
-    "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e Crit DMG \u003e Crit Rate",
-    "notes": "A-tier Support — buffs adjacent assault chars (esp. Kenpachi)."
+    "notes": "A-tier Support — buffs adjacent assault chars (esp. Kenpachi).",
+    "setName": "Sanbe Kawaki (4) + Slash (2)",
+    "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e Crit DMG \u003e Crit Rate"
   },
   "bondPriority": [
     {
@@ -130,6 +130,12 @@
   "skills": [
     {
       "description": "",
+      "icon": "/Images/yachiru/skill-basic.png",
+      "kind": "Basic Attack",
+      "name": ""
+    },
+    {
+      "description": "",
       "icon": "/Images/yachiru/skill-technique.png",
       "kind": "Technique",
       "name": "Time to Spectate",
@@ -148,6 +154,12 @@
       "kind": "Counter",
       "name": "Counter",
       "variant": null
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "yachiru",

@@ -17,6 +17,7 @@ package main
 
 import (
 	"encoding/json"
+	"flag"
 	"fmt"
 	"html"
 	"io"
@@ -31,12 +32,40 @@ import (
 	"time"
 )
 
+// backfillAll, when set via -backfill, makes the ESP pass re-run on characters
+// that ALREADY have a JSON + images. The run stays strictly additive: image
+// downloads skip files that already exist, and mergeEspIntoJSON preserves all
+// existing curated text — it only fills in missing skill icons, adds skill
+// kinds that were missing (e.g. Gin's Ultimate, Soi Fon's Technique), and
+// ensures the Dodge slot exists. Normal runs (no flag) keep the safe default
+// of never touching existing characters.
+var backfillAll bool
+
 const (
 	apiBase   = "https://bleachsoulresonance.wiki.gg/api.php"
 	fileBase  = "https://bleachsoulresonance.wiki.gg/wiki/Special:FilePath/"
 	cacheDir  = "cache"
 	userAgent = "BSR-Datagen/1.0"
+
+	// dodgePlaceholderIcon is a single shared placeholder shown for the "Dodge"
+	// ability slot. The game/wiki has no per-character dodge icon, so every
+	// character points at this one file until a real icon (and the dodge
+	// description, which is filled in by hand) is supplied.
+	dodgePlaceholderIcon = "/Images/_shared/skill-dodge.svg"
 )
+
+// canonicalKindLabel maps an internal lower-case skill kind to the display
+// label used in the JSON (and matched by the per-kind CSS in the web app).
+var canonicalKindLabel = map[string]string{
+	"basic":     "Basic Attack",
+	"technique": "Technique",
+	"ultimate":  "Ultimate",
+	"counter":   "Counter",
+	"dodge":     "Dodge",
+}
+
+// canonicalKindOrder is the order skills are written out in.
+var canonicalKindOrder = []string{"basic", "technique", "ultimate", "counter", "dodge"}
 
 var (
 	dataDir   = filepath.FromSlash("../Data")
@@ -57,42 +86,48 @@ var slugToPage = map[string]string{
 // portrait + skill + boundary + passive icons plus ability text in Spanish.
 // Text is translated to English in a separate pass.
 var slugToEspPage = map[string]string{
-	"aizen":            "Sōsuke Aizen",
-	"byakuya":          "Kuchiki Byakuya",
-	"chad":             "Yasutora Sado (Chad)",
+	"aizen":   "Sōsuke Aizen",
+	"byakuya": "Kuchiki Byakuya",
+	// chad's ESP page is titled plainly "Yasutora Sado" — the "(Chad)" suffix
+	// is a 404 (missingtitle), so it never scraped. Corrected.
+	"chad":             "Yasutora Sado",
 	"gin":              "Ichimaru Gin",
 	"grimmjow":         "Grimmjow Jaegerjaques",
 	"grimmjow-pantera": "Grimmjow - Resurreción",
 	"ichigo-bankai":    "Kurosaki Ichigo (Bankai)",
 	"ichigo-shikai":    "Kurosaki Ichigo (Shikai)",
-	"ichigo-initial":   "Kurosaki Ichigo (Initial)",
-	"ichigo-white": 	"Kurosaki Ichigo (Hollow Interior)",
-	"ikkaku":           "Ikkaku Madarame",
-	"kenpachi":         "Zaraki Kenpachi",
-	"kisuke":           "Urahara Kisuke",
-	"komamura":         "Komamura Sajin",
-	"ulquiorra": "Ulquiorra Cifer",
+	// The ESP wiki has no "(Initial)" page — the base/initial form lives at the
+	// bare "Kurosaki Ichigo" title. Corrected (was a 404).
+	"ichigo-initial": "Kurosaki Ichigo",
+	"ichigo-white":   "Kurosaki Ichigo (Hollow Interior)",
+	"ikkaku":         "Ikkaku Madarame",
+	"kenpachi":       "Zaraki Kenpachi",
+	"kisuke":         "Urahara Kisuke",
+	"komamura":       "Komamura Sajin",
+	"ulquiorra":      "Ulquiorra Cifer",
 	// NOTE: "ulquiorra-resurreccion" intentionally has no entry — the only ESP
 	// Fandom source page ("Ulquiorra Cifer") covers solely the base form, so
 	// scraping it under this slug would just duplicate the base form's art and
 	// icons under a misleading "Resurrección" label. Leave it without images
 	// until a dedicated source page exists.
-	"mayuri":           "Kurotsuchi Mayuri",
-	"momo":             "Hinamori Momo",
-	"nelliel":          "Nelliel Tu Odelschwanck",
-	"nemu":             "Kurotsuchi Nemu",
-	"orihime":          "Inoue Orihime",
-	"rangiku":          "Matsumoto Rangiku",
-	"renji":            "Abarai Renji",
-	"rukia":            "Kuchiki Rukia",
-	"soi-fon":          "Soi Fon",
-	"szayelaporro":     "Szayelaporro Granz",
-	"tosen":            "Kaname Tōsen",
-	"toshiro":          "Tōshirō Hitsugaya",
-	"ururu":            "Ururu Tsumugiya",
-	"uryu":             "Uryū Ishida",
-	"yachiru":          "Yachiru Kusajishi",
-	"yoruichi":         "Yoruichi Shihōin",
+	"mayuri":  "Kurotsuchi Mayuri",
+	"momo":    "Hinamori Momo",
+	"nelliel": "Nelliel Tu Odelschwanck",
+	"nemu":    "Kurotsuchi Nemu",
+	"orihime": "Inoue Orihime",
+	"rangiku": "Matsumoto Rangiku",
+	"renji":   "Abarai Renji",
+	// The ESP wiki's only Rukia page is the Shikai form ("Kuchiki Rukia (Shikai)");
+	// the bare "Kuchiki Rukia" title 404s. Corrected.
+	"rukia":        "Kuchiki Rukia (Shikai)",
+	"soi-fon":      "Soi Fon",
+	"szayelaporro": "Szayelaporro Granz",
+	"tosen":        "Kaname Tōsen",
+	"toshiro":      "Tōshirō Hitsugaya",
+	"ururu":        "Ururu Tsumugiya",
+	"uryu":         "Uryū Ishida",
+	"yachiru":      "Yachiru Kusajishi",
+	"yoruichi":     "Yoruichi Shihōin",
 }
 
 // Universal icon filenames to skip when classifying images on ESP Fandom pages.
@@ -144,11 +179,11 @@ type Passive struct {
 }
 
 type Stats struct {
-	HP        string `json:"hp,omitempty"`
-	ATK       string `json:"atk,omitempty"`
-	DEF       string `json:"def,omitempty"`
-	CritDmg   string `json:"critDamage,omitempty"`
-	CritRate  string `json:"critRate,omitempty"`
+	HP       string `json:"hp,omitempty"`
+	ATK      string `json:"atk,omitempty"`
+	DEF      string `json:"def,omitempty"`
+	CritDmg  string `json:"critDamage,omitempty"`
+	CritRate string `json:"critRate,omitempty"`
 }
 
 type WikiData struct {
@@ -170,6 +205,9 @@ type WikiData struct {
 // ---------- main ----------
 
 func main() {
+	flag.BoolVar(&backfillAll, "backfill", false, "re-run the ESP pass on existing characters to additively backfill missing images/skills")
+	flag.Parse()
+
 	mustMk(cacheDir)
 	mustMk(imagesDir)
 
@@ -207,15 +245,20 @@ func main() {
 	for _, slug := range sortedKeys(slugToEspPage) {
 		page := slugToEspPage[slug]
 		if existing[slug] {
-			// JSON already exists — normally we leave it untouched. But if its
-			// image folder is missing/empty (e.g. a prior run's downloads failed
-			// after the JSON was committed), re-run the ESP pass to backfill
-			// images only; mergeEspIntoJSON preserves all existing curated text.
-			if hasImages(slug) {
+			// JSON already exists — normally we leave it untouched. But re-run
+			// the ESP pass (additively) when EITHER the image folder is
+			// missing/empty (a prior run's downloads failed after the JSON was
+			// committed) OR -backfill was passed to refresh the whole roster.
+			// mergeEspIntoJSON preserves all existing curated text.
+			if hasImages(slug) && !backfillAll {
 				log.Printf("[%s] esp-fandom skip — existing character with images", slug)
 				continue
 			}
-			log.Printf("[%s] esp-fandom backfill — existing character missing images, re-fetching from %s", slug, page)
+			reason := "missing images"
+			if backfillAll {
+				reason = "-backfill"
+			}
+			log.Printf("[%s] esp-fandom backfill (%s) — re-fetching from %s", slug, reason, page)
 			if err := processEspFandomCharacter(slug, page); err != nil {
 				log.Printf("[%s] esp-fandom backfill FAIL: %v", slug, err)
 			}
@@ -312,7 +355,9 @@ func warnMissingScraperEntries() {
 	// 2) Every slug referenced by the current + upcoming banners.
 	if raw, err := os.ReadFile(filepath.Join(dataDir, "Banners.json")); err == nil {
 		var bd struct {
-			Current  *struct{ Slugs []string `json:"slugs"` } `json:"current"`
+			Current *struct {
+				Slugs []string `json:"slugs"`
+			} `json:"current"`
 			Upcoming []struct {
 				Slugs []string `json:"slugs"`
 			} `json:"upcoming"`
@@ -550,8 +595,8 @@ type EspPage struct {
 
 // EspSkill pairs a skill kind with its icon and Spanish description.
 type EspSkill struct {
-	Kind        string // "basic" | "technique" | "ultimate" | "counter"
-	Icon        EspImage
+	Kind          string // "basic" | "technique" | "ultimate" | "counter"
+	Icon          EspImage
 	DescriptionES string
 }
 
@@ -595,11 +640,22 @@ func fetchEspFandom(page string) (string, error) {
 
 // Regexes for ESP image extraction & classification.
 var (
-	reEspImg       = regexp.MustCompile(`(?i)<img[^>]+(?:data-src|src)="(https://static\.wikia\.nocookie\.net/[^"]+)"[^>]*>`)
-	reEspFileName  = regexp.MustCompile(`/images/[0-9a-f]/[0-9a-f]{2}/([^/?]+\.(?:png|jpg|jpeg|webp|gif))`)
-	reEspDupe      = regexp.MustCompile(`(?i)^Dupe\D*(\d)\D*\.(?:png|jpg|jpeg|webp)$`)
-	reEspBasico    = regexp.MustCompile(`(?i)^Basico\w*\.(?:png|jpg|jpeg|webp)$`)
-	reEspTecnica   = regexp.MustCompile(`(?i)^(?:Tecnica|Tenica|Teq|Skill)\w*\.(?:png|jpg|jpeg|webp)$`)
+	reEspImg      = regexp.MustCompile(`(?i)<img[^>]+(?:data-src|src)="(https://static\.wikia\.nocookie\.net/[^"]+)"[^>]*>`)
+	reEspFileName = regexp.MustCompile(`/images/[0-9a-f]/[0-9a-f]{2}/([^/?]+\.(?:png|jpg|jpeg|webp|gif))`)
+	reEspDupe     = regexp.MustCompile(`(?i)^Dupe\D*(\d)\D*\.(?:png|jpg|jpeg|webp)$`)
+	// Basic attack: "Basico*" is the norm, but some pages drop the "co"
+	// (Yachiru's is "Basiyachi.png"), so match the looser "Basi" prefix.
+	reEspBasico = regexp.MustCompile(`(?i)^Basi\w*\.(?:png|jpg|jpeg|webp)$`)
+	// A few characters name their basic attack with the generic "Skill" prefix
+	// plus a "bas" marker (Rukia's "Skillrbas.png", Ichigo Shikai's
+	// "Skillibas.png"). Detect those so they aren't swept up as techniques.
+	reEspSkillBasic = regexp.MustCompile(`(?i)^Skill\w*bas\w*\.(?:png|jpg|jpeg|webp)$`)
+	// Technique icons appear under several spellings on the ESP wiki:
+	//   "Tecnica*", the typo "Tenica*", abbreviations "Tec*"/"Teq*", and the
+	//   generic "Skill*" naming. The bare "Tec" prefix is what was missing —
+	//   e.g. Soi Fon's technique is "Tecsoi.png", which never matched before
+	//   and so her Technique was silently dropped.
+	reEspTecnica   = regexp.MustCompile(`(?i)^(?:Tecnica|Tenica|Tec|Teq|Skill)\w*\.(?:png|jpg|jpeg|webp)$`)
 	reEspUlti      = regexp.MustCompile(`(?i)^Ulti(?:mate)?\w*\.(?:png|jpg|jpeg|webp)$`)
 	reEspCounter   = regexp.MustCompile(`(?i)^(?:Counter|Contra)\w*\.(?:png|jpg|jpeg|webp)$`)
 	reEspPasiva    = regexp.MustCompile(`(?i)^Pasiv?[ac]\w*\.(?:png|jpg|jpeg|webp)$`)
@@ -623,7 +679,9 @@ func classifyEspImage(filename string, alreadySeenPortrait bool) string {
 	if m := reEspDupe.FindStringSubmatch(filename); m != nil {
 		return "boundary-" + m[1]
 	}
-	if reEspBasico.MatchString(filename) {
+	// Basic must be checked before technique: "Skill*bas*" names match the
+	// broad technique pattern too, but they're really the basic attack.
+	if reEspBasico.MatchString(filename) || reEspSkillBasic.MatchString(filename) {
 		return "skill-basic"
 	}
 	if reEspTecnica.MatchString(filename) {
@@ -659,6 +717,13 @@ func parseEspFandomPage(htmlStr string) EspPage {
 	seenFiles := map[string]bool{}
 	portraitSet := false
 	skillSlotTaken := map[string]bool{}
+	// Technique candidates are collected in document order rather than taking
+	// only the first match. Several characters (e.g. Gin, Rangiku) have NO
+	// dedicated "Ulti*" icon — their ultimate is just the second numbered
+	// "Skill*" icon (Skillgin1 = technique, Skillgin2 = ultimate). We resolve
+	// those after the scan: first candidate → technique, and if the page has
+	// no explicit ultimate, the second candidate is promoted to ultimate.
+	var techCands []EspImage
 
 	for _, m := range reEspImg.FindAllStringSubmatch(htmlStr, -1) {
 		// HTML attribute values come back with entities escaped (&amp;) which
@@ -694,6 +759,11 @@ func parseEspFandomPage(htmlStr string) EspPage {
 			}
 		case strings.HasPrefix(cat, "skill-"):
 			kind := strings.TrimPrefix(cat, "skill-")
+			// Defer technique resolution — see techCands above.
+			if kind == "technique" {
+				techCands = append(techCands, img)
+				continue
+			}
 			if skillSlotTaken[kind] {
 				continue
 			}
@@ -701,6 +771,18 @@ func parseEspFandomPage(htmlStr string) EspPage {
 			out.Skills = append(out.Skills, EspSkill{Kind: kind, Icon: img})
 		case cat == "passive":
 			out.Passives = append(out.Passives, img)
+		}
+	}
+
+	// Resolve technique / ultimate from the ordered technique candidates.
+	if len(techCands) > 0 {
+		out.Skills = append(out.Skills, EspSkill{Kind: "technique", Icon: techCands[0]})
+		skillSlotTaken["technique"] = true
+		// No explicit "Ulti*" icon but a second numbered skill exists → that
+		// second icon is the character's ultimate.
+		if !skillSlotTaken["ultimate"] && len(techCands) >= 2 {
+			out.Skills = append(out.Skills, EspSkill{Kind: "ultimate", Icon: techCands[1]})
+			skillSlotTaken["ultimate"] = true
 		}
 	}
 
@@ -907,38 +989,59 @@ func mergeEspIntoJSON(slug, page, artPath string, boundaryPaths map[int]string, 
 		doc["boundaries"] = out
 	}
 
-	// Skills: merge by kind. Existing English skills preserved.
+	// Skills: merge by kind. Existing curated skills (name/description/variant)
+	// are preserved; we only fill in missing icons and add missing kinds.
+	// Any existing skill whose kind is OUTSIDE the canonical set (e.g.
+	// "Battlefield Skill") is carried through untouched in extraSkills so it's
+	// never dropped.
 	kindToSkill := map[string]map[string]interface{}{}
+	extraSkills := []interface{}{}
 	if old, ok := doc["skills"].([]interface{}); ok {
 		for _, s := range old {
-			if sm, ok := s.(map[string]interface{}); ok {
-				k, _ := sm["kind"].(string)
-				k = strings.ToLower(k)
-				// Normalize various existing kind labels to our canonical set.
-				switch k {
-				case "basic attack", "basic":
-					k = "basic"
-				case "skill", "technique":
-					k = "technique"
-				case "ultimate":
-					k = "ultimate"
-				case "counter":
-					k = "counter"
-				}
-				if k != "" {
-					kindToSkill[k] = sm
-				}
+			sm, ok := s.(map[string]interface{})
+			if !ok {
+				continue
+			}
+			k, _ := sm["kind"].(string)
+			k = strings.ToLower(k)
+			// Normalize various existing kind labels to our canonical set.
+			switch k {
+			case "basic attack", "basic":
+				k = "basic"
+			case "skill", "technique":
+				k = "technique"
+			case "ultimate":
+				k = "ultimate"
+			case "counter", "counterattack":
+				k = "counter"
+			case "dodge", "esquiva", "esquivar":
+				k = "dodge"
+			}
+			if _, isCanonical := canonicalKindLabel[k]; isCanonical {
+				kindToSkill[k] = sm
+			} else {
+				// Unknown/extra kind (Battlefield Skill, etc.) — preserve as-is.
+				extraSkills = append(extraSkills, sm)
 			}
 		}
 	}
-	for _, kind := range []string{"basic", "technique", "ultimate", "counter"} {
+	for _, kind := range canonicalKindOrder {
 		sm := kindToSkill[kind]
 		if sm == nil {
-			sm = map[string]interface{}{"kind": kind, "name": "", "description": ""}
+			sm = map[string]interface{}{"name": "", "description": ""}
 		}
+		// Canonicalise the display label / casing.
+		sm["kind"] = canonicalKindLabel[kind]
 		if iconPath, ok := skillPaths[kind]; ok {
 			if cur, _ := sm["icon"].(string); cur == "" {
 				sm["icon"] = iconPath
+			}
+		}
+		// The Dodge slot has no scraped icon — point it at the shared
+		// placeholder so the card renders. Its text is filled in by hand later.
+		if kind == "dodge" {
+			if cur, _ := sm["icon"].(string); cur == "" {
+				sm["icon"] = dodgePlaceholderIcon
 			}
 		}
 		if es := spanishText[kind]; es != "" {
@@ -950,18 +1053,28 @@ func mergeEspIntoJSON(slug, page, artPath string, boundaryPaths map[int]string, 
 		}
 		kindToSkill[kind] = sm
 	}
-	// Output skills in canonical order.
+	// Output order: basic, technique, ultimate, counter, [extras e.g.
+	// Battlefield Skill], dodge. The Dodge slot is always emitted (it carries
+	// the placeholder icon); the other canonical kinds only when they have an
+	// icon/description. Extras are preserved verbatim.
 	skillsOut := []interface{}{}
-	for _, kind := range []string{"basic", "technique", "ultimate", "counter"} {
-		if sm, ok := kindToSkill[kind]; ok {
-			// Only include if it has icon or description data.
-			hasIcon := sm["icon"] != nil && sm["icon"] != ""
-			hasDesc := (sm["description"] != nil && sm["description"] != "") || sm["descriptionES"] != nil
-			if hasIcon || hasDesc {
-				skillsOut = append(skillsOut, sm)
-			}
+	emit := func(kind string) {
+		sm, ok := kindToSkill[kind]
+		if !ok {
+			return
+		}
+		hasIcon := sm["icon"] != nil && sm["icon"] != ""
+		hasDesc := (sm["description"] != nil && sm["description"] != "") || sm["descriptionES"] != nil
+		if kind == "dodge" || hasIcon || hasDesc {
+			skillsOut = append(skillsOut, sm)
 		}
 	}
+	emit("basic")
+	emit("technique")
+	emit("ultimate")
+	emit("counter")
+	skillsOut = append(skillsOut, extraSkills...)
+	emit("dodge")
 	if len(skillsOut) > 0 {
 		doc["skills"] = skillsOut
 	}
@@ -1185,11 +1298,11 @@ func toWebPath(localPath string) string {
 // ---------- parse ----------
 
 var (
-	reTag       = regexp.MustCompile(`<[^>]+>`)
-	reWS        = regexp.MustCompile(`\s+`)
-	reFileLink  = regexp.MustCompile(`href="/wiki/File:([^"]+)"`)
-	reBoundary  = regexp.MustCompile(`(?s)<article[^>]+id="Boundary_(\d)-\d"[^>]*>(.*?)</article>`)
-	reSkillHdr  = regexp.MustCompile(`(?s)<th colspan="2"[^>]*>\s*([^<]+?)\s*</th>`)
+	reTag        = regexp.MustCompile(`<[^>]+>`)
+	reWS         = regexp.MustCompile(`\s+`)
+	reFileLink   = regexp.MustCompile(`href="/wiki/File:([^"]+)"`)
+	reBoundary   = regexp.MustCompile(`(?s)<article[^>]+id="Boundary_(\d)-\d"[^>]*>(.*?)</article>`)
+	reSkillHdr   = regexp.MustCompile(`(?s)<th colspan="2"[^>]*>\s*([^<]+?)\s*</th>`)
 	rePassiveRow = regexp.MustCompile(`(?s)<tr>\s*<td[^>]*>(.*?)</td>\s*<th>(.+?)</th>\s*</tr>`)
 )
 

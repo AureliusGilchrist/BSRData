@@ -75,26 +75,32 @@
     {
       "description": "",
       "icon": "/Images/ulquiorra-resurreccion/skill-basic.png",
-      "kind": "basic",
+      "kind": "Basic Attack",
       "name": "TBD"
     },
     {
       "description": "",
       "icon": "/Images/ulquiorra-resurreccion/skill-technique.png",
-      "kind": "technique",
+      "kind": "Technique",
       "name": "TBD"
     },
     {
       "description": "",
       "icon": "/Images/ulquiorra-resurreccion/skill-ultimate.png",
-      "kind": "ultimate",
+      "kind": "Ultimate",
       "name": "TBD"
     },
     {
       "description": "",
       "icon": "/Images/ulquiorra-resurreccion/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
       "name": "TBD"
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "ulquiorra-resurreccion",

@@ -8,10 +8,10 @@
   },
   "art": "/Images/uryu/art.png",
   "bestStamp": {
-    "setName": "Quincy Bow (4) + Thrust (2)",
     "mainStats": "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
-    "notes": "Ranged Tactician — arrow stacks scale with Crit DMG."
+    "notes": "Ranged Tactician — arrow stacks scale with Crit DMG.",
+    "setName": "Quincy Bow (4) + Thrust (2)",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
   },
   "bondPriority": [],
   "boundaries": [
@@ -134,25 +134,25 @@
     {
       "description": "",
       "icon": "/Images/uryu/skill-basic.png",
-      "kind": "basic",
+      "kind": "Basic Attack",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/uryu/skill-technique.png",
-      "kind": "technique",
+      "kind": "Technique",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/uryu/skill-ultimate.png",
-      "kind": "ultimate",
+      "kind": "Ultimate",
       "name": ""
     },
     {
       "description": "",
       "icon": "/Images/uryu/skill-counter.png",
-      "kind": "counter",
+      "kind": "Counter",
       "name": ""
     },
     {
@@ -160,6 +160,12 @@
       "icon": "/Images/uryu/skill-bfs.png",
       "kind": "Battlefield Skill",
       "name": "Reishi Convergence"
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
     }
   ],
   "slug": "uryu",
