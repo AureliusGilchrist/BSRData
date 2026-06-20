@@ -148,10 +148,10 @@
       "name": "Bankai - Senbonsakura Kageyoshi"
     },
     {
-      "description": "",
+      "description": "After countering an attack, Byakuya instantly releases Bakudo to restrain an enemy and follows up with Hado Number 33: Sokatsui, dealing damage equal to ???% of ATK.",
       "icon": "/Images/byakuya/skill-counter.png",
       "kind": "counter",
-      "name": ""
+      "name": "Counter"
     },
     {
       "description": "While Byakuya's Battlefield Skill is active, all teammates deal 30% more Slash DMG. Byakuya condenses the petals floating around him into blades and stabs the enemy at the same time, pinning them to the ground for 75% of ATK damage. If Byakuya's Battlefield Skill energy has dropped to zero after releasing this attack, pressing the Battlefield Skill button again lets Byakuya release a follow-up strike equivalent to the fourth hit of his basic attack. The Battlefield Skill button activates within 2 seconds of any teammate releasing a special attack, technique, or counterattack, and cannot be triggered any other way.",

@@ -156,21 +156,21 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Soi Fon releases Hakuda in quick succession, striking 5 times for a total damage equal to 945% of ATK while building her Spiritual Pressure. When releasing the 3rd and 4th hits, Soi Fon gains 1 point of Deathmark. At max Spiritual Pressure, release the 2nd hit of later of Basic Attack. Soi Fon cuts into the enemy with Suzumebachi, dealing total damage equal to 465% of ATK and inflicting Homonka. If the enemy is already marked with Homonka, the attack deals 232.5% of ATK as damage, consumes the mark and deals an extra 275% of ATK as Sting DMG. The first teammate switched in within 8 seconds after releasing the attack will automatically perform their counterattack. The counterattack's damage and Spiritual Pressure Reduction Rate are reduced by 50%. Release Basic Attack after a Perfect Dodge, or by tapping Soi Fon's icon after a teammate's Perfect Dodge to trigger Windmill. Soi Fon teleports in front of the enemy and delivers a series of kicks, dealing damage equal to 157.5% of ATK and gaining 4 points of Deathmark. Tap Basic Atatck after releasing Windmill to release Back Strike. Soi Fon teleports behind the enemy and releases a rapid combo, dealing damage equal to 157.5% of ATK and gaining 4 points of Deathmark. After releasing Back Strike, tap Basic Attack to immediately release the 5th hit of the Basic Attack.",
       "icon": "/Images/soi-fon/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Real Assassination",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Soi Fon releases her Bankai and fires the devastating Jakuho Raikoben at the enemy, dealing damage equal to 6010% of ATK.",
       "icon": "/Images/soi-fon/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Bankai: Jakuho Raikoben",
       "variant": null
     },
     {
-      "description": "",
+      "description": "After releasing Bakudo Number 30: Shitotsusansen to restrain the enemy, Soi Fon teleports in front of them and delivers a rapid combo, dealing damage equal to 1510% of ATK and gaining 4 points of Deathmark.",
       "icon": "/Images/soi-fon/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",

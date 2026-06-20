@@ -132,28 +132,28 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Szayelaporro swings his Zanpakuto, dealing 5 hits for a total damage of 285% of ATK. The 3rd to 5th hits each summon a Fraccion to assist, leaving behind 1 Sacrificial Material at the original location. Tap and hold Basic Attack while Sacrificial Material exists on the field to denotate them, with each one dealing equal to 80% of ATK. During Resurreccion, whenever Intel Control is gained, the same number of Brutal Modification stacks is also gained, up to 6 stacks. In Resurreccion, Szayelaporro commands his Fracciones to continuously attack enemies, dealing 3 hits for a total of 415% of ATK as damage. Each hit leaves behind 1 Sacrificial Material at the original location.",
       "icon": "/Images/szayelaporro/skill-basic.png",
       "kind": "Basic Attack",
-      "name": "Don't Make Me Do It Myself",
+      "name": "Modification Research",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Szayelaporro activates a trap beneath the enemy, pulling nearby enemies slightly and dealing damage equal to 265% of ATK. After release, it can directly chain into the",
       "icon": "/Images/szayelaporro/skill-technique.png",
       "kind": "Technique",
       "name": "Trap Activation",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Szayelaporro releases the power within his Zanpakuto to enter Resurreccion. In this state, his basic attacks and Special Attacks are enhanced, but he cannot move, dodge, or counter. During Resurreccion, even while off-field, Szayelaporro commands his Fracciones to perform combo attacks whenever the on-field teammate deals Spirit DMG. Each round of combo attacks has 3 hits, dealing a total damage equal to 420% of his ATK, and each hit leaves behind 1 Sacrificial Material at the original location. Release the Ultimate again at Max Ultimate Energy to create a doll of the enemy and crush its internal organs, dealing Base DMG equal to 1047.5% of ATK and consuming all Brutal Modification stacks. Each stack of Brutal Modification increases this skill's damage by 10%. If 6 stacks are consumed at once, this skill is guaranteed to trigger a critical hit. During Resurreccion, if Szayelaporro is the only remaining character in the team, he immediately gains full Ultimate Energy.",
       "icon": "/Images/szayelaporro/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": "Control of the Five Senses",
+      "name": "Slip, Fornicaras",
       "variant": null
     },
     {
-      "description": "",
+      "description": "After Szayelaporro neutralizes an enemy attack, he summons two Fracciones to rapidly strike the enemy, dealing damage equal to 625% of ATK and leaving behind 3 Sacrificial Materials, then automatically releases a Special Attack. During Resurreccion, Szayelaporro cannot actively counter, and the counterattack released when switching onto the field will be replaced with a Special Attack.",
       "icon": "/Images/szayelaporro/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",

@@ -137,21 +137,21 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Gin swiftly strikes the enemy in front of him 5 times with Shinso, dealing damage equal to 820% of ATK and inflicting 40 Impale Scale. Gin also accumulates Spiritual Pressure if his attack hits the enemy. Tap basic attack after triggering a Perfect Dodge, releasing Spear Rain or Blade-Sundering Spear. Gin rapidly impales the enemy with Shinso, dealing DMG equal to 675% of ATK and inflicting 30 Impale Scale. Upon a sucecssful hit, Gin's Spiritual Pressure is increased. Press and hold basic attack with 50 or more Spiritual Pressure to release Spear Thrust. Gin thrusts forward with Shinso, dealing damage equal to 550% of ATK and inflicting 15 Impale Scale. Upon a successful hit, the recovery time of Technique Points is reduced by 1 second(s). After performing Spear Thrust, quickly tap or tap and hold the basic attack when Spiritual Pressure is no less than 50. Gin leaps over the enemy and extends Shinso to attack mid-air, dealing damage equal to 825% of ATK and inflicting 25 Impale Scale. Upon a successful hit, the recovery time of Technique Points is reduced by 2 second(s).",
       "icon": "/Images/gin/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Serpent Tail Penetration",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Gin enters the charging state, consuming 1 Technique Point per charge to boost the Technique power. Releasing the Skill button or upon depleting all Technique Points triggers an attack corresponding to the total points consumed during the charge state. Gin is invincible during charging. Recovers 1 Technique Point automatically every 10 seconds. Thrusting Spear consumes 1 Technique Point. Gin instantly extends Shinso to attack the enemy, dealing damage equal to 575% of ATK and inflicting 12 Impale Scale. Serpent Shadow Spear consumes 2 Technique Points. Gin extends Shinso to attack all enemies within a fan-shaped area, dealing damage equal to 1150% of ATK and inflicting 24 Impale Scale. Blade-Sundering Spear consumes 3 Technique Points. Gin quickly slashes the enemy multiple times, then dashes behind the enemy and launches them into the air, dealing damage equal to 2300% of ATK and inflicting 36 Impale Scale.",
       "icon": "/Images/gin/skill-technique.png",
       "kind": "Technique",
       "name": "Blade-Sundering Spear",
       "variant": "3 Points"
     },
     {
-      "description": "",
+      "description": "Gin seizes the enemy's opening and counterattacks with Shinso, dealing damage equal to 1600% of ATK and inflicting 50 Impale Scale. Gin gains 1 Technique Point(s) if he counters successfully.",
       "icon": "/Images/gin/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",

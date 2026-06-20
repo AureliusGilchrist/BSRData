@@ -10,9 +10,9 @@
   "art": "/Images/aizen/art.png",
   "bestStamp": {
     "setName": "Immeasurable Gap (4) + Spirit DMG (2)",
-    "mainStats": "1: Spirit DMG Bonus \u003e Atk%  •  2: Crit Rate \u003e Crit DMG  •  3: Atk%",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Ult Charge Rate \u003e Flat Atk",
-    "notes": "Aim for ~119% Ult Charge Rate to align Kyokasuigetsu windows with team buffs. Crit DMG scales hardest because of the B6 Crit→CritDMG conversion."
+    "mainStats": "1: Spirit DMG Bonus \u003e ATK%  •  2: Crit Rate \u003e Crit DMG  •  3: ATK%",
+    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e ATK% \u003e Ult Charge Rate \u003e Flat ATK",
+    "notes": "Aim for ~119% Ult Charge Rate to align Kyokasuigetsu windows with team buffs. Crit Rate scales hardest because of the B6 Crit→CritDMG conversion."
   },
   "bondPriority": [
     {
@@ -71,7 +71,7 @@
       "setName": "Immeasurable Gap",
       "setPieces": [
         {
-          "mainStat": "Spirit DMG Bonus \u003e Atk%",
+          "mainStat": "Spirit DMG Bonus \u003e ATK%",
           "slot": 1
         },
         {
@@ -79,7 +79,7 @@
           "slot": 2
         },
         {
-          "mainStat": "Atk% \u003e Ult Charge Rate",
+          "mainStat": "ATK%",
           "slot": 3
         }
       ],
@@ -155,28 +155,28 @@
   ],
   "skills": [
     {
-      "description": "Aizen wields his Zanpakuto to strike 5 times, dealing damage equal to 301%~???% of ATK to the enemy ahead. If the last strike lands while having 3 Pressure Stacks, Aizen enters Spiritual Pressure Intimidation; otherwise, he gains 1 Pressure Stack instead. Releasing dodge and counter in between basic attacks will not interrupt the current basic attack sequence. Exposed Weakspot (Kyokasuigetsu Basic Attack): Aizen wields his Zanpakuto to strike 5 times while releasing Kido, dealing damage equal to 1145%~???% of ATK to the enemy ahead and gaining 1 Pressure Stack for landing each of the first three strikes. The last two strikes trigger Hado 90: Kurohitsugi, counted as a Battlefield Skill. Releasing dodge and counter in between basic attacks will not interrupt the current basic attack sequence. After Hado 90: Kurohitsugi is triggered, basic attacks switch from Exposed Weakspot to Slash.",
+      "description": "Aizen wields his Zanpakuto to strike 5 times, dealing damage equal to 752.5% of ATK to the enemy ahead. If the last strike lands while having 3 Pressure Stacks, Aizen enters Spiritual Pressure Intimidation; otherwise, he gains 1 Pressure Stack instead. Releasing dodge and counter in between basic attacks will not interrupt the current basic attack sequence. Exposed Weakspot (Kyokasuigetsu Basic Attack): Aizen wields his Zanpakuto to strike 5 times while releasing Kido, dealing damage equal to 2852.5% of ATK to the enemy ahead and gaining 1 Pressure Stack for landing each of the first three strikes. The last two strikes trigger Hado 90: Kurohitsugi, counted as a Battlefield Skill. Releasing dodge and counter in between basic attacks will not interrupt the current basic attack sequence. After Hado 90: Kurohitsugi is triggered, basic attacks switch from Exposed Weakspot to Slash.",
       "icon": "/Images/aizen/skill-1.png",
       "kind": "Basic Attack",
       "name": "Slash"
     },
     {
-      "description": "Aizen steps back and releases a Sword Pressure, dealing damage equal to 258%~???% of ATK and gaining 1 Pressure Stack. Within 6 seconds after releasing this skill, the technique and Basic Attack buttons become active, and tapping them can trigger the second phase of the technique, Unavoidable, or the Special Attack, Hado 63: Raikoho. If Fated Demise is released at the moment the enemy strikes, the damage of both Unavoidable and Hado 63: Raikoho is increased by 25%~???%. Unavoidable: (After Releasing the Technique \"Fated Demise\", tap Technique) Aizen instantly dashes through the enemy in front of him, dealing damage equal to 257%~???% of ATK and gaining 1 Pressure Stack. Using this skill allows your next Basic Attack to skip directly to the third phase. Hado 63: Raikoho: (After Releasing the Technique \"Fated Demise\", tap Basic Attack) Aizen unleashes Hado 63: Raikoho toward the front, pulling enemies slightly together and dealing damage equal to 258%~???% of ATK and gaining 1 Pressure Stack. Using this skill allows your next Basic Attack to skip directly to the third phase.",
+      "description": "Aizen steps back and releases a Sword Pressure, dealing damage equal to 645% of ATK and gaining 1 Pressure Stack. Within 6 seconds after releasing this skill, the technique and Basic Attack buttons become active, and tapping them can trigger the second phase of the technique, Unavoidable, or the Special Attack, Hado 63: Raikoho. If Fated Demise is released at the moment the enemy strikes, the damage of both Unavoidable and Hado 63: Raikoho is increased by 25%. Unavoidable: (After Releasing the Technique \"Fated Demise\", tap Technique) Aizen instantly dashes through the enemy in front of him, dealing damage equal to 642.5% of ATK and gaining 1 Pressure Stack. Using this skill allows your next Basic Attack to skip directly to the third phase. Hado 63: Raikoho: (After Releasing the Technique \"Fated Demise\", tap Basic Attack) Aizen unleashes Hado 63: Raikoho toward the front, pulling enemies slightly together and dealing damage equal to 645% of ATK and gaining 1 Pressure Stack. Using this skill allows your next Basic Attack to skip directly to the third phase.",
       "icon": "/Images/aizen/skill-2.png",
       "kind": "Technique",
       "name": "Fated Demise"
     },
     {
-      "description": "Aizen ascends his Zanpakuto, dealing damage equal to 433%~???% of ATK and activating Kyokasuigetsu for 18 seconds. During Kyokasuigetsu, Aizen stays in Spiritual Pressure Intimidation the whole time and can release an enhanced basic attack combo that includes Hado 90: Kurohitsugi. While Kyokasuigetsu is active, Aizen can release one enhanced Battlefield Skill, I Will Stand Atop the Heavens, and the damage boost from Complete Suppression applied to this Battlefield Skill is increased by 4 times.",
+      "description": "Aizen ascends his Zanpakuto, dealing damage equal to 1082.5% of ATK and activating Kyokasuigetsu for 18 seconds. During Kyokasuigetsu, Aizen stays in Spiritual Pressure Intimidation the whole time and can release an enhanced basic attack combo that includes Hado 90: Kurohitsugi. While Kyokasuigetsu is active, Aizen can release one enhanced Battlefield Skill, I Will Stand Atop the Heavens, and the damage boost from Complete Suppression applied to this Battlefield Skill is increased by 4 times.",
       "icon": "/Images/aizen/skill-3.png",
       "kind": "Ultimate",
       "name": "Shatter, Kyokasuigetsu"
     },
     {
-      "description": "",
+      "description": "After blocking an enemy's attack, Aizen immediately counterattacks in rapid succession, dealing damage equal to 1047.5% of ATK and gaining 1 Pressure Stack. Landing each of the first three strikes inflicts 1 stack of Ravage on the enemy.",
       "icon": "/Images/aizen/skill-counter.png",
       "kind": "counter",
-      "name": ""
+      "name": "Counter"
     },
     {
       "description": "All damage dealt by the team increases by 30%. Aizen has two types of Battlefield Skill energy: Battlefield Skill Amount and Suppression Value. Battlefield Skill Amount builds up while Aizen attacks on the field and is spent to release Kurohitsugi. Suppression Value builds up from teammates' attacks landing — if Aizen is the only character left in the team, his own attacks (other than I Will Stand Atop the Heavens) build it too. At maximum Suppression Value, Aizen enters Complete Suppression; releasing the Battlefield Skill from the backline at that point consumes all Suppression Value to increase the Battlefield Skill's damage by 150% (500% during Kyokasuigetsu, though the Suppression Value requirement doubles). When Battlefield Skill Amount is full, Aizen releases Kurohitsugi, dealing 438% of ATK and applying 1 stack of Ravage to enemies hit. Kurohitsugi cannot be triggered manually while Kyokasuigetsu is active.",

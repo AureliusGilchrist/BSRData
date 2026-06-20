@@ -179,28 +179,28 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Kenpachi wields his Zanpakuto to strike 5 times, dealing damage equal to 870% of ATK to the enemy ahead, and gains 1 Frenzy when the last strike lands. Tap and hold the Basic Attack button when there's enough Frenzy. Kenpachi lunges forward with unstopapable momentum, slashing the enemy multiple times. Tapping Basic Attack again or holding it unleashes a powerful follow-up slash, dealing 5 hits for a total damage of 1772.5% of ATK as his Spiritual Pressure surges violenlty. In War Wraith Status, Kenpachi unleashes Malicious Blade rip, slashing at the enemy with overwhelming power. Each hit deals damage equal to 122.5% of ATK and builds Ultimate Energy. When the Ultimate Energy is nearly full again, he unleashes a heavy strike dealing damage equal to 635% of ATK. Damage dealt by Malicious Blade Rip counts as Ultimate DMG."
       "icon": "/Images/kenpachi/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Malicious Blade Rip",
       "variant": "War Wraith"
     },
     {
-      "description": "",
+      "description": "Kenpachi charges forward with his Zanpakuto and deals damage up to 315% of ATK to all enemies in his path. Upon taking a hit or completing his charge, he lunges forward with a powerful thrust, dealing damage equal to 1240% of ATK and gaining 1 point of Frenzy. At Max Spiritual Pressure, Kenpachi dashes to the target and releases a torrential surge of Spiritual Pressure, blasting them skyward before smashing the ground for a total damage of 345% of ATK. Afterward, time briefly stops. Tap Basic Attack to perform a follow-up attack that deals damage equal to 345% of ATK in a large area. Tap Basic Attack again after the firt follow-up attack to release a second one, dealing damage equal 687.5% of ATK. Each follow-up attack consumes Spiritual Pressure. Dodging or waiting too long during the time stop ends the Spiritual Pressure Burst.",
       "icon": "/Images/kenpachi/skill-technique.png",
       "kind": "Technique",
       "name": "Spiritual Pressure Burst",
       "variant": "Max SP"
     },
     {
-      "description": "",
+      "description": "Kenpachi removes the eyepatch and fully unleashes his Spiritual Pressure, slashing the enemy and dealing damage equal to 2542.5% of ATK. He the enters the War Wraith state for 15 seconds. During this state, his basic attacks are greatly enhanced and can still generate Ultimate Energy, but techniques cannot be used. Kenpachi can unleash "Kendo" at Maximum Ultimate Energy. Kenpachi grips his Zanpakuto with both hands and delivers a devastating strike, dealing damage equal to 4245% of ATK and ending the War Wraith state.",
       "icon": "/Images/kenpachi/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Kendo",
       "variant": "War Wraith"
     },
     {
-      "description": "",
+      "description": "Kenpachi counters the enemy's attack and slams them to the ground, dealing damage equal to 1250% of ATK and gaining 1 point of Frenzy.",
       "icon": "/Images/kenpachi/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",

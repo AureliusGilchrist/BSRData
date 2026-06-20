@@ -190,28 +190,28 @@
   ],
   "skills": [
     {
-      "description": "Ichigo strikes the enemy 5 times, dealing damage equal to 247%~???% of ATK and gaining spiritual pressure. If you stop the attack after the third strike, Ichigo will briefly charge up and then a glow will appear on his body. At that moment, press the basic attack button to unleash a special attack. Hollowfied: After becoming Hollowfied, Ichigo's ability greatly improves. The total damage of the basic attack increases to 367%~???%. The total damage of the special attack increases to 266%~???%. Special attack: Ichigo performs 6 continuous high-speed slashes, dealing damage equal to 179%~???% of ATK.",
+      "description": "Ichigo strikes 5 times with Tensa Zangetsu, dealing damage qual to 617.5% of ATK and gaining Spiritual Pressure. Stop attacking after the 3rd strike, and Ichigo will charge briefly. When a glow appears, tap the Basic Attack button to release a special attack. Ichigo slashes 6 times in rapid succession, dealing damage equal to 447.5% of ATK. In Hollowfied state, increases the total DMG of the 5 basic attacks to 917.5%. Increase the total DMG of the special attack Tenbu Renjin to 665%.",
       "icon": "/Images/ichigo-bankai/skill-1.png",
       "kind": "Basic Attack",
-      "name": "Corte a alta velocidad"
+      "name": "Super High-speed Slash"
     },
     {
-      "description": "Ichigo releases his spiritual pressure to attack from a distance toward the target, dealing damage equal to 232%~???% of ATK and applying one stack of Getsuga Mark for 5 seconds. When the technique hits the enemy, press the basic attack button and Ichigo will rush forward and immediately launch a special attack.",
+      "description": "Ichigo release a dark sword wave that strikes the target from afar, dealing DMG equal to 580% of ATK and inflicting 1 stack of Getsuga Mark for 5s. Tap the basic attack button when the technique hits the enemy, and Ichigo will dash to them and release a special attack. After Hollowfication, Ichigo releases a Getsuga Tensho twice in a row, dealing DMG equal to 870% of ATK with the first attack and 870% of ATK with the second.",
       "icon": "/Images/ichigo-bankai/skill-2.png",
       "kind": "Technique",
       "name": "Getsuga Tensho"
     },
     {
-      "description": "Ichigo unleashes the power of Hollowfication, immediately resets the technique's cooldown, and enters the Hollowfied state, which lasts for 10 seconds. In the Hollowfied state, Ichigo will instantly counterattack and gain the following effects: he is less likely to be interrupted by enemies, the damage he deals is greatly increased, he can unleash techniques twice in a row, his health will not fall below 1, and his Ultimate will be replaced by Black Getsuga Tensho.",
+      "description": "Ichigo unleashes the power of Hollowfication, immediately resets the technique's cooldown, and enters the Hollowfied state, which lasts for 10 seconds. In the Hollowfied state, Ichigo will instantly counterattack and gain the following effects: he is less likely to be interrupted by enemies, the damage he deals is greatly increased, he can unleash techniques twice in a row, his health will not fall below 1, and his Ultimate will be replaced by Deathblow. Ichigo releases a dark Getsuga Tensho infused with the Force of Hollow, dealing 1242.5% damage to the target. Getsuga Tensho then explodes, dealing 3750% damage to all enemies in range. This skill can only be released oncec while under the Hollowfied state. If not manually released during the Hollowfied state, it will automatically trigger when the Hollowfied state ends.",
       "icon": "/Images/ichigo-bankai/skill-3.png",
       "kind": "Ultimate",
       "name": "Hollowfication"
     },
     {
-      "description": "",
+      "description": "After dodging an enemy attack, Ichigo performs a rapid counterattack with Tensa Zangetsu, dealing 1262.5% damage and launching the attacker. The final strike of the counterattack inflicts 1 stack of Getsuga Mark on the target. Tap the Basic Attack button to instantly follow up with a special attack. While releasing the skill, Ichigo gains Invincibility.",
       "icon": "/Images/ichigo-bankai/skill-counter.png",
       "kind": "counter",
-      "name": ""
+      "name": "Counter"
     }
   ],
   "slug": "ichigo-bankai",

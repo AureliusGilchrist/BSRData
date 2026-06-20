@@ -147,28 +147,28 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Grimmjow strikes the enemy 6 times with his claws, dealing damage equal to 850% of ATK and gaining Spiritual Pressure. Grimmjow can release Basic Attack while under Rush to pounce at the target, dealing damage equal to 225% of ATK. After pouncing at the target, Grimmjow immediately pursues them, dealing damage equal to 275% of ATK and gaining 1 Hunting Point.",
       "icon": "/Images/grimmjow-pantera/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Grind, Pantera!",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Grimmjow sweeps enemies with the blades on his legs, dealing damage equal to 500% of ATK. Tap Technique again after releasing Razor Kick to grab the target and follow up with a powerful kick, dealing damage equal to 550% of ATK and obtaining 1 Hunting Point. After releasing Pounce Pursuit, Grimmjow leaps above the target, then darts rapidly across the battlefield while slashing them, dealing damage equal to 595% of ATK. After releasing this technique, he can consume 2 more Hunting Points to continue pursuing the enemy. Grimmjow can then consume the remaining Hunting Points to leap high into the air again, then crash down onto the target with a heavy impact, dealing damage equal to 1500% of ATK.",
       "icon": "/Images/grimmjow-pantera/skill-technique.png",
       "kind": "Technique",
-      "name": "Death Grip",
+      "name": "Razor Kick",
       "variant": "Chain"
     },
     {
-      "description": "",
+      "description": "Grimmjow releases his strongest move, dealing damage equal to 5500% of ATK to enemies with a devastsating strike.",
       "icon": "/Images/grimmjow-pantera/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Desgarron",
       "variant": null
     },
     {
-      "description": "",
+      "description": "After countering an enemy attack, Grimmjow fires several Panther Hooks from his elbows. They explode on hit, dealing damage equal to 1625% of ATK and granting him 1 Hunting Point.",
       "icon": "/Images/grimmjow-pantera/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",

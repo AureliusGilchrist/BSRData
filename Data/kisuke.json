@@ -10,7 +10,7 @@
   "bestStamp": {
     "setName": "Benihime (4) + Atk (2)",
     "mainStats": "1: Atk%  •  2: Crit Rate  •  3: Ult Charge Rate",
-    "subStatPriority": "Ult Charge Rate \u003e Crit Rate \u003e Atk% \u003e Crit DMG",
+    "subStatPriority": "Crit DMG \u003e Ult Charge Rate",
     "notes": "S+ Support — Ult Charge Rate to keep his team-wide ATK% buff on permanent uptime."
   },
   "bondPriority": [
@@ -78,7 +78,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit DMG \u003e\u003e\u003e Atk% \u003e Atk",
+      "subStatPriority": "Crit DMG \u003e\u003e\u003e Ult Charge Rate",
       "targets": {
         "ultChargeRate": "Main stat on 3rd stamp"
       }
@@ -133,28 +133,28 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Urahara wields Benihime to strike 5 times, dealing damage equal to 180% of ATK and gaining Spiritual Pressure. At Max Spiritual Pressure, press and hold basic attack to release a long-ranged sword wave, dealing damage equal to 425% of ATK. For special attacks, reserves once at Max Spiritual Pressure.",
       "icon": "/Images/kisuke/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Awaken, Benihime",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Urahara throws a Portable Giga forward and immediately falls back, gaining a stack of Spiritual Pressure Reserve. The Portable Giga taunts nearby enemies within a large area and explodes in 6s, dealing damage equal to 237.5% of ATK.",
       "icon": "/Images/kisuke/skill-technique.png",
       "kind": "Technique",
       "name": "Portable Gigai",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Urahara fires a Spiritual Bullet at the enemy, dealing DMG equal to 750% of ATK. The team's Crit DMG then increases by a fixed 50% + 50% of Urahara's Crit DMG for 25s.",
       "icon": "/Images/kisuke/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Hado Number 91: Senjukotentaiho",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Urahara releases Spiritual Pressure in the form of a net from Benihime's blade, which restrains the enemy and explodes, dealing damage equal to 625% of ATK, immediately raising his Spiritual Pressure to the maximum, and gaining 1 stack of Reishi Analysis.",
       "icon": "/Images/kisuke/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",

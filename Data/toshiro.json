@@ -179,28 +179,28 @@
   ],
   "skills": [
     {
-      "description": "Toshiro wields Hyorinmaru to strike 5 times, dealing damage equal to 215%~537.5% of ATK and accumulating Spiritual Pressure. Ice Dragon Lunge: Toshiro condenses water vapor into an ice dragon which hits 5 times, dealing total DMG equal to 568%~1420% of ATK. Each hit landed charges Ice Blossom by the number of successful hits. Dodging or countering does not reset the attack streak. If the attack is Interrupted, Tenso Jyurin will be prematurely removed.",
+      "description": "Toshiro wields Hyorinmaru to strike 5 times, dealing damage equal to 215%~537.5% of ATK and accumulating Spiritual Pressure. Ice Dragon Lunge: Toshiro condenses water vapor into an ice dragon which hits 5 times, dealing total DMG equal to 568%~1420% of ATK. Each hit landed charges Ice Blossom by the number of successful hits. Dodging or countering does not reset the attack streak. If the attack is Interrupted, Tenso Jyurin will be prematurely removed. In Bankai State, Toshiro condenses long-ranged ice spikes which hit up to 5 times, dealing total DMG equal to 755% of ATK. Each hit adds a stack of Ice Edge. Each hit landed charges Ice Blossom by the number of successful hits. Toshiro can perform basic attacks while moving.",
       "icon": "/Images/toshiro/skill-1.png",
       "kind": "Basic Attack",
       "name": "Frost unto the heavens, Hyorinmaru"
     },
     {
-      "description": "Toshiro instantly creates massive ice crystals and fires them forward, dealing damage equal to 105%~262.5% of ATK and accumulating Spiritual Pressure. Enemies hit by the technique are inflicted with 5 Freeze Points. After releasing the technique, creates an area filled with ice pillars ahead. The ice pillars explode in 2.5 seconds, dealing damage equal to 67%~167.5% of ATK to the enemies in the area, inflicting 5 Freeze Points on them, and granting Spiritual Pressure to Toshiro.",
+      "description": "Toshiro instantly creates massive ice crystals and fires them forward, dealing damage equal to 105%~262.5% of ATK and accumulating Spiritual Pressure. Enemies hit by the technique are inflicted with 5 Freeze Points. After releasing the technique, creates an area filled with ice pillars ahead. The ice pillars explode in 2.5 seconds, dealing damage equal to 67%~167.5% of ATK to the enemies in the area, inflicting 5 Freeze Points on them, and granting Spiritual Pressure to Toshiro. At max Spiritual Pressure, Toshiro leaps into the air, leading an ice dragon to dive and slam into the enemy in front. This deals DMG equal to 577.5% of ATK and inflicts 10 Freeze Points. Toshiro then enters Tenso Jyurin, during which his basic attacks are replaced by Ice Dragon Lunge. This lasts for 2 sets of Ice Dragon Lunge or 10 seconds. In Bankai state with 5 stacks of Ice Edge, Toshiro flaps his ice wings and dives toward the enemy, launching a Freeze-up slash that deals damage equal to 642.5% of ATK and inflicting 10 Freeze Points on the enemy. While releasing the technique, Toshiro enters the Invincibility state, and you can tap the counterattack button to release Ryusenka.",
       "icon": "/Images/toshiro/skill-2.png",
       "kind": "Technique",
       "name": "Ice Wall"
     },
     {
-      "description": "Toshiro covers his body with ice and enters Bankai state. In this state, Toshiro can fly above the ground and all his moves will be replaced by more powerful ones.",
+      "description": "Toshiro covers his body with ice and enters Bankai state. In this state, Toshiro can fly above the ground and all his moves will be replaced by more powerful ones. Toshiro channels freezing air currents, causing myraids ice flowers to bloom on the enemy's body. This deals DMG equal to 2760% of ATK and consumes all Ice Blossoms. Each Ice Blossom consumed grants an extra 6% DMG multiplier. Releashing this skill removes Bankai State.",
       "icon": "/Images/toshiro/skill-3.png",
       "kind": "Ultimate",
       "name": "Bankai - Daiguren Hyorinmaru"
     },
     {
-      "description": "",
+      "description": "Toshiro falls back to create distance and then lunges at the enemy to counterattack, dealing damage equal to 1250% of ATK, inflicting 15 Freeze Points on them, and gaining Spiritual Pressure. In Bankai State, Toshiro thrusts forward and evenlopes the enemy in a huge ice cross, dealing damage equal to 1500% of ATK and inflicting 15 Freeze Points while applying 2 stacks of Ice Edge on himself. Counterattack DMG dealt by actively tapping the counter button is reduced to 25%.",
       "icon": "/Images/toshiro/skill-counter.png",
       "kind": "counter",
-      "name": ""
+      "name": "Counter"
     }
   ],
   "slug": "toshiro",

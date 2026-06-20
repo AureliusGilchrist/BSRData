@@ -131,28 +131,28 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Mayuri Kurotsuchi wields his Zanpakuto to strike 5 times, dealing damage equal to 375% of ATK to the enemy ahead and applying Poison Scale. After releasing a Technique, tap Basic Attack to summon Nemu onto the field to assist. Nemu performs a rapid spinning kick, pulling in nearby enemies to a certain extent, dealing damage equal to 450% of Mayuri's ATK and applying Poison Scale.",
       "icon": "/Images/mayuri/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Claw out, Ashisogi Jizo",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Mayuri Kurotsuchi randomly selects and uses one of the three following inventions: Hojiku-zai, Superhuman Potion, or Flesh Bomb. Each release of his Technique accumulates his Spiritual Pressure. When it reaches maximum, the Technique is enhanced into Double-Barreled. Hojiku-zai: Immediately restores HP to the entire team equal to 40%+450 of Mayuri Kurotsuchi's ATK, then restores 150 Fixed HP every 2 seconds for 10 seconds. This skill is prioritized only when a team member's HP falls below 70%. Superhuman Potion Essence: Inflicts all enemies within range with Delay for 5 second(s) and increases all damage they take by 15% for 25 seconds. Flesh Bomb: Attacks enemies in front, dealing damage equal to 640% of ATK, additionally reducing their Spiritual Pressure by 800, and applying Poison Scale. Doubble-Barreled: Mayuri Kurotsuchi uses both Superhuman Potion Essence and Flesh Bomb at once, dealing damage equal to 640% of ATK to enemies within range, additionally reducing their Spiritual Pressure by 800, and applying Poison Scale. Inflicts all enemies within range with Delay for 5 second(s) and increases all damage they take by 15% for 25 seconds.",
       "icon": "/Images/mayuri/skill-technique.png",
       "kind": "Technique",
-      "name": "Double-Barreled",
+      "name": "Picking the Right One",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Mayuri Kurotsuchi releases his Bankai and commands the massive Konjiki Ashisogijizo to smash into enemies, dealing damage equal to 800% of ATK. On hit, it applies Poison Scale. Additionally, leaves behind a corrosive pool for 25 seconds, dealing total DMG equal to 185% of ATK to enemies within its area. After this skill is released, all characters in the team gain 5% All-Skill Mastery for 35 seconds. Unstackable.",
       "icon": "/Images/mayuri/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Bankai: Konjiki Ashisogijizo",
       "variant": null
     },
     {
-      "description": "",
+      "description": "After Mayuri Kurotsuchi blocks an enemy attack with Ashisogi Jizo, he commands Nemu to unleash a series of attacks, dealing damage equal to 675% of Mayuri Kurotsuchi's ATK and applying Poison Scale.",
       "icon": "/Images/mayuri/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",
