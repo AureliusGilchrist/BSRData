@@ -115,34 +115,34 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Ichigo strikes 5 times with an unnamed Zanpakuto, dealing damage equal to 352.5% of ATK and accumulating Spiritual Pressure.",
       "icon": "/Images/ichigo-initial/skill-basic.png",
       "kind": "Basic Attack",
-      "name": ""
+      "name": "Swing Strike"
     },
     {
-      "description": "",
+      "description": "Ichigo spins and slashes his blade forward, dealing damage equal to 216% of ATK and creating a cyclone that pulls nearby enemies toward him.",
       "icon": "/Images/ichigo-initial/skill-technique.png",
       "kind": "Technique",
-      "name": ""
+      "name": "Full Swing Strike"
     },
     {
-      "description": "",
+      "description": "Ichigo slashes rapidly with his Zanpakuto multiple times, dealing DMG equal to 658.12% of ATK. At the end, he leaps into the air and delivers a finishing blow, dealing DMG equal to 450.12% of ATK. He then unleashes a Penetrating sword wave forward that disappears after 4 hits, dealing total DMG equal to 210% of ATK.",
       "icon": "/Images/ichigo-initial/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": ""
+      "name": "Sword Wave Combo"
     },
     {
-      "description": "",
+      "description": "After withstanding an attack, Ichigo leaps into the air and performs a Downward Smash on the enemy, dealing DMG equal to 802.5% of ATK. Press and hold the basic attack button immediately afterwards to release a special attack without consuming Spiritual Pressure.",
       "icon": "/Images/ichigo-initial/skill-counter.png",
       "kind": "Counter",
-      "name": ""
+      "name": "Counter"
     },
     {
-      "description": "",
+      "description": "Dodge to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5s. Cooldown: 15s.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Dodge"
     }
   ],
   "slug": "ichigo-initial",

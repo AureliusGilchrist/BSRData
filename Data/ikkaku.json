@@ -16,14 +16,16 @@
   "bondPriority": [],
   "boundaries": [
     {
-      "description": "",
+      "description": "Increases Ikkau's Spiritual Pressure Charge Rate by 100% through attacks.",
       "icon": "/Images/ikkaku/boundary-1.png",
-      "level": 1
+      "level": 1,
+      "name": "Demon Axe Dance"
     },
     {
-      "description": "",
+      "description": "Increases all DMG dealt by Ikkau by 12%. This increases to 24% when hitting targets inflicted with Wound.",
       "icon": "/Images/ikkaku/boundary-2.png",
-      "level": 2
+      "level": 2,
+      "name": "Dancing With Spears"
     },
     {
       "description": "",
@@ -31,9 +33,10 @@
       "level": 3
     },
     {
-      "description": "",
+      "description": "Increases the Crit Rate of the Ultimates, Ryumon Hozukimaru and Slow Hozukimaru, by 20%.",
       "icon": "/Images/ikkaku/boundary-4.png",
-      "level": 4
+      "level": 4,
+      "name": "Mighty Opponent"
     },
     {
       "description": "",
@@ -41,9 +44,10 @@
       "level": 5
     },
     {
-      "description": "",
+      "description": "Ikkau's attacks inflict Misfortune on enemies. At 8 stacks, Ikkau's special attacks deals extra DMG equal to 500% of ATK on hit. This consumes all stacks of Misfortune, and Ikkaku cannot inflict further Misfortune for 3s. This DMG counts as a special attack.",
       "icon": "/Images/ikkaku/boundary-6.png",
-      "level": 6
+      "level": 6,
+      "name": "Life or Death"
     }
   ],
   "builds": [
@@ -163,10 +167,10 @@
       "name": ""
     },
     {
-      "description": "",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Ikkaku gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15s. In Bankai State, Ikkau's dodges will no longer avoid DMG from the enemy. Instead, Ikkaku attacks the enemy while moving. Forward attacks deal DMG equal to 34% of ATK, while fallback attacks deal DMG equal to 43% of ATK. Perfect Dodge effects can also be triggered while dealing DMG.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Flash Step"
     }
   ],
   "slug": "ikkaku",

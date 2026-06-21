@@ -116,34 +116,34 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Orihime transforms Tsubaki into a sharp blade that performs ranged attacks, striking 4 times and dealing damage equal to 130.5% of ATK.",
       "icon": "/Images/orihime/skill-basic.png",
       "kind": "Basic Attack",
-      "name": ""
+      "name": "Kotenzanshun"
     },
     {
-      "description": "",
+      "description": "Orihime transforms Hinagiku, Baigon, and Lily into a shield that can absorb damage up to 9.75% of her Max HP + 1170 and last for 20s. While the shield is activate, she gains Super Armor, and this effect persists when switching characters.",
       "icon": "/Images/orihime/skill-technique.png",
       "kind": "Technique",
-      "name": ""
+      "name": "Santenkesshun"
     },
     {
-      "description": "",
+      "description": "Orihime has Shuno and Ayame form a shield that blocks debuffs, immediately restoring all teammates' HP for 12% of her Max Hp + 1350.",
       "icon": "/Images/orihime/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": ""
+      "name": "Sotenkishun"
     },
     {
-      "description": "",
+      "description": "Orihime retreats a short distance and commands Tsubaki to attack the target, dealing damage equal to 288% of ATK and immediately restoring all teammates' HP for 6% of her Max HP + 675.",
       "icon": "/Images/orihime/skill-counter.png",
       "kind": "Counter",
-      "name": ""
+      "name": "Counter"
     },
     {
-      "description": "",
+      "description": "Dodge to avoid attacks right before they hit. When Perfect Dodge is triggered, inflicts True Time Freeze for 1.5s. This effect can be triggered once every 15s.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Dodge"
     }
   ],
   "slug": "orihime",

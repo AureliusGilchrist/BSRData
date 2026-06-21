@@ -151,10 +151,10 @@
       "variant": "3 Points"
     },
     {
-      "description": "",
+      "description": "Gin fast approaches the enemy and performs multiple slashes. He then releases his Bankai and launches a fatal strike much faster than the speed under the Shikai state, dealing damage equal to 4050% of ATK and inflicting 60 Impale Scale.",
       "icon": "/Images/gin/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": ""
+      "name": "Bankai - Kamishini no Yari"
     },
     {
       "description": "Gin seizes the enemy's opening and counterattacks with Shinso, dealing damage equal to 1600% of ATK and inflicting 50 Impale Scale. Gin gains 1 Technique Point(s) if he counters successfully.",
@@ -164,10 +164,10 @@
       "variant": null
     },
     {
-      "description": "",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Gin Ichimaru gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds. Gin gains 1 Technique Point on triggering Perfect Dodge.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Flash Step"
     }
   ],
   "slug": "gin",

@@ -163,10 +163,10 @@
       "variant": null
     },
     {
-      "description": "",
+      "description": "Soi Fon charges at the enemy and releases a dazzling barrage of attacks, dealing damage equal to 1772.5% of ATK and gaining 4 points of Deathmark. After releasing a technique, tap Basic Attack to immediately release the 5th hit of the Basic Attack.",
       "icon": "/Images/soi-fon/skill-technique.png",
       "kind": "Technique",
-      "name": ""
+      "name": "Execution Battle"
     },
     {
       "description": "Soi Fon releases her Bankai and fires the devastating Jakuho Raikoben at the enemy, dealing damage equal to 6010% of ATK.",
@@ -190,10 +190,10 @@
       "variant": null
     },
     {
-      "description": "",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Soi Fon gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Flash Step"
     }
   ],
   "slug": "soi-fon",

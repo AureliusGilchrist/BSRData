@@ -8,7 +8,7 @@
   },
   "art": "/Images/uryu/art.png",
   "bestStamp": {
-    "mainStats": "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "mainStats": "1: Thrust DMG Bonus  •  2: Crit Rate  •  3: ATK%",
     "notes": "Ranged Tactician — arrow stacks scale with Crit DMG.",
     "setName": "Quincy Bow (4) + Thrust (2)",
     "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
@@ -16,14 +16,16 @@
   "bondPriority": [],
   "boundaries": [
     {
-      "description": "",
+      "description": "Each combo attack hit reduces the target's Thrust Resistance by an extra 6% for 15s. Stacks up to 3 times.",
       "icon": "/Images/uryu/boundary-1.png",
-      "level": 1
+      "level": 1,
+      "name": "Extinct Clan"
     },
     {
-      "description": "",
+      "description": "When Uryu triggers 2 or more combo attacks in a row, he deals 10% more DMG for 5s. Stacks up to 3 times.",
       "icon": "/Images/uryu/boundary-2.png",
-      "level": 2
+      "level": 2,
+      "name": "Hatred and Confusion"
     },
     {
       "description": "",
@@ -31,9 +33,10 @@
       "level": 3
     },
     {
-      "description": "",
+      "description": "Increases Uryu's Crit DMG by 25%.",
       "icon": "/Images/uryu/boundary-4.png",
-      "level": 4
+      "level": 4,
+      "name": "Divine Arrow"
     },
     {
       "description": "",
@@ -41,9 +44,10 @@
       "level": 5
     },
     {
-      "description": "",
+      "description": "Increases Battlefield Skill's Crit Rate by 20%. Landing a hit reduces the target's Thrust Resistance by an extra 15% for 5s.",
       "icon": "/Images/uryu/boundary-6.png",
-      "level": 6
+      "level": 6,
+      "name": "The Last Quincy"
     }
   ],
   "builds": [
@@ -58,11 +62,11 @@
           "slot": 1
         },
         {
-          "mainStat": "Crit DMG",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
-          "mainStat": "Atk%",
+          "mainStat": "ATK%",
           "slot": 3
         }
       ],
@@ -132,28 +136,28 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Uryu fires glowing arrows forward, striking 4 times and dealing 264% damage. Each strike of the basic attack grants 1/1/2/6 Battlefield Skill Energy on hit, respectively. While releasing the 4th strike, Uryu gains 1 stack of Quincy Mark.",
       "icon": "/Images/uryu/skill-basic.png",
       "kind": "Basic Attack",
-      "name": ""
+      "name": "Blitz"
     },
     {
-      "description": "",
+      "description": "After aiming briefly, Uryu fires Reishi Convergence forward multiple times, dealing damage equal to 270% of ATK and gaining 1 stack of Quincy Mark. This technique grants up to 6 Battlefield Skill Energy on hit.",
       "icon": "/Images/uryu/skill-technique.png",
       "kind": "Technique",
-      "name": ""
+      "name": "Volley"
     },
     {
-      "description": "",
+      "description": "Uryu unleashes a barrage of Reishi Convergence on the area ahead, dealing AoE damage equal to 756% of ATK and gaining 1 stack of Quincy Mark.",
       "icon": "/Images/uryu/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": ""
+      "name": "Licht Regen"
     },
     {
-      "description": "",
+      "description": "Uryu stomps on an enemy and launches himself backward, attacking up to 8 times in mid-air to deal total DMG equal to 540% ATK. While Uryu's Battlefield Skill is active, he accumulates 6 Battlefield Skill Energy when attacks hit.",
       "icon": "/Images/uryu/skill-counter.png",
       "kind": "Counter",
-      "name": ""
+      "name": "Counter"
     },
     {
       "description": "While active, Ishida's Battlefield Skill increases the whole team's damage of all types by 15%. Reishi Convergence: switches Ishida in immediately to fire a powerful spirit-energy arrow, consuming all current Battlefield Skill energy for 398% ATK damage. Support Shot: switches Ishida in immediately to quickly fire at the target for 126% of ATK; this does not consume any accumulated Battlefield Skill energy. Reishi Convergence (field trigger): Ishida steps onto the field and unleashes a Combo Attack for up to 180% of ATK. After Ishida triggers Combo Attack twice or more in a row, the Battlefield Skill button activates; releasing the Battlefield Skill at that point does not consume Battlefield Skill energy.",
@@ -162,10 +166,10 @@
       "name": "Reishi Convergence"
     },
     {
-      "description": "",
+      "description": "Use Hirenkyaku to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5s and instantly restore 150 Ultimate Energy to Uryu. Cooldown: 15s.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Hirenkyaku"
     }
   ],
   "slug": "uryu",

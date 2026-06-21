@@ -127,26 +127,26 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Rukia attacks the enemy in front with Sodenoshirayuki 5 times rapidly, dealing damage equal to 325.12% of ATK.",
       "icon": "/Images/rukia/skill-basic.png",
       "kind": "Basic Attack",
-      "name": ""
+      "name": "Dance, Sodenoshirayuki"
     },
     {
-      "description": "",
+      "description": "Rukia points her sword at the enemy and releases avalanche-level Chill, dealing damage equal to 357% of ATK to the enemy in front, Freezing non-elite enemies for 2s, and inflicting 50 Freeze Point(s) on elites and the boss.",
       "icon": "/Images/rukia/skill-technique.png",
       "kind": "Technique",
       "name": "Tsuginomai Hakuren",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Rukia spins Sodenoshirayuki, tracing a circle with its tip to create a Frozen Realm ahead. Inside, the temperature plummets, dealing damage equal to 711% of ATK to the enemies within and Freezing them for 4s.",
       "icon": "/Images/rukia/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": ""
+      "name": "Somenomai Tsukishiro"
     },
     {
-      "description": "",
+      "description": "Upon blocking the enemy's attack, Rukia wields Sodenoshirayuki to counterattack, dealing damage equal to 484% of ATK and Freezing them.",
       "icon": "/Images/rukia/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",
@@ -160,10 +160,10 @@
       "variant": null
     },
     {
-      "description": "",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Rukia gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Flash Step"
     }
   ],
   "slug": "rukia",

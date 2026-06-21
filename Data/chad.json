@@ -160,10 +160,10 @@
       "name": ""
     },
     {
-      "description": "",
+      "description": "Dodge to avoid attacks right before they hit. Chad can trigger a Perfect Dodge by dodging into an enemy. Perfect Dodges inflict True Time Freeze for 1.5. Cooldown: 15s.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Dodge"
     }
   ],
   "slug": "chad",

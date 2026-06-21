@@ -90,34 +90,34 @@
   "rotations": [],
   "skills": [
     {
-      "description": "",
+      "description": "Ulquiorra performs a 5-hit combo against enemies in front, dealing a total damage equal to (lvl 9: 616%) of ATK and building his Spiritual Pressure. The 5th basic attack releases Cero Combo - Basic Attack. Using Sonido during basic attacks will not interrupt the current basic attack sequence. After releasing a technique, special attack, or counter, tap Basic Attack to perform Blade Pursuit. Ulquiorra draws his blade, quickly closes in, and slashes enemies in front, dealing damage equal to (lvl 9: 252%) of ATK. On hit, he gains a large amount of Spiritual Pressure. After releasing this skill, he can directly chain into the 3rd basic attack. This skill can trigger a counter and can successfully counter enemies when released at the right moment. While in Form of Void, repeatedly tap or tap and hold Basic Attack to release Cero Combo - Basic Attack, Cero Combo - Counter, Cero Combo - Technique, and the enhanced Cero Combo - Special Attack in sequence. The enhanced Cero Combo - Special Attack deals damage equal to (lvl 9: 320%) of ATK and is considered a Special Attack. At Max Spiritual Pressure, tap and hold Basic Attack. Ulquiorra will dash forward and perform a melee attack. Tap Basic Attack again or tap and hold it to continue the follow-up attack. On the final hit, he leaps into the air and releases Cero Combo - Special Attack, dealing a total damage equal to (lvl 9: 400%) of ATK. For a short time after releasing this skill, tap Basic Attack to release Blade Pursuit.",
       "icon": "/Images/ulquiorra/skill-basic.png",
       "kind": "Basic Attack",
-      "name": ""
+      "name": "Unsheated"
     },
     {
-      "description": "",
+      "description": "Ulquiorra dashes to the enemy's side, performs a series of thrusts, and releases Core Combo - Technique, dealing a total damage equal to (lvl 9: 560%) of ATK and building his Spiritual Pressure. Ulquiorra can consume all Cero Marks and releases a devastating Cero, dealing damage equal to (lvl 9: 924%) of ATK to enemies.",
       "icon": "/Images/ulquiorra/skill-technique.png",
       "kind": "Technique",
-      "name": ""
+      "name": "Heavy Pressure"
     },
     {
-      "description": "",
+      "description": "Ulquiorra dashes in front of the enemy and raises his hand to pierce through their body, dealing damage equal to (lvl 9: 1920%) of ATK and entering Form of Void for 4.5 seconds to increase his damage dealt by 20%. During this state, repeatedly tap or tap and hold Basic Attack to release Cero Barrage, launching different types of Cero at the enemy in sequence.",
       "icon": "/Images/ulquiorra/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": ""
+      "name": "Dead End"
     },
     {
-      "description": "",
+      "description": "Upon blocking the enemy's attack, Ulquiorra releases Cero Combo - Counter to counterattack, dealing damage equal to (lvl 9: 680%) of ATK.",
       "icon": "/Images/ulquiorra/skill-counter.png",
       "kind": "Counter",
-      "name": ""
+      "name": "Counter"
     },
     {
-      "description": "",
+      "description": "Use Sonido to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Ulquiorra gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Sonido"
     }
   ],
   "slug": "ulquiorra",

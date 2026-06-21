@@ -159,10 +159,10 @@
       "name": ""
     },
     {
-      "description": "",
+      "description": "Dodge to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5s. Cooldown: 15s. Perfect Dodges restores 5 stacks of Ururu's Spiritual Pressure Reserve.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Dodge"
     }
   ],
   "slug": "ururu",

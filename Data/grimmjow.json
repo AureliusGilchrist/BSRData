@@ -158,10 +158,10 @@
       "variant": null
     },
     {
-      "description": "",
+      "description": "Use Sonido to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Grimmjow gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Sonido"
     }
   ],
   "slug": "grimmjow",

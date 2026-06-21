@@ -17,14 +17,16 @@
   "bondPriority": [],
   "boundaries": [
     {
-      "description": "When Byakuya releases the Ultimate, he instantly gains 30% Spiritual Pressure.",
+      "description": "When Byakuya releases his Ultimate, he immediately gains 30% Spiritual Pressure.",
       "icon": "/Images/byakuya/boundary-1.png",
-      "level": 1
+      "level": 1,
+      "name": "Lonely Moon"
     },
     {
-      "description": "When in the Bankai state, each time Byakuya uses a technique, he will gain 1 stack of Determination based on the number of successful hits landed. Each stack of Determination increases all of Byakuya's damage by 2% for 12 seconds and stacks up to 14 times. When Determination reaches more than 8 stacks, Byakuya gains an additional 40% Critical DMG.",
+      "description": "Each technique released by Byakuya while in Bankai grants him Determination based on the number of successful hits: Each stack of Determination increases all DMG by 2% for 12s. Stacks up to 14 times. When Determination is grater than 8 stacks, Byakuya gains an extra 40% Crit DMG Bonus.",
       "icon": "/Images/byakuya/boundary-2.png",
-      "level": 2
+      "level": 2,
+      "name": "Crimson Fade"
     },
     {
       "description": "Increases Level of Basic Attack, Technique, Ultimate, Counterattack, and Battlefield Skill by 2.",
@@ -32,9 +34,10 @@
       "level": 3
     },
     {
-      "description": "Techniques deal 100% more damage.",
+      "description": "Increases DMG from the techniques Scatter, Senbonzakura and Absolute Despair by 100%.",
       "icon": "/Images/byakuya/boundary-4.png",
-      "level": 4
+      "level": 4,
+      "name": "Pride"
     },
     {
       "description": "Increases Level of Basic Attack, Technique, Ultimate, Counterattack, and Battlefield Skill by 2.",
@@ -42,9 +45,10 @@
       "level": 5
     },
     {
-      "description": "When Byakuya uses his technique in the Bankai state, his Spiritual Pressure will be consumed 50% slower.",
+      "description": "When Byakuya releases Piercing Blade, his Spiritual Pressure consumption rate is reduced by 50%.",
       "icon": "/Images/byakuya/boundary-6.png",
-      "level": 6
+      "level": 6,
+      "name": "Fallen Sakura"
     }
   ],
   "builds": [
@@ -160,10 +164,10 @@
       "name": "Funeral of a Thousand Blades"
     },
     {
-      "description": "",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Byakuya gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Flash Step"
     }
   ],
   "slug": "byakuya",

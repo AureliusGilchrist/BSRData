@@ -8,7 +8,7 @@
   },
   "art": "/Images/kisuke/art.png",
   "bestStamp": {
-    "mainStats": "1: Atk%  •  2: Crit Rate  •  3: Ult Charge Rate",
+    "mainStats": "1: Atk%  •  2: Crit DMG  •  3: Ult Charge Rate",
     "notes": "S+ Support — Ult Charge Rate to keep his team-wide ATK% buff on permanent uptime.",
     "setName": "Benihime (4) + Atk (2)",
     "subStatPriority": "Crit DMG \u003e Ult Charge Rate"
@@ -161,10 +161,10 @@
       "variant": null
     },
     {
-      "description": "",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Urahara gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Flash Step"
     }
   ],
   "slug": "kisuke",

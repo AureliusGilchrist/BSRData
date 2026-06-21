@@ -136,34 +136,34 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Renji slashes the enemy with Zabimaru 5 times, dealing damage equal to 312% of ATK and accumulating Spiritual Pressure. Upon hitting enemies inflicted with Zabi Mark, he accumulates double Spiritual Pressure.",
       "icon": "/Images/renji/skill-basic.png",
       "kind": "Basic Attack",
-      "name": ""
+      "name": "Roar, Zabimaru!"
     },
     {
-      "description": "",
+      "description": "Renji plants Zabimaru deep into the ground, and the blade emerges to strike the enemy, dealing damage equal to 199.5% of ATK and pulling them toward him. This skill inflicts Zabi Mark that lats 10s on hit.",
       "icon": "/Images/renji/skill-technique.png",
       "kind": "Technique",
-      "name": ""
+      "name": "Thrust"
     },
     {
-      "description": "",
+      "description": "Renji splits Zabimaru into rapidly flying blades that slash through the air with eerie wails, slicing the enemy multiple times and dealing damage equal to 1482% of ATK.",
       "icon": "/Images/renji/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": ""
+      "name": "Higazekko"
     },
     {
-      "description": "",
+      "description": "After blocking an enemy attack, Renji swings Zabimaru, dealing DMG equal to 871% of ATK and pulling the attacker toward him. 100 Lacerate Points are inflicted when counterattacks hit.",
       "icon": "/Images/renji/skill-counter.png",
       "kind": "Counter",
-      "name": ""
+      "name": "Counter"
     },
     {
-      "description": "",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Renji gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Flash Step"
     }
   ],
   "slug": "renji",

@@ -129,37 +129,37 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Rangiku wields Haineko to strike 5 times, dealing damage equal to 90% of ATK to the enemy ahead. The last strike inflicts 1 stack of Haineko Mark on the enemy on hit.",
       "icon": "/Images/rangiku/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Growl, Haineko",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Rangiku turns her blade into ash, sweeps across the target area, and pulls nearby enemies, dealing damage equal to 380% of ATK and inflicting 2 stacks of Haineko Mark. The longer you press and hold the button, the longer the skill lasts, and the more damage it deals, up to 180% of ATK, while inflicting 3 extra stacks of Haineko Mark on the enemy.",
       "icon": "/Images/rangiku/skill-technique.png",
       "kind": "Technique",
-      "name": "Channeled Attack",
+      "name": "Like a Caged Bird",
       "variant": "Hold"
     },
     {
-      "description": "",
+      "description": "Rangiku guides the fast-spinning Haineko to create a huge tornado, pulling enemies within a large area into it, dealing damage equal to 640% of ATK and inflicting 4 stacks of Haineko Mark on the enemy hit. After the skill is released, all teammates deal 27% more Thrust DMG for 20s.",
       "icon": "/Images/rangiku/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": ""
+      "name": "Neko Rinbu"
     },
     {
-      "description": "",
+      "description": "Rangiku uses Haineko to create a defensive wall to block the enemy attack and counterattack, dealing damage equal to 458.25% of ATK and inflicting 3 stacks of Haineko Mark.",
       "icon": "/Images/rangiku/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Rangiku gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Flash Step"
     }
   ],
   "slug": "rangiku",

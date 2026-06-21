@@ -54,7 +54,7 @@
       "level": 5
     },
     {
-      "description": "The explosion damage from igniting a Kido Snare increases to the number of Insight stacks x10%. Reaching maximum Insight stacks increases Explosion DMG by an extra30%.",
+      "description": "The explosion damage from igniting a Kido Snare increases to the number of Insight stacks x10%. Reaching maximum Insight stacks increases Explosion DMG by an extra 30%.",
       "icon": "/Images/momo/boundary-6.png",
       "level": 6,
       "name": "Dancing Plum Blossoms"
@@ -151,16 +151,16 @@
       "name": "Tobiume Spurt"
     },
     {
-      "description": "",
+      "description": "Upon blocking an enemy attack with Bakudo, Hinamori counterattacks the enemy with Hado, dedaling damage equal to 453.62% of ATK. If the counterattack hits the enemy successfully, it will grant a(n) 20% Spirit Damage Boost to the team for 20s. If the counterattack hits the Kido Snare, the snare will be ignited and grant 1 stack of Insight to the team.",
       "icon": "/Images/momo/skill-counter.png",
       "kind": "Counter",
-      "name": ""
+      "name": "Counter"
     },
     {
-      "description": "",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Hinamori gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Flash Step"
     }
   ],
   "slug": "momo",

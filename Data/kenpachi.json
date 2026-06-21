@@ -207,10 +207,10 @@
       "variant": null
     },
     {
-      "description": "",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Kenpachi gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds. Upon triggering Perfect Dodge, tapping Basic Attack immediately releases the 5th attack of the basic attack chain. If Perfect Dodge is triggered while performing a Special Attack, the 3rd hit of the Special Attack can be released directly.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Flash Step"
     }
   ],
   "slug": "kenpachi",

@@ -8,7 +8,7 @@
   },
   "art": "/Images/tosen/art.png",
   "bestStamp": {
-    "mainStats": "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "mainStats": "1: ATK% \u003e Thrust DMG  •  2: Crit Rate  •  3: Ailment%",
     "notes": "Stealth Tactician — burst on the silence window.",
     "setName": "Suzumushi (4) + Thrust (2)",
     "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
@@ -16,14 +16,16 @@
   "bondPriority": [],
   "boundaries": [
     {
-      "description": "",
+      "description": "When the Battlefield Skill Flash Strike hits enemies with more than 10 stack(s) of Wound, 10 stack(s) of Wound will remain after the skill ends.",
       "icon": "/Images/tosen/boundary-1.png",
-      "level": 1
+      "level": 1,
+      "name": "Fading Light"
     },
     {
-      "description": "",
+      "description": "Increases the Wound DMG of the Battlefield Skill Flash Strike by 100%.",
       "icon": "/Images/tosen/boundary-2.png",
-      "level": 2
+      "level": 2,
+      "name": "Bloodied Path"
     },
     {
       "description": "",
@@ -31,9 +33,10 @@
       "level": 3
     },
     {
-      "description": "",
+      "description": "Increases Kaname Tosen's Ailment DMG by 100%.",
       "icon": "/Images/tosen/boundary-4.png",
-      "level": 4
+      "level": 4,
+      "name": "Peace"
     },
     {
       "description": "",
@@ -41,9 +44,10 @@
       "level": 5
     },
     {
-      "description": "",
+      "description": "After releasing an Ultimate, the next 2 release(s) of the Battlefield Skill Flash Strike will not consume any Battlefield Skill Energy.",
       "icon": "/Images/tosen/boundary-6.png",
-      "level": 6
+      "level": 6,
+      "name": "Cage of Five Senses"
     }
   ],
   "builds": [
@@ -75,15 +79,15 @@
       "setName": "Suzumushi (4) + Thrust (2)",
       "setPieces": [
         {
-          "mainStat": "Thrust DMG Bonus",
+          "mainStat": "ATK% \u003e Thrust DMG",
           "slot": 1
         },
         {
-          "mainStat": "Crit DMG",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
-          "mainStat": "Atk%",
+          "mainStat": "Ailment%",
           "slot": 3
         }
       ],
@@ -92,24 +96,24 @@
   ],
   "corePassives": [
     {
-      "description": "",
+      "description": "All of Tosen's attacks inflict Wound. Each stack of Wound deals damage equal to 2% of the caster's ATK every second for 10s, stacking up to 30 times. Releasing the Battlefield Skill, Flash Strike, immediately triggers all Wound stacks and clears them. Wound is a universal character mechanic. Wound stacks from different characters can add together, but their damage is calculated separately based on each caster's ATK.",
       "icon": "/Images/tosen/passive-1.png",
-      "name": ""
+      "name": "Wound"
     },
     {
-      "description": "",
+      "description": "Tosen's Battlefield Skills reduce enemies' Thrust Resistance by 12% for 10s on hit, stacking up to 3 times.",
       "icon": "/Images/tosen/passive-2.png",
-      "name": ""
+      "name": "Sensory Deprivation"
     },
     {
-      "description": "",
+      "description": "Increases DMG from the technique Suzumushi Thrust by 100%, and from Tsuishiki - Suzumushi Thrust by 100%.",
       "icon": "/Images/tosen/passive-3.png",
-      "name": ""
+      "name": "Disorienting Soundwave"
     },
     {
-      "description": "",
+      "description": "While attacking enemies inflicted with Wound, each Wound stack increases Tosen's Crit Rate by 4%, up to a maximum increase of 24%.",
       "icon": "/Images/tosen/passive-4.png",
-      "name": ""
+      "name": "Bloodied Justice"
     }
   ],
   "damageType": "Thrust",
@@ -139,40 +143,40 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Tosen consecutively slashes the enemy in front of him with Suzumushi, striking 5 times and edaling damage equal to 490% of ATK. The 4th strike launches the non-Super Armor enemies into the air and fires 4 Benihiko Short Stings at them, inflicting 1 stack(s) of Wound on hit.",
       "icon": "/Images/tosen/skill-basic.png",
       "kind": "Basic Attack",
-      "name": ""
+      "name": "Cry, Suzumushi"
     },
     {
-      "description": "",
+      "description": "Tosen and his afterimage step diagonally backward, gathering enemies. They then dash at the target simultaneously and launch them into the air, dealing damage equal to 310% of ATK and inflicting 2 stack(s) of Wound. While in Bankai state, Tosen performs a follow-up attack after releasing his technique, Suzumushi Thrust, dealing damage equal to 825% of ATK and creating 4 afterimages. The afterimages then attack the enemy alongside Tosen, dealing damage equal to 355% of ATK. If all techniques hit, inflicts 3 stack(s) of Wound.",
       "icon": "/Images/tosen/skill-technique.png",
       "kind": "Technique",
-      "name": ""
+      "name": "Suzumushi Thrust"
     },
     {
-      "description": "",
+      "description": "Tosen releases Bankai, gerenating 9 rings from Suzumishi's tsuba to form a large realm around him and nearby enemies. The realm pulls the enemies within to the center, dealing damage equal to 2250% of ATK and inflicting 5 stack(s) of Wound. The realm lasts 10s. Upon releasing, gains all Battlefield Skill Energy and refreshes the technique cooldown.",
       "icon": "/Images/tosen/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": ""
+      "name": "Bankai - Suzumushi Tsuishiki - Enma Korogi"
     },
     {
-      "description": "",
+      "description": "After successfully countering an enemy, Tosen dashes behind them and slashes, dealing DMG equal to 875% of ATK and inflicting 8 stacks of Wound.",
       "icon": "/Images/tosen/skill-counter.png",
       "kind": "Counter",
-      "name": ""
+      "name": "Counter"
     },
     {
-      "description": "While active, Tosen's Battlefield Skill grants the whole team 30% increased Pierce DMG. Tosen appears on the field to perform a coordinated strike equivalent to the fourth hit of his basic attack, and also gains 25 points of Battlefield Skill energy. This can only trigger once every 3 seconds, and Tosen cannot be switched out again while it's active; the Battlefield Skill won't trigger once its energy has reached maximum.",
+      "description": "While active, Tosen's Battlefield Skill grants the whole team 30% Thrust DMG Bonus. Tosen appears on the field to perform a co-strike equivalent to the 4th hit of his basic attack, and also gains 25 Battlefield Skill energy. This can only trigger once every 3 seconds, and Tosen cannot be switched out again while it's active; the Battlefield Skill won't trigger once its energy has reached maximum. At max Battlefield Skill Energy, Tosen teleports to the enemy at high speed and slashes, dealing damage equal to 300% of ATK and inflicting 2 stacks of Wound. After a brief delay, powerful Spiritual Pressure suregs along his teleport path, dealing damage equal to 450% of ATK to the enemies in the path and instantly triggering any Wound stacks on them. If the enemies are within Tosen's Ultimate realm, triggering Wound won't clear the Wound stacks.",
       "icon": "/Images/tosen/skill-bfs.png",
       "kind": "Battlefield Skill",
-      "name": "Suzumushi Nishiki - Benihiko"
+      "name": "Stake My Honor"
     },
     {
-      "description": "",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Kaname Tosen gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Flash Step"
     }
   ],
   "slug": "tosen",
