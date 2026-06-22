@@ -30,7 +30,8 @@
     {
       "description": "",
       "icon": "/Images/ichigo-white/boundary-3.png",
-      "level": 3
+      "level": 3,
+      "name": ""
     },
     {
       "description": "Whenever Inner Hollow releases Getsuga Tensho, all characters in the team gain 20% All-Skill Mastery for 20 seconds.",
@@ -41,7 +42,8 @@
     {
       "description": "",
       "icon": "/Images/ichigo-white/boundary-5.png",
-      "level": 5
+      "level": 5,
+      "name": ""
     },
     {
       "description": "Each time Getsuga Tensho is released, several extra rounds of Bala are fired at the target, dealing damage equal to 2,100% of ATK. Cooldown: 2.5 second(s). Bala can trigger all Getsuga Tensho effects.",
@@ -71,6 +73,27 @@
         }
       ],
       "subStatPriority": "Crit Rate (25%) \u003e ATK% \u003e Crit DMG \u003e Flat ATK \u003e Ult Charge Rate"
+    },
+    {
+      "label": "F2P",
+      "passiveSkills": [],
+      "range": "B0W1C5",
+      "setName": "Mindscape Encroachment (3)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus \u003e ATK%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate",
+          "slot": 2
+        },
+        {
+          "mainStat": "ATK%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit Rate \u003e ATK% \u003e Crit DMG \u003e Flat ATK \u003e Ult Charge Rate"
     }
   ],
   "corePassives": [
