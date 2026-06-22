@@ -8,10 +8,10 @@
   },
   "art": "/Images/ichigo-white/art.png",
   "bestStamp": {
-    "mainStats": "1: Slash DMG Bonus \u003e Atk%  •  2: Crit DMG (W5/C5) \u003e Crit Rate •  3: Atk% \u003e Ult Charge Rate",
+    "mainStats": "1: Slash DMG Bonus \u003e ATK%  •  2: Crit DMG (W5/C5) \u003e ATK% (W5/C5) \u003e Crit Rate •  3: Atk%",
     "notes": "No Ult Charge is necessary.",
     "setName": "Mindscape Encroachment (3)",
-    "subStatPriority": "Crit DMG \u003e Crit Rate (25% for W5/C5) \u003e Atk% \u003e Ult Charge Rate \u003e Flat Atk"
+    "subStatPriority": "Crit DMG \u003e Crit Rate (25% for W5/C5) \u003e Atk% \u003e Flat ATK \u003e Ult Charge Rate"
   },
   "bondPriority": [],
   "boundaries": [
@@ -52,9 +52,9 @@
   ],
   "builds": [
     {
-      "label": "Main",
+      "label": "Whale",
       "passiveSkills": [],
-      "range": "B0W1C1 - B6W5C5",
+      "range": "B6W5C5",
       "setName": "Mindscape Encroachment (3)",
       "setPieces": [
         {
@@ -62,7 +62,7 @@
           "slot": 1
         },
         {
-          "mainStat": "Crit DMG (W5/C5) \u003e Crit Rate",
+          "mainStat": "Crit DMG \u003e ATK%",
           "slot": 2
         },
         {
@@ -70,7 +70,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit DMG \u003e Crit Rate (25% for W5/C5) \u003e Atk% \u003e Ult Charge Rate \u003e Flat Atk"
+      "subStatPriority": "Crit Rate (25%) \u003e ATK% \u003e Crit DMG \u003e Flat ATK \u003e Ult Charge Rate"
     }
   ],
   "corePassives": [
@@ -170,10 +170,10 @@
       "name": "I Will Be King"
     },
     {
-      "description": "",
+      "description": "Use Sonido to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Inner Hollow gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds. During Bankai, Inner Hollow will trigger Sonido automatically to avoid damage right before taking a hit from the enemy.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Sonido"
     }
   ],
   "slug": "ichigo-white",

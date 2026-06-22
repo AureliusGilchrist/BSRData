@@ -4,8 +4,8 @@
     "name": "Spirit Apex — Toshiro / Aizen / Szayelaporro",
     "rank": 3,
     "tier": "S",
-    "difficulty": "Medium",
-    "content": "Boss / Trial Tower / Co-op",
+    "difficulty": "Hard",
+    "content": "Story / Co-op / Guild Boss / Trial Tower / Frenzy Feast",
     "members": [
       {
         "slug": "toshiro",
@@ -60,8 +60,8 @@
     "name": "Slash Storm — Bankai / Byakuya / Kisuke",
     "rank": 2,
     "tier": "S",
-    "difficulty": "Easy",
-    "content": "Boss / Story / Co-op",
+    "difficulty": "Hard",
+    "content": "Story / Co-op / Guild Boss / Trial Tower / Frenzy Feast",
     "members": [
       {
         "slug": "ichigo-bankai",
@@ -73,24 +73,25 @@
           "Carries buffs through swap-in"
         ],
         "swappable": [
-          "toshiro",
+          "kenpachi",
           "ichigo-shikai",
           "ichigo-initial",
-          "renji"
+          "mayuri",
+          "yachiru"
         ]
       },
       {
-        "slug": "byakuya",
-        "name": "Byakuya Kuchiki",
+        "slug": "ichigo-white",
+        "name": "Kurosaki Ichigo (Inner Hollow)",
         "role": "Tactician",
         "damageType": "Slash",
         "notes": [
-          "S Slash Tactician — petal field amps Slash damage",
-          "Damage persists off-field"
+          "S Slash Tactician — amps Slash damage",
+          "Damage buffs persist off-field"
         ],
         "swappable": [
-          "rukia",
-          "tosen"
+          "byakuya",
+          "rukia"
         ]
       },
       {
@@ -99,12 +100,11 @@
         "role": "Support",
         "damageType": "Slash",
         "notes": [
-          "S+ Slash Support — team ATK% buff (best support in game)",
+          "S+ Slash Support — team Crit DMG buff",
           "Slash element matches both DPS and Tactician"
         ],
         "swappable": [
           "yachiru",
-          "momo",
           "orihime"
         ]
       }
