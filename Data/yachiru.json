@@ -129,27 +129,27 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Yachiru freely wields her Zanpakuto, striking the enemy up to 3 times for 73.5% total DMG. If switched out within 3s of her basic attack's final strike, she will immediately Spectate.",
       "icon": "/Images/yachiru/skill-basic.png",
       "kind": "Basic Attack",
-      "name": ""
+      "name": "Leave the Tough One to Me"
     },
     {
-      "description": "",
+      "description": "Yachiru launches the enemy into mid-air dealing DMG equal to 352.75% of ATK. If switched out within the next 3s, she will immediately Spectate.",
       "icon": "/Images/yachiru/skill-technique.png",
       "kind": "Technique",
       "name": "Time to Spectate",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Yachiru takes things seriously for once and unleashes all her Spiritual Power, dealing DMG equal to 517.5% of ATK to all nearby enemies. She also grants Inspiration to all teammates, increasing their Slash DMG by 10% for 6s. If switched out within the next 3s, she will immediately Spectate.",
       "icon": "/Images/yachiru/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Yachiru is Angry!",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Yachiru hurls her Zanpakuto at the enemy, dealing DMG equal to 467.87% of ATK. If switched out within the next 3s, she will immediately Spectate for 18s.",
       "icon": "/Images/yachiru/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",

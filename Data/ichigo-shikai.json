@@ -58,15 +58,15 @@
       "setName": "Zangetsu (4) + Slash (2)",
       "setPieces": [
         {
-          "mainStat": "Slash DMG Bonus",
+          "mainStat": "Slash DMG",
           "slot": 1
         },
         {
-          "mainStat": "Crit DMG",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
-          "mainStat": "Atk%",
+          "mainStat": "ATK%",
           "slot": 3
         }
       ],
@@ -115,28 +115,28 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Ichigo wields Zangetsu and attacks the enemy 4 times with powerful Sword Pressure, dealing damage equal to 567.5% of ATK and accumulating Spiritual Pressure.",
       "icon": "/Images/ichigo-shikai/skill-basic.png",
       "kind": "Basic Attack",
-      "name": ""
+      "name": "Sword Pressure"
     },
     {
-      "description": "",
+      "description": "Ichigo leaps toward the enemy and performs a swirling slash, dealing damage equal to 297.5% of ATK. He then launches the enemy into the air, dealing damage equal to 102.5% of ATK. During the attack, Ichigo accumulates Spiritual Pressure. At Max Spiritual Pressure, Ichigo launches the enemy into the air, slams them into the ground, and releases all accumulated Spiritual Pressure upon their landing, dealing damage equal to 627.5% of ATK.",
       "icon": "/Images/ichigo-shikai/skill-technique.png",
       "kind": "Technique",
-      "name": ""
+      "name": "Collapse Strike"
     },
     {
-      "description": "",
+      "description": "Ichigo condenses Spiritual Power into a crescent wave and releases it forward, penetrating all enemies in its path and dealing damage equal to 867.5% of ATK.",
       "icon": "/Images/ichigo-shikai/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": ""
+      "name": "Getsuga Tensho"
     },
     {
-      "description": "",
+      "description": "Ichigo impales an enemy with Zangetsu and wrenches it out, dealing DMG equal to 1352.5% of ATK and increasing their received Slash DMG by 20% for 8s.",
       "icon": "/Images/ichigo-shikai/skill-counter.png",
       "kind": "Counter",
-      "name": ""
+      "name": "Counter"
     },
     {
       "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds.",

@@ -62,11 +62,11 @@
           "slot": 1
         },
         {
-          "mainStat": "Crit DMG",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
-          "mainStat": "Atk%",
+          "mainStat": "ATK%",
           "slot": 3
         }
       ],
@@ -79,15 +79,15 @@
       "setName": "Zabimaru (4) + Slash (2)",
       "setPieces": [
         {
-          "mainStat": "Slash DMG Bonus",
+          "mainStat": "Slash DMG",
           "slot": 1
         },
         {
-          "mainStat": "Crit DMG",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
-          "mainStat": "Atk%",
+          "mainStat": "ATK%",
           "slot": 3
         }
       ],

@@ -135,28 +135,28 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Ururu launches a melee attack at the target to strike 6 times, dealing admage equal to 322.5% of ATK. Landing each basic attack restores 1 stack of Spiritual Pressure Reserve. Press and hold basic attack with 1 or more stacks of Spiritual Pressure Reserve to enter the aimed firing state, during which each tap on the Basic Attack fires two cannonballs at the target, dealing up to 81% of ATK and Penetrating up to 2 targets, which halves the damage to subsequent targets. Each cannonball fired consumes 1 stack of Spiritual Pressure Reserve.",
       "icon": "/Images/ururu/skill-basic.png",
       "kind": "Basic Attack",
-      "name": ""
+      "name": "Nice to Meet You"
     },
     {
-      "description": "",
+      "description": "Ururu dashes forward and wields the cannon to knock back the enemy, dealing damage equal to 115.5% of ATK. Then, she leaps backward and fires a cannonball at the enemy, dealing damage equal to 172.5% of ATK. On hit or upon landing, the cannonball explodes and creates a 10s Burning Area. If the technique hits the target, restores 5 stacks of Spiritual Pressure Reserve.",
       "icon": "/Images/ururu/skill-technique.png",
       "kind": "Technique",
-      "name": ""
+      "name": "Maintain Safe Distance"
     },
     {
-      "description": "",
+      "description": "Ururu fires a barrage of cannonballs at the enemy, dealing damage equal to 1530% of ATK. On hit, the cannonballs create a 10s Burning Area under the enemy's feet.",
       "icon": "/Images/ururu/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": ""
+      "name": "Threat Neutralized!"
     },
     {
-      "description": "",
+      "description": "Ururu knocks back the enemy with the cannon, dealing damage equal to 321% of ATK. Meanwhile, she also fires a cannonball at the enemy, dealing damage equal to 481.5% of ATK, launching the enemy into the air, and creating a Burning Area under the enemy's feet. If the counterattack hits the target, restores 5 stacks of Spiritual Pressure Reserve.",
       "icon": "/Images/ururu/skill-counter.png",
       "kind": "Counter",
-      "name": ""
+      "name": "Counter"
     },
     {
       "description": "Dodge to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5s. Cooldown: 15s. Perfect Dodges restores 5 stacks of Ururu's Spiritual Pressure Reserve.",

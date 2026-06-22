@@ -136,28 +136,28 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Chad throws a flurry of Iron Fists forward that are designed to protect companions, striking 5 times and dealing damage equal to 361.5% of ATK. Each strike grants Spiritual Pressure on hit. At Max Spiritual Pressure, press and hold basic attack to have Chad dash forward, dealing damage over time up to 247.5% of ATK to enemies in his path. He continuously loses HP while dashing, up to 33% of his current HP. When Chad's HP drops below 25% of Max HP, dashing no longer consumes HP. When the hit limit is reached or the basic attack button is released early, Chad instantly releases a powerful attack which deals DMG equalt o 310.37% of ATK.",
       "icon": "/Images/chad/skill-basic.png",
       "kind": "Basic Attack",
-      "name": ""
+      "name": "Iron Fist Barrage"
     },
     {
-      "description": "",
+      "description": "Chad performs his signature shoulder throw and slams the enemy in front of him to the ground, dealing damage equal to 91.5% of ATK. He then tosses them with tremendous force, dealing damage equal to 136.5% of ATK. after that, immediately tap the absic attack button to release an impaling strike on the enemy in front, dealing damage equal to 148.5% of ATK and accumulating a large amount amount of Spiritual Pressure.",
       "icon": "/Images/chad/skill-technique.png",
       "kind": "Technique",
-      "name": ""
+      "name": "Heavy Toss"
     },
     {
-      "description": "",
+      "description": "Chad channels his Spiritual Power into Brazo Derecho Del Gigante and unleashes a massive azure Spiritual Pressure shockwave, dealing damage equal to 481.5% of ATK to the enemy hit and immediately restoring HP equal to 30% of Max HP.",
       "icon": "/Images/chad/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": ""
+      "name": "Transformed Right Arm"
     },
     {
-      "description": "",
+      "description": "After blocking an enemy attack with his left fist, Chad channels his Spiritual Power into his right arm and launches a powerful strike forward, dealing damage equal to 802.5% of ATK to the enemy hit.",
       "icon": "/Images/chad/skill-counter.png",
       "kind": "Counter",
-      "name": ""
+      "name": "Counter"
     },
     {
       "description": "Dodge to avoid attacks right before they hit. Chad can trigger a Perfect Dodge by dodging into an enemy. Perfect Dodges inflict True Time Freeze for 1.5. Cooldown: 15s.",

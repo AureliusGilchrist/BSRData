@@ -75,7 +75,7 @@
           "slot": 2
         },
         {
-          "mainStat": "Atk% \u003e Ultimate Charge",
+          "mainStat": "Atk%",
           "slot": 3
         }
       ],
@@ -134,28 +134,28 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Yoruichi strikes the enemy 5 times with martial arts, dealing damage equal to 716% of ATK and gaining Spiritual Pressure. Press and hold basic attakc at max Spiritual Pressure to unleash Hakuda - Blitz. Yoruichi leaps high into the air and charges briefly to smash the target, dealing damage equal to 270% of ATK. Tap basic attack after dodging an enemy attack to unleash Hakuad - Stomping Strike. Yoruichi quickly leaps above the target and stomps down, dealing damage equal to 136% of ATK.",
       "icon": "/Images/yoruichi/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Hakuda: Combo",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Yoruichi approaches the target with Flash Step, stomps on them, and attacks with a shuriken, dealing damage equal to 348% of ATK. After releasing this skill, immediately tap basic attack to fololw up with the special attack, Hakuda - Stomping Strike.",
       "icon": "/Images/yoruichi/skill-technique.png",
       "kind": "Technique",
       "name": "Anken, Dark Sword",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Yoruichi wraps herself in highly compressed Kido and enters Shunko, instantly launching a powerful strike on the target, which deals DMG equal to 988% of ATK. Shunko lasts for 10s, during which Yoruichi's ATK increases by 20% and her Spiritual Pressure Charge Rate increases by 60%. She can also instantly release a special attack without consuming Spiritual Pressure.",
       "icon": "/Images/yoruichi/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": "Shunko State",
+      "name": "Shunko",
       "variant": "State"
     },
     {
-      "description": "",
+      "description": "Yoruichi rapidly approaches the enemy and launches countless attacks instantly, dealing damage equal to 1500.25% of ATK.",
       "icon": "/Images/yoruichi/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",

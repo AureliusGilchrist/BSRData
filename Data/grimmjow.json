@@ -130,28 +130,28 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Grimmjow launches a series of close-range attacks, dealing 4 hits for a total damage equal to 684% of ATK and gaining Spiritual Pressure. When Spiritual Pressure Reserve reaches 2, tap counter to leap into the air and have Grimmjow draw his blade to slash the enemy ahead, dealing damage equal to 660% of ATK and gaining Spiritual Pressure. This skill consumes 2 points of Spiritual Pressure Reserve.",
       "icon": "/Images/grimmjow/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Don't Disappoint Me",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Grimmjow instantly closes in on the enemy and slashes, dealing damage equal to 320% of ATK and inflicting 1 stack of Destruction Mark to enemies hit. After use, this can directly chain into the 4th hit of basic attack, immediately detonating 1 stack of Destruction Mark and granting 1 stack of Spiritual Pressure Reserve.",
       "icon": "/Images/grimmjow/skill-technique.png",
       "kind": "Technique",
       "name": "Killing Intent",
       "variant": null
     },
     {
-      "description": "",
+      "description": "Grimmjow uses his own blood as a medium to release the strongest Gran Rey Cero, dealing damage equal to 536% of ATK to the enemy and entering Form of Destruction. During this state, basic attacks are greatly enhanced, and Ultimate Energy continuously drains. When Ultimate Energy reaches zero, Form of Destruction ends. When this skill is released, immediately inflicts 5 stacks of Destruction Mark to the enemy. During Form of Destruction, Grimmjow draws his Zanpakuto and rapidly slashes the enemy, dealing 3 hits for a total damage equal to 688% of ATK. When this skill is released, each hit detonates 1 stack of Destruction Mark on the enemy.",
       "icon": "/Images/grimmjow/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": "Form of Destruction",
+      "name": "Gran Rey Cero",
       "variant": "Enhanced Basic"
     },
     {
-      "description": "",
+      "description": "Grimmjow counters the enemy's attack and fires a close-range Cero, dealing damage equal to 1200% of ATK and inflicting 2 stacks of Destruction Mark.",
       "icon": "/Images/grimmjow/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",

@@ -8,7 +8,7 @@
   },
   "art": "/Images/ikkaku/art.png",
   "bestStamp": {
-    "mainStats": "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
+    "mainStats": "1: Thrust DMG Bonus  •  2: Crit Rate  •  3: ATK%",
     "notes": "S-tier Assault — counter-focused, prioritize Crit DMG once Crit Rate hits ~60%.",
     "setName": "Hozukimaru (4) + Thrust (2)",
     "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
@@ -96,33 +96,33 @@
   ],
   "corePassives": [
     {
-      "description": "",
+      "description": "Ikkaku deals 3% more Thrust DMG for each living enemy around him, up to 15%.",
       "icon": "/Images/ikkaku/passive-1.png",
-      "name": ""
+      "name": "Today Is My Lucky Day!"
     },
     {
-      "description": "",
+      "description": "Whenever defeating an enemy, Ikkaku accumulates 25 Spiritual Pressure and gains the Rousing Passion state: Deals 30% more Thrust DMG for 8s.",
       "icon": "/Images/ikkaku/passive-2.png",
-      "name": ""
+      "name": "Is That It?"
     },
     {
-      "description": "",
+      "description": "Ikkaku's special attack DMG increases by 50% and inflicts Wound on hit.",
       "icon": "/Images/ikkaku/passive-3.png",
-      "name": ""
+      "name": "Blade-Sheath Exchange"
     },
     {
-      "description": "",
+      "description": "Each special attack in Bankai state provides a 100% Crit DMG Bonus to the next Slow Hozukimaru. Stacks up to 2 times.",
       "icon": "/Images/ikkaku/passive-4.png",
-      "name": ""
+      "name": "Crimson Ryumon"
     }
   ],
   "damageType": "Thrust",
   "name": "Ikkaku Madarame",
   "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
   "rarity": "SSR",
-  "recommendedStopBoundary": 5,
-  "recommendedStopBoundaryF2P": 1,
-  "recommendedStopBoundaryP2W": 5,
+  "recommendedStopBoundary": 0,
+  "recommendedStopBoundaryF2P": 0,
+  "recommendedStopBoundaryP2W": 0,
   "releaseDate": "21 Nov 2025",
   "role": "Assault",
   "rotations": [
@@ -143,28 +143,28 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Ikkaku wields Hozukimaru continuously to strike 5 times, dealing damage equal to 528% of ATK. Ikkaku accumulates Spiritual Pressure for each hit on the enemy. Press and hold basic attack at Max Spiritual Pressure to march forward and thrust once, dealing damage equal to 302% of ATK. After that, immediately tap the basic attack button again to make Ikkaku sweep a large area with Hozukimaru in its three-section-staff form, dealing damage equal to 452% of ATK. In Bankai State, Ikkaku wields Ryumon Hozukimaru side to side to strike twice, dealing damage equal to 308% of ATK. Ikkaku accumulates Spiritual Pressure for each hit on the enemy. Press and hold basic attack at Max Spiritual Pressure in Bankai state to keep spinning Ryumon Hozukimaru to create a strong whirlwind, dealing damage equal to 680% of ATK to enemies within a large area and pulling them toward him. When Ikkaku stops spinning his weapon, immediately tap the basic attack button again to release a powerful follow-up attack that deals damage equal to 680% of ATK.",
       "icon": "/Images/ikkaku/skill-basic.png",
       "kind": "Basic Attack",
-      "name": ""
+      "name": "Extemd, Hozukimaru"
     },
     {
-      "description": "",
+      "description": "Ikkaku dashes behind the target and then launches consecutive attacks with Hozukimaru in its three-section-staff form, dealing damage equal to 378% of ATK. In Bankai State, Ikkaku leaps up high into the air and slashes to deal damage equal to 282% of ATK. After he lands, immediately tap the technique button again to release a follow-up attack, dealing damage equal to 282% of ATK and inflicting 1 stack of Wound on the enemy.",
       "icon": "/Images/ikkaku/skill-technique.png",
       "kind": "Technique",
-      "name": ""
+      "name": "Break, Hozukimaru"
     },
     {
-      "description": "",
+      "description": "Ikakku keeps wielding Hozukimaru, dealing damage equal to 552% of ATK to nearby enemies. Then, he releases Hozukimaru's pwoer to its maximum and enters the Bankai state for 14s, during which all attack moves are enhanced, and HP will not drop below 1. Tap the Ultimate again in Bankai state to unleash Slow Hozukimaru. Ikkaku releases all of Ryumon Hozukimaru's power to launch an explosive, powerful strike, dealing damage equal to 1584% of ATK and removing the Bankai state.",
       "icon": "/Images/ikkaku/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": ""
+      "name": "Bankai - Ryumon Hozukimaru"
     },
     {
-      "description": "",
+      "description": "After countering an enemy attack, Ikkaku thrusts consecutively forward with Hozukimaru, dealing damage equal to 1000% of ATK and raising his Spiritual Pressure to the maximum. In Bankai, Ikakku will automatically release a Technique and raise his Spiritual Pressure to the maximum.",
       "icon": "/Images/ikkaku/skill-counter.png",
       "kind": "Counter",
-      "name": ""
+      "name": "Counter"
     },
     {
       "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Ikkaku gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15s. In Bankai State, Ikkau's dodges will no longer avoid DMG from the enemy. Instead, Ikkaku attacks the enemy while moving. Forward attacks deal DMG equal to 34% of ATK, while fallback attacks deal DMG equal to 43% of ATK. Perfect Dodge effects can also be triggered while dealing DMG.",
