@@ -1,0 +1,18 @@
+{
+  "slug": "ichigo-white",
+  "characterSlug": "ichigo-white",
+  "characterName": "Kurosaki Ichigo (Inner Hollow)",
+  "weaponName": "",
+  "weaponArt": "",
+  "weaponRarity": "",
+  "weaponDescription": "",
+  "weaponEffect": "",
+  "weaponStamp": {
+    "ascend1": [],
+    "ascend5": []
+  },
+  "coreStamp": {
+    "ascend1": [],
+    "ascend5": []
+  }
+}

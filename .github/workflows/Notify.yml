@@ -1,11 +1,15 @@
 # Notify the site to redeploy whenever BSRData's data changes on a push.
 #
+# This redeploys the site's STAGING build (which tracks the latest BSRData) so
+# data changes are previewable within minutes. It does NOT promote anything to
+# the live/stable site — that only happens when Promote.yml moves the stable
+# pin, by hand.
+#
 # This covers MANUAL / human pushes to BSRData (e.g. hand-edited JSON). The
-# automated daily scrape commits with the default GITHUB_TOKEN, and GitHub
+# automated scheduled scrape commits with the default GITHUB_TOKEN, and GitHub
 # deliberately does NOT trigger `on: push` workflows for token-made commits to
 # avoid recursion — so that path dispatches from Scrape.yml's own "Notify site
-# to deploy" step instead. Between the two, every data change (automated or
-# manual) redeploys the site within minutes.
+# to deploy" step instead.
 #
 # Requires a repo secret SITE_DISPATCH_TOKEN: a PAT with "contents: write"
 # (classic repo scope) or a fine-grained PAT with Contents: read/write on the

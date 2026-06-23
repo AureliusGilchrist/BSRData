@@ -1,0 +1,18 @@
+{
+  "slug": "tosen",
+  "characterSlug": "tosen",
+  "characterName": "Kaname Tosen",
+  "weaponName": "",
+  "weaponArt": "",
+  "weaponRarity": "",
+  "weaponDescription": "",
+  "weaponEffect": "",
+  "weaponStamp": {
+    "ascend1": [],
+    "ascend5": []
+  },
+  "coreStamp": {
+    "ascend1": [],
+    "ascend5": []
+  }
+}

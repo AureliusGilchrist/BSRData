@@ -1,0 +1,18 @@
+{
+  "slug": "ichigo-shikai",
+  "characterSlug": "ichigo-shikai",
+  "characterName": "Ichigo Kurosaki (Shikai)",
+  "weaponName": "",
+  "weaponArt": "",
+  "weaponRarity": "",
+  "weaponDescription": "",
+  "weaponEffect": "",
+  "weaponStamp": {
+    "ascend1": [],
+    "ascend5": []
+  },
+  "coreStamp": {
+    "ascend1": [],
+    "ascend5": []
+  }
+}

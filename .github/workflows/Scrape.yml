@@ -52,9 +52,11 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      # Tell the site repo to rebuild + redeploy immediately so the refreshed
-      # data goes live within minutes. A commit pushed with the default
-      # GITHUB_TOKEN does NOT trigger the site's `on: push` / this repo's
+      # Tell the site repo to rebuild + redeploy so the refreshed data shows on
+      # the STAGING build immediately (staging tracks latest BSRData). This does
+      # NOT promote anything to the live/stable site — that only happens when
+      # Promote.yml moves the stable pin, by hand. A commit pushed with the
+      # default GITHUB_TOKEN does NOT trigger the site's `on: push` / this repo's
       # Notify.yml, so we dispatch explicitly here. Requires a repo secret
       # SITE_DISPATCH_TOKEN: a PAT with "contents: write" (classic repo scope)
       # or a fine-grained PAT with Contents: read/write on the

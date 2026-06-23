@@ -1,0 +1,18 @@
+{
+  "slug": "ichigo-bankai",
+  "characterSlug": "ichigo-bankai",
+  "characterName": "Ichigo Kurosaki (Bankai)",
+  "weaponName": "",
+  "weaponArt": "",
+  "weaponRarity": "",
+  "weaponDescription": "",
+  "weaponEffect": "",
+  "weaponStamp": {
+    "ascend1": [],
+    "ascend5": []
+  },
+  "coreStamp": {
+    "ascend1": [],
+    "ascend5": []
+  }
+}
