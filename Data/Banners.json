@@ -1,14 +1,5 @@
 {
-  "current": {
-    "name": "Ichigo Kurosaki・Inner Hollow Releases!",
-    "slugs": [
-      "ichigo-white"
-    ],
-    "startDate": "2026-06-05",
-    "endDate": "2026-06-26",
-    "note": "First limited Slash Tactic SSR. White debuts in his Shikai as well as Bankai forms."
-  },
-  "upcoming": [
+  "banners": [
     {
       "name": "Ulquiorra Shifar (Base) SR+ Free Unit",
       "slugs": [
@@ -17,6 +8,15 @@
       "startDate": "2026-06-05",
       "endDate": "2026-06-05",
       "note": "Base form Ulquiorra, and will be free via mail on the 5th of June, 2026 (UTC)."
+    },
+    {
+      "name": "Ichigo Kurosaki・Inner Hollow Releases!",
+      "slugs": [
+        "ichigo-white"
+      ],
+      "startDate": "2026-06-05",
+      "endDate": "2026-06-26",
+      "note": "First limited Slash Tactic SSR. White debuts in his Shikai as well as Bankai forms."
     },
     {
       "name": "Ulquiorra Shifar (Resurrección) SSR Rate-Up",
