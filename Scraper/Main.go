@@ -288,7 +288,7 @@ func existingCharacterSlugs() map[string]bool {
 	}
 	skip := map[string]bool{
 		"Index.json": true, "Stamps.json": true,
-		"Teams.json": true, "Banners.json": true,
+		"Teams.json": true, "Banners.json": true, "Glossary.json": true,
 	}
 	for _, f := range files {
 		name := f.Name()
@@ -338,7 +338,7 @@ func warnMissingScraperEntries() {
 	if files, err := os.ReadDir(dataDir); err == nil {
 		skip := map[string]bool{
 			"Index.json": true, "Stamps.json": true,
-			"Teams.json": true, "Banners.json": true,
+			"Teams.json": true, "Banners.json": true, "Glossary.json": true,
 		}
 		for _, f := range files {
 			name := f.Name()
@@ -1671,7 +1671,7 @@ func writeIndex() error {
 		if f.IsDir() || !strings.HasSuffix(f.Name(), ".json") {
 			continue
 		}
-		if f.Name() == "Index.json" || f.Name() == "Stamps.json" || f.Name() == "Teams.json" || f.Name() == "Banners.json" {
+		if f.Name() == "Index.json" || f.Name() == "Stamps.json" || f.Name() == "Teams.json" || f.Name() == "Banners.json" || f.Name() == "Glossary.json" {
 			continue
 		}
 		raw, err := os.ReadFile(filepath.Join(dataDir, f.Name()))

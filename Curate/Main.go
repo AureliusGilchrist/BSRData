@@ -1,7 +1,7 @@
 // Generates the aggregate Banners.json (and regenerates Index.json) for the
 // site. Run with:
 //
-//   cd "Data Source/curate" && go run .
+//	cd "Data Source/curate" && go run .
 //
 // NOTE: this program no longer merges any curated fields into the per-character
 // ../Data/<slug>.json files — those are owned solely by the scraper (which only
@@ -83,7 +83,9 @@ type BannerData struct {
 // Banners.
 //
 // Sourced from the Spanish BSR Fandom wiki "Eventos China" timeline:
-//   https://bleach-soul-resonance-esp.fandom.com/es/wiki/Eventos_China
+//
+//	https://bleach-soul-resonance-esp.fandom.com/es/wiki/Eventos_China
+//
 // The `current` banner powers the home-page countdown; `upcoming` is shown on
 // the /upcoming page.
 //
@@ -222,6 +224,57 @@ func main() {
 	} else {
 		fmt.Println("  + Index.json regenerated (with releaseDate)")
 	}
+
+	// Aggregate the per-term glossary files into a single Glossary.json the site
+	// fetches at runtime. Drop a new Data/Glossary/<Term>.json and it's picked up.
+	if n, err := regenerateGlossary(dataDir); err != nil {
+		fmt.Printf("  ! glossary regen: %v\n", err)
+	} else {
+		fmt.Printf("  + Glossary.json regenerated (%d term(s))\n", n)
+	}
+}
+
+// regenerateGlossary scans dataDir/Glossary/*.json (one file per term:
+// {"term": "...", "definition": "..."}) and writes a combined dataDir/Glossary.json
+// mapping term -> definition. The filename is the fallback term name. This is the
+// glossary the website loads to make in-game terms hoverable in ability text.
+func regenerateGlossary(dataDir string) (int, error) {
+	glossDir := filepath.Join(dataDir, "Glossary")
+	files, err := os.ReadDir(glossDir)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return 0, nil // no glossary folder yet — nothing to do
+		}
+		return 0, err
+	}
+	out := map[string]string{}
+	for _, f := range files {
+		if f.IsDir() || filepath.Ext(f.Name()) != ".json" {
+			continue
+		}
+		raw, err := os.ReadFile(filepath.Join(glossDir, f.Name()))
+		if err != nil {
+			continue
+		}
+		var entry struct {
+			Term       string `json:"term"`
+			Definition string `json:"definition"`
+		}
+		if err := json.Unmarshal(raw, &entry); err != nil {
+			continue
+		}
+		term := entry.Term
+		if term == "" {
+			term = f.Name()[:len(f.Name())-len(".json")]
+		}
+		out[term] = entry.Definition
+	}
+	buf, err := json.MarshalIndent(out, "", "  ")
+	if err != nil {
+		return 0, err
+	}
+	buf = append(buf, '\n')
+	return len(out), os.WriteFile(filepath.Join(dataDir, "Glossary.json"), buf, 0644)
 }
 
 // regenerateIndex walks dataDir, reads every per-char JSON, and writes a fresh
@@ -251,7 +304,7 @@ func regenerateIndex(dataDir string) error {
 		if filepath.Ext(name) != ".json" {
 			continue
 		}
-		if name == "Index.json" || name == "Stamps.json" || name == "Teams.json" || name == "Banners.json" {
+		if name == "Index.json" || name == "Stamps.json" || name == "Teams.json" || name == "Banners.json" || name == "Glossary.json" {
 			continue
 		}
 		raw, err := os.ReadFile(filepath.Join(dataDir, name))
