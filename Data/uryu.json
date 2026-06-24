@@ -160,7 +160,7 @@
       "name": "Counter"
     },
     {
-      "description": "While active, Ishida's Battlefield Skill increases the whole team's damage of all types by 15%. Reishi Convergence: switches Ishida in immediately to fire a powerful spirit-energy arrow, consuming all current Battlefield Skill energy for 398% ATK damage. Support Shot: switches Ishida in immediately to quickly fire at the target for 126% of ATK; this does not consume any accumulated Battlefield Skill energy. Reishi Convergence (field trigger): Ishida steps onto the field and unleashes a Combo Attack for up to 180% of ATK. After Ishida triggers Combo Attack twice or more in a row, the Battlefield Skill button activates; releasing the Battlefield Skill at that point does not consume Battlefield Skill energy.",
+      "description": "While active, Ishida's Battlefield Skill increases the whole team's damage of all types by 15%. Reishi Convergence: switches Ishida in immediately to fire a powerful spirit-energy arrow, consuming all current Battlefield Skill energy for 398% ATK damage. \n \n 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑺𝒉𝒐𝒕: switches Ishida in immediately to quickly fire at the target for 126% of ATK; this does not consume any accumulated Battlefield Skill energy. Reishi Convergence (field trigger): Ishida steps onto the field and unleashes a Combo Attack for up to 180% of ATK. After Ishida triggers Combo Attack twice or more in a row, the Battlefield Skill button activates; releasing the Battlefield Skill at that point does not consume Battlefield Skill energy.",
       "icon": "/Images/uryu/skill-bfs.png",
       "kind": "Battlefield Skill",
       "name": "Reishi Convergence"
