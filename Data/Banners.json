@@ -95,6 +95,30 @@
       ],
       "startDate": "2026-06-26",
       "note": "Ulquiorra Shifar set to compete against Toshiro as a Spirit Full Assault with his dual forms; Murciélago and Segunda Etapa."
+    },
+    {
+      "name": "Kurosaki Ichigo (True Shikai) SSR Rate-Up",
+      "slugs": [
+        "true-ichigo"
+      ],
+      "startDate": "2026-07-15",
+      "note": "Kurosaki Ichigo (True Shikai) is based on the TYBW arc. He is a COLLAB unit, which means there likely won't be a second go at him. While we don't know the typing nor role, we do suspect he'll be coming July 15th along with Ishida Uryu (Sternritter), was rumored to be thrust."
+    },
+    {
+      "name": "Ishida Uryu (Sternritter) SSR Rate-Up",
+      "slugs": [
+        "stern-ishida"
+      ],
+      "startDate": "2026-07-15",
+      "note": "Ishida Uryu (Sternritter) Is based on the TYBW arc. He is a COLLAB unit, which means there likely won't be a second go at him. While we don't know the typing nor role, we do suspect he'll be coming July 15th along with Kurosaki Ichigo (True Shikai), was rumored to be thrust."
+    },
+    {
+      "name": "Orihime Inoue (Shun Shun Rikka) SSR Rate-Up",
+      "slugs": [
+        "shun-orihime"
+      ],
+      "startDate": "2026-07-15",
+      "note": "Although not confirmed, highly suspected unit to be with Ishida Uryu (Sternritter) and Kurosaki Ichigo (True Shikai)."
     }
   ],
   "leaks": [
