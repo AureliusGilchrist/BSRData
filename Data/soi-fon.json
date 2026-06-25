@@ -8,10 +8,10 @@
   },
   "art": "/Images/soi-fon/art.png",
   "bestStamp": {
-    "mainStats": "1: ATK% \u003e Strike DMG Bonus  •  2: Crit DMG \u003e ATK%  •  3: Ailment% \u003e ATK%",
-    "notes": "Two-rotation Tactician — the second deletes bosses.",
+    "mainStats": "1: Strike DMG \u003e ATK%  •  2: Crit DMG \u003e ATK%  •  3: Ailment% \u003e ATK%",
+    "notes": "Two-rotation Tactician — the second leads into Ultimate.",
     "setName": "Stealth Force (3)",
-    "subStatPriority": "Ailment% \u003e Crit DMG \u003e Crit Rate (25%) \u003e Atk% \u003e Flat Atk"
+    "subStatPriority": "Ailment% \u003e Crit DMG \u003e Crit Rate (25%) \u003e ATK% \u003e Flat ATK"
   },
   "bondPriority": [
     {
@@ -57,41 +57,41 @@
   ],
   "builds": [
     {
-      "label": "Endgame",
+      "label": "Whale",
       "passiveSkills": [
-        "Enhanced Damage OR Overdrive"
+        "Enhanced DMG OR Overdrive"
       ],
-      "range": "B1W5C5 - B6W5C5",
+      "range": "B6W5C5",
       "setName": "Stealth Force",
       "setPieces": [
         {
-          "mainStat": "Strike DMG Bonus \u003e Atk%",
+          "mainStat": "Strike DMG \u003e ATK%",
           "slot": 1
         },
         {
-          "mainStat": "Crit DMG \u003e Crit Rate",
+          "mainStat": "Crit DMG \u003e ATK%",
           "slot": 2
         },
         {
-          "mainStat": "Atk% \u003e Ailment DMG Bonus",
+          "mainStat": "Ailment%",
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Ailment DMG Bonus \u003e Atk",
+      "subStatPriority": "Ailment% \u003e Crit Rate (25%) \u003e ATK% \u003e Crit DMG \u003e Flat ATK",
       "targets": {
-        "ultChargeRate": "Any%"
+        "ultChargeRate": "None"
       }
     },
     {
-      "label": "Early",
+      "label": "Low investment",
       "passiveSkills": [
-        "Enhanced Damage OR Overdrive"
+        "Ult DMG \u003e Enhanced DMG or Overdrive"
       ],
-      "range": "B0W1C1",
+      "range": "B1W1C1 - B5W1C1",
       "setName": "Stealth Force",
       "setPieces": [
         {
-          "mainStat": "Strike DMG Bonus \u003e Atk%",
+          "mainStat": "Strike DMG \u003e ATK%",
           "slot": 1
         },
         {
@@ -99,11 +99,37 @@
           "slot": 2
         },
         {
-          "mainStat": "Ultimate Charge Rate \u003e Atk% \u003e Ailment DMG Bonus",
+          "mainStat": "ATK% \u003e Ailment DMG Bonus",
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Ailment DMG Bonus \u003e Atk",
+      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Ailment% \u003e Flat ATK",
+      "targets": {
+        "ultChargeRate": "None"
+      }
+    },
+ {
+      "label": "No investment",
+      "passiveSkills": [
+        "Invigorate or Restrain \u003e Ult DMG \u003e Enhanced DMG or Overdrive"
+      ],
+      "range": "B0W1C1",
+      "setName": "Stealth Force",
+      "setPieces": [
+        {
+          "mainStat": "Strike DMG \u003e ATK%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate \u003e Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ult Charge \u003e ATK% \u003e Ailment DMG Bonus",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit Rate \u003e Ult Charge \u003e Crit DMG \u003e ATK% \u003e Ailment% \u003e Flat ATK",
       "targets": {
         "ultChargeRate": "140%+"
       }
@@ -111,7 +137,7 @@
   ],
   "corePassives": [
     {
-      "description": "When Soi Fon releases the Special Attack - Time's Up or Battlefield Skill - Twin-Strike Execution, she inflicts the enemy with Execution Target for 15 seconds. During this time, whenever the enemy is attacked by any character, an extra Sting equal to 55% of Soi Fon's ATK is triggered. Cooldown: 2 seconds. Tapping Basic Attack after Soi Fon's Perfect Dodge, or her icon after a teammate's Perfect Dodge, triggers Windmill. Cooldown: 14 seconds.",
+      "description": "When Soi Fon releases the Special Attack - Time's Up or Battlefield Skill - Twin-Strike Execution, she inflicts the enemy with Execution Target for 15 seconds. During this time, whenever the enemy is attacked by any character, an extra Sting equal to 55% of Soi Fon's ATK is triggered. Cooldown: 2 seconds. \n \n  Tapping Basic Attack after Soi Fon's Perfect Dodge, or her icon after a teammate's Perfect Dodge, triggers Windmill. Cooldown: 14 seconds.",
       "icon": "/Images/soi-fon/passive-1.png",
       "name": "Execution Begins"
     },
@@ -156,7 +182,7 @@
   ],
   "skills": [
     {
-      "description": "Soi Fon releases Hakuda in quick succession, striking 5 times for a total damage equal to 945% of ATK while building her Spiritual Pressure. When releasing the 3rd and 4th hits, Soi Fon gains 1 point of Deathmark. At max Spiritual Pressure, release the 2nd hit of later of Basic Attack. Soi Fon cuts into the enemy with Suzumebachi, dealing total damage equal to 465% of ATK and inflicting Homonka. If the enemy is already marked with Homonka, the attack deals 232.5% of ATK as damage, consumes the mark and deals an extra 275% of ATK as Sting DMG. The first teammate switched in within 8 seconds after releasing the attack will automatically perform their counterattack. The counterattack's damage and Spiritual Pressure Reduction Rate are reduced by 50%. Release Basic Attack after a Perfect Dodge, or by tapping Soi Fon's icon after a teammate's Perfect Dodge to trigger Windmill. Soi Fon teleports in front of the enemy and delivers a series of kicks, dealing damage equal to 157.5% of ATK and gaining 4 points of Deathmark. Tap Basic Atatck after releasing Windmill to release Back Strike. Soi Fon teleports behind the enemy and releases a rapid combo, dealing damage equal to 157.5% of ATK and gaining 4 points of Deathmark. After releasing Back Strike, tap Basic Attack to immediately release the 5th hit of the Basic Attack.",
+      "description": "Soi Fon releases Hakuda in quick succession, striking 5 times for a total damage equal to 945% of ATK while building her Spiritual Pressure. When releasing the 3rd and 4th hits, Soi Fon gains 1 point of Deathmark. \n \n Ｔｉｍｅ＇ｓ　Ｕｐ \n 𝑨𝒕 𝒎𝒂𝒙 𝑺𝒑𝒊𝒓𝒊𝒕𝒖𝒂𝒍 𝑷𝒓𝒆𝒔𝒔𝒖𝒓𝒆, 𝒓𝒆𝒍𝒆𝒂𝒔𝒆 𝒕𝒉𝒆 2𝒏𝒅 𝒉𝒊𝒕 𝒐𝒓 𝒍𝒂𝒕𝒆𝒓 𝒐𝒇 𝑩𝒂𝒔𝒊𝒄 𝑨𝒕𝒕𝒂𝒄𝒌 \n Soi Fon cuts into the enemy with Suzumebachi, dealing total damage equal to 465% of ATK and inflicting Homonka. If the enemy is already marked with Homonka, the attack deals 232.5% of ATK as damage, consumes the mark and deals an extra 275% of ATK as Sting DMG. \n The first teammate switched in within 8 seconds after releasing the attack will automatically perform their counterattack. The counterattack's damage and Spiritual Pressure Reduction Rate are reduced by 50%. \n \n Ｗｉｎｄｍｉｌｌ \n 𝑹𝒆𝒍𝒆𝒂𝒔𝒆 𝑩𝒂𝒔𝒊𝒄 𝑨𝒕𝒕𝒂𝒄𝒌 𝒂𝒇𝒕𝒆𝒓 𝒂 𝑷𝒆𝒓𝒇𝒆𝒄𝒕 𝑫𝒐𝒅𝒈𝒆, 𝒐𝒓 𝒃𝒚 𝒕𝒂𝒑𝒑𝒊𝒏𝒈 𝑺𝒐𝒊 𝑭𝒐𝒏'𝒔 𝒊𝒄𝒐𝒏 𝒂𝒇𝒕𝒆𝒓 𝒂 𝒕𝒆𝒂𝒎𝒎𝒂𝒕𝒆'𝒔 𝑷𝒆𝒓𝒇𝒆𝒄𝒕 𝑫𝒐𝒅𝒈𝒆 \n Soi Fon teleports in front of the enemy and delivers a series of kicks, dealing damage equal to 157.5% of ATK and gaining 4 points of Deathmark. \n \n ﻿Ｂａｃｋ　Ｓｔｒｉｋｅ \n 𝑻𝒂𝒑 𝑩𝒂𝒔𝒊𝒄 𝑨𝒕𝒕𝒂𝒄𝒌 𝒂𝒇𝒕𝒆𝒓 𝒓𝒆𝒍𝒆𝒂𝒔𝒊𝒏𝒈 𝑾𝒊𝒏𝒅𝒎𝒊𝒍𝒍 \n Soi Fon teleports behind the enemy and releases a rapid combo, dealing damage equal to 157.5% of ATK and gaining 4 points of Deathmark. \n After releasing Back Strike, tap Basic Attack to immediately release the 5th hit of the Basic Attack.",
       "icon": "/Images/soi-fon/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Real Assassination",
@@ -172,7 +198,7 @@
       "description": "Soi Fon releases her Bankai and fires the devastating Jakuho Raikoben at the enemy, dealing damage equal to 6010% of ATK.",
       "icon": "/Images/soi-fon/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": "Bankai: Jakuho Raikoben",
+      "name": "Bankai - Jakuho Raikoben",
       "variant": null
     },
     {
@@ -183,10 +209,10 @@
       "variant": null
     },
     {
-      "description": "While active, Soi Fon's Battlefield Skill increases all teammates' Strike DMG by 40%. It runs on two types of energy — Death Mark and Battlefield Skill Energy — corresponding to her two Battlefield Skills, Combo Strike and Twin-Strike Execution. Soi Fon gains Battlefield Skill Energy by consuming Death Mark, and enters the field with Battlefield Skill Energy already at maximum. Combo Strike: when another teammate lands a hit while Soi Fon's Battlefield Skill Energy isn't at maximum, 1 point of Death Mark is automatically consumed to trigger Combo Strike, dealing 38% of Soi Fon's ATK and granting 1 point of Battlefield Skill Energy. Twin-Strike Execution: Soi Fon teleports to the enemy and strikes with Suzumebachi — if the target isn't marked with Homonka, this deals 755% of her ATK and applies Homonka; if it already is, it instead deals 662% of her ATK and triggers an additional Sting instance for 110% of her ATK, consuming the Homonka mark.",
+      "description": "𝐖𝐡𝐢𝐥𝐞 𝐭𝐡𝐞 𝐁𝐚𝐭𝐭𝐥𝐞𝐟𝐢𝐞𝐥𝐝 𝐒𝐤𝐢𝐥𝐥 𝐢𝐬 𝐚𝐜𝐭𝐢𝐯𝐞, 𝐚𝐥𝐥 𝐜𝐡𝐚𝐫𝐚𝐜𝐭𝐞𝐫𝐬 𝐢𝐧 𝐭𝐡𝐞 𝐭𝐞𝐚𝐦 𝐠𝐚𝐢𝐧 𝟒𝟎% 𝐢𝐧𝐜𝐫𝐞𝐚𝐬𝐞𝐝 𝐒𝐭𝐫𝐢𝐤𝐞 𝐃𝐌𝐆. \n Soi Fon's Battlefield Skill uses two types of energy: Deathmark and Battlefield Skill Energy, which correspond to the two different Battlefield Skills, Combo Attack and Twin-Strike Execution. Soi Fon gain Battlefield Skill Energy by consuming Deathmark. \n Soi Fon enters the battlefield with full Battlefield Skill Energy. \n \n Ｃｏｍｂｏ　Ａｔｔａｃｋ \n 𝑾𝒉𝒆𝒏 𝑫𝒆𝒂𝒕𝒉𝒎𝒂𝒓𝒌 𝒊𝒔 𝒂𝒗𝒂𝒊𝒍𝒂𝒃𝒍𝒆 \n When another teammate lands a hit, if Battlefield Skill Energy is not full, 1 point of Deathmark is automatically consumed to trigger Soi Fon's combo attack, dealing damage equal to 95% of Soi Fon's ATK and granting 1 Battlefield Skill Energy. \n \n Ｔｗｉｎ－Ｓｔｒｉｋｅ　Ｅｘｅｃｕｔｉｏｎ \n 𝑾𝒉𝒆𝒏 𝑩𝒂𝒕𝒕𝒍𝒆𝒇𝒊𝒆𝒍𝒅 𝑺𝒌𝒊𝒍𝒍 𝑬𝒏𝒆𝒓𝒈𝒚 𝒊𝒔 𝒂𝒕 𝒎𝒂𝒙𝒊𝒎𝒖𝒎 \n Soi Fon teleports to the enemy and pierces them with Suzumebachi. If the enemy is not affected by Homonka, it deals damage equal to 1887.5% of ATK and inflicts Homonka. If the enemy is already affected by Homonka, it deals damage equal to 1655% of ATK and triggers one instance of Sting equal to 275% of ATK instead, while consuming Homonka. \n After releasing the Battlefield Skill, Soi Fon can manually release her counterattack.",
       "icon": "/Images/soi-fon/skill-bfs.png",
       "kind": "Battlefield Skill",
-      "name": "Combined Strike",
+      "name": "Stealth Force's Battle",
       "variant": null
     },
     {
