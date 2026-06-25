@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "Ailment": "Ailment is a status effect that can be inflicted on enemies, causing them to take damage over time (DOT) or suffer from other negative effects.",
   "Ailment Mastery": "Ticking damage from ailments is increased by a percentage. For example, if a character has 100% Ailment Mastery, they will deal double damage from ailments. If they have 150% Ailment Mastery, they will deal 2.5x damage from ailments -- DOTs.",
   "Bankai": "A Soul Reaper's final, most powerful Zanpakutō release — the stage beyond Shikai.",
@@ -26,4 +27,278 @@
   "Ultimate DMG": "",
   "Ultimate Energy": "",
   "War Wraith": ""
+=======
+  "aizen": {
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Pressure Stack": "",
+    "Ravage": "",
+    "Spiritual Pressure": "",
+    "Spiritual Pressure Intimidation": "",
+    "Ult Charge Rate": ""
+  },
+  "byakuya": {
+    "Bankai": "A Soul Reaper's final, most powerful Zanpakutō release — the stage beyond Shikai.",
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Shikai": "The initial released form of a Zanpakutō, activated by its release command.",
+    "Spiritual Pressure": "",
+    "Ult Charge Rate": ""
+  },
+  "chad": {
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Perfect Dodge": "",
+    "Spiritual Pressure": ""
+  },
+  "gin": {
+    "Ailment": "",
+    "Ailment Mastery": "",
+    "Bankai": "A Soul Reaper's final, most powerful Zanpakutō release — the stage beyond Shikai.",
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Impale": "",
+    "Impale Scale": "",
+    "Perfect Dodge": "",
+    "Shikai": "The initial released form of a Zanpakutō, activated by its release command.",
+    "Snake Venom": "",
+    "Spiritual Pressure": "",
+    "Technique Points": "",
+    "Ult Charge Rate": "",
+    "Ultimate DMG": ""
+  },
+  "grimmjow": {
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Perfect Dodge": "",
+    "Spiritual Pressure": "",
+    "Ultimate DMG": "",
+    "Ultimate Energy": ""
+  },
+  "grimmjow-pantera": {
+    "Ailment": "",
+    "Ailment Mastery": "",
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Perfect Dodge": "",
+    "Spiritual Pressure": "",
+    "Ultimate DMG": ""
+  },
+  "ichigo-bankai": {
+    "Bankai": "A Soul Reaper's final, most powerful Zanpakutō release — the stage beyond Shikai.",
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Getsuga Tensho": "Ichigo's signature attack — a crescent wave of condensed spiritual energy fired from his blade.",
+    "Spiritual Pressure": "",
+    "Ultimate DMG": "",
+    "Ultimate Energy": ""
+  },
+  "ichigo-initial": {
+    "Bankai": "A Soul Reaper's final, most powerful Zanpakutō release — the stage beyond Shikai.",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Shikai": "The initial released form of a Zanpakutō, activated by its release command.",
+    "Spiritual Pressure": ""
+  },
+  "ichigo-shikai": {
+    "Bankai": "A Soul Reaper's final, most powerful Zanpakutō release — the stage beyond Shikai.",
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Getsuga Tensho": "Ichigo's signature attack — a crescent wave of condensed spiritual energy fired from his blade.",
+    "Shikai": "The initial released form of a Zanpakutō, activated by its release command.",
+    "Spiritual Pressure": ""
+  },
+  "ichigo-white": {
+    "Bankai": "A Soul Reaper's final, most powerful Zanpakutō release — the stage beyond Shikai.",
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Frenzy": "",
+    "Getsuga Tensho": "Ichigo's signature attack — a crescent wave of condensed spiritual energy fired from his blade.",
+    "Instinct Burst": "",
+    "Shikai": "The initial released form of a Zanpakutō, activated by its release command.",
+    "Spiritual Pressure": "",
+    "Ult Charge Rate": "",
+    "Cleaving Throw": "",
+    "Ultimate Energy": ""
+  },
+  "ikkaku": {
+    "Bankai": "A Soul Reaper's final, most powerful Zanpakutō release — the stage beyond Shikai.",
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Perfect Dodge": "",
+    "Spiritual Pressure": ""
+  },
+  "kenpachi": {
+    "Ailment": "",
+    "Ailment Mastery": "",
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Frenzy": "",
+    "Perfect Dodge": "",
+    "Spiritual Pressure": "",
+    "Ultimate DMG": "",
+    "Ultimate Energy": "",
+    "War Wraith": ""
+  },
+  "kisuke": {
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Spiritual Pressure": "",
+    "Ult Charge Rate": "",
+    "Ultimate DMG": "",
+    "Ultimate Energy": ""
+  },
+  "komamura": {
+    "Bankai": "A Soul Reaper's final, most powerful Zanpakutō release — the stage beyond Shikai.",
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Spiritual Pressure": ""
+  },
+  "mayuri": {
+    "Ailment": "",
+    "Ailment Mastery": "",
+    "Bankai": "A Soul Reaper's final, most powerful Zanpakutō release — the stage beyond Shikai.",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Spiritual Pressure": "",
+    "Ult Charge Rate": "",
+    "Ultimate DMG": "",
+    "Ultimate Energy": ""
+  },
+  "momo": {
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Spiritual Pressure": "",
+    "Ult Charge Rate": "",
+    "Ultimate Energy": ""
+  },
+  "nelliel": {
+    "Ailment": "",
+    "Ailment Mastery": "",
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Spiritual Pressure": "",
+    "Ult Charge Rate": "",
+    "Ultimate DMG": "",
+    "Ultimate Energy": ""
+  },
+  "nemu": {
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Spiritual Pressure": "",
+    "Ultimate Energy": ""
+  },
+  "orihime": {
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Perfect Dodge": "",
+    "Ult Charge Rate": ""
+  },
+  "rangiku": {
+    "Ailment": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Ult Charge Rate": "",
+    "Ultimate DMG": "",
+    "Ultimate Energy": ""
+  },
+  "renji": {
+    "Ailment": "",
+    "Bankai": "A Soul Reaper's final, most powerful Zanpakutō release — the stage beyond Shikai.",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Spiritual Pressure": ""
+  },
+  "rukia": {
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Ult Charge Rate": "",
+    "Ultimate DMG": ""
+  },
+  "soi-fon": {
+    "Ailment": "",
+    "Bankai": "A Soul Reaper's final, most powerful Zanpakutō release — the stage beyond Shikai.",
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Deathmark": "",
+    "Homonka": "",
+    "Perfect Dodge": "",
+    "Spiritual Pressure": "",
+    "Sting DMG": "",
+    "Ultimate DMG": "",
+    "Ultimate Energy": ""
+  },
+  "szayelaporro": {
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Ultimate DMG": "",
+    "Ultimate Energy": ""
+  },
+  "tosen": {
+    "Ailment": "",
+    "Bankai": "A Soul Reaper's final, most powerful Zanpakutō release — the stage beyond Shikai.",
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Spiritual Pressure": ""
+  },
+  "toshiro": {
+    "Bankai": "A Soul Reaper's final, most powerful Zanpakutō release — the stage beyond Shikai.",
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Spiritual Pressure": "",
+    "Ult Charge Rate": "",
+    "Ultimate DMG": "",
+    "Ultimate Energy": ""
+  },
+  "ulquiorra": {
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Spiritual Pressure": "",
+    "Ultimate DMG": ""
+  },
+  "ulquiorra-resurreccion": {},
+  "ururu": {
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Perfect Dodge": "",
+    "Spiritual Pressure": ""
+  },
+  "uryu": {
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Ultimate Energy": ""
+  },
+  "yachiru": {
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Ult Charge Rate": "",
+    "Ultimate Energy": ""
+  },
+  "yoruichi": {
+    "Battlefield Skill": "",
+    "Crit DMG": "",
+    "Crit Rate": "",
+    "Perfect Dodge": "",
+    "Spiritual Pressure": "",
+    "Ult Charge Rate": "",
+    "Ultimate DMG": "",
+    "Ultimate Energy": ""
+  }
+>>>>>>> Stashed changes
 }
