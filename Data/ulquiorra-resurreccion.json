@@ -7,6 +7,10 @@
     "ultimate": ""
   },
   "art": "/Images/ulquiorra-resurreccion/art.png",
+  "damageType": "Spirit",
+  "name": "Ulquiorra Shifar (Resurrección)",
+  "rarity": "SSR",
+  "role": "Assault",
   "bondPriority": [],
   "boundaries": [
     {

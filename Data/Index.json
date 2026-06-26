@@ -271,6 +271,10 @@
   },
   {
     "slug": "ulquiorra-resurreccion",
+    "name": "Ulquiorra Shifar (Resurrección)",
+    "role": "Assault",
+    "damageType": "Spirit",
+    "rarity": "SSR",
     "art": "/Images/ulquiorra-resurreccion/art.png",
     "releaseDate": "26 Jun 2026"
   },
