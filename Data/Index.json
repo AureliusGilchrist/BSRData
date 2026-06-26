@@ -270,6 +270,11 @@
     "releaseDate": "5 Jun 2026"
   },
   {
+    "slug": "ulquiorra-resurreccion",
+    "art": "/Images/ulquiorra-resurreccion/art.png",
+    "releaseDate": "26 Jun 2026"
+  },
+  {
     "slug": "ururu",
     "name": "Ururu Tsumigaya",
     "role": "Support",
