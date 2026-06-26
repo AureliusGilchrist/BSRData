@@ -4,84 +4,84 @@
       "name": "Ichigo Kurosaki・Bankai Unleashed!",
       "slugs": ["ichigo-bankai"],
       "startDate": "2025-11-21",
-      "endDate": "2025-12-18",
+      "endDate": "2025-12-17",
       "note": "Launch banner. The first-ever limited SSR in Bleach Soul Resonance — Full Assault type. Weapon: \"Power of Hollowfication.\""
     },
     {
       "name": "Toshiro Hitsugaya & Momo Hinamori・Winter Dual Release!",
       "slugs": ["toshiro", "momo"],
       "startDate": "2025-12-05",
-      "endDate": "2025-12-19",
+      "endDate": "2025-12-18",
       "note": "Dual limited banner. Both SSR. Weapons: \"Crimson Ice Dragon\" (Hitsugaya) and \"Blazing Blossoms\" (Hinamori)."
     },
     {
       "name": "Sosuke Aizen・The Transcendent Villain",
       "slugs": ["aizen"],
       "startDate": "2025-12-19",
-      "endDate": "2026-01-09",
+      "endDate": "2026-01-08",
       "note": "Banner extended by 7 days — the announcement that all future limited banners would run 21 days. Weapon: \"Before We Knew It.\""
     },    
     {
       "name": "Gin Ichimaru・The Silver Flash",
       "slugs": ["gin", "rangiku"],
       "startDate": "2026-01-09",
-      "endDate": "2026-01-30",
+      "endDate": "2026-01-29",
       "note": "First 21-day banner following Aizen's extension. Rangiku Matsumoto featured as rate-up SR+. Weapon: \"The Fastest Zanpakuto.\""
     },
     {
       "name": "Kenpachi・Frenzied Beast",
       "slugs": ["kenpachi"],
       "startDate": "2026-01-30",
-      "endDate": "2026-02-20",
+      "endDate": "2026-02-19",
       "note": "Grimmjow's replacement, second limited Slash SSR with ailment. Ailment Mastery was introduced with this banner. All previous limited SSR (including Gin) reran towards the end of Kenpachi's banner."
     },
     {
       "name": "Nelliel Tu Odelschwanck・Former Espada Tres",
       "slugs": ["nelliel"],
       "startDate": "2026-02-20",
-      "endDate": "2026-03-13",
+      "endDate": "2026-03-12",
       "note": "First limited Thrust tactic SSR. Released during Chinese New Year."
     },
     {
       "name": "Kurotsuchi Mayuri・Head of Research Institute",
       "slugs": ["mayuri"],
       "startDate": "2026-03-13",
-      "endDate": "2026-04-03",
+      "endDate": "2026-04-02",
       "note": "First limited SSR support since launch, Kisuke's first replacement."
     },
     {
       "name": "Soi Fon・Flash Assault",
       "slugs": ["soi-fon"],
       "startDate": "2026-04-03",
-      "endDate": "2026-04-24",
+      "endDate": "2026-04-23",
       "note": "First limited Strike-type SSR since launch. A free copy of Yoruichi Shihoin was distributed to all players upon banner start."
     },
     {
       "name": "Szayelaporro Granz・The Eighth Espada",
       "slugs": ["szayelaporro"],
       "startDate": "2026-04-24",
-      "endDate": "2026-05-15",
+      "endDate": "2026-05-14",
       "note": "Spirit-type support SSR. Espada No. 8 — the scientist of Hueco Mundo. Aizen reran alongside Szayelaporro's release. A free copy of SR+ Grimmjow was distributed to all players."
     },
     {
       "name": "Grimmjow Jaegerjaquez・Pantera Resurge!",
       "slugs": ["grimmjow-pantera"],
       "startDate": "2026-05-15",
-      "endDate": "2026-06-05",
+      "endDate": "2026-06-04",
       "note": "Half-anniversary celebration banner. Grimmjow debuts alongside his Pantera release form. Soi Fon limited rerun ran concurrently."
     },
     {
       "name": "Ulquiorra Shifar (Base) SR+ Free Unit",
       "slugs": ["ulquiorra"],
       "startDate": "2026-06-05",
-      "endDate": "2026-06-05",
+      "endDate": "2026-06-04",
       "note": "Base form Ulquiorra, and will be free via mail on the 5th of June, 2026 (UTC)."
     },
     {
       "name": "Ichigo Kurosaki・Inner Hollow Releases!",
       "slugs": ["ichigo-white"],
       "startDate": "2026-06-05",
-      "endDate": "2026-06-26",
+      "endDate": "2026-06-25",
       "note": "First limited Slash Tactic SSR. White debuts in his Shikai as well as Bankai forms."
     },
     {
@@ -95,21 +95,21 @@
       "name": "Kurosaki Ichigo (True Shikai) SSR Rate-Up",
       "slugs": ["true-ichigo"],
       "startDate": "2026-07-15",
-      "endDate": "2026-08-05",
+      "endDate": "2026-08-04",
       "note": "Kurosaki Ichigo (True Shikai) is based on the TYBW arc. He is a COLLAB unit, which means there likely won't be a second go at him. While we don't know the typing nor role, we do suspect he'll be coming July 15th along with Ishida Uryu (Sternritter), was rumored to be thrust."
     },
     {
       "name": "Ishida Uryu (Sternritter) SSR Rate-Up",
       "slugs": ["stern-ishida"],
       "startDate": "2026-07-15",
-      "endDate": "2026-08-05",
+      "endDate": "2026-08-04",
       "note": "Ishida Uryu (Sternritter) is based on the TYBW arc. He is a COLLAB unit, which means there likely won't be a second go at him. While we don't know the typing nor role, we do suspect he'll be coming July 15th along with Kurosaki Ichigo (True Shikai), was rumored to be thrust."
     },
     {
       "name": "Orihime Inoue (Shun Shun Rikka) SSR Rate-Up",
       "slugs": ["shun-orihime"],
       "startDate": "2026-07-15",
-      "endDate": "2026-08-05",
+      "endDate": "2026-08-04",
       "note": "Although not confirmed, highly suspected unit to be with Ishida Uryu (Sternritter) and Kurosaki Ichigo (True Shikai)."
     }
   ],
