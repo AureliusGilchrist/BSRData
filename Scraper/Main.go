@@ -93,18 +93,19 @@ var slugToEspPage = map[string]string{
 	"chad":             "Yasutora Sado",
 	"gin":              "Ichimaru Gin",
 	"grimmjow":         "Grimmjow Jaegerjaques",
-	"grimmjow-pantera": "Grimmjow - Resurreción",
+	"grimmjow-pantera": "Grimmjow Jaegerjaques (Resurreción)",
 	"ichigo-bankai":    "Kurosaki Ichigo (Bankai)",
 	"ichigo-shikai":    "Kurosaki Ichigo (Shikai)",
 	// The ESP wiki has no "(Initial)" page — the base/initial form lives at the
 	// bare "Kurosaki Ichigo" title. Corrected (was a 404).
 	"ichigo-initial": "Kurosaki Ichigo",
-	"ichigo-white":   "Kurosaki Ichigo (Hollow Interior)",
+	"ichigo-white":   "Kurosaki Ichigo (Inner Hollow)",
 	"ikkaku":         "Ikkaku Madarame",
 	"kenpachi":       "Zaraki Kenpachi",
 	"kisuke":         "Urahara Kisuke",
 	"komamura":       "Komamura Sajin",
-	"ulquiorra":      "Ulquiorra Cifer",
+	"ulquiorra":      "Ulquiorra Cifer (SR+)",
+	"ulquiorra-ressurection":     "Ulquiorra Cifer (Resurrección)",
 	// NOTE: "ulquiorra-resurreccion" intentionally has no entry — the only ESP
 	// Fandom source page ("Ulquiorra Cifer") covers solely the base form, so
 	// scraping it under this slug would just duplicate the base form's art and
