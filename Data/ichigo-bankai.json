@@ -171,11 +171,11 @@
         "Battlefield Skill on Resonance peak"
       ],
       "iconSteps": [
-        { "actions": [{ "label": "Buffer" }] },
-        { "actions": [{ "label": "Swap-in" }] },
-        { "actions": [{ "kind": "Technique" }, { "kind": "Basic Attack", "label": "×3" }] },
-        { "actions": [{ "kind": "Ultimate" }] },
-        { "actions": [{ "label": "BFS" }] }
+        { "slug": "kisuke", "actions": [{ "kind": "Technique", "label": "Buffs" }] },
+        { "slug": "kisuke", "actions": [{ "slug": "ichigo-bankai", "label": "Swap In" }] },
+        { "slug": "ichigo-bankai", "actions": [{ "kind": "Technique" }, { "kind": "Basic Attack", "label": "×3" }] },
+        { "slug": "ichigo-bankai", "actions": [{ "kind": "Ultimate" }] },
+        { "slug": "kisuke", "actions": [{ "kind": "Battlefield Skill", "label": "BFS" }] }
       ],
       "tags": [
         "Burst",
