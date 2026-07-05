@@ -63,7 +63,7 @@
         ],
         "steps": [
           "Szayelaporro Technique — Ailment-Res shred",
-          "Aizen Technique — team ATK buff + Ravage debuff",
+          "Aizen Technique → team ATK buff, Battlefield Skill for Ravage debuff",
           "Swap Toshiro in, Basic ×3 → Technique",
           "Toshiro Ultimate inside both debuff windows"
         ],
@@ -81,6 +81,9 @@
             "actions": [
               {
                 "kind": "Technique"
+              },
+              {
+                "kind": "Battlefield Skill"
               }
             ]
           },
