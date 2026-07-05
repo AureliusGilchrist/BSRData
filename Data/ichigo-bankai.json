@@ -189,6 +189,11 @@
         "Basic ×3 → Technique",
         "Repeat"
       ],
+      "iconSteps": [
+        { "slug": "ichigo-bankai", "actions": [{ "kind": "Counter" }] },
+        { "slug": "ichigo-bankai", "actions": [{ "kind": "Basic Attack", "label": "×3" }, { "kind": "Technique" }] },
+        { "slug": "ichigo-bankai", "actions": [{ "kind": "Repeat", "label": "Step 1" }] }
+      ],
       "tags": [
         "Sustain",
         "PvP"
