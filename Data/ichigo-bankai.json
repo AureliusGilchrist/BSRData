@@ -170,6 +170,13 @@
         "Ultimate (Getsuga Tensho)",
         "Battlefield Skill on Resonance peak"
       ],
+      "iconSteps": [
+        { "actions": [{ "label": "Buffer" }] },
+        { "actions": [{ "label": "Swap-in" }] },
+        { "actions": [{ "kind": "Technique" }, { "kind": "Basic Attack", "label": "×3" }] },
+        { "actions": [{ "kind": "Ultimate" }] },
+        { "actions": [{ "label": "BFS" }] }
+      ],
       "tags": [
         "Burst",
         "Boss"

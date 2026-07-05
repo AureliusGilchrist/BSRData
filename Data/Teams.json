@@ -52,8 +52,117 @@
         ]
       }
     ],
-    "rotationP2W": "Szayelaporro (SSR) Ailment-Res shred → Aizen pressure \u0026 team ATK buff → Toshiro Bankai burst inside both debuff windows. Triple-SSR all-Spirit; highest Spirit ceiling per Hideoutgacha's Top 3.",
-    "rotationF2P": "Sub Momo (FREE SR Spirit) for Szayelaporro — same Spirit trio, Momo's element buff replaces Szayel's debuff. Toshiro and Aizen remain required SSRs; everything else has a free swap."
+    "rotationP2W": "Szayelaporro (SSR) Ailment-Res shred → Aizen pressure & team ATK buff → Toshiro Bankai burst inside both debuff windows. Triple-SSR all-Spirit; highest Spirit ceiling per Hideoutgacha's Top 3.",
+    "rotationF2P": "Sub Momo (FREE SR Spirit) for Szayelaporro — same Spirit trio, Momo's element buff replaces Szayel's debuff. Toshiro and Aizen remain required SSRs; everything else has a free swap.",
+    "rotations": [
+      {
+        "name": "Spirit Apex Burst",
+        "tags": [
+          "Burst",
+          "Boss"
+        ],
+        "steps": [
+          "Szayelaporro Technique — Ailment-Res shred",
+          "Aizen Technique — team ATK buff + Ravage debuff",
+          "Swap Toshiro in, Basic ×3 → Technique",
+          "Toshiro Ultimate inside both debuff windows"
+        ],
+        "iconSteps": [
+          {
+            "slug": "szayelaporro",
+            "actions": [
+              {
+                "kind": "Technique"
+              }
+            ]
+          },
+          {
+            "slug": "aizen",
+            "actions": [
+              {
+                "kind": "Technique"
+              }
+            ]
+          },
+          {
+            "slug": "toshiro",
+            "actions": [
+              {
+                "kind": "Basic Attack",
+                "label": "×3"
+              },
+              {
+                "kind": "Technique"
+              }
+            ]
+          },
+          {
+            "slug": "toshiro",
+            "actions": [
+              {
+                "kind": "Ultimate"
+              }
+            ]
+          }
+        ],
+        "notes": "Triple-SSR all-Spirit; highest Spirit ceiling per Hideoutgacha's Top 3."
+      },
+      {
+        "name": "F2P Burst (Momo swap)",
+        "lineup": [
+          "momo"
+        ],
+        "tags": [
+          "Burst",
+          "F2P"
+        ],
+        "steps": [
+          "Momo Technique — team Spirit DMG buff",
+          "Aizen Technique — team ATK buff + Ravage debuff",
+          "Swap Toshiro in, Basic ×3 → Technique",
+          "Toshiro Ultimate inside both debuff windows"
+        ],
+        "iconSteps": [
+          {
+            "slug": "momo",
+            "actions": [
+              {
+                "kind": "Technique"
+              }
+            ]
+          },
+          {
+            "slug": "aizen",
+            "actions": [
+              {
+                "kind": "Technique"
+              }
+            ]
+          },
+          {
+            "slug": "toshiro",
+            "actions": [
+              {
+                "kind": "Basic Attack",
+                "label": "×3"
+              },
+              {
+                "kind": "Technique"
+              }
+            ]
+          },
+          {
+            "slug": "toshiro",
+            "actions": [
+              {
+                "kind": "Ultimate"
+              }
+            ]
+          }
+        ],
+        "notes": "Momo's element buff replaces Szayel's debuff. Toshiro and Aizen remain required SSRs."
+      }
+    ]
   },
   {
     "id": "slash-storm",
@@ -126,7 +235,7 @@
         "role": "Assault",
         "damageType": "Thrust",
         "notes": [
-          "S Thrust DPS — continuous damage via Impale \u0026 Snake Venom",
+          "S Thrust DPS — continuous damage via Impale & Snake Venom",
           "Self-buff loop, fastest rotation in the game"
         ],
         "swappable": [
@@ -140,7 +249,7 @@
         "role": "Tactician",
         "damageType": "Thrust",
         "notes": [
-          "S Thrust Tactician — counter mechanic, shield \u0026 heal",
+          "S Thrust Tactician — counter mechanic, shield & heal",
           "Team Ailment-Res shred + 80% team Crit DMG via Cero Sincretico"
         ],
         "swappable": [
