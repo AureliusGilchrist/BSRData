@@ -104,13 +104,12 @@ var slugToEspPage = map[string]string{
 	"kenpachi":       "Zaraki Kenpachi",
 	"kisuke":         "Urahara Kisuke",
 	"komamura":       "Komamura Sajin",
-	"ulquiorra":      "Ulquiorra Cifer (SR+)",
-	"ulquiorra-ressurection":     "Ulquiorra Cifer (Resurrección)",
-	// NOTE: "ulquiorra-resurreccion" intentionally has no entry — the only ESP
-	// Fandom source page ("Ulquiorra Cifer") covers solely the base form, so
-	// scraping it under this slug would just duplicate the base form's art and
-	// icons under a misleading "Resurrección" label. Leave it without images
-	// until a dedicated source page exists.
+	"ulquiorra": "Ulquiorra Cifer (SR+)",
+	// NOTE: the Resurrección form is hand-maintained directly at
+	// Data/ulquiorra-resurreccion.json (correct Spanish spelling), not scraped —
+	// the ESP Fandom source has no dedicated page for it, only the base form
+	// above. A prior misspelled slug ("ulquiorra-ressurection") produced an
+	// empty duplicate stub here and has been removed; don't recreate it.
 	"mayuri":  "Kurotsuchi Mayuri",
 	"momo":    "Hinamori Momo",
 	"nelliel": "Nelliel Tu Odelschwanck",
