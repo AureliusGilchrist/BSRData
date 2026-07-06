@@ -250,5 +250,17 @@
       ]
     }
   },
+  "stats": {
+    "atk": "335",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "327",
+    "hp": "1623"
+  },
+  "weaponStats": {
+    "atk": "201",
+    "def": "119",
+    "hp": "581"
+  },
   "tier": "S"
 }
