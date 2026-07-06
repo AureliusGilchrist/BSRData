@@ -1,11 +1,11 @@
 [
   {
-    "id": "spirit-apex",
+    "id": "ulquiorra-mono",
     "name": "Ulquiorra Mono Spirit",
-    "rank": 3,
+    "rank": 1,
     "tier": "S",
     "difficulty": "Medium",
-    "content": "Co-op / Guild Boss / Trial Tower",
+    "content": "Clears everything",
     "members": [
       {
         "slug": "ulquiorra-resurreccion",
@@ -13,12 +13,12 @@
         "role": "Assault",
         "damageType": "Spirit",
         "notes": [
-          "S+ Spirit DPS — main damage",
-          "Frost stack detonator inside Aizen's pressure window"
+          "Prep part of Segunda Etapa before using Aizen's Ultimate"
         ],
         "swappable": [
-          "ichigo-bankai",
-          "rukia"
+          "toshiro",
+          "ulquiorra",
+          "ururu",
         ]
       },
       {
@@ -27,12 +27,10 @@
         "role": "Tactician",
         "damageType": "Spirit",
         "notes": [
-          "S+ Tactician — newest SSR, team-wide ATK + Ravage debuff",
-          "Bond gives Toshiro extra crit conversion"
+          "Maintain Ravage stacks while giving Ulquiorra as much field time as possible"
         ],
         "swappable": [
-          "rukia",
-          "byakuya"
+          "rukia"
         ]
       },
       {
@@ -41,31 +39,29 @@
         "role": "Support",
         "damageType": "Spirit",
         "notes": [
-          "SSR Spirit Support — Ailment-Resistance shred + team Spirit DMG buff",
-          "Espada bond pairs into the Spirit trio's debuff window"
+          "The only limited SSR Spirit support as of now"
         ],
         "swappable": [
           "momo",
           "kisuke",
-          "orihime",
-          "ururu"
+          "orihime"
         ]
       }
     ],
-    "rotationP2W": "Szayelaporro (SSR) Ailment-Res shred → Aizen pressure & team ATK buff → Toshiro Bankai burst inside both debuff windows. Triple-SSR all-Spirit; highest Spirit ceiling per Hideoutgacha's Top 3.",
-    "rotationF2P": "Sub Momo (FREE SR Spirit) for Szayelaporro — same Spirit trio, Momo's element buff replaces Szayel's debuff. Toshiro and Aizen remain required SSRs; everything else has a free swap.",
+    "rotationP2W": "Szayelaporro technique → Ulquiorra technique → Battlefield → Manual counter → Aizen technique → Battlefield → Szayelaporro counter → Ultimate → Ulquiorra counter → Ulquiorra technique → Dodge → Basic attacks → Ulquiorra technique → Dodge → Ulquiorra Special Attack → Cero Oscuras → Ultimate",
+    "rotationF2P": "Sub Momo for Szayelaporro — Momo plays the same role as Szayelaporro",
     "rotations": [
       {
-        "name": "Spirit Apex Burst",
+        "name": "Spirit Setup",
         "tags": [
-          "Burst",
-          "Boss"
+          "Burst"
         ],
         "steps": [
-          "Szayelaporro Technique — Ailment-Res shred",
-          "Aizen Technique → team ATK buff, Battlefield Skill for Ravage debuff",
-          "Swap Toshiro in, Basic ×3 → Technique",
-          "Toshiro Ultimate inside both debuff windows"
+          "In Segunda Etapa, use technique into basic attack to refresh, then technique once again before swapping out to Aizen using battlefield",
+          "Aizen Technique combo (finish it completely) → Battlefield (3 Pressure Stacks before using) → Ultimate",
+          "Counter with Szayelaporro → Ultimate → Technique → Counter with Ulquiorra → Technique → 1 basic attack → Swap to Aizen",
+          "Aizen basic attack OR technique (if it's available) → Hado 90: Kurohitsugi → Szayelaporro counter → Ulquiorra counter",
+          "Ulquiorra technique → Enhanced technique → Technique 2-4 → Ultimate → Technique spam → Ultimate → Aizen Battlefield"
         ],
         "iconSteps": [
           {
