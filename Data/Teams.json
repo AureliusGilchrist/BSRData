@@ -18,7 +18,7 @@
         "swappable": [
           "toshiro",
           "ulquiorra",
-          "ururu",
+          "ururu"
         ]
       },
       {
@@ -164,27 +164,23 @@
     ]
   },
   {
-    "id": "slash-storm",
-    "name": "Slash Storm — Bankai / Byakuya / Kisuke",
+    "id": "kenny-mono",
+    "name": "Kenny Mono Slash",
     "rank": 2,
     "tier": "S",
     "difficulty": "Easy",
-    "content": "Boss / Story / Co-op",
+    "content": "Clears everything",
     "members": [
       {
-        "slug": "ichigo-bankai",
-        "name": "Ichigo Kurosaki (Bankai)",
+        "slug": "kenpachi",
+        "name": "Kenpachi Zaraki",
         "role": "Assault",
         "damageType": "Slash",
         "notes": [
-          "S+ Slash DPS — Getsuga burst",
-          "Carries buffs through swap-in"
+          "Quickswap everything"
         ],
         "swappable": [
-          "toshiro",
-          "ichigo-shikai",
-          "ichigo-initial",
-          "renji"
+          "ichigo-bankai"
         ]
       },
       {
@@ -193,27 +189,22 @@
         "role": "Tactician",
         "damageType": "Slash",
         "notes": [
-          "S Slash Tactician — petal field amps Slash damage",
-          "Damage persists off-field"
+          "Slash damage amplification"
         ],
         "swappable": [
-          "rukia",
-          "tosen"
+          "rukia"
         ]
       },
       {
-        "slug": "kisuke",
-        "name": "Kisuke Urahara",
+        "slug": "mayuri",
+        "name": "Mayuri Kurotsuchi",
         "role": "Support",
-        "damageType": "Slash",
+        "damageType": "Thrust",
         "notes": [
-          "S+ Slash Support — team ATK% buff (best support in game)",
-          "Slash element matches both DPS and Tactician"
+          "Ailment buffer to boost Kenpachi further"
         ],
         "swappable": [
-          "yachiru",
-          "momo",
-          "orihime"
+          "kisuke"
         ]
       }
     ],
@@ -223,10 +214,10 @@
   {
     "id": "thrust-pierce",
     "name": "Pierce Lance — Gin / Nelliel / Mayuri",
-    "rank": 1,
+    "rank": 4,
     "tier": "S",
-    "difficulty": "Hard",
-    "content": "Co-op / Trial Tower / Frenzy Fest / Events",
+    "difficulty": "Easy",
+    "content": "Clears everything",
     "members": [
       {
         "slug": "gin",
