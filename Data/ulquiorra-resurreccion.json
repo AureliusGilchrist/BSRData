@@ -11,87 +11,134 @@
   "name": "Ulquiorra Shifar (Resurrección)",
   "rarity": "SSR",
   "role": "Assault",
-  "bondPriority": [],
+  "bestStamp": {
+    "mainStats": "1: Spirit DMG \u003e ATK%  •  2: Crit DMG \u003e ATK%  •  3: ATK%",
+    "notes": "Optimal Ulquiorra build",
+    "setName": "Fill the Nothingness (3)",
+    "subStatPriority": "Ult Charge (168.8% at W5) \u003e ATK% \u003e Crit Rate \u003e Crit DMG \u003e Flat ATK"
+  },
+
+  "bondPriority": [
+    {
+      "description": "Increases Spirit Mastery by 8% and Crit rate by 10% during battle. When equipped by a Full Assault character, these effects are further increased by 100%.",
+      "name": "Ulquiorra Bond"
+    }
+  ],
   "boundaries": [
     {
+      "description": "While in Resurreccion: Segunda Etapa, releasing the first Ultimate, Annihilation, does not consume Ultime Energy or end Resurreccion: Segunda Etapa. In addition, the character immediately enters Thunderous Assault and restores Spiritual Pressure to maximum, allowing a second Ultimate, Annihilation, to be released after 5 second(s). \n Reduces the cooldown of the Ultimate, Resurreccion: Segunda  Etapa, by 5 second(s).",
       "icon": "/Images/ulquiorra-resurreccion/boundary-1.png",
-      "level": 1
+      "level": 1,
+      "name": "Wings That Seal the Night"
     },
     {
+      "description": "Enhanced Techniques, Cero Oscuras and Lanza del Relampago II, ignore 100% of the target's DEF. \n While in Thunderous Assault, Lanza del Relampago I releases 50% faster and consumes 50% less Spiritual Pressure.",
       "icon": "/Images/ulquiorra-resurreccion/boundary-2.png",
-      "level": 2
+      "level": 2,
+      "name": "Only Human Standards"
     },
     {
       "icon": "/Images/ulquiorra-resurreccion/boundary-3.png",
       "level": 3
     },
     {
+      "description": "Releasing any type of Cero increases the character's ATK by 5%. Releasing any Lanza del Relampago reduces the target's Spirit Resistance by 2.5%. Both effects last 30 seconds and stack up to 4 times.",
       "icon": "/Images/ulquiorra-resurreccion/boundary-4.png",
-      "level": 4
+      "level": 4,
+      "name": "A Meaningless Existence"
     },
     {
       "icon": "/Images/ulquiorra-resurreccion/boundary-5.png",
       "level": 5
     },
     {
+      "description": "Releasing any type of Cero or Lanza del Relampago causes Reishi Rain to fall on the field. This effect has a 5-second cooldown. Reishi Rain applies Void to the target for 8 seconds. When any character lands a critical hit on an enemy affected by Void, they immediately deal an extra attack equal to 10% of that attack's damage. When Ulquiorra triggers this effect, he deals damage equal to 20%. \n Increases the damage of Reishi Rain by 66%.",
       "icon": "/Images/ulquiorra-resurreccion/boundary-6.png",
-      "level": 6
+      "level": 6,
+      "name": "Hearts Bring Death"
     }
   ],
-  "builds": [],
+  "builds": [
+    {
+      "label": "Hyper Optimized",
+      "passiveSkills": [
+        "Enhanced DMG OR Overdrive \u003e Ult DMG \u003e Technique DMG"
+      ],
+      "range": "B6W5C5",
+      "setName": "Fill the Nothingess"
+      "setPieces": [
+        {
+          "mainStat": "Spirit DMG \u003e ATK%",
+          "slot": 1
+        },
+        {
+          "mainStat": "ATK%",
+          "slot": 2
+        },
+        {
+          "mainStat": "ATK%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Ult Charge (168.8% at W5) \u003e ATK% \u003e Crit Rate \u003e Crit DMG \u003e Flat ATK",
+      "targets": {
+        "ultChargeRate": "168.8%, multiple rolls into Crit Rate and Crit DMG substats"
+      }
+    },
+  ],
   "corePassives": [
     {
-      "description": "",
+      "description": "While in Resurreccion I, releasing a countter or the 4th hit of basic attack refreshes the technique cooldown. \n \n When HP falls below 50%, Ulquiorra activates his instant regeneration, restoring 5% of his Max HP every second for 10 seconds. This effect has a 30-second cooldown.",
       "icon": "/Images/ulquiorra-resurreccion/passive-1.png",
-      "name": ""
+      "name": "The End of Void"
     },
     {
-      "description": "",
+      "description": "Increase Ulquiorra's Crit rate by 25% in battle.",
       "icon": "/Images/ulquiorra-resurreccion/passive-2.png",
-      "name": ""
+      "name": "Full Release"
     },
     {
-      "description": "",
+      "description": "For every 1% of Crit Rate Ulquiorra has during battle, his Spirit DMG increases by 0.5%, up to 50%.",
       "icon": "/Images/ulquiorra-resurreccion/passive-3.png",
-      "name": ""
+      "name": "Heavy Spiritual Pressure"
     },
     {
-      "description": "",
+      "description": "When Crit Rate exceeds 100% during battle, every 1% beyond is converted into 2% extra Crit DMG.",
       "icon": "/Images/ulquiorra-resurreccion/passive-4.png",
-      "name": ""
+      "name": "Endless Void"
     }
   ],
   "releaseDate": "26 Jun 2026",
   "skills": [
     {
-      "description": "",
+      "description": "Ulquiorra swings a light blade condensed from Reishi, dealing 4 hits of damage totaling 457.5% of ATK. ~~Gaze Upon Despair~~ Resurreccion: Segunda Etapa \n Ulquiorra swings a light spear condenseed from Reishi, dealing 6 hits of damage totaling 1085% of ATK, with the 3rd hit firing a Cero Oscuras. ~~Worlds Apart~~ At Max Spiritual Pressure, tap and hold basic attack \n Ulquiorra soars into the air, then dives rapidly towards the target's location and attacks, dealing damage equal to 3345% of ATK and gaining 1 Cero Mark.",
       "icon": "/Images/ulquiorra-resurreccion/skill-basic.png",
       "kind": "Basic Attack",
-      "name": ""
+      "name": "Enclose, Murcielago"
     },
     {
-      "description": "",
+      "description": "Ulquiorra fires a powerful Cero unique to the Espada from his fingertip, dealing damage equal to 600% of ATK and gaining 1 Cero Mark. ~~Cero Oscuras~~ Own 4 Cero Marks \n Ulquiorra consumes 4 Cero Marks and releases a devastating Cero Oscuras, dealing damage equal to 810% of ATK to enemies. ~~Lanza del Relampago I~~ Resurreccion: Segunda Etapa \n Ulquiorra consumes a certain amount of Spiritual Pressure to release Lanza del Relampago I, dealing damage equal to 270% of ATK and gaining 1 Thunder Mark. ~~Lanza del Relampago II~~ Own 4 Thunder Marks \n Ulquiorra consumes all Thunder Marks to release the more powerful Lanza del Relampago II, dealing damage equal to 2242.5% of ATK and entering Thunderous Assault. Both types of Lanza del Relampago consumes a certain amount of Spiritual Pressure when released. \n While in Thunderous Assault, tap the Technique button repeatedly to throw Lanza del Relampago I in rapid succession, but Thunder Marks cannot be gained during this time.",
       "icon": "/Images/ulquiorra-resurreccion/skill-technique.png",
       "kind": "Technique",
-      "name": ""
+      "name": "Gran Rey Cero"
     },
     {
-      "description": "",
+      "description": "Ulquiorra performs his second release, entering Resurreccion: Segunda Etapa, a form even Aizen has never seen. His Movement Speed and interruption resistance are greatly increased, and he gains a new set of attacks. \n When this skill is released, Ulquiorra's Spiritual Pressure immediately increases to maximum, and his surging Spiritual Power causes Reishi Rain to fall across the battlefield, dealing damage equal to 900% of ATK to all enemies on the field every 0.5 seconds. ~~Annihilation~~ During Resurreccion: Segunda Etapa, release it again at Max Ultimate Energy \n Ulquiorra gathers immense Spiritual Pressure into his weapon, then hurls the powerful Lanza del Relampago III at enemies, dealing damage equal to 3612.5% of ATK and ending Resurreccion: Segunda Etapa. At the same time, Reishi Rain falls on the battlefield, dealing damage equal to 900% of ATK to all enemies every 0.5 seconds.",
       "icon": "/Images/ulquiorra-resurreccion/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": ""
+      "name": "Resurreccion: Segunda Etapa"
     },
     {
-      "description": "",
+      "description": "After countering an enemy attack, Ulquiorra instantly launches several cuonterattacks, then descends from the air with a powerful slash, dealing total damage equal to 1000% of ATK. ~~Crushed Will~ Resurreccion: Segunda Etapa \n Ulquiorra seizes and opening in the enemy's attack, counterattacks mercilessly, and knocks them back, dealing damage equal to 1600% of ATK.",
       "icon": "/Images/ulquiorra-resurreccion/skill-counter.png",
       "kind": "Counter",
-      "name": ""
+      "name": "Counter"
     },
     {
-      "description": "",
+      "description": "Use Sonido to avoid attacks right before they hit. \n Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Ulquiorra gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": ""
+      "name": "Sonido"
     }
   ],
   "slug": "ulquiorra-resurreccion",
