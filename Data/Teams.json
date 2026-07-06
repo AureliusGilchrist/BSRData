@@ -5,7 +5,7 @@
     "rank": 1,
     "tier": "S",
     "difficulty": "Medium",
-    "content": "Clears everything",
+    "content": "Co-op / Guild Boss / Events",
     "members": [
       {
         "slug": "ulquiorra-resurreccion",
@@ -15,11 +15,7 @@
         "notes": [
           "Prep part of Segunda Etapa before using Aizen's Ultimate"
         ],
-        "swappable": [
-          "toshiro",
-          "ulquiorra",
-          "ururu"
-        ]
+        "swappable": []
       },
       {
         "slug": "aizen",
@@ -29,9 +25,7 @@
         "notes": [
           "Maintain Ravage stacks while giving Ulquiorra as much field time as possible"
         ],
-        "swappable": [
-          "rukia"
-        ]
+        "swappable": []
       },
       {
         "slug": "szayelaporro",
@@ -84,7 +78,7 @@
             ]
           },
           {
-            "slug": "toshiro",
+            "slug": "ulquiorra-resurreccion",
             "actions": [
               {
                 "kind": "Basic Attack",
@@ -96,7 +90,7 @@
             ]
           },
           {
-            "slug": "toshiro",
+            "slug": "ulquiorra-resurreccion",
             "actions": [
               {
                 "kind": "Ultimate"
@@ -104,7 +98,7 @@
             ]
           }
         ],
-        "notes": "Triple-SSR all-Spirit; highest Spirit ceiling per Hideoutgacha's Top 3."
+        "notes": "Highest DPS team as of Segunda Etapa's release."
       },
       {
         "name": "F2P Burst (Momo swap)",
@@ -116,10 +110,10 @@
           "F2P"
         ],
         "steps": [
-          "Momo Technique — team Spirit DMG buff",
-          "Aizen Technique — team ATK buff + Ravage debuff",
-          "Swap Toshiro in, Basic ×3 → Technique",
-          "Toshiro Ultimate inside both debuff windows"
+          "Momo Technique → Special attack x2 → Ulquiorra technique",
+          "Battlefield → Technique (complete combo) → Battlefield → Momo counter → Momo Ultimate",
+          "Ulquiorra counter → Technique → Dodge → Basic attack to refresh Technique → Technique → Dodge → Special Attack → Cero Oscuras",
+          "Ulquiorra Ultimate → Technique → Basic attack to refresh Technique → Technique → Battlefield"
         ],
         "iconSteps": [
           {
@@ -159,7 +153,7 @@
             ]
           }
         ],
-        "notes": "Momo's element buff replaces Szayel's debuff. Toshiro and Aizen remain required SSRs."
+        "notes": "Momo as a SR unit can replace Szayelaporro. Ulquiorra and Aizen remain required SSRs."
       }
     ]
   },
@@ -169,7 +163,7 @@
     "rank": 2,
     "tier": "S",
     "difficulty": "Easy",
-    "content": "Clears everything",
+    "content": "Co-op / Guild Boss / Events",
     "members": [
       {
         "slug": "kenpachi",
@@ -179,9 +173,7 @@
         "notes": [
           "Quickswap everything"
         ],
-        "swappable": [
-          "ichigo-bankai"
-        ]
+        "swappable": []        ]
       },
       {
         "slug": "ichigo-white",
@@ -191,9 +183,7 @@
         "notes": [
           "Slash damage amplification"
         ],
-        "swappable": [
-          "rukia"
-        ]
+        "swappable": []
       },
       {
         "slug": "mayuri",
