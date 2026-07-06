@@ -92,32 +92,32 @@
       "note": "Ulquiorra Shifar set to compete against Toshiro as a Spirit Full Assault with his dual forms; Murciélago and Segunda Etapa."
     },
     {
-      "name": "Kurosaki Ichigo (True Shikai) SSR Rate-Up",
+      "name": "Ichigo Kurosaki (True Shikai) SSR Rate-Up",
       "slugs": ["true-ichigo"],
       "startDate": "2026-07-15",
       "endDate": "2026-08-04",
-      "note": "Kurosaki Ichigo (True Shikai) is based on the TYBW arc. He is a COLLAB unit, which means there likely won't be a second go at him. While we don't know the typing nor role, we do suspect he'll be coming July 15th along with Ishida Uryu (Vollständig), and was rumored to be thrust."
+      "note": "Ichigo Kurosaki (True Shikai) is based on the TYBW arc. He is a COLLAB unit, which means there likely won't be a second go at him. While we don't know the typing nor role, we do suspect he'll be coming July 15th along with Uryu Ishida (Vollständig), and was rumored to be thrust."
     },
     {
-      "name": "Ishida Uryu (Vollständig) SSR Rate-Up",
+      "name": "Uryu Ishida (Vollständig) SSR Rate-Up",
       "slugs": ["vollstandig-ishida"],
       "startDate": "2026-07-15",
       "endDate": "2026-08-04",
-      "note": "Ishida Uryu (Vollständig) is based on the TYBW arc. He is a COLLAB unit, which means there likely won't be a second go at him. While we don't know the typing nor role, we do suspect he'll be coming in August after Kurosaki Ichigo (True Shikai), and was rumored to be thrust."
+      "note": "Uryu Ishida (Vollständig) is based on the TYBW arc. He is a COLLAB unit, which means there likely won't be a second go at him. While we don't know the typing nor role, we do suspect he'll be coming in August after Ichigo Kurosaki (True Shikai), and was rumored to be thrust."
     },
     {
       "name": "Bambietta Basterbine (Vollständig) SSR Rate-Up",
       "slugs": ["vollstandig-bambietta"],
       "startDate": "2026-07-15",
       "endDate": "2026-08-04",
-      "note": "Although not confirmed, highly suspected unit to be with Ishida Uryu (Vollständig) and Kurosaki Ichigo (True Shikai)."
+      "note": "Although not confirmed, highly suspected unit to be with Uryu Ishida (Vollständig) and Ichigo Kurosaki (True Shikai)."
     },
     {
-      "name": "Orihime Inoue (Shun Shun Rikka) SSR Rate-Up",
+      "name": "Inoue Orihime (Shun Shun Rikka) SSR Rate-Up",
       "slugs": ["shun-orihime"],
       "startDate": "2026-07-15",
       "endDate": "2026-08-04",
-      "note": "Although not confirmed, highly suspected unit to be with Ishida Uryu (Vollständig) and Kurosaki Ichigo (True Shikai)."
+      "note": "Although not confirmed, highly suspected unit to be with Uryu Ishida (Vollständig) and Ichigo Kurosaki (True Shikai)."
     }
   ],
   "leaks": [
@@ -146,7 +146,7 @@
       "note": "He was added to the game files, however no details upon him were found."
     },
     {
-      "name": "Shuuhei Hisagi",
+      "name": "Hisagi Shuuhei",
       "role": "TBD",
       "damageType": "TBD",
       "rarity": "TBD",
