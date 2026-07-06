@@ -1,15 +1,15 @@
 [
   {
     "id": "spirit-apex",
-    "name": "Spirit Apex — Toshiro / Aizen / Szayelaporro",
+    "name": "Ulquiorra Mono Spirit",
     "rank": 3,
     "tier": "S",
     "difficulty": "Medium",
-    "content": "Boss / Trial Tower / Co-op",
+    "content": "Co-op / Guild Boss / Trial Tower",
     "members": [
       {
-        "slug": "toshiro",
-        "name": "Toshiro Hitsugaya",
+        "slug": "ulquiorra-resurreccion",
+        "name": "Ulquiorra Shifar",
         "role": "Assault",
         "damageType": "Spirit",
         "notes": [
