@@ -121,6 +121,18 @@
             "actions": [
               {
                 "kind": "Technique"
+              },
+              {
+                "kind": "SpcAtk",
+                "label": "x2"
+              }
+            ]
+          },
+          {
+            "slug": "ulquiorra-resurreccion",
+            "actions": [
+              {
+                "kind": "Technique"
               }
             ]
           },
@@ -128,19 +140,72 @@
             "slug": "aizen",
             "actions": [
               {
+                "kind": "BFS"
+              },
+              {
                 "kind": "Technique"
+              },
+              {
+                "kind": "BFS"
               }
             ]
           },
           {
-            "slug": "toshiro",
+            "slug": "momo",
             "actions": [
               {
-                "kind": "Basic Attack",
-                "label": "×3"
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "SpcAtk",
+                "label": "x2"
+              }
+            ]
+          },
+          {
+            "slug": "ulquiorra-resurreccion",
+            "actions": [
+              {
+                "kind": "Counter"
               },
               {
                 "kind": "Technique"
+              },
+              {
+                "kind": "Dodge"
+              },
+              {
+                "kind": "Basic Attack"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Dodge"
+              },
+              {
+                "kind": "SpcAtk"
+              },
+              {
+                "kind": "Cero Oscuras"
+              },
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Basic Attack"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Battlefield Skill"
+              },
+              {
+                "kind": "Repeat"
               }
             ]
           },
@@ -210,7 +275,7 @@
           "Swap to Mayuri for 1x Basic Attack → Swap to White → Basic Attack until Kenpachi is available to swap → White Technique → Kenpachi Counter → Kenpachi Enhanced Technique → Mayuri Technique → Mayuri Special Attack → Battlefield",
           "White Ultimate → Basic Attack until Mayuri Ult is off cooldown → Mayuri Ultimate → Kenpachi Ultimate → Basic Attack until Ultimate is charged → Kenpachi Ultimate"
         ],
-        "notes": "Highest DPS team as of Segunda Etapa's release."
+        "notes": ""
       }
     ]
   },
