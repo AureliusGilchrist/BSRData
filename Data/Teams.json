@@ -223,8 +223,8 @@
     ]
   },
   {
-    "id": "kenpachi-mono",
-    "name": "Kenpachi Mono Slash",
+    "id": "kenpachi-focus",
+    "name": "Kenpachi Focus",
     "rank": 2,
     "tier": "S",
     "difficulty": "Easy",
@@ -282,7 +282,7 @@
   {
     "id": "gin-mono",
     "name": "Gin Mono Thrust",
-    "rank": 5,
+    "rank": 6,
     "tier": "S",
     "difficulty": "Easy",
     "content": "Co-op / Guild Boss / Events",
@@ -443,171 +443,10 @@
   {
     "id": "pantera-nel",
     "name": "Pantera Nel team",
-    "rank": 6,
+    "rank": 8,
     "tier": "A",
     "difficulty": "Easy",
     "content": "Co-op / Guild Boss / Events",
-    "members": [
-      {
-        "slug": "kenpachi",
-        "name": "Kenpachi Zaraki",
-        "role": "Assault",
-        "damageType": "Slash",
-        "notes": [
-          "S Slash Assault — scales with missing HP",
-          "Tank-DPS; Nelliel's shield/heal lets him sit low-HP safely"
-        ],
-        "swappable": [
-          "ichigo-bankai",
-          "grimmjow-pantera",
-          "yoruichi"
-        ]
-      },
-      {
-        "slug": "nelliel",
-        "name": "Nelliel Tu Odelschwanck",
-        "role": "Tactician",
-        "damageType": "Thrust",
-        "notes": [
-          "S Thrust Tactician — counter, shield, heal",
-          "80% team Crit DMG via Cero Sincretico amplifies Kenpachi's burst"
-        ],
-        "swappable": [
-          "soi-fon",
-          "byakuya",
-          "aizen"
-        ]
-      },
-      {
-        "slug": "mayuri",
-        "name": "Kurotsuchi Mayuri",
-        "role": "Support",
-        "damageType": "Thrust",
-        "notes": [
-          "S Thrust Support — Ailment DMG + +20% team Damage Dealt",
-          "Espada bond into Nelliel completes the buff line"
-        ],
-        "swappable": [
-          "yachiru"
-        ]
-      }
-    ],
-    "rotationP2W": "Mayuri Ailment amp → Nelliel Cero Sincretico (team Crit DMG + Res shred) → Kenpachi lets HP drop, then bursts inside both windows. Triple-SSR, Hideoutgacha's Top 4.",
-    "rotationF2P": "Sub Yachiru (SR Slash) or Orihime (FREE SR) for Mayuri — Yachiru's adjacent-Assault buff keeps Kenpachi scaling, Orihime adds shield/heal stacking with Nelliel. Kenpachi + Nelliel are the required SSRs."
-  },
-  {
-    "id": "counter-stall",
-    "name": "Counter Stall — Aizen Backline",
-    "rank": 7,
-    "tier": "S",
-    "difficulty": "Hard",
-    "content": "PvP / Trial Tower",
-    "members": [
-      {
-        "slug": "aizen",
-        "name": "Sosuke Aizen",
-        "role": "Tactician",
-        "damageType": "Spirit",
-        "notes": [
-          "S+ newest SSR — keep him in backline",
-          "B4 fires a counter every time he swaps in (20s CD)"
-        ]
-      },
-      {
-        "slug": "ikkaku",
-        "name": "Ikkaku Madarame",
-        "role": "Assault",
-        "damageType": "Thrust",
-        "notes": [
-          "S Counter Assault — stance scales with counters",
-          "Pair perfectly with Aizen swap-in counter chain"
-        ],
-        "swappable": [
-          "gin",
-          "yoruichi"
-        ]
-      },
-      {
-        "slug": "orihime",
-        "name": "Orihime Inoue",
-        "role": "Support",
-        "damageType": "Spirit",
-        "notes": [
-          "A Spirit Support — Santen Kesshun shield + heal",
-          "Spirit matches Aizen"
-        ],
-        "swappable": [
-          "momo",
-          "kisuke",
-          "ururu"
-        ]
-      }
-    ],
-    "rotationP2W": "All three SSRs only. Orihime shields → Ikkaku counter-baits → Aizen swap-in counter (B4) → backline BFS at Complete Suppression. Highest counter ceiling.",
-    "rotationF2P": "Sub Momo (FREE SR Spirit) for Orihime if Shun Shun Rikka isn't built — lose the shield but gain Momo's Spirit-DMG buff for Aizen. Ikkaku and Aizen are required, no SR alternative exists for the counter chain."
-  },
-  {
-    "id": "frost-control",
-    "name": "Frost Lockdown — Rukia Freeze",
-    "rank": 8,
-    "tier": "A",
-    "difficulty": "Medium",
-    "content": "PvP / Boss",
-    "members": [
-      {
-        "slug": "rukia",
-        "name": "Rukia Kuchiki",
-        "role": "Tactician",
-        "damageType": "Spirit",
-        "notes": [
-          "S Spirit Tactician — freeze applier",
-          "Frozen target = burst window for any Spirit DPS"
-        ],
-        "swappable": [
-          "aizen",
-          "byakuya"
-        ]
-      },
-      {
-        "slug": "toshiro",
-        "name": "Toshiro Hitsugaya",
-        "role": "Assault",
-        "damageType": "Spirit",
-        "notes": [
-          "S+ Spirit DPS — bonus damage on frozen",
-          "Frost stack synergy with Rukia"
-        ],
-        "swappable": [
-          "ichigo-bankai"
-        ]
-      },
-      {
-        "slug": "momo",
-        "name": "Momo Hinamori",
-        "role": "Support",
-        "damageType": "Spirit",
-        "notes": [
-          "FREE SR Spirit Support — pure-element comp",
-          "Sub Kisuke for higher ceiling, Momo for F2P"
-        ],
-        "swappable": [
-          "kisuke",
-          "szayelaporro",
-          "orihime",
-          "ururu"
-        ]
-      }
-    ],
-    "rotationP2W": "Kisuke (SSR) ATK% buff → Rukia freeze → Toshiro Bankai burst on frozen target. All-SSR (Toshiro + Rukia) Spirit comp with Kisuke ATK ceiling.",
-    "rotationF2P": "Momo (FREE SR Spirit Support) replaces Kisuke for a pure-Spirit all-element comp. Momo buff → Rukia freeze → Toshiro burst — Toshiro is the only required SSR."
-  },
-  {
-    "id": "espada-hollow",
-    "name": "Espada Hollow — Pantera Faction",
-    "rank": 9,
-    "tier": "A",
-    "difficulty": "Medium",
-    "content": "Boss / Trial Tower",
     "members": [
       {
         "slug": "grimmjow-pantera",
@@ -615,14 +454,9 @@
         "role": "Assault",
         "damageType": "Strike",
         "notes": [
-          "SSR Strike Assault — Resurrección burst",
-          "Espada faction anchor"
+          "As Pantera is an ailment unit, he will benefit fully from Mayuri's buffs"
         ],
-        "swappable": [
-          "grimmjow",
-          "yoruichi",
-          "kenpachi"
-        ]
+        "swappable": []
       },
       {
         "slug": "nelliel",
@@ -630,11 +464,52 @@
         "role": "Tactician",
         "damageType": "Thrust",
         "notes": [
-          "S Thrust Tactician — Espada bond + vulnerability"
+          "Any Tactician who can provide counters and also have ailment can be used in tandem with Pantera"
         ],
-        "swappable": [
-          "aizen",
-          "soi-fon"
+        "swappable": []
+      },
+      {
+        "slug": "mayuri",
+        "name": "Kurotsuchi Mayuri",
+        "role": "Support",
+        "damageType": "Thrust",
+        "notes": [
+          "Low field time support"
+        ],
+        "swappable": []
+      }
+    ],
+    "rotationP2W": "Pantera Technique → Battlefield → Nel Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Nel Manual Counter → Special Attack → Pantera Counter → Max Stack Pounce → Enhanced Technique → Quickswap Pounce → Nel Ultimate",
+    "rotations": [
+      {
+        "name": "Pantera Nel Team",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          "Manual Counter in Nel Resurreccion → Special Attack → Technique (2x) → Mayuri Technique → Special Attack → Pantera Quickswap Pounce → Nel Ultimate → Manual Counter → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Pantera Ultimate → Quickswap Pounce → Mayuri Ultimate → Nel Ultimate",
+          "Nel Technique → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Battlefield → Manual Counter → Basic Attack → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Nel Basic Attack → Pantera Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Nel Ultimate → Technique (2x) → Pantera Ultimate → Pounce → Enhanced Technique → Quickswap Pounce → Nel Manual Counter → Special Attack → Mayuri Ultimate → Mayuri Technique → Special Attack → Nel Ultimate → Pantera Counter → Pounce → Enhanced Technique → Pantera Technique → Nel Ultimate"
+        ]
+      }
+    ],
+
+    "rotationF2P": "Lower boundaries team would require more fieldtime with Nel"
+  },
+  {
+    "id": "aizen-support",
+    "name": "Aizen Double Support,
+    "rank": 5,
+    "tier": "S",
+    "difficulty": "Medium",
+    "content": "Co-op / Guild Boss / Events / Frenzy Feast",
+    "members": [
+      {
+        "slug": "aizen",
+        "name": "Sosuke Aizen",
+        "role": "Tactician",
+        "damageType": "Spirit",
+        "notes": [
+          "Tactician whose basic attack, technique and counter ignore defense"
         ]
       },
       {
@@ -643,78 +518,200 @@
         "role": "Support",
         "damageType": "Spirit",
         "notes": [
-          "S Spirit Support — Espada debuff Support",
-          "Espada faction bond completes the trio"
+          "Low field time support"
+        ],
+        "swappable": []
+      },
+      {
+        "slug": "kisuke",
+        "name": "Kisuke Urahara,
+        "role": "Support",
+        "damageType": "Slash",
+        "notes": [
+          "A Spirit Support — Santen Kesshun shield + heal"
         ],
         "swappable": [
-          "mayuri",
-          "nemu",
-          "momo"
+          "momo",
+          "orihime"
         ]
       }
     ],
-    "rotationP2W": "Szayelaporro (SSR) Espada debuff → Nelliel (SSR) lance vulnerability → Grimmjow-Pantera (SSR) Resurrección burst on the double-debuffed target. Triple-SSR Espada faction bond.",
-    "rotationF2P": "Sub Mayuri (SSR Thrust) for Szayelaporro to keep the SSR debuff line if Szayel is missing, or fall back to Nemu (FREE SR Strike) — you lose Espada faction bond but Nemu still pairs with Grimmjow's Strike element. Grimmjow-base (SR) replaces the Pantera form."
+    "rotationP2W": "Szayelaporro Technique → Battlefield → Aizen Manual Counter → Technique (2x) → Battlefield → Szayelaporro Counter → Ultimate → Kisuke Counter → Special Attack (2x) → Ultimate → Aizen Basic Attack (until Battlefield is available) → Swap out → Battlefield",
+    "rotations": [
+      {
+        "name": "Aizen Double Support",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          "Aizen Technique (2x) → Battlefield → Ultimate → Basic Attack (until lightning) → Kisuke Counter → Special Attack (2x) → Szayelaporro Counter → Ultimate → Technique → Basic Attack → Hado 90",
+          "Szayelaporro Counter → Kisuke Counter → Technique → Special Attack (2x) → Kisuke Ultimate → Aizen Battlefield"
+        ]
+      }
+    ],
+    "rotationF2P": "Using Momo or Orihime will cause difficulty in increasing Aizen's Suppression Gauge. Would recommend entering Aizen Ultimate with his Battlefield already half full. Damage will also be much lower without B4 Aizen."
+  },
+  {
+    "id": "toshiro-mono",
+    "name": "Toshiro Mono Spirit",
+    "rank": 7,
+    "tier": "S",
+    "difficulty": "Medium",
+    "content": "Co-op / Guild Boss / Events",
+    "members": [
+      {
+        "slug": "szayelaporro",
+        "name": "Szayelaporro Granz",
+        "role": "Support",
+        "damageType": "Spirit",
+        "notes": [
+          "Low field time support"
+        ],
+        "swappable": [
+          "momo"
+        ]
+      },
+      {
+        "slug": "toshiro",
+        "name": "Toshiro Hitsugaya",
+        "role": "Assault",
+        "damageType": "Spirit",
+        "notes": [
+          "Toshiro buffs make him a strong contender with other teams"
+        ],
+        "swappable": []
+      },
+      {
+        "slug": "aizen",
+        "name": "Sosuke Aizen",
+        "role": "Tactician",
+        "damageType": "Spirit",
+        "notes": [
+          "Aizen's kit provides buffs for his team"
+        ],
+        "swappable": []
+      }
+    ],
+    "rotationP2W": "Szayelaporro Technique → Toshiro Technique → Battlefield → Manual Counter → Technique (2x) → Battlefield → Szayelaporro Counter → Ultimate → Toshiro Counter → Technique → Basic Attack",
+    "rotations": [
+      {
+        "name": "Toshiro Mono Spirit",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          "Toshiro Basic Attack until Battlefield is ready → Battlefield → Aizen Technique (2x) → Aizen Ultimate → Basic Attack combo → Hado 90 → Szayelaporro Counter → Ultimate → Technique → Toshiro Counter → Technique → Basic Attack (until 24 Illusion stacks) → Toshiro Ultimate → Basic Attack (while moving) → Get 5 Build Up stacks → Ultimate → Technique → Basic Attack (2 full combos) → Aizen Battlefield"
+        ]
+      }
+    ],
+    "rotationF2P": "Momo should function the same as Szayelaporro."
+  },
+  {
+    "id": "standard-thrust",
+    "name": "Standard Banner Thrust",
+    "rank": 9,
+    "tier": "C",
+    "difficulty": "Easy",
+    "content": "Trial Tower / Frenzy Feast",
+    "members": [
+      {
+        "slug": "ikkaku",
+        "name": "Ikkaku Madarame",
+        "role": "Assault",
+        "damageType": "Thrust",
+        "notes": [
+          "Applies wound on Special Attack"
+        ],
+        "swappable": []
+      },
+      {
+        "slug": "tosen",
+        "name": "Kaname Tosen",
+        "role": "Tactician",
+        "damageType": "Thrust",
+        "notes": [
+          "Provides buffs for his team while applying ailment"
+        ],
+        "swappable": []
+      },
+      {
+        "slug": "rangiku",
+        "name": "Rangiku Matsumoto",
+        "role": "Support",
+        "damageType": "Thrust",
+        "notes": [
+          "Off field ailment dmg while buffing ailment and thrust damage"
+        ],
+        "swappable": []
+      }
+    ],
+    "rotationP2W": "",
+    "rotations": [
+      {
+        "name": "Standard Banner Thrust",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          "Tosen Battlefield → Rangiku Technique → Ikkaku Technique → Basic Attack spam → Special Attack (Whenever it's available) → Rangiku Ultimate"
+        ]
+      }
+    ],
+    "rotationF2P": ""
   },
   {
     "id": "f2p-starter",
     "name": "F2P Starter — Story Friendly",
     "rank": 10,
-    "tier": "B",
+    "tier": "D",
     "difficulty": "Easy",
     "content": "Early-game story",
     "members": [
       {
-        "slug": "ichigo-shikai",
-        "name": "Ichigo Kurosaki (Shikai)",
+        "slug": "ichigo-initial",
+        "name": "Ichigo Kurosaki (Initial)",
         "role": "Assault",
         "damageType": "Slash",
         "notes": [
-          "Story-given starter — Slash Assault",
-          "Upgrade to Ichigo (Bankai) once pulled"
+          "Story-given starter"
         ],
         "swappable": [
-          "ichigo-initial",
-          "renji",
-          "chad",
-          "ichigo-bankai"
+          "ichigo-shikai"
         ]
       },
       {
-        "slug": "rukia",
-        "name": "Rukia Kuchiki",
+        "slug": "uryu",
+        "name": "Uryu Ishida",
         "role": "Tactician",
-        "damageType": "Spirit",
+        "damageType": "Thrust",
         "notes": [
-          "Accessible Spirit Tactician — freeze utility",
-          "One of the best F2P-friendly Tacticians"
+          "Story-given starter"
         ],
-        "swappable": [
-          "uryu",
-          "tosen",
-          "byakuya",
-          "aizen"
-        ]
+        "swappable": []
       },
       {
-        "slug": "momo",
-        "name": "Momo Hinamori",
+        "slug": "orihime",
+        "name": "Inoue Orihime",
         "role": "Support",
         "damageType": "Spirit",
         "notes": [
-          "FREE SR Support — pairs with Rukia for Spirit synergy",
-          "Sub in Orihime for shield, Kisuke for ATK% buff"
+          "Story-given starter"
         ],
-        "swappable": [
-          "orihime",
-          "ururu",
-          "nemu",
-          "kisuke",
-          "yachiru"
+        "swappable": []
+      }
+    ],
+    "rotationP2W": "This comp is intentionally SR-only — the P2W path is to retire it and run any of #1–#5 as you pull SSRs.",
+    "rotations": [
+      {
+        "name": "F2P Starter — Story Friendly",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          "Orihime Technique → Ichigo Technique → Special Attack → Battlefield → Technique → Ichigo Basic Attacks"
         ]
       }
     ],
-    "rotationP2W": "This comp is intentionally SR-only — the P2W path is to retire it and run any of #1–#5. As you pull SSRs, swap into Spirit Apex (#1, replace Ichigo-shikai with Ichigo-Bankai, Momo with Aizen, etc.) or Slash Storm (#2).",
-    "rotationF2P": "Momo (FREE SR) Spirit-DMG buff → Rukia (SR) freeze → Ichigo-shikai (story-given) Getsuga burst on the frozen target. Every slot is free or pity-able — runnable from day 1."
+    "rotationF2P": "Story friendly team."
   }
 ]
