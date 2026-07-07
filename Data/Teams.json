@@ -196,12 +196,23 @@
         "swappable": []
       }
     ],
-    "rotationP2W": {
+    "rotationP2W": "",
+    "rotationF2P": "Rotation for lower boundary team should be similar, but Kenpachi will have a more difficult time charging his Spiritual Pressure.",
+    "rotations": [
+      {
+        "name": "Kenpachi Mono Slash",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
           "Kenpachi Technique → Mayuri Ultimate → White Special Attack → Basic attack x2 → Technique → Kenpachi Counter",
           "Kenpachi Special Attack → Mayuri Technique → Mayuri Special Attack→ White Basic Attack (as much as possible before Kenpachi can be swapped back onto) → Kenpachi Swap → Enhanced Technique → Swap to White → White Special Attack → White Manual Counter → Kenpachi Counter → Kenpachi Special Attack",
           "Swap to Mayuri for 1x Basic Attack → Swap to White → Basic Attack until Kenpachi is available to swap → White Technique → Kenpachi Counter → Kenpachi Enhanced Technique → Mayuri Technique → Mayuri Special Attack → Battlefield",
-          "White Ultimate → Basic Attack until Mayuri Ult is off cooldown → Mayuri Ultimate → Kenpachi Ultimate → Basic Attack until Ultimate is charged → Kenpachi Ultimate",
-    "rotationF2P": "Rotation for lower boundary team should be similar, but Kenpachi will have a more difficult time charging his Spiritual Pressure."
+          "White Ultimate → Basic Attack until Mayuri Ult is off cooldown → Mayuri Ultimate → Kenpachi Ultimate → Basic Attack until Ultimate is charged → Kenpachi Ultimate"
+        ],
+        "notes": "Highest DPS team as of Segunda Etapa's release."
+      }
+    ]
   },
   {
     "id": "gin-mono",
@@ -244,10 +255,20 @@
         ]
       }
     ],
-    "rotationP2W": {
+    "rotationF2P": "At lower boundaries, Nel will require more field time to charge up her initial Ultimate (where she enters Resurreccion). If using Rangiku, simply use her Technique and Ultimate whenever it's up.",
+    "rotationP2W": "",
+    "rotations": [
+      {
+        "name": "Gin Mono Thrust",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
           "Nel Battlefield → Technique → Mayuri Ultimate (Wait for Nel to swipe left) → Basic Attack (Impale cooldown) → Mayuri Technique → Special Attack → Gin Technique (1x) → Gin Manual Counter → Gin Technique (2x) → Gin Technique (1x) → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Nel Ultimate",
-	  "Nel Manual Counter → Special Attack → Technique (2x) → Mayuri Technique → Gin Manual Counter → Technique (1x) → Nel Ultimate → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Technique (2x) → Technique (1x) → Gin Ultimate → Nel Ultimate",
-    "rotationF2P": "At lower boundaries, Nel will require more field time to charge up her initial Ultimate (where she enters Resurreccion). If using Rangiku, simply use her Technique and Ultimate whenever it's up."
+	        "Nel Manual Counter → Special Attack → Technique (2x) → Mayuri Technique → Gin Manual Counter → Technique (1x) → Nel Ultimate → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Technique (2x) → Technique (1x) → Gin Ultimate → Nel Ultimate"
+        ]
+      }
+    ]
   },
   {
     "id": "pantera-mono",
@@ -273,7 +294,7 @@
         "role": "Assault",
         "damageType": "Strike",
         "notes": [
-          "Trigger Lacerate as often as possible",
+          "Trigger Lacerate as often as possible"
         ],
         "swappable": []
       },
@@ -288,10 +309,18 @@
         "swappable": []
       }
     ],
-    "rotationP2W": {
-          "Spawn in with Soi Fon (free Conviction stack) → Swap to any other character → Battlefield (free Conviction stack) → Manual Counter → Technique → Basic Attack to trigger counter → Swap to Pantera → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Pounce (Charge until max stacks) → Enhanced Technique → Quickswap Pounce → Soi Fon Windmill (at 10 battlefield energy) → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate",
-"Pantera Quickswap Pounce → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Quickswap Pounce → Battlefield → Soi Fon Manual Counter → Technique → Trigger Homonka → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Pantera Quickswap Pounce → Soi Fon Windmill → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate",
-    "rotationF2P": "Rotation should be the exact same at lower boundaries. B1 Soi Fon will be required."
+    "rotationP2W": "",
+    "rotationF2P": ["Rotation should be the exact same at lower boundaries. B1 Soi Fon will be required."],
+    "rotations": [
+      {
+        "name": "Pantera Mono Strike",
+        "tags": [],
+        "steps": [
+          "Spawn in with Soi Fon (free Conviction stack) → Swap to any other character → Battlefield (free Conviction stack) → Manual Counter → Technique → Basic Attack to trigger counter → Swap to Pantera → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Pounce (Charge until max stacks) → Enhanced Technique → Quickswap Pounce → Soi Fon Windmill (at 10 battlefield energy) → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate", 
+          "Pantera Quickswap Pounce → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Quickswap Pounce → Battlefield → Soi Fon Manual Counter → Technique → Trigger Homonka → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Pantera Quickswap Pounce → Soi Fon Windmill → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate"
+        ]
+      }
+    ]
   },
   {
     "id": "bichigo-mono",
@@ -331,9 +360,19 @@
         "swappable": []
       }
     ],
-    "rotationP2W": {
+    "rotationP2W": "",
+    "rotations": [
+      {
+        "name": "Bankai Ichigo Mono Slash",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
           "Bichigo Technique → Special Attack → Kisuke Technique → White Special Attack → White Technique → Bichigo counter → Special Attack → Kisuke Special Attack (2x) → White Basic Attack (1-2) → Bichigo Basic Attack (3x) → Special Atatck → Kisuke Ultimate → White Basic Attack until Bichigo Technique is available → Bichigo Technique → Special Attack → White Basic Attack until Battlefield is available → Battlefield → Finish Combo (can quickswap out as the sword being thrown down animation plays) → Kisuke Technique (can be quickswapped out of) → Bichigo Ultimate",
-          "Special Attack (Cancel it immediately with counter) → Manual Counter → Special Attack → White Special Attack → Manual Counter → Technique → Bichigo Counter → Special Attack → Battlefield → White Ultimate → Kisuke Technique (1-2) → Bichigo Technique → Special Attack → Bichigo Technique → Special Attack → Bichigo Ultimate → Basic Attack (3) → Special Attack → Kisuke Ultimate → Manually release Kisuke Technique → White Ultimate",
+          "Special Attack (Cancel it immediately with counter) → Manual Counter → Special Attack → White Special Attack → Manual Counter → Technique → Bichigo Counter → Special Attack → Battlefield → White Ultimate → Kisuke Technique (1-2) → Bichigo Technique → Special Attack → Bichigo Technique → Special Attack → Bichigo Ultimate → Basic Attack (3) → Special Attack → Kisuke Ultimate → Manually release Kisuke Technique → White Ultimate"
+        ]
+      }
+    ],
     "rotationF2P": "Rotation should be the exact same as P2W counterpart."
   },
   {
