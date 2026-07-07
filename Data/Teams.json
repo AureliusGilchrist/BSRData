@@ -158,8 +158,8 @@
     ]
   },
   {
-    "id": "kenny-mono",
-    "name": "Kenny Mono Slash",
+    "id": "kenpachi-mono",
+    "name": "Kenpachi Mono Slash",
     "rank": 2,
     "tier": "S",
     "difficulty": "Easy",
@@ -173,7 +173,7 @@
         "notes": [
           "Quickswap everything"
         ],
-        "swappable": []        ]
+        "swappable": []
       },
       {
         "slug": "ichigo-white",
@@ -193,21 +193,23 @@
         "notes": [
           "Ailment buffer to boost Kenpachi further"
         ],
-        "swappable": [
-          "kisuke"
-        ]
+        "swappable": []
       }
     ],
-    "rotationP2W": "Kisuke (SSR) team ATK% buff → Byakuya petal field → Ichigo Bankai Ult inside both windows. Pure all-SSR Slash trio.",
-    "rotationF2P": "Swap Kisuke for Momo (FREE SR) or Yachiru (SR+) for the Support slot — buff Ichigo's Bankai before the petal field detonates. Still all-Slash on the front-line; you just lose the team-wide ATK% ceiling."
+    "rotationP2W":
+          "Kenpachi Technique → Mayuri Ultimate → White Special Attack → Basic attack x2 → Technique → Kenpachi Counter",
+          "Kenpachi Special Attack → Mayuri Technique → Mayuri Special Attack→ White Basic Attack (as much as possible before Kenpachi can be swapped back onto) → Kenpachi Swap → Enhanced Technique → Swap to White → White Special Attack → White Manual Counter → Kenpachi Counter → Kenpachi Special Attack",
+          "Swap to Mayuri for 1x Basic Attack → Swap to White → Basic Attack until Kenpachi is available to swap → White Technique → Kenpachi Counter → Kenpachi Enhanced Technique → Mayuri Technique → Mayuri Special Attack → Battlefield",
+          "White Ultimate → Basic Attack until Mayuri Ult is off cooldown → Mayuri Ultimate → Kenpachi Ultimate → Basic Attack until Ultimate is charged → Kenpachi Ultimate",
+    "rotationF2P": "Rotation for lower boundary team should be similar, but Kenpachi will have a more difficult time charging his Spiritual Pressure."
   },
   {
-    "id": "thrust-pierce",
-    "name": "Pierce Lance — Gin / Nelliel / Mayuri",
-    "rank": 4,
+    "id": "gin-mono",
+    "name": "Gin Mono Thrust",
+    "rank": 5,
     "tier": "S",
     "difficulty": "Easy",
-    "content": "Clears everything",
+    "content": "Co-op / Guild Boss / Events",
     "members": [
       {
         "slug": "gin",
@@ -215,13 +217,9 @@
         "role": "Assault",
         "damageType": "Thrust",
         "notes": [
-          "S Thrust DPS — continuous damage via Impale & Snake Venom",
-          "Self-buff loop, fastest rotation in the game"
+          "Ailment DMG off-field. 70% of DMG comes from Ailment."
         ],
-        "swappable": [
-          "ikkaku",
-          "uryu"
-        ]
+        "swappable": []
       },
       {
         "slug": "nelliel",
@@ -229,14 +227,9 @@
         "role": "Tactician",
         "damageType": "Thrust",
         "notes": [
-          "S Thrust Tactician — counter mechanic, shield & heal",
-          "Team Ailment-Res shred + 80% team Crit DMG via Cero Sincretico"
+          "Her most important kit is locked behind B6"
         ],
-        "swappable": [
-          "tosen",
-          "uryu",
-          "soi-fon"
-        ]
+        "swappable": []
       },
       {
         "slug": "mayuri",
@@ -244,26 +237,25 @@
         "role": "Support",
         "damageType": "Thrust",
         "notes": [
-          "S Thrust Support — team Ailment DMG + Ailment Mastery buff",
-          "+20% team Damage Dealt and All-Skills Mastery during his window"
+          "Low field time support"
         ],
         "swappable": [
-          "szayelaporro",
-          "rangiku",
-          "nemu"
+          "rangiku"
         ]
       }
     ],
-    "rotationP2W": "Maintain Gin's poison stacks → time Nelliel's Cero Sincretico inside Mayuri's debuff window → Gin Kamishini no Yari on the stacked-debuff target. Triple-SSR all-Thrust, Hideoutgacha's Top 1.",
-    "rotationF2P": "Sub Nemu (FREE SR Strike) or Rangiku (SR Thrust) for Mayuri — keep Gin + Nelliel as the core; you lose Mayuri's team-wide Ailment amp but Nelliel's Crit DMG buff still carries the burst. Tosen (SSR) or Uryu (SR) sub the Tactician slot if Nelliel is missing."
+    "rotationP2W":
+          "Nel Battlefield → Technique → Mayuri Ultimate (Wait for Nel to swipe left) → Basic Attack (Impale cooldown) → Mayuri Technique → Special Attack → Gin Technique (1x) → Gin Manual Counter → Gin Technique (2x) → Gin Technique (1x) → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Nel Ultimate",
+	  "Nel Manual Counter → Special Attack → Technique (2x) → Mayuri Technique → Gin Manual Counter → Technique (1x) → Nel Ultimate → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Technique (2x) → Technique (1x) → Gin Ultimate → Nel Ultimate",
+    "rotationF2P": "At lower boundaries, Nel will require more field time to charge up her initial Ultimate (where she enters Resurreccion). If using Rangiku, simply use her Technique and Ultimate whenever it's up."
   },
   {
-    "id": "strike-rush",
-    "name": "Strike Apex — Soi Fon / Grimmjow (Pantera) / Mayuri",
-    "rank": 2,
+    "id": "pantera-mono",
+    "name": "Pantera Mono Strike",
+    "rank": 3,
     "tier": "S",
-    "difficulty": "Hard",
-    "content": "Boss / Trial Tower / PvP",
+    "difficulty": "Medium",
+    "content": "Co-op / Guild Boss / Events",
     "members": [
       {
         "slug": "soi-fon",
@@ -271,13 +263,9 @@
         "role": "Tactician",
         "damageType": "Strike",
         "notes": [
-          "S Strike Tactician — Homonka mark + Nigeki Kessatsu execute",
-          "Setup for Grimmjow's Resurrección burst window"
+          "Two rotation Tactician."
         ],
-        "swappable": [
-          "yoruichi",
-          "komamura"
-        ]
+        "swappable": []
       },
       {
         "slug": "grimmjow-pantera",
@@ -285,14 +273,9 @@
         "role": "Assault",
         "damageType": "Strike",
         "notes": [
-          "SSR Strike Assault — Resurrección rage burst",
-          "Espada faction bond with Mayuri amplifies the kill window"
+          "Trigger Lacerate as often as possible",
         ],
-        "swappable": [
-          "grimmjow",
-          "yoruichi",
-          "kenpachi"
-        ]
+        "swappable": []
       },
       {
         "slug": "mayuri",
@@ -300,26 +283,23 @@
         "role": "Support",
         "damageType": "Thrust",
         "notes": [
-          "S Thrust Support — Ailment DMG + Mastery team buff",
-          "Off-element but the +20% team Damage Dealt scales any DPS"
+          "Low field time support"
         ],
-        "swappable": [
-          "szayelaporro",
-          "nemu",
-          "rangiku"
-        ]
+        "swappable": []
       }
     ],
-    "rotationP2W": "Mayuri team Ailment-DMG buff → Soi Fon Homonka mark → Grimmjow-Pantera Resurrección rage burst on the marked + debuffed target → Soi Fon return swap fires Nigeki Kessatsu for the execute. Triple-SSR, Hideoutgacha's Top 2.",
-    "rotationF2P": "Sub Nemu (FREE SR Strike) for Mayuri to go pure-Strike — you lose Mayuri's Ailment amp but keep Strike-element bonuses. Grimmjow-base (SR) can replace the Pantera form if you haven't pulled the SSR — Soi Fon and the rotation order stay the same."
+    "rotationP2W":
+          "Spawn in with Soi Fon (free Conviction stack) → Swap to any other character → Battlefield (free Conviction stack) → Manual Counter → Technique → Basic Attack to trigger counter → Swap to Pantera → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Pounce (Charge until max stacks) → Enhanced Technique → Quickswap Pounce → Soi Fon Windmill (at 10 battlefield energy) → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate",
+"Pantera Quickswap Pounce → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Quickswap Pounce → Battlefield → Soi Fon Manual Counter → Technique → Trigger Homonka → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Pantera Quickswap Pounce → Soi Fon Windmill → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate",
+    "rotationF2P": "Rotation should be the exact same at lower boundaries. B1 Soi Fon will be required."
   },
   {
-    "id": "trinity-splus",
-    "name": "Trinity Apex — Triple S+",
-    "rank": 5,
+    "id": "bichigo-mono",
+    "name": "Bankai Ichigo Mono Slash",
+    "rank": 4,
     "tier": "S",
     "difficulty": "Hard",
-    "content": "End-game / Whale comp",
+    "content": "Co-op / Guild Boss / Events",
     "members": [
       {
         "slug": "ichigo-bankai",
@@ -327,21 +307,17 @@
         "role": "Assault",
         "damageType": "Slash",
         "notes": [
-          "S+ Slash DPS — highest single-target ceiling",
-          "Swap to Toshiro for an all-Spirit shift"
+          "With the release of White, Bankai Ichigo has become a useable unit."
         ],
-        "swappable": [
-          "toshiro"
-        ]
+        "swappable": []
       },
       {
-        "slug": "aizen",
-        "name": "Sosuke Aizen",
+        "slug": "ichigo-white",
+        "name": "Kurosaki Ichigo (Inner Hollow)",
         "role": "Tactician",
-        "damageType": "Spirit",
+        "damageType": "Slash",
         "notes": [
-          "S+ newest SSR — universal buff/debuff",
-          "Off-element but the buff scales any damage type"
+          "Slash DMG amplification"
         ]
       },
       {
@@ -350,22 +326,21 @@
         "role": "Support",
         "damageType": "Slash",
         "notes": [
-          "S+ Support — team ATK% (matches Ichigo's Slash too)",
-          "Best generic support in the game"
+          "Best standard banner support in the game"
         ],
-        "swappable": [
-          "momo"
-        ]
+        "swappable": []
       }
     ],
-    "rotationP2W": "Kisuke team ATK% → Aizen Ravage debuff + team buff → Ichigo Bankai Getsuga burst. Three S+ SSRs stacked — highest pure ceiling in the game.",
-    "rotationF2P": "This comp REQUIRES all three SSRs — there is no F2P version. If even one is missing, run Spirit Apex (#1) or Slash Storm (#2) instead, which both have free-unit substitutes for the Support slot."
+    "rotationP2W":
+          "Bichigo Technique → Special Attack → Kisuke Technique → White Special Attack → White Technique → Bichigo counter → Special Attack → Kisuke Special Attack (2x) → White Basic Attack (1-2) → Bichigo Basic Attack (3x) → Special Atatck → Kisuke Ultimate → White Basic Attack until Bichigo Technique is available → Bichigo Technique → Special Attack → White Basic Attack until Battlefield is available → Battlefield → Finish Combo (can quickswap out as the sword being thrown down animation plays) → Kisuke Technique (can be quickswapped out of) → Bichigo Ultimate",
+          "Special Attack (Cancel it immediately with counter) → Manual Counter → Special Attack → White Special Attack → Manual Counter → Technique → Bichigo Counter → Special Attack → Battlefield → White Ultimate → Kisuke Technique (1-2) → Bichigo Technique → Special Attack → Bichigo Technique → Special Attack → Basic Attack (3) → Special Attack → Kisuke Ultimate → Manually release Kisuke Technique → White Ultimate",
+    "rotationF2P": "Rotation should be the exact same as P2W counterpart."
   },
   {
     "id": "kenpachi-bruiser",
     "name": "Bruiser Bash — Kenpachi / Nelliel / Mayuri",
-    "rank": 4,
-    "tier": "S",
+    "rank": 6,
+    "tier": "A",
     "difficulty": "Medium",
     "content": "Boss / Story / Co-op",
     "members": [
@@ -409,10 +384,7 @@
           "Espada bond into Nelliel completes the buff line"
         ],
         "swappable": [
-          "yachiru",
-          "szayelaporro",
-          "orihime",
-          "momo"
+          "yachiru"
         ]
       }
     ],
