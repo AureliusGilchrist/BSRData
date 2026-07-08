@@ -120,7 +120,7 @@
   "role": "Assault",
   "rotations": [
     {
-      "name": "Resurrección Burst",
+      "name": "Pounce Setup",
       "steps": [
         "Start with Soi Fon → Swap to another unit → Battlefield → Manual Counter → Technique → Homonka",
         "Pantera Counter → Technique (1x) → Mayuri Ultimate → Technique → Pantera Pounce (Max Stacks) → Enhanced Technique",
@@ -160,7 +160,7 @@
       "variant": "Chain"
     },
     {
-      "description": "Grimmjow releases his strongest move, dealing damage equal to 6600% of ATK to enemies with a devastsating strike.",
+      "description": "Grimmjow releases his strongest move, dealing damage equal to 6600% of ATK to enemies with a devastating strike.",
       "icon": "/Images/grimmjow-pantera/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Desgarron",

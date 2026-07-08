@@ -116,7 +116,7 @@
   "role": "Support",
   "rotations": [
     {
-      "name": "Debuff Cycle",
+      "name": "Technique Opener",
       "steps": [
         "Technique",
         "Swap to Tactical unit (Aizen)",
@@ -139,7 +139,7 @@
       "variant": null
     },
     {
-      "description": "Szayelaporro activates a trap beneath the enemy, pulling nearby enemies slightly and dealing damage equal to 265% of ATK. After release, it can directly chain into the",
+      "description": "Szayelaporro activates a trap beneath the enemy, pulling nearby enemies slightly and dealing damage equal to 265% of ATK. After release, it can directly chain into the 3rd hit of basic attack.",
       "icon": "/Images/szayelaporro/skill-technique.png",
       "kind": "Technique",
       "name": "Trap Activation",
