@@ -8,10 +8,10 @@
   },
   "art": "/Images/grimmjow-pantera/art.png",
   "bestStamp": {
-    "mainStats": "1: Strike DMG Bonus  •  2: Crit Rate  •  3: Atk%",
-    "notes": "B6 unlocks the second Resurrección burst — worth the full investment.",
+    "mainStats": "1: Strike DMG  •  2: Crit Rate  •  3: ATK%",
+    "notes": "This character is a complete unit at B0",
     "setName": "Becoming the King (3)",
-    "subStatPriority": "ATK% \u003e Crit Rate (50%) \u003e Crit DMG \u003e Flat Atk \u003e Ailment%"
+    "subStatPriority": "Crit Rate (50%) \u003e ATK% \u003e Crit DMG \u003e Flat ATK \u003e Ailment%"
   },
   "bondPriority": [
     {
@@ -61,29 +61,28 @@
   ],
   "builds": [
     {
-      "label": "Main",
+      "label": "Min-Max",
       "passiveSkills": [
-        "All DMG Dealt/Bonus +9%",
-        "Increase Ultimate DMG +22.5%",
-        "Special Attack +22.5%"
+        "Overdrive OR Enhanced DMG",
+        "Technique DMG"
       ],
-      "range": "B0W1C1 - B6W5C5",
+      "range": "B6W5C5",
       "setName": "Becoming the King",
       "setPieces": [
         {
-          "mainStat": "Atk% \u003e Strike DMG Bonus",
+          "mainStat": "Strike DMG \u003e ATK%",
           "slot": 1
         },
         {
-          "mainStat": "Crit Rate \u003e Crit DMG",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
-          "mainStat": "Atk% \u003e Ailment DMG Bonus",
+          "mainStat": "ATK%",
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Atk/Ailment DMG \u003e Ultimate Charge",
+      "subStatPriority": "Crit Rate (50%) \u003e ATK% \u003e Crit DMG \u003e Flat ATK \u003e Ailment%",
       "targets": {
         "ultChargeRate": "100-109%"
       }
@@ -91,7 +90,7 @@
   ],
   "corePassives": [
     {
-      "description": "When Grimmjow's Spiritual Pressure is equal to or above 50, tap and hold Basic Attack to enter Rush. Release the Basic Attack button during Rush to make Grimmjow release Pounce on the target and apply Prey Mark. When Grimmjow attacks a target affected by Prey Mark, he applies Lacerate Points. Triggers Lacerate once for every 100 Lacerate Points accumulated, dealing Ailment DMG equal to 200% of ATK to the target.",
+      "description": "When Grimmjow's Spiritual Pressure is equal to or above 50, tap and hold Basic Attack to enter Rush. \n Release the Basic Attack button during Rush to make Grimmjow release Pounce on the target and apply Prey Mark. When Grimmjow attacks a target affected by Prey Mark, he applies Lacerate Points. Triggers Lacerate once for every 100 Lacerate Points accumulated, dealing Ailment DMG equal to 200% of ATK to the target.",
       "icon": "/Images/grimmjow-pantera/passive-1.png",
       "name": "Royal Hunt"
     },
@@ -101,7 +100,7 @@
       "name": "Panther Speed"
     },
     {
-      "description": "After Grimmjow enters Rush, he gains 1 stack of Killing Intent every 0.1 second, up to 5 stacks. When releasing Special Attack, Pounce, all Killing Intent stacks are consumed to increase Grimmjow's Crit DMG by 15% per stack for 10 seconds.",
+      "description": "After Grimmjow enters Rush, he gains 1 stack of Killing Intent every 0.1 second, up to 5 stacks. \n When releasing Special Attack, Pounce, all Killing Intent stacks are consumed to increase Grimmjow's Crit DMG by 15% per stack for 10 seconds.",
       "icon": "/Images/grimmjow-pantera/passive-3.png",
       "name": "Bare Killing Intent"
     },
@@ -123,59 +122,59 @@
     {
       "name": "Resurrección Burst",
       "steps": [
-        "Swap-in with full ult charge",
-        "Technique → Basic ×3 (rage stacks)",
-        "Ultimate (Pantera)",
-        "Battlefield Skill while resurrected"
+        "Start with Soi Fon → Swap to another unit → Battlefield → Manual Counter → Technique → Homonka",
+        "Pantera Counter → Technique (1x) → Mayuri Ultimate → Technique → Pantera Pounce (Max Stacks) → Enhanced Technique",
+        "Pantera Quickswap Pounce → Soi Fon Windmill → Basic Attack → Soi Fon Ultimate",
+        "Pantera Counter → Pounce → Enhanced Technique → Pantera Ultimate"
       ],
       "tags": [
-        "Burst",
+        "Opener",
         "Boss"
       ]
     },
     {
-      "name": "Rage Sustain",
+      "name": "Soi Fon Windmill Prio",
       "steps": [
-        "Counter-bait → Technique → Basic combo",
-        "Refresh rage stacks before Ult"
+        "Start with Soi Fon → Mayuri Ultimate → Technique → Pantera Technique → Soi Fon Windmill → Basic Attack → Homonka",
+        "Pantera Counter → Pounce (Max Stacks) → Quickswap Pounce → Battlefield → Manual Counter → Technique → Homonka → Ultimate → Pantera Counter → Pounce → Enhanced Technique → Ultimate"
       ],
       "tags": [
-        "Sustain",
-        "PvP"
+        "Opener,
+        "Boss"
       ]
     }
   ],
   "skills": [
     {
-      "description": "Grimmjow strikes the enemy 6 times with his claws, dealing damage equal to 850% of ATK and gaining Spiritual Pressure. Grimmjow can release Basic Attack while under Rush to pounce at the target, dealing damage equal to 225% of ATK. After pouncing at the target, Grimmjow immediately pursues them, dealing damage equal to 275% of ATK and gaining 1 Hunting Point.",
+      "description": "Grimmjow strikes the enemy 6 times with his claws, dealing damage equal to 850% of ATK and gaining Spiritual Pressure. ~~Pounce~~ Release Basic Attack While Under Rush \n After Rush, Grimmjow pounces at the target, dealing damage equal to 270% of ATK. ~~Pounce Pursuit~~ Automatically released after using Pounce \n After pouncing at the target, Grimmjow immediately pursues them, dealing damage equal to 275% of ATK and gaining 1 Hunting Point.",
       "icon": "/Images/grimmjow-pantera/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Grind, Pantera!",
       "variant": null
     },
     {
-      "description": "Grimmjow sweeps enemies with the blades on his legs, dealing damage equal to 500% of ATK. Tap Technique again after releasing Razor Kick to grab the target and follow up with a powerful kick, dealing damage equal to 550% of ATK and obtaining 1 Hunting Point. After releasing Pounce Pursuit, Grimmjow leaps above the target, then darts rapidly across the battlefield while slashing them, dealing damage equal to 595% of ATK. After releasing this technique, he can consume 2 more Hunting Points to continue pursuing the enemy. Grimmjow can then consume the remaining Hunting Points to leap high into the air again, then crash down onto the target with a heavy impact, dealing damage equal to 1500% of ATK.",
+      "description": "Grimmjow sweeps enemies with the blades on his legs, dealing damage equal to 600% of ATK. ~~Violent Clutch~~ Tap Technique again after releasing Razor Kick \n Grimmjow tightly grabs the target, then follows up with a powerful kick, dealing damage equal to 660% of ATK and obtaining 1 Hunting Point. ~~Ferocious Combo~~ Consuming Hunting Points After Releasing Pounce Pursuit \n Grimmjow leaps above the target, then darts rapidly across the battlefield while slashing them, dealing damage equal to 700% of ATK. \n After releasing this technique, he can consume 2 more Hunting Points to continue pursuing the enemy. ~~Death Grip~~ Consuming Hunting Points After Releasing Ferocious Combo \n Grimmjow leaps high into the air again, then crashes down onto the target with a heavy impact, dealing damage equal to 1800% of ATK.",
       "icon": "/Images/grimmjow-pantera/skill-technique.png",
       "kind": "Technique",
       "name": "Razor Kick",
       "variant": "Chain"
     },
     {
-      "description": "Grimmjow releases his strongest move, dealing damage equal to 5500% of ATK to enemies with a devastsating strike.",
+      "description": "Grimmjow releases his strongest move, dealing damage equal to 6600% of ATK to enemies with a devastsating strike.",
       "icon": "/Images/grimmjow-pantera/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Desgarron",
       "variant": null
     },
     {
-      "description": "After countering an enemy attack, Grimmjow fires several Panther Hooks from his elbows. They explode on hit, dealing damage equal to 1625% of ATK and granting him 1 Hunting Point.",
+      "description": "After countering an enemy attack, Grimmjow fires several Panther Hooks from his elbows. They explode on hit, dealing damage equal to 1950% of ATK and granting him 1 Hunting Point.",
       "icon": "/Images/grimmjow-pantera/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",
       "variant": null
     },
     {
-      "description": "Use Sonido to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Grimmjow gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds. Triggering Perfect Dodge grants Grimmjow 1 Hunting Point.",
+      "description": "Use Sonido to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Grimmjow gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds. \n Triggering Perfect Dodge grants Grimmjow 1 Hunting Point.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Sonido"

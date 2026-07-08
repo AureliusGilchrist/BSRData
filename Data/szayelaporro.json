@@ -10,8 +10,8 @@
   "bestStamp": {
     "mainStats": "1: ATK%  •  2: Crit DMG \u003e ATK%  •  3: ATK%",
     "notes": "Easiest unit to build. Minimum stats required: 5280 ATK and 175% Crit DMG.",
-    "setName": "Fornicarás (4) + Spirit (2)",
-    "subStatPriority": "Atk% \u003e Flat ATK \u003e Crit DMG \u003e Crit Rate \u003e Ultimate Charge Rate"
+    "setName": "Curtain Falls (3)",
+    "subStatPriority": "ATK% \u003e Flat ATK \u003e Crit DMG \u003e Ultimate Charge Rate \u003e Crit Rate"
   },
   "bondPriority": [
     {
@@ -66,7 +66,7 @@
       "setName": "Curtain Falls",
       "setPieces": [
         {
-          "mainStat": "Atk%",
+          "mainStat": "ATK%",
           "slot": 1
         },
         {
@@ -74,11 +74,11 @@
           "slot": 2
         },
         {
-          "mainStat": "Atk% \u003e Ultimate Charge Rate",
+          "mainStat": "ATK% \u003e Ultimate Charge Rate",
           "slot": 3
         }
       ],
-      "subStatPriority": "Atk% \u003e Crit DMG \u003e Atk \u003e Crit Rate \u003e Ultimate Charge Rate",
+      "subStatPriority": "ATK% \u003e Crit DMG \u003e Flat ATK \u003e Ultimate Charge Rate \u003e Crit Rate",
       "targets": {
         "ultChargeRate": "any%"
       }
@@ -86,7 +86,7 @@
   ],
   "corePassives": [
     {
-      "description": "Many of Szayelaporro's attacks summon his Fracciones to attack. After attacking, these Fracciones turn into Sacrificial Materials on the field. Szayelaporro can detonate them using a Special Attack to grant teammates stacks of Intel Control. Each stack increases Spirit Mastery by 0.4% for 20 seconds, up to 6 stacks. When entering Resurreccion, Szayelaporro grants all Spirit characters 1 stack of Sample Analysis. Whenever an on-field character with Sample Analysis deals damage, all Spirit characters gain 1 additional stack of Sample Analysis. Each stack increases their Crit DMG by 0.5% for 30 seconds, stacking up to 30 times. When the team includes 1/2 Spirit characters other than Szayelaporro, the buff effects provided by Intel Control, Sample Analysis, and the passives Research Expert, Backstage Monitoring, and Corridor Modification are increased to 2/4 times their original values.",
+      "description": "Many of Szayelaporro's attacks summon his Fracciones to attack. After attacking, these Fracciones turn into Sacrificial Materials on the field. Szayelaporro can detonate them using a Special Attack to grant teammates stacks of Intel Control. Each stack increases Spirit Mastery by 0.4% for 20 seconds, up to 6 stacks. \n When entering Resurreccion, Szayelaporro grants all Spirit characters 1 stack of Sample Analysis. Whenever an on-field character with Sample Analysis deals damage, all Spirit characters gain 1 additional stack of Sample Analysis. Each stack increases their Crit DMG by 0.5% for 30 seconds, stacking up to 30 times. \n When the team includes 1/2 Spirit characters other than Szayelaporro, the buff effects provided by Intel Control, Sample Analysis, and the passives Research Expert, Backstage Monitoring, and Corridor Modification are increased to 2/4 times their original values.",
       "icon": "/Images/szayelaporro/passive-1.png",
       "name": "Miserable End"
     },
@@ -110,7 +110,7 @@
   "name": "Szayelaporro Granz",
   "rarity": "SSR",
   "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 2,
+  "recommendedStopBoundaryF2P": 1,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "24 Apr 2026",
   "role": "Support",
@@ -132,7 +132,7 @@
   ],
   "skills": [
     {
-      "description": "Szayelaporro swings his Zanpakuto, dealing 5 hits for a total damage of 285% of ATK. The 3rd to 5th hits each summon a Fraccion to assist, leaving behind 1 Sacrificial Material at the original location. Tap and hold Basic Attack while Sacrificial Material exists on the field to denotate them, with each one dealing equal to 80% of ATK. During Resurreccion, whenever Intel Control is gained, the same number of Brutal Modification stacks is also gained, up to 6 stacks. In Resurreccion, Szayelaporro commands his Fracciones to continuously attack enemies, dealing 3 hits for a total of 415% of ATK as damage. Each hit leaves behind 1 Sacrificial Material at the original location.",
+      "description": "Szayelaporro swings his Zanpakuto, dealing 5 hits for a total damage of 285% of ATK. The 3rd to 5th hits each summon a Fraccion to assist, leaving behind 1 Sacrificial Material at the original location.  ~~Master  Szayelaporro!~~ Tap and hold Basic Attack while Sacrificial Material exists on the field \n Denotates all Sacrificial Materials on the field, with each one dealing equal to 80% of ATK. During Resurreccion, whenever Intel Control is gained, the same number of Brutal Modification stacks is also gained, up to 6 stacks. ~~Don't Make Me Do It Myself~~ Resurreccion \n Szayelaporro commands his Fracciones to continuously attack enemies, dealing 3 hits for a total of 415% of ATK as damage. Each hit leaves behind 1 Sacrificial Material at the original location.",
       "icon": "/Images/szayelaporro/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Modification Research",
@@ -146,14 +146,14 @@
       "variant": null
     },
     {
-      "description": "Szayelaporro releases the power within his Zanpakuto to enter Resurreccion. In this state, his basic attacks and Special Attacks are enhanced, but he cannot move, dodge, or counter. During Resurreccion, even while off-field, Szayelaporro commands his Fracciones to perform combo attacks whenever the on-field teammate deals Spirit DMG. Each round of combo attacks has 3 hits, dealing a total damage equal to 420% of his ATK, and each hit leaves behind 1 Sacrificial Material at the original location. Release the Ultimate again at Max Ultimate Energy to create a doll of the enemy and crush its internal organs, dealing Base DMG equal to 1047.5% of ATK and consuming all Brutal Modification stacks. Each stack of Brutal Modification increases this skill's damage by 10%. If 6 stacks are consumed at once, this skill is guaranteed to trigger a critical hit. During Resurreccion, if Szayelaporro is the only remaining character in the team, he immediately gains full Ultimate Energy.",
+      "description": "Szayelaporro releases the power within his Zanpakuto to enter Resurreccion. In this state, his basic attacks and Special Attacks are enhanced, but he cannot move, dodge, or counter. During Resurreccion, even while off-field, Szayelaporro commands his Fracciones to perform combo attacks whenever the on-field teammate deals Spirit DMG. Each round of combo attacks has 3 hits, dealing a total damage equal to 420% of his ATK, and each hit leaves behind 1 Sacrificial Material at the original location. ~~Control of the Five Senses~~ During Resurreccion, release it again at Max Ultimate Energy \n Szayelaporro creates a doll of the enemy and crushes its internal organs, dealing Base DMG equal to 1047.5% of ATK and consuming all Brutal Modification stacks. Each stack of Brutal Modification increases this skill's damage by 10%. If 6 stacks are consumed at once, this skill is guaranteed to trigger a critical hit. During Resurreccion, if Szayelaporro is the only remaining character in the team, he immediately gains full Ultimate Energy.",
       "icon": "/Images/szayelaporro/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Slip, Fornicaras",
       "variant": null
     },
     {
-      "description": "After Szayelaporro neutralizes an enemy attack, he summons two Fracciones to rapidly strike the enemy, dealing damage equal to 625% of ATK and leaving behind 3 Sacrificial Materials, then automatically releases a Special Attack. During Resurreccion, Szayelaporro cannot actively counter, and the counterattack released when switching onto the field will be replaced with a Special Attack.",
+      "description": "After Szayelaporro neutralizes an enemy attack, he summons two Fracciones to rapidly strike the enemy, dealing damage equal to 625% of ATK and leaving behind 3 Sacrificial Materials, then automatically releases a Special Attack. \n During Resurreccion, Szayelaporro cannot actively counter, and the counterattack released when switching onto the field will be replaced with a Special Attack.",
       "icon": "/Images/szayelaporro/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",

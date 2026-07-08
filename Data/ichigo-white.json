@@ -98,7 +98,7 @@
   ],
   "corePassives": [
     {
-      "description": "After gaining 2 Instinct Points, Inner Hollow enters Instinct Burst, increasing his ATK by 20%. While in Shikai, the 4th hit of his basic attack, the 2nd hit of his technique, and counterattack each consume 1 Instinct Point to release Getsuga Tensho. When Inner Hollow and Ichigo Kurosaki - Bankai are in the same team, Ichigo's ATK increases by 30% during his Hollowfied Ultimate state.",
+      "description": "After gaining 2 Instinct Points, Inner Hollow enters Instinct Burst, increasing his ATK by 20%. While in Shikai, the 4th hit of his basic attack, the 2nd hit of his technique, and counterattack each consume 1 Instinct Point to release Getsuga Tensho. ~~King & His Horse~~ \n When Inner Hollow and Ichigo Kurosaki - Bankai are in the same team, Ichigo's ATK increases by 30% during his Hollowfied Ultimate state.",
       "icon": "/Images/ichigo-white/passive-1.png",
       "name": "Instinct Burst"
     },
@@ -163,25 +163,25 @@
   ],
   "skills": [
     {
-      "description": "Inner Hollow repeatedly swings his Zanpakuto to slash enemies in front, dealing 4 hits in total equal to 600% of ATK and building up his Spiritual Pressure. While Instinct Burst is active, the 4th hit of his basic attackk also consumes 1 Instinct Point to release an extra Getsuga Tensho, dealing damage equal 750% of ATK. In Bankai State, Inner Hollow swings Tensa Zangetsu in an almost frenzied manner, dealing 6 hits in total equal to 895% of ATK. Each hit automatically consumes Spiritual Pressure to release a Getsuga Tensho, dealing a total damage equal to 3000% of ATK. At Max Spiritual Pressure, tap and hold basic attack to use Cleaving Throw. Inner Hollow grabs the bandages wrapped around Zangetsu and spins rapidly, then hurls it at distant enemies, dealing damage equal to 987.5% of ATK. When drawing the blade, he also releases a Getsuga Tensho, dealing damage equal to 500% of ATK and gaining 1 Instinct Point. While Inner Hollow's Battlefield Skill is active, the first time a teammate is switched in within 8 seconds after landing this attack, that teammate will automatically release their counterattack. The damage and Spiritual Pressure Reduction Rate of this counterattack are reduced by 50%.",
+      "description": "Inner Hollow repeatedly swings his Zanpakuto to slash enemies in front, dealing 4 hits in total equal to 600% of ATK and building up his Spiritual Pressure. \n While Instinct Burst is active, the 4th hit of his basic attackk also consumes 1 Instinct Point to release an extra Getsuga Tensho, dealing damage equal 750% of ATK. ~~Rampage of Madness~~ Bankai State \n Inner Hollow swings Tensa Zangetsu in an almost frenzied manner, dealing 6 hits in total equal to 895% of ATK. Each hit automatically consumes Spiritual Pressure to release a Getsuga Tensho, dealing a total damage equal to 3000% of ATK. ~~Cleaving Throw~~ At Max Spiritual Pressure, tap and hold basic attack \n Inner Hollow grabs the bandages wrapped around Zangetsu and spins rapidly, then hurls it at distant enemies, dealing damage equal to 987.5% of ATK. When drawing the blade, he also releases a Getsuga Tensho, dealing damage equal to 500% of ATK and gaining 1 Instinct Point. \n While Inner Hollow's Battlefield Skill is active, the first time a teammate is switched in within 8 seconds after landing this attack, that teammate will automatically release their counterattack. The damage and Spiritual Pressure Reduction Rate of this counterattack are reduced by 50%.",
       "icon": "/Images/ichigo-white/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Zangetsu's True Power"
     },
     {
-      "description": "Inner Hollow slashes horizontally, then leaps up and slams his Zanpakuto into the ground, dealing 2 hits in total equal to 1430% of ATK and building up his Spiritual Pressure. While Instinct Burst is active, the 2nd hit of his downward smash also consumes 1 Instinct Point to release three extra rounds of Getsuga Tensho, dealing damage equal to 750% of ATK.",
+      "description": "Inner Hollow slashes horizontally, then leaps up and slams his Zanpakuto into the ground, dealing 2 hits in total equal to 1430% of ATK and building up his Spiritual Pressure. \n While Instinct Burst is active, the 2nd hit of his downward smash also consumes 1 Instinct Point to release three extra rounds of Getsuga Tensho, dealing damage equal to 750% of ATK.",
       "icon": "/Images/ichigo-white/skill-technique.png",
       "kind": "Technique",
       "name": "Crushing Drop"
     },
     {
-      "description": "Inner Hollow releases the power of his Zanpakuto and enters Bankai, then swings out of Getsuga Tensho, dealing damage equal to 1470% of ATK, increasing his Spiritual Pressure to maximum, and entering Instinct Burst. During Bankai, his basic attacks are greatly enhanced and can continue to release combo attacks at the backline, but Techniques and Special Attacks cannot be used. During Bankai, release Crimson Getsuga again at Max Ultimate Energy. Inner Hollow gathers power into Tensa Zangetsu, then swings forcefully at the enemy to unleash a massive Getsuga Tensho, dealing damage equal to 5882.5% of ATK. Bankai ends after release.",
+      "description": "Inner Hollow releases the power of his Zanpakuto and enters Bankai, then swings out of Getsuga Tensho, dealing damage equal to 1470% of ATK, increasing his Spiritual Pressure to maximum, and entering Instinct Burst. During Bankai, his basic attacks are greatly enhanced and can continue to release combo attacks at the backline, but Techniques and Special Attacks cannot be used. When Inner  Hollow's Battlefield Skill is active, he can release combo attacks at the backline. ~~Crimson Getsuga~~ During Bankai, release it again at Max Ultimate Energy \n Inner Hollow gathers power into Tensa Zangetsu, then swings forcefully at the enemy to unleash a massive Getsuga Tensho, dealing damage equal to 5882.5% of ATK. Bankai ends after release.",
       "icon": "/Images/ichigo-white/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Bankai - Tensa Zangetsu"
     },
     {
-      "description": "Inner Hollow guards against an enemy attack, then counters with his Zanpakuto, dealing damage equal to 1440% of ATK. While Instinct Burst is active, his counterattack also consumes 1 Instinct Point to release an extra Getsuga Tensho, dealing damage equal to 750% of ATK.",
+      "description": "Inner Hollow guards against an enemy attack, then counters with his Zanpakuto, dealing damage equal to 1440% of ATK. \n While Instinct Burst is active, his counterattack also consumes 1 Instinct Point to release an extra Getsuga Tensho, dealing damage equal to 750% of ATK.",
       "icon": "/Images/ichigo-white/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"
@@ -190,7 +190,7 @@
       "description": "While the Inner Hollow's Battlefield Skill is active, all teammates deal 40% more Slash DMG. It runs on two types of energy — Battlefield Skill Amount and Instinct Points — corresponding to two abilities: Devastating Round Dance and Lethal Strike. Any teammate's basic attacks, special attacks, and techniques landing build Battlefield Skill Amount (0.9s cooldown); Instinct Points are gained from releasing Devastating Round Dance or the Inner Hollow's special attacks. Battlefield Skill Amount stops building while Instinctive Surge is active. Devastating Round Dance switches the Inner Hollow in to spin Zangetsu through a wide arc, pulling in nearby enemies for 2685% of ATK and gaining 1 Instinct Point. Lethal Strike has the Inner Hollow leap high and swing down for 4010% of ATK; it is a Slash attack and ends Instinctive Burst after use.",
       "icon": "/Images/ichigo-white/skill-bfs.png",
       "kind": "Battlefield Skill",
-      "name": "I Will Be King"
+      "name": "I Will Become the King"
     },
     {
       "description": "Use Sonido to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Inner Hollow gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds. During Bankai, Inner Hollow will trigger Sonido automatically to avoid damage right before taking a hit from the enemy.",

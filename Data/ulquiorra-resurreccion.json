@@ -15,7 +15,7 @@
     "mainStats": "1: Spirit DMG \u003e ATK%  •  2: Crit DMG \u003e ATK%  •  3: ATK%",
     "notes": "Optimal Ulquiorra build",
     "setName": "Fill the Nothingness (3)",
-    "subStatPriority": "Ult Charge (168.8% at W5) \u003e ATK% \u003e Crit Rate \u003e Crit DMG \u003e Flat ATK"
+    "subStatPriority": "ATK% \u003e Crit Rate \u003e Ult Charge (168.8% at W5) \u003e Crit DMG \u003e Flat ATK"
   },
 
   "bondPriority": [
@@ -80,7 +80,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Ult Charge (168.8% at W5) \u003e ATK% \u003e Crit Rate \u003e Crit DMG \u003e Flat ATK",
+      "subStatPriority": "ATK% \u003e Crit Rate \u003e Ult Charge (168.8% at W5) \u003e Crit DMG \u003e Flat ATK",
       "targets": {
         "ultChargeRate": "168.8%, multiple rolls into Crit Rate and Crit DMG substats"
       }
@@ -108,7 +108,29 @@
       "name": "Endless Void"
     }
   ],
+  "damageType": "Spirit",
+  "name": "Ulquiorra Shifar (Resurrección)",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 6,
   "releaseDate": "26 Jun 2026",
+  "rotations": [
+    {
+      "name": "Standard Opener",
+      "notes": "Ulquiorra Basic Attacks refresh Technique cooldown once completed",
+      "steps": [
+        "Support Technique → Ulquiorra Technique → Battlefield",
+        "Aizen Manual Counter → Technique (2x) → Battlefield",
+        "Support Counter → Ulquiorra Counter → Technique → Basic Attack → Technique → Special Attack → Cero Oscuras → Ultimate"
+      ],
+      "tags": [
+        "Opener",
+        "Boss"
+      ]
+    }
+  ],
+
   "skills": [
     {
       "description": "Ulquiorra swings a light blade condensed from Reishi, dealing 4 hits of damage totaling 457.5% of ATK. ~~Gaze Upon Despair~~ Resurreccion: Segunda Etapa \n Ulquiorra swings a light spear condensed from Reishi, dealing 6 hits of damage totaling 1085% of ATK, with the 3rd hit firing a Cero Oscuras. ~~Worlds Apart~~ At Max Spiritual Pressure, tap and hold basic attack \n Ulquiorra soars into the air, then dives rapidly towards the target's location and attacks, dealing damage equal to 3345% of ATK and gaining 1 Cero Mark.",
