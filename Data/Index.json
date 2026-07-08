@@ -50,6 +50,16 @@
     "releaseDate": "24 Apr 2026"
   },
   {
+    "slug": "grimmjow-pantera",
+    "name": "Grimmjow Jaegerjaquez (Pantera)",
+    "role": "Assault",
+    "tier": "S",
+    "damageType": "Strike",
+    "rarity": "SSR",
+    "art": "/Images/grimmjow-pantera/art.png",
+    "releaseDate": "15 May 2026"
+  },
+  {
     "slug": "ichigo-bankai",
     "name": "Ichigo Kurosaki (Bankai)",
     "role": "Assault",
