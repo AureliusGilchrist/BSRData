@@ -87,9 +87,8 @@
       "subStatPriority": "ATK% \u003e Crit Rate (50%) \u003e Crit DMG \u003e Ult Charge Rate \u003e Flat ATK",
       "targets": {
         "ultChargeRate": "~124%"
-    }
-  },
-  "builds": [
+     }
+   },
     {
       "label": "Aizen Double Support",
       "notes": "Aim for ~124% Ult Charge Rate for better rotations.",
