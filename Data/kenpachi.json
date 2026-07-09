@@ -63,7 +63,7 @@
       "name": "Driven to the Edge"
     }
   ],
-  "build": [
+  "builds": [
     {
       "label": "Standard",
       "passiveSkills": [

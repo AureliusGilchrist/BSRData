@@ -61,7 +61,7 @@
       "name": "Edge of Black \u0026 White"
     }
   ],
-  "build": [
+  "builds": [
     {
       "label": "Main",
       "passiveSkills": [
@@ -150,7 +150,7 @@
         "After activating Ultimate → Special Attack (cancel it immediately) → Manual Counter → Special Attack",
         "White Special Attack → Manual Counter → Technique → Ichigo Counter → Special Attack",
         "Battlefield → White Ultimate → Kisuke Special Attack (1-2)",
-	"Ichigo Technique → Special Attack → Technique → Special Attack → Ultimate → Basic Attack (x3) → Special Attack → Kisuke Ultimate → White Ultimate"
+	      "Ichigo Technique → Special Attack → Technique → Special Attack → Ultimate → Basic Attack (x3) → Special Attack → Kisuke Ultimate → White Ultimate"
       ],
       "iconSteps": [
         { "slug": "ichigo-bankai", "actions": [{ "kind": "Counter" }] },
