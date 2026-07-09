@@ -8,10 +8,10 @@
   },
   "art": "/Images/yoruichi/art.png",
   "bestStamp": {
-    "mainStats": "1: Strike DMG Bonus  •  2: Crit Rate  •  3: Atk%",
-    "notes": "S-tier Assault — high mobility, Shunko stance multiplies damage.",
-    "setName": "Shunko (4) + Strike (2)",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Ult Charge Rate"
+    "mainStats": "1: Strike DMG \u003e ATK%  •  2: Crit Rate  •  3: ATK%",
+    "notes": "She requires no Ult Charge",
+    "setName": "Ready to Go (3)",
+    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Flat ATK"
   },
   "bondPriority": [
     {
@@ -59,40 +59,39 @@
     {
       "label": "Main",
       "passiveSkills": [
-        "All DMG Dealt/Bonus +9%",
-        "Increase Ultimate DMG +22.5%",
-        "Special Attack 22.5%"
+        "All DMG",
+        "Ult DMG"
       ],
       "range": "B0W1C1 - B6W5C5",
-      "setName": "Midnight Specter",
+      "setName": "Ready to Go (3)",
       "setPieces": [
         {
-          "mainStat": "Strike DMG Bonus \u003e Atk%",
+          "mainStat": "Strike DMG Bonus \u003e ATK%",
           "slot": 1
         },
         {
-          "mainStat": "Crit Rate \u003e Crit DMG",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
-          "mainStat": "Atk%",
+          "mainStat": "ATK%",
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Atk",
+      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Flat ATK",
       "targets": {
-        "ultChargeRate": "~124%"
+        "ultChargeRate": "Any"
       }
     }
   ],
   "corePassives": [
     {
-      "description": "After Yoruichi successfully dodges an enemy attack, tap the basic attack button to release the dodge attack Hakuda - Stomping Strike and gain 20% Spiritual Pressure. This counts as a special attack. After releasing Hakuda Stomping Strike, tap the basic attack button again to instantly perform the 5th strike of her basic attack.",
+      "description": "After Yoruichi successfully dodges an enemy attack, tap the basic attack button to release the dodge attack Hakuda - Stomping Strike and gain 20% Spiritual Pressure. This counts as a special attack. \n After releasing Hakuda Stomping Strike, tap the basic attack button again to instantly perform the 5th strike of her basic attack.",
       "icon": "/Images/yoruichi/passive-1.png",
       "name": "Lightning Flash"
     },
     {
-      "description": "Yoruichi gains 1 stack of Lightning Seal for 15 seconds each time she releases a technique, counterattack, or special attack. Stacks up to 4 times. Lightning Seal: Increases Yoruichi's Strike DMG by 10%.",
+      "description": "Yoruichi gains 1 stack of Lightning Seal for 15 seconds each time she releases a technique, counterattack, or special attack. Stacks up to 4 times. \n Lightning Seal: Increases Yoruichi's Strike DMG by 10%.",
       "icon": "/Images/yoruichi/passive-2.png",
       "name": "Thunderclap"
     },
@@ -110,9 +109,9 @@
   "damageType": "Strike",
   "name": "Yoruichi Shihoin",
   "rarity": "SSR",
-  "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 1,
-  "recommendedStopBoundaryP2W": 6,
+  "recommendedStopBoundary": 0,
+  "recommendedStopBoundaryF2P": 0,
+  "recommendedStopBoundaryP2W": 0,
   "releaseDate": "21 Nov 2025",
   "role": "Assault",
   "rotations": [
@@ -120,28 +119,27 @@
       "name": "Shunko Burst",
       "notes": "Burst window is short — pre-buff with Urahara before opening.",
       "steps": [
-        "Technique (Shunko on)",
-        "Basic ×3 (rapid strikes)",
+        "Use Support buffs and Tactician Setup",
         "Ultimate",
-        "Battlefield Skill",
-        "Counter on incoming"
+        "Counter",
+        "Special Attack",
+        "Perfect Dodge into another Special Attack"
       ],
       "tags": [
-        "Burst",
-        "Boss"
+        "Standard"
       ]
     }
   ],
   "skills": [
     {
-      "description": "Yoruichi strikes the enemy 5 times with martial arts, dealing damage equal to 716% of ATK and gaining Spiritual Pressure. Press and hold basic attakc at max Spiritual Pressure to unleash Hakuda - Blitz. Yoruichi leaps high into the air and charges briefly to smash the target, dealing damage equal to 270% of ATK. Tap basic attack after dodging an enemy attack to unleash Hakuad - Stomping Strike. Yoruichi quickly leaps above the target and stomps down, dealing damage equal to 136% of ATK.",
+      "description": "Yoruichi strikes the enemy 5 times with martial arts, dealing damage equal to 716% of ATK and gaining Spiritual Pressure. ~~Hakuda - Blitz~~ Press and hold basic attakc at max Spiritual Pressure \n Yoruichi leaps high into the air and charges briefly to smash the target, dealing damage equal to 270% of ATK. ~~Hakuda - Stomping Strike~~ Tap basic attack after dodging an enemy attack \n Yoruichi quickly leaps above the target and stomps down, dealing damage equal to 136% of ATK.",
       "icon": "/Images/yoruichi/skill-basic.png",
       "kind": "Basic Attack",
-      "name": "Hakuda: Combo",
+      "name": "Hakuda - Combo",
       "variant": null
     },
     {
-      "description": "Yoruichi approaches the target with Flash Step, stomps on them, and attacks with a shuriken, dealing damage equal to 348% of ATK. After releasing this skill, immediately tap basic attack to fololw up with the special attack, Hakuda - Stomping Strike.",
+      "description": "Yoruichi approaches the target with Flash Step, stomps on them, and attacks with a shuriken, dealing damage equal to 348% of ATK. \n After releasing this skill, immediately tap basic attack to fololw up with the special attack, Hakuda - Stomping Strike.",
       "icon": "/Images/yoruichi/skill-technique.png",
       "kind": "Technique",
       "name": "Anken, Dark Sword",
@@ -162,7 +160,7 @@
       "variant": null
     },
     {
-      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Yoruichi gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds. Perfect Dodges also restore 20% of Yoruichi's Spiritual Pressure.",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Yoruichi gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15s. Perfect Dodges also restore 20% of Yoruichi's Spiritual Pressure.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Flash Step"
