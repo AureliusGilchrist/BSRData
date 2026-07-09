@@ -110,8 +110,8 @@
         }
       ],
       "subStatPriority": "Crit Rate \u003e ATK% \u003e Ult Charge Rate \u003e Crit DMG \u003e HP%"
+      }
     }
-   }
   ],
   "corePassives": [
     {
