@@ -8,12 +8,21 @@
   },
   "art": "/Images/ikkaku/art.png",
   "bestStamp": {
-    "mainStats": "1: Thrust DMG Bonus  •  2: Crit Rate  •  3: ATK%",
-    "notes": "S-tier Assault — counter-focused, prioritize Crit DMG once Crit Rate hits ~60%.",
-    "setName": "Hozukimaru (4) + Thrust (2)",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+    "mainStats": "1: ATK% \u003e Thrust DMG  •  2: Crit Rate  •  3: ATK% \u003e Ult Charge Rate",
+    "notes": "Standard banner SSR",
+    "setName": "Unyielding Light (3)",
+    "subStatPriority": "Crit Rate \u003e ATK% \u003e Crit DMG \u003e Ult Charge Ratee"
   },
-  "bondPriority": [],
+  "bondPriority": [
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    },
+    {
+      "description": "Increase Crit DMG during battle by 30%.",
+      "name": "Crit DMG Bond"
+    }
+  ],
   "boundaries": [
     {
       "description": "Increases Ikkau's Spiritual Pressure Charge Rate by 100% through attacks.",
@@ -52,46 +61,46 @@
   ],
   "builds": [
     {
-      "label": "P2W (value ceiling)",
+      "label": "Main",
       "passiveSkills": [],
-      "range": "B0W1C1 - B5W5C5",
-      "setName": "Hozukimaru (4) + Thrust (2)",
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Unyielding Light (3)",
       "setPieces": [
         {
-          "mainStat": "Thrust DMG Bonus",
+          "mainStat": "ATK% \u003e Thrust DMG",
           "slot": 1
         },
         {
-          "mainStat": "Crit DMG",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
-          "mainStat": "Atk%",
+          "mainStat": "ATK% \u003e Ult Charge Rate",
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+      "subStatPriority": "Crit Rate \u003e ATK% \u003e Crit DMG \u003e Ult Charge Rate"
     },
     {
-      "label": "F2P (practical stop)",
+      "label": "Kenpachi Set",
       "passiveSkills": [],
-      "range": "B0W1C1 - B1W5C5",
-      "setName": "Hozukimaru (4) + Thrust (2)",
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Ready to Go (3)",
       "setPieces": [
         {
-          "mainStat": "Thrust DMG Bonus",
+          "mainStat": "Thrust DMG",
           "slot": 1
         },
         {
-          "mainStat": "Crit DMG",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
-          "mainStat": "Atk%",
+          "mainStat": "ATK% \u003e Ult Charge Rate",
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+      "subStatPriority": "Crit Rate \u003e ATK% \u003e Crit DMG \u003e Ult Charge Rate"
     }
   ],
   "corePassives": [
@@ -127,47 +136,46 @@
   "role": "Assault",
   "rotations": [
     {
-      "name": "Counter Burst",
-      "notes": "Each counter builds stance — burst when stance is maxed for the Bankai damage multiplier.",
+      "name": "Setup",
+      "notes": "Not much to say, setup while building Ikkaku's Ultimate",
       "steps": [
-        "Block / counter on incoming attack",
-        "Basic ×3 (stance build)",
-        "Technique → Ultimate (Bankai)",
-        "Battlefield Skill"
+        "Technique",
+        "Basic Attack",
+        "Special Attack",
+        "Ultimate"
       ],
       "tags": [
-        "Burst",
-        "Boss"
+        "Setup"
       ]
     }
   ],
   "skills": [
     {
-      "description": "Ikkaku wields Hozukimaru continuously to strike 5 times, dealing damage equal to 528% of ATK. Ikkaku accumulates Spiritual Pressure for each hit on the enemy. Press and hold basic attack at Max Spiritual Pressure to march forward and thrust once, dealing damage equal to 302% of ATK. After that, immediately tap the basic attack button again to make Ikkaku sweep a large area with Hozukimaru in its three-section-staff form, dealing damage equal to 452% of ATK. In Bankai State, Ikkaku wields Ryumon Hozukimaru side to side to strike twice, dealing damage equal to 308% of ATK. Ikkaku accumulates Spiritual Pressure for each hit on the enemy. Press and hold basic attack at Max Spiritual Pressure in Bankai state to keep spinning Ryumon Hozukimaru to create a strong whirlwind, dealing damage equal to 680% of ATK to enemies within a large area and pulling them toward him. When Ikkaku stops spinning his weapon, immediately tap the basic attack button again to release a powerful follow-up attack that deals damage equal to 680% of ATK.",
+      "description": "Ikkaku wields Hozukimaru continuously to strike 5 times, dealing damage equal to 594% of ATK. Ikkaku accumulates Spiritual Pressure for each hit on the enemy. ~~Make No Mistake~~ Press and hold basic attack at Max Spiritual Pressure in the Shikai state \n Ikkaku marches forward and thrusts once, dealing damage equal to 339.75% of ATK. After that, immediately tap the basic attack button again to make Ikkaku sweep a large area with Hozukimaru in its three-section-staff form, dealing damage equal to 452% of ATK. ~~Greatsword Slash~~ Bankai State \n Ikkaku wields Ryumon Hozukimaru side to side to strike twice, dealing damage equal to 308% of ATK. Ikkaku accumulates Spiritual Pressure for each hit on the enemy. ~~Whirlwind Sweep~~ Press and hold basic attack at Max Spiritual Pressure in Bankai state \n Ikkaku keeps spinning Ryumon Hozukimaru to create a strong whirlwind, dealing damage equal to 680% of ATK to enemies within a large area and pulling them toward him. When Ikkaku stops spinning his weapon, immediately tap the basic attack button again to release a powerful follow-up attack that deals damage equal to 680% of ATK.",
       "icon": "/Images/ikkaku/skill-basic.png",
       "kind": "Basic Attack",
-      "name": "Extemd, Hozukimaru"
+      "name": "Extend, Hozukimaru"
     },
     {
-      "description": "Ikkaku dashes behind the target and then launches consecutive attacks with Hozukimaru in its three-section-staff form, dealing damage equal to 378% of ATK. In Bankai State, Ikkaku leaps up high into the air and slashes to deal damage equal to 282% of ATK. After he lands, immediately tap the technique button again to release a follow-up attack, dealing damage equal to 282% of ATK and inflicting 1 stack of Wound on the enemy.",
+      "description": "Ikkaku dashes behind the target and then launches consecutive attacks with Hozukimaru in its three-section-staff form, dealing damage equal to 378% of ATK. ~~Power Condensation~~ Bankai State \n Ikkaku leaps up high into the air and slashes to deal damage equal to 282% of ATK. After he lands, immediately tap the technique button again to release a follow-up attack, dealing damage equal to 282% of ATK and inflicting 1 stack of Wound on the enemy.",
       "icon": "/Images/ikkaku/skill-technique.png",
       "kind": "Technique",
       "name": "Break, Hozukimaru"
     },
     {
-      "description": "Ikakku keeps wielding Hozukimaru, dealing damage equal to 552% of ATK to nearby enemies. Then, he releases Hozukimaru's pwoer to its maximum and enters the Bankai state for 14s, during which all attack moves are enhanced, and HP will not drop below 1. Tap the Ultimate again in Bankai state to unleash Slow Hozukimaru. Ikkaku releases all of Ryumon Hozukimaru's power to launch an explosive, powerful strike, dealing damage equal to 1584% of ATK and removing the Bankai state.",
+      "description": "Ikakku keeps wielding Hozukimaru, dealing damage equal to 552% of ATK to nearby enemies. Then, he releases Hozukimaru's pwoer to its maximum and enters the Bankai state for 14s, during which all attack moves are enhanced, and HP will not drop below 1. ~~Slow Hozukimaru~~ Tap the Ultimate again in Bankai state. Auto release at the end of the Bankai state or when Ikkaku's HP drops to 0 \n Ikkaku releases all of Ryumon Hozukimaru's power to launch an explosive, powerful strike, dealing damage equal to 1584% of ATK and removing the Bankai state.",
       "icon": "/Images/ikkaku/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Bankai - Ryumon Hozukimaru"
     },
     {
-      "description": "After countering an enemy attack, Ikkaku thrusts consecutively forward with Hozukimaru, dealing damage equal to 1000% of ATK and raising his Spiritual Pressure to the maximum. In Bankai, Ikakku will automatically release a Technique and raise his Spiritual Pressure to the maximum.",
+      "description": "After countering an enemy attack, Ikkaku thrusts consecutively forward with Hozukimaru, dealing damage equal to 1000% of ATK and raising his Spiritual Pressure to the maximum. ~~Counter - Bankai~~ After countering attack, Ikakku will automatically release a Technique and raise his Spiritual Pressure to the maximum.",
       "icon": "/Images/ikkaku/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"
     },
     {
-      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Ikkaku gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15s. In Bankai State, Ikkau's dodges will no longer avoid DMG from the enemy. Instead, Ikkaku attacks the enemy while moving. Forward attacks deal DMG equal to 34% of ATK, while fallback attacks deal DMG equal to 43% of ATK. Perfect Dodge effects can also be triggered while dealing DMG.",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Ikkaku gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15s. ~~Sacrificial Flash Strike~~ Bankai State \n Ikkaku's dodges will no longer avoid DMG from the enemy. Instead, Ikkaku attacks the enemy while moving. Forward attacks deal DMG equal to 34% of ATK, while fallback attacks deal DMG equal to 43% of ATK. Perfect Dodge effects can also be triggered while dealing DMG.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Flash Step"

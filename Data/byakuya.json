@@ -9,10 +9,10 @@
   "affiliation": "Shinigami",
   "art": "/Images/byakuya/art.png",
   "bestStamp": {
-    "mainStats": "1: Slash DMG Bonus  •  2: Crit Rate / Crit DMG  •  3: Atk%",
-    "notes": "Tactician hybrid — keep enough Ult Charge Rate (~110%) so Senbonzakura petals refresh between waves.",
-    "setName": "Senbonzakura (4) + Crit (2)",
-    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Ult Charge Rate \u003e Atk"
+    "mainStats": "1: Slash DMG \u003e ATK%  •  2: Crit Rate  •  3: ATK% \u003e Ult Charge Rate",
+    "notes": "Tactician who does not provide counters.",
+    "setName": "Blooming Sakura (3)",
+    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Ult Charge Rate \u003e Flat ATK"
   },
   "bondPriority": [],
   "boundaries": [
@@ -54,23 +54,27 @@
   "builds": [
     {
       "label": "Main",
-      "passiveSkills": [],
-      "setName": "Senbonzakura (4) + Crit (2)",
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain",
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Blooming Sakura (3)",
       "setPieces": [
         {
-          "mainStat": "Slash DMG Bonus",
+          "mainStat": "Slash DMG \u003e ATK%",
           "slot": 1
         },
         {
-          "mainStat": "Crit Rate / Crit DMG",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
-          "mainStat": "Atk%",
+          "mainStat": "ATK% \u003e Ult Charge Rate",
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Ult Charge Rate \u003e Atk"
+      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Ult Charge Rate \u003e Flat ATK"
     }
   ],
   "color": "Red",
@@ -81,7 +85,7 @@
       "name": "Flawless"
     },
     {
-      "description": "Byakuya deals 15% more Slash DMG with all of his attacks while he's off-field.",
+      "description": "Byakuya deals 30% more Slash DMG with all of his attacks while he's off-field.",
       "icon": "/Images/byakuya/passive-2.png",
       "name": "Noble Dignity"
     },
@@ -91,7 +95,7 @@
       "name": "Senka"
     },
     {
-      "description": "The Battlefield Skill, Thousand Blade Funeral, inflicts 1 stack of Slaughter on hit. Each stack fo Slaughter reduces the enemy's Slash Resistance by 6.75% for 6 seconds, stacking up to 4 times.",
+      "description": "The Battlefield Skill, Thousand Blade Funeral, inflicts 1 stack of Slaughter on hit. Each stack fo Slaughter reduces the enemy's Slash Resistance by 6% for 15 seconds, stacking up to 4 times.",
       "icon": "/Images/byakuya/passive-4.png",
       "name": "Peerless"
     }
@@ -108,45 +112,35 @@
   "role": "Tactician",
   "rotations": [
     {
-      "name": "Petal Burst Opener",
-      "notes": "Layer the petal field early — damage scales while he's off-field, making him perfect for rotations.",
+      "name": "Opener",
+      "notes": "Use Battlefield on cooldown",
       "steps": [
-        "Front-line entry → Basic ×3",
-        "Technique (Scatter, Senbonzakura)",
-        "Ultimate at full charge",
-        "Battlefield Skill while petals stack",
-        "Swap out to retain petal field"
+        "Technique",
+        "Battlefield (x6)",
+        "Ultimate",
+        "Technique",
+        "Piercing Blade"
       ],
       "tags": [
-        "Burst"
-      ]
-    },
-    {
-      "name": "Off-field Pressure",
-      "steps": [
-        "Open with petal field, swap to main DPS",
-        "Swap back for counter / refresh petals"
-      ],
-      "tags": [
-        "Sustain"
+        "Setup"
       ]
     }
   ],
   "skills": [
     {
-      "description": "Byakuya slashes the enemy in front with Senbonzakura up to 4 times, dealing damage equal to 194%~???% of ATK. Dancing Petals (Bankai Basic Attack): Byakuya wields the blade formed by sakura petals and attacks the enemy up to 5 times, dealing damage equal to 410%~???% of ATK and accumulating Spiritual Pressure on hit. Piercing Blade (In Bankai state, press and hold basic attack when Spiritual Pressure is 50% or higher): Byakuya controls the Sakura Blade to release a continous shockwave on the enemy, consuming Spiritual Pressure over time and dealing damage equal to 594%~???% of ATK. When the attack ends, deals extra damage equal to 360%~???% of ATK. While active, pauses all of Byakuya's status timers. Removes Bankai when the attack ends.",
+      "description": "Byakuya slashes the enemy in front with Senbonzakura up to 4 times, dealing damage equal to 194%~???% of ATK. ~~Dancing Petals~~ Bankai State \n  Byakuya wields the blade formed by sakura petals and attacks the enemy up to 5 times, dealing damage equal to 410%~???% of ATK and accumulating Spiritual Pressure on hit. ~~Piercing Blade~~ In Bankai state, press and hold basic attack when Spiritual Pressure is above 50% \n Byakuya controls the Sakura Blade to release a continous shockwave on the enemy, consuming Spiritual Pressure over time and dealing damage equal to 594%~???% of ATK. When the attack ends, deals extra damage equal to 360%~???% of ATK. \n While active, pauses all of Byakuya's status timers. Removes Bankai when the attack ends.",
       "icon": "/Images/byakuya/skill-1.png",
       "kind": "Basic Attack",
       "name": "Zanjustu"
     },
     {
-      "description": "Senbonzakura's blade scatters into countless tiny sharp pieces that strike the enemy after 3.5 seconds, dealing damage equal to 287%~???% of ATK. During this time, you can switch on-field characters, and Byakuya will remain on the field until the attack completes. While Byakuya's Battlefield Skill is active, releasing this technique grants 4 Battlefield Skill Energy.",
+      "description": "Senbonzakura's blade scatters into countless tiny sharp pieces that strike the enemy after 3.5 seconds, dealing damage equal to 287%~???% of ATK. During this time, you can switch on-field characters, and Byakuya will remain on the field until the attack completes. \n While Byakuya's Battlefield Skill is active, releasing this technique grants 4 Battlefield Skill Energy. ~~Absolute Despair~~ Bankai State \n Byakuya controls a massive wave of sakura petals to attack up to 3 times, dealing damage equal to 969% of ATK and accumulating Spiritual Pressure on hit.",
       "icon": "/Images/byakuya/skill-2.png",
       "kind": "Technique",
       "name": "Scatter, Senbonzakura"
     },
     {
-      "description": "Byakuya fully splits the blade into tiny blades and strikes multiple times faster than Shikai, dealing damage equal to 264~???% of ATK. He then enters the Bankai state, enhancing both of his basic attacks and techniques. The Bankai state lasts 15 seconds and remains active even if Byakuya is switched out.",
+      "description": "Byakuya fully splits the blade into tiny blades and strikes multiple times faster than Shikai, dealing damage equal to 264~???% of ATK. He then enters the Bankai state, enhancing both of his basic attacks and techniques. The Bankai state lasts 15s and remains active even if Byakuya is switched out.",
       "icon": "/Images/byakuya/skill-3.png",
       "kind": "Ultimate",
       "name": "Bankai - Senbonsakura Kageyoshi"
@@ -158,13 +152,13 @@
       "name": "Counter"
     },
     {
-      "description": "While Byakuya's Battlefield Skill is active, all teammates deal 30% more Slash DMG. Byakuya condenses the petals floating around him into blades and stabs the enemy at the same time, pinning them to the ground for 75% of ATK damage. If Byakuya's Battlefield Skill energy has dropped to zero after releasing this attack, pressing the Battlefield Skill button again lets Byakuya release a follow-up strike equivalent to the fourth hit of his basic attack. The Battlefield Skill button activates within 2 seconds of any teammate releasing a special attack, technique, or counterattack, and cannot be triggered any other way.",
+      "description": "~~White Byakuya's Battlefield Skill is active, all teammates' Slash DMG increases by 30%.~~ \n Byakuya's Battlefield Skill button will be activated for 2s after any character releases a special attack, technique, or counterattack, but not at any other time. \n Byakuya  transforms fluttering petals into blades and pierces enemies, pinning them to the ground and dealing DMG equal to 159.37% of ATK. \n \n If Byakuya's Battlefield Skill Energy drops to zero after releasing this skill, tap the Battlefield Skill button again tro tigger a follow-up attack with the same effect as the 4th strike of basic attack Dancing Petals.",
       "icon": "/Images/byakuya/skill-bfs.png",
       "kind": "Battlefield Skill",
-      "name": "Funeral of a Thousand Blades"
+      "name": "Thousand Blade Funeral"
     },
     {
-      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Byakuya gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Byakuya gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15s.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Flash Step"

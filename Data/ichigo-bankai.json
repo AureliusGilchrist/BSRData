@@ -9,10 +9,10 @@
   "affiliation": "Shinigami",
   "art": "/Images/ichigo-bankai/art.png",
   "bestStamp": {
-    "mainStats": "1: Slash DMG Bonus \u003e ATK%  •  2: Crit Rate  •  3: Atk%",
+    "mainStats": "1: Slash DMG Bonus \u003e ATK%  •  2: Crit Rate  •  3: ATK%",
     "notes": "First limited SSR banner character",
     "setName": "Rising Black Moon (3)",
-    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Flat Atk"
+    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Flat ATK"
   },
   "bondPriority": [
     {
@@ -228,7 +228,7 @@
     "def": "327",
     "hp": "1626"
   },
-  "tier": "S",
+  "tier": "A",
   "weaponStats": {
     "atk": "201",
     "def": "119",

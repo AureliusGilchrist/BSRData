@@ -8,15 +8,23 @@
   },
   "art": "/Images/kisuke/art.png",
   "bestStamp": {
-    "mainStats": "1: Atk%  •  2: Crit DMG  •  3: Ult Charge Rate",
-    "notes": "S+ Support — Ult Charge Rate to keep his team-wide ATK% buff on permanent uptime.",
-    "setName": "Benihime (4) + Atk (2)",
-    "subStatPriority": "Crit DMG \u003e Ult Charge Rate"
+    "mainStats": "1: ATK% \u003e Slash DMG •  2: Crit DMG  •  3: Ult Charge Rate",
+    "notes": "Only stats that matter are Crit DMG and Ult Charge.",
+    "setName": "Hidden Widosm (3)",
+    "subStatPriority": "Crit DMG \u003e Ult Charge Rate \u003e ATK%"
   },
   "bondPriority": [
     {
       "description": "During battle, teammates other than yourself gain 40% Crit DMG. Unstackable.",
       "name": "Mayuri Bond"
+    },
+    {
+      "description": "Increases ATK of all team characters during battle by 6%.",
+      "name": "ATK Bond"
+    },
+    {
+      "description": "Increase Crit DMG during battle by 30%.",
+      "name": "Crit DMG Bond"
     }
   ],
   "boundaries": [
@@ -63,10 +71,10 @@
         "Restrain"
       ],
       "range": "B0W1C1 - B6W5C5",
-      "setName": "Hidden Wisdom",
+      "setName": "Hidden Wisdom (3)",
       "setPieces": [
         {
-          "mainStat": "Slash DMG Bonus OR Atk% OR any other",
+          "mainStat": "ATK% \u003e Slash DMG",
           "slot": 1
         },
         {
@@ -78,7 +86,34 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit DMG \u003e\u003e\u003e Ult Charge Rate",
+      "subStatPriority": "Crit DMG \u003e\u003e\u003e Ult Charge Rate \u003e ATK%",
+      "targets": {
+        "ultChargeRate": "Main stat on 3rd stamp"
+      },
+  "builds": [
+    {
+      "label": "Kenpachi Set",
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Ready to Go (3)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus OR Atk%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG !ONLY!",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ult Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit DMG \u003e\u003e\u003e Ult Charge Rate \u003e ATK%",
       "targets": {
         "ultChargeRate": "Main stat on 3rd stamp"
       }
@@ -116,24 +151,23 @@
   "role": "Support",
   "rotations": [
     {
-      "name": "Buff Loop",
-      "notes": "His buff window IS the team's burst window — line up DPS Ult inside it.",
+      "name": "Technique Setup",
+      "notes": "His Ult DMG passive only affects himself",
       "steps": [
-        "Enter front-line",
-        "Technique (apply blood mist)",
-        "Ultimate (team ATK buff)",
+        "Technique",
+        "Special Attack (2x)",
+        "Ultimate",
         "Swap to main DPS",
         "Swap back on cooldown to refresh"
       ],
       "tags": [
-        "Sustain",
-        "Boss"
+        "Setup"
       ]
     }
   ],
   "skills": [
     {
-      "description": "Urahara wields Benihime to strike 5 times, dealing damage equal to 180% of ATK and gaining Spiritual Pressure. At Max Spiritual Pressure, press and hold basic attack to release a long-ranged sword wave, dealing damage equal to 425% of ATK. For special attacks, reserves once at Max Spiritual Pressure.",
+      "description": "Urahara wields Benihime to strike 5 times, dealing damage equal to 180% of ATK and gaining Spiritual Pressure. ~~Cry Out! Benihime!~~ At Max Spiritual Pressure, press and hold basic attack \n Urahara releases a long-ranged sword wave, dealing damage equal to 425% of ATK. \n For special attacks, reserves once at Max Spiritual Pressure.",
       "icon": "/Images/kisuke/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Awaken, Benihime",
@@ -161,7 +195,7 @@
       "variant": null
     },
     {
-      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Urahara gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Urahara gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15s.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Flash Step"
@@ -207,5 +241,5 @@
     "def": "119",
     "hp": "581"
   },
-  "tier": "S"
+  "tier": "A"
 }
