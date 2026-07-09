@@ -9,10 +9,10 @@
   "affiliation": "Shinigami",
   "art": "/Images/aizen/art.png",
   "bestStamp": {
-    "mainStats": "1: Spirit DMG Bonus \u003e ATK%  •  2: Crit Rate \u003e Crit DMG  •  3: ATK%",
-    "notes": "Aim for ~119% Ult Charge Rate to align Kyokasuigetsu windows with team buffs. Crit Rate scales hardest because of the B6 Crit→CritDMG conversion.",
-    "setName": "Immeasurable Gap (4) + Spirit DMG (2)",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e ATK% \u003e Ult Charge Rate \u003e Flat ATK"
+    "mainStats": "1: Spirit DMG \u003e ATK%  •  2: Crit Rate \u003e Crit DMG  •  3: ATK%",
+    "notes": "Aim for ~124% Ult Charge Rate for better rotation.",
+    "setName": "Immeasurable Gap (3)",
+    "subStatPriority": "ATK% \u003e Crit Rate (50%) \u003e Crit DMG \u003e Ult Charge Rate \u003e Flat ATK"
   },
   "bondPriority": [
     {
@@ -63,13 +63,13 @@
   "builds": [
     {
       "label": "Main",
-      "notes": "Aim for ~119% Ult Charge Rate to align Kyokasuigetsu windows with team buffs. Crit DMG scales hardest because of the B6 Crit→CritDMG conversion.",
+      "notes": "Aim for ~124% Ult Charge Rate for better rotations.",
       "passiveSkills": [
-        "All DMG Dealt/Bonus +9%",
-        "Increase Battlefield Skill DMG +22.5%"
+        "Battlefield II",
+        "Overdrive Tactic"
       ],
       "range": "B0W1C1 - B6W5C5",
-      "setName": "Immeasurable Gap",
+      "setName": "Immeasurable Gap (3)",
       "setPieces": [
         {
           "mainStat": "Spirit DMG Bonus \u003e ATK%",
@@ -84,31 +84,58 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+      "subStatPriority": "ATK% \u003e Crit Rate (50%) \u003e Crit DMG \u003e Ult Charge Rate \u003e Flat ATK",
       "targets": {
-        "ultChargeRate": "~119%"
-      }
+        "ultChargeRate": "~124%"
+      },
+    {
+      "label": "Aizen Double Support",
+      "notes": "Aim for ~124% Ult Charge Rate for better rotations.",
+      "passiveSkills": [
+        "Overdrive Tactic",
+        "Battlefield II"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Ready to Go (3)",
+      "setPieces": [
+        {
+          "mainStat": "Spirit DMG Bonus \u003e ATK%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate \u003e Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "ATK%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "ATK% \u003e Crit Rate (50%) \u003e Crit DMG \u003e Ult Charge Rate \u003e Flat ATK",
+      "targets": {
+        "ultChargeRate": "~124%"
+      },
     }
   ],
   "color": "Blue",
   "corePassives": [
     {
-      "description": "Aizen accumulates Pressure Stacks through various attacks. Upon reaching 3 Pressure Stacks, releasing any Battlefield Skill, or landing the last strike of the basic attack will activate Spiritual Pressure Intimidation for 10 seconds. While Spiritual Pressure Intimidation is active, any Pressure Stacks gained are converted into Enhanced Pressure Stacks. When Aizen is releasing the Battlefield Skill Hado 90: Kurohitsugi, every successful hit consumes 1 Enhanced Pressure Stack. If 3 points are consumed at once, then for the next 8 seconds, switching to another teammate will auto-trigger that teammate's counterattack, with its damage and Spiritual Pressure Reduction Rate reduced by 50%. Additionally, for every 1 Enhanced Pressure Stack consumed, the team gains 1 stack of Illusion Shield for 8 seconds, up to 3 stacks.",
+      "description": "Aizen accumulates Pressure Stacks through various attacks. Upon reaching 3 Pressure Stacks, releasing any Battlefield Skill, or landing the last strike of the basic attack will activate Spiritual Pressure Intimidation for 10 seconds. \n While Spiritual Pressure Intimidation is active, any Pressure Stacks gained are converted into Enhanced Pressure Stacks. When Aizen is releasing the Battlefield Skill Hado 90: Kurohitsugi, every successful hit consumes 1 Enhanced Pressure Stack. If 3 points are consumed at once, then for the next 8 seconds, switching to another teammate will auto-trigger that teammate's counterattack, with its damage and Spiritual Pressure Reduction Rate reduced by 50%. Additionally, for every 1 Enhanced Pressure Stack consumed, the team gains 1 stack of Illusion Shield for 8 seconds, up to 3 stacks. \n While Kyokasuigetsu is not active, switching Aizen off the field ends Spiritual Domination.",
       "icon": "/Images/aizen/passive-1.png",
       "name": "Battle of Spiritual Pressure"
     },
     {
-      "description": "While releasing the Battlefield Skill Hado 90: Kurohitsugi, each Enhanced Pressure Stack consumed inflicts 1 extra stack of Ravage to the target, up to 6 extra stacks. The effect of Ravage is increased to 2.25%.",
+      "description": "While releasing the Battlefield Skill Hado 90: Kurohitsugi, each Enhanced Pressure Stack consumed inflicts 1 extra stack of Ravage to the target, up to 6 extra stacks. \nThe effect of Ravage is increased to 3%.",
       "icon": "/Images/aizen/passive-2.png",
       "name": "Tainted Form"
     },
     {
-      "description": "When Aizen releases a backline Battlefield Skill while under Complete Suppression, the damage of the next Hado 90: Kurohitsugi is increased by 37.5%.",
+      "description": "When Aizen releases a backline Battlefield Skill while under Complete Suppression, the damage of the next Hado 90: Kurohitsugi is increased by 150%.",
       "icon": "/Images/aizen/passive-3.png",
       "name": "Dustwring"
     },
     {
-      "description": "During Kyokasuigetsu, the entire team gains an extra 11.25% ATK.",
+      "description": "During Kyokasuigetsu, the entire team gains an extra 15% ATK.",
       "icon": "/Images/aizen/passive-4.png",
       "name": "False Perception"
     }
@@ -124,50 +151,33 @@
   "role": "Tactician",
   "rotations": [
     {
-      "name": "Opener (Kyokasuigetsu Burst)",
-      "notes": "Open with the support so Aizen enters with Suppression already filling. Save Ultimate until enemy is locked, then dump Hado 90.",
+      "name": "Opener",
+      "notes": "Open with the support Technique then Aizen Battlefield",
       "steps": [
         "Start with support to apply buffs",
-        "Aizen battlefield: Technique (Fated Demise) → Basic Attack (Hado 63: Raikoho branch)",
-        "Build to 3 Pressure Stacks → Battlefield",
-        "Enter Ultimate: Kyokasuigetsu whenever available",
-        "Spam Exposed Weakspot basics for stack consumption"
+        "Aizen battlefield → Technique (2x) → Battlefield",
+        "Counter with another unit",
       ],
       "tags": [
-        "Burst",
-        "Boss"
-      ]
-    },
-    {
-      "name": "Sustained / Off-field",
-      "notes": "B4 lets him counter on swap-in — perfect for stall fights. Each backline BFS while Complete Suppression buffs the next Hado 90 by 37.5% (Dustwring).",
-      "steps": [
-        "Backline while ally builds Suppression Gauge",
-        "Swap-in counter (B4) for free counterattack",
-        "Backline Battlefield Skill at Complete Suppression",
-        "Return to backline, repeat"
-      ],
-      "tags": [
-        "Sustain",
-        "PvP"
+        "Opener"
       ]
     }
   ],
   "skills": [
     {
-      "description": "Aizen wields his Zanpakuto to strike 5 times, dealing damage equal to 752.5% of ATK to the enemy ahead. If the last strike lands while having 3 Pressure Stacks, Aizen enters Spiritual Pressure Intimidation; otherwise, he gains 1 Pressure Stack instead. Releasing dodge and counter in between basic attacks will not interrupt the current basic attack sequence. Exposed Weakspot (Kyokasuigetsu Basic Attack): Aizen wields his Zanpakuto to strike 5 times while releasing Kido, dealing damage equal to 2852.5% of ATK to the enemy ahead and gaining 1 Pressure Stack for landing each of the first three strikes. The last two strikes trigger Hado 90: Kurohitsugi, counted as a Battlefield Skill. Releasing dodge and counter in between basic attacks will not interrupt the current basic attack sequence. After Hado 90: Kurohitsugi is triggered, basic attacks switch from Exposed Weakspot to Slash.",
+      "description": "Aizen wields his Zanpakuto to strike 5 times, dealing damage equal to 752.5% of ATK to the enemy ahead. If the last strike lands while having 3 Pressure Stacks, Aizen enters Spiritual Pressure Intimidation; otherwise, he gains 1 Pressure Stack instead. Releasing dodge and counter in between basic attacks will not interrupt the current basic attack sequence. ~~Exposed Weakspot~~ Kyokasuigetsu \n Aizen wields his Zanpakuto to strike 5 times while releasing Kido, dealing damage equal to 2852.5% of ATK to the enemy ahead and gaining 1 Pressure Stack for landing each of the first three strikes. The last two strikes trigger Hado 90: Kurohitsugi, counted as a Battlefield Skill. Releasing dodge and counter in between basic attacks will not interrupt the current basic attack sequence. \n After Hado 90: Kurohitsugi is triggered, basic attacks switch from Exposed Weakspot to Slash.",
       "icon": "/Images/aizen/skill-1.png",
       "kind": "Basic Attack",
       "name": "Slash"
     },
     {
-      "description": "Aizen steps back and releases a Sword Pressure, dealing damage equal to 645% of ATK and gaining 1 Pressure Stack. Within 6 seconds after releasing this skill, the technique and Basic Attack buttons become active, and tapping them can trigger the second phase of the technique, Unavoidable, or the Special Attack, Hado 63: Raikoho. If Fated Demise is released at the moment the enemy strikes, the damage of both Unavoidable and Hado 63: Raikoho is increased by 25%. Unavoidable: (After Releasing the Technique \"Fated Demise\", tap Technique) Aizen instantly dashes through the enemy in front of him, dealing damage equal to 642.5% of ATK and gaining 1 Pressure Stack. Using this skill allows your next Basic Attack to skip directly to the third phase. Hado 63: Raikoho: (After Releasing the Technique \"Fated Demise\", tap Basic Attack) Aizen unleashes Hado 63: Raikoho toward the front, pulling enemies slightly together and dealing damage equal to 645% of ATK and gaining 1 Pressure Stack. Using this skill allows your next Basic Attack to skip directly to the third phase.",
+      "description": "Aizen steps back and releases a Sword Pressure, dealing damage equal to 645% of ATK and gaining 1 Pressure Stack. \n Within 6 seconds after releasing this skill, the technique and Basic Attack buttons become active, and tapping them can trigger the second phase of the technique, Unavoidable, or the Special Attack, Hado 63: Raikoho. If Fated Demise is released at the moment the enemy strikes, the damage of both Unavoidable and Hado 63: Raikoho is increased by 25%. ~~Unavoidable~~ After Releasing the Technique \"Fated Demise\", tap Technique \n Aizen instantly dashes through the enemy in front of him, dealing damage equal to 642.5% of ATK and gaining 1 Pressure Stack. Using this skill allows your next Basic Attack to skip directly to the third phase. ~~Hado 63: Raikoho~~ After Releasing the Technique \"Fated Demise\", tap Basic Attack \n Aizen unleashes Hado 63: Raikoho toward the front, pulling enemies slightly together and dealing damage equal to 645% of ATK and gaining 1 Pressure Stack. Using this skill allows your next Basic Attack to skip directly to the third phase.",
       "icon": "/Images/aizen/skill-2.png",
       "kind": "Technique",
       "name": "Fated Demise"
     },
     {
-      "description": "Aizen ascends his Zanpakuto, dealing damage equal to 1082.5% of ATK and activating Kyokasuigetsu for 18 seconds. During Kyokasuigetsu, Aizen stays in Spiritual Pressure Intimidation the whole time and can release an enhanced basic attack combo that includes Hado 90: Kurohitsugi. While Kyokasuigetsu is active, Aizen can release one enhanced Battlefield Skill, I Will Stand Atop the Heavens, and the damage boost from Complete Suppression applied to this Battlefield Skill is increased by 4 times.",
+      "description": "Aizen ascends his Zanpakuto, dealing damage equal to 1082.5% of ATK and activating Kyokasuigetsu for 18 seconds. During Kyokasuigetsu, Aizen stays in Spiritual Pressure Intimidation the whole time and can release an enhanced basic attack combo that includes Hado 90: Kurohitsugi. \n While Kyokasuigetsu is active, Aizen can release one enhanced Battlefield Skill, I Will Stand Atop the Heavens, and the damage boost from Complete Suppression applied to this Battlefield Skill is increased by 4 times.",
       "icon": "/Images/aizen/skill-3.png",
       "kind": "Ultimate",
       "name": "Shatter, Kyokasuigetsu"
@@ -179,13 +189,13 @@
       "name": "Counter"
     },
     {
-      "description": "All damage dealt by the team increases by 30%. Aizen has two types of Battlefield Skill energy: Battlefield Skill Amount and Suppression Value. Battlefield Skill Amount builds up while Aizen attacks on the field and is spent to release Kurohitsugi. Suppression Value builds up from teammates' attacks landing — if Aizen is the only character left in the team, his own attacks (other than I Will Stand Atop the Heavens) build it too. At maximum Suppression Value, Aizen enters Complete Suppression; releasing the Battlefield Skill from the backline at that point consumes all Suppression Value to increase the Battlefield Skill's damage by 150% (500% during Kyokasuigetsu, though the Suppression Value requirement doubles). When Battlefield Skill Amount is full, Aizen releases Kurohitsugi, dealing 438% of ATK and applying 1 stack of Ravage to enemies hit. Kurohitsugi cannot be triggered manually while Kyokasuigetsu is active.",
+      "description": "~~While Aizen's Battlefield Skill is active, all teammates' All-Type DMG increases by 30%~~ \n Aizen has two types of energy: Battlefield Skill Energy and Suppression Gauge. Battlefield Skill Energy accumulates through Aizen's attacks while on the battlefield and is required to release the Battlefield Skill Hado 90: Kurohitsugi. Suppression Gauge is gained when other teammates successfully hit enemies. If Aizen is the only one left in the team, then all attacks, except I will Stand Atop the Heavens, will contribute to the Suppression Gauge. When the Suppression Gauge reaches its maximum, Aizen enters Complete Suppression. During this time, releasing a backline Battlefield Skill consumes all Suppression Guge to increase its damage by 150%. While Kyokasuigetsu is active, the damage boost from Complete Suppression to Battlefield Skills is increased to 500%, but the required Suppression Gauge is doubled. ~~Complete Hypnosis~ Aizen's in Backline \n Switch in Aizen immediately, dealing damage equal to 322.5% of ATK and increasing Spirit DMG by 15% for 10 seconds. ~~Hado 90: Kurohitsugi~~ Aizen is on-field and his Battlefield Skill Energy reaches maximum \n Aizen accumulates Battlefield Skill Energy through his attacks while on the battlefield. Upon reaching full energy, he can release Hado 90:  Kurohitsugi, dealing damage equal to 1095% of ATK and applying 1 stack of Ravage on enemies hit. \n While Kyokasuigetsu is active, the Battlefield Skill button for Hado 90: Kurohitsugi becomes disabled. ~~I Will Stand Atop the Heavens~~ Aizen is in backline while under Kyokasuigetsu \n Switch in Aizen immediately and release a finishing blow, dealing damage equal to 2062.5% of ATK. Releasing this skill will remove Kyokasuigetsu. \N If Aizen's Battlefield Skill button is active and he's the only one left in the team, then after releasing the Ultimate, tapping the Ultimate button again during Kyokasuigetsu triggers the Battlefield Skill I Will Stand Atop the Heavens.",
       "icon": "/Images/aizen/skill-bfs.png",
       "kind": "Battlefield Skill",
-      "name": "Hado 90: Kurohitsugi"
+      "name": "Supremacy"
     },
     {
-      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Aizen gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Aizen gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15s.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Flash Step"
