@@ -8,10 +8,10 @@
   },
   "art": "/Images/gin/art.png",
   "bestStamp": {
-    "mainStats": "1: Atk% \u003e Thrust DMG Bonus •  2: Crit Rate  •  3: Ailment%",
-    "notes": "Pure Ailment DPS — Ailment% is king once Crit Rate hits ~70%.",
-    "setName": "Shinso (4) + Thrust (2)",
-    "subStatPriority": "Crit Rate \u003e Ailment% \u003e Atk% \u003e Crit DMG \u003e Flat Atk \u003e Ult Charge Rate"
+    "mainStats": "1: ATK% \u003e Thrust DMG •  2: Crit Rate  •  3: Ailment%",
+    "notes": "Weapon ascension has massive impact, aim for Crit Rate ~70%.",
+    "setName": "Mocking Visage (3)",
+    "subStatPriority": "Crit Rate (70%) \u003e Ailment% \u003e ATK% \u003e Crit DMG \u003e Flat Atk \u003e Ult Charge Rate"
   },
   "bondPriority": [
     {
@@ -63,27 +63,25 @@
     {
       "label": "Main",
       "passiveSkills": [
-        "All DMG Dealt/Bonus +9%",
-        "Increase Technique DMG +30%",
-        "Increase Ultimate DMG +22.5%"
+        "All DMG Dealt/Bonus +9%"
       ],
       "range": "B0W1C1 - B6W5C5",
-      "setName": "Mocking Visage",
+      "setName": "Mocking Visage (3)",
       "setPieces": [
         {
-          "mainStat": "Thrust DMG Bonus \u003e Atk%",
+          "mainStat": "ATK% \u003e Thrust DMG",
           "slot": 1
         },
         {
-          "mainStat": "Crit Rate \u003e Crit DMG",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
-          "mainStat": "Ailment DMG Bonus \u003e Atk%",
+          "mainStat": "Ailment%",
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate \u003e Ailment DMG Bonus \u003e Crit DMG \u003e Atk% \u003e Atk",
+      "subStatPriority": "Crit Rate \u003e Ailment% \u003e ATK% \u003e Flat ATK \u003e Crit DMG",
       "targets": {
         "ultChargeRate": "Any%"
       }
@@ -91,7 +89,7 @@
   ],
   "corePassives": [
     {
-      "description": "Gin's attacks inflict Impale Scale on the enemy. Upon reaching 100, triggers Impale once, dealing damage equal to 500% of Gin's ATK to the target. Teammates' special attacks, techniques, Battlefield Skills, Ultimates, and counterattacks also inflict 35 Impale Scale on the enemy (1s cooldown). Impale triggered by teammates counts as if triggered by Gin's attacks.",
+      "description": "Gin's attacks inflict Impale Scale on the enemy. Upon reaching 100, triggers Impale once, dealing damage equal to 500% of Gin's ATK to the target. \n Except for Gin's attacks, his teammates' special attacks, techniques, Battlefield Skills, Ultimates, and counterattacks also inflict 35 Impale Scale on the enemy. Cooldown: 1 second. Impale triggered by teammates' attacks is counted as if triggered by Gin's attacks.",
       "icon": "/Images/gin/passive-1.png",
       "name": "Hundred Blades"
     },
@@ -121,33 +119,31 @@
   "role": "Assault",
   "rotations": [
     {
-      "name": "Pierce Opener",
+      "name": "Shinso Shinso Shinso",
       "notes": "Gin's Weapon Ascension 3 is crucial to the unit's overall damage. Prioritize upgrading the weapon over boundaries after B2.",
       "steps": [
-        "Tactician (Nelliel/Aizen) opener",
-        "Gin: Basic ×2 → Technique (Shinso extension)",
-        "Ultimate (Kamishini no Yari) at burst window",
-        "Battlefield Skill on cooldown"
+        "Tactician opener",
+        "Gin Technique (1x) → Manual Counter → Technique (2x) → Technique (1x)",
+        "Ultimate to trigger Impale whenever it's available"
       ],
       "tags": [
-        "Burst",
-        "Boss"
+        "Standard"
       ]
     }
   ],
   "skills": [
     {
-      "description": "Gin swiftly strikes the enemy in front of him 5 times with Shinso, dealing damage equal to 820% of ATK and inflicting 40 Impale Scale. Gin also accumulates Spiritual Pressure if his attack hits the enemy. Tap basic attack after triggering a Perfect Dodge, releasing Spear Rain or Blade-Sundering Spear. Gin rapidly impales the enemy with Shinso, dealing DMG equal to 675% of ATK and inflicting 30 Impale Scale. Upon a sucecssful hit, Gin's Spiritual Pressure is increased. Press and hold basic attack with 50 or more Spiritual Pressure to release Spear Thrust. Gin thrusts forward with Shinso, dealing damage equal to 550% of ATK and inflicting 15 Impale Scale. Upon a successful hit, the recovery time of Technique Points is reduced by 1 second(s). After performing Spear Thrust, quickly tap or tap and hold the basic attack when Spiritual Pressure is no less than 50. Gin leaps over the enemy and extends Shinso to attack mid-air, dealing damage equal to 825% of ATK and inflicting 25 Impale Scale. Upon a successful hit, the recovery time of Technique Points is reduced by 2 second(s).",
+      "description": "Gin swiftly strikes the enemy in front of him 5 times with Shinso, dealing damage equal to 820% of ATK and inflicting 40 Impale Scale. \n Gin also accumulates Spiritual Pressure if his attack hits the enemy. ~~Serpent Tail Penetration~~ Tap basic attack after triggering a Perfect Dodge, releasing Spear Rain or Blade-Sundering Spear \n Gin rapidly impales the enemy with Shinso, dealing DMG equal to 675% of ATK and inflicting 30 Impale Scale. \n Upon a sucecssful hit, Gin's Spiritual Pressure is increased. ~~Lightning Thrust~~ \n ~~Spear Thrust~~ Press and hold basic attack with 50 or more Spiritual Pressure \n Gin thrusts forward with Shinso, dealing damage equal to 550% of ATK and inflicting 15 Impale Scale. \n Upon a successful hit, the recovery time of Technique Points is reduced by 1 second(s). ~~Spear Rain~~ Quickly tap or tap and hold the basic attack when Spiritual Pressure is no less than 50 after performing a Spear Thrust \n Gin leaps over the enemy and extends Shinso to attack mid-air, dealing damage equal to 825% of ATK and inflicting 25 Impale Scale. \n Upon a successful hit, the recovery time of Technique Points is reduced by 2 second(s).",
       "icon": "/Images/gin/skill-basic.png",
       "kind": "Basic Attack",
-      "name": "Serpent Tail Penetration",
+      "name": "Impale Him, Shinso",
       "variant": null
     },
     {
-      "description": "Gin enters the charging state, consuming 1 Technique Point per charge to boost the Technique power. Releasing the Skill button or upon depleting all Technique Points triggers an attack corresponding to the total points consumed during the charge state. Gin is invincible during charging. Recovers 1 Technique Point automatically every 10 seconds. Thrusting Spear consumes 1 Technique Point. Gin instantly extends Shinso to attack the enemy, dealing damage equal to 575% of ATK and inflicting 12 Impale Scale. Serpent Shadow Spear consumes 2 Technique Points. Gin extends Shinso to attack all enemies within a fan-shaped area, dealing damage equal to 1150% of ATK and inflicting 24 Impale Scale. Blade-Sundering Spear consumes 3 Technique Points. Gin quickly slashes the enemy multiple times, then dashes behind the enemy and launches them into the air, dealing damage equal to 2300% of ATK and inflicting 36 Impale Scale.",
+      "description": "Gin enters the charging state, consuming 1 Technique Point per charge to boost the Technique power. Releasing the Skill button or upon depleting all Technique Points triggers an attack corresponding to the total points consumed during the charge state. \n Gin is invincible during charging. \n Recovers 1 Technique Point automatically every 10 seconds. ~~Thrusting Spear~~ Consumes 1 Technique Point \n Gin instantly extends Shinso to attack the enemy, dealing damage equal to 575% of ATK and inflicting 12 Impale Scale. ~~Serpent Shadow Spear~~ Consumes 2 Technique Points \n Gin extends Shinso to attack all enemies within a fan-shaped area, dealing damage equal to 1150% of ATK and inflicting 24 Impale Scale. ~~Blade-Sundering Spear~~ Consumes 3 Technique Points \n Gin quickly slashes the enemy multiple times, then dashes behind the enemy and launches them into the air, dealing damage equal to 2300% of ATK and inflicting 36 Impale Scale.",
       "icon": "/Images/gin/skill-technique.png",
       "kind": "Technique",
-      "name": "Blade-Sundering Spear",
+      "name": "Shinso Unsheathed",
       "variant": "3 Points"
     },
     {
@@ -157,14 +153,14 @@
       "name": "Bankai - Kamishini no Yari"
     },
     {
-      "description": "Gin seizes the enemy's opening and counterattacks with Shinso, dealing damage equal to 1600% of ATK and inflicting 50 Impale Scale. Gin gains 1 Technique Point(s) if he counters successfully.",
+      "description": "Gin seizes the enemy's opening and counterattacks with Shinso, dealing damage equal to 1600% of ATK and inflicting 50 Impale Scale. \n Gin gains 1 Technique Point(s) if he counters successfully.",
       "icon": "/Images/gin/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",
       "variant": null
     },
     {
-      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Gin Ichimaru gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds. Gin gains 1 Technique Point on triggering Perfect Dodge.",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Gin Ichimaru gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds. \n Gin gains 1 Technique Point on triggering Perfect Dodge.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Flash Step"
