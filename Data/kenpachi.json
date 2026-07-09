@@ -89,9 +89,8 @@
     "subStatPriority": "Crit Rate (50%) \u003e Ailment% \u003e ATK% \u003e Crit DMG \u003e Ult Charge Rate (>114%)",
     "targets": {
       "ultChargeRate": "~114% - 128%"
-    }
-  },
-  "builds": [
+     }
+    },
     {
       "label": "Min Max",
       "passiveSkills": [],
