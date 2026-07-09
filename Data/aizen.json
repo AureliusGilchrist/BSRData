@@ -115,7 +115,7 @@
       "subStatPriority": "ATK% \u003e Crit Rate (50%) \u003e Crit DMG \u003e Ult Charge Rate \u003e Flat ATK",
       "targets": {
         "ultChargeRate": "~124%"
-      },
+      }
     }
   ],
   "color": "Blue",
@@ -157,7 +157,7 @@
       "steps": [
         "Start with support to apply buffs",
         "Aizen battlefield → Technique (2x) → Battlefield",
-        "Counter with another unit",
+        "Counter with another unit"
       ],
       "tags": [
         "Opener"
