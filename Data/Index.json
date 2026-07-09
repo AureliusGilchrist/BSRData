@@ -1,5 +1,15 @@
 [
   {
+    "slug": "aizen",
+    "name": "Sosuke Aizen",
+    "role": "Tactician",
+    "tier": "S",
+    "damageType": "Spirit",
+    "rarity": "SSR",
+    "art": "/Images/aizen/art.png",
+    "releaseDate": "19 Dec 2025"
+  },
+  {
     "slug": "byakuya",
     "name": "Byakuya Kuchiki",
     "role": "Tactician",

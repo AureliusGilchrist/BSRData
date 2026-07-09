@@ -78,6 +78,29 @@ func regenerateIndex(dataDir string) error {
 	if err != nil {
 		return err
 	}
+	// Previous index, keyed by slug — a character whose JSON currently fails
+	// to parse keeps its old entry instead of vanishing from the site. Hand
+	// edits have shipped broken JSON more than once (aizen, ulquiorra), and
+	// silently dropping the character is far worse than serving slightly
+	// stale index fields until the file is fixed.
+	prev := map[string]indexEntry{}
+	if raw, err := os.ReadFile(filepath.Join(dataDir, "Index.json")); err == nil {
+		var prevEntries []indexEntry
+		if err := json.Unmarshal(raw, &prevEntries); err == nil {
+			for _, e := range prevEntries {
+				prev[e.Slug] = e
+			}
+		}
+	}
+	keepPrev := func(name, reason string) *indexEntry {
+		slug := name[:len(name)-len(".json")]
+		if e, ok := prev[slug]; ok {
+			fmt.Printf("  ! %s: %s — keeping previous index entry\n", name, reason)
+			return &e
+		}
+		fmt.Printf("  ! %s: %s — no previous entry to keep, character will be MISSING from the index\n", name, reason)
+		return nil
+	}
 	entries := []indexEntry{}
 	for _, f := range files {
 		if f.IsDir() {
@@ -92,10 +115,16 @@ func regenerateIndex(dataDir string) error {
 		}
 		raw, err := os.ReadFile(filepath.Join(dataDir, name))
 		if err != nil {
+			if e := keepPrev(name, "unreadable: "+err.Error()); e != nil {
+				entries = append(entries, *e)
+			}
 			continue
 		}
 		var d map[string]any
 		if err := json.Unmarshal(raw, &d); err != nil {
+			if e := keepPrev(name, "invalid JSON: "+err.Error()); e != nil {
+				entries = append(entries, *e)
+			}
 			continue
 		}
 		getStr := func(k string) string {
