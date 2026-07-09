@@ -9,7 +9,7 @@
   "art": "/Images/mayuri/art.png",
   "bestStamp": {
     "mainStats": "1: ATK%  •  2: Crit Rate  •  3: Ult Charge Rate",
-    "notes": "S-tier Support — poison can crit, so stack crit rate after obtaining 228% Ult Charge Rate.",
+    "notes": "Poison can crit, so stack crit rate after obtaining 228% Ult Charge Rate.",
     "setName": "Sample Collection (3)",
     "subStatPriority": "Ult Charge Rate (228%)\u003e Crit Rate \u003e Ailment% \u003e ATK% \u003e Crit DMG"
   },
@@ -66,11 +66,11 @@
       "setName": "Sample Collection",
       "setPieces": [
         {
-          "mainStat": "Thrust DMG Bonus OR Any Other",
+          "mainStat": "ATK%",
           "slot": 1
         },
         {
-          "mainStat": "Crit Rate OR Atk% OR Any Other",
+          "mainStat": "Crit Rate OR Atk%",
           "slot": 2
         },
         {
@@ -80,13 +80,13 @@
       ],
       "subStatPriority": "Ultimate Charge Rate \u003e Ailment DMG Bonus \u003e Crit Rate / Crit DMG / Atk%",
       "targets": {
-        "ultChargeRate": "250%+"
+        "ultChargeRate": "228%+"
       }
     }
   ],
   "corePassives": [
     {
-      "description": "All of Mayuri Kurotsuchi's damage-dealing attacks apply a certain amount of Poison Scale to enemies. When it reaches 100, the Poison debuff is triggered once, dealing damage equal to 100% of ATK. Each time Poison is triggered, all characters in the team gain 1 stack of Excitement, increasing their Ailment Mastery by 7.5% for 15 seconds, up to 3 stacks.",
+      "description": "All of Mayuri Kurotsuchi's damage-dealing attacks apply a certain amount of Poison Scale to enemies. When it reaches 100, the Poison debuff is triggered once, dealing damage equal to 100% of ATK. \n Each time Poison is triggered, all characters in the team gain 1 stack of Excitement, increasing their Ailment Mastery by 7.5% for 15 seconds, up to 3 stacks.",
       "icon": "/Images/mayuri/passive-1.png",
       "name": "Toxin Encroachment"
     },
@@ -116,12 +116,12 @@
   "role": "Support",
   "rotations": [
     {
-      "name": "Poison Setup",
+      "name": "Buffs Setup",
       "notes": "His best damage comes off-field — apply poison and rotate.",
       "steps": [
         "Ultimate",
         "Technique",
-        "Swap out — poison ticks off-field"
+        "Swap out"
       ],
       "tags": [
         "Sustain",
@@ -131,21 +131,21 @@
   ],
   "skills": [
     {
-      "description": "Mayuri Kurotsuchi wields his Zanpakuto to strike 5 times, dealing damage equal to 375% of ATK to the enemy ahead and applying Poison Scale. After releasing a Technique, tap Basic Attack to summon Nemu onto the field to assist. Nemu performs a rapid spinning kick, pulling in nearby enemies to a certain extent, dealing damage equal to 450% of Mayuri's ATK and applying Poison Scale.",
+      "description": "Mayuri Kurotsuchi wields his Zanpakuto to strike 5 times, dealing damage equal to 375% of ATK to the enemy ahead and applying Poison Scale. ~~Masterpiece~~ After releasing a Technique, tap Basic Attack \n Mayuri Kurotsuchi summons Nemu onto the field to assist. Nemu performs a rapid spinning kick, pulling in nearby enemies to a certain extent, dealing damage equal to 450% of Mayuri's ATK and applying Poison Scale.",
       "icon": "/Images/mayuri/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Claw out, Ashisogi Jizo",
       "variant": null
     },
     {
-      "description": "Mayuri Kurotsuchi randomly selects and uses one of the three following inventions: Hojiku-zai, Superhuman Potion, or Flesh Bomb. Each release of his Technique accumulates his Spiritual Pressure. When it reaches maximum, the Technique is enhanced into Double-Barreled. Hojiku-zai: Immediately restores HP to the entire team equal to 40%+450 of Mayuri Kurotsuchi's ATK, then restores 150 Fixed HP every 2 seconds for 10 seconds. This skill is prioritized only when a team member's HP falls below 70%. Superhuman Potion Essence: Inflicts all enemies within range with Delay for 5 second(s) and increases all damage they take by 15% for 25 seconds. Flesh Bomb: Attacks enemies in front, dealing damage equal to 640% of ATK, additionally reducing their Spiritual Pressure by 800, and applying Poison Scale. Doubble-Barreled: Mayuri Kurotsuchi uses both Superhuman Potion Essence and Flesh Bomb at once, dealing damage equal to 640% of ATK to enemies within range, additionally reducing their Spiritual Pressure by 800, and applying Poison Scale. Inflicts all enemies within range with Delay for 5 second(s) and increases all damage they take by 15% for 25 seconds.",
+      "description": "Mayuri Kurotsuchi randomly selects and uses one of the three following inventions: Hojiku-zai, Superhuman Potion, or Flesh Bomb. Each release of his Technique accumulates his Spiritual Pressure. When it reaches maximum, the Technique is enhanced into Double-Barreled. ~~Hojiku-zai~~ \n Immediately restores HP to the entire team equal to 40%+450 of Mayuri Kurotsuchi's ATK, then restores 150 Fixed HP every 2 seconds for 10 seconds. \n This skill is prioritized only when a team member's HP falls below 70%. ~~Superhuman Potion Essence~~  \n Inflicts all enemies within range with Delay for 5 second(s) and increases all damage they take by 15% for 25 seconds. ~~Flesh Bomb~~ \n Attacks enemies in front, dealing damage equal to 640% of ATK, additionally reducing their Spiritual Pressure by 800, and applying Poison Scale. ~~Doubble-Barreled~~ \n Mayuri Kurotsuchi uses both Superhuman Potion Essence and Flesh Bomb at once, dealing damage equal to 640% of ATK to enemies within range, additionally reducing their Spiritual Pressure by 800, and applying Poison Scale. Inflicts all enemies within range with Delay for 5 second(s) and increases all damage they take by 15% for 25 seconds.",
       "icon": "/Images/mayuri/skill-technique.png",
       "kind": "Technique",
       "name": "Picking the Right One",
       "variant": null
     },
     {
-      "description": "Mayuri Kurotsuchi releases his Bankai and commands the massive Konjiki Ashisogijizo to smash into enemies, dealing damage equal to 800% of ATK. On hit, it applies Poison Scale. Additionally, leaves behind a corrosive pool for 25 seconds, dealing total DMG equal to 185% of ATK to enemies within its area. After this skill is released, all characters in the team gain 5% All-Skill Mastery for 35 seconds. Unstackable.",
+      "description": "Mayuri Kurotsuchi releases his Bankai and commands the massive Konjiki Ashisogijizo to smash into enemies, dealing damage equal to 800% of ATK. On hit, it applies Poison Scale. Additionally, leaves behind a corrosive pool for 25 seconds, dealing total DMG equal to 185% of ATK to enemies within its area. \n After this skill is released, all characters in the team gain 5% All-Skill Mastery for 35 seconds. Unstackable.",
       "icon": "/Images/mayuri/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Bankai: Konjiki Ashisogijizo",

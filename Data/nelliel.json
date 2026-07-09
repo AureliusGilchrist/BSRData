@@ -10,8 +10,8 @@
   "bestStamp": {
     "mainStats": "1: ATK%  •  2: Crit Rate  •  3: Ult Charge Rate",
     "notes": "S-tier Tactician — applies vulnerability that amplifies the on-field DPS.",
-    "setName": "Gamuza (4) + Thrust (2)",
-    "subStatPriority": "Crit Rate \u003e Ult Charge Rate \u003e Atk% \u003e Crit DMG \u003e Ailment%"
+    "setName": "Knight's Anthem (3)",
+    "subStatPriority": "Crit Rate (55%) \u003e Ult Charge Rate \u003e ATK% \u003e Crit DMG \u003e Ailment%"
   },
   "bondPriority": [
     {
@@ -63,9 +63,8 @@
     {
       "label": "Main",
       "passiveSkills": [
-        "All DMG Dealt/Bonus +9%",
-        "Increase Ultimate DMG +22.5%",
-        "Increase Battlefield Skill DMG +22.5%"
+        "All DMG +9%",
+        "Ult DMG"
       ],
       "range": "B0W1C1 - B6W5C5",
       "setName": "Knight's Anthem",
@@ -75,15 +74,15 @@
           "slot": 1
         },
         {
-          "mainStat": "Crit Rate \u003e Crit DMG",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
-          "mainStat": "Ult Charge Rate \u003e Atk% / Ailment DMG Bonus",
+          "mainStat": "Ult Charge Rate",
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Ailment DMG Bonus \u003e Atk",
+      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Ailment% \u003e Flat ATK",
       "targets": {
         "ultChargeRate": "124% OR 154% OR 172%"
       }
@@ -137,35 +136,35 @@
   ],
   "skills": [
     {
-      "description": "Nelliel swings her Zanpakuto, dealing 5 hits for a total damage equal to 870% of ATK and triggering 1 intance(s) of Verde Rush, while generating Spiritual Pressure and Battlefield Skill Energy. Landing the 5th hit grants 1 point(s) of Battle Will and 1 point(s) of Friendship. At maximum Spiritual Pressure, releasing a counterattack, Rapid Slash, or the final hit of Basic Attack will automatically trigger an additional Basic Attack. Nelliel leaps above the enemy and cleaves downward, dealing damage equal to 1110% of ATK and triggering 1 instance(s) of Verde Rush. She also gains 1 point(s) of Battle Will and 1 point(s) of Friendship, and restore HP to all teammates equal to 50% + 1000 of her ATK. If this attack is release while Nelliel is in the Build Up state, switching to a teammate within 8 seconds of the final hit will automatically trigger their counterattack upon their first switch-in. The damage and Spiritual Pressure Reduction Rate of this counterattack are reduced by 50%. In Resurreccion, Nelliel swings her lance, dealing 5 hits for a total damage equal to 1300% of ATK and triggering 1 instance(s) of Verde Rush. Landing the 5th hit grants 1 point(s) of Battle Will. During Resurreccion, tap and hold Basic Attack with at least 2 points of Battle Will. Nelliel swings her lance to strike the enemy, then leaps up and pins them to the ground before dontating the impact, dealing damage equal to 1665% of ATK and triggering 1 instance(s) of Verde Rush. Releasing this skill consumes 2 point(s) of Battle Will and can directly chain into the 4th hit of her basic attack.",
+      "description": "Nelliel swings her Zanpakuto, dealing 5 hits for a total damage equal to 870% of ATK and triggering 1 intance(s) of Verde Rush, while generating Spiritual Pressure and Battlefield Skill Energy. Landing the 5th hit grants 1 point(s) of Battle Will and 1 point(s) of Friendship. ~~Instant Conclusion~~ At maximum Spiritual Pressure, releasing a counterattack, Rapid Slash, or the final hit of Basic Attack will automatically trigger an additional Basic Attack \n Nelliel leaps above the enemy and cleaves downward, dealing damage equal to 1110% of ATK and triggering 1 instance(s) of Verde Rush. She also gains 1 point(s) of Battle Will and 1 point(s) of Friendship, and restore HP to all teammates equal to 50% + 1000 of her ATK. \n If this attack is release while Nelliel is in the Build Up state, switching to a teammate within 8 seconds of the final hit will automatically trigger their counterattack upon their first switch-in. The damage and Spiritual Pressure Reduction Rate of this counterattack are reduced by 50%. ~~Piercing Charge~~ Resurreccion \n Nelliel swings her lance, dealing 5 hits for a total damage equal to 1300% of ATK and triggering 1 instance(s) of Verde Rush. Landing the 5th hit grants 1 point(s) of Battle Will. ~~Lance Execution~~ During Resurreccion, tap and hold Basic Attack with at least 2 points of Battle Will \n Nelliel swings her lance to strike the enemy, then leaps up and pins them to the ground before dontating the impact, dealing damage equal to 1665% of ATK and triggering 1 instance(s) of Verde Rush. \n  Releasing this skill consumes 2 point(s) of Battle Will and can directly chain into the 4th hit of her basic attack.",
       "icon": "/Images/nelliel/skill-basic.png",
       "kind": "Basic Attack",
-      "name": "Piercing Charge",
+      "name": "Rational Blade",
       "variant": "Resurreccion"
     },
     {
-      "description": "Nelliel slashes the enemy twice before delivering a powerful kick, dealing damage equal to 1797.5% of ATK and triggering 1 instance(s) of Verde Rush, while generating Spiritual Pressure and Battlefield Skill Energy. Upon release, she gains 2 point(s) of Battle Will and 2 point(s) of Friendship. In Resurreccion, Nelliel throws her lance at the enemy, dealing damage equal to 270% of ATK and inflicting 10 Verde Rush Point(s). Tap technique again with at least 2 points of Battle Will to teleport next to the enemy. Nelliel pulls out her lance and thrusts again, dealing damage equal to 2417.5% of ATK and triggering 1 instance(s) of Verde Rush, pulling in nearby enemies during the release. This skill consumes 2 points of Battle Will, increases the cooldown of regular Techniques by 10 second(s), and can directly chain into the 4th hit of her basic attack.",
+      "description": "Nelliel slashes the enemy twice before delivering a powerful kick, dealing damage equal to 1797.5% of ATK and triggering 1 instance(s) of Verde Rush, while generating Spiritual Pressure and Battlefield Skill Energy. \n Upon release, she gains 2 point(s) of Battle Will and 2 point(s) of Friendship. ~~Cleaving Throw~ Resurreccion \n Nelliel throws her lance at the enemy, dealing damage equal to 270% of ATK and inflicting 10 Verde Rush Point(s). ~~Verde Whirl~~ After releasing Cleaving Throw, tap technique again with at least 2 points of Battle Will \n Nelliel teleports next to the enemym pulls out her lance and thrusts again, dealing damage equal to 2417.5% of ATK and triggering 1 instance(s) of Verde Rush, pulling in nearby enemies during the release. \n This skill consumes 2 points of Battle Will, increases the cooldown of regular Techniques by 10 second(s), and can directly chain into the 4th hit of her basic attack.",
       "icon": "/Images/nelliel/skill-technique.png",
       "kind": "Technique",
-      "name": "Verde Whirl",
+      "name": "Rapid Slash",
       "variant": "Resurreccion"
     },
     {
-      "description": "Nelliel Ascends her Zanpakuto and releases the power sealed within to enter Resurreccion, transforming into Gamuza and charging the target, dealing damage equal to 3322.5% of ATK and triggering 1 instance(s) of Verde Rush. During Resurreccion, all of Nelliel's attacks are enhanced, and she gains Iron Body and a shield equal to 100% + 2000 of her ATK and grants protection to the next teammate upon switching out. While in Resurreccion, the Battlefield Skills, Combo Attack, cannot be triggered, and the Battlefield Skill, Cero Sincretico, cannot be actively released. During Resurreccion, release ultimate again at Max Ultimate Energy. Nelliel condenses Spirit Charge and hurls her lance at the enemy, dealing damage equal to 5547.5% of ATK and triggering 1 times of Verde Rush. After releasing, Resurreccion ends, and refreshes the shield. While Nelliel's Battlefield Skill is active, switching to a teammate within 8 seconds of the final hit will automatically trigger their counterattack upon their first switch-in. The damage and Spiritual Pressure Reduction Rate of this counterattack are reduced by 50%.",
+      "description": "Nelliel Ascends her Zanpakuto and releases the power sealed within to enter Resurreccion, transforming into Gamuza and charging the target, dealing damage equal to 3322.5% of ATK and triggering 1 instance(s) of Verde Rush. \n During Resurreccion, all of Nelliel's attacks are enhanced, and she gains Iron Body and a shield equal to 100% + 2000 of her ATK and grants protection to the next teammate upon switching out. While in Resurreccion, the Battlefield Skills, Combo Attack, cannot be triggered, and the Battlefield Skill, Cero Sincretico, cannot be actively released. ~Lanzador Verde~~ During Resurreccion, release ultimate again at Max Ultimate Energy \n Nelliel condenses Spirit Charge and hurls her lance at the enemy, dealing damage equal to 5547.5% of ATK and triggering 1 times of Verde Rush. After releasing, Resurreccion ends, and refreshes the shield. \n While Nelliel's Battlefield Skill is active, switching to a teammate within 8 seconds of the final hit will automatically trigger their counterattack upon their first switch-in. The damage and Spiritual Pressure Reduction Rate of this counterattack are reduced by 50%.",
       "icon": "/Images/nelliel/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": "Lanzador Verde",
+      "name": "Praise, Gamuza",
       "variant": "Resurreccion, Max Energy"
     },
     {
-      "description": "Nelliel seizes the opening created by countering the enemy to slash them multiple times, dealing damage equal to 1395% of ATK and triggering 1 instance(s) of Verde Rush. On hit, she generates Spiritual Pressure and Battlefield Skill Energy, and can directly chain into the 4th of her basic attack. Upon a successful counter, she gains 1 point(s) of Battle Will and 1 point(s) of Friendship. In Resurreccion, Nelliel stomps the enemy and pins them with her lance, then dives down from the air, dealing total damage equal to 2080% of ATK and triggering 1 instance(s) of Verde Rush. After landing, she can directly chain into the 4th hit of her basic attack. This skill can also be manually released once by holding Counter, consuming 3 point(s) of Battle Will.",
+      "description": "Nelliel seizes the opening created by countering the enemy to slash them multiple times, dealing damage equal to 1395% of ATK and triggering 1 instance(s) of Verde Rush. On hit, she generates Spiritual Pressure and Battlefield Skill Energy, and can directly chain into the 4th of her basic attack. \n Upon a successful counter, she gains 1 point(s) of Battle Will and 1 point(s) of Friendship. ~~Heroic Stomp~~ Resurreccion \n Nelliel stomps the enemy and pins them with her lance, then dives down from the air, dealing total damage equal to 2080% of ATK and triggering 1 instance(s) of Verde Rush. After landing, she can directly chain into the 4th hit of her basic attack. This skill can also be manually released once by holding Counter, consuming 3 point(s) of Battle Will.",
       "icon": "/Images/nelliel/skill-counter.png",
       "kind": "Counter",
-      "name": "Heroic Stomp",
+      "name": "Counter",
       "variant": "Resurreccion"
     },
     {
-      "description": "While Nelliel's Battlefield Skill is active, all allies gain 60% State Mastery. Her Battlefield Skill consumes two types of energy — Battlefield Skill Energy and Friendship Points — corresponding to Combo Attack and Synchro Cero, both gained from Nelliel's attacks landing (1.2s cooldown). Combo Attack: when another ally's attack hits an enemy, it automatically consumes 10 Battlefield Skill Energy to trigger Nelliel's Combo Attack, dealing 96% of her ATK and applying 10 stacks of Green Boost. If the enemy is hit again by another State-type instance of damage within 2 seconds, an additional Combo Attack triggers without consuming Battlefield Skill Energy (2s cooldown); each activation grants 1 Friendship Point. Synchro Cero: once Friendship Points reach 15, Pesche and Dondochakka appear and perform a Synchro Cero alongside Nelliel, dealing 1199% of her ATK.",
+      "description": "~~While Nelliel's Battlefield Skill is active, all allies gain 60% State Mastery.~~ \n \n Nelliel's Battlefield Skills consume two types of energy, Battlefield Skill Energy and Friendship, corresponding to Combo Attack and Cero Sincretico, respectively. Both types of energy are generated through Nelliel's attacks and have a 1.2 second cooldown. ~~Combo Attack~~ \n When another teammate's attacks hit an enemy, 10 Battlefield Skill Energy is automatically consumed to trigger Nelliel's Combo Attack, dealing damage equal to 240% of her ATK and applying 20 Verde Rush Point(s). If the target takes another instance of Ailment DMG within 2 seconds, Combo Attack is triggered once more without consuming Battlefield Skill Energy. This effect has a 1 second cooldown. \n Each Combo Attack triggered by consuming Battlefield Skill Energy grants 1 ponit(s) of Friendship. ~~Cero Sincretico~~ Reach 15 points of Friendship \n Pesche and Dondochakka will come to Nelliel and release Cero Sincretico on enemies, dealing damage equal to 2997.5% of ATK and granting Nelliel the Build Up state.",
       "icon": "/Images/nelliel/skill-bfs.png",
       "kind": "Battlefield Skill",
       "name": "For My Friend",
