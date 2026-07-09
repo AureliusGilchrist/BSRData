@@ -14,6 +14,7 @@
     "setName": "Rising Black Moon (3)",
     "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Flat ATK"
   },
+
   "bondPriority": [
     {
       "description": "Increases Slash DMG by 12% and All-Skill Mastery by 5% during battle. When Crit Rate is equal or higher than 60%, these effects are further increased by 100%.",
@@ -86,8 +87,8 @@
     "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Flat ATK",
     "targets": {
       "ultChargeRate": "140%+"
+      }
     }
-  }
   ],
   "color": "Red",
   "corePassives": [
