@@ -1,15 +1,5 @@
 [
   {
-    "slug": "aizen",
-    "name": "Sosuke Aizen",
-    "role": "Tactician",
-    "tier": "S",
-    "damageType": "Spirit",
-    "rarity": "SSR",
-    "art": "/Images/aizen/art.png",
-    "releaseDate": "19 Dec 2025"
-  },
-  {
     "slug": "byakuya",
     "name": "Byakuya Kuchiki",
     "role": "Tactician",
@@ -58,16 +48,6 @@
     "rarity": "SSR",
     "art": "/Images/grimmjow-pantera/art.png",
     "releaseDate": "15 May 2026"
-  },
-  {
-    "slug": "ichigo-bankai",
-    "name": "Ichigo Kurosaki (Bankai)",
-    "role": "Assault",
-    "tier": "S",
-    "damageType": "Slash",
-    "rarity": "SSR",
-    "art": "/Images/ichigo-bankai/art.png",
-    "releaseDate": "21 Nov 2025"
   },
   {
     "slug": "ichigo-initial",
