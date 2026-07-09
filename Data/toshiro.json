@@ -9,12 +9,16 @@
   "affiliation": "Shinigami",
   "art": "/Images/toshiro/art.png",
   "bestStamp": {
-    "mainStats": "1: Spirit DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "notes": "S+ DPS — the spirit-team carry. Push Crit Rate to 100% (based on your weapon stamp) then dump into Crit DMG.",
-    "setName": "Hyorinmaru (4) + Spirit (2)",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Flat Atk \u003e Ult Charge Rate"
+    "mainStats": "1: Spirit DMG \u003e ATK%  •  2: Crit DMG  •  3: ATK%",
+    "notes": "First Limited SSR Spirit Full Assault",
+    "setName": "World Conquest (3)",
+    "subStatPriority": "Crit DMG \u003e ATK% \u003e Flat ATK \u003e Ult Charge Rate"
   },
   "bondPriority": [
+    {
+      "description": "Increases Spirit Mastery by 8% and Crit Rate by 10% during battle. When equipped by a Full Assault character, these effects are furtherincreased by 100%.",
+      "name": "Ulquiorra Bond"
+    },
     {
       "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
       "name": "Toshiro Bond"
@@ -62,43 +66,43 @@
   ],
   "builds": [
     {
-      "label": "Endgame",
+      "label": "Main",
       "passiveSkills": [
-        "Basic Attack DMG +30%",
-        "Increase Ultimate DMG +22.5%"
+        "Basic Attack",
+        "Ult DMG"
       ],
       "range": "B2W5C5 - B6W5C5",
-      "setName": "World Conquest",
+      "setName": "World Conquest (3)",
       "setPieces": [
         {
-          "mainStat": "Spirit DMG Bonus \u003e Atk%",
+          "mainStat": "ATK% \u003e Spirit DMG",
           "slot": 1
         },
         {
-          "mainStat": "Crit DMG \u003e Crit Rate",
+          "mainStat": "Crit DMG \u003e ATK%",
           "slot": 2
         },
         {
-          "mainStat": "Atk% \u003e Ult Charge Rate",
+          "mainStat": "ATK",
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk",
+      "subStatPriority": "Crit DMG \u003e ATK% \u003e Flat ATK \u003e Ult Charge Rate",
       "targets": {
         "ultChargeRate": "114%+"
       }
     },
     {
-      "label": "Early",
+      "label": "Kenpachi Set",
       "passiveSkills": [
-        "Basic Attack DMG +30%",
-        "Increase Ultimate DMG +22.5%"
+        "Basic Attack",
+        "Ult DMG"
       ],
-      "range": "B0W1C1 - B1W5C5",
-      "setName": "World Conquest",
+      "range": "B6W5C5",
+      "setName": "Ready to Go (3)",
       "setPieces": [
         {
-          "mainStat": "Spirit DMG Bonus \u003e Atk%",
+          "mainStat": "Spirit DMG \u003e ATK%",
           "slot": 1
         },
         {
@@ -106,11 +110,11 @@
           "slot": 2
         },
         {
-          "mainStat": "Atk% \u003e Ult Charge Rate",
+          "mainStat": "ATK%",
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit DMG \u003e Atk% \u003e Atk",
+      "subStatPriority": "Crit DMG \u003e ATK% \u003e Flat ATK \u003e Ult Charge Rate",
       "targets": {
         "ultChargeRate": "114%+"
       }
@@ -119,22 +123,22 @@
   "color": "Blue",
   "corePassives": [
     {
-      "description": "Toshiro charges up when releasing his basic attacks, Ice Dragon Lunge and Daiguren - Flock of Ice Pillars, his Technique, Daiguren - Hyoryu Senbi, and his Counterattack, Ryuusenka. Charging to a certain level generates 1 Ice Blossom, up to a maximum of 8. The number of Ice Blossoms is displayed in cross-shaped ice crystals to the left of HP. When Toshiro releases his Ultimate Hyoten Hyakkaso, all Ice Blossoms are consumed to deal 6% additional DMG for each one consumed.",
+      "description": "Toshiro charges up when releasing his basic attacks, Ice Dragon Lunge and Daiguren - Flock of Ice Pillars, his Technique, Daiguren - Hyoryu Senbi, and his Counterattack, Ryuusenka. Charging to a certain level generates 1 Ice Blossom, up to a maximum of 8. The number of Ice Blossoms is displayed in cross-shaped ice crystals to the left of HP. \n When Toshiro releases his Ultimate Hyoten Hyakkaso, all Ice Blossoms are consumed to deal 6% additional DMG for each one consumed.",
       "icon": "/Images/toshiro/passive-1.png",
       "name": "Ice Blossom"
     },
     {
-      "description": "When releasing a basic attack while moving in Bankai state, Toshiro gains 1 stack of Build Up, up to 5 stacks. When Toshiro releases his Ultimate Hyoten Hyakkaso, all stacks of Build Up are consumed to deal 5% additional Spirit DMG for each stack consumed. If 5 stacks of Build Up are consumed, Toshiro's Spiritual Pressure is instantly filled to maximum at the end of Bankai state.",
+      "description": "When releasing a basic attack while moving in Bankai state, Toshiro gains 1 stack of Build Up, up to 5 stacks. \n When Toshiro releases his Ultimate Hyoten Hyakkaso, all stacks of Build Up are consumed to deal 5% additional Spirit DMG for each stack consumed. If 5 stacks of Build Up are consumed, Toshiro's Spiritual Pressure is instantly filled to maximum at the end of Bankai state.",
       "icon": "/Images/toshiro/passive-2.png",
       "name": "Build Up"
     },
     {
-      "description": "When Toshiro enters Bankai State, each Ice Blossom grants 5% Ultimate Energy. if Toshiro releases Ultimate, Hyoten Hyakkaso, within 20 seconds, raises the Ultimate's damage by 40%.",
+      "description": "When Toshiro enters Bankai State, each Ice Blossom grants 6% Ultimate Energy. if Toshiro releases Ultimate, Hyoten Hyakkaso, within 20 seconds, raises the Ultimate's damage by 80%.",
       "icon": "/Images/toshiro/passive-3.png",
       "name": "All Water is My Weapon"
     },
     {
-      "description": "For each 1% Critical Rate Toshiro has, his basic attack, Ice Dragon Lunge, deals 1.5% more damage, up to 90%.",
+      "description": "For each 1% Critical Rate Toshiro has, his basic attack, Ice Dragon Lunge, deals 3% more damage, up to 180%.",
       "icon": "/Images/toshiro/passive-4.png",
       "name": "The Sky is at My Disposal"
     }
@@ -151,53 +155,42 @@
   "rotations": [
     {
       "name": "Frost Burst",
-      "notes": "Toshiro wants frost stacks applied before burst — Technique first, then dump.",
+      "notes": "Toshiro wants to accumulate 5 stacks of Build Up before using Ultimate in Bankai state (obtained by using basic attacks while moving)",
       "steps": [
-        "Szayel / Momo open with technique",
-        "Swap Toshiro in",
-        "Technique (Sennen Hyoro – frost stacks)",
-        "Battlefield skill",
-        "Manual Counter with Toshiro",
+        "Support Technique",
+        "Swap Toshiro in → Technique",
+        "Battlefield → Aizen rotation",
+        "Counter with Support then Toshiro",
+        "Technique",
         "Spam basic attacks"
       ],
       "tags": [
         "Burst",
         "Boss"
       ]
-    },
-    {
-      "name": "Sustained Frost",
-      "steps": [
-        "Basic combo → counter",
-        "Refresh Technique on cooldown",
-        "Battlefield Skill on every charge"
-      ],
-      "tags": [
-        "Sustain"
-      ]
     }
   ],
   "skills": [
     {
-      "description": "Toshiro wields Hyorinmaru to strike 5 times, dealing damage equal to 215%~537.5% of ATK and accumulating Spiritual Pressure. Ice Dragon Lunge: Toshiro condenses water vapor into an ice dragon which hits 5 times, dealing total DMG equal to 568%~1420% of ATK. Each hit landed charges Ice Blossom by the number of successful hits. Dodging or countering does not reset the attack streak. If the attack is Interrupted, Tenso Jyurin will be prematurely removed. In Bankai State, Toshiro condenses long-ranged ice spikes which hit up to 5 times, dealing total DMG equal to 755% of ATK. Each hit adds a stack of Ice Edge. Each hit landed charges Ice Blossom by the number of successful hits. Toshiro can perform basic attacks while moving.",
+      "description": "Toshiro wields Hyorinmaru to strike 5 times, dealing damage equal to 215%~537.5% of ATK and accumulating Spiritual Pressure. ~~Ice Dragon Lunge~~ Tenso Jyurin \n Toshiro condenses water vapor into an ice dragon which hits 5 times, dealing total DMG equal to 568%~1420% of ATK. Each hit landed charges Ice Blossom by the number of successful hits. \n Dodging or countering does not reset the attack streak. If the attack is Interrupted, Tenso Jyurin will be prematurely removed. ~~Daiguren - Flock of Ice Pillars~~ Bankai State \n Toshiro condenses long-ranged ice spikes which hit up to 5 times, dealing total DMG equal to 755% of ATK. Each hit adds a stack of Ice Edge. Each hit landed charges Ice Blossom by the number of successful hits. \n Toshiro can perform basic attacks while moving.",
       "icon": "/Images/toshiro/skill-1.png",
       "kind": "Basic Attack",
       "name": "Frost unto the heavens, Hyorinmaru"
     },
     {
-      "description": "Toshiro instantly creates massive ice crystals and fires them forward, dealing damage equal to 105%~262.5% of ATK and accumulating Spiritual Pressure. Enemies hit by the technique are inflicted with 5 Freeze Points. After releasing the technique, creates an area filled with ice pillars ahead. The ice pillars explode in 2.5 seconds, dealing damage equal to 67%~167.5% of ATK to the enemies in the area, inflicting 5 Freeze Points on them, and granting Spiritual Pressure to Toshiro. At max Spiritual Pressure, Toshiro leaps into the air, leading an ice dragon to dive and slam into the enemy in front. This deals DMG equal to 577.5% of ATK and inflicts 10 Freeze Points. Toshiro then enters Tenso Jyurin, during which his basic attacks are replaced by Ice Dragon Lunge. This lasts for 2 sets of Ice Dragon Lunge or 10 seconds. In Bankai state with 5 stacks of Ice Edge, Toshiro flaps his ice wings and dives toward the enemy, launching a Freeze-up slash that deals damage equal to 642.5% of ATK and inflicting 10 Freeze Points on the enemy. While releasing the technique, Toshiro enters the Invincibility state, and you can tap the counterattack button to release Ryusenka.",
+      "description": "Toshiro instantly creates massive ice crystals and fires them forward, dealing damage equal to 105%~262.5% of ATK and accumulating Spiritual Pressure. Enemies hit by the technique are inflicted with 5 Freeze Points. After releasing the technique, creates an area filled with ice pillars ahead. The ice pillars explode in 2.5 seconds, dealing damage equal to 67%~167.5% of ATK to the enemies in the area, inflicting 5 Freeze Points on them, and granting Spiritual Pressure to Toshiro. ~~Ice Dragon Dive~~ Requires max Spiritual Pressure \n Toshiro leaps into the air, leading an ice dragon to dive and slam into the enemy in front. This deals DMG equal to 577.5% of ATK and inflicts 10 Freeze Points. Toshiro then enters Tenso Jyurin, during which his basic attacks are replaced by Ice Dragon Lunge. This lasts for 2 sets of Ice Dragon Lunge or 10 seconds. ~~Daiguren - Hyoryu Senbi~~ In Bankai state with 5 stacks of Ice Edge \n Toshiro flaps his ice wings and dives toward the enemy, launching a Freeze-up slash that deals damage equal to 642.5% of ATK and inflicting 10 Freeze Points on the enemy. While releasing the technique, Toshiro enters the Invincibility state, and you can tap the counterattack button to release Ryusenka.",
       "icon": "/Images/toshiro/skill-2.png",
       "kind": "Technique",
       "name": "Ice Wall"
     },
     {
-      "description": "Toshiro covers his body with ice and enters Bankai state. In this state, Toshiro can fly above the ground and all his moves will be replaced by more powerful ones. Toshiro channels freezing air currents, causing myraids ice flowers to bloom on the enemy's body. This deals DMG equal to 2760% of ATK and consumes all Ice Blossoms. Each Ice Blossom consumed grants an extra 6% DMG multiplier. Releashing this skill removes Bankai State.",
+      "description": "Toshiro covers his body with ice and enters Bankai state. In this state, Toshiro can fly above the ground and all his moves will be replaced by more powerful ones. ~~Hyoten Hyakkaso~~ In Bankai state with max Ultimate Energy \n Toshiro channels freezing air currents, causing myraids ice flowers to bloom on the enemy's body. This deals DMG equal to 2760% of ATK and consumes all Ice Blossoms. Each Ice Blossom consumed grants an extra 6% DMG multiplier. Releashing this skill removes Bankai State.",
       "icon": "/Images/toshiro/skill-3.png",
       "kind": "Ultimate",
       "name": "Bankai - Daiguren Hyorinmaru"
     },
     {
-      "description": "Toshiro falls back to create distance and then lunges at the enemy to counterattack, dealing damage equal to 1250% of ATK, inflicting 15 Freeze Points on them, and gaining Spiritual Pressure. In Bankai State, Toshiro thrusts forward and evenlopes the enemy in a huge ice cross, dealing damage equal to 1500% of ATK and inflicting 15 Freeze Points while applying 2 stacks of Ice Edge on himself. Counterattack DMG dealt by actively tapping the counter button is reduced to 25%.",
+      "description": "Toshiro falls back to create distance and then lunges at the enemy to counterattack, dealing damage equal to 1250% of ATK, inflicting 15 Freeze Points on them, and gaining Spiritual Pressure. ~~Ryusenka~~ Bankai State \n Toshiro thrusts forward and evenlopes the enemy in a huge ice cross, dealing damage equal to 1500% of ATK and inflicting 15 Freeze Points while applying 2 stacks of Ice Edge on himself. Counterattack DMG dealt by actively tapping the counter button is reduced to 25%.",
       "icon": "/Images/toshiro/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"

@@ -10,11 +10,15 @@
   "art": "/Images/ichigo-bankai/art.png",
   "bestStamp": {
     "mainStats": "1: Slash DMG Bonus \u003e ATK%  •  2: Crit Rate  •  3: Atk%",
-    "notes": "S+ DPS — Crit DMG scaling is uncapped, push Crit Rate to ~70% first.",
-    "setName": "Tensa Zangetsu (4) + Slash (2)",
+    "notes": "First limited SSR banner character",
+    "setName": "Rising Black Moon (3)",
     "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Flat Atk"
   },
   "bondPriority": [
+    {
+      "description": "Increases Slash DMG by 12% and All-Skill Mastery by 5% during battle. When Crit Rate is equal or higher than 60%, these effects are further increased by 100%.",
+      "name": "White Bond"
+    },
     {
       "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
       "name": "Toshiro Bond"
@@ -57,75 +61,32 @@
     }
   ],
   "build": {
-    "passiveSkills": [
-      "Special Attack +22.5%",
-      "All DMG Dealt/Bonus +9%",
-      "Increase Ultimate DMG +22.5%"
+      "label": "Main",
+      "passiveSkills": [
+      "Special Attack",
+      "All DMG"
     ],
     "range": "B0W1C1 - B6W5C5",
-    "setName": "Rising Black Moon",
+    "setName": "Rising Black Moon (3)",
     "setPieces": [
       {
-        "mainStat": "Slash DMG Bonus \u003e Atk%",
+        "mainStat": "Slash DMG Bonus \u003e ATK%",
         "slot": 1
       },
       {
-        "mainStat": "Crit Rate",
+        "mainStat": "Crit Rate \u003e Crit DMG",
         "slot": 2
       },
       {
-        "mainStat": "Atk% \u003e Ultimate Charge",
+        "mainStat": "ATK%",
         "slot": 3
       }
     ],
-    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Atk",
+    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Flat ATK",
     "targets": {
       "ultChargeRate": "140%+"
     }
-  },
-  "builds": [
-    {
-      "label": "P2W (value ceiling)",
-      "passiveSkills": [],
-      "range": "B0W1C1 - B6W5C5",
-      "setName": "Tensa Zangetsu (4) + Slash (2)",
-      "setPieces": [
-        {
-          "mainStat": "Slash DMG Bonus \u003e ATK%",
-          "slot": 1
-        },
-        {
-          "mainStat": "Crit Rate",
-          "slot": 2
-        },
-        {
-          "mainStat": "Atk%",
-          "slot": 3
-        }
-      ],
-      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Flat Atk"
-    },
-    {
-      "label": "F2P (practical stop)",
-      "passiveSkills": [],
-      "range": "B0W1C1 - B1W5C5",
-      "setName": "Tensa Zangetsu (4) + Slash (2)",
-      "setPieces": [
-        {
-          "mainStat": "Slash DMG Bonus \u003e ATK%",
-          "slot": 1
-        },
-        {
-          "mainStat": "Crit Rate",
-          "slot": 2
-        },
-        {
-          "mainStat": "Atk%",
-          "slot": 3
-        }
-      ],
-      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Flat Atk"
-    }
+  }
   ],
   "color": "Red",
   "corePassives": [
@@ -135,19 +96,19 @@
       "name": "Getsuga"
     },
     {
-      "description": "Ichigo deals 18.75% more damage against enemies inflicted with Getsuga Mark.",
+      "description": "Ichigo deals 25% more damage against enemies inflicted with Getsuga Mark.",
       "icon": "/Images/ichigo-bankai/passive-2.png",
       "name": "Follow-up Attack"
     },
     {
-      "description": "While in the Hollowfied state, releasing special attacks increases the damage of the next Ultimate Deathblow by 15%. Stacks up to 4 times.",
+      "description": "While in the Hollowfied state, releasing special attacks increases the damage of the next Ultimate Deathblow by 20%. Stacks up to 4 times.",
       "icon": "/Images/ichigo-bankai/passive-3.png",
       "name": "Mask of Hollow"
     },
     {
-      "description": "When Ichigo's critical rate exceeds 100%, each 1% over will convert into 1.5% additional critical damage.",
+      "description": "When Ichigo's critical rate exceeds 100%, each 1% over will convert into 2% additional critical damage.",
       "icon": "/Images/ichigo-bankai/passive-4.png",
-      "name": "Spiritual Surge"
+      "name": "Spirit Surge"
     }
   ],
   "damageType": "Slash",
@@ -161,14 +122,14 @@
   "role": "Assault",
   "rotations": [
     {
-      "name": "Getsuga Burst",
-      "notes": "Drop the Ultimate inside the buffer's Battlefield Skill window for max scaling.",
+      "name": "Getsuga Opener",
+      "notes": "This character will require a lot of quickswaps",
       "steps": [
-        "Buffer (Urahara/Momo) front, applies buffs",
-        "Swap Ichigo in (carries buffs)",
-        "Technique → Basic ×3 (Getsuga charges) → Special Attack",
-        "Ultimate (Getsuga Tensho)",
-        "Battlefield Skill on Resonance peak"
+        "Ichigo Technique → Special Attack",
+        "Kisuke Technique → White Special Attack → Technique",
+        "Ichigo Counter → Special Attack → Kisuke Special Attack (2x) → White Basic Attacks (1-2)",
+        "Ichigo Technique → Special Attack → Kisuke Ultimate → White Basic Attacks (1-2) → Battlefield",
+        "Finish Battlefield combo → Kisuke Technique → Ichigo Ultimate"
       ],
       "iconSteps": [
         { "slug": "kisuke", "actions": [{ "kind": "Technique", "label": "Buffs" }] },
@@ -178,16 +139,16 @@
         { "slug": "kisuke", "actions": [{ "kind": "Battlefield Skill" }] }
       ],
       "tags": [
-        "Burst",
-        "Boss"
+        "Opener"
       ]
     },
     {
-      "name": "Counter Sustain",
+      "name": "Burst in Ultimate",
       "steps": [
-        "Counter on incoming hit (B4 swap-in counter)",
-        "Basic ×3 → Technique",
-        "Repeat"
+        "After activating Ultimate → Special Attack (cancel it immediately) → Manual Counter → Special Attack",
+        "White Special Attack → Manual Counter → Technique → Ichigo Counter → Special Attack",
+        "Battlefield → White Ultimate → Kisuke Special Attack (1-2)",
+	"Ichigo Technique → Special Attack → Technique → Special Attack → Ultimate → Basic Attack (x3) → Special Attack → Kisuke Ultimate → White Ultimate"
       ],
       "iconSteps": [
         { "slug": "ichigo-bankai", "actions": [{ "kind": "Counter" }] },
@@ -195,38 +156,37 @@
         { "slug": "ichigo-bankai", "actions": [{ "kind": "Repeat", "label": "Step 1" }] }
       ],
       "tags": [
-        "Sustain",
-        "PvP"
+        "Burst"
       ]
     }
   ],
   "skills": [
     {
-      "description": "Ichigo strikes 5 times with Tensa Zangetsu, dealing damage qual to 617.5% of ATK and gaining Spiritual Pressure. Stop attacking after the 3rd strike, and Ichigo will charge briefly. When a glow appears, tap the Basic Attack button to release a special attack. Ichigo slashes 6 times in rapid succession, dealing damage equal to 447.5% of ATK. In Hollowfied state, increases the total DMG of the 5 basic attacks to 917.5%. Increase the total DMG of the special attack Tenbu Renjin to 665%.",
+      "description": "Ichigo strikes 5 times with Tensa Zangetsu, dealing damage qual to 617.5% of ATK and gaining Spiritual Pressure. \n Stop attacking after the 3rd strike, and Ichigo will charge briefly. When a glow appears, tap the Basic Attack button to release a special attack. ~~Tenbu Renjin~~ Ichigo slashes 6 times in rapid succession, dealing damage equal to 447.5% of ATK. ~~Hollowfication - Super High-speed Slash~~ Hollowfied \n Increases the total DMG of the 5 basic attacks to 917.5%. Increase the total DMG of the special attack Tenbu Renjin to 665%.",
       "icon": "/Images/ichigo-bankai/skill-1.png",
       "kind": "Basic Attack",
       "name": "Super High-speed Slash"
     },
     {
-      "description": "Ichigo release a dark sword wave that strikes the target from afar, dealing DMG equal to 580% of ATK and inflicting 1 stack of Getsuga Mark for 5s. Tap the basic attack button when the technique hits the enemy, and Ichigo will dash to them and release a special attack. After Hollowfication, Ichigo releases a Getsuga Tensho twice in a row, dealing DMG equal to 870% of ATK with the first attack and 870% of ATK with the second.",
+      "description": "Ichigo release a dark sword wave that strikes the target from afar, dealing DMG equal to 580% of ATK and inflicting 1 stack of Getsuga Mark for 5s. \n Tap the basic attack button when the technique hits the enemy, and Ichigo will dash to them and release a special attack. ~~Hollowfication - Getsugatensho~~ Hollowfied \n After Hollowfication, Ichigo releases a Getsuga Tensho twice in a row, dealing DMG equal to 870% of ATK with the first attack and 870% of ATK with the second.",
       "icon": "/Images/ichigo-bankai/skill-2.png",
       "kind": "Technique",
       "name": "Getsuga Tensho"
     },
     {
-      "description": "Ichigo unleashes the power of Hollowfication, immediately resets the technique's cooldown, and enters the Hollowfied state, which lasts for 10 seconds. In the Hollowfied state, Ichigo will instantly counterattack and gain the following effects: he is less likely to be interrupted by enemies, the damage he deals is greatly increased, he can unleash techniques twice in a row, his health will not fall below 1, and his Ultimate will be replaced by Deathblow. Ichigo releases a dark Getsuga Tensho infused with the Force of Hollow, dealing 1242.5% damage to the target. Getsuga Tensho then explodes, dealing 3750% damage to all enemies in range. This skill can only be released oncec while under the Hollowfied state. If not manually released during the Hollowfied state, it will automatically trigger when the Hollowfied state ends.",
+      "description": "Ichigo releases his Hollow powers to immediately release a counterattack, reset his technique cooldown, and get Hollowfied for 10s. \n During this time, Ichigo gains the following effects: he is harder to interrupt, has greatly increased DMG, is able to release techniques twice in a row, his HP won't drop below 1, and his Ultimate is replaced with Deathblow. ~~Deathblow~~ Release again while Hollowfied \n Ichigo releases dark Getsuga Tensho infused with the Force of Hollow, dealing 1242.5% damage to the target. Getsuga Tensho then explodes, dealing 3750% damage to all enemies in range. This skill can only be released once while under the Hollowfied state. If not manually released during the Hollowfied state, it will automatically trigger when the Hollowfied state ends.",
       "icon": "/Images/ichigo-bankai/skill-3.png",
       "kind": "Ultimate",
       "name": "Hollowfication"
     },
     {
-      "description": "After dodging an enemy attack, Ichigo performs a rapid counterattack with Tensa Zangetsu, dealing 1262.5% damage and launching the attacker. The final strike of the counterattack inflicts 1 stack of Getsuga Mark on the target. Tap the Basic Attack button to instantly follow up with a special attack. While releasing the skill, Ichigo gains Invincibility.",
+      "description": "After dodging an enemy attack, Ichigo performs a rapid counterattack with Tensa Zangetsu, dealing 1262.5% damage and launching the attacker. \n The final strike of the counterattack inflicts 1 stack of Getsuga Mark on the target. Tap the Basic Attack button to instantly follow up with a special attack. \n While releasing the skill, Ichigo gains Invincibility. ~~Hollowfication - Counter~~ Hollowfied \n After dodging an enemy attack, Ichigo performs a rapid counterattack with Tensa Zangetsu, dealing 1262.5% damage and launching the attacker. \n The final strike of the counterattack inflicts 1 stack of Getsuga Mark on the target. Tap the Basic Attack button to instantly follow up with a special attack. \n While releasing the skill, Ichigo gains Invincibility.",
       "icon": "/Images/ichigo-bankai/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"
     },
     {
-      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Ichigo gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Ichigo gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15s.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Flash Step"
