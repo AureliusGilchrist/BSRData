@@ -90,7 +90,6 @@
       "targets": {
         "ultChargeRate": "Main stat on 3rd stamp"
       },
-  "builds": [
     {
       "label": "Kenpachi Set",
       "passiveSkills": [
