@@ -109,7 +109,9 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate \u003e ATK% \u003e Ult Charge Rate \u003e Crit DMG \u003e HP%"
+      "subStatPriority": "Crit Rate \u003e ATK% \u003e Ult Charge Rate \u003e Crit DMG \u003e HP%",
+      "targets": {
+        "ultChargeRate": "Any"
       }
     }
   ],

@@ -89,7 +89,8 @@
       "subStatPriority": "Crit DMG \u003e\u003e\u003e Ult Charge Rate \u003e ATK%",
       "targets": {
         "ultChargeRate": "Main stat on 3rd stamp"
-      },
+      }
+    },
     {
       "label": "Kenpachi Set",
       "passiveSkills": [
