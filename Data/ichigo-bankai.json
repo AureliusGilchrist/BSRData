@@ -60,7 +60,8 @@
       "name": "Edge of Black \u0026 White"
     }
   ],
-  "build": {
+  "build": [
+    {
       "label": "Main",
       "passiveSkills": [
       "Special Attack",
