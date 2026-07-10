@@ -1,8 +1,12 @@
 {
   "aizen": {
-    "Pressure Stack": "",
-    "Ravage": "",
-    "Spiritual Pressure Intimidation": ""
+    "Pressure Stack": "Accumulated through various attacks; Techniques, Counter and last hit of Basic Attack.",
+    "Ravage": "Releasing the Battlefield Skill Hado 90: Kurohitsugi or counterattacks inflicts Ravage to the enemy, reducing their All-Type Resistance for 18 seconds.",
+    "Spiritual Pressure Intimidation": "Releasing Ultimate, or releasing any Battlefield Skills or landing the  last strike of the basic attack upon reaching 3 Pressure Stacks, will activate Spiritual Pressure Intimidation. During this time, interruption resitance is increased, and Perfect Dodge is auto-triggered on most imminent attacks. All Pressure Stacks gained are converted into Enhanced Pressure Stacks.",
+    "Illusion Shield": "Significantly increases interruption resistance. Taking any damage consumes 1 stack to negate it and grants Invincibility for 1 second.",
+    "Kyokasuigetsu": "After releasing his Ultimate, Aizen enters Kyokasuigetsu, enhancing his basic attacks and backline Battlefield Skills.",
+    "Enhanced Pressure Stacks": "During Spiritual Domination, all Pressure Stacks gained by Aizen are converted into Enhanced Pressure Stacks. Releasing the Battlefield Skill Hado 90: Kurohitsugi consumes all Enhanced Pressure Stacks, granting shields to the team and counterattack effects when switching characters.",
+    "Suppression Gauge": "Suppression Gauge is accumulated when other teammates attack. When the Suppression Gauge reaches its maximum, enters Complete Suppression. During this time, releasing a backline Battlefield Skill consumes all Suppression Gauge to increase its damage. The damage boost effect is further increased while Kyokasuigetsu is active."
   },
   "byakuya": {
   },
@@ -20,7 +24,9 @@
   "grimmjow-pantera": {
   },
   "ichigo-bankai": {
-    "Getsuga Tensho": "Ichigo's signature attack — a crescent wave of condensed spiritual energy fired from his blade."
+    "Getsuga Mark": "Ichigo's techniques inflict Getsuga Mark on the target, and his special attacks will prioritize marked enemies.",
+    "Hollowfied": "After releasing his Ultimate, Ichigo gets Hollowfied, during which all his abilities are greatly enhanced.",
+    "Hollowfication": "After releasing his Ultimate, Ichigo gets Hollowfied, during which all his abilities are greatly enhanced."
   },
   "ichigo-initial": {
   },
