@@ -14,6 +14,7 @@
     "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Ult Charge Rate \u003e Flat ATK"
   },
   "bondPriority": [
+    {
       "description": "Increases Spirit Mastery by 8% and Crit Rate by 10% during battle. When equipped by a Full Assault character, these effects are furtherincreased by 100%.",
       "name": "Ulquiorra Bond"
     },
