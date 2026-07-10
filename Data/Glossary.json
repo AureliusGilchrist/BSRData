@@ -103,11 +103,23 @@
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "ururu": {
+    "Burning Area": "Enemies within the Burning Area take DMG equal to 5% of Ururu's ATK every second. Each effect lingers for 5s even after leaving the area.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "uryu": {
+    "Combo Attack": "When another on-field character releases a technique or special attack, Uryu will automatically enter the battlefield and release a combo attack. This can be triggered up to 3 times in a row.",
+    "Combo Attacks": "When another on-field character releases a technique or special attack, Uryu will automatically enter the battlefield and release a combo attack. This can be triggered up to 3 times in a row.",
+    "Quincy Mark": "Uryu can obtain up to 2 stacks of Quincy Mark through multiple types of attack. When another on-field character releases a technique, it will automatically consume 1 stack of Quincy Mark and trigger Uryu's combo attack.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "yachiru": {
+    "Inspiration": "When releasing the Ultimate or having a certain amount of Ultimate energy, Yachiru will provide a 10% Slash DMG boost to her teammates for 6s.",
+    "Spectate": "Increases the on-field character's ATK by 20%, while basic and special attacks grant Yachiru Ultimate Energy.",
+    "Spectating": "Increases the on-field character's ATK by 20%, while basic and special attacks grant Yachiru Ultimate Energy.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "yoruichi": {
+    "Lightning Seal": "Yoruichi gains 1 stack of Lightning Seal that increases her Strike DMG each time she releases a technique, counterattack, or special attack. After equipping a Weapon Stamp, it also increases her Crit Rate by an extra ammunt. This effect is stackable.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   }
 }
