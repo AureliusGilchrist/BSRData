@@ -8,12 +8,21 @@
   },
   "art": "/Images/ichigo-initial/art.png",
   "bestStamp": {
-    "mainStats": "1: Slash DMG Bonus  •  2: Crit Rate  •  3: Atk%",
-    "notes": "Starter character — useful early, replace with Shikai/Bankai once available.",
-    "setName": "Substitute Shinigami (4) + Slash (2)",
-    "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk"
+    "mainStats": "1: Slash DMG \u003e ATK%  •  2: Crit Rate  •  3: ATK%",
+    "notes": "Starter character — useful early",
+    "setName": "Ready to Go (3)",
+    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Ult Charge Rate \u003e Flat ATK"
   },
-  "bondPriority": [],
+  "bondPriority": [
+    {
+      "description": "Increases Slash DMG by 12% and All-Skill Mastery by 5% during battle. When Crit Rate is equal or higher than 60%, these effects are further increased by 100%.",
+      "name": "White Bond"
+    },
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    }
+  ],
   "boundaries": [
     {
       "description": "Reishi Gathering can now stack up to 5 times instead of 2 times.",
@@ -53,12 +62,15 @@
   "builds": [
     {
       "label": "Main",
-      "passiveSkills": [],
+      "passiveSkills": [
+        "All DMG",
+        "Ult DMG"
+      ],
       "range": "B0W1C1 - B6W5C5",
-      "setName": "Substitute Shinigami (4) + Slash (2)",
+      "setName": "Ready to Go (3)",
       "setPieces": [
         {
-          "mainStat": "Slash DMG Bonus",
+          "mainStat": "Slash DMG \u003e ATK%",
           "slot": 1
         },
         {
@@ -66,11 +78,11 @@
           "slot": 2
         },
         {
-          "mainStat": "Atk%",
+          "mainStat": "ATK%",
           "slot": 3
         }
       ],
-      "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk"
+      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Ult Charge Rate \u003e Flat ATK"
     }
   ],
   "corePassives": [
@@ -92,48 +104,48 @@
   ],
   "damageType": "Slash",
   "name": "Ichigo Kurosaki (Initial)",
-  "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
+  "note": "No build necessary for him, replacement unit will be available almost immediately.",
   "rarity": "SR",
-  "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 6,
-  "recommendedStopBoundaryP2W": 6,
+  "recommendedStopBoundary": 0,
+  "recommendedStopBoundaryF2P": 0,
+  "recommendedStopBoundaryP2W": 0,
   "releaseDate": "21 Nov 2025",
   "role": "Assault",
   "rotations": [
     {
       "name": "Basic Combo",
       "steps": [
-        "Basic ×3",
         "Technique",
-        "Ultimate",
-        "Counter"
+        "Special Attack",
+        "Basic Attack into Special Attack",
+        "Ultimate"
       ],
       "tags": [
-        "Sustain"
+        "Standard"
       ]
     }
   ],
   "skills": [
     {
-      "description": "Ichigo strikes 5 times with an unnamed Zanpakuto, dealing damage equal to 352.5% of ATK and accumulating Spiritual Pressure.",
+      "description": "Ichigo strikes 5 times with an unnamed Zanpakuto, dealing damage equal to 587.5% of ATK and accumulating Spiritual Pressure. ~~Arc Slash~~ At Max Spiritual Pressure, press and hold basic attack \n Ichigo slashes with his Zanpakuto horizontally, dealing damage equal to 375% of ATK. ~~Mighty Slash~~ Tap basic attack immediately after performing a special attack or Perfect Dodge \n Ichigo leaps into the air and smashes his massive Zanpakuto downward in a two-handed strike, dealing damage equal to 287.5% of ATK.",
       "icon": "/Images/ichigo-initial/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Swing Strike"
     },
     {
-      "description": "Ichigo spins and slashes his blade forward, dealing damage equal to 216% of ATK and creating a cyclone that pulls nearby enemies toward him.",
+      "description": "Ichigo spins and slashes his blade forward, dealing damage equal to 360% of ATK and creating a cyclone that pulls nearby enemies toward him.",
       "icon": "/Images/ichigo-initial/skill-technique.png",
       "kind": "Technique",
       "name": "Full Swing Strike"
     },
     {
-      "description": "Ichigo slashes rapidly with his Zanpakuto multiple times, dealing DMG equal to 658.12% of ATK. At the end, he leaps into the air and delivers a finishing blow, dealing DMG equal to 450.12% of ATK. He then unleashes a Penetrating sword wave forward that disappears after 4 hits, dealing total DMG equal to 210% of ATK.",
+      "description": "Ichigo slashes rapidly with his Zanpakuto multiple times, dealing DMG equal to 1012.5% of ATK. At the end, he leaps into the air and delivers a finishing blow, dealing DMG equal to 692.5% of ATK. He then unleashes a Penetrating sword wave forward that disappears after 4 hits, dealing total DMG equal to 300% of ATK.",
       "icon": "/Images/ichigo-initial/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Sword Wave Combo"
     },
     {
-      "description": "After withstanding an attack, Ichigo leaps into the air and performs a Downward Smash on the enemy, dealing DMG equal to 802.5% of ATK. Press and hold the basic attack button immediately afterwards to release a special attack without consuming Spiritual Pressure.",
+      "description": "After withstanding an attack, Ichigo leaps into the air and performs a Downward Smash on the enemy, dealing DMG equal to 1337.5% of ATK. Press and hold the basic attack button immediately afterwards to release a special attack without consuming Spiritual Pressure.",
       "icon": "/Images/ichigo-initial/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"

@@ -8,15 +8,24 @@
   },
   "art": "/Images/ichigo-shikai/art.png",
   "bestStamp": {
-    "mainStats": "1: Slash DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "notes": "Stepping stone to Bankai form — invest just enough to clear story.",
-    "setName": "Zangetsu (4) + Slash (2)",
-    "subStatPriority": "Crit DMG \u003e Atk% \u003e Crit Rate \u003e Atk"
+    "mainStats": "1: Slash DMG \u003e ATK% •  2: Crit Rate  •  3: ATK%",
+    "notes": "Upgrade to Initial Ichigo.",
+    "setName": "Ready to Go (3)",
+    "subStatPriority": "Crit Rate \u003e ATK% \u003e Crit DMG \u003e Flat ATK \u003e Ult Charge Rate"
   },
-  "bondPriority": [],
+  "bondPriority": [
+    {
+      "description": "Increases Slash DMG by 12% and All-Skill Mastery by 5% during battle. When Crit Rate is equal or higher than 60%, these effects are further increased by 100%.",
+      "name": "White Bond"
+    },
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    }
+  ],
   "boundaries": [
     {
-      "description": "Increases DMG dealt tto enemies with less than 50% HP by 40%.",
+      "description": "Increases DMG dealt to enemies with less than 50% HP by 40%.",
       "icon": "/Images/ichigo-shikai/boundary-1.png",
       "level": 1,
       "name": "Reclaim Soul Reaper Power"
@@ -53,12 +62,15 @@
   "builds": [
     {
       "label": "Main",
-      "passiveSkills": [],
+      "passiveSkills": [
+        "Basic Attack",
+        "All DMG"
+      ],
       "range": "B0W1C1 - B6W5C5",
-      "setName": "Zangetsu (4) + Slash (2)",
+      "setName": "Ready to Go (3)",
       "setPieces": [
         {
-          "mainStat": "Slash DMG",
+          "mainStat": "Slash DMG \u003e ATK%",
           "slot": 1
         },
         {
@@ -70,7 +82,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit DMG \u003e Atk% \u003e Crit Rate \u003e Atk"
+      "subStatPriority": "Crit Rate \u003e ATK% \u003e Crit DMG \u003e Flat ATK \u003e Ult Charge Rate"
     }
   ],
   "corePassives": [
@@ -94,34 +106,34 @@
   "name": "Ichigo Kurosaki (Shikai)",
   "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
   "rarity": "SR",
-  "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 6,
+  "recommendedStopBoundary": 0,
+  "recommendedStopBoundaryF2P": 0,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "21 Nov 2025",
   "role": "Assault",
   "rotations": [
     {
-      "name": "Getsuga Combo",
+      "name": "Basic Combo",
       "steps": [
-        "Basic ×3",
-        "Technique (Getsuga)",
-        "Ultimate",
-        "Battlefield Skill"
+        "Technique",
+        "Special Attack",
+        "Basic Attack until Max Spiritual Pressure",
+        "Technique then Ultimate on cooldown"
       ],
       "tags": [
-        "Sustain"
+        "Standard"
       ]
     }
   ],
   "skills": [
     {
-      "description": "Ichigo wields Zangetsu and attacks the enemy 4 times with powerful Sword Pressure, dealing damage equal to 567.5% of ATK and accumulating Spiritual Pressure.",
+      "description": "Ichigo wields Zangetsu and attacks the enemy 4 times with powerful Sword Pressure, dealing damage equal to 567.5% of ATK and accumulating Spiritual Pressure. ~~Follow-up Attack~~ Tap basic attack immediately after releasing the Collapse Strike technique \n Ichigo instantly performs a follow-up slash, dealing damage equal to 170% of ATK.",
       "icon": "/Images/ichigo-shikai/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Sword Pressure"
     },
     {
-      "description": "Ichigo leaps toward the enemy and performs a swirling slash, dealing damage equal to 297.5% of ATK. He then launches the enemy into the air, dealing damage equal to 102.5% of ATK. During the attack, Ichigo accumulates Spiritual Pressure. At Max Spiritual Pressure, Ichigo launches the enemy into the air, slams them into the ground, and releases all accumulated Spiritual Pressure upon their landing, dealing damage equal to 627.5% of ATK.",
+      "description": "Ichigo leaps toward the enemy and performs a swirling slash, dealing damage equal to 297.5% of ATK. He then launches the enemy into the air, dealing damage equal to 102.5% of ATK. During the attack, Ichigo accumulates Spiritual Pressure. ~~Spiritual Pressure Burst~~ Requires max Spiritual Pressure \n Ichigo launches the enemy into the air, slams them into the ground, and releases all accumulated Spiritual Pressure upon their landing, dealing damage equal to 627.5% of ATK.",
       "icon": "/Images/ichigo-shikai/skill-technique.png",
       "kind": "Technique",
       "name": "Collapse Strike"
