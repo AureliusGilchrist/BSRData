@@ -107,6 +107,9 @@
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "renji": {
+    "Zabi Mark": "Renji's techniques, counterattacks, and other attacks will inflict Zabi Mark on the enemy when they hit. Renji's basic attacks will accumulate double Spiritual Pressure upon hitting an enemy with Zabi Mark.",
+    "Lacerate": "At 100 Lacerate Points, deals massive DMG once to the enemy, equal to 300% of Renji's ATK.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "rukia": {
   },
@@ -119,7 +122,7 @@
     "Sacrificial Material": "After attacking, summoned Fracciones are converted into 1 Sacrificial Material. Szayelaporro can use Special ttacks to detonate them and grant buffs to teammates. Up to 6 can be accumulated.",
     "Sacrificial Materials": "After attacking, summoned Fracciones are converted into 1 Sacrificial Material. Szayelaporro can use Special ttacks to detonate them and grant buffs to teammates. Up to 6 can be accumulated.",
     "Intel Control": "Each time a Special Attack is released, grants all Spirit characters corresponding stacks of Intel Control based on the number of detonated Sacrificial Materials, increasing their  damage dealt.",
-    "Sample Analysis": "When an Ultimate is released, all Spirit characters get 1 stack of Sample Analysis. Whenever a character with this state deals damage, all Spirit characters gain another stack of Sample Analysis, increasing their  Crit DMG.",
+    "Sample Analysis": "When an Ultimate is released, all Spirit characters get 1 stack of Sample Analysis. Whenever a character with this state deals damage, all Spirit characters gain another stack of Sample Analysis, increasing their Crit DMG.",
     "Brutal Modification": "Releasing a Special Attack during Resurreccion grants Brutal Modification stacks equal to the current stacks of Interl Control. Releasing a second strike of the Ultimate, Control of the Five Senses, consumes all Brutal Modification stacks to boost its damage.",
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
