@@ -53,16 +53,28 @@
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "ikkaku": {
+    "Wound": "Deals DMG equal to 2% of the character's ATK every second. The more stacks, the higher the DMG. Lasts for 10s and can be stacked up to 30 times.",
+    "Slow Hozukimaru": "The second phase of Ikkaku's Ultimate deals huge DMG and removes Bankai state.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "kenpachi": {
-    "Frenzy": "",
-    "War Wraith": ""
+    "Frenzy": "Some of Kenpachi's attacks generate Frenzy. When Frenzy reaches 2 points, tap and hold Basic Attack to release a Special Attack.",
+    "Cleave": "Sever Attacks apply Sever Points to the enemy. Upon reaching 100 Sever Points, the enemy is inflicted with the debuff, Cleave. Applying Sever Attacks to enemies affected by Cleave deals extra Ailment DMG.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "kisuke": {
+    "Reishi Analysis": "Each use of Urahara's special attack, Technique, Ultimate, or counterattack grants 1 stack of Reishi Analysis that increases ATK to the team.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "komamura": {
+    "Build Up": "When Komamura releases the Battlefield Skill Tenken Ascension - Charged Strike, extra attacks are launched according to the number of Build Up stacks.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "mayuri": {
+    "Poison Scale": "Whenever Poison Scale reaches 100, Poison is triggered once on the enemy, dealing Ailment DMG based on Mayuri Kurotsuchi's ATK.",
+    "Excitement": "Each time Poison is triggered, the entire team gains Excitement, which increases Ailment Mastery.",
+    "All-Skill Mastery": "Increases all skill damage by a certain percentage, including damage dealt by Basic Attacks, Special Attacks, Techniques, Battlefield Skills, Ultimates, and Counters.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "momo": {
   },
