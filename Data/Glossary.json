@@ -91,10 +91,20 @@
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "nemu": {
+  "Upper Body Overdrive": "While in Upper Body Mode, landing the special attack's final hit reduces all DMG taken by the on-field character by 10%.",
+  "Lower Body Overdrive": "While in Lower Body Mode, landing the special attack's final hit increases the on-field character's ATK by 100.",
+  "Lower Body Mode": "One of Nemu's two attack modes. Has different basic and special attacks compared to Upper Body Mode. Modes can be switched with a technique.",
+  "Full-Body Overdrive": "Bonus effects of Upper Body Overdrive and Lower Body Overdrive are doubled while both are active.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "orihime": {
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "rangiku": {
+    "Haineko Mark": "Rangiku's attacks inflict Haineko Mark on enemies. When any teammate releases a special attack or technique, clusters of auto-attacking Ash Blades are generated based on the number of nearby enemies inflicted with Haineko Mark.",
+    "Ash Blade": "Rangiku's attacks inflict Haineko Mark on enemies. When any teammate releases a special attack or technique, clusters of auto-attacking Ash Blades are generated based on the number of nearby enemies inflicted with Haineko Mark.",
+    "Haineko's Assist": "All characters in the team take 10% lesss damage.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "renji": {
   },
