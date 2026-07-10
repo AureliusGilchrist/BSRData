@@ -8,12 +8,20 @@
   },
   "art": "/Images/ururu/art.png",
   "bestStamp": {
-    "mainStats": "1: Spirit DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "notes": "A-tier Support — cannon-damage scales off Atk.",
-    "setName": "Cannon (4) + Spirit (2)",
-    "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk"
+    "mainStats": "1: ATK% \u003e Spirit DMG  •  2: Crit Rate  •  3: ATK%",
+    "notes": "Pew Pew",
+    "setName": "Ready to Go (3)",
+    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Ult Charge Rate \u003e Flat ATK"
   },
-  "bondPriority": [],
+  "bondPriority": [
+      "description": "Increases Spirit Mastery by 8% and Crit Rate by 10% during battle. When equipped by a Full Assault character, these effects are furtherincreased by 100%.",
+      "name": "Ulquiorra Bond"
+    },
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    }
+  ],
   "boundaries": [
     {
       "description": "Increases the limit of Spiritual Pressure Reserve to 20.",
@@ -52,46 +60,29 @@
   ],
   "builds": [
     {
-      "label": "P2W (value ceiling)",
-      "passiveSkills": [],
+      "label": "Main",
+      "passiveSkills": [
+        "All DMG",
+        "Special Attack",
+        "Ult DMG"
+      ],
       "range": "B0W1C1 - B6W5C5",
-      "setName": "Cannon (4) + Spirit (2)",
+      "setName": "Ready to Go (3)",
       "setPieces": [
         {
-          "mainStat": "Spirit DMG Bonus",
+          "mainStat": "ATK% \u003e Spirit DMG",
           "slot": 1
         },
         {
-          "mainStat": "Crit DMG",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
-          "mainStat": "Atk%",
+          "mainStat": "ATK%",
           "slot": 3
         }
       ],
-      "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk"
-    },
-    {
-      "label": "F2P (practical stop)",
-      "passiveSkills": [],
-      "range": "B0W1C1 - B5W5C5",
-      "setName": "Cannon (4) + Spirit (2)",
-      "setPieces": [
-        {
-          "mainStat": "Spirit DMG Bonus",
-          "slot": 1
-        },
-        {
-          "mainStat": "Crit DMG",
-          "slot": 2
-        },
-        {
-          "mainStat": "Atk%",
-          "slot": 3
-        }
-      ],
-      "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk"
+      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Ult Charge Rate \u003e Flat ATK"
     }
   ],
   "corePassives": [
@@ -115,8 +106,8 @@
   "name": "Ururu Tsumigaya",
   "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
   "rarity": "SR",
-  "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 5,
+  "recommendedStopBoundary": 0,
+  "recommendedStopBoundaryF2P": 2,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "21 Nov 2025",
   "role": "Support",
@@ -124,24 +115,24 @@
     {
       "name": "Cannon Cycle",
       "steps": [
-        "Technique (cannon charge)",
-        "Ultimate",
-        "Swap"
+        "Technique on cooldown",
+        "Special Attack at max stacks",
+        "Ultimate on cooldown"
       ],
       "tags": [
-        "Sustain"
+        "Standard"
       ]
     }
   ],
   "skills": [
     {
-      "description": "Ururu launches a melee attack at the target to strike 6 times, dealing admage equal to 322.5% of ATK. Landing each basic attack restores 1 stack of Spiritual Pressure Reserve. Press and hold basic attack with 1 or more stacks of Spiritual Pressure Reserve to enter the aimed firing state, during which each tap on the Basic Attack fires two cannonballs at the target, dealing up to 81% of ATK and Penetrating up to 2 targets, which halves the damage to subsequent targets. Each cannonball fired consumes 1 stack of Spiritual Pressure Reserve.",
+      "description": "Ururu launches a melee attack at the target to strike 6 times, dealing admage equal to 322.5% of ATK. \n Landing each basic attack restores 1 stack of Spiritual Pressure Reserve. ~~Target Sighted! Fire!~~ Press and hold basic attack with 1 or more stacks of Spiritual Pressure Reserve \n Ururu enters the aimed firing state, during which each tap on the Basic Attack fires two cannonballs at the target, dealing up to 81% of ATK and Penetrating up to 2 targets, which halves the damage to subsequent targets. Each cannonball fired consumes 1 stack of Spiritual Pressure Reserve.",
       "icon": "/Images/ururu/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Nice to Meet You"
     },
     {
-      "description": "Ururu dashes forward and wields the cannon to knock back the enemy, dealing damage equal to 115.5% of ATK. Then, she leaps backward and fires a cannonball at the enemy, dealing damage equal to 172.5% of ATK. On hit or upon landing, the cannonball explodes and creates a 10s Burning Area. If the technique hits the target, restores 5 stacks of Spiritual Pressure Reserve.",
+      "description": "Ururu dashes forward and wields the cannon to knock back the enemy, dealing damage equal to 115.5% of ATK. Then, she leaps backward and fires a cannonball at the enemy, dealing damage equal to 172.5% of ATK. On hit or upon landing, the cannonball explodes and creates a 10s Burning Area. \n If the technique hits the target, restores 5 stacks of Spiritual Pressure Reserve.",
       "icon": "/Images/ururu/skill-technique.png",
       "kind": "Technique",
       "name": "Maintain Safe Distance"
@@ -153,7 +144,7 @@
       "name": "Threat Neutralized!"
     },
     {
-      "description": "Ururu knocks back the enemy with the cannon, dealing damage equal to 321% of ATK. Meanwhile, she also fires a cannonball at the enemy, dealing damage equal to 481.5% of ATK, launching the enemy into the air, and creating a Burning Area under the enemy's feet. If the counterattack hits the target, restores 5 stacks of Spiritual Pressure Reserve.",
+      "description": "Ururu knocks back the enemy with the cannon, dealing damage equal to 321% of ATK. Meanwhile, she also fires a cannonball at the enemy, dealing damage equal to 481.5% of ATK, launching the enemy into the air, and creating a Burning Area under the enemy's feet. \n If the counterattack hits the target, restores 5 stacks of Spiritual Pressure Reserve.",
       "icon": "/Images/ururu/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"

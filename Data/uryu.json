@@ -8,12 +8,29 @@
   },
   "art": "/Images/uryu/art.png",
   "bestStamp": {
-    "mainStats": "1: Thrust DMG Bonus  •  2: Crit Rate  •  3: ATK%",
-    "notes": "Ranged Tactician — arrow stacks scale with Crit DMG.",
-    "setName": "Quincy Bow (4) + Thrust (2)",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+    "mainStats": "1: Thrust DMG \u003e ATK%  •  2: Crit DMG  •  3: ATK%",
+    "notes": "SR Thrust Tactician who does not benefit from Ailment",
+    "setName": "Knight's Anthem (3)",
+    "subStatPriority": "Crit Rate (35%) \u003e Crit DMG \u003e ATK% \u003e Flat ATK \u003e Ult Charge Rate"
   },
-  "bondPriority": [],
+  "bondPriority": [
+    {
+      "description": "Increases all damage by 10% during battle. When equipped by a Tactic character, increases an extra 25% Battlefield Skill DMG.",
+      "name": "Aizen Bond"
+    },
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    },
+    {
+      "description": "During battle, teammates other than yourself gain 40% Crit DMG. Unstackable.",
+      "name": "Mayuri Bond"
+    },
+    {
+      "description": "Increases ATK of all team characters during battle by 6%.",
+      "name": "ATK Bond"
+    }
+  ],
   "boundaries": [
     {
       "description": "Each combo attack hit reduces the target's Thrust Resistance by an extra 6% for 15s. Stacks up to 3 times.",
@@ -52,34 +69,16 @@
   ],
   "builds": [
     {
-      "label": "P2W (value ceiling)",
-      "passiveSkills": [],
-      "range": "B0W1C1 - B6W5C5",
-      "setName": "Quincy Bow (4) + Thrust (2)",
-      "setPieces": [
-        {
-          "mainStat": "Thrust DMG Bonus",
-          "slot": 1
-        },
-        {
-          "mainStat": "Crit Rate",
-          "slot": 2
-        },
-        {
-          "mainStat": "ATK%",
-          "slot": 3
-        }
+      "label": "Main",
+      "passiveSkills": [
+        "Battlefield II",
+        "Overdrive Tactic"
       ],
-      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
-    },
-    {
-      "label": "F2P (practical stop)",
-      "passiveSkills": [],
-      "range": "B0W1C1 - B5W5C5",
-      "setName": "Quincy Bow (4) + Thrust (2)",
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Knight's Anthem",
       "setPieces": [
         {
-          "mainStat": "Thrust DMG Bonus",
+          "mainStat": "Thrust DMG \u003e ATK%",
           "slot": 1
         },
         {
@@ -87,62 +86,86 @@
           "slot": 2
         },
         {
-          "mainStat": "Atk%",
+          "mainStat": "ATK%",
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+      "subStatPriority": "Crit Rate (35%) \u003e Crit DMG \u003e ATK% \u003e Flat ATK \u003e Ult Charge Rate"
+    },
+    {
+      "label": "Support",
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Hidden Wisdom (3)",
+      "setPieces": [
+        {
+          "mainStat": "Thrust DMG \u003e ATK%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "ATK%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit Rate (35%) \u003e Crit DMG \u003e ATK% \u003e Flat ATK \u003e Ult Charge Rate"
     }
   ],
   "corePassives": [
     {
-      "description": "",
+      "description": "When Uryu's Battlefield Skill is active, whenever an on-field character releases a Technique or special attack, Uryu enters the field and performs a combo attack. This can be triggered up to 3 times consecutively. Combo attacks triggered by Techniques consume 1 stack of Quincy Mark each.",
       "icon": "/Images/uryu/passive-1.png",
-      "name": ""
+      "name": "Combo Attack"
     },
     {
-      "description": "",
+      "description": "Each time Uryu releases a combo attack, increases his Crit Rate by 15% for 15s. Stacks up to 3 times.",
       "icon": "/Images/uryu/passive-2.png",
-      "name": ""
+      "name": "Spirit Weapon"
     },
     {
-      "description": "",
+      "description": "Increases Battlefield Skill Crit DMG by 112.5%.",
       "icon": "/Images/uryu/passive-3.png",
-      "name": ""
+      "name": "Seeleschneider"
     }
   ],
   "damageType": "Thrust",
   "name": "Uryu Ishida",
-  "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
+  "note": "SR Thrust Tactician who does not benefit from Ailment.",
   "rarity": "SR",
-  "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 5,
+  "recommendedStopBoundary": 0,
+  "recommendedStopBoundaryF2P": 1,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "21 Nov 2025",
   "role": "Tactician",
   "rotations": [
     {
-      "name": "Arrow Volley",
+      "name": "Battlefield Spam",
       "steps": [
-        "Basic ×3 (build Reishi)",
-        "Technique (Heilig Pfeil)",
-        "Ultimate (Licht Regen)",
-        "Counter"
+        "Build Battlefield off-field using Special Attacks and Techniques",
+        "Battlefield when available",
+        "Technique on cooldown",
+        "Ultimate on cooldown"
       ],
       "tags": [
-        "Sustain"
+        "Standard"
       ]
     }
   ],
   "skills": [
     {
-      "description": "Uryu fires glowing arrows forward, striking 4 times and dealing 264% damage. Each strike of the basic attack grants 1/1/2/6 Battlefield Skill Energy on hit, respectively. While releasing the 4th strike, Uryu gains 1 stack of Quincy Mark.",
+      "description": "Uryu fires glowing arrows forward, striking 4 times and dealing 264% damage. \n Each strike of the basic attack grants 1/1/2/6 Battlefield Skill Energy on hit, respectively. While releasing the 4th strike, Uryu gains 1 stack of Quincy Mark.",
       "icon": "/Images/uryu/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Blitz"
     },
     {
-      "description": "After aiming briefly, Uryu fires Reishi Convergence forward multiple times, dealing damage equal to 270% of ATK and gaining 1 stack of Quincy Mark. This technique grants up to 6 Battlefield Skill Energy on hit.",
+      "description": "After aiming briefly, Uryu fires Reishi Convergence forward multiple times, dealing damage equal to 270% of ATK and gaining 1 stack of Quincy Mark. \n This technique grants up to 6 Battlefield Skill Energy on hit.",
       "icon": "/Images/uryu/skill-technique.png",
       "kind": "Technique",
       "name": "Volley"
@@ -154,19 +177,19 @@
       "name": "Licht Regen"
     },
     {
-      "description": "Uryu stomps on an enemy and launches himself backward, attacking up to 8 times in mid-air to deal total DMG equal to 540% ATK. While Uryu's Battlefield Skill is active, he accumulates 6 Battlefield Skill Energy when attacks hit.",
+      "description": "Uryu stomps on an enemy and launches himself backward, attacking up to 8 times in mid-air to deal total DMG equal to 540% ATK. \n While Uryu's Battlefield Skill is active, he accumulates 6 Battlefield Skill Energy when attacks hit.",
       "icon": "/Images/uryu/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"
     },
     {
-      "description": "While active, Ishida's Battlefield Skill increases the whole team's damage of all types by 15%. Reishi Convergence: switches Ishida in immediately to fire a powerful spirit-energy arrow, consuming all current Battlefield Skill energy for 398% ATK damage. \n \n 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑺𝒉𝒐𝒕: switches Ishida in immediately to quickly fire at the target for 126% of ATK; this does not consume any accumulated Battlefield Skill energy. Reishi Convergence (field trigger): Ishida steps onto the field and unleashes a Combo Attack for up to 180% of ATK. After Ishida triggers Combo Attack twice or more in a row, the Battlefield Skill button activates; releasing the Battlefield Skill at that point does not consume Battlefield Skill energy.",
+      "description": "~~While Uryu's Battlefield Skill is active, all characters in the team have 15% increased type-based DMG.~~ \n Uryu's combo attack deals DMG equal to 270% of ATK. When combo attacks are triggered at least twice in a row, the Battlefield Sikll button will activate. Releasing the Battlefield Skill at this time does not consume Battlefield Skill Energy. ~~Suport Shot~~ When the Battlefield Skill button is activated \n Instantly switches Uryu in and fires rapidly at the target, dealing damage equal to 189% of ATK. This technique doesn't consume the accumulated Battlefield Skill Energy. ~~Quincy Arrow~~ Requires max Battlefield Skill Energy \n Immadiately switch in Uryu and shoot a powerful Reishi Deluge Arrow. This consumes all Battlefield Skill Energy to deal DMG equal to 597% of ATK.",
       "icon": "/Images/uryu/skill-bfs.png",
       "kind": "Battlefield Skill",
       "name": "Reishi Convergence"
     },
     {
-      "description": "Use Hirenkyaku to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5s and instantly restore 150 Ultimate Energy to Uryu. Cooldown: 15s.",
+      "description": "Use Hirenkyaku to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5s and instantly restores 150 Ultimate Energy to Uryu. Cooldown: 15s.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Hirenkyaku"
