@@ -8,12 +8,21 @@
   },
   "art": "/Images/nemu/art.png",
   "bestStamp": {
-    "mainStats": "1: Atk%  •  2: Crit DMG  •  3: Atk%",
-    "notes": "Niche Support — only invest as a Mayuri pair.",
-    "setName": "Synthetic Body (4) + Atk (2)",
-    "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e HP%"
+    "mainStats": "1: ATK%  •  2: ATK%  •  3: ATK%",
+    "notes": "ATK farmer",
+    "setName": "Hidden Wisdom (3)",
+    "subStatPriority": "ATK% \u003e Flat ATK \u003e Ult Charge Rate \u003e Crit Rate \u003e Crit DMG"
   },
-  "bondPriority": [],
+  "bondPriority": [
+    {
+      "description": "During battle, teammates other than yourself gain 40% Crit DMG. Unstackable.",
+      "name": "Mayuri Bond"
+    },
+    {
+      "description": "Increases ATK of all team characters during battle by 6%.",
+      "name": "ATK Bond"
+    }
+  ],
   "boundaries": [
     {
       "description": "Increases all DMG dealt by Nemu by 25%. Increases Nemu's Base ATK by 20%.",
@@ -52,30 +61,33 @@
   ],
   "builds": [
     {
-      "label": "Main",
-      "passiveSkills": [],
+      "label": "Support",
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain"
+      ],
       "range": "B0W1C1 - B6W5C5",
-      "setName": "Synthetic Body (4) + Atk (2)",
+      "setName": "Hidden Wisdom (3)",
       "setPieces": [
         {
-          "mainStat": "Atk%",
+          "mainStat": "ATK%",
           "slot": 1
         },
         {
-          "mainStat": "Crit Rate",
+          "mainStat": "ATK%",
           "slot": 2
         },
         {
-          "mainStat": "Atk%",
+          "mainStat": "ATK%",
           "slot": 3
         }
       ],
-      "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e HP%"
+      "subStatPriority": "ATK% \u003e Flat ATK \u003e Ult Charge Rate \u003e Crit Rate \u003e Crit DMG"
     }
   ],
   "corePassives": [
     {
-      "description": "When Upper Body Overdrive and Lower Body Overdrive are active at the same time, Nemu activates Full-Body Overdrive: Doubles the bonus effects of Uper Body Overdrive and Lower Body Overdrive. Durations of Upper Body Overdrive and Lower Body Overdrive are mutually independent. Should either mode end, Full-Body Overdrive ends as well. Overdrive mode countdowns continue even when Nemu is off-field.",
+      "description": "When Upper Body Overdrive and Lower Body Overdrive are active at the same time, Nemu activates Full-Body Overdrive: Doubles the bonus effects of Uper Body Overdrive and Lower Body Overdrive. \n \n Durations of Upper Body Overdrive and Lower Body Overdrive are mutually independent. Should either mode end, Full-Body Overdrive ends as well. Overdrive mode countdowns continue even when Nemu is off-field.",
       "icon": "/Images/nemu/passive-1.png",
       "name": "Full-Body Overdrive"
     },
@@ -94,51 +106,51 @@
   "name": "Nemu Kurotsuchi",
   "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
   "rarity": "SR",
-  "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 0,
+  "recommendedStopBoundary": 0,
+  "recommendedStopBoundaryF2P": 2,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "21 Nov 2025",
   "role": "Support",
   "rotations": [
     {
-      "name": "Backup Loop",
+      "name": "Basic Loop",
       "steps": [
-        "Technique",
-        "Ultimate (Mayuri synergy)",
-        "Swap"
+        "Ultimate",
+        "Basic Attack",
+        "Special Attack"
       ],
       "tags": [
-        "Sustain"
+        "Standard"
       ]
     }
   ],
   "skills": [
     {
-      "description": "In Upper Body Mode, Nemu infuses the artificial soul's enhancing power into Gigai's arms and then throws 5 fast consecutive punches, dealing damage equal to 117% of ATK and accumulating Spiritual Pressure. Press and hold basic attack in the Upper Body Mode at Max Spiritual Pressure to leap up into the air and rapidly  release consecutive slashes at the enemy below, dealing total DMG equal to 240% of ATK. Triggers Nemu's Upper Body overdrive if the last strike hits the target: the on-field target takes 10% less DMG for 30s. In Lower Body Mode, Nemu infuses the artificial soul's enhancing power into Gigai's legs and then performs 3 consecutive leg sweeps, dealing damage equal to 170.62% of ATK and accumulating Spiritual Pressure. Press and hold basic attack in Lower Body Mode at Max Spiritual Pressure to have Nemu sweep her legs like a whirlwind, dealing total DMG equal to 240% of ATK to the enemy in front through roundhouse kicks. Triggers Nemu's Lower Body Overdrive if the last strike hits the target: the on-field character gains 100 ATK for 30s.",
+      "description": "In Upper Body Mode, Nemu infuses the artificial soul's enhancing power into Gigai's arms and then throws 5 fast consecutive punches, dealing damage equal to 117% of ATK and accumulating Spiritual Pressure. ~~Enhanced Barrage~~ Press and hold basic attack in the Upper Body Mode at Max Spiritual Pressure \n  Nemu leaps up into the air and rapidly releases consecutive slashes at the enemy below, dealing total DMG equal to 240% of ATK. \n Triggers Nemu's Upper Body overdrive if the last strike hits the target: the on-field target takes 10% less DMG for 30s. ~~Sweeping Kick~~ In Lower Body Mode \n Nemu infuses the artificial soul's enhancing power into Gigai's legs and then performs 3 consecutive leg sweeps, dealing damage equal to 170.62% of ATK and accumulating Spiritual Pressure. ~~Enhanced Sweeping Kick~~ Press and hold basic attack in Lower Body Mode at Max Spiritual Pressure \n Nemu sweeps her legs like a whirlwind, dealing total DMG equal to 240% of ATK to the enemy in front through roundhouse kicks. \n Triggers Nemu's Lower Body Overdrive if the last strike hits the target: the on-field character gains 100 ATK for 30s.",
       "icon": "/Images/nemu/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Barrage"
     },
     {
-      "description": "Nemu can switch between the two modes, Upper Body Mode and Lower Body Mode, each with distinct basic and special attacks. At Max Spiritual Pressure, Nemu actively switches her current mode and immediately releases the special attack corresponding to the new mode. Switching consumes all her Spiritual Pressure.",
+      "description": "Nemu can switch between the two modes, Upper Body Mode and Lower Body Mode, each with distinct basic and special attacks. ~~Attack Swap~~ Requires max Spiritual Pressure \n Nemu actively switches her current mode and immediately releases the special attack corresponding to the new mode. Switching consumes all her Spiritual Pressure.",
       "icon": "/Images/nemu/skill-technique.png",
       "kind": "Technique",
       "name": "Mode Swap"
     },
     {
-      "description": "After concentrating all her power in her legs for a short period, Nemu releases a kick, dealing DMG equal to 500% of ATK to the enemy in front and increasing the Strike DMG of all teammates by 15% for 30s. If Nemu is in Full-Body Overdrive when releasing her Ultimate, then the team's Strike DMG bonus increases by an extra 15%. Nemu automatically switches to Lower Body Mode after releasing the Ultimate.",
+      "description": "After concentrating all her power in her legs for a short period, Nemu releases a kick, dealing DMG equal to 500% of ATK to the enemy in front and increasing the Strike DMG of all teammates by 15% for 30s. \n If Nemu is in Full-Body Overdrive when releasing her Ultimate, then the team's Strike DMG bonus increases by an extra 15%. \n \n Nemu automatically switches to Lower Body Mode after releasing the Ultimate.",
       "icon": "/Images/nemu/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Sonic Roundhouse Kick"
     },
     {
-      "description": "Nemu kicks the enemy into the air and Flash Steps to their back tto counterattack, dealing DMG equal to 288% of ATK and instantly filling Spiritual Pressure to maximum. Nemu automatically switches to Lower Body Mode after counterattacking.",
+      "description": "Nemu kicks the enemy into the air and Flash Steps to their back tto counterattack, dealing DMG equal to 288% of ATK and instantly filling Spiritual Pressure to maximum. \n Nemu automatically switches to Lower Body Mode after counterattacking.",
       "icon": "/Images/nemu/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"
     },
     {
-      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Nemu gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Nemu gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15s.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Flash Step"

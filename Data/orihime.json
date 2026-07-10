@@ -8,12 +8,21 @@
   },
   "art": "/Images/orihime/art.png",
   "bestStamp": {
-    "mainStats": "1: Atk%  •  2: Crit Rate  •  3: HP% \u003e Ult Charge Rate",
-    "notes": "Healer / shield Support — Ult Charge keeps shields permanent.",
-    "setName": "Shun Shun Rikka (4) + Atk (2)",
-    "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e HP% \u003e Crit DMG"
+    "mainStats": "1: HP%  •  2: HP%  •  3: HP%",
+    "notes": "Decent shield",
+    "setName": "Hidden Wisdom (3)",
+    "subStatPriority": "HP% \u003e Flat HP \u003e DEF% \u003e Flat DEF"
   },
-  "bondPriority": [],
+  "bondPriority": [
+    {
+      "description": "During battle, teammates other than yourself gain 40% Crit DMG. Unstackable.",
+      "name": "Mayuri Bond"
+    },
+    {
+      "description": "Increases ATK of all team characters during battle by 6%.",
+      "name": "ATK Bond"
+    }
+  ],
   "boundaries": [
     {
       "description": "Increases the duration of Tsubaki's Support to 20s.",
@@ -53,24 +62,27 @@
   "builds": [
     {
       "label": "Main",
-      "passiveSkills": [],
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain"
+      ],
       "range": "B0W1C1 - B6W5C5",
-      "setName": "Shun Shun Rikka (4) + Atk (2)",
+      "setName": "Hidden Wisdom",
       "setPieces": [
         {
-          "mainStat": "Atk%",
+          "mainStat": "HP%",
           "slot": 1
         },
         {
-          "mainStat": "Crit Rate",
+          "mainStat": "HP%",
           "slot": 2
         },
         {
-          "mainStat": "HP% \u003e Ult Charge Rate",
+          "mainStat": "HP%",
           "slot": 3
         }
       ],
-      "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e HP% \u003e Crit DMG"
+      "subStatPriority": "HP% \u003e Flat HP \u003e DEF% \u003e Flat DEF"
     }
   ],
   "corePassives": [
@@ -94,23 +106,21 @@
   "name": "Orihime Inoue",
   "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
   "rarity": "SR",
-  "recommendedStopBoundary": 6,
+  "recommendedStopBoundary": 0,
   "recommendedStopBoundaryF2P": 0,
-  "recommendedStopBoundaryP2W": 6,
+  "recommendedStopBoundaryP2W": 1,
   "releaseDate": "21 Nov 2025",
   "role": "Support",
   "rotations": [
     {
       "name": "Shield Loop",
       "steps": [
-        "Ultimate (Santen Kesshun shield)",
-        "Technique (heal)",
-        "Swap to DPS",
-        "Return on shield cooldown"
+        "Technique on cooldown",
+        "Swap out",
+        "Ultimate to heal as needed"
       ],
       "tags": [
-        "Sustain",
-        "PvP"
+        "Sustain"
       ]
     }
   ],
@@ -122,7 +132,7 @@
       "name": "Kotenzanshun"
     },
     {
-      "description": "Orihime transforms Hinagiku, Baigon, and Lily into a shield that can absorb damage up to 9.75% of her Max HP + 1170 and last for 20s. While the shield is activate, she gains Super Armor, and this effect persists when switching characters.",
+      "description": "Orihime transforms Hinagiku, Baigon, and Lily into a shield that can absorb damage up to 9.75% of her Max HP + 1170 and last for 20s. \n While the shield is activate, she gains Super Armor, and this effect persists when switching characters.",
       "icon": "/Images/orihime/skill-technique.png",
       "kind": "Technique",
       "name": "Santenkesshun"
