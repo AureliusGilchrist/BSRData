@@ -18,14 +18,20 @@
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "gin": {
-    "Impale": "",
-    "Impale Scale": "",
-    "Technique Points": ""
+    "Impale Scale": "Every time 100 Impale Scale are applied to an enemy, Impale is triggered once, dealing damage equal to 500% of Gin's ATK.",
+    "Technique Points": "When Gin charges and releases his Technique, he constantly consumes Technique Points to boost its power. Recovers 1 Technique Point every 10 seconds. Can be stacked up to 3 points.",
+    "affected by debuffs": "Ongoing debuffs include Freeze, Wound, Cleave, and Verde Rush.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "grimmjow": {
-    "Perfect Dodge": ""
+    "Destruction Mark": "Certain attacks apply Destruction Mark to enemies. It can be dotonated by basic attacks during the Ultimate, counterattacks, or basic attacks chained after a technique, granting Spiritual Pressu Reserve.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "grimmjow-pantera": {
+    "Rush": "With sufficient Spiritual Pressure, tap and hold Basic Attack to enter continuous Rush, boosting MSPD and gaining Super Armor. Deals 30% ATK as damage to the current target every 0.5s. When the Basic Attack button is released, Grimmjow instantly releases Pounce at the current target.",
+    "Lacerate": "When Grimmjow attacks a target affected by Prey Mark, he continuously applies Lacerate Points. Triggers Lacerate once for every 100 Lacerate Points accumulated, dealing 240% Ailment DMG based on Grimmjow's ATK.",
+    "Hunting Point": "Grimmjow gains Hunting Points when releasing Pounce Pursuit, Counterattack, Violent Clutch, or triggering Perfect Dodge. After releasing Pounce Pursuit, he can consume Hunting Points to follow up with an Enhanced Technique.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "ichigo-bankai": {
     "Getsuga Mark": "Ichigo's techniques inflict Getsuga Mark on the target, and his special attacks will prioritize marked enemies.",
@@ -34,9 +40,12 @@
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "ichigo-initial": {
+    "Reishi Gathering": "Gains 1 stack of Reishi Gathering every time after releasing the special attack. Each stack can increase the special attack DMG. The effect will last until the character is severely wounded or the end of the stage.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "ichigo-shikai": {
-    "Getsuga Tensho": "Ichigo's signature attack — a crescent wave of condensed spiritual energy fired from his blade."
+    "Spiritual Power Release": "The state you enter after releasing Technique Spiritual Pressure Burst. In this state, your basic attacks will release penetrating sword waves. The state lasts 5s.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "ichigo-white": {
     "Instinct Burst": "After gaining 2 Instinct Points, enters Instinct Burst, increasing ATK.",
