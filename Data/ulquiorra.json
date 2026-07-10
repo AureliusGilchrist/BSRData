@@ -8,12 +8,16 @@
   },
   "art": "/Images/ulquiorra/art.png",
   "bestStamp": {
-    "mainStats": "1: Spirit%  •  2: Crit Rate  •  3: ATK%",
+    "mainStats": "1: ATK% \u003e Spirit DMG  •  2: Crit Rate  •  3: ATK%",
     "notes": "Spirit Full Assault whose main weapon is Cero.",
-    "setName": "Ready to Go (3)",
-    "subStatPriority": "Crit Rate \u003e ATK% \u003e Crit DMG \u003e Flat Atk"
+    "setName": "Fill the Nothingness (3)",
+    "subStatPriority": "Crit Rate \u003e ATK% \u003e Crit DMG \u003e Flat Atk \u003e Ult Charge Rate"
   },
   "bondPriority": [
+    {
+      "description": "Increases Spirit Mastery by 8% and Crit Rate by 10% during battle. When equipped by a Full Assault character, these effects are further increased by 100%.",
+      "name": "Ulquiorra Bond"
+    },
     {
       "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
       "name": "Toshiro Bond"
@@ -58,7 +62,7 @@
   "builds": [],
   "corePassives": [
     {
-      "description": "Techniques, or Counterattacks, he launches 4 different types of Cero at enemies: Cero Combo - Basic attack, Cero Combo - Special Attack, Cero Combo - Technique, and Cero Combo - Counter. Each Cero activates its corresponding Cero Mark. When all 4 Cero Marks are activated, the technique is enhanced. After every 2 releases of Cero Combo - Special Attack, Ulquiorra can actively release 1 counterattack, which deals 50% less damage. If Ulquiorra's basic attacks, Unsheathed and Blade Pursuit, or the technique, Heavy Pressure, are used at the right moment, they can block enemy attacks.",
+      "description": "Techniques, or Counterattacks, he launches 4 different types of Cero at enemies: Cero Combo - Basic attack, Cero Combo - Special Attack, Cero Combo - Technique, and Cero Combo - Counter. Each Cero activates its corresponding Cero Mark. When all 4 Cero Marks are activated, the technique is enhanced. After every 2 releases of Cero Combo - Special Attack, Ulquiorra can actively release 1 counterattack, which deals 50% less damage. \n If Ulquiorra's basic attacks, Unsheathed and Blade Pursuit, or the technique, Heavy Pressure, are used at the right moment, they can block enemy attacks.",
       "icon": "/Images/ulquiorra/passive-1.png",
       "name": "Cero Mark"
     },
@@ -73,7 +77,7 @@
       "name": "Void"
     },
     {
-      "description": "Increases the Spiritual Pressure gained by Ulquiorra through his basic attack, Blade Pursuit, by 100%. When an attack is blocked by his core passive, Cero Mark, he gains an extra 15 Spiritual Pressure.",
+      "description": "Increases the Spiritual Pressure gained by Ulquiorra through his basic attack, Blade Pursuit, by 100%. \n When an attack is blocked by his core passive, Cero Mark, he gains an extra 15 Spiritual Pressure.",
       "icon": "/Images/ulquiorra/passive-3.png",
       "name": "Obliteration"
     }
@@ -83,20 +87,20 @@
   "note": "This Base-form Ulquiorra, is/was a free SR+ Spirit DPS unit.",
   "rarity": "SR+",
   "recommendedStopBoundary": 0,
-  "recommendedStopBoundaryF2P": 0,
-  "recommendedStopBoundaryP2W": 0,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 6,
   "releaseDate": "5 Jun 2026",
   "role": "Assault",
   "rotations": [],
   "skills": [
     {
-      "description": "Ulquiorra performs a 5-hit combo against enemies in front, dealing a total damage equal to (lvl 9: 616%) of ATK and building his Spiritual Pressure. The 5th basic attack releases Cero Combo - Basic Attack. Using Sonido during basic attacks will not interrupt the current basic attack sequence. After releasing a technique, special attack, or counter, tap Basic Attack to perform Blade Pursuit. Ulquiorra draws his blade, quickly closes in, and slashes enemies in front, dealing damage equal to (lvl 9: 252%) of ATK. On hit, he gains a large amount of Spiritual Pressure. After releasing this skill, he can directly chain into the 3rd basic attack. This skill can trigger a counter and can successfully counter enemies when released at the right moment. While in Form of Void, repeatedly tap or tap and hold Basic Attack to release Cero Combo - Basic Attack, Cero Combo - Counter, Cero Combo - Technique, and the enhanced Cero Combo - Special Attack in sequence. The enhanced Cero Combo - Special Attack deals damage equal to (lvl 9: 320%) of ATK and is considered a Special Attack. At Max Spiritual Pressure, tap and hold Basic Attack. Ulquiorra will dash forward and perform a melee attack. Tap Basic Attack again or tap and hold it to continue the follow-up attack. On the final hit, he leaps into the air and releases Cero Combo - Special Attack, dealing a total damage equal to (lvl 9: 400%) of ATK. For a short time after releasing this skill, tap Basic Attack to release Blade Pursuit.",
+      "description": "Ulquiorra performs a 5-hit combo against enemies in front, dealing a total damage equal to (lvl 9: 616%) of ATK and building his Spiritual Pressure. The 5th basic attack releases Cero Combo - Basic Attack. \n Using Sonido during basic attacks will not interrupt the current basic attack sequence. ~~Blade Pursuit~~ After releasing a technique, special attack, or counter, tap Basic Attack \n Ulquiorra draws his blade, quickly closes in, and slashes enemies in front, dealing damage equal to (lvl 9: 252%) of ATK. On hit, he gains a large amount of Spiritual Pressure. After releasing this skill, he can directly chain into the 3rd basic attack. This skill can trigger a counter and can successfully counter enemies when released at the right moment. ~~Cero Barrage~~ While in Form of Void, repeatedly tap or tap and hold Basic Attack \n Releases Cero Combo - Basic Attack, Cero Combo - Counter, Cero Combo - Technique, and the enhanced Cero Combo - Special Attack in sequence. The enhanced Cero Combo - Special Attack deals damage equal to (lvl 9: 320%) of ATK and is considered a Special Attack. ~~Flawless~~ At Max Spiritual Pressure, tap and hold Basic Attack \n Ulquiorra will dash forward and perform a melee attack. Tap Basic Attack again or tap and hold it to continue the follow-up attack. On the final hit, he leaps into the air and releases Cero Combo - Special Attack, dealing a total damage equal to (lvl 9: 400%) of ATK. \n For a short time after releasing this skill, tap Basic Attack to release Blade Pursuit.",
       "icon": "/Images/ulquiorra/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Unsheated"
     },
     {
-      "description": "Ulquiorra dashes to the enemy's side, performs a series of thrusts, and releases Core Combo - Technique, dealing a total damage equal to (lvl 9: 560%) of ATK and building his Spiritual Pressure. Ulquiorra can consume all Cero Marks and releases a devastating Cero, dealing damage equal to (lvl 9: 924%) of ATK to enemies.",
+      "description": "Ulquiorra dashes to the enemy's side, performs a series of thrusts, and releases Core Combo - Technique, dealing a total damage equal to (lvl 9: 560%) of ATK and building his Spiritual Pressure. ~~Flash of Nihility~~ After activating all Cero Marks, tap Technique \n Ulquiorra consumes all Cero Marks and releases a devastating Cero, dealing damage equal to (lvl 9: 924%) of ATK to enemies.",
       "icon": "/Images/ulquiorra/skill-technique.png",
       "kind": "Technique",
       "name": "Heavy Pressure"
