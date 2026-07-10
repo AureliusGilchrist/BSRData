@@ -8,10 +8,10 @@
   },
   "art": "/Images/ichigo-white/art.png",
   "bestStamp": {
-    "mainStats": "1: Slash DMG \u003e ATK%  •  2: Crit DMG (W5/C5) \u003e ATK% (W5/C5) \u003e Crit Rate •  3: Atk%",
+    "mainStats": "1: Slash DMG \u003e ATK%  •  2: Crit DMG (W5/C5) \u003e ATK% (W5/C5) \u003e Crit Rate •  3: ATK%",
     "notes": "No Ult Charge is necessary.",
     "setName": "Mindscape Encroachment (3)",
-    "subStatPriority": "Crit DMG \u003e Crit Rate (25% for W5/C5) \u003e Atk% \u003e Flat ATK \u003e Ult Charge Rate"
+    "subStatPriority": "Crit DMG \u003e Crit Rate (25% for W5/C5) \u003e ATK% \u003e Flat ATK \u003e Ult Charge Rate"
   },
   "bondPriority": [],
   "boundaries": [
