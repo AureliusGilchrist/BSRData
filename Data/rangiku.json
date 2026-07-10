@@ -8,10 +8,10 @@
   },
   "art": "/Images/rangiku/art.png",
   "bestStamp": {
-    "mainStats": "1: Thrust DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "notes": "Ash-cloud DPS Support — pairs with Toshiro for spirit-team synergy.",
-    "setName": "Haineko (4) + Thrust (2)",
-    "subStatPriority": "Crit DMG \u003e Crit Rate \u003e Atk% \u003e Atk"
+    "mainStats": "1: ATK% \u003e Thrust DMG  •  2: Crit Rate  •  3: Ailment% \u003e Ult Charge Rate",
+    "notes": "Only stats that matter are Ailment% and Ult Charge Rate",
+    "setName": "Hidden Wisdom (3)",
+    "subStatPriority": "Ailment% \u003e Ult Charge Rate \u003e Crit Rate \u003e Crit DMG \u003e ATK%"
   },
   "bondPriority": [
     {
@@ -70,27 +70,27 @@
       "setName": "Hidden Wisdom",
       "setPieces": [
         {
-          "mainStat": "Thrust DMG Bonus OR Any other",
+          "mainStat": "ATK% \u003e Thrust DMG",
           "slot": 1
         },
         {
-          "mainStat": "Crit Rate OR any other",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
-          "mainStat": "Ailment DMG Bonus \u003e Ult Charge Rate",
+          "mainStat": "Ailment% \u003e Ult Charge Rate",
           "slot": 3
         }
       ],
-      "subStatPriority": "Ailment DMG Bonus \u003e Any other",
+      "subStatPriority": "Ailment% \u003e Ult Charge Rate \u003e Crit Rate \u003e Crit DMG \u003e ATK%",
       "targets": {
-        "ultChargeRate": "More = Better"
+        "ultChargeRate": "~170%"
       }
     }
   ],
   "corePassives": [
     {
-      "description": "When a teammate hits an enemy with their Special Attack or technique, generates multiple Ash Blades based on the number of enemies inflicted with the Haineko Mark. On hit, each Ash Blade deals damage equal to 200% of the on-field character's ATK and consumes 1 stack of Haineko Mark. All characters in the team take 10% less damage. Teammates other than Rangiku gain 40% Ailment DMG Bonus.",
+      "description": "When a teammate hits an enemy with their Special Attack or technique, generates multiple Ash Blades based on the number of enemies inflicted with the Haineko Mark. On hit, each Ash Blade deals damage equal to 200% of the on-field character's ATK and consumes 1 stack of Haineko Mark. \n All characters in the team take 10% less damage. Teammates other than Rangiku gain 40% Ailment DMG Bonus.",
       "icon": "/Images/rangiku/passive-1.png",
       "name": "Haineko's Assist"
     },
@@ -109,54 +109,54 @@
   "name": "Rangiku Matsumoto",
   "rarity": "SR",
   "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 6,
+  "recommendedStopBoundaryF2P": 2,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "23 Jan 2026",
   "role": "Support",
   "rotations": [
     {
-      "name": "Ash Field",
+      "name": "2 buttons",
       "steps": [
-        "Technique (Haineko cloud)",
-        "Basic ×3",
+        "Technique",
+        "Stays off-field until Ultimate is available",
         "Ultimate",
         "Swap"
       ],
       "tags": [
-        "Sustain"
+        "Standard"
       ]
     }
   ],
   "skills": [
     {
-      "description": "Rangiku wields Haineko to strike 5 times, dealing damage equal to 90% of ATK to the enemy ahead. The last strike inflicts 1 stack of Haineko Mark on the enemy on hit.",
+      "description": "Rangiku wields Haineko to strike 5 times, dealing damage equal to 150% of ATK to the enemy ahead. The last strike inflicts 1 stack of Haineko Mark on the enemy on hit.",
       "icon": "/Images/rangiku/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Growl, Haineko",
       "variant": null
     },
     {
-      "description": "Rangiku turns her blade into ash, sweeps across the target area, and pulls nearby enemies, dealing damage equal to 380% of ATK and inflicting 2 stacks of Haineko Mark. The longer you press and hold the button, the longer the skill lasts, and the more damage it deals, up to 180% of ATK, while inflicting 3 extra stacks of Haineko Mark on the enemy.",
+      "description": "Rangiku turns her blade into ash, sweeps across the target area, and pulls nearby enemies, dealing damage equal to 475% of ATK and inflicting 2 stacks of Haineko Mark. ~~Channeled Attack~~ Press and hold the Technique button \n The longer you press and hold the button, the longer the skill lasts, and the more damage it deals, up to 225% of ATK, while inflicting 3 extra stacks of Haineko Mark on the enemy.",
       "icon": "/Images/rangiku/skill-technique.png",
       "kind": "Technique",
       "name": "Like a Caged Bird",
       "variant": "Hold"
     },
     {
-      "description": "Rangiku guides the fast-spinning Haineko to create a huge tornado, pulling enemies within a large area into it, dealing damage equal to 640% of ATK and inflicting 4 stacks of Haineko Mark on the enemy hit. After the skill is released, all teammates deal 27% more Thrust DMG for 20s.",
+      "description": "Rangiku guides the fast-spinning Haineko to create a huge tornado, pulling enemies within a large area into it, dealing damage equal to 800% of ATK and inflicting 4 stacks of Haineko Mark on the enemy hit. After the skill is released, all teammates deal 33% more Thrust DMG for 20s.",
       "icon": "/Images/rangiku/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Neko Rinbu"
     },
     {
-      "description": "Rangiku uses Haineko to create a defensive wall to block the enemy attack and counterattack, dealing damage equal to 458.25% of ATK and inflicting 3 stacks of Haineko Mark.",
+      "description": "Rangiku uses Haineko to create a defensive wall to block the enemy attack and counterattack, dealing damage equal to 705% of ATK and inflicting 3 stacks of Haineko Mark.",
       "icon": "/Images/rangiku/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",
       "variant": null
     },
     {
-      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Rangiku gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Rangiku gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15s.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Flash Step"
