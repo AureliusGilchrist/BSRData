@@ -8,19 +8,19 @@
   },
   "art": "/Images/nelliel/art.png",
   "bestStamp": {
-    "mainStats": "1: ATK%  •  2: Crit Rate  •  3: Ult Charge Rate",
+    "mainStats": "1: ATK% \u003e Thrust DMG  •  2: Crit Rate  •  3: Ult Charge Rate",
     "notes": "S-tier Tactician — applies vulnerability that amplifies the on-field DPS.",
     "setName": "Knight's Anthem (3)",
     "subStatPriority": "Crit Rate (55%) \u003e Ult Charge Rate \u003e ATK% \u003e Crit DMG \u003e Ailment%"
   },
   "bondPriority": [
     {
-      "description": "Increases Ailment DMG Bonus by 60% during battle. When equipped by a Tactic character, increases an extra 60% Crit DMG.",
-      "name": "Nelliel Bond"
-    },
-    {
       "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
       "name": "Toshiro Bond"
+    },
+    {
+      "description": "Increases Ailment DMG Bonus by 60% during battle. When equipped by a Tactic character, increases an extra 60% Crit DMG.",
+      "name": "Nelliel Bond"
     }
   ],
   "boundaries": [
@@ -164,7 +164,7 @@
       "variant": "Resurreccion"
     },
     {
-      "description": "~~While Nelliel's Battlefield Skill is active, all allies gain 60% State Mastery.~~ \n \n Nelliel's Battlefield Skills consume two types of energy, Battlefield Skill Energy and Friendship, corresponding to Combo Attack and Cero Sincretico, respectively. Both types of energy are generated through Nelliel's attacks and have a 1.2 second cooldown. ~~Combo Attack~~ \n When another teammate's attacks hit an enemy, 10 Battlefield Skill Energy is automatically consumed to trigger Nelliel's Combo Attack, dealing damage equal to 240% of her ATK and applying 20 Verde Rush Point(s). If the target takes another instance of Ailment DMG within 2 seconds, Combo Attack is triggered once more without consuming Battlefield Skill Energy. This effect has a 1 second cooldown. \n Each Combo Attack triggered by consuming Battlefield Skill Energy grants 1 ponit(s) of Friendship. ~~Cero Sincretico~~ Reach 15 points of Friendship \n Pesche and Dondochakka will come to Nelliel and release Cero Sincretico on enemies, dealing damage equal to 2997.5% of ATK and granting Nelliel the Build Up state.",
+      "description": "~~While Nelliel's Battlefield Skill is active, all allies gain 60% Ailment Mastery.~~ \n \n Nelliel's Battlefield Skills consume two types of energy, Battlefield Skill Energy and Friendship, corresponding to Combo Attack and Cero Sincretico, respectively. Both types of energy are generated through Nelliel's attacks and have a 1.2 second cooldown. ~~Combo Attack~~ \n When another teammate's attacks hit an enemy, 10 Battlefield Skill Energy is automatically consumed to trigger Nelliel's Combo Attack, dealing damage equal to 240% of her ATK and applying 20 Verde Rush Point(s). If the target takes another instance of Ailment DMG within 2 seconds, Combo Attack is triggered once more without consuming Battlefield Skill Energy. This effect has a 1 second cooldown. \n Each Combo Attack triggered by consuming Battlefield Skill Energy grants 1 ponit(s) of Friendship. ~~Cero Sincretico~~ Reach 15 points of Friendship \n Pesche and Dondochakka will come to Nelliel and release Cero Sincretico on enemies, dealing damage equal to 2997.5% of ATK and granting Nelliel the Build Up state.",
       "icon": "/Images/nelliel/skill-bfs.png",
       "kind": "Battlefield Skill",
       "name": "For My Friend",
