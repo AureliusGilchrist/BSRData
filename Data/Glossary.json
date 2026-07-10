@@ -6,12 +6,16 @@
     "Illusion Shield": "Significantly increases interruption resistance. Taking any damage consumes 1 stack to negate it and grants Invincibility for 1 second.",
     "Kyokasuigetsu": "After releasing his Ultimate, Aizen enters Kyokasuigetsu, enhancing his basic attacks and backline Battlefield Skills.",
     "Enhanced Pressure Stacks": "During Spiritual Domination, all Pressure Stacks gained by Aizen are converted into Enhanced Pressure Stacks. Releasing the Battlefield Skill Hado 90: Kurohitsugi consumes all Enhanced Pressure Stacks, granting shields to the team and counterattack effects when switching characters.",
-    "Suppression Gauge": "Suppression Gauge is accumulated when other teammates attack. When the Suppression Gauge reaches its maximum, enters Complete Suppression. During this time, releasing a backline Battlefield Skill consumes all Suppression Gauge to increase its damage. The damage boost effect is further increased while Kyokasuigetsu is active."
+    "Suppression Gauge": "Suppression Gauge is accumulated when other teammates attack. When the Suppression Gauge reaches its maximum, enters Complete Suppression. During this time, releasing a backline Battlefield Skill consumes all Suppression Gauge to increase its damage. The damage boost effect is further increased while Kyokasuigetsu is active.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "byakuya": {
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "chad": {
-    "Spiritual Pressure": ""
+    "Transformation Power": "When Chad's HP drops below 75%, increases his Crit rate by 20% and Crit DMG by 40%. When his HP drops below 50%, increases his Crit Rate by 30% and Crit DMG by 60%.",
+    "2nd Follow-up Attack": "At the highest Bump DMG stage or when you release the basic attack button in advance, Chad will immediately launch a follow-up attack.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "gin": {
     "Impale": "",
@@ -26,7 +30,8 @@
   "ichigo-bankai": {
     "Getsuga Mark": "Ichigo's techniques inflict Getsuga Mark on the target, and his special attacks will prioritize marked enemies.",
     "Hollowfied": "After releasing his Ultimate, Ichigo gets Hollowfied, during which all his abilities are greatly enhanced.",
-    "Hollowfication": "After releasing his Ultimate, Ichigo gets Hollowfied, during which all his abilities are greatly enhanced."
+    "Hollowfication": "After releasing his Ultimate, Ichigo gets Hollowfied, during which all his abilities are greatly enhanced.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "ichigo-initial": {
   },
@@ -34,10 +39,9 @@
     "Getsuga Tensho": "Ichigo's signature attack — a crescent wave of condensed spiritual energy fired from his blade."
   },
   "ichigo-white": {
-    "Getsuga Tensho": "Ichigo's signature attack — a crescent wave of condensed spiritual energy fired from his blade.",
-    "Frenzy": "",
-    "Instinct Burst": "",
-    "Cleaving Throw": ""
+    "Instinct Burst": "After gaining 2 Instinct Points, enters Instinct Burst, increasing ATK.",
+    "Instinct Point": "Releasing the Battlefield Skill Crushing Rondo or a Special Attack grants 1 Instinct Point. During Instinct Burst, certain attacks can consume Instinct Points to release an extra Getsuga Tensho.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "ikkaku": {
   },
@@ -77,8 +81,17 @@
   "toshiro": {
   },
   "ulquiorra": {
+    "Form of Void": "After releasing his Ultimate, Ulquiorra enters Form of Void, increasing all of his damage. By tapping repeatedly or holding Basic Attack, he can continuously release 4 different types of Cero.",
+    "Cero Mark": "When releasing Basic Attacks, Special Attacks, Techniques, or Counterattacks, launches 4 different types of Cero at enemies. Each Cero activates its corresponding Cero Mark. When all 4 Cero Marks are activated, the technique is enhanced.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "ulquiorra-resurreccion": {
+    "Cero Mark": "Release Gran Rey Cero or special attack, Worlds Apart, to gain Cero Marks. Consume 4 Cero Marks to release Cero Oscuras.",
+    "Thunder Mark": "Release Lanza del Relampago I to gain Thunder Marks. Consume 4 Thunder Marks to enter Thunderous Assault.",
+    "Thunder Marks": "Release Lanza del Relampago I to gain Thunder Marks. Consume 4 Thunder Marks to enter Thunderous Assault.",
+    "Thunderous Assault": "Releasing the Enhanced Technique, Lanza del Relampago II, enters the Thunderous Assault state. During this state, tap the Technique button repeatedly to throw Lanza del Relampago I in rapid succession.",
+    "Reishi Rain": "At the start of battle and each time Ulquiorra releases his Ultimate, Reishi Rain falls across the field, dealing damage over time.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "ururu": {
   },
