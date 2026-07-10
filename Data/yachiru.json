@@ -8,10 +8,10 @@
   },
   "art": "/Images/yachiru/art.png",
   "bestStamp": {
-    "mainStats": "1: Slash DMG Bonus  •  2: Atk%  •  3: Ult Charge Rate",
-    "notes": "A-tier Support — buffs adjacent assault chars (esp. Kenpachi).",
-    "setName": "Sanbe Kawaki (4) + Slash (2)",
-    "subStatPriority": "Ult Charge Rate \u003e Atk% \u003e Crit DMG \u003e Crit Rate"
+    "mainStats": "1: ATK% \u003e Slash DMG  •  2: Crit Rate  •  3: Ult Charge Rate",
+    "notes": "Has stronger buffs when paired with Kenpachi",
+    "setName": "Hidden Wisdom (3)",
+    "subStatPriority": "Ult Charge Rate \u003e Crit Rate \u003e Crit DMG \u003e Crit DMG"
   },
   "bondPriority": [
     {
@@ -70,11 +70,11 @@
       "setName": "Hidden Wisdom",
       "setPieces": [
         {
-          "mainStat": "Slash DMG Bonus OR Any other",
+          "mainStat": "Slash DMG \u003e ATK%",
           "slot": 1
         },
         {
-          "mainStat": "Crit Rate OR any other",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
@@ -82,7 +82,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit DMG OR Crit Rate OR Atk% OR ATK OR Any other",
+      "subStatPriority": "Ult Charge Rate \u003e Crit Rate \u003e Crit DMG \u003e Crit DMG",
       "targets": {
         "ultChargeRate": "More = Better"
       }
@@ -90,7 +90,7 @@
   ],
   "corePassives": [
     {
-      "description": "Spectate: Within 3s after Yachiru releases her technique or successfully counters, switch her to the backline to have her Spectate. On-field characters increase their ATK by 20%, while their basic and special attacks grant Ultimate Energy to Yachiru (once per second). Switching Yachiru back in will stop her from Spectating. Inspiration: When Yachiru's Ultimate Energy reaches 50% or 100%, all her teammates gain Inspiration, increasing their Slash DMG by 10% for 6s. Exclusive Seat: When Kenpachi Zaraki is in the team, the bonuses from Spectate and Inspiration on him are increased by 1.5 times.",
+      "description": "Spectate: Within 3s after Yachiru releases her technique or successfully counters, switch her to the backline to have her Spectate. On-field characters increase their ATK by 20%, while their basic and special attacks grant Ultimate Energy to Yachiru (once per second). Switching Yachiru back in will stop her from Spectating. ~~Inspiration~~ \n When Yachiru's Ultimate Energy reaches 50% or 100%, all her teammates gain Inspiration, increasing their Slash DMG by 10% for 6s. ~~Exclusive Seat~~ \n When Kenpachi Zaraki is in the team, the bonuses from Spectate and Inspiration on him are increased by 1.5 times.",
       "icon": "/Images/yachiru/passive-1.png",
       "name": "Sideline Cheer"
     },
@@ -108,19 +108,19 @@
   "damageType": "Slash",
   "name": "Yachiru Kusajishi",
   "rarity": "SR",
-  "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 5,
+  "recommendedStopBoundary":0,
+  "recommendedStopBoundaryF2P": 2,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "21 Nov 2025",
   "role": "Support",
   "rotations": [
     {
       "name": "Buff Hop",
-      "notes": "She's basically a Kenpachi battery — pair them.",
+      "notes": "2 buttons",
       "steps": [
-        "Technique (buff applied)",
-        "Ultimate",
-        "Swap to Kenpachi"
+        "Technique off cooldown",
+        "Ultimate off cooldown",
+        "Swap to another unit"
       ],
       "tags": [
         "Sustain"
@@ -156,7 +156,7 @@
       "variant": null
     },
     {
-      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Yachiru gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Yachiru gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15s.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Flash Step"

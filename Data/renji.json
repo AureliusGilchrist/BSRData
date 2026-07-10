@@ -8,12 +8,21 @@
   },
   "art": "/Images/renji/art.png",
   "bestStamp": {
-    "mainStats": "1: Slash DMG Bonus  •  2: Crit DMG  •  3: Atk%",
-    "notes": "B-tier Assault — solid until Bankai/Bansho form drops.",
-    "setName": "Zabimaru (4) + Slash (2)",
-    "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk"
+    "mainStats": "1: ATK% \u003e Thrust DMG  •  2: Crit Rate  •  3: Ailment% \u003e ATK%",
+    "notes": "SR Thrust",
+    "setName": "Becoming the King (3)",
+    "subStatPriority": "Crit Rate \u003e ATK% \u003e Ailment% \u003e Crit DMG \u003e Ult Charge Rate"
   },
-  "bondPriority": [],
+  "bondPriority": [
+    {
+      "description": "Increases Technique DMG by 32% during battle. When Ailment DMG Bonus is equal or higher than 80%, Ailment DMG Bonus is increased by extra 80%.",
+      "name": "Gin Bond"
+    },
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    }
+  ],
   "boundaries": [
     {
       "description": "When Renji releases his special attack, Crit Rate increases by 40%. If the target is under Spiritual Pressure Dissipation, Crit Rate increases by 60% instead.",
@@ -52,13 +61,15 @@
   ],
   "builds": [
     {
-      "label": "P2W (value ceiling)",
-      "passiveSkills": [],
+      "label": "Main",
+      "passiveSkills": [
+        "All DMG"
+      ],
       "range": "B0W1C1 - B6W5C5",
-      "setName": "Zabimaru (4) + Slash (2)",
+      "setName": "Becoming the King (3)",
       "setPieces": [
         {
-          "mainStat": "Slash DMG Bonus",
+          "mainStat": "ATK% \u003e Thrust DMG",
           "slot": 1
         },
         {
@@ -66,32 +77,11 @@
           "slot": 2
         },
         {
-          "mainStat": "ATK%",
+          "mainStat": "Ailment% \u003e ATK%",
           "slot": 3
         }
       ],
-      "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk"
-    },
-    {
-      "label": "F2P (practical stop)",
-      "passiveSkills": [],
-      "range": "B0W1C1 - B5W5C5",
-      "setName": "Zabimaru (4) + Slash (2)",
-      "setPieces": [
-        {
-          "mainStat": "Slash DMG",
-          "slot": 1
-        },
-        {
-          "mainStat": "Crit Rate",
-          "slot": 2
-        },
-        {
-          "mainStat": "ATK%",
-          "slot": 3
-        }
-      ],
-      "subStatPriority": "Atk% \u003e Crit DMG \u003e Crit Rate \u003e Atk"
+      "subStatPriority": "Crit Rate \u003e ATK% \u003e Ailment% \u003e Crit DMG \u003e Ult Charge Rate"
     }
   ],
   "corePassives": [
@@ -115,34 +105,34 @@
   "name": "Renji Abarai",
   "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
   "rarity": "SR",
-  "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 5,
+  "recommendedStopBoundary": 0,
+  "recommendedStopBoundaryF2P": 2,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "21 Nov 2025",
   "role": "Assault",
   "rotations": [
     {
-      "name": "Whip Combo",
+      "name": "Standard",
       "steps": [
-        "Basic ×3",
-        "Technique (whip extension)",
-        "Ultimate",
-        "Counter"
+        "Technique on cooldown",
+        "Basic Attack",
+        "Special Attack when available",
+        "Ultimate on cooldown"
       ],
       "tags": [
-        "Sustain"
+        "Standard"
       ]
     }
   ],
   "skills": [
     {
-      "description": "Renji slashes the enemy with Zabimaru 5 times, dealing damage equal to 312% of ATK and accumulating Spiritual Pressure. Upon hitting enemies inflicted with Zabi Mark, he accumulates double Spiritual Pressure.",
+      "description": "Renji slashes the enemy with Zabimaru 5 times, dealing damage equal to 312% of ATK and accumulating Spiritual Pressure. Upon hitting enemies inflicted with Zabi Mark, he accumulates double Spiritual Pressure. ~~Frenzied Dance~~ Press and hold basic attack when Spiritual Pressure is above 20% \n Renji continuously consumes Spiritual Pressure to rapidly whip an enemy with Zabimaru multiple times, dealing DMG up to 465% of ATK. When the button is released early or Spiritual Pressure runs out, Renji will deal extra DMG equal to 81% of ATK once. \n \n Releasing special attacks will continuously inflict Lacerate Points on enemies, triggering Lacerate once when they reach 100 and dealing DMG equal to 300% of ATK.",
       "icon": "/Images/renji/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Roar, Zabimaru!"
     },
     {
-      "description": "Renji plants Zabimaru deep into the ground, and the blade emerges to strike the enemy, dealing damage equal to 199.5% of ATK and pulling them toward him. This skill inflicts Zabi Mark that lats 10s on hit.",
+      "description": "Renji plants Zabimaru deep into the ground, and the blade emerges to strike the enemy, dealing damage equal to 199.5% of ATK and pulling them toward him. \n \n This skill inflicts Zabi Mark that lats 10s on hit.",
       "icon": "/Images/renji/skill-technique.png",
       "kind": "Technique",
       "name": "Thrust"
@@ -154,13 +144,13 @@
       "name": "Higazekko"
     },
     {
-      "description": "After blocking an enemy attack, Renji swings Zabimaru, dealing DMG equal to 871% of ATK and pulling the attacker toward him. 100 Lacerate Points are inflicted when counterattacks hit.",
+      "description": "After blocking an enemy attack, Renji swings Zabimaru, dealing DMG equal to 871% of ATK and pulling the attacker toward him. \n 100 Lacerate Points are inflicted when counterattacks hit.",
       "icon": "/Images/renji/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"
     },
     {
-      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Renji gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Renji gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15s.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Flash Step"
