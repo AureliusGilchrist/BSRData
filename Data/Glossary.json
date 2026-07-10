@@ -77,8 +77,18 @@
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "momo": {
+    "Insight": "Each stack of Insight grants a 5% ATK Bonus for 30s. Acquiring a certain number of stacks grants an extra Spirit DMG Boost.",
+    "Kido Snare": "After releasing her technique, Hinamori spreads a net-like Kido at the target location. This  can be ignited by other attacks.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "nelliel": {
+    "Verde Rush": "Upon triggering, deals Ailment DMG to the enemy and applies one stack of Verde Rush Mark.  Each stack of Verde Rush Mark reduces the target's Ailment Resistance.",
+    "Battle Will": "Generated through various attack types. While in Resurreccion, consume these points to release Enhanced Special Attacks, Enhanced Techniques, and Manual Counterattacks.",
+    "Friendship": "Energy required to release the Battlefield Skill: Cero Sincretico.",
+    "Build Up": "Granted after releasing Battlefield Skill: Cero Sincretico. Releasing Special Attack: Instant Conclusion during this state automatically triggers the next teammate's counterattack upon their first switch-in.",
+    "Verde Rush Point": "Every 100 points of Verde Rush accumulated on an enemy will trigger a Verde Rush effect, dealing Ailment DMG and applying a stack of Verde Rush Mark. Each stack of Verde Rush Mark reduces the target's Ailment Resistance.",
+    "Iron Body": "Grant a powerful Super Armor that prevents hit stun and renders the character immune to all forms of control effects.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "nemu": {
   },
@@ -96,10 +106,24 @@
     "Sting DMG": ""
   },
   "szayelaporro": {
+    "Sacrificial Material": "After attacking, summoned Fracciones are converted into 1 Sacrificial Material. Szayelaporro can use Special ttacks to detonate them and grant buffs to teammates. Up to 6 can be accumulated.",
+    "Sacrificial Materials": "After attacking, summoned Fracciones are converted into 1 Sacrificial Material. Szayelaporro can use Special ttacks to detonate them and grant buffs to teammates. Up to 6 can be accumulated.",
+    "Intel Control": "Each time a Special Attack is released, grants all Spirit characters corresponding stacks of Intel Control based on the number of detonated Sacrificial Materials, increasing their  damage dealt.",
+    "Sample Analysis": "When an Ultimate is released, all Spirit characters get 1 stack of Sample Analysis. Whenever a character with this state deals damage, all Spirit characters gain another stack of Sample Analysis, increasing their  Crit DMG.",
+    "Brutal Modification": "Releasing a Special Attack during Resurreccion grants Brutal Modification stacks equal to the current stacks of Interl Control. Releasing a second strike of the Ultimate, Control of the Five Senses, consumes all Brutal Modification stacks to boost its damage.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "tosen": {
+    "Wound": "Deals DMG equal to 2% of the character's ATK every second. The more stacks, the higher the DMG. Lasts for 10s and can be stacked up to 30 times.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "toshiro": {
+    "Ice Blossom": "Ultimate Hyoten Hyakkaso's DMG increases based on Ice Blossoms consumed.",
+    "Tenso Jyurin": "After releasing the Technique Ice Dragon Dive, Toshiro enters Tenso Jyurin, during which his basic attacks are replaced by Ice Dragon Lunge.",
+    "Ice Edge": "A special charge in Bankai state. Reaching 5 stacks release a powerful technique.",
+    "Freeze Point": "Some attacks will inflict Freeze Points on the enemy. At 100 Freeze Points, the enemy will be frozen and become immovable for 2s.",
+    "Build Up": "Releasing the Ultimate Hyoten Hyakkaso consumes all stacks of Build Up. Each stack consumed increases the Ultimate Spirit DMG. If 5 stacks of Build Up are consumed, Toshiro's Spiritual Pressure is instantly filled to maximum at the end of Bankai state.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "ulquiorra": {
     "Form of Void": "After releasing his Ultimate, Ulquiorra enters Form of Void, increasing all of his damage. By tapping repeatedly or holding Basic Attack, he can continuously release 4 different types of Cero.",
