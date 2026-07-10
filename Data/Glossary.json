@@ -112,11 +112,17 @@
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "rukia": {
+    "Freeze": "The Frozen enemy cannot move or attack for 2s.",
+    "Freeze Point": "Some atatcks will inflict Freeze Points on the enemy. At 100 Freeze Points, the enemy will be frozen and become immovable for 2s.",
+    "Breaking Ice": "Attack on an enemy who has been frozen for more than 1s will trigger Breaking Ice: Deals extra damage once based on Rukia's ATK and removed the Normal Frozen state.",
+    "Freezing": "The Frozen enemy cannot move or attack for 2s.",
+    "Chill": "The energy Rukia requires to release Battlefield Skill Chill Release. Can be obtained by triggering Breaking Ice.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "soi-fon": {
-    "Deathmark": "",
-    "Homonka": "",
-    "Sting DMG": ""
+    "Deathmark": "When another character in the team lands an attack, Deathmark is automatically consumed to trigger the combo attack, which is one of the Battlefield Skills.",
+    "Sting": "Deals Ailment DMG based on Soi Fon's ATK.",
+    "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "szayelaporro": {
     "Sacrificial Material": "After attacking, summoned Fracciones are converted into 1 Sacrificial Material. Szayelaporro can use Special ttacks to detonate them and grant buffs to teammates. Up to 6 can be accumulated.",
