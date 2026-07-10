@@ -155,7 +155,7 @@
       "name": "Counter"
     },
     {
-      "description": "~~White Byakuya's Battlefield Skill is active, all teammates' Slash DMG increases by 30%.~~ \n Byakuya's Battlefield Skill button will be activated for 2s after any character releases a special attack, technique, or counterattack, but not at any other time. \n Byakuya  transforms fluttering petals into blades and pierces enemies, pinning them to the ground and dealing DMG equal to 159.37% of ATK. \n \n If Byakuya's Battlefield Skill Energy drops to zero after releasing this skill, tap the Battlefield Skill button again tro tigger a follow-up attack with the same effect as the 4th strike of basic attack Dancing Petals.",
+      "description": "~~White Byakuya's Battlefield Skill is active, all teammates' Slash DMG increases by 30%.~~ \n \n Byakuya's Battlefield Skill button will be activated for 2s after any character releases a special attack, technique, or counterattack, but not at any other time. \n Byakuya  transforms fluttering petals into blades and pierces enemies, pinning them to the ground and dealing DMG equal to 159.37% of ATK. \n \n If Byakuya's Battlefield Skill Energy drops to zero after releasing this skill, tap the Battlefield Skill button again tro tigger a follow-up attack with the same effect as the 4th strike of basic attack Dancing Petals.",
       "icon": "/Images/byakuya/skill-bfs.png",
       "kind": "Battlefield Skill",
       "name": "Thousand Blade Funeral"
