@@ -609,10 +609,10 @@
   {
     "id": "standard-thrust",
     "name": "Standard Banner Thrust",
-    "rank": 9,
+    "rank": 99,
     "tier": "C",
     "difficulty": "Easy",
-    "content": "Trial Tower / Frenzy Feast",
+    "content": "Story Mode",
     "members": [
       {
         "slug": "ikkaku",
@@ -662,10 +662,10 @@
   {
     "id": "f2p-starter",
     "name": "F2P Starter — Story Friendly",
-    "rank": 10,
+    "rank": 100,
     "tier": "D",
     "difficulty": "Easy",
-    "content": "Early-game story",
+    "content": "Story Mode",
     "members": [
       {
         "slug": "ichigo-initial",
@@ -713,5 +713,58 @@
       }
     ],
     "rotationF2P": "Story friendly team."
+  },
+  {
+    "id": "nel-support",
+    "name": "Nel Double Support",
+    "rank": 9,
+    "tier": "A",
+    "difficulty": "Easy",
+    "content": "Co-op / Guild Boss / Events",
+    "members": [
+      {
+        "slug": "nelliel",
+        "name": "Nelliel Tu Odelschwanck",
+        "role": "Tactician",
+        "damageType": "Thrust",
+        "notes": [
+          "Her long field time makes her a viable DMG carry."
+        ],
+        "swappable": []
+      },
+      {
+        "slug": "mayuri",
+        "name": "Mayuri Kurotsuchi",
+        "role": "Support",
+        "damageType": "Thrust",
+        "notes": [
+          "Low field time support."
+        ],
+        "swappable": []
+      },
+      {
+        "slug": "kisuke",
+        "name": "Kisuke Urahara",
+        "role": "Support",
+        "damageType": "Slash",
+        "notes": [
+          "Standard banner support."
+        ],
+        "swappable": []
+      }
+    ],
+    "rotationP2W": "",
+    "rotations": [
+      {
+        "name": "Nel Double Support",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          ""
+        ]
+      }
+    ],
+    "rotationF2P": ""
   }
 ]
