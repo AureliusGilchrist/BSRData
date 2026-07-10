@@ -223,8 +223,8 @@
     ]
   },
   {
-    "id": "kenpachi-focus",
-    "name": "Kenpachi Focus",
+    "id": "kenpachi-team",
+    "name": "Kenpachi Team",
     "rank": 2,
     "tier": "S",
     "difficulty": "Easy",
@@ -265,7 +265,7 @@
     "rotationF2P": "Rotation for lower boundary team should be similar, but Kenpachi will have a more difficult time charging his Spiritual Pressure.",
     "rotations": [
       {
-        "name": "Kenpachi Mono Slash",
+        "name": "Kenpachi Team",
         "tags": [
           "Burst"
         ],
@@ -282,7 +282,7 @@
   {
     "id": "gin-mono",
     "name": "Gin Mono Thrust",
-    "rank": 6,
+    "rank": 7,
     "tier": "S",
     "difficulty": "Easy",
     "content": "Co-op / Guild Boss / Events",
@@ -443,7 +443,7 @@
   {
     "id": "pantera-nel",
     "name": "Pantera Nel Team",
-    "rank": 8,
+    "rank": 9,
     "tier": "A",
     "difficulty": "Easy",
     "content": "Co-op / Guild Boss / Events",
@@ -554,7 +554,7 @@
   {
     "id": "toshiro-mono",
     "name": "Toshiro Mono Spirit",
-    "rank": 7,
+    "rank": 6,
     "tier": "S",
     "difficulty": "Medium",
     "content": "Co-op / Guild Boss / Events",
@@ -717,7 +717,7 @@
   {
     "id": "nel-support",
     "name": "Nel Double Support",
-    "rank": 9,
+    "rank": 10,
     "tier": "A",
     "difficulty": "Easy",
     "content": "Co-op / Guild Boss / Events",
@@ -757,6 +757,59 @@
     "rotations": [
       {
         "name": "Nel Double Support",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          ""
+        ]
+      }
+    ],
+    "rotationF2P": ""
+  },
+  {
+    "id": "white-support",
+    "name": "White Double Support",
+    "rank": 8,
+    "tier": "S",
+    "difficulty": "Easy",
+    "content": "Co-op / Guild Boss / Events",
+    "members": [
+      {
+        "slug": "ichigo-white",
+        "name": "Kurosaki Ichigo (Inner Hollow)",
+        "role": "Tactician",
+        "damageType": "Slash",
+        "notes": [
+          "Overtuned Tactician"
+        ],
+        "swappable": []
+      },
+      {
+        "slug": "mayuri",
+        "name": "Mayuri Kurotsuchi",
+        "role": "Support",
+        "damageType": "Thrust",
+        "notes": [
+          "Low field time support."
+        ],
+        "swappable": []
+      },
+      {
+        "slug": "kisuke",
+        "name": "Kisuke Urahara",
+        "role": "Support",
+        "damageType": "Slash",
+        "notes": [
+          "Standard banner support."
+        ],
+        "swappable": []
+      }
+    ],
+    "rotationP2W": "",
+    "rotations": [
+      {
+        "name": "White Double Support",
         "tags": [
           "Burst"
         ],
