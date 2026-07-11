@@ -91,7 +91,7 @@
                 "kind": "BFS"
               },
               {
-                "kind": "Technique"
+                "kind": "Technique 3"
               },
               {
                 "kind": "Basic Attack",
@@ -200,7 +200,7 @@
             "slug": "aizen",
             "actions": [
               {
-                "kind": "BFS"
+                "kind": "Technique 4"
               },
               {
                 "kind": "Repeat",
