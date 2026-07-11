@@ -318,5 +318,15 @@
     "rarity": "SSR",
     "art": "/Images/yoruichi/art.png",
     "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "ichigo-ts",
+    "name": "Ichigo Kurosaki (True Shikai)",
+    "role": "Assault",
+    "tier": "S",
+    "damageType": "Thrust",
+    "rarity": "SSR",
+    "art": "",
+    "releaseDate": "15 Jul 2026"
   }
 ]
