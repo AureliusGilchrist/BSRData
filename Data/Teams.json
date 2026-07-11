@@ -408,7 +408,7 @@
             ]
           },
           {
-            "slug": "white",
+            "slug": "ichigo-white",
             "actions": [
               {
                 "kind": "SpcAtk"
@@ -452,12 +452,12 @@
               },
               {
                 "kind": "Swap",
-                "slug": "white"
+                "slug": "ichigo-white"
               }
             ]
           },
           {
-            "slug": "white",
+            "slug": "ichigo-white",
             "actions": [
               {
                 "kind": "Basic Attack",
@@ -477,12 +477,12 @@
               },
               {
                 "kind": "Swap",
-                "slug": "white"
+                "slug": "ichigo-white"
               }
             ]
           },
           {
-            "slug": "white",
+            "slug": "ichigo-white",
             "actions": [
               {
                 "kind": "SpcAtk"
@@ -508,12 +508,12 @@
               },
               {
                 "kind": "Swap",
-                "slug": "white"
+                "slug": "ichigo-white"
               }
             ]
           },
           {
-            "slug": "white",
+            "slug": "ichigo-white",
             "actions": [
               {
                 "kind": "Basic Attack",
@@ -539,7 +539,7 @@
               },
               {
                 "kind": "Swap",
-                "slug": "white"
+                "slug": "ichigo-white"
               }
             ]
           },
@@ -551,12 +551,12 @@
               },
               {
                 "kind": "Swap",
-                "slug": "white"
+                "slug": "ichigo-white"
               }
             ]
           },
           {
-            "slug": "white",
+            "slug": "ichigo-white",
             "actions": [
               {
                 "kind": "BFS"
@@ -590,7 +590,7 @@
             ]
           },
           {
-            "slug": "white",
+            "slug": "ichigo-white",
             "actions": [
               {
                 "kind": "Ultimate 2"
