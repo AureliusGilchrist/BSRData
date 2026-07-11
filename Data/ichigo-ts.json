@@ -118,10 +118,10 @@
   ],
   "skills": [
     {
-      "description": "Orihime transforms Tsubaki into a sharp blade that performs ranged attacks, striking 4 times and dealing damage equal to 130.5% of ATK.",
-      "icon": "/Images/orihime/skill-basic.png",
+      "description": "TBD",
+      "icon": "",
       "kind": "Basic Attack",
-      "name": "Kotenzanshun"
+      "name": "TBD"
     },
     {
       "description": "TBD",
@@ -142,7 +142,7 @@
       "name": "Counter"
     },
     {
-      "description": "Dodge to avoid attacks right before they hit. When Perfect Dodge is triggered, inflicts True Time Freeze for 1.5s. This effect can be triggered once every 15s.",
+      "description": "TBD",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Dodge"
