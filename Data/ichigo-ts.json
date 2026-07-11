@@ -58,10 +58,7 @@
   "builds": [
     {
       "label": "Main",
-      "passiveSkills": [
-        "Invigorate",
-        "Restrain"
-      ],
+      "passiveSkills": [],
       "range": "B0W1C1 - B6W5C5",
       "setName": "Ichigo stamp",
       "setPieces": [
