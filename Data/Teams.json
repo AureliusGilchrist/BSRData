@@ -69,6 +69,10 @@
               },
               {
                 "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "aizen"
               }
             ]
           },
@@ -87,6 +91,10 @@
               },
               {
                 "kind": "Ultimate"
+              },
+              {
+                "kind": "Swap",
+                "slug": "szayelaporro"
               }
             ]
           },
