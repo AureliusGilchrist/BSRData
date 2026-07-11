@@ -7,17 +7,12 @@
     "ultimate": ""
   },
   "art": "/Images/ulquiorra-resurreccion/art.png",
-  "damageType": "Spirit",
-  "name": "Ulquiorra Shifar (Resurrección)",
-  "rarity": "SSR",
-  "role": "Assault",
   "bestStamp": {
     "mainStats": "1: Spirit DMG \u003e ATK%  •  2: Crit DMG \u003e ATK%  •  3: ATK%",
     "notes": "Optimal Ulquiorra build",
     "setName": "Fill the Nothingness (3)",
     "subStatPriority": "ATK% \u003e Crit Rate \u003e Ult Charge (168.8% at W5) \u003e Crit DMG \u003e Flat ATK"
   },
-
   "bondPriority": [
     {
       "description": "Increases Spirit Mastery by 8% and Crit rate by 10% during battle. When equipped by a Full Assault character, these effects are further increased by 100%.",
@@ -115,6 +110,7 @@
   "recommendedStopBoundaryF2P": 1,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "26 Jun 2026",
+  "role": "Assault",
   "rotations": [
     {
       "name": "Standard Opener",
@@ -130,7 +126,6 @@
       ]
     }
   ],
-
   "skills": [
     {
       "description": "Ulquiorra swings a light blade condensed from Reishi, dealing 4 hits of damage totaling 457.5% of ATK. ~~Gaze Upon Despair~~ Resurreccion: Segunda Etapa \n Ulquiorra swings a light spear condensed from Reishi, dealing 6 hits of damage totaling 1085% of ATK, with the 3rd hit firing a Cero Oscuras. ~~Worlds Apart~~ At Max Spiritual Pressure, tap and hold basic attack \n Ulquiorra soars into the air, then dives rapidly towards the target's location and attacks, dealing damage equal to 3345% of ATK and gaining 1 Cero Mark.",
@@ -181,10 +176,10 @@
     "def": "327",
     "hp": "1623"
   },
+  "tier": "S",
   "weaponStats": {
     "atk": "201",
     "def": "119",
     "hp": "581"
-  },
-  "tier": "S"
+  }
 }

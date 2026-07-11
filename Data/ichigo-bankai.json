@@ -14,7 +14,6 @@
     "setName": "Rising Black Moon (3)",
     "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Flat ATK"
   },
-
   "bondPriority": [
     {
       "description": "Increases Slash DMG by 12% and All-Skill Mastery by 5% during battle. When Crit Rate is equal or higher than 60%, these effects are further increased by 100%.",
@@ -65,28 +64,28 @@
     {
       "label": "Main",
       "passiveSkills": [
-      "Special Attack",
-      "All DMG"
-    ],
-    "range": "B0W1C1 - B6W5C5",
-    "setName": "Rising Black Moon (3)",
-    "setPieces": [
-      {
-        "mainStat": "Slash DMG Bonus \u003e ATK%",
-        "slot": 1
-      },
-      {
-        "mainStat": "Crit Rate \u003e Crit DMG",
-        "slot": 2
-      },
-      {
-        "mainStat": "ATK%",
-        "slot": 3
-      }
-    ],
-    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Flat ATK",
-    "targets": {
-      "ultChargeRate": "140%+"
+        "Special Attack",
+        "All DMG"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Rising Black Moon (3)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus \u003e ATK%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate \u003e Crit DMG",
+          "slot": 2
+        },
+        {
+          "mainStat": "ATK%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Flat ATK",
+      "targets": {
+        "ultChargeRate": "140%+"
       }
     }
   ],
@@ -124,6 +123,57 @@
   "role": "Assault",
   "rotations": [
     {
+      "iconSteps": [
+        {
+          "actions": [
+            {
+              "kind": "Technique",
+              "label": "Buffs"
+            }
+          ],
+          "slug": "kisuke"
+        },
+        {
+          "actions": [
+            {
+              "label": "Swap In",
+              "slug": "ichigo-bankai"
+            }
+          ],
+          "slug": "kisuke"
+        },
+        {
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "×3"
+            },
+            {
+              "kind": "Special Attack"
+            }
+          ],
+          "slug": "ichigo-bankai"
+        },
+        {
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ],
+          "slug": "ichigo-bankai"
+        },
+        {
+          "actions": [
+            {
+              "kind": "Battlefield Skill"
+            }
+          ],
+          "slug": "kisuke"
+        }
+      ],
       "name": "Getsuga Opener",
       "notes": "This character will require a lot of quickswaps",
       "steps": [
@@ -133,29 +183,48 @@
         "Ichigo Technique → Special Attack → Kisuke Ultimate → White Basic Attacks (1-2) → Battlefield",
         "Finish Battlefield combo → Kisuke Technique → Ichigo Ultimate"
       ],
-      "iconSteps": [
-        { "slug": "kisuke", "actions": [{ "kind": "Technique", "label": "Buffs" }] },
-        { "slug": "kisuke", "actions": [{ "slug": "ichigo-bankai", "label": "Swap In" }] },
-        { "slug": "ichigo-bankai", "actions": [{ "kind": "Technique" }, { "kind": "Basic Attack", "label": "×3" }, { "kind": "Special Attack" }] },
-        { "slug": "ichigo-bankai", "actions": [{ "kind": "Ultimate" }] },
-        { "slug": "kisuke", "actions": [{ "kind": "Battlefield Skill" }] }
-      ],
       "tags": [
         "Opener"
       ]
     },
     {
+      "iconSteps": [
+        {
+          "actions": [
+            {
+              "kind": "Counter"
+            }
+          ],
+          "slug": "ichigo-bankai"
+        },
+        {
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "×3"
+            },
+            {
+              "kind": "Technique"
+            }
+          ],
+          "slug": "ichigo-bankai"
+        },
+        {
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 1"
+            }
+          ],
+          "slug": "ichigo-bankai"
+        }
+      ],
       "name": "Burst in Ultimate",
       "steps": [
         "After activating Ultimate → Special Attack (cancel it immediately) → Manual Counter → Special Attack",
         "White Special Attack → Manual Counter → Technique → Ichigo Counter → Special Attack",
         "Battlefield → White Ultimate → Kisuke Special Attack (1-2)",
-	      "Ichigo Technique → Special Attack → Technique → Special Attack → Ultimate → Basic Attack (x3) → Special Attack → Kisuke Ultimate → White Ultimate"
-      ],
-      "iconSteps": [
-        { "slug": "ichigo-bankai", "actions": [{ "kind": "Counter" }] },
-        { "slug": "ichigo-bankai", "actions": [{ "kind": "Basic Attack", "label": "×3" }, { "kind": "Technique" }] },
-        { "slug": "ichigo-bankai", "actions": [{ "kind": "Repeat", "label": "Step 1" }] }
+        "Ichigo Technique → Special Attack → Technique → Special Attack → Ultimate → Basic Attack (x3) → Special Attack → Kisuke Ultimate → White Ultimate"
       ],
       "tags": [
         "Burst"

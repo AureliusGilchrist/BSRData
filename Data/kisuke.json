@@ -229,7 +229,6 @@
       ]
     }
   },
-  "tier": "A",
   "stats": {
     "atk": "335",
     "critDamage": "+50%",
@@ -237,6 +236,7 @@
     "def": "327",
     "hp": "1623"
   },
+  "tier": "A",
   "weaponStats": {
     "atk": "201",
     "def": "119",

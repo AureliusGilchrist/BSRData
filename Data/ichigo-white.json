@@ -98,7 +98,7 @@
   ],
   "corePassives": [
     {
-      "description": "After gaining 2 Instinct Points, Inner Hollow enters Instinct Burst, increasing his ATK by 20%. While in Shikai, the 4th hit of his basic attack, the 2nd hit of his technique, and counterattack each consume 1 Instinct Point to release Getsuga Tensho. ~~King & His Horse~~ \n When Inner Hollow and Ichigo Kurosaki - Bankai are in the same team, Ichigo's ATK increases by 30% during his Hollowfied Ultimate state.",
+      "description": "After gaining 2 Instinct Points, Inner Hollow enters Instinct Burst, increasing his ATK by 20%. While in Shikai, the 4th hit of his basic attack, the 2nd hit of his technique, and counterattack each consume 1 Instinct Point to release Getsuga Tensho. ~~King \u0026 His Horse~~ \n When Inner Hollow and Ichigo Kurosaki - Bankai are in the same team, Ichigo's ATK increases by 30% during his Hollowfied Ultimate state.",
       "icon": "/Images/ichigo-white/passive-1.png",
       "name": "Instinct Burst"
     },
@@ -218,10 +218,10 @@
     "def": "327",
     "hp": "1623"
   },
+  "tier": "S",
   "weaponStats": {
     "atk": "201",
     "def": "119",
     "hp": "581"
-  },
-  "tier": "S"
+  }
 }

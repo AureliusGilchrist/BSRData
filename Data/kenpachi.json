@@ -11,7 +11,7 @@
     "mainStats": "1: ATK% \u003e Slash DMG •  2: Crit Rate  •  3: Ailment% \u003e ATK%",
     "notes": "All Techniques, Special Attacks can be quickswapped out of",
     "setName": "Ready to Go (3)",
-    "subStatPriority": "Crit Rate (50%) \u003e Ailment% \u003e ATK% \u003e Crit DMG \u003e Ult Charge Rate (>114%)"
+    "subStatPriority": "Crit Rate (50%) \u003e Ailment% \u003e ATK% \u003e Crit DMG \u003e Ult Charge Rate (\u003e114%)"
   },
   "bondPriority": [
     {
@@ -67,29 +67,29 @@
     {
       "label": "Standard",
       "passiveSkills": [
-      "Ult DMG",
-      "All DMG 9%"
-    ],
-    "range": "B2W5C5 - B6W5C5",
-    "setName": "Ready to Go (3)",
-    "setPieces": [
-      {
-        "mainStat": "ATK% \u003e Slash DMG",
-        "slot": 1
-      },
-      {
-        "mainStat": "Crit Rate",
-        "slot": 2
-      },
-      {
-        "mainStat": "Ailment DMG Bonus \u003e ATK%",
-        "slot": 3
+        "Ult DMG",
+        "All DMG 9%"
+      ],
+      "range": "B2W5C5 - B6W5C5",
+      "setName": "Ready to Go (3)",
+      "setPieces": [
+        {
+          "mainStat": "ATK% \u003e Slash DMG",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ailment DMG Bonus \u003e ATK%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit Rate (50%) \u003e Ailment% \u003e ATK% \u003e Crit DMG \u003e Ult Charge Rate (\u003e114%)",
+      "targets": {
+        "ultChargeRate": "~114% - 128%"
       }
-    ],
-    "subStatPriority": "Crit Rate (50%) \u003e Ailment% \u003e ATK% \u003e Crit DMG \u003e Ult Charge Rate (>114%)",
-    "targets": {
-      "ultChargeRate": "~114% - 128%"
-     }
     },
     {
       "label": "Min Max",
@@ -110,7 +110,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate (50%) \u003e Ult Charge Rate (118%) \u003e Ailment% (>100%) \u003e ATK% \u003e Crit DMG"
+      "subStatPriority": "Crit Rate (50%) \u003e Ult Charge Rate (118%) \u003e Ailment% (\u003e100%) \u003e ATK% \u003e Crit DMG"
     },
     {
       "label": "F2P",
@@ -254,10 +254,10 @@
     "def": "327",
     "hp": "1623"
   },
+  "tier": "S",
   "weaponStats": {
     "atk": "201",
     "def": "119",
     "hp": "581"
-  },
-  "tier": "S"
+  }
 }
