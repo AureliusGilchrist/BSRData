@@ -65,7 +65,15 @@
                 "kind": "Technique"
               },
               {
-                "kind": "Basic Attack"
+                "kind": "Basic Attack",
+                "label": "x3"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "x3"
               },
               {
                 "kind": "Technique"
@@ -143,7 +151,7 @@
                 "label": "x3"
               },
               {
-                "kind": "BFS"
+                "kind": "Technique 2"
               },
               {
                 "kind": "Swap",
