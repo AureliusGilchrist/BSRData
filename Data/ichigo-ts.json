@@ -1,62 +1,58 @@
 {
-  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Inoue_Orihime",
+  "_spanishSource": "",
   "_spanishText": {
     "basic": "",
     "counter": "",
     "technique": "",
     "ultimate": ""
   },
-  "art": "/Images/orihime/art.png",
+  "art": "TBD",
   "bestStamp": {
-    "mainStats": "1: HP%  •  2: HP%  •  3: HP%",
-    "notes": "Decent shield",
-    "setName": "Hidden Wisdom (3)",
-    "subStatPriority": "HP% \u003e Flat HP \u003e DEF% \u003e Flat DEF"
+    "mainStats": "1: TBD  •  2: TBD  •  3: TBD",
+    "notes": "TBD",
+    "setName": "Ichigo stamp (3)",
+    "subStatPriority": "TBD \u003e TBD"
   },
   "bondPriority": [
     {
-      "description": "During battle, teammates other than yourself gain 40% Crit DMG. Unstackable.",
-      "name": "Mayuri Bond"
-    },
-    {
-      "description": "Increases ATK of all team characters during battle by 6%.",
-      "name": "ATK Bond"
+      "description": "TBD",
+      "name": "Ichigo Bond"
     }
   ],
   "boundaries": [
     {
-      "description": "Increases the duration of Tsubaki's Support to 20s.",
-      "icon": "/Images/orihime/boundary-1.png",
+      "description": "",
+      "icon": "",
       "level": 1,
-      "name": "Strength of Blossoms"
-    },
-    {
-      "description": "After releasing the technique Santenkesshun, instantly heals all characters in the team for 10% of Orihime's Max HP.",
-      "icon": "/Images/orihime/boundary-2.png",
-      "level": 2,
-      "name": "All Things Denied"
+      "name": ""
     },
     {
       "description": "",
-      "icon": "/Images/orihime/boundary-3.png",
+      "icon": "",
+      "level": 2,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
       "level": 3
     },
     {
-      "description": "Increases Healing Effects provided by Orihime by 20%.",
-      "icon": "/Images/orihime/boundary-4.png",
+      "description": "",
+      "icon": "",
       "level": 4,
-      "name": "Splendor"
+      "name": ""
     },
     {
       "description": "",
-      "icon": "/Images/orihime/boundary-5.png",
+      "icon": "",
       "level": 5
     },
     {
-      "description": "When an on-field character takes fatal DMG, Inoue instantly provides aid, restoring their HP to 50% of Max HP and granting them Invincibility for 3s. Triggers only once per stage.",
-      "icon": "/Images/orihime/boundary-6.png",
+      "description": "",
+      "icon": "",
       "level": 6,
-      "name": "The Final Gift"
+      "name": ""
     }
   ],
   "builds": [
@@ -67,60 +63,56 @@
         "Restrain"
       ],
       "range": "B0W1C1 - B6W5C5",
-      "setName": "Hidden Wisdom",
+      "setName": "Ichigo stamp",
       "setPieces": [
         {
-          "mainStat": "HP%",
+          "mainStat": "TBD",
           "slot": 1
         },
         {
-          "mainStat": "HP%",
+          "mainStat": "TBD",
           "slot": 2
         },
         {
-          "mainStat": "HP%",
+          "mainStat": "TBD",
           "slot": 3
         }
       ],
-      "subStatPriority": "HP% \u003e Flat HP \u003e DEF% \u003e Flat DEF"
+      "subStatPriority": "TBD"
     }
   ],
   "corePassives": [
     {
-      "description": "The first character you switch in after Orihime releases a technique gains Tsubaki's Support for 10s. Tsubaki's Support: Increases All-Type DMG by 25%.",
-      "icon": "/Images/orihime/passive-1.png",
-      "name": "Tsubaki's Support"
+      "description": "TBD",
+      "icon": "",
+      "name": "TBD"
     },
     {
-      "description": "Increases Orihime's Max HP by 25%.",
-      "icon": "/Images/orihime/passive-2.png",
-      "name": "Rikka's Protection"
+      "description": "TBD",
+      "icon": "",
+      "name": "TBD"
     },
     {
-      "description": "Tsubaki's Support additionally increases the current character's ATK by an extra 25%.",
-      "icon": "/Images/orihime/passive-3.png",
-      "name": "Power of Rejection"
+      "description": "TBD",
+      "icon": "",
+      "name": "TBD"
     }
   ],
-  "damageType": "Spirit",
-  "name": "Orihime Inoue",
-  "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
-  "rarity": "SR",
-  "recommendedStopBoundary": 0,
+  "damageType": "Thrust",
+  "name": "Ichigo Kurosaki",
+  "note": "Collaboration event unit",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
   "recommendedStopBoundaryF2P": 0,
-  "recommendedStopBoundaryP2W": 1,
-  "releaseDate": "21 Nov 2025",
-  "role": "Support",
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "15 Jul 2026",
+  "role": "Full Assault",
   "rotations": [
     {
-      "name": "Shield Loop",
-      "steps": [
-        "Technique on cooldown",
-        "Swap out",
-        "Ultimate to heal as needed"
-      ],
+      "name": "TBD",
+      "steps": [],
       "tags": [
-        "Sustain"
+        "Standard"
       ]
     }
   ],
@@ -132,20 +124,20 @@
       "name": "Kotenzanshun"
     },
     {
-      "description": "Orihime transforms Hinagiku, Baigon, and Lily into a shield that can absorb damage up to 9.75% of her Max HP + 1170 and last for 20s. \n While the shield is activate, she gains Super Armor, and this effect persists when switching characters.",
-      "icon": "/Images/orihime/skill-technique.png",
+      "description": "TBD",
+      "icon": "",
       "kind": "Technique",
-      "name": "Santenkesshun"
+      "name": "TBD"
     },
     {
-      "description": "Orihime has Shuno and Ayame form a shield that blocks debuffs, immediately restoring all teammates' HP for 12% of her Max Hp + 1350.",
-      "icon": "/Images/orihime/skill-ultimate.png",
+      "description": "TBD",
+      "icon": "",
       "kind": "Ultimate",
-      "name": "Sotenkishun"
+      "name": "TBD"
     },
     {
-      "description": "Orihime retreats a short distance and commands Tsubaki to attack the target, dealing damage equal to 288% of ATK and immediately restoring all teammates' HP for 6% of her Max HP + 675.",
-      "icon": "/Images/orihime/skill-counter.png",
+      "description": "TBD",
+      "icon": "",
       "kind": "Counter",
       "name": "Counter"
     },
@@ -156,7 +148,7 @@
       "name": "Dodge"
     }
   ],
-  "slug": "orihime",
+  "slug": "ichigo-ts",
   "source": null,
   "stamps": {
     "core": {
@@ -168,5 +160,5 @@
       "ascend5": []
     }
   },
-  "tier": "D"
+  "tier": "S"
 }
