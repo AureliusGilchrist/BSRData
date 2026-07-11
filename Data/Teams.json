@@ -59,8 +59,14 @@
         ],
         "iconSteps": [
           {
-            "slug": "szayelaporro",
+            "slug": "ulquiorra-resurreccion",
             "actions": [
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Basic Attack"
+              },
               {
                 "kind": "Technique"
               }
@@ -70,22 +76,35 @@
             "slug": "aizen",
             "actions": [
               {
+                "kind": "BFS"
+              },
+              {
                 "kind": "Technique"
               },
               {
-                "kind": "Battlefield Skill"
+                "kind": "Basic Attack",
+                "label": "x3"
+              },
+              {
+                "kind": "Ultimate"
               }
             ]
           },
           {
-            "slug": "ulquiorra-resurreccion",
+            "slug": "szayelaporro",
             "actions": [
               {
-                "kind": "Basic Attack",
-                "label": "×3"
+                "kind": "Counter"
+              },
+              {
+                "kind": "Ultimate"
               },
               {
                 "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ulquiorra-resurreccion"
               }
             ]
           },
@@ -94,6 +113,82 @@
             "actions": [
               {
                 "kind": "Ultimate"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "x1"
+              },
+              {
+                "kind": "Swap",
+                "slug": "aizen"
+              }
+            ]
+          },
+          {
+            "slug": "aizen",
+            "actions": [
+              {
+                "kind": "Basic Attack",
+                "label": "x3"
+              },
+              {
+                "kind": "BFS"
+              },
+              {
+                "kind": "Swap",
+                "slug": "szayelaporro"
+              }
+            ]
+          },
+          {
+            "slug": "szayelaporro",
+            "actions": [
+              {
+                "kind": "Counter"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ulquiorra-resurreccion"
+              }
+            ]
+          },
+          {
+            "slug": "ulquiorra-resurreccion",
+            "actions": [
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Enhanced Technique"
+              },
+              {
+                "kind": "Technique",
+                "label": "x2-4"
+              },
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "Technique",
+                "label": "spam"
+              },
+              {
+                "kind": "Ultimate"
+              }
+            ]
+          },
+          {
+            "slug": "aizen",
+            "actions": [
+              {
+                "kind": "BFS"
+              },
+              {
+                "kind": "Repeat",
+                "label": "step 1"
               }
             ]
           }
