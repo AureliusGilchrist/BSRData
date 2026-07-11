@@ -236,6 +236,10 @@
               {
                 "kind": "SpcAtk",
                 "label": "x2"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ulquiorra-resurreccion"
               }
             ]
           },
@@ -258,6 +262,10 @@
               },
               {
                 "kind": "BFS"
+              },
+              {
+                "kind": "Swap",
+                "slug": "momo"
               }
             ]
           },
@@ -270,6 +278,10 @@
               {
                 "kind": "SpcAtk",
                 "label": "x2"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ulquiorra-resurreccion"
               }
             ]
           },
@@ -317,14 +329,6 @@
               },
               {
                 "kind": "Repeat"
-              }
-            ]
-          },
-          {
-            "slug": "toshiro",
-            "actions": [
-              {
-                "kind": "Ultimate"
               }
             ]
           }
@@ -385,6 +389,227 @@
           "Kenpachi Special Attack → Mayuri Technique → Mayuri Special Attack→ White Basic Attack (as much as possible before Kenpachi can be swapped back onto) → Kenpachi Swap → Enhanced Technique → Swap to White → White Special Attack → White Manual Counter → Kenpachi Counter → Kenpachi Special Attack",
           "Swap to Mayuri for 1x Basic Attack → Swap to White → Basic Attack until Kenpachi is available to swap → White Technique → Kenpachi Counter → Kenpachi Enhanced Technique → Mayuri Technique → Mayuri Special Attack → Battlefield",
           "White Ultimate → Basic Attack until Mayuri Ult is off cooldown → Mayuri Ultimate → Kenpachi Ultimate → Basic Attack until Ultimate is charged → Kenpachi Ultimate"
+        ],
+        "iconSteps": [
+          {
+            "slug": "kenpachi",
+            "actions": [
+              {
+                "kind": "Technique"
+              }
+            ]
+          },
+          {
+            "slug": "mayuri",
+            "actions": [
+              {
+                "kind": "Ultimate"
+              }
+            ]
+          },
+          {
+            "slug": "white",
+            "actions": [
+              {
+                "kind": "SpcAtk"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "x2"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "kenpachi"
+              }
+            ]
+          },
+          {
+            "slug": "kenpachi",
+            "actions": [
+              {
+                "kind": "Technique 2"
+              },
+              {
+                "kind": "SpcAtk"
+              },
+              {
+                "kind": "Swap",
+                "slug": "mayuri"
+              }
+            ]
+          },
+          {
+            "slug": "mayuri",
+            "actions": [
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "SpcAtk"
+              },
+              {
+                "kind": "Swap",
+                "slug": "white"
+              }
+            ]
+          },
+          {
+            "slug": "white",
+            "actions": [
+              {
+                "kind": "Basic Attack",
+                "label": "x3"
+              },
+              {
+                "kind": "Swap",
+                "slug": "kenpachi"
+              }
+            ]
+          },
+          {
+            "slug": "kenpachi",
+            "actions": [
+              {
+                "kind": "Enhanced Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "white"
+              }
+            ]
+          },
+          {
+            "slug": "white",
+            "actions": [
+              {
+                "kind": "SpcAtk"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Enhanced Counter"
+              },
+              {
+                "kind": "Swap",
+                "slug": "mayuri"
+              }
+            ]
+          },
+          {
+            "slug": "mayuri",
+            "actions": [
+              {
+                "kind": "Basic Attack",
+                "label": "x1"
+              },
+              {
+                "kind": "Swap",
+                "slug": "white"
+              }
+            ]
+          },
+          {
+            "slug": "white",
+            "actions": [
+              {
+                "kind": "Basic Attack",
+                "label": "x3"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "kenpachi"
+              }
+            ]
+          },
+          {
+            "slug": "kenpachi",
+            "actions": [
+              {
+                "kind": "Enhanced Counter"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "white"
+              }
+            ]
+          },
+          {
+            "slug": "mayuri",
+            "actions": [
+              {
+                "kind": "Enhanced Technique 2"
+              },
+              {
+                "kind": "Swap",
+                "slug": "white"
+              }
+            ]
+          },
+          {
+            "slug": "white",
+            "actions": [
+              {
+                "kind": "BFS"
+              },
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "x3"
+              },
+              {
+                "kind": "Swap",
+                "slug": "mayuri"
+              }
+            ]
+          },
+          {
+            "slug": "kenpachi",
+            "actions": [
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "x5"
+              },
+              {
+                "kind": "Ultimate 2"
+              }
+            ]
+          },
+          {
+            "slug": "white",
+            "actions": [
+              {
+                "kind": "Ultimate 2"
+              },
+              {
+                "kind": "Swap",
+                "slug": "kenpachi"
+              }
+            ]
+          },
+          {
+            "slug": "kenpachi",
+            "actions": [
+              {
+                "kind": "Repeat",
+                "label": "Step 01"
+              }
+            ]
+          }
         ],
         "notes": ""
       }
