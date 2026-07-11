@@ -132,7 +132,7 @@
   ],
   "skills": [
     {
-      "description": "Szayelaporro swings his Zanpakuto, dealing 5 hits for a total damage of 285% of ATK. The 3rd to 5th hits each summon a Fraccion to assist, leaving behind 1 Sacrificial Material at the original location.  ~~Master  Szayelaporro!~~ Tap and hold Basic Attack while Sacrificial Material exists on the field \n Denotates all Sacrificial Materials on the field, with each one dealing equal to 80% of ATK. During Resurreccion, whenever Intel Control is gained, the same number of Brutal Modification stacks is also gained, up to 6 stacks. ~~Don't Make Me Do It Myself~~ Resurreccion \n Szayelaporro commands his Fracciones to continuously attack enemies, dealing 3 hits for a total of 415% of ATK as damage. Each hit leaves behind 1 Sacrificial Material at the original location.",
+      "description": "Szayelaporro swings his Zanpakuto, dealing 5 hits for a total damage of 285% of ATK. The 3rd to 5th hits each summon a Fraccion to assist, leaving behind 1 Sacrificial Material at the original location.  ~~Master  Szayelaporro!~~ Tap and hold Basic Attack while Sacrificial Material exists on the field \n Detonates all Sacrificial Materials on the field, with each one dealing equal to 80% of ATK. During Resurreccion, whenever Intel Control is gained, the same number of Brutal Modification stacks is also gained, up to 6 stacks. ~~Don't Make Me Do It Myself~~ Resurreccion \n Szayelaporro commands his Fracciones to continuously attack enemies, dealing 3 hits for a total of 415% of ATK as damage. Each hit leaves behind 1 Sacrificial Material at the original location.",
       "icon": "/Images/szayelaporro/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Modification Research",

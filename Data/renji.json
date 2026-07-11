@@ -53,7 +53,7 @@
       "level": 5
     },
     {
-      "description": "Each time Lacerate triggers, deal extra DMG based on the enemy's Max HP: 3% to enemies with Spiritual Pressure bar and 20% to other enemise. DMG is capped at 300% of Renji's ATK.",
+      "description": "Each time Lacerate triggers, deal extra DMG based on the enemy's Max HP: 3% to enemies with Spiritual Pressure bar and 20% to other enemies. DMG is capped at 300% of Renji's ATK.",
       "icon": "/Images/renji/boundary-6.png",
       "level": 6,
       "name": "Under the Stars"
@@ -132,7 +132,7 @@
       "name": "Roar, Zabimaru!"
     },
     {
-      "description": "Renji plants Zabimaru deep into the ground, and the blade emerges to strike the enemy, dealing damage equal to 199.5% of ATK and pulling them toward him. \n \n This skill inflicts Zabi Mark that lats 10s on hit.",
+      "description": "Renji plants Zabimaru deep into the ground, and the blade emerges to strike the enemy, dealing damage equal to 199.5% of ATK and pulling them toward him. \n \n This skill inflicts Zabi Mark that lasts 10s on hit.",
       "icon": "/Images/renji/skill-technique.png",
       "kind": "Technique",
       "name": "Thrust"

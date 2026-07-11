@@ -26,7 +26,7 @@
   ],
   "boundaries": [
     {
-      "description": "While in Resurreccion: Segunda Etapa, releasing the first Ultimate, Annihilation, does not consume Ultime Energy or end Resurreccion: Segunda Etapa. In addition, the character immediately enters Thunderous Assault and restores Spiritual Pressure to maximum, allowing a second Ultimate, Annihilation, to be released after 5 second(s). \n Reduces the cooldown of the Ultimate, Resurreccion: Segunda  Etapa, by 5 second(s).",
+      "description": "While in Resurreccion: Segunda Etapa, releasing the first Ultimate, Annihilation, does not consume Ultimate Energy or end Resurreccion: Segunda Etapa. In addition, the character immediately enters Thunderous Assault and restores Spiritual Pressure to maximum, allowing a second Ultimate, Annihilation, to be released after 5 second(s). \n Reduces the cooldown of the Ultimate, Resurreccion: Segunda Etapa, by 5 second(s).",
       "icon": "/Images/ulquiorra-resurreccion/boundary-1.png",
       "level": 1,
       "name": "Wings That Seal the Night"
@@ -88,7 +88,7 @@
   ],
   "corePassives": [
     {
-      "description": "While in Resurreccion I, releasing a countter or the 4th hit of basic attack refreshes the technique cooldown. \n \n When HP falls below 50%, Ulquiorra activates his instant regeneration, restoring 5% of his Max HP every second for 10 seconds. This effect has a 30-second cooldown.",
+      "description": "While in Resurreccion I, releasing a counter or the 4th hit of basic attack refreshes the technique cooldown. \n \n When HP falls below 50%, Ulquiorra activates his instant regeneration, restoring 5% of his Max HP every second for 10 seconds. This effect has a 30-second cooldown.",
       "icon": "/Images/ulquiorra-resurreccion/passive-1.png",
       "name": "The End of Void"
     },
@@ -151,7 +151,7 @@
       "name": "Resurreccion: Segunda Etapa"
     },
     {
-      "description": "After countering an enemy attack, Ulquiorra instantly launches several cuonterattacks, then descends from the air with a powerful slash, dealing total damage equal to 1000% of ATK. ~~Crushed Will~ Resurreccion: Segunda Etapa \n Ulquiorra seizes and opening in the enemy's attack, counterattacks mercilessly, and knocks them back, dealing damage equal to 1600% of ATK.",
+      "description": "After countering an enemy attack, Ulquiorra instantly launches several counterattacks, then descends from the air with a powerful slash, dealing total damage equal to 1000% of ATK. ~~Crushed Will~ Resurreccion: Segunda Etapa \n Ulquiorra seizes and opening in the enemy's attack, counterattacks mercilessly, and knocks them back, dealing damage equal to 1600% of ATK.",
       "icon": "/Images/ulquiorra-resurreccion/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"

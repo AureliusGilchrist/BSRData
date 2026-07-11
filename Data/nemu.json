@@ -87,7 +87,7 @@
   ],
   "corePassives": [
     {
-      "description": "When Upper Body Overdrive and Lower Body Overdrive are active at the same time, Nemu activates Full-Body Overdrive: Doubles the bonus effects of Uper Body Overdrive and Lower Body Overdrive. \n \n Durations of Upper Body Overdrive and Lower Body Overdrive are mutually independent. Should either mode end, Full-Body Overdrive ends as well. Overdrive mode countdowns continue even when Nemu is off-field.",
+      "description": "When Upper Body Overdrive and Lower Body Overdrive are active at the same time, Nemu activates Full-Body Overdrive: Doubles the bonus effects of Upper Body Overdrive and Lower Body Overdrive. \n \n Durations of Upper Body Overdrive and Lower Body Overdrive are mutually independent. Should either mode end, Full-Body Overdrive ends as well. Overdrive mode countdowns continue even when Nemu is off-field.",
       "icon": "/Images/nemu/passive-1.png",
       "name": "Full-Body Overdrive"
     },
@@ -144,7 +144,7 @@
       "name": "Sonic Roundhouse Kick"
     },
     {
-      "description": "Nemu kicks the enemy into the air and Flash Steps to their back tto counterattack, dealing DMG equal to 288% of ATK and instantly filling Spiritual Pressure to maximum. \n Nemu automatically switches to Lower Body Mode after counterattacking.",
+      "description": "Nemu kicks the enemy into the air and Flash Steps to their back to counterattack, dealing DMG equal to 288% of ATK and instantly filling Spiritual Pressure to maximum. \n Nemu automatically switches to Lower Body Mode after counterattacking.",
       "icon": "/Images/nemu/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"

@@ -16,7 +16,7 @@
   },
   "bondPriority": [
     {
-      "description": "Increases Spirit Mastery by 8% and Crit Rate by 10% during battle. When equipped by a Full Assault character, these effects are furtherincreased by 100%.",
+      "description": "Increases Spirit Mastery by 8% and Crit Rate by 10% during battle. When equipped by a Full Assault character, these effects are further increased by 100%.",
       "name": "Ulquiorra Bond"
     },
     {
@@ -184,13 +184,13 @@
       "name": "Ice Wall"
     },
     {
-      "description": "Toshiro covers his body with ice and enters Bankai state. In this state, Toshiro can fly above the ground and all his moves will be replaced by more powerful ones. ~~Hyoten Hyakkaso~~ In Bankai state with max Ultimate Energy \n Toshiro channels freezing air currents, causing myraids ice flowers to bloom on the enemy's body. This deals DMG equal to 2760% of ATK and consumes all Ice Blossoms. Each Ice Blossom consumed grants an extra 6% DMG multiplier. Releashing this skill removes Bankai State.",
+      "description": "Toshiro covers his body with ice and enters Bankai state. In this state, Toshiro can fly above the ground and all his moves will be replaced by more powerful ones. ~~Hyoten Hyakkaso~~ In Bankai state with max Ultimate Energy \n Toshiro channels freezing air currents, causing myriad ice flowers to bloom on the enemy's body. This deals DMG equal to 2760% of ATK and consumes all Ice Blossoms. Each Ice Blossom consumed grants an extra 6% DMG multiplier. Releasing this skill removes Bankai State.",
       "icon": "/Images/toshiro/skill-3.png",
       "kind": "Ultimate",
       "name": "Bankai - Daiguren Hyorinmaru"
     },
     {
-      "description": "Toshiro falls back to create distance and then lunges at the enemy to counterattack, dealing damage equal to 1250% of ATK, inflicting 15 Freeze Points on them, and gaining Spiritual Pressure. ~~Ryusenka~~ Bankai State \n Toshiro thrusts forward and evenlopes the enemy in a huge ice cross, dealing damage equal to 1500% of ATK and inflicting 15 Freeze Points while applying 2 stacks of Ice Edge on himself. Counterattack DMG dealt by actively tapping the counter button is reduced to 25%.",
+      "description": "Toshiro falls back to create distance and then lunges at the enemy to counterattack, dealing damage equal to 1250% of ATK, inflicting 15 Freeze Points on them, and gaining Spiritual Pressure. ~~Ryusenka~~ Bankai State \n Toshiro thrusts forward and envelops the enemy in a huge ice cross, dealing damage equal to 1500% of ATK and inflicting 15 Freeze Points while applying 2 stacks of Ice Edge on himself. Counterattack DMG dealt by actively tapping the counter button is reduced to 25%.",
       "icon": "/Images/toshiro/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"

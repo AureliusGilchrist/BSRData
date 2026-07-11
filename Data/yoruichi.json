@@ -132,14 +132,14 @@
   ],
   "skills": [
     {
-      "description": "Yoruichi strikes the enemy 5 times with martial arts, dealing damage equal to 716% of ATK and gaining Spiritual Pressure. ~~Hakuda - Blitz~~ Press and hold basic attakc at max Spiritual Pressure \n Yoruichi leaps high into the air and charges briefly to smash the target, dealing damage equal to 270% of ATK. ~~Hakuda - Stomping Strike~~ Tap basic attack after dodging an enemy attack \n Yoruichi quickly leaps above the target and stomps down, dealing damage equal to 136% of ATK.",
+      "description": "Yoruichi strikes the enemy 5 times with martial arts, dealing damage equal to 716% of ATK and gaining Spiritual Pressure. ~~Hakuda - Blitz~~ Press and hold basic attack at max Spiritual Pressure \n Yoruichi leaps high into the air and charges briefly to smash the target, dealing damage equal to 270% of ATK. ~~Hakuda - Stomping Strike~~ Tap basic attack after dodging an enemy attack \n Yoruichi quickly leaps above the target and stomps down, dealing damage equal to 136% of ATK.",
       "icon": "/Images/yoruichi/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Hakuda - Combo",
       "variant": null
     },
     {
-      "description": "Yoruichi approaches the target with Flash Step, stomps on them, and attacks with a shuriken, dealing damage equal to 348% of ATK. \n After releasing this skill, immediately tap basic attack to fololw up with the special attack, Hakuda - Stomping Strike.",
+      "description": "Yoruichi approaches the target with Flash Step, stomps on them, and attacks with a shuriken, dealing damage equal to 348% of ATK. \n After releasing this skill, immediately tap basic attack to follow up with the special attack, Hakuda - Stomping Strike.",
       "icon": "/Images/yoruichi/skill-technique.png",
       "kind": "Technique",
       "name": "Anken, Dark Sword",

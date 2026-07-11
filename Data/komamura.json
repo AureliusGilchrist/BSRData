@@ -168,7 +168,7 @@
       "name": "Roar, Tenken"
     },
     {
-      "description": "Komamura releases his Spiritual Power, dealing damage equal to 191.25% of ATK to nearby enemies and knocking them back. He also gains a 15s shield that can absorb damage equal to 30% of his Max HP. The shield persists when switching characters. ~~Coercion~~ Bankai State \n Kokujo Tengen Myo-oh fully manifests and swings a massive blade to smash enemies in front of him 3 times, delaing DMG equal to 765% of ATK and gaining 2 stacks of Build Up.",
+      "description": "Komamura releases his Spiritual Power, dealing damage equal to 191.25% of ATK to nearby enemies and knocking them back. He also gains a 15s shield that can absorb damage equal to 30% of his Max HP. The shield persists when switching characters. ~~Coercion~~ Bankai State \n Kokujo Tengen Myo-oh fully manifests and swings a massive blade to smash enemies in front of him 3 times, dealing DMG equal to 765% of ATK and gaining 2 stacks of Build Up.",
       "icon": "/Images/komamura/skill-technique.png",
       "kind": "Technique",
       "name": "Intimidation"
@@ -186,7 +186,7 @@
       "name": "Counter"
     },
     {
-      "description": "~~While the Battlefield Skill is active, all characters in theteam have their Strike DMG increased by 30%~~ \n \n Komamura's Battlefield Skill button will be activated when any on-field teammate releases a technique or the final strike of their basic attacks. Cooldown: 3.5s. ~~Tenken Ascension - Slash~~ \n Komamura attacks together with Tengen Myo-oh, slashing the target to deal 180.25% AoE DMG and gaining 1 stack of Build Up. After every 2 releases of Tenken Ascension - Slash, the next Battlefield Skill will become the more powerful Tenken Ascension - Smash. ~~Tenken Ascension - Smash~~ After releasing Tenken Ascension - Slash twice \n Immediately switch in Komamura and launch a slash together with Tengen Myo-oh, dealing 358.75% AoE DMG to the target and gaining 1 stack of Build Up. ~~Tenken Ascension - Charged Strike~~ Bankai State \n Kokujo Tengen Myo-oh  consumes all stacks of Build Up to release a powerful slash. Each stack of Build Up consumed triggers an extra strike that deals DMG equal to 89.25% of Komamura's ATK. Releasing this skill removes Bankai state.",
+      "description": "~~While the Battlefield Skill is active, all characters in the team have their Strike DMG increased by 30%~~ \n \n Komamura's Battlefield Skill button will be activated when any on-field teammate releases a technique or the final strike of their basic attacks. Cooldown: 3.5s. ~~Tenken Ascension - Slash~~ \n Komamura attacks together with Tengen Myo-oh, slashing the target to deal 180.25% AoE DMG and gaining 1 stack of Build Up. After every 2 releases of Tenken Ascension - Slash, the next Battlefield Skill will become the more powerful Tenken Ascension - Smash. ~~Tenken Ascension - Smash~~ After releasing Tenken Ascension - Slash twice \n Immediately switch in Komamura and launch a slash together with Tengen Myo-oh, dealing 358.75% AoE DMG to the target and gaining 1 stack of Build Up. ~~Tenken Ascension - Charged Strike~~ Bankai State \n Kokujo Tengen Myo-oh  consumes all stacks of Build Up to release a powerful slash. Each stack of Build Up consumed triggers an extra strike that deals DMG equal to 89.25% of Komamura's ATK. Releasing this skill removes Bankai state.",
       "icon": "/Images/komamura/skill-bfs.png",
       "kind": "Battlefield Skill",
       "name": "Tenken Release - Slash"

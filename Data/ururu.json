@@ -15,7 +15,7 @@
   },
   "bondPriority": [
     {
-      "description": "Increases Spirit Mastery by 8% and Crit Rate by 10% during battle. When equipped by a Full Assault character, these effects are furtherincreased by 100%.",
+      "description": "Increases Spirit Mastery by 8% and Crit Rate by 10% during battle. When equipped by a Full Assault character, these effects are further increased by 100%.",
       "name": "Ulquiorra Bond"
     },
     {
@@ -100,11 +100,11 @@
     {
       "description": "When there is an enemy in the Burning Area, Ururu deals 30% more Spirit DMG.",
       "icon": "/Images/ururu/passive-3.png",
-      "name": "Supressing Fire"
+      "name": "Suppressing Fire"
     }
   ],
   "damageType": "Spirit",
-  "name": "Ururu Tsumigaya",
+  "name": "Ururu Tsumugiya",
   "note": "No build guide available on hideoutgacha.com at time of authoring. Tier/role/damage type sourced from the tier list.",
   "rarity": "SR",
   "recommendedStopBoundary": 0,
@@ -127,7 +127,7 @@
   ],
   "skills": [
     {
-      "description": "Ururu launches a melee attack at the target to strike 6 times, dealing admage equal to 322.5% of ATK. \n Landing each basic attack restores 1 stack of Spiritual Pressure Reserve. ~~Target Sighted! Fire!~~ Press and hold basic attack with 1 or more stacks of Spiritual Pressure Reserve \n Ururu enters the aimed firing state, during which each tap on the Basic Attack fires two cannonballs at the target, dealing up to 81% of ATK and Penetrating up to 2 targets, which halves the damage to subsequent targets. Each cannonball fired consumes 1 stack of Spiritual Pressure Reserve.",
+      "description": "Ururu launches a melee attack at the target to strike 6 times, dealing damage equal to 322.5% of ATK. \n Landing each basic attack restores 1 stack of Spiritual Pressure Reserve. ~~Target Sighted! Fire!~~ Press and hold basic attack with 1 or more stacks of Spiritual Pressure Reserve \n Ururu enters the aimed firing state, during which each tap on the Basic Attack fires two cannonballs at the target, dealing up to 81% of ATK and Penetrating up to 2 targets, which halves the damage to subsequent targets. Each cannonball fired consumes 1 stack of Spiritual Pressure Reserve.",
       "icon": "/Images/ururu/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Nice to Meet You"

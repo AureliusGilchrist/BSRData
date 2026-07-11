@@ -139,7 +139,7 @@
       "name": "Snap, Tobiume"
     },
     {
-      "description": "Hinamori expands a 15-second Kido Snare woven through Hado at the target location. When Hinamori's special attack, counterattack, or Ultimate hits the Kido Snare, the snare wil be ignited and deal damage equal to 53%~132.5% of ATK. \n \n The snare will be expanded in front of Hinamori if the target is too far away. There can only be 1 Kido Snare on the battlefield.",
+      "description": "Hinamori expands a 15-second Kido Snare woven through Hado at the target location. When Hinamori's special attack, counterattack, or Ultimate hits the Kido Snare, the snare will be ignited and deal damage equal to 53%~132.5% of ATK. \n \n The snare will be expanded in front of Hinamori if the target is too far away. There can only be 1 Kido Snare on the battlefield.",
       "icon": "/Images/momo/skill-2.png",
       "kind": "Technique",
       "name": "Combo Spell - Crimson Fire Net"
@@ -151,7 +151,7 @@
       "name": "Tobiume Spurt"
     },
     {
-      "description": "Upon blocking an enemy attack with Bakudo, Hinamori counterattacks the enemy with Hado, dedaling damage equal to 477.5% of ATK. If the counterattack hits the enemy successfully, it will grant a(n) 18.75% Spirit Damage Boost to the team for 20s. If the counterattack hits the Kido Snare, the snare will be ignited and grant 1 stack of Insight to the team.",
+      "description": "Upon blocking an enemy attack with Bakudo, Hinamori counterattacks the enemy with Hado, dealing damage equal to 477.5% of ATK. If the counterattack hits the enemy successfully, it will grant a(n) 18.75% Spirit Damage Boost to the team for 20s. If the counterattack hits the Kido Snare, the snare will be ignited and grant 1 stack of Insight to the team.",
       "icon": "/Images/momo/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"

@@ -11,7 +11,7 @@
     "mainStats": "1: ATK% \u003e Thrust DMG  •  2: Crit Rate  •  3: ATK% \u003e Ult Charge Rate",
     "notes": "Standard banner SSR",
     "setName": "Unyielding Light (3)",
-    "subStatPriority": "Crit Rate \u003e ATK% \u003e Crit DMG \u003e Ult Charge Ratee"
+    "subStatPriority": "Crit Rate \u003e ATK% \u003e Crit DMG \u003e Ult Charge Rate"
   },
   "bondPriority": [
     {
@@ -163,13 +163,13 @@
       "name": "Break, Hozukimaru"
     },
     {
-      "description": "Ikakku keeps wielding Hozukimaru, dealing damage equal to 552% of ATK to nearby enemies. Then, he releases Hozukimaru's pwoer to its maximum and enters the Bankai state for 14s, during which all attack moves are enhanced, and HP will not drop below 1. ~~Slow Hozukimaru~~ Tap the Ultimate again in Bankai state. Auto release at the end of the Bankai state or when Ikkaku's HP drops to 0 \n Ikkaku releases all of Ryumon Hozukimaru's power to launch an explosive, powerful strike, dealing damage equal to 1584% of ATK and removing the Bankai state.",
+      "description": "Ikkaku keeps wielding Hozukimaru, dealing damage equal to 552% of ATK to nearby enemies. Then, he releases Hozukimaru's power to its maximum and enters the Bankai state for 14s, during which all attack moves are enhanced, and HP will not drop below 1. ~~Slow Hozukimaru~~ Tap the Ultimate again in Bankai state. Auto release at the end of the Bankai state or when Ikkaku's HP drops to 0 \n Ikkaku releases all of Ryumon Hozukimaru's power to launch an explosive, powerful strike, dealing damage equal to 1584% of ATK and removing the Bankai state.",
       "icon": "/Images/ikkaku/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Bankai - Ryumon Hozukimaru"
     },
     {
-      "description": "After countering an enemy attack, Ikkaku thrusts consecutively forward with Hozukimaru, dealing damage equal to 1000% of ATK and raising his Spiritual Pressure to the maximum. ~~Counter - Bankai~~ After countering attack, Ikakku will automatically release a Technique and raise his Spiritual Pressure to the maximum.",
+      "description": "After countering an enemy attack, Ikkaku thrusts consecutively forward with Hozukimaru, dealing damage equal to 1000% of ATK and raising his Spiritual Pressure to the maximum. ~~Counter - Bankai~~ After countering attack, Ikkaku will automatically release a Technique and raise his Spiritual Pressure to the maximum.",
       "icon": "/Images/ikkaku/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"

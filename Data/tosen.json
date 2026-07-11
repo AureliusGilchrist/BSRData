@@ -131,7 +131,7 @@
   ],
   "skills": [
     {
-      "description": "Tosen consecutively slashes the enemy in front of him with Suzumushi, striking 5 times and edaling damage equal to 490% of ATK. The 4th strike launches the non-Super Armor enemies into the air and fires 4 Benihiko Short Stings at them, inflicting 1 stack(s) of Wound on hit.",
+      "description": "Tosen consecutively slashes the enemy in front of him with Suzumushi, striking 5 times and dealing damage equal to 490% of ATK. The 4th strike launches the non-Super Armor enemies into the air and fires 4 Benihiko Short Stings at them, inflicting 1 stack(s) of Wound on hit.",
       "icon": "/Images/tosen/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Cry, Suzumushi"
@@ -143,7 +143,7 @@
       "name": "Suzumushi Thrust"
     },
     {
-      "description": "Tosen releases Bankai, gerenating 9 rings from Suzumishi's tsuba to form a large realm around him and nearby enemies. The realm pulls the enemies within to the center, dealing damage equal to 2250% of ATK and inflicting 5 stack(s) of Wound. The realm lasts 10s. \n Upon releasing, gains all Battlefield Skill Energy and refreshes the technique cooldown.",
+      "description": "Tosen releases Bankai, generating 9 rings from Suzumushi's tsuba to form a large realm around him and nearby enemies. The realm pulls the enemies within to the center, dealing damage equal to 2250% of ATK and inflicting 5 stack(s) of Wound. The realm lasts 10s. \n Upon releasing, gains all Battlefield Skill Energy and refreshes the technique cooldown.",
       "icon": "/Images/tosen/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Bankai - Suzumushi Tsuishiki - Enma Korogi"

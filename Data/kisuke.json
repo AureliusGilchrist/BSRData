@@ -10,7 +10,7 @@
   "bestStamp": {
     "mainStats": "1: ATK% \u003e Slash DMG •  2: Crit DMG  •  3: Ult Charge Rate",
     "notes": "Only stats that matter are Crit DMG and Ult Charge.",
-    "setName": "Hidden Widosm (3)",
+    "setName": "Hidden Wisdom (3)",
     "subStatPriority": "Crit DMG \u003e Ult Charge Rate \u003e ATK%"
   },
   "bondPriority": [

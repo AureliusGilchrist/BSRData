@@ -2,7 +2,7 @@
   "aizen": {
     "Pressure Stack": "Accumulated through various attacks; Techniques, Counter and last hit of Basic Attack.",
     "Ravage": "Releasing the Battlefield Skill Hado 90: Kurohitsugi or counterattacks inflicts Ravage to the enemy, reducing their All-Type Resistance for 18 seconds.",
-    "Spiritual Pressure Intimidation": "Releasing Ultimate, or releasing any Battlefield Skills or landing the  last strike of the basic attack upon reaching 3 Pressure Stacks, will activate Spiritual Pressure Intimidation. During this time, interruption resitance is increased, and Perfect Dodge is auto-triggered on most imminent attacks. All Pressure Stacks gained are converted into Enhanced Pressure Stacks.",
+    "Spiritual Pressure Intimidation": "Releasing Ultimate, or releasing any Battlefield Skills or landing the  last strike of the basic attack upon reaching 3 Pressure Stacks, will activate Spiritual Pressure Intimidation. During this time, interruption resistance is increased, and Perfect Dodge is auto-triggered on most imminent attacks. All Pressure Stacks gained are converted into Enhanced Pressure Stacks.",
     "Illusion Shield": "Significantly increases interruption resistance. Taking any damage consumes 1 stack to negate it and grants Invincibility for 1 second.",
     "Kyokasuigetsu": "After releasing his Ultimate, Aizen enters Kyokasuigetsu, enhancing his basic attacks and backline Battlefield Skills.",
     "Enhanced Pressure Stacks": "During Spiritual Domination, all Pressure Stacks gained by Aizen are converted into Enhanced Pressure Stacks. Releasing the Battlefield Skill Hado 90: Kurohitsugi consumes all Enhanced Pressure Stacks, granting shields to the team and counterattack effects when switching characters.",
@@ -24,7 +24,7 @@
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "grimmjow": {
-    "Destruction Mark": "Certain attacks apply Destruction Mark to enemies. It can be dotonated by basic attacks during the Ultimate, counterattacks, or basic attacks chained after a technique, granting Spiritual Pressu Reserve.",
+    "Destruction Mark": "Certain attacks apply Destruction Mark to enemies. It can be detonated by basic attacks during the Ultimate, counterattacks, or basic attacks chained after a technique, granting Spiritual Pressure Reserve.",
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "grimmjow-pantera": {
@@ -103,7 +103,7 @@
   "rangiku": {
     "Haineko Mark": "Rangiku's attacks inflict Haineko Mark on enemies. When any teammate releases a special attack or technique, clusters of auto-attacking Ash Blades are generated based on the number of nearby enemies inflicted with Haineko Mark.",
     "Ash Blade": "Rangiku's attacks inflict Haineko Mark on enemies. When any teammate releases a special attack or technique, clusters of auto-attacking Ash Blades are generated based on the number of nearby enemies inflicted with Haineko Mark.",
-    "Haineko's Assist": "All characters in the team take 10% lesss damage.",
+    "Haineko's Assist": "All characters in the team take 10% less damage.",
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "renji": {
@@ -113,7 +113,7 @@
   },
   "rukia": {
     "Freeze": "The Frozen enemy cannot move or attack for 2s.",
-    "Freeze Point": "Some atatcks will inflict Freeze Points on the enemy. At 100 Freeze Points, the enemy will be frozen and become immovable for 2s.",
+    "Freeze Point": "Some attacks will inflict Freeze Points on the enemy. At 100 Freeze Points, the enemy will be frozen and become immovable for 2s.",
     "Breaking Ice": "Attack on an enemy who has been frozen for more than 1s will trigger Breaking Ice: Deals extra damage once based on Rukia's ATK and removed the Normal Frozen state.",
     "Freezing": "The Frozen enemy cannot move or attack for 2s.",
     "Chill": "The energy Rukia requires to release Battlefield Skill Chill Release. Can be obtained by triggering Breaking Ice.",
@@ -125,11 +125,11 @@
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "szayelaporro": {
-    "Sacrificial Material": "After attacking, summoned Fracciones are converted into 1 Sacrificial Material. Szayelaporro can use Special ttacks to detonate them and grant buffs to teammates. Up to 6 can be accumulated.",
-    "Sacrificial Materials": "After attacking, summoned Fracciones are converted into 1 Sacrificial Material. Szayelaporro can use Special ttacks to detonate them and grant buffs to teammates. Up to 6 can be accumulated.",
+    "Sacrificial Material": "After attacking, summoned Fracciones are converted into 1 Sacrificial Material. Szayelaporro can use Special Attacks to detonate them and grant buffs to teammates. Up to 6 can be accumulated.",
+    "Sacrificial Materials": "After attacking, summoned Fracciones are converted into 1 Sacrificial Material. Szayelaporro can use Special Attacks to detonate them and grant buffs to teammates. Up to 6 can be accumulated.",
     "Intel Control": "Each time a Special Attack is released, grants all Spirit characters corresponding stacks of Intel Control based on the number of detonated Sacrificial Materials, increasing their  damage dealt.",
     "Sample Analysis": "When an Ultimate is released, all Spirit characters get 1 stack of Sample Analysis. Whenever a character with this state deals damage, all Spirit characters gain another stack of Sample Analysis, increasing their Crit DMG.",
-    "Brutal Modification": "Releasing a Special Attack during Resurreccion grants Brutal Modification stacks equal to the current stacks of Interl Control. Releasing a second strike of the Ultimate, Control of the Five Senses, consumes all Brutal Modification stacks to boost its damage.",
+    "Brutal Modification": "Releasing a Special Attack during Resurreccion grants Brutal Modification stacks equal to the current stacks of Internal Control. Releasing a second strike of the Ultimate, Control of the Five Senses, consumes all Brutal Modification stacks to boost its damage.",
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "tosen": {
@@ -174,7 +174,7 @@
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   },
   "yoruichi": {
-    "Lightning Seal": "Yoruichi gains 1 stack of Lightning Seal that increases her Strike DMG each time she releases a technique, counterattack, or special attack. After equipping a Weapon Stamp, it also increases her Crit Rate by an extra ammunt. This effect is stackable.",
+    "Lightning Seal": "Yoruichi gains 1 stack of Lightning Seal that increases her Strike DMG each time she releases a technique, counterattack, or special attack. After equipping a Weapon Stamp, it also increases her Crit Rate by an extra amount. This effect is stackable.",
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   }
 }

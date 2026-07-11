@@ -49,7 +49,7 @@
       "level": 5
     },
     {
-      "description": "Increases Chad's Strike DMG by 30% while the passive skikll Transformation Power is active.",
+      "description": "Increases Chad's Strike DMG by 30% while the passive skill Transformation Power is active.",
       "icon": "/Images/chad/boundary-6.png",
       "level": 6,
       "name": "Awakened Right Arm"
@@ -92,7 +92,7 @@
       "name": "Iron Body"
     },
     {
-      "description": "When triggering a Perfect Dodge, Chad instantly gains 100 Spiritual Pressure and nicreases the DMG of his next special attack by an extra 100%.",
+      "description": "When triggering a Perfect Dodge, Chad instantly gains 100 Spiritual Pressure and increases the DMG of his next special attack by an extra 100%.",
       "icon": "/Images/chad/passive-3.png",
       "name": "Power Transfer"
     }
@@ -122,13 +122,13 @@
   ],
   "skills": [
     {
-      "description": "Chad throws a flurry of Iron Fists forward that are designed to protect companions, striking 5 times and dealing damage equal to 361.5% of ATK. Each strike grants Spiritual Pressure on hit. ~~Crushing Charge~~ At Max Spiritual Pressure, press and hold basic attack \n Chad dashes forward, dealing damage over time up to 247.5% of ATK to enemies in his path. He continuously loses HP while dashing, up to 33% of his current HP. When Chad's HP drops below 25% of Max HP, dashing no longer consumes HP. \n When the hit limit is reached or the basic attack button is released early, Chad instantly releases a powerful attack which deals DMG equalt o 310.37% of ATK.",
+      "description": "Chad throws a flurry of Iron Fists forward that are designed to protect companions, striking 5 times and dealing damage equal to 361.5% of ATK. Each strike grants Spiritual Pressure on hit. ~~Crushing Charge~~ At Max Spiritual Pressure, press and hold basic attack \n Chad dashes forward, dealing damage over time up to 247.5% of ATK to enemies in his path. He continuously loses HP while dashing, up to 33% of his current HP. When Chad's HP drops below 25% of Max HP, dashing no longer consumes HP. \n When the hit limit is reached or the basic attack button is released early, Chad instantly releases a powerful attack which deals DMG equal to 310.37% of ATK.",
       "icon": "/Images/chad/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Iron Fist Barrage"
     },
     {
-      "description": "Chad performs his signature shoulder throw and slams the enemy in front of him to the ground, dealing damage equal to 91.5% of ATK. He then tosses them with tremendous force, dealing damage equal to 136.5% of ATK. after that, immediately tap the absic attack button to release an impaling strike on the enemy in front, dealing damage equal to 148.5% of ATK and accumulating a large amount amount of Spiritual Pressure.",
+      "description": "Chad performs his signature shoulder throw and slams the enemy in front of him to the ground, dealing damage equal to 91.5% of ATK. He then tosses them with tremendous force, dealing damage equal to 136.5% of ATK. after that, immediately tap the basic attack button to release an impaling strike on the enemy in front, dealing damage equal to 148.5% of ATK and accumulating a large amount amount of Spiritual Pressure.",
       "icon": "/Images/chad/skill-technique.png",
       "kind": "Technique",
       "name": "Heavy Toss"

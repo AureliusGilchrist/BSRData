@@ -23,7 +23,7 @@
       "name": "Lonely Moon"
     },
     {
-      "description": "Each technique released by Byakuya while in Bankai grants him Determination based on the number of successful hits: Each stack of Determination increases all DMG by 2% for 12s. Stacks up to 14 times. When Determination is grater than 8 stacks, Byakuya gains an extra 40% Crit DMG Bonus.",
+      "description": "Each technique released by Byakuya while in Bankai grants him Determination based on the number of successful hits: Each stack of Determination increases all DMG by 2% for 12s. Stacks up to 14 times. When Determination is greater than 8 stacks, Byakuya gains an extra 40% Crit DMG Bonus.",
       "icon": "/Images/byakuya/boundary-2.png",
       "level": 2,
       "name": "Crimson Fade"
@@ -131,10 +131,10 @@
   ],
   "skills": [
     {
-      "description": "Byakuya slashes the enemy in front with Senbonzakura up to 4 times, dealing damage equal to 194%~???% of ATK. ~~Dancing Petals~~ Bankai State \n  Byakuya wields the blade formed by sakura petals and attacks the enemy up to 5 times, dealing damage equal to 410%~???% of ATK and accumulating Spiritual Pressure on hit. ~~Piercing Blade~~ In Bankai state, press and hold basic attack when Spiritual Pressure is above 50% \n Byakuya controls the Sakura Blade to release a continous shockwave on the enemy, consuming Spiritual Pressure over time and dealing damage equal to 594%~???% of ATK. When the attack ends, deals extra damage equal to 360%~???% of ATK. \n While active, pauses all of Byakuya's status timers. Removes Bankai when the attack ends.",
+      "description": "Byakuya slashes the enemy in front with Senbonzakura up to 4 times, dealing damage equal to 194%~???% of ATK. ~~Dancing Petals~~ Bankai State \n  Byakuya wields the blade formed by sakura petals and attacks the enemy up to 5 times, dealing damage equal to 410%~???% of ATK and accumulating Spiritual Pressure on hit. ~~Piercing Blade~~ In Bankai state, press and hold basic attack when Spiritual Pressure is above 50% \n Byakuya controls the Sakura Blade to release a continuous shockwave on the enemy, consuming Spiritual Pressure over time and dealing damage equal to 594%~???% of ATK. When the attack ends, deals extra damage equal to 360%~???% of ATK. \n While active, pauses all of Byakuya's status timers. Removes Bankai when the attack ends.",
       "icon": "/Images/byakuya/skill-1.png",
       "kind": "Basic Attack",
-      "name": "Zanjustu"
+      "name": "Zanjutsu"
     },
     {
       "description": "Senbonzakura's blade scatters into countless tiny sharp pieces that strike the enemy after 3.5 seconds, dealing damage equal to 287%~???% of ATK. During this time, you can switch on-field characters, and Byakuya will remain on the field until the attack completes. \n While Byakuya's Battlefield Skill is active, releasing this technique grants 4 Battlefield Skill Energy. ~~Absolute Despair~~ Bankai State \n Byakuya controls a massive wave of sakura petals to attack up to 3 times, dealing damage equal to 969% of ATK and accumulating Spiritual Pressure on hit.",
@@ -155,7 +155,7 @@
       "name": "Counter"
     },
     {
-      "description": "~~White Byakuya's Battlefield Skill is active, all teammates' Slash DMG increases by 30%.~~ \n \n Byakuya's Battlefield Skill button will be activated for 2s after any character releases a special attack, technique, or counterattack, but not at any other time. \n Byakuya  transforms fluttering petals into blades and pierces enemies, pinning them to the ground and dealing DMG equal to 159.37% of ATK. \n \n If Byakuya's Battlefield Skill Energy drops to zero after releasing this skill, tap the Battlefield Skill button again tro tigger a follow-up attack with the same effect as the 4th strike of basic attack Dancing Petals.",
+      "description": "~~White Byakuya's Battlefield Skill is active, all teammates' Slash DMG increases by 30%.~~ \n \n Byakuya's Battlefield Skill button will be activated for 2s after any character releases a special attack, technique, or counterattack, but not at any other time. \n Byakuya  transforms fluttering petals into blades and pierces enemies, pinning them to the ground and dealing DMG equal to 159.37% of ATK. \n \n If Byakuya's Battlefield Skill Energy drops to zero after releasing this skill, tap the Battlefield Skill button again to trigger a follow-up attack with the same effect as the 4th strike of basic attack Dancing Petals.",
       "icon": "/Images/byakuya/skill-bfs.png",
       "kind": "Battlefield Skill",
       "name": "Thousand Blade Funeral"
