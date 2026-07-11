@@ -591,9 +591,12 @@ type EspPage struct {
 	Passives   []EspImage       // in passive-table order
 	// EVERY icon the page has per multi-variant kind, in document order —
 	// several kits carry enhanced/second-stage variants beyond the primary
-	// icon. Saved as skill-<kind>-<N>.<ext> alongside the primary file.
+	// icon (e.g. Ulquiorra Resurrección's Segunda Etapa basic attack).
+	// Saved as skill-<kind>-<N>.<ext> alongside the primary file.
+	BasicAll       []EspImage
 	TechniqueAll   []EspImage
 	UltimateAll    []EspImage
+	CounterAll     []EspImage
 	BattlefieldAll []EspImage
 	// Raw Spanish ability text keyed by category for later translation.
 	// Keys: "basic", "technique", "ultimate", "counter", "passive-1".. "boundary-1"..
@@ -785,10 +788,14 @@ func parseEspFandomPage(htmlStr string) EspPage {
 			}
 			// Multi-variant kinds keep EVERY icon (numbered files), not just
 			// the first one that wins the primary slot below.
-			if kind == "ultimate" {
+			switch kind {
+			case "basic":
+				out.BasicAll = append(out.BasicAll, img)
+			case "ultimate":
 				out.UltimateAll = append(out.UltimateAll, img)
-			}
-			if kind == "bfs" {
+			case "counter":
+				out.CounterAll = append(out.CounterAll, img)
+			case "bfs":
 				out.BattlefieldAll = append(out.BattlefieldAll, img)
 			}
 			if skillSlotTaken[kind] {
@@ -935,8 +942,10 @@ func processEspFandomCharacter(slug, page string) error {
 		kind string
 		imgs []EspImage
 	}{
+		{"basic", ep.BasicAll},
 		{"technique", ep.TechniqueAll},
 		{"ultimate", ep.UltimateAll},
+		{"counter", ep.CounterAll},
 		{"bfs", ep.BattlefieldAll},
 	}
 	for _, v := range variantSets {
