@@ -98,7 +98,7 @@
                 "label": "x3"
               },
               {
-                "kind": "Ultimate"
+                "kind": "Technnique 4"
               },
               {
                 "kind": "Swap",
@@ -185,14 +185,14 @@
                 "label": "x2-4"
               },
               {
-                "kind": "Ultimate"
+                "kind": "Technique"
               },
               {
-                "kind": "Technique",
+                "kind": "Technique 2",
                 "label": "spam"
               },
               {
-                "kind": "Ultimate"
+                "kind": "Ultimate 2"
               }
             ]
           },
