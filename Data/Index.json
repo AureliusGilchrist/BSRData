@@ -90,6 +90,16 @@
     "releaseDate": "21 Nov 2025"
   },
   {
+    "slug": "ichigo-ts",
+    "name": "Ichigo Kurosaki",
+    "role": "Full Assault",
+    "tier": "S",
+    "damageType": "Thrust",
+    "rarity": "SSR",
+    "art": "TBD",
+    "releaseDate": "15 Jul 2026"
+  },
+  {
     "slug": "ichigo-white",
     "name": "Kurosaki Ichigo (Inner Hollow)",
     "role": "Tactician",
@@ -318,15 +328,5 @@
     "rarity": "SSR",
     "art": "/Images/yoruichi/art.png",
     "releaseDate": "21 Nov 2025"
-  },
-  {
-    "slug": "ichigo-ts",
-    "name": "Ichigo Kurosaki (True Shikai)",
-    "role": "Assault",
-    "tier": "S",
-    "damageType": "Thrust",
-    "rarity": "SSR",
-    "art": "",
-    "releaseDate": "15 Jul 2026"
   }
 ]
