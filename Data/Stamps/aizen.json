@@ -2,29 +2,37 @@
   "slug": "aizen",
   "characterSlug": "aizen",
   "characterName": "Sosuke Aizen",
-  "weaponName": "",
+  "weaponName": "Kyokasuigetsu",
   "weaponArt": "",
-  "weaponRarity": "",
+  "weaponRarity": "SSR",
   "weaponDescription": "",
   "weaponEffect": "",
   "weaponStamp": {
     "ascend1": [
-        "Crit Rate +25%",
-        "Counter damage from Battle of Spiritual Pressure passive +12.5%",
-        "Enhanced Pressure Stack cap to 6; consuming all 6 triggers extra switch counterattack",
-        "Each Ravage stack reduces enemy Spirit Resistance by extra 1%",
-        "Releasing any Battlefield Skill grants 3 Pressure Stacks"
+        "Increases Crit Rate by 25% (does not show up on stats page)",
+        "Increases the damage of counterattacks triggered by the passive Battle of Spiritual Pressure by 12.5%.",
+        "Increases the cap of Enhanced Pressure Stacks to 6. If the Battlefield Skill Hado 90: Kurohitsugi consumes all 6 stacks at once, an extra counterattack from switching teammates will be triggered.",
+        "Each stack of Ravage reduces the enemy's Spirit Resistance by an extra 1%.",
+        "Releasing any Battlefield Skill grants 3 Pressure Stacks. While not under Spiritual Domination, if fewer than 3 Pressure Stacks are possessed, obtaining them immediately activates the Spiritual Domination. If exactly 3 Pressure Stacks are possessed, entering Spiritual Domination grants another 3 Pressure Stacks."
       ],
       "ascend5": [
-        "Crit Rate +50%",
-        "Counter damage from passive +25%",
-        "Enhanced Pressure Stack cap to 6; all 6 consumed = extra switch counterattack",
-        "Each Ravage stack reduces Spirit Resistance by extra 2%",
-        "Releasing any Battlefield Skill grants 3 Pressure Stacks"
+        "Increases Crit Rate by 50% (does not show up on stats page)",
+        "Increases the damage of counterattacks triggered by the passive Battle of Spiritual Pressure by 25%.",
+        "Increases the cap of Enhanced Pressure Stacks to 6. If the Battlefield Skill Hado 90: Kurohitsugi consumes all 6 stacks at once, an extra counterattack from switching teammates will be triggered.",
+        "Each stack of Ravage reduces the enemy's Spirit Resistance by an extra 2%.",
+        "Releasing any Battlefield Skill grants 3 Pressure Stacks. While not under Spiritual Domination, if fewer than 3 Pressure Stacks are possessed, obtaining them immediately activates the Spiritual Domination. If exactly 3 Pressure Stacks are possessed, entering Spiritual Domination grants another 3 Pressure Stacks."
       ]
   },
   "coreStamp": {
-    "ascend1": [],
-    "ascend5": []
+    "ascend1": [
+        "Upon releasing the Ultimate, the on-field character gains 1 stack of Illusion. Each time that character lands a hit, they gain another stack of Illusion. Each stack of Illusion increases their Spirit DMG by 0.5%, up to 10 stacks, lasting until Kyokasuigetsu ends.",
+        "When a counterattack from switching characters is triggered by the passive Battle of Spiritual Pressure, the new on-field character inherits all Illusion stacks, and the cap is doubled, up to 40 stacks. Upon reaching full stacks, Illusion also grants an extra 25% Crit DMG bonus.",
+        "While under The Spiritual Domination, Aizen's Basic Attacks, techniques, and counterattacks deal 500% more damage."
+      ],
+    "ascend5": [
+        "Upon releasing the Ultimate, the on-field character gains 1 stack of Illusion. Each time that character lands a hit, they gain another stack of Illusion. Each stack of Illusion increases their Spirit DMG by 1%, up to 10 stacks, lasting until Kyokasuigetsu ends.",
+        "When a counterattack from switching characters is triggered by the passive Battle of Spiritual Pressure, the new on-field character inherits all Illusion stacks, and the cap is doubled, up to 40 stacks. Upon reaching full stacks, Illusion also grants an extra 50% Crit DMG bonus.",
+        "While under The Spiritual Domination, Aizen's Basic Attacks, techniques, and counterattacks deal 300% more damage."
+      ]
   }
 }
