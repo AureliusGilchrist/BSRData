@@ -205,6 +205,8 @@
   "slug": "aizen",
   "source": "https://www.hideoutgacha.com/games/bleach-soul-resonance/character-builds/aizen",
   "stamps": {
+    "weaponName": "Kyokasuigetsu",
+    "weaponRarity": "SSR",
     "core": {
       "ascend1": [
         "On Ultimate: on-field character gains 1 Illusion stack per hit (Spirit DMG +0.5% each, up to 10, until Kyokasuigetsu ends)",
