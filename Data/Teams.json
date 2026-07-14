@@ -1157,7 +1157,7 @@
     "rotationF2P": ""
   },
   {
-    "id": "ts-mono"
+    "id": "ts-mono",
     "name": "White Double Support",
     "rank": 1,
     "tier": "S",
@@ -1210,7 +1210,7 @@
     "rotationF2P": ""
   },
   {
-    "id": "yoruichi-team"
+    "id": "yoruichi-team",
     "name": "Yoruichi Team",
     "rank": 50
     "tier": "B",
