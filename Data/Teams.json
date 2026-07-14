@@ -2,7 +2,7 @@
   {
     "id": "ulquiorra-mono",
     "name": "Ulquiorra Mono Spirit",
-    "rank": 1,
+    "rank": 2,
     "tier": "S",
     "difficulty": "Medium",
     "content": "Co-op / Guild Boss / Events",
@@ -340,7 +340,7 @@
   {
     "id": "kenpachi-team",
     "name": "Kenpachi Team",
-    "rank": 2,
+    "rank": 3,
     "tier": "S",
     "difficulty": "Easy",
     "content": "Co-op / Guild Boss / Events",
@@ -618,7 +618,7 @@
   {
     "id": "gin-mono",
     "name": "Gin Mono Thrust",
-    "rank": 7,
+    "rank": 8,
     "tier": "S",
     "difficulty": "Easy",
     "content": "Co-op / Guild Boss / Events",
@@ -674,7 +674,7 @@
   {
     "id": "pantera-mono",
     "name": "Pantera Strike Team",
-    "rank": 3,
+    "rank": 4,
     "tier": "S",
     "difficulty": "Medium",
     "content": "Co-op / Guild Boss / Events",
@@ -726,7 +726,7 @@
   {
     "id": "bichigo-mono",
     "name": "Bankai Ichigo Mono Slash",
-    "rank": 5,
+    "rank": 6,
     "tier": "S",
     "difficulty": "Hard",
     "content": "Co-op / Guild Boss / Events",
@@ -779,7 +779,7 @@
   {
     "id": "pantera-nel",
     "name": "Pantera Nel Team",
-    "rank": 9,
+    "rank": 10,
     "tier": "A",
     "difficulty": "Easy",
     "content": "Co-op / Guild Boss / Events",
@@ -834,7 +834,7 @@
   {
     "id": "aizen-support",
     "name": "Aizen Double Support",
-    "rank": 4,
+    "rank": 5,
     "tier": "S",
     "difficulty": "Medium",
     "content": "Co-op / Guild Boss / Events / Frenzy Feast",
@@ -890,7 +890,7 @@
   {
     "id": "toshiro-mono",
     "name": "Toshiro Mono Spirit",
-    "rank": 6,
+    "rank": 7,
     "tier": "S",
     "difficulty": "Medium",
     "content": "Co-op / Guild Boss / Events",
@@ -1053,7 +1053,7 @@
   {
     "id": "nel-support",
     "name": "Nel Double Support",
-    "rank": 10,
+    "rank": 11,
     "tier": "A",
     "difficulty": "Easy",
     "content": "Co-op / Guild Boss / Events",
@@ -1106,7 +1106,7 @@
   {
     "id": "white-support",
     "name": "White Double Support",
-    "rank": 8,
+    "rank": 9
     "tier": "S",
     "difficulty": "Easy",
     "content": "Co-op / Guild Boss / Events",
@@ -1146,6 +1146,114 @@
     "rotations": [
       {
         "name": "White Double Support",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          ""
+        ]
+      }
+    ],
+    "rotationF2P": ""
+  },
+  {
+    "id": "ts-mono"
+    "name": "White Double Support",
+    "rank": 1
+    "tier": "S",
+    "difficulty": "Easy",
+    "content": "Co-op / Guild Boss / Events",
+    "members": [
+      {
+        "slug": "ichigo-ts",
+        "name": "Ichigo Kurosaki (Dual Zanpakuto)",
+        "role": "Full Assault",
+        "damageType": "Thrust",
+        "notes": [
+          "Second limited SSR thrust full assault"
+        ],
+        "swappable": []
+      },
+      {
+        "slug": "nelliel",
+        "name": "Nelliel Tu Odelschwanck",
+        "role": "Tactician",
+        "damageType": "Thrust",
+        "notes": [
+          "Her most important kit is locked behind B6."
+        ],
+        "swappable": []
+      },
+      {
+        "slug": "mayuri",
+        "name": "Mayuri Kurotsuchi",
+        "role": "Support",
+        "damageType": "Thrust",
+        "notes": [
+          "Low field time support."
+        ],
+        "swappable": []
+      }
+    ],
+    "rotationP2W": "",
+    "rotations": [
+      {
+        "name": "ts-mono",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          ""
+        ]
+      }
+    ],
+    "rotationF2P": ""
+  },
+  {
+    "id": "yoruichi-team"
+    "name": "Yoruichi Team",
+    "rank": 50
+    "tier": "B",
+    "difficulty": "Easy",
+    "content": "Frenzy Feast",
+    "members": [
+      {
+        "slug": "yoruichi",
+        "name": "Yoruichi Shihoin",
+        "role": "Full Assault",
+        "damageType": "Strike",
+        "notes": [
+          "Standard banner unit"
+        ],
+        "swappable": []
+      },
+      {
+        "slug": "soi-fon",
+        "name": "Soi Fon",
+        "role": "Tactician",
+        "damageType": "Strike",
+        "notes": [
+          "Her most important kit is locked behind B6."
+        ],
+        "swappable": []
+      },
+      {
+        "slug": "mayuri",
+        "name": "Mayuri Kurotsuchi",
+        "role": "Support",
+        "damageType": "Thrust",
+        "notes": [
+          "Low field time support."
+        ],
+        "swappable": [
+          "kisuke"
+        ]
+      }
+    ],
+    "rotationP2W": "",
+    "rotations": [
+      {
+        "name": "Yoruichi Team",
         "tags": [
           "Burst"
         ],
