@@ -1106,7 +1106,7 @@
   {
     "id": "white-support",
     "name": "White Double Support",
-    "rank": 9
+    "rank": 9,
     "tier": "S",
     "difficulty": "Easy",
     "content": "Co-op / Guild Boss / Events",
@@ -1159,7 +1159,7 @@
   {
     "id": "ts-mono"
     "name": "White Double Support",
-    "rank": 1
+    "rank": 1,
     "tier": "S",
     "difficulty": "Easy",
     "content": "Co-op / Guild Boss / Events",
