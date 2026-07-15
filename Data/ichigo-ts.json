@@ -60,7 +60,7 @@
       "label": "Main",
       "passiveSkills": [],
       "range": "B0W1C1 - B6W5C5",
-      "setName": "Ichigo stamp",
+      "setName": "Duty Borne (3)",
       "setPieces": [
         {
           "mainStat": "TBD",
@@ -105,7 +105,7 @@
   "note": "Collaboration event unit",
   "rarity": "SSR",
   "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 0,
+  "recommendedStopBoundaryF2P": 1,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "15 Jul 2026",
   "role": "Full Assault",
