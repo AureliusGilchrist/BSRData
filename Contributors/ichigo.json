@@ -12,9 +12,9 @@
   },
   "contributions": [
     {
-      "charSlug": "ichigo-white",
-      "charName": "Ichigo Kurosaki (Inner Hollow)",
-      "rotationName": "Opener (Cleaving Throw)"
+      "charSlug": "ichigo-ts",
+      "charName": "Ichigo Kurosaki (Dual Zanpakuto)",
+      "rotationName": "Best Stamp Set"
     },
     {
       "charSlug": "ichigo-white",
@@ -24,6 +24,61 @@
     {
       "charSlug": "ichigo-bankai",
       "charName": "Ichigo Kurosaki (Bankai)",
+      "rotationName": "Best Stamp Set"
+    },
+    {
+      "charSlug": "ulquiorra-resurreccion",
+      "charName": "Ulquiorra Shifar (Resurrección)",
+      "rotationName": "Best Stamp Set"
+    },
+    {
+      "charSlug": "grimmjow-pantera",
+      "charName": "Grimmjow Jaegerjaquez (Pantera)",
+      "rotationName": "Best Stamp Set"
+    },
+    {
+      "charSlug": "szayelaporro",
+      "charName": "Szayelaporro Granz",
+      "rotationName": "Best Stamp Set"
+    },
+    {
+      "charSlug": "soi-fon",
+      "charName": "Soi Fon",
+      "rotationName": "Best Stamp Set"
+    },
+    {
+      "charSlug": "mayuri",
+      "charName": "Kurotsuchi Mayuri",
+      "rotationName": "Best Stamp Set"
+    },
+    {
+      "charSlug": "nelliel",
+      "charName": "Nelliel Tu Odelschwanck",
+      "rotationName": "Best Stamp Set"
+    },
+    {
+      "charSlug": "kenpachi",
+      "charName": "Kenpachi Zaraki",
+      "rotationName": "Best Stamp Set"
+    },
+    {
+      "charSlug": "gin",
+      "charName": "Gin Ichimaru",
+      "rotationName": "Best Stamp Set"
+    },
+    {
+      "charSlug": "aizen",
+      "charName": "Sosuke Aizen",
+      "rotationName": "Best Stamp Set"
+    },
+    {
+      "charSlug": "toshiro",
+      "charName": "Toshiro Hitsugaya",
+      "rotationName": "Best Stamp Set"
+    },
+    {
+      "charSlug": "kisuke",
+      "charName": "Kisuke Urahara",
       "rotationName": "Best Stamp Set"
     }
   ]
