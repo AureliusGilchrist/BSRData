@@ -1158,7 +1158,7 @@
   },
   {
     "id": "ts-mono",
-    "name": "True Shikai Ichigo Mono Thrust",
+    "name": "True Shikai Mono Thrust",
     "rank": 1,
     "tier": "S",
     "difficulty": "Easy",
@@ -1198,7 +1198,7 @@
     "rotationP2W": "",
     "rotations": [
       {
-        "name": "True Shikai Ichigo Mono Thrust",
+        "name": "True Shikai Mono Thrust",
         "tags": [
           "Burst"
         ],
