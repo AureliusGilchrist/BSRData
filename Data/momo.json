@@ -21,7 +21,7 @@
     },
     {
       "description": "Increase ATK of all team characters during battle by 6%.",
-      "name": "ATK +6% Bond"
+      "name": "ATK Bond"
     }
   ],
   "boundaries": [

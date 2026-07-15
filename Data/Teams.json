@@ -945,7 +945,7 @@
   {
     "id": "standard-thrust",
     "name": "Standard Banner Thrust",
-    "rank": 99,
+    "rank": 94,
     "tier": "C",
     "difficulty": "Easy",
     "content": "Story Mode",
@@ -1226,7 +1226,8 @@
           "Standard banner unit"
         ],
         "swappable": [
-          "grimmjow"
+          "grimmjow",
+          "chad"
         ]
       },
       {
@@ -1372,6 +1373,67 @@
     "rotations": [
       {
         "name": "F2P Strike Team",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          ""
+        ]
+      }
+    ],
+    "rotationF2P": ""
+  },
+  {
+    "id": "f2pthrust-team",
+    "name": "F2P Thrust Team",
+    "rank": 99,
+    "tier": "B",
+    "difficulty": "Easy",
+    "content": "Story Mode",
+    "members": [
+      {
+        "slug": "renji",
+        "name": "Renji Abarai",
+        "role": "Full Assault",
+        "damageType": "Thrust",
+        "notes": [
+          "Free unit"
+        ],
+        "swappable": [
+          "gin"
+        ]
+      },
+      {
+        "slug": "uryu",
+        "name": "Uryu Ishida",
+        "role": "Tactician",
+        "damageType": "Thrust",
+        "notes": [
+          "Free unit"
+        ],
+        "swappable": [
+          "rukia",
+          "nelliel"
+        ]
+      },
+      {
+        "slug": "rangiku",
+        "name": "Rangiku Matsumoto",
+        "role": "Support",
+        "damageType": "Thrust",
+        "notes": [
+          "Low field time support."
+        ],
+        "swappable": [
+          "kisuke",
+          "mayuri"
+        ]
+      }
+    ],
+    "rotationP2W": "",
+    "rotations": [
+      {
+        "name": "F2P Thrust Team",
         "tags": [
           "Burst"
         ],
