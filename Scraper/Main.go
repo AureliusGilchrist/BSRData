@@ -99,7 +99,10 @@ var slugToEspPage = map[string]string{
 	// The ESP wiki has no "(Initial)" page — the base/initial form lives at the
 	// bare "Kurosaki Ichigo" title. Corrected (was a 404).
 	"ichigo-initial": "Kurosaki Ichigo",
-	"ichigo-white":   "Kurosaki Ichigo (Hollow Interior)",
+	// The Dual Zanpakuto / timeskip form's ESP page uses a dash title rather
+	// than the usual parenthesised form suffix.
+	"ichigo-ts":    "Kurosaki Ichigo - Zangetsu Dual",
+	"ichigo-white": "Kurosaki Ichigo (Hollow Interior)",
 	"ikkaku":         "Ikkaku Madarame",
 	"kenpachi":       "Zaraki Kenpachi",
 	"kisuke":         "Urahara Kisuke",

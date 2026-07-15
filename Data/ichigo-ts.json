@@ -1,12 +1,12 @@
 {
-  "_spanishSource": "",
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Kurosaki_Ichigo_-_Zangetsu_Dual",
   "_spanishText": {
     "basic": "",
     "counter": "",
     "technique": "",
     "ultimate": ""
   },
-  "art": "TBD",
+  "art": "/Images/ichigo-ts/art.png",
   "bestStamp": {
     "mainStats": "1: TBD  •  2: TBD  •  3: TBD",
     "notes": "TBD",
@@ -22,35 +22,35 @@
   "boundaries": [
     {
       "description": "The maximim number of Charge stacks is increased to 6. While Ichigo is at the backline, he automatically gains 1 stack(s) of Charge every 2 second(s). Upon entering battle, he immediately gain 6 stack(s) of Charge.",
-      "icon": "",
+      "icon": "/Images/ichigo-ts/boundary-1.png",
       "level": 1,
       "name": "The True Zanpakuto"
     },
     {
       "description": "Increases Ichigo's Thrust DMG by 30%. When the Ultimate, Getsuga Jujisho - Transcendence, is released, its final hit consumes all remaining Breach Marks on the target and triggers Breach based on the number of stacks consumed.",
-      "icon": "",
+      "icon": "/Images/ichigo-ts/boundary-2.png",
       "level": 2,
       "name": "Strength of Twin Zangetsu"
     },
     {
       "description": "",
-      "icon": "",
+      "icon": "/Images/ichigo-ts/boundary-3.png",
       "level": 3
     },
     {
       "description": "Releasing any technique increases the damage dealt by subsequent techniques by 30%. When this effect reaches 5 stack(s), Ultimate DMG is increased by 100%.",
-      "icon": "",
+      "icon": "/Images/ichigo-ts/boundary-4.png",
       "level": 4,
       "name": "Squad 0's Gift"
     },
     {
       "description": "",
-      "icon": "",
+      "icon": "/Images/ichigo-ts/boundary-5.png",
       "level": 5
     },
     {
       "description": "After releasing Getsuga Jujisho - Transcendence, all enemies take Breach DMG equal to 260% of Ichigo's ATK every 0.5 seconds for 3 second(s). Their Spiritual Pressure is also reduced whenever they take this damage. If an enemy has no remaining Spiritual Pressure or does not possess a Spiritual Pressure Bar, this damage-over-time effect is increased by an additional 20%.",
-      "icon": "",
+      "icon": "/Images/ichigo-ts/boundary-6.png",
       "level": 6,
       "name": "Number One Special Threat"
     }
@@ -81,22 +81,22 @@
   "corePassives": [
     {
       "description": "Most of Ichigo's attacks apply Breach Marks to enemies. During Transcendent Power, all of his attacks consume Breach Marks to trigger Breach, dealing Ailment DMG equal to 60% of ATK. While Ichigo is on the field, he continuously applies Breach Points to nearby enemies. Each time Breach Points reach 100, 1 stack of Breach Mark is applied. \n When Ichigo releases Reason to Swing the Blade, every 4 hit(s) grant 1 stack of Charge, up to 3 stack(s). Each time a technique is released, all Charge stacks are consumed. Each stack increases Crit Rate by 6% for 15 second(s).",
-      "icon": "",
+      "icon": "/Images/ichigo-ts/passive-1.png",
       "name": "Blade of my Being"
     },
     {
       "description": "For each Thrust character present in the team other than Ichigo, Ichigo's ATK increases by 18.75%.",
-      "icon": "",
+      "icon": "/Images/ichigo-ts/passive-2.png",
       "name": "Shared Conviction"
     },
     {
       "description": "Releasing any type of technique increases Ichigo's Ailment Mastery by 5.62% for 15 second(s). This effect stacks up to 4 time(s).",
-      "icon": "",
+      "icon": "/Images/ichigo-ts/passive-3.png",
       "name": "Getsuga Pierce"
     },
     {
       "description": "For everyon 1% Ailment DMG Bonus Ichigo has during battle, his Crit DMG increases by 0.52%, up to 150%.",
-      "icon": "",
+      "icon": "/Images/ichigo-ts/passive-4.png",
       "name": "Power Fusion"
     }
   ],
@@ -121,25 +121,25 @@
   "skills": [
     {
       "description": "Ichigo swings his twin Zangetsu to launch consecutive attacks against enemies in front, dealing 5 hits for a total damage equal to 342% of ATK and applying 2 stack(s) of Breach Mark to enemies. \n Tap the Technique button immediately after the 3rd, 4th, or 5th basic attack hit to release 3 different Getsuga Tensho skills, respectively, and further build Spiritual Pressure for both Zangetsu. ~~Rapid Flurry~~ Transcendent Power \n Ichigo attacks the enemy multiple times from differentt directions, dealing a total damage equal to 2620% of ATK. Every 1 hit(s) consume 1 stack(s) of Breach Mark from the target and triggers 1 instance(s) of Breach. The damage dealt by Rapid Flurry counts as Ultimate DMG.",
-      "icon": "",
+      "icon": "/Images/ichigo-ts/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Reason to Swing the Blade"
     },
     {
       "description": "Ichigo condenses his Spiritual Power to enlarge the slash itself before unleashing it, dealing damage equal to 450% of ATK, building 50 Spiritual Pressure for his Zangetsu on both hands, and applying 4 stack(s) of Breach Mark. \n Tap and hold the skill button to charge. When fully charged, it deals damage equal to 675% of ATK and applies 8 stack(s) of Breach Mark. ~~Getsuga - New Moon~~ After Basic Attack 3rd Strike \n Ichigo swings his left-hand Zangetsu to release Getsuga Tensho, dealing damage equal to 360% of ATK and applying 1 stack(s) of Breach Mark. \n Releasing this skill builds 25 Spiritual Pressure for his left-hand Zangetsu and can be chained into the 5th hit of his basic attack directly. ~~Getsuga - Dual Crescent~~ After Basic Attack 4th strike \n Ichigo steps back and unleashes two consecutive Getsuga Tensho, dealing damage equal to 420% of ATK and applying 1 stack(s) of Breach Mark. \n Releasing this skill builds 15 Spiritual Pressure for his left-hand Zangetsu and 15 Spiritual Pressure for his right-hand Zangetsu. ~~Getsuga - Full Moon~~ After Basic Attack 5th Strike \n Ichigo Rushes above the enemy and swings his right-handed Zangetsu to release Getsuga Tensho, dealing damage equal to 480% of ATK and applying 1 stack(s) of Breach Mark. \n Releasing this skill builds 25 Spiritual Pressure for his right-hand Zangetsu.",
-      "icon": "",
+      "icon": "/Images/ichigo-ts/skill-technique.png",
       "kind": "Technique",
       "name": "Getsuga Tensho"
     },
     {
       "description": "Ichigo consumes all Spiritual Pressure from both Zangetsu and unleashes two Getsuga Tensho in a cross formation, dealing damage equal to 1360% of ATK and applying 8 stack(s) of Breach Mark. \n Releasing this skill builds 1 Trascendent Point(s). ~~Getsuga Jujisho - Transcendence~~ Transcendent Power - Full Overcharge \n Ichigo gathers powerful Spiritual Power and releases Getsuga Jujisho, dealing a total damage equal to 2880% of ATK. Each hit consumes 1 stack(s) of Breach Mark from the target and triggers 1 instance(s) of Breach.",
-      "icon": "",
+      "icon": "/Images/ichigo-ts/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Getsuga Jujisho"
     },
     {
       "description": "Ichigo seizes the opening after countering the enemy and launches a multi-hit attack, dealing damage equal tt o 720% of ATK and applying 3 stack(s) of Breach Mark to the target.",
-      "icon": "",
+      "icon": "/Images/ichigo-ts/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"
     },
@@ -173,7 +173,7 @@
         "Releasing any Battlefield Skill grants 3 Pressure Stacks gained from the next 2 techniques by 100%. After the follow-up attack, the 3rd basic attack can be released directly.",
         "Whenever any teammate inflicts a debuff on an enemy. Ichigo also applies 60 Breach Point(s) on the eney.",
         "When either Zangetsu reaches maximum Spiritual Pressure, 50% of its excess Spiritual Pressure is transferred to the  other Zangetsu if it's not fully charged."
-     ]
+      ]
     }
   },
   "tier": "S"
