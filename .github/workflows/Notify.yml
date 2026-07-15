@@ -23,6 +23,7 @@ on:
     paths:
       - 'Data/**'
       - 'Images/**'
+      - 'Contributors/**'
   workflow_dispatch:
 
 permissions:
