@@ -154,12 +154,26 @@
   "source": null,
   "stamps": {
     "core": {
-      "ascend1": [],
+      "ascend1": [
+        "Increases the damage of Breach by 25%.",
+        "For each 1 stack(s) of Breach Mark applied, the damage dealt by every Ultimate increases by 3%, up to 75%.",
+        "For each 1 stack(s) of Breach Mark consumed, the damage dealt by Ultimate, Getsuga Jujisho - Transcendence, increases by 2%, up to 50%.",
+        "Each Ravage stack reduces Spirit Resistance by extra 2%",
+        "Increases the character's Ailment build-up rate by 25%."
+      ],
       "ascend5": []
     },
     "weapon": {
       "ascend1": [],
-      "ascend5": []
+      "ascend5": [
+        "Increases Crit Rate by 40%.",
+        "After releasing the Technique, Getsuga Tensho, tap Basic Attack to perform a follow-up attack that deals damage equal to 2,000% of ATK, increasing the Spiritual Pressure",
+        "Enhanced Pressure Stack cap to 6; all 6 consumed = extra switch counterattack",
+        "Each Ravage stack reduces Spirit Resistance by extra 2%",
+        "Releasing any Battlefield Skill grants 3 Pressure Stacks gained from the next 2 techniques by 100%. After the follow-up attack, the 3rd basic attack can be released directly.",
+        "Whenever any teammate inflicts a debuff on an enemy. Ichigo also applies 60 Breach Point(s) on the eney.",
+        "When either Zangetsu reaches maximum Spiritual Pressure, 50% of its excess Spiritual Pressure is transferred to the  other Zangetsu if it's not fully charged."
+     ]
     }
   },
   "tier": "S"
