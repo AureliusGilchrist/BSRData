@@ -1167,7 +1167,7 @@
       {
         "slug": "ichigo-ts",
         "name": "Ichigo Kurosaki (Dual Zanpakuto)",
-        "role": "Full Assault",
+        "role": "Assault",
         "damageType": "Thrust",
         "notes": [
           "Second limited SSR thrust full assault"
@@ -1220,7 +1220,7 @@
       {
         "slug": "yoruichi",
         "name": "Yoruichi Shihoin",
-        "role": "Full Assault",
+        "role": "Assault",
         "damageType": "Strike",
         "notes": [
           "Standard banner unit"
@@ -1281,7 +1281,7 @@
       {
         "slug": "kenpachi",
         "name": "Kenpachi Zaraki",
-        "role": "Full Assault",
+        "role": "Assault",
         "damageType": "Slash",
         "notes": [
           "Slash Full Assault with ailment. Unfortunately this team cannot bring out his full potential as a lot of quickswaps are required to fully maximize his damage output. Neither Byakuya or Yachiru provide enough fieldtime to quickswap Kenpachi out."
@@ -1334,7 +1334,7 @@
       {
         "slug": "ulquiorra",
         "name": "Ulquiorra Shifar (SR+)",
-        "role": "Full Assault",
+        "role": "Assault",
         "damageType": "Spirit",
         "notes": [
           "Free unit"
@@ -1394,7 +1394,7 @@
       {
         "slug": "renji",
         "name": "Renji Abarai",
-        "role": "Full Assault",
+        "role": "Assault",
         "damageType": "Thrust",
         "notes": [
           "Free unit"
