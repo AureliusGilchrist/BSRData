@@ -178,15 +178,15 @@
     "weapon": {
       "ascend1": [
         "Increases Crit Rate by 20%.",
-        "After releasing the Technique, Getsuga Tensho, tap Basic Attack to perform a follow-up attack that deals damage equal to 1,000% of ATK, increasing the Spiritual Pressure",
-        "Whenever any teammate inflicts a debuff on an enemy. Ichigo also applies 30 Breach Point(s) on the eney.",
-        "When either Zangetsu reaches maximum Spiritual Pressure, 25% of its excess Spiritual Pressure is transferred to the  other Zangetsu if it's not fully charged."
+        "After releasing the Technique, Getsuga Tensho, tap Basic Attack to perform a follow-up attack that deals damage equal to 1,000% of ATK, increasing the Spiritual Pressure.",
+        "Whenever any teammate inflicts a debuff on an enemy. Ichigo also applies 30 Breach Point(s) on the enemy.",
+        "When either Zangetsu reaches maximum Spiritual Pressure, 25% of its excess Spiritual Pressure is transferred to the other Zangetsu if it's not fully charged."
      ],
       "ascend5": [
         "Increases Crit Rate by 40%.",
-        "After releasing the Technique, Getsuga Tensho, tap Basic Attack to perform a follow-up attack that deals damage equal to 2,000% of ATK, increasing the Spiritual Pressure",
-        "Whenever any teammate inflicts a debuff on an enemy. Ichigo also applies 60 Breach Point(s) on the eney.",
-        "When either Zangetsu reaches maximum Spiritual Pressure, 50% of its excess Spiritual Pressure is transferred to the  other Zangetsu if it's not fully charged."
+        "After releasing the Technique, Getsuga Tensho, tap Basic Attack to perform a follow-up attack that deals damage equal to 2,000% of ATK, increasing the Spiritual Pressure.",
+        "Whenever any teammate inflicts a debuff on an enemy. Ichigo also applies 60 Breach Point(s) on the enemy.",
+        "When either Zangetsu reaches maximum Spiritual Pressure, 50% of its excess Spiritual Pressure is transferred to the other Zangetsu if it's not fully charged."
       ]
     }
   },
