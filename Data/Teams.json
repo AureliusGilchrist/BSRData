@@ -913,7 +913,7 @@
         "role": "Assault",
         "damageType": "Spirit",
         "notes": [
-          "Toshiro buffs make him a strong contender with other teams"
+          "Unfortunately falls off in comparison to Ulquiorra. Toshiro teams may derank to A tier once more teams are available."
         ],
         "swappable": []
       },
@@ -1210,8 +1210,8 @@
     "rotationF2P": ""
   },
   {
-    "id": "yoruichi-team",
-    "name": "Yoruichi Team",
+    "id": "f2pstrike-team",
+    "name": "F2P Strike Team",
     "rank": 50,
     "tier": "B",
     "difficulty": "Easy",
@@ -1225,7 +1225,9 @@
         "notes": [
           "Standard banner unit"
         ],
-        "swappable": []
+        "swappable": [
+          "grimmjow"
+        ]
       },
       {
         "slug": "soi-fon",
@@ -1233,9 +1235,11 @@
         "role": "Tactician",
         "damageType": "Strike",
         "notes": [
-          "Her most important kit is locked behind B6."
+          "B1 minimum."
         ],
-        "swappable": []
+        "swappable": [
+          "komamura"
+        ]
       },
       {
         "slug": "mayuri",
@@ -1246,14 +1250,128 @@
           "Low field time support."
         ],
         "swappable": [
-          "kisuke"
+          "kisuke",
+          "nemu"
         ]
       }
     ],
     "rotationP2W": "",
     "rotations": [
       {
-        "name": "Yoruichi Team",
+        "name": "F2P Strike Team",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          ""
+        ]
+      }
+    ],
+    "rotationF2P": ""
+  },
+  {
+    "id": "kenny-f2p",
+    "name": "Kenpachi F2P",
+    "rank": 95,
+    "tier": "C",
+    "difficulty": "Easy",
+    "content": "Frenzy Feast",
+    "members": [
+      {
+        "slug": "kenpachi",
+        "name": "Kenpachi Zaraki",
+        "role": "Full Assault",
+        "damageType": "Slash",
+        "notes": [
+          "Slash Full Assault with ailment. Unfortunately this team cannot bring out his full potential as a lot of quickswaps are required to fully maximize his damage output. Neither Byakuya or Yachiru provide enough fieldtime to quickswap Kenpachi out."
+        ],
+        "swappable": []
+      },
+      {
+        "slug": "byakuya",
+        "name": "Byakuya Kuchiki",
+        "role": "Tactician",
+        "damageType": "Slash",
+        "notes": [
+          "Unfortunately, any teams with Byakuya will automatically offer subpar performance."
+        ],
+        "swappable": []
+      },
+      {
+        "slug": "yachiru",
+        "name": "Yachiru Kusajishi",
+        "role": "Support",
+        "damageType": "Slash",
+        "notes": [
+          "Low field time support."
+        ],
+        "swappable": []
+      }
+    ],
+    "rotationP2W": "",
+    "rotations": [
+      {
+        "name": "Kenpachi F2P",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          ""
+        ]
+      }
+    ],
+    "rotationF2P": ""
+  },
+  {
+    "id": "f2pspirit-team",
+    "name": "F2P Spirit Team",
+    "rank": 49,
+    "tier": "B",
+    "difficulty": "Easy",
+    "content": "Frenzy Feast",
+    "members": [
+      {
+        "slug": "ulquiorra",
+        "name": "Ulquiorra Shifar (SR+)",
+        "role": "Full Assault",
+        "damageType": "Spirit",
+        "notes": [
+          "Free unit"
+        ],
+        "swappable": [
+          "ururu"
+        ]
+      },
+      {
+        "slug": "aizen",
+        "name": "Sosuke Aizen",
+        "role": "Tactician",
+        "damageType": "Spirit",
+        "notes": [
+          "B1 minimum."
+        ],
+        "swappable": [
+          "rukia"
+        ]
+      },
+      {
+        "slug": "szayelaporro",
+        "name": "Szayelaporro Granz",
+        "role": "Support",
+        "damageType": "Spirit",
+        "notes": [
+          "Low field time support."
+        ],
+        "swappable": [
+          "kisuke",
+          "momo"
+        ]
+      }
+    ],
+    "rotationP2W": "",
+    "rotations": [
+      {
+        "name": "F2P Strike Team",
         "tags": [
           "Burst"
         ],
@@ -1264,4 +1382,5 @@
     ],
     "rotationF2P": ""
   }
+
 ]
