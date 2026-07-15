@@ -15,8 +15,16 @@
   },
   "bondPriority": [
     {
-      "description": "TBD",
+      "description": "Increases Thrust Mastery by 10% during battle. When equipped by a Full Assault character, increases Thrust DMG Bonus by 10% and Ailment Mastery by 10%.",
       "name": "Ichigo Bond"
+    },
+    {
+      "description": "During battle, DMG dealt increases by 8%. This increases to 12% / 16% / 20%, if Crit Rate reaches 20% / 40% / 60%.",
+      "name": "Toshiro Bond"
+    },
+    {
+      "description": "Increases Technique DMG by 32% during battle. When Ailment DMG Bonus is equal or higher than 80%, Ailment DMG Bonus is increased by extra 80%.",
+      "name": "Gin Bond"
     }
   ],
   "boundaries": [
