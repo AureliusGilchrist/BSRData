@@ -128,7 +128,7 @@
   ],
   "skills": [
     {
-      "description": "Ichigo swings his twin Zangetsu to launch consecutive attacks against enemies in front, dealing 5 hits for a total damage equal to 342%~855% of ATK and applying 2 stack(s) of Breach Mark to enemies. \n Tap the Technique button immediately after the 3rd, 4th, or 5th basic attack hit to release 3 different Getsuga Tensho skills, respectively, and further build Spiritual Pressure for both Zangetsu. ~~Rapid Flurry~~ Transcendent Power \n Ichigo attacks the enemy multiple times from differentt directions, dealing a total damage equal to 2620%~6550% of ATK. Every 1 hit(s) consume 1 stack(s) of Breach Mark from the target and triggers 1 instance(s) of Breach. The damage dealt by Rapid Flurry counts as Ultimate DMG.",
+      "description": "Ichigo swings his twin Zangetsu to launch consecutive attacks against enemies in front, dealing 5 hits for a total damage equal to 342%~855% of ATK and applying 2 stack(s) of Breach Mark to enemies. \n Tap the Technique button immediately after the 3rd, 4th, or 5th basic attack hit to release 3 different Getsuga Tensho skills, respectively, and further build Spiritual Pressure for both Zangetsu. ~~Rapid Flurry~~ Transcendent Power \n Ichigo attacks the enemy multiple times from different directions, dealing a total damage equal to 2620%~6550% of ATK. Every 1 hit(s) consume 1 stack(s) of Breach Mark from the target and triggers 1 instance(s) of Breach. The damage dealt by Rapid Flurry counts as Ultimate DMG.",
       "icon": "/Images/ichigo-ts/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Reason to Swing the Blade"
