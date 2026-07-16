@@ -143,6 +143,7 @@
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "21 Nov 2025",
   "role": "Tactician",
+  "tips": ["Barely contributes to the team.", "Another tactic is recommended as soon as possible."],
   "rotations": [
     {
       "name": "Battlefield Spam",
