@@ -8,10 +8,10 @@
   },
   "art": "/Images/soi-fon/art.png",
   "bestStamp": {
-    "mainStats": "1: Strike DMG \u003e ATK%  •  2: Crit DMG \u003e ATK%  •  3: Ailment% \u003e ATK%",
+    "mainStats": "1: Strike DMG > ATK%  •  2: Crit DMG > ATK%  •  3: Ailment% > ATK%",
     "notes": "Two-rotation Tactician — the second leads into Ultimate.",
     "setName": "Stealth Force (3)",
-    "subStatPriority": "Ailment% \u003e Crit DMG \u003e Crit Rate (25%) \u003e ATK% \u003e Flat ATK"
+    "subStatPriority": "Ailment% > Crit DMG > Crit Rate (25%) > ATK% > Flat ATK"
   },
   "bondPriority": [
     {
@@ -65,11 +65,11 @@
       "setName": "Stealth Force",
       "setPieces": [
         {
-          "mainStat": "Strike DMG \u003e ATK%",
+          "mainStat": "Strike DMG > ATK%",
           "slot": 1
         },
         {
-          "mainStat": "Crit DMG \u003e ATK%",
+          "mainStat": "Crit DMG > ATK%",
           "slot": 2
         },
         {
@@ -77,7 +77,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Ailment% \u003e Crit Rate (25%) \u003e ATK% \u003e Crit DMG \u003e Flat ATK",
+      "subStatPriority": "Ailment% > Crit Rate (25%) > ATK% > Crit DMG > Flat ATK",
       "targets": {
         "ultChargeRate": "None"
       }
@@ -85,25 +85,25 @@
     {
       "label": "Low investment",
       "passiveSkills": [
-        "Ult DMG \u003e Enhanced DMG or Overdrive"
+        "Ult DMG > Enhanced DMG or Overdrive"
       ],
       "range": "B1W1C1 - B5W1C1",
       "setName": "Stealth Force",
       "setPieces": [
         {
-          "mainStat": "Strike DMG \u003e ATK%",
+          "mainStat": "Strike DMG > ATK%",
           "slot": 1
         },
         {
-          "mainStat": "Crit Rate \u003e Crit DMG",
+          "mainStat": "Crit Rate > Crit DMG",
           "slot": 2
         },
         {
-          "mainStat": "ATK% \u003e Ailment DMG Bonus",
+          "mainStat": "ATK% > Ailment DMG Bonus",
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Ailment% \u003e Flat ATK",
+      "subStatPriority": "Crit Rate > Crit DMG > ATK% > Ailment% > Flat ATK",
       "targets": {
         "ultChargeRate": "None"
       }
@@ -111,25 +111,25 @@
     {
       "label": "No investment",
       "passiveSkills": [
-        "Invigorate or Restrain \u003e Ult DMG \u003e Enhanced DMG or Overdrive"
+        "Invigorate or Restrain > Ult DMG > Enhanced DMG or Overdrive"
       ],
       "range": "B0W1C1",
       "setName": "Stealth Force",
       "setPieces": [
         {
-          "mainStat": "Strike DMG \u003e ATK%",
+          "mainStat": "Strike DMG > ATK%",
           "slot": 1
         },
         {
-          "mainStat": "Crit Rate \u003e Crit DMG",
+          "mainStat": "Crit Rate > Crit DMG",
           "slot": 2
         },
         {
-          "mainStat": "Ult Charge \u003e ATK% \u003e Ailment DMG Bonus",
+          "mainStat": "Ult Charge > ATK% > Ailment DMG Bonus",
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate \u003e Ult Charge \u003e Crit DMG \u003e ATK% \u003e Ailment% \u003e Flat ATK",
+      "subStatPriority": "Crit Rate > Ult Charge > Crit DMG > ATK% > Ailment% > Flat ATK",
       "targets": {
         "ultChargeRate": "140%+"
       }
@@ -262,5 +262,13 @@
     "atk": "201",
     "def": "119",
     "hp": "581"
-  }
+  },
+  "rationale": [
+    "Soi Fon sits in Tier S because the kit does its job about as well as the current roster allows: the numbers hold up in endgame content without needing a specific team built around them. As a Tactician, the value here is control and setup as much as raw damage — the recommendations favor consistency and uptime over pure hit size. The Strike damage type also matters here: content weak to it is where this build over-performs its tier, and content resistant to it is where you should bench accordingly.",
+    "The recommended set — Stealth Force (3) — is chosen for how the set bonus lines up with the kit's actual damage profile, not because it's generically strong. Main stats go 1: Strike DMG > ATK%  •  2: Crit DMG > ATK%  •  3: Ailment% > ATK% for the same reason: they feed what the kit multiplies. The substat order follows what the kit actually scales from — stats that multiply the kit's main loop come before generically \"good\" lines. Two-rotation Tactician — the second leads into Ultimate.",
+    "We call B6 the stopping point because that's where the boundary curve bends: the levels up to it unlock the pieces the kit is actually balanced around, while the levels past it mostly buy stat percentages at dupe prices. For free-to-play rosters that means settling at B1 and moving on; if dupes are no object, B6 is where the value per copy finally flattens out.",
+    "The featured rotation (\"Nigeki Kessatsu\") is ordered the way it is to stack the kit's multipliers before the big hits land — the sequence matters more than the buttons. Soi Fon swaps must be done at intervals of 10 Battlefield Skill Energy.",
+    "Bond priority starts with Soi Fon Bond because it feeds the stat the rest of this page is built around — later bonds are nice-to-haves, this one changes the math.",
+    "As with everything on this page, these calls come from community testing plus the wiki's numbers — when the data changes (balance patches, new stamps, better testing), the recommendations and this reasoning get updated together."
+  ]
 }

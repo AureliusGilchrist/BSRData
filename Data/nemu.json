@@ -11,7 +11,7 @@
     "mainStats": "1: ATK%  •  2: ATK%  •  3: ATK%",
     "notes": "ATK farmer",
     "setName": "Hidden Wisdom (3)",
-    "subStatPriority": "ATK% \u003e Flat ATK \u003e Ult Charge Rate \u003e Crit Rate \u003e Crit DMG"
+    "subStatPriority": "ATK% > Flat ATK > Ult Charge Rate > Crit Rate > Crit DMG"
   },
   "bondPriority": [
     {
@@ -82,7 +82,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "ATK% \u003e Flat ATK \u003e Ult Charge Rate \u003e Crit Rate \u003e Crit DMG"
+      "subStatPriority": "ATK% > Flat ATK > Ult Charge Rate > Crit Rate > Crit DMG"
     }
   ],
   "corePassives": [
@@ -168,5 +168,13 @@
       "ascend5": []
     }
   },
-  "tier": "C"
+  "tier": "C",
+  "rationale": [
+    "Nemu Kurotsuchi lands in Tier C because the kit's payoff doesn't keep pace with the investment it asks for — they can still carry specific content, but stronger options usually want the same resources. As a Support, this build is judged by what it lets the rest of the team do — the picks below prioritize uptime, sustain, and buff coverage over personal damage. The Strike damage type also matters here: content weak to it is where this build over-performs its tier, and content resistant to it is where you should bench accordingly.",
+    "The recommended set — Hidden Wisdom (3) — is chosen for how the set bonus lines up with the kit's actual damage profile, not because it's generically strong. Main stats go 1: ATK%  •  2: ATK%  •  3: ATK% for the same reason: they feed what the kit multiplies. Ult Charge Rate leads the priority because the kit's value is concentrated in its Ultimate — getting it back faster beats making everything else slightly bigger. ATK farmer.",
+    "We call B0 the stopping point because that's where the boundary curve bends: the levels up to it unlock the pieces the kit is actually balanced around, while the levels past it mostly buy stat percentages at dupe prices. For free-to-play rosters that means settling at B2 and moving on; if dupes are no object, B6 is where the value per copy finally flattens out.",
+    "The featured rotation (\"Basic Loop\") is ordered the way it is to stack the kit's multipliers before the big hits land — the sequence matters more than the buttons.",
+    "Bond priority starts with Mayuri Bond because it feeds the stat the rest of this page is built around — later bonds are nice-to-haves, this one changes the math.",
+    "As with everything on this page, these calls come from community testing plus the wiki's numbers — when the data changes (balance patches, new stamps, better testing), the recommendations and this reasoning get updated together."
+  ]
 }

@@ -8,10 +8,10 @@
   },
   "art": "/Images/tosen/art.png",
   "bestStamp": {
-    "mainStats": "1: ATK% \u003e Thrust DMG  •  2: Crit Rate  •  3: Ailment%",
+    "mainStats": "1: ATK% > Thrust DMG  •  2: Crit Rate  •  3: Ailment%",
     "notes": "Standard Banner SSR",
     "setName": "Knight's Anthem (3)",
-    "subStatPriority": "Crit Rate \u003e Ailment% \u003e ATK% \u003e Crit DMG \u003e Ult Charge Rate"
+    "subStatPriority": "Crit Rate > Ailment% > ATK% > Crit DMG > Ult Charge Rate"
   },
   "bondPriority": [
     {
@@ -67,7 +67,7 @@
       "setName": "Knight's Anthem (3)",
       "setPieces": [
         {
-          "mainStat": "ATK% \u003e Thrust DMG Bonus",
+          "mainStat": "ATK% > Thrust DMG Bonus",
           "slot": 1
         },
         {
@@ -79,7 +79,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate \u003e Ailment% \u003e ATK% \u003e Crit DMG \u003e Ult Charge Rate"
+      "subStatPriority": "Crit Rate > Ailment% > ATK% > Crit DMG > Ult Charge Rate"
     }
   ],
   "corePassives": [
@@ -191,5 +191,13 @@
     "atk": "201",
     "def": "119",
     "hp": "581"
-  }
+  },
+  "rationale": [
+    "Tier B reflects a kit that works, but with real caveats: Kaname Tosen performs well in the right matchups or team, while more universal picks outperform them elsewhere. As a Tactician, the value here is control and setup as much as raw damage — the recommendations favor consistency and uptime over pure hit size. The Thrust damage type also matters here: content weak to it is where this build over-performs its tier, and content resistant to it is where you should bench accordingly.",
+    "The recommended set — Knight's Anthem (3) — is chosen for how the set bonus lines up with the kit's actual damage profile, not because it's generically strong. Main stats go 1: ATK% > Thrust DMG  •  2: Crit Rate  •  3: Ailment% for the same reason: they feed what the kit multiplies. Crit DMG and Crit Rate lead the substat priority because they multiply together — once Crit Rate is high enough to land reliably, every point of Crit DMG scales the whole kit, which flat ATK can't match. Standard Banner SSR.",
+    "We call B6 the stopping point because that's where the boundary curve bends: the levels up to it unlock the pieces the kit is actually balanced around, while the levels past it mostly buy stat percentages at dupe prices. For free-to-play rosters that means settling at B1 and moving on; if dupes are no object, B6 is where the value per copy finally flattens out.",
+    "The featured rotation (\"Setup\") is ordered the way it is to stack the kit's multipliers before the big hits land — the sequence matters more than the buttons. Just spam battlefield when it's up.",
+    "Bond priority starts with Nelliel Bond because it feeds the stat the rest of this page is built around — later bonds are nice-to-haves, this one changes the math.",
+    "As with everything on this page, these calls come from community testing plus the wiki's numbers — when the data changes (balance patches, new stamps, better testing), the recommendations and this reasoning get updated together."
+  ]
 }

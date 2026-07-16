@@ -9,10 +9,10 @@
   "affiliation": "Shinigami",
   "art": "/Images/ichigo-bankai/art.png",
   "bestStamp": {
-    "mainStats": "1: Slash DMG Bonus \u003e ATK%  •  2: Crit Rate  •  3: ATK%",
+    "mainStats": "1: Slash DMG Bonus > ATK%  •  2: Crit Rate  •  3: ATK%",
     "notes": "First limited SSR banner character",
     "setName": "Rising Black Moon (3)",
-    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e Atk% \u003e Flat ATK"
+    "subStatPriority": "Crit Rate > Crit DMG > Atk% > Flat ATK"
   },
   "bondPriority": [
     {
@@ -57,7 +57,7 @@
       "description": "When Ichigo launches a special attack, it will grant a quick charge if one is not already present. Otherwise, it will be consumed instantly, increasing the damage of the special attack by an additional 100%.",
       "icon": "/Images/ichigo-bankai/boundary-6.png",
       "level": 6,
-      "name": "Edge of Black \u0026 White"
+      "name": "Edge of Black & White"
     }
   ],
   "builds": [
@@ -71,11 +71,11 @@
       "setName": "Rising Black Moon (3)",
       "setPieces": [
         {
-          "mainStat": "Slash DMG Bonus \u003e ATK%",
+          "mainStat": "Slash DMG Bonus > ATK%",
           "slot": 1
         },
         {
-          "mainStat": "Crit Rate \u003e Crit DMG",
+          "mainStat": "Crit Rate > Crit DMG",
           "slot": 2
         },
         {
@@ -83,7 +83,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Flat ATK",
+      "subStatPriority": "Crit Rate > Crit DMG > ATK% > Flat ATK",
       "targets": {
         "ultChargeRate": "140%+"
       }
@@ -305,5 +305,13 @@
     "def": "119",
     "hp": "582"
   },
-  "wikiSource": "https://bleachsoulresonance.wiki.gg/wiki/Ichigo_Kurosaki_(Bankai)"
+  "wikiSource": "https://bleachsoulresonance.wiki.gg/wiki/Ichigo_Kurosaki_(Bankai)",
+  "rationale": [
+    "Ichigo Kurosaki (Bankai) earns Tier A on consistency — the kit delivers strong, reliable value in most content, falling short of Tier S only where the very top picks bring bigger burst windows or more team-wide impact. As the team's damage engine, every recommendation on this page optimizes for one thing: the biggest hits landing inside the kit's burst windows. The Slash damage type also matters here: content weak to it is where this build over-performs its tier, and content resistant to it is where you should bench accordingly.",
+    "The recommended set — Rising Black Moon (3) — is chosen for how the set bonus lines up with the kit's actual damage profile, not because it's generically strong. Main stats go 1: Slash DMG Bonus > ATK%  •  2: Crit Rate  •  3: ATK% for the same reason: they feed what the kit multiplies. Crit DMG and Crit Rate lead the substat priority because they multiply together — once Crit Rate is high enough to land reliably, every point of Crit DMG scales the whole kit, which flat ATK can't match. First limited SSR banner character.",
+    "We call B6 the stopping point because that's where the boundary curve bends: the levels up to it unlock the pieces the kit is actually balanced around, while the levels past it mostly buy stat percentages at dupe prices. For free-to-play rosters that means settling at B1 and moving on; if dupes are no object, B6 is where the value per copy finally flattens out.",
+    "The featured rotation (\"Getsuga Opener\") is ordered the way it is to stack the kit's multipliers before the big hits land — the sequence matters more than the buttons. This character will require a lot of quickswaps.",
+    "Bond priority starts with White Bond because it feeds the stat the rest of this page is built around — later bonds are nice-to-haves, this one changes the math.",
+    "As with everything on this page, these calls come from community testing plus the wiki's numbers — when the data changes (balance patches, new stamps, better testing), the recommendations and this reasoning get updated together."
+  ]
 }

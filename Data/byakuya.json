@@ -9,10 +9,10 @@
   "affiliation": "Shinigami",
   "art": "/Images/byakuya/art.png",
   "bestStamp": {
-    "mainStats": "1: Slash DMG \u003e ATK%  •  2: Crit Rate  •  3: ATK% \u003e Ult Charge Rate",
+    "mainStats": "1: Slash DMG > ATK%  •  2: Crit Rate  •  3: ATK% > Ult Charge Rate",
     "notes": "Tactician who does not provide counters.",
     "setName": "Blooming Sakura (3)",
-    "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Ult Charge Rate \u003e Flat ATK"
+    "subStatPriority": "Crit Rate > Crit DMG > ATK% > Ult Charge Rate > Flat ATK"
   },
   "bondPriority": [],
   "boundaries": [
@@ -62,7 +62,7 @@
       "setName": "Blooming Sakura (3)",
       "setPieces": [
         {
-          "mainStat": "Slash DMG \u003e ATK%",
+          "mainStat": "Slash DMG > ATK%",
           "slot": 1
         },
         {
@@ -70,11 +70,11 @@
           "slot": 2
         },
         {
-          "mainStat": "ATK% \u003e Ult Charge Rate",
+          "mainStat": "ATK% > Ult Charge Rate",
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate \u003e Crit DMG \u003e ATK% \u003e Ult Charge Rate \u003e Flat ATK",
+      "subStatPriority": "Crit Rate > Crit DMG > ATK% > Ult Charge Rate > Flat ATK",
       "targets": {
         "ultChargeRate": "Any"
       }
@@ -192,5 +192,12 @@
     "def": "118",
     "hp": "588"
   },
-  "wikiSource": "https://bleachsoulresonance.wiki.gg/wiki/Byakuya_Kuchiki"
+  "wikiSource": "https://bleachsoulresonance.wiki.gg/wiki/Byakuya_Kuchiki",
+  "rationale": [
+    "Byakuya Kuchiki lands in Tier C because the kit's payoff doesn't keep pace with the investment it asks for — they can still carry specific content, but stronger options usually want the same resources. As a Tactician, the value here is control and setup as much as raw damage — the recommendations favor consistency and uptime over pure hit size. The Slash damage type also matters here: content weak to it is where this build over-performs its tier, and content resistant to it is where you should bench accordingly.",
+    "The recommended set — Blooming Sakura (3) — is chosen for how the set bonus lines up with the kit's actual damage profile, not because it's generically strong. Main stats go 1: Slash DMG > ATK%  •  2: Crit Rate  •  3: ATK% > Ult Charge Rate for the same reason: they feed what the kit multiplies. Crit DMG and Crit Rate lead the substat priority because they multiply together — once Crit Rate is high enough to land reliably, every point of Crit DMG scales the whole kit, which flat ATK can't match. Tactician who does not provide counters.",
+    "We call B0 the stopping point because that's where the boundary curve bends: the levels up to it unlock the pieces the kit is actually balanced around, while the levels past it mostly buy stat percentages at dupe prices.",
+    "The featured rotation (\"Opener\") is ordered the way it is to stack the kit's multipliers before the big hits land — the sequence matters more than the buttons. Use Battlefield on cooldown.",
+    "As with everything on this page, these calls come from community testing plus the wiki's numbers — when the data changes (balance patches, new stamps, better testing), the recommendations and this reasoning get updated together."
+  ]
 }

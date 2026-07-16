@@ -8,10 +8,10 @@
   },
   "art": "/Images/gin/art.png",
   "bestStamp": {
-    "mainStats": "1: ATK% \u003e Thrust DMG •  2: Crit Rate  •  3: Ailment%",
+    "mainStats": "1: ATK% > Thrust DMG •  2: Crit Rate  •  3: Ailment%",
     "notes": "Weapon ascension has massive impact, aim for Crit Rate ~70%.",
     "setName": "Mocking Visage (3)",
-    "subStatPriority": "Crit Rate (70%) \u003e Ailment% \u003e ATK% \u003e Crit DMG \u003e Flat Atk \u003e Ult Charge Rate"
+    "subStatPriority": "Crit Rate (70%) > Ailment% > ATK% > Crit DMG > Flat Atk > Ult Charge Rate"
   },
   "bondPriority": [
     {
@@ -69,7 +69,7 @@
       "setName": "Mocking Visage (3)",
       "setPieces": [
         {
-          "mainStat": "ATK% \u003e Thrust DMG",
+          "mainStat": "ATK% > Thrust DMG",
           "slot": 1
         },
         {
@@ -81,7 +81,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate \u003e Ailment% \u003e ATK% \u003e Flat ATK \u003e Crit DMG",
+      "subStatPriority": "Crit Rate > Ailment% > ATK% > Flat ATK > Crit DMG",
       "targets": {
         "ultChargeRate": "Any%"
       }
@@ -208,5 +208,13 @@
     "atk": "201",
     "def": "119",
     "hp": "581"
-  }
+  },
+  "rationale": [
+    "Gin Ichimaru sits in Tier S because the kit does its job about as well as the current roster allows: the numbers hold up in endgame content without needing a specific team built around them. As the team's damage engine, every recommendation on this page optimizes for one thing: the biggest hits landing inside the kit's burst windows. The Thrust damage type also matters here: content weak to it is where this build over-performs its tier, and content resistant to it is where you should bench accordingly.",
+    "The recommended set — Mocking Visage (3) — is chosen for how the set bonus lines up with the kit's actual damage profile, not because it's generically strong. Main stats go 1: ATK% > Thrust DMG •  2: Crit Rate  •  3: Ailment% for the same reason: they feed what the kit multiplies. Crit DMG and Crit Rate lead the substat priority because they multiply together — once Crit Rate is high enough to land reliably, every point of Crit DMG scales the whole kit, which flat ATK can't match. Weapon ascension has massive impact, aim for Crit Rate ~70%.",
+    "We call B4 the stopping point because that's where the boundary curve bends: the levels up to it unlock the pieces the kit is actually balanced around, while the levels past it mostly buy stat percentages at dupe prices. For free-to-play rosters that means settling at B2 and moving on; if dupes are no object, B4 is where the value per copy finally flattens out.",
+    "The featured rotation (\"Shinso Shinso Shinso\") is ordered the way it is to stack the kit's multipliers before the big hits land — the sequence matters more than the buttons. Gin's Weapon Ascension 3 is crucial to the unit's overall damage. Prioritize upgrading the weapon over boundaries after B2.",
+    "Bond priority starts with Gin Bond because it feeds the stat the rest of this page is built around — later bonds are nice-to-haves, this one changes the math.",
+    "As with everything on this page, these calls come from community testing plus the wiki's numbers — when the data changes (balance patches, new stamps, better testing), the recommendations and this reasoning get updated together."
+  ]
 }
