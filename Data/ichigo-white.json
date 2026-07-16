@@ -54,8 +54,35 @@
   ],
   "builds": [
     {
-      "label": "Whale",
-      "passiveSkills": [],
+      "label": "Whale Kenny Team",
+      "passiveSkills": [
+        "Invigorate - Tactic",
+        "Restrain"
+      ],
+      "range": "B6W5C5",
+      "setName": "Mindscape Encroachment (3)",
+      "setPieces": [
+        {
+          "mainStat": "Slash DMG Bonus \u003e ATK%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit DMG \u003e ATK%",
+          "slot": 2
+        },
+        {
+          "mainStat": "ATK%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit Rate (25%) \u003e ATK% \u003e Crit DMG \u003e Flat ATK \u003e Ult Charge Rate"
+    },
+    {
+      "label": "Whale Bichigo Team",
+      "passiveSkills": [
+        "All DMG",
+        "Invigorate - Tactic"
+      ],
       "range": "B6W5C5",
       "setName": "Mindscape Encroachment (3)",
       "setPieces": [
@@ -76,7 +103,10 @@
     },
     {
       "label": "F2P",
-      "passiveSkills": [],
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain"
+      ],
       "range": "B0W1C5",
       "setName": "Mindscape Encroachment (3)",
       "setPieces": [
