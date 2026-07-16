@@ -200,11 +200,13 @@
   },
   "tier": "S",
   "rationale": [
-    "Ichigo Kurosaki (Dual Zangetsu) sits in Tier S because the kit does its job about as well as the current roster allows: the numbers hold up in endgame content without needing a specific team built around them. As the team's damage engine, every recommendation on this page optimizes for one thing: the biggest hits landing inside the kit's burst windows. The Thrust damage type also matters here: content weak to it is where this build over-performs its tier, and content resistant to it is where you should bench accordingly.",
-    "The recommended set — Duty Borne (3) — is chosen for how the set bonus lines up with the kit's actual damage profile, not because it's generically strong. Main stats go 1: ATK% > Thrust DMG  •  2: ATK% > Crit DMG  •  3: Ailment% for the same reason: they feed what the kit multiplies. The substat order follows what the kit actually scales from — stats that multiply the kit's main loop come before generically \"good\" lines. TBD.",
-    "We call B6 the stopping point because that's where the boundary curve bends: the levels up to it unlock the pieces the kit is actually balanced around, while the levels past it mostly buy stat percentages at dupe prices. For free-to-play rosters that means settling at B1 and moving on; if dupes are no object, B6 is where the value per copy finally flattens out.",
-    "The featured rotation (\"24% Crit Rate (64% on stats page) / 215% Ailment / No Ult Charge\") is ordered the way it is to stack the kit's multipliers before the big hits land — the sequence matters more than the buttons.",
-    "Bond priority starts with Ichigo Bond because it feeds the stat the rest of this page is built around — later bonds are nice-to-haves, this one changes the math.",
-    "As with everything on this page, these calls come from community testing plus the wiki's numbers — when the data changes (balance patches, new stamps, better testing), the recommendations and this reasoning get updated together."
+    "Ichigo Kurosaki (Dual Zangetsu) sits in Tier S because he is the strongest Thrust Full Assault currently in-game. Gin still has his uses, but Ichigo outclasses him in any content requiring high DPS.",
+    "The majority of Ichigo's damage will come from Ultimates and his Ailment DMG, Breach, and the 3 piece set effect — Duty Borne (3) — increases both.",
+    "B6 is the recommended for P2W players as it pairs very well with Mayuri's own B6. Both increase DMG while the enemy is under Spiritual Dissipation.",
+    "Ichigo's Bond is the only one to increase Thrust Mastery and Ailment Mastery. Toshiro's bond seems to be the next best option based on tests, followed by Gin's bond.",
+    "Recommended stats for whales is 24% Crit Rate, 215% Ailment, and no Ult Charge;",
+    "W5 provides a flat 40% Crit Rate, and B1 provides an additional 36%, totaling 76%. To reach 100%, you only need 24% more from substats. The weapon's 40% Crit Rate is included in the game's stats page, so it needs to show 64% to reach the maximum value.",
+    "215% Ailment is needed to maximize the bonus from Ichigo's third passive, Power Fusion. He gains 0.7% Crit DMG for every 1% Ailment, up to 150% Crit DMG. 150 / 0.7 = 214.2857142857143. If you have Nelliel and Mayuri B4 on your team, then the requirement will decrease. Nelliel's Stamp Set provides 40% Ailment DMG to her team, and Mayuri's B4 provides 50%. With those two in the team, Ichigo merely needs 125% Ailment (though more is still recommended for increased damage).",
+    "No Ult Charge is needed as his Ultimate becomes available based on his Spiritual Pressure. Ichigo needs to build 100 Spiritual Pressure for his left and right-handed Zangetsus. Ult Charge does not affect this process."
   ]
 }
