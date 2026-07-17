@@ -162,11 +162,20 @@
   "stamps": {
     "core": {
       "ascend1": [],
-      "ascend5": []
+      "ascend5": [
+        "Increases ATK by 50%, and Crit Rate is further increased by 15% while in Resurreccion: Segunda Etapa.",
+        "Each time the character releases any technique, Technique DMG increases by 10% for 20 seconds, stacking up to 8 times. At 8 stacks, Ultimate DMG is also increased by 50%.",
+        "The Enhanced Technique, Lanza del Relampago II, applies a Weakness Mark to the enemy, increasing all subsequent Lanza del Relampago DMG they take by 60% fo 15 seconds."
+      ]
     },
     "weapon": {
       "ascend1": [],
-      "ascend5": []
+      "ascend5": [
+        "When any attack triggers a critical hit, an additional attack is triggered immediately, dealing damage equal to 25% of the attack's damage.",
+        "After Ulquiorra releases any Ultimate, his Crit DMG increases by 100% for 20 seconds.",
+        "Increases Ultimate Charge Rate by 40%.",
+        "At the start of battle, every extra 1% Ultimate Charge Rate increases his Crit Rate by 0.8%, up to a maximum of 55%."
+      ]
     }
   },
   "stats": {
