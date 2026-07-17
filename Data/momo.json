@@ -184,6 +184,23 @@
       "ascend5": [
         "Momo Hinamori gains double the number of stacks when receiving Insight",
         "Each stack of Insight grants an extra 3% Spirit DMG Bonus"
+      ],
+      "ascend2": [
+        "Momo Hinamori gains double the number of stacks when receiving Insight",
+        "Each stack of Insight grants an extra 1.5% Spirit DMG Bonus"
+      ],
+      "ascend3": [
+        "Momo Hinamori gains double the number of stacks when receiving Insight",
+        "Each stack of Insight grants an extra 2% Spirit DMG Bonus"
+      ],
+      "ascend4": [
+        "Momo Hinamori gains double the number of stacks when receiving Insight",
+        "Each stack of Insight grants an extra 2.5% Spirit DMG Bonus"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

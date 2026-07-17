@@ -192,6 +192,26 @@
         "When the battle begins, increases Ultimate Energy and Spiritual Pressure to the maximum",
         "Increases Technique DMG by 100% and healing effects by 50%",
         "When releasing the Ultimate, increases the entire team's All-Skill Mastery by an extra 10% and Ailment Mastery by 20%"
+      ],
+      "ascend2": [
+        "When the battle begins, increases Ultimate Energy and Spiritual Pressure to the maximum",
+        "Increases Technique DMG by 62.5% and healing effects by 31.25%",
+        "When releasing the Ultimate, increases the entire team's All-Skill Mastery by an extra 6.25% and Ailment Mastery by 12.5%"
+      ],
+      "ascend3": [
+        "When the battle begins, increases Ultimate Energy and Spiritual Pressure to the maximum",
+        "Increases Technique DMG by 75% and healing effects by 37.5%",
+        "When releasing the Ultimate, increases the entire team's All-Skill Mastery by an extra 7.5% and Ailment Mastery by 15%"
+      ],
+      "ascend4": [
+        "When the battle begins, increases Ultimate Energy and Spiritual Pressure to the maximum",
+        "Increases Technique DMG by 87.5% and healing effects by 43.75%",
+        "When releasing the Ultimate, increases the entire team's All-Skill Mastery by an extra 8.75% and Ailment Mastery by 17.5%"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

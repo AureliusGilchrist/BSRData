@@ -189,6 +189,26 @@
         "In battle, increases ATK by an amount equal to 18% of the character's Ultimate Charge Rate",
         "When detonating Destruction Mark, deals additional damage equal to 100% of ATK to the enemy. For every 1% Ultimate Charge Rate, the damage is further increased by 1%",
         "Each time Grimmjow's attack hits an enemy, slightly reduces the cooldown of technique and Perfect Dodge"
+      ],
+      "ascend2": [
+        "In battle, increases ATK by an amount equal to 11.25% of the character's Ultimate Charge Rate",
+        "When detonating Destruction Mark, deals additional damage equal to 100% of ATK to the enemy. For every 1% Ultimate Charge Rate, the damage is further increased by 0.63%",
+        "Each time Grimmjow's attack hits an enemy, slightly reduces the cooldown of technique and Perfect Dodge"
+      ],
+      "ascend3": [
+        "In battle, increases ATK by an amount equal to 13.5% of the character's Ultimate Charge Rate",
+        "When detonating Destruction Mark, deals additional damage equal to 100% of ATK to the enemy. For every 1% Ultimate Charge Rate, the damage is further increased by 0.75%",
+        "Each time Grimmjow's attack hits an enemy, slightly reduces the cooldown of technique and Perfect Dodge"
+      ],
+      "ascend4": [
+        "In battle, increases ATK by an amount equal to 15.75% of the character's Ultimate Charge Rate",
+        "When detonating Destruction Mark, deals additional damage equal to 100% of ATK to the enemy. For every 1% Ultimate Charge Rate, the damage is further increased by 0.88%",
+        "Each time Grimmjow's attack hits an enemy, slightly reduces the cooldown of technique and Perfect Dodge"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

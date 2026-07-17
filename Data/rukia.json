@@ -227,6 +227,26 @@
         "Triggering Breaking Ice launches 4 extra ice spikes dealing total DMG equal to 16% of Rukia's ATK",
         "Breaking Ice DMG +30%",
         "Chill Release DMG +60%, Ice Spike combo attack DMG +40% while realm is active"
+      ],
+      "ascend2": [
+        "Triggering Breaking Ice launches 4 extra ice spikes at the enemy, dealing total DMG equal to 10% of Rukia's ATK",
+        "Increases Breaking Ice DMG by 18.75%",
+        "Increases DMG from the Battlefield Skill Chill Release by 37.5% and Rukia's Ice Spike combo attack DMG by 25% while the realm is active"
+      ],
+      "ascend3": [
+        "Triggering Breaking Ice launches 4 extra ice spikes at the enemy, dealing total DMG equal to 12% of Rukia's ATK",
+        "Increases Breaking Ice DMG by 22.5%",
+        "Increases DMG from the Battlefield Skill Chill Release by 45% and Rukia's Ice Spike combo attack DMG by 30% while the realm is active"
+      ],
+      "ascend4": [
+        "Triggering Breaking Ice launches 4 extra ice spikes at the enemy, dealing total DMG equal to 14% of Rukia's ATK",
+        "Increases Breaking Ice DMG by 26.25%",
+        "Increases DMG from the Battlefield Skill Chill Release by 52.5% and Rukia's Ice Spike combo attack DMG by 35% while the realm is active"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

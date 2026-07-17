@@ -193,6 +193,29 @@
         "Triggered 2 times: Crit Rate +30% for 20s",
         "Triggered 3 times: Special counterattack 1600% ATK + 50 Impale Scale + 1 Tech Point",
         "Team inflicts Impale Scale at 60% higher rate"
+      ],
+      "ascend2": [
+        "Triggered 1 time: Technique DMG +15.63% for 15s (up to 5 stacks)",
+        "Triggered 2 times: Crit Rate +18.75% for 20s",
+        "Triggered 3 times: Special counterattack 1000% ATK + 50 Impale Scale + 1 Tech Point",
+        "Team inflicts Impale Scale at 37.5% higher rate"
+      ],
+      "ascend3": [
+        "Triggered 1 time: Technique DMG +18.75% for 15s (up to 5 stacks)",
+        "Triggered 2 times: Crit Rate +22.5% for 20s",
+        "Triggered 3 times: Special counterattack 1200% ATK + 50 Impale Scale + 1 Tech Point",
+        "Team inflicts Impale Scale at 45% higher rate"
+      ],
+      "ascend4": [
+        "Triggered 1 time: Technique DMG +21.88% for 15s (up to 5 stacks)",
+        "Triggered 2 times: Crit Rate +26.25% for 20s",
+        "Triggered 3 times: Special counterattack 1400% ATK + 50 Impale Scale + 1 Tech Point",
+        "Team inflicts Impale Scale at 52.5% higher rate"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

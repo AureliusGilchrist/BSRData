@@ -191,6 +191,29 @@
         "When Shunko activates: gain half max Lightning Seal stacks",
         "Each Lightning Seal stack: Crit Rate +12%, up to 48%",
         "Hakuda Blitz DMG +100%"
+      ],
+      "ascend2": [
+        "Using counterattack instantly maxes out your Spiritual Pressure. After each Ultimate, you can actively release a counterattack once",
+        "When Shunko is active, you gain half of the max stacks of Lightning Seal instantly",
+        "Each stack of Lightning Seal increases Yoruichi's Crit Rate by an extra 6.75%, up to 27%",
+        "Increases the DMG of the special attack Hakuda - Blitz by 70%"
+      ],
+      "ascend3": [
+        "Using counterattack instantly maxes out your Spiritual Pressure. After each Ultimate, you can actively release a counterattack once",
+        "When Shunko is active, you gain half of the max stacks of Lightning Seal instantly",
+        "Each stack of Lightning Seal increases Yoruichi's Crit Rate by an extra 8.5%, up to 34%",
+        "Increases the DMG of the special attack Hakuda - Blitz by 80%"
+      ],
+      "ascend4": [
+        "Using counterattack instantly maxes out your Spiritual Pressure. After each Ultimate, you can actively release a counterattack once",
+        "When Shunko is active, you gain half of the max stacks of Lightning Seal instantly",
+        "Each stack of Lightning Seal increases Yoruichi's Crit Rate by an extra 10.25%, up to 41%",
+        "Increases the DMG of the special attack Hakuda - Blitz by 90%"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

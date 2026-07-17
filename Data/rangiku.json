@@ -183,6 +183,23 @@
       "ascend5": [
         "Every time an enemy is hit by Ash Blade, the Thrust DMG they receive increases by 3% for 20 seconds. Stacks up to 10 times",
         "Release Rangiku's Technique to switch characters immediately, but Rangiku will remain on the field channeling until the effect reaches its peak"
+      ],
+      "ascend2": [
+        "Every time an enemy is hit by Ash Blade, the Thrust DMG they receive increases by 1.65% for 20 seconds. Stacks up to 10 times",
+        "Release Rangiku's Technique to switch characters immediately, but Rangiku will remain on the field channeling until the effect reaches its peak"
+      ],
+      "ascend3": [
+        "Every time an enemy is hit by Ash Blade, the Thrust DMG they receive increases by 2.1% for 20 seconds. Stacks up to 10 times",
+        "Release Rangiku's Technique to switch characters immediately, but Rangiku will remain on the field channeling until the effect reaches its peak"
+      ],
+      "ascend4": [
+        "Every time an enemy is hit by Ash Blade, the Thrust DMG they receive increases by 2.55% for 20 seconds. Stacks up to 10 times",
+        "Release Rangiku's Technique to switch characters immediately, but Rangiku will remain on the field channeling until the effect reaches its peak"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

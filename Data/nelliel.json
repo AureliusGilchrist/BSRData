@@ -204,6 +204,26 @@
         "Verde Rush count and efficiency +50%. Max Verde Rush Mark stacks to 20",
         "Techniques and Battlefield Skills DMG +200%",
         "Cero Sincretico additional Verde Rush: Base DMG = 400% ATK, doubled per debuff up to 8 times"
+      ],
+      "ascend2": [
+        "The number of Verde Rush applied and the efficiency of Verde Rush Points are increased by 31.25%. The maximum stacks of Verde Rush Mark are increased to 20",
+        "Damage dealt by all Techniques and Battlefield Skills is increased by 125%",
+        "When the Battlefield Skill, Cero Sincretico, hits, it triggers an additional Verde Rush. The Base DMG of this Verde Rush equals to 250% of Nelliel's ATK. For each different debuff previously triggered on the enemy, this damage is doubled, up to a maximum of 8 times"
+      ],
+      "ascend3": [
+        "The number of Verde Rush applied and the efficiency of Verde Rush Points are increased by 37.5%. The maximum stacks of Verde Rush Mark are increased to 20",
+        "Damage dealt by all Techniques and Battlefield Skills is increased by 150%",
+        "When the Battlefield Skill, Cero Sincretico, hits, it triggers an additional Verde Rush. The Base DMG of this Verde Rush equals to 300% of Nelliel's ATK. For each different debuff previously triggered on the enemy, this damage is doubled, up to a maximum of 8 times"
+      ],
+      "ascend4": [
+        "The number of Verde Rush applied and the efficiency of Verde Rush Points are increased by 43.75%. The maximum stacks of Verde Rush Mark are increased to 20",
+        "Damage dealt by all Techniques and Battlefield Skills is increased by 175%",
+        "When the Battlefield Skill, Cero Sincretico, hits, it triggers an additional Verde Rush. The Base DMG of this Verde Rush equals to 350% of Nelliel's ATK. For each different debuff previously triggered on the enemy, this damage is doubled, up to a maximum of 8 times"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

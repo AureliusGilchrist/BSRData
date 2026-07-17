@@ -244,6 +244,26 @@
         "Releasing the final hit of a Special Attack returns 1 point of Frenzy",
         "Increases the damage dealt by every technique by 100%",
         "When any of Kenpachi's attacks lands a critical hit, it triggers an additional hit dealing damage equal to 40% of that attack"
+      ],
+      "ascend2": [
+        "Releasing the final hit of a Special Attack returns 1 point of Frenzy",
+        "Increases the damage dealt by every technique by 62.5%",
+        "When any of Kenpachi's attacks lands a critical hit, it triggers an additional hit dealing damage equal to 25% of that attack"
+      ],
+      "ascend3": [
+        "Releasing the final hit of a Special Attack returns 1 point of Frenzy",
+        "Increases the damage dealt by every technique by 75%",
+        "When any of Kenpachi's attacks lands a critical hit, it triggers an additional hit dealing damage equal to 30% of that attack"
+      ],
+      "ascend4": [
+        "Releasing the final hit of a Special Attack returns 1 point of Frenzy",
+        "Increases the damage dealt by every technique by 87.5%",
+        "When any of Kenpachi's attacks lands a critical hit, it triggers an additional hit dealing damage equal to 35% of that attack"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

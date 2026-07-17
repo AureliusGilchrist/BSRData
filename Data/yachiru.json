@@ -179,6 +179,20 @@
       ],
       "ascend5": [
         "When Yachiru is Spectating, reaching 25% or 75% of her Ultimate Energy grants teammates Inspiration, which also provides an extra 30% Crit DMG Bonus"
+      ],
+      "ascend2": [
+        "When Yachiru is Spectating, reaching 25% or 75% of her Ultimate Energy grants teammates Inspiration, which also provides an extra 15% Crit DMG Bonus"
+      ],
+      "ascend3": [
+        "When Yachiru is Spectating, reaching 25% or 75% of her Ultimate Energy grants teammates Inspiration, which also provides an extra 20% Crit DMG Bonus"
+      ],
+      "ascend4": [
+        "When Yachiru is Spectating, reaching 25% or 75% of her Ultimate Energy grants teammates Inspiration, which also provides an extra 25% Crit DMG Bonus"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

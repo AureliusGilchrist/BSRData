@@ -191,6 +191,26 @@
         "Using a technique immediately generates 3 Sacrificial Materials",
         "Releasing Control of the Five Senses increases the entire team's ATK by 30% for 35 seconds",
         "Increases Crit DMG by 45%"
+      ],
+      "ascend2": [
+        "Using a technique immediately generates 3 Sacrificial Materials",
+        "Releasing Control of the Five Senses increases the entire team's ATK by 18.75% for 35 seconds",
+        "Increases Crit DMG by 28.13%"
+      ],
+      "ascend3": [
+        "Using a technique immediately generates 3 Sacrificial Materials",
+        "Releasing Control of the Five Senses increases the entire team's ATK by 22.5% for 35 seconds",
+        "Increases Crit DMG by 33.75%"
+      ],
+      "ascend4": [
+        "Using a technique immediately generates 3 Sacrificial Materials",
+        "Releasing Control of the Five Senses increases the entire team's ATK by 26.25% for 35 seconds",
+        "Increases Crit DMG by 39.38%"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

@@ -247,6 +247,26 @@
         "SP and Deathmark from technique/counter/Back Strike/Windmill +50%",
         "Each switch-in: 1 Conviction stack (Crit Rate +20% for 15 seconds, stacking up to 3 times)",
         "Increases the damage dealt by Sting by 50%"
+      ],
+      "ascend2": [
+        "The Spiritual Pressure and Deathmark Soi Fon gains from technique, counter, Special Attack - Back Strike, and Special Attack - Windmill are increased by an extra 50%",
+        "Each time Soi Fon is switched in, she gains 1 stack of Conviction, with each stack increasing her Crit Rate by 12.5% for 22.5 seconds, stacking up to 3 times",
+        "Increases the damage dealt by Sting by 31.25%"
+      ],
+      "ascend3": [
+        "The Spiritual Pressure and Deathmark Soi Fon gains from technique, counter, Special Attack - Back Strike, and Special Attack - Windmill are increased by an extra 50%",
+        "Each time Soi Fon is switched in, she gains 1 stack of Conviction, with each stack increasing her Crit Rate by 15% for 20 seconds, stacking up to 3 times",
+        "Increases the damage dealt by Sting by 37.5%"
+      ],
+      "ascend4": [
+        "The Spiritual Pressure and Deathmark Soi Fon gains from technique, counter, Special Attack - Back Strike, and Special Attack - Windmill are increased by an extra 50%",
+        "Each time Soi Fon is switched in, she gains 1 stack of Conviction, with each stack increasing her Crit Rate by 17.5% for 17.5 seconds, stacking up to 3 times",
+        "Increases the damage dealt by Sting by 43.75%"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

@@ -207,6 +207,29 @@
         "Increases Spiritual Pressure Charge Rate by 100% and reduces the Spiritual Pressure required to enter Rush by 50%",
         "When releasing Pounce, each stack of Killing Intent reduces target's Strike Resistance by 1.5% for 10 seconds",
         "Triggering Lacerate increases next Ultimate DMG by 30%, stacking up to 4 times"
+      ],
+      "ascend2": [
+        "Increases Crit Rate by 28.13%",
+        "Increases Spiritual Pressure Charge Rate by 100% and reduces the Spiritual Pressure required to enter Rush by 50%",
+        "When releasing Pounce, each stack of Killing Intent reduces target's Strike Resistance by 0.9% for 10 seconds",
+        "Triggering Lacerate increases next Ultimate DMG by 18.75%, stacking up to 4 times"
+      ],
+      "ascend3": [
+        "Increases Crit Rate by 33.75%",
+        "Increases Spiritual Pressure Charge Rate by 100% and reduces the Spiritual Pressure required to enter Rush by 50%",
+        "When releasing Pounce, each stack of Killing Intent reduces target's Strike Resistance by 1.1% for 10 seconds",
+        "Triggering Lacerate increases next Ultimate DMG by 22.5%, stacking up to 4 times"
+      ],
+      "ascend4": [
+        "Increases Crit Rate by 39.38%",
+        "Increases Spiritual Pressure Charge Rate by 100% and reduces the Spiritual Pressure required to enter Rush by 50%",
+        "When releasing Pounce, each stack of Killing Intent reduces target's Strike Resistance by 1.3% for 10 seconds",
+        "Triggering Lacerate increases next Ultimate DMG by 26.25%, stacking up to 4 times"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

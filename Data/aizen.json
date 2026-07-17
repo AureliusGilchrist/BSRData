@@ -233,6 +233,32 @@
         "Enhanced Pressure Stack cap to 6; all 6 consumed = extra switch counterattack",
         "Each Ravage stack reduces Spirit Resistance by extra 2%",
         "Releasing any Battlefield Skill grants 3 Pressure Stacks"
+      ],
+      "ascend2": [
+        "Crit Rate +31.25%",
+        "Counter damage from Battle of Spiritual Pressure passive +15.63%",
+        "Enhanced Pressure Stack cap to 6; consuming all 6 triggers extra switch counterattack",
+        "Each Ravage stack reduces enemy Spirit Resistance by extra 1.25%",
+        "Releasing any Battlefield Skill grants 3 Pressure Stacks"
+      ],
+      "ascend3": [
+        "Crit Rate +37.5%",
+        "Counter damage from Battle of Spiritual Pressure passive +18.75%",
+        "Enhanced Pressure Stack cap to 6; consuming all 6 triggers extra switch counterattack",
+        "Each Ravage stack reduces enemy Spirit Resistance by extra 1.5%",
+        "Releasing any Battlefield Skill grants 3 Pressure Stacks"
+      ],
+      "ascend4": [
+        "Crit Rate +43.75%",
+        "Counter damage from Battle of Spiritual Pressure passive +21.88%",
+        "Enhanced Pressure Stack cap to 6; consuming all 6 triggers extra switch counterattack",
+        "Each Ravage stack reduces enemy Spirit Resistance by extra 1.75%",
+        "Releasing any Battlefield Skill grants 3 Pressure Stacks"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

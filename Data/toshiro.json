@@ -223,6 +223,23 @@
       "ascend5": [
         "Crit Rate increases by 60%",
         "During Tenso Jyurin, basic attack damage is increased by 100%, damage taken is reduced by 50% while using basic attacks, and they cannot be interrupted"
+      ],
+      "ascend2": [
+        "Crit Rate increases by 37.5%",
+        "During Tenso Jyurin, basic attack damage is increased by 62.5%, damage taken is reduced by 31.25% while using basic attacks, and they cannot be interrupted"
+      ],
+      "ascend3": [
+        "Crit Rate increases by 45%",
+        "During Tenso Jyurin, basic attack damage is increased by 75%, damage taken is reduced by 37.5% while using basic attacks, and they cannot be interrupted"
+      ],
+      "ascend4": [
+        "Crit Rate increases by 52.5%",
+        "During Tenso Jyurin, basic attack damage is increased by 87.5%, damage taken is reduced by 43.75% while using basic attacks, and they cannot be interrupted"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

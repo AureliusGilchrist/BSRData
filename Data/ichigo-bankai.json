@@ -289,6 +289,23 @@
       "ascend5": [
         "Increases Crit Rate by 30%",
         "When releasing special attacks, Ichigo summons two afterimages dealing total DMG equal to 200% of the special attack ATK. This also counts as a special attack"
+      ],
+      "ascend2": [
+        "Increases Crit Rate by 18.75%",
+        "When releasing special attacks, Ichigo summons two afterimages to attack the target, dealing total DMG equal to 125% of the special attack ATK. This also counts as a special attack"
+      ],
+      "ascend3": [
+        "Increases Crit Rate by 22.5%",
+        "When releasing special attacks, Ichigo summons two afterimages to attack the target, dealing total DMG equal to 150% of the special attack ATK. This also counts as a special attack"
+      ],
+      "ascend4": [
+        "Increases Crit Rate by 26.25%",
+        "When releasing special attacks, Ichigo summons two afterimages to attack the target, dealing total DMG equal to 175% of the special attack ATK. This also counts as a special attack"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },

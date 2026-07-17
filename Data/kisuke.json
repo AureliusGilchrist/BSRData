@@ -226,6 +226,26 @@
         "Releasing special attacks generates an additional sword wave which also grants 1 stack of Reishi Analysis to the entire team",
         "Increases maximum Reishi Analysis stacks to 6",
         "Increases special attack DMG by 40%"
+      ],
+      "ascend2": [
+        "Releasing special attacks generates an additional sword wave which also grants 1 stack of Reishi Analysis to the entire team",
+        "Increases maximum Reishi Analysis stacks to 6",
+        "Increases special attack DMG by 21.25%"
+      ],
+      "ascend3": [
+        "Releasing special attacks generates an additional sword wave which also grants 1 stack of Reishi Analysis to the entire team",
+        "Increases maximum Reishi Analysis stacks to 6",
+        "Increases special attack DMG by 27.5%"
+      ],
+      "ascend4": [
+        "Releasing special attacks generates an additional sword wave which also grants 1 stack of Reishi Analysis to the entire team",
+        "Increases maximum Reishi Analysis stacks to 6",
+        "Increases special attack DMG by 33.75%"
+      ],
+      "estimated": [
+        2,
+        3,
+        4
       ]
     }
   },
