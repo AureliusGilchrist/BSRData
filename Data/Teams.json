@@ -361,7 +361,7 @@
         "role": "Tactician",
         "damageType": "Slash",
         "notes": [
-          "Slash damage amplification. We use Mayuri in this team just to hyperbuff Kenpachi. White's damage is negligible in this team."
+          "Slash damage amplification. We use Mayuri just to hyperbuff Kenpachi. White's damage is negligible in this team."
         ],
         "swappable": []
       },
@@ -1117,7 +1117,7 @@
         "role": "Tactician",
         "damageType": "Slash",
         "notes": [
-          "Overtuned Tactician"
+          "White is strong enough to take on the role of DPS."
         ],
         "swappable": []
       },
