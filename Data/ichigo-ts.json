@@ -87,6 +87,30 @@
         }
       ],
       "subStatPriority": "Ailment% (215%) > Crit Rate (24%) > ATK% > Crit DMG > Flat ATK"
+    },
+    {
+      "label": "F2P",
+      "passiveSkills": [
+        "All DMG",
+        "Ult DMG"
+      ],
+      "range": "B1W1C1",
+      "setName": "Duty Borne (3)",
+      "setPieces": [
+        {
+          "mainStat": "ATK% > Thrust DMG",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ailment%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Ailment% (215%) > Crit Rate (44%) > ATK% > Crit DMG > Flat ATK"
     }
   ],
   "corePassives": [
