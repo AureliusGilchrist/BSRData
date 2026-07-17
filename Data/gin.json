@@ -63,7 +63,7 @@
     {
       "label": "Main",
       "passiveSkills": [
-        "All DMG Dealt/Bonus +9%"
+        "All DMG"
       ],
       "range": "B0W1C1 - B6W5C5",
       "setName": "Mocking Visage (3)",
