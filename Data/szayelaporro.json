@@ -114,6 +114,9 @@
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "24 Apr 2026",
   "role": "Support",
+  "tips": [
+    "For the Konjiki Ashisogi Jizō coop fight, Szayelaporro can dodge the One Hit KO grab while sitting on his chair in Resurreccion."
+  ],
   "rotations": [
     {
       "name": "5280 ATK / 175% Crit DMG",
