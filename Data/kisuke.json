@@ -101,7 +101,7 @@
       "setName": "Ready to Go (3)",
       "setPieces": [
         {
-          "mainStat": "Slash DMG Bonus OR Atk%",
+          "mainStat": "ATK% > Slash DMG",
           "slot": 1
         },
         {
@@ -243,6 +243,6 @@
     "hp": "581"
   },
   "rationale": [
-    "TBD."
+    "If Kisuke is the only support on your team, Kenpachi stamp set is better for him. If used in a double support team, then Kisuke's own set is superior. The differences are small though. Pick whichever set has the best substats and passives."
   ]
 }
