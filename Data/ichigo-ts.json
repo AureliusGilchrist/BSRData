@@ -231,5 +231,17 @@
     "W5 provides a flat 40% Crit Rate, and B1 provides an additional 36%, totaling 76%. To reach 100%, you only need 24% more from substats. The weapon's 40% Crit Rate is included in the game's stats page, so it needs to show 64% to reach the maximum value.",
     "215% Ailment is needed to maximize the bonus from Ichigo's third passive, Power Fusion. He gains 0.7% Crit DMG for every 1% Ailment, up to 150% Crit DMG. 150 / 0.7 = 214.2857142857143. If you have Nelliel and Mayuri B4 on your team, then the requirement will decrease. Nelliel's Stamp Set provides 40% Ailment DMG to her team, and Mayuri's B4 provides 50%. With those two in the team, Ichigo merely needs 125% Ailment (though more is still recommended for increased damage).",
     "No Ult Charge is needed as his Ultimate becomes available based on his Spiritual Pressure. Ichigo needs to build 100 Spiritual Pressure for his left and right-handed Zangetsus. Ult Charge does not affect this process."
-  ]
+  ],
+  "stats": {
+    "atk": "335",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "327",
+    "hp": "1623"
+  },
+  "weaponStats": {
+    "atk": "201",
+    "def": "119",
+    "hp": "581"
+  }
 }
