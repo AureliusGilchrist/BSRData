@@ -1,4 +1,4 @@
-
+{
   "_spanishSource": "",
   "_spanishText": {
     "basic": "",
@@ -75,7 +75,7 @@
       ],
       "subStatPriority": "TBD"
     }
-   ],
+  ],
   "corePassives": [
     {
       "description": "TBD",
@@ -168,7 +168,7 @@
   "tier": "S",
   "rationale": [
     "TBD."
-      ],
+  ],
   "stats": {
     "atk": "",
     "critDamage": "",
