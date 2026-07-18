@@ -328,5 +328,15 @@
     "rarity": "SSR",
     "art": "/Images/yoruichi/art.png",
     "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "vollstandig-ishida",
+    "name": "Uryu Ishida (Vollständig)",
+    "role": "Tactician",
+    "tier": "S",
+    "damageType": "TBD",
+    "rarity": "SSR",
+    "art": "/Images/vollstandig-ishida/art.png",
+    "releaseDate": "8 Aug 2026"
   }
 ]
