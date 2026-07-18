@@ -357,7 +357,7 @@
       },
       {
         "slug": "ichigo-white",
-        "name": "Kurosaki Ichigo (Inner Hollow)",
+        "name": "Ichigo Kurosaki (Inner Hollow)",
         "role": "Tactician",
         "damageType": "Slash",
         "notes": [
@@ -743,7 +743,7 @@
       },
       {
         "slug": "ichigo-white",
-        "name": "Kurosaki Ichigo (Inner Hollow)",
+        "name": "Ichigo Kurosaki (Inner Hollow)",
         "role": "Tactician",
         "damageType": "Slash",
         "notes": [
@@ -1113,7 +1113,7 @@
     "members": [
       {
         "slug": "ichigo-white",
-        "name": "Kurosaki Ichigo (Inner Hollow)",
+        "name": "Ichigo Kurosaki (Inner Hollow)",
         "role": "Tactician",
         "damageType": "Slash",
         "notes": [
