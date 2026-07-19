@@ -166,13 +166,13 @@
   "role": "Assault",
   "rotations": [
     {
-      "name": "Battle Lust",
-      "notes": "His damage scales with missing HP — let him take a few hits before bursting.",
+      "name": "119% Ult Charge",
+      "notes": "At 114% Ult Charge, you will have to dash forward (to be directly in front of the enemy) before using Kenny's technique.",
       "steps": [
-        "Take damage to charge",
-        "Basic ×3",
         "Technique",
-        "Ultimate (eye-patch off)",
+        "Mayuri Ultimate",
+        "White Special Attack → Basic Attack (2x) → Technique → Kenpachi Counter",
+        "Kenpachi Special Attack → Mayuri Technique → Kenpachi Enhanced Technique",
         "Battlefield Skill"
       ],
       "tags": [
