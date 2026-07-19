@@ -169,11 +169,10 @@
       "name": "119% Ult Charge",
       "notes": "At 114% Ult Charge, you will have to dash forward (to be directly in front of the enemy) before using Kenny's technique.",
       "steps": [
-        "Technique",
-        "Mayuri Ultimate",
-        "White Special Attack → Basic Attack (2x) → Technique → Kenpachi Counter",
-        "Kenpachi Special Attack → Mayuri Technique → Kenpachi Enhanced Technique",
-        "Battlefield Skill"
+      "Kenpachi Technique → Mayuri Ultimate → White Special Attack → Basic attack x2 → Technique → Kenpachi Counter",
+      "Kenpachi Special Attack → Mayuri Technique → Mayuri Special Attack→ White Basic Attack (as much as possible before Kenpachi can be swapped back onto) → Kenpachi Swap → Enhanced Technique → Swap to White → White Special Attack → White Manual Counter → Kenpachi Counter → Kenpachi Special Attack",
+      "Swap to Mayuri for 1x Basic Attack → Swap to White → Basic Attack until Kenpachi is available to swap → White Technique → Kenpachi Counter → Kenpachi Enhanced Technique → Mayuri Technique → Mayuri Special Attack → Battlefield",
+      "White Ultimate → Basic Attack until Mayuri Ult is off cooldown → Mayuri Ultimate → Kenpachi Ultimate → Basic Attack until Ultimate is charged → Kenpachi Ultimate"
       ],
       "tags": [
         "Burst",
