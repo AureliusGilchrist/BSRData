@@ -113,6 +113,9 @@
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "21 Nov 2025",
   "role": "Tactician",
+  "tips": [
+    "Tosen's Ailment, Wound, can crit."
+  ],
   "rotations": [
     {
       "name": "Setup",
