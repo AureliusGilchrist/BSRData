@@ -55,9 +55,9 @@
   ],
   "builds": [
     {
-      "label": "Hyper Optimized",
+      "label": "Hyper Optimized (multiple Crit substats)",
       "passiveSkills": [
-        "Enhanced DMG OR Overdrive > Ult DMG > Technique DMG"
+        "All DMG > Ult DMG > Technique DMG"
       ],
       "range": "B6W5C5",
       "setName": "Fill the Nothingness (3)",
@@ -111,6 +111,9 @@
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "26 Jun 2026",
   "role": "Assault",
+  "tips": [
+    "Depending on boss RNG and other factors, you may be forced to skip some Technique spams during Segunda Etapa. This should only affect your Ult DMG the first time Annihilation is used."
+  ],
   "rotations": [
     {
       "name": "Standard Opener",
@@ -192,7 +195,8 @@
     "hp": "581"
   },
   "rationale": [
-    "Ulquiorra Shifar (Resurrección) is S tier as he is the strongest Spirit Full Assault currently in game.",
+    "Ulquiorra Shifar (Resurrección) is S tier as he is the strongest Spirit Full Assault currently in game. Toshiro unfortunately has trouble doing half of Ulquiorra's damage.",
+    "Ulquiorra's damage seems to be divided evenly between his Ultimate, Weapon Stamp, B6, and Techniques. His Reishi Rain counts as Ult DMG. Ulquiorra's own stamp set - Fill the Nothingness - is suggested, though Kenpachi's stamp set, Ready to Go, will also work (to a lesser extent). All DMG (Enhanced DMG/Overdrive) passives are highly recommended, followed by Ultimate DMG then Technique.",
     "TBD."
   ]
 }
