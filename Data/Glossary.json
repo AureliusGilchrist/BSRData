@@ -179,6 +179,7 @@
   },
   "ichigo-ts": {
     "Breach Marks": "When Ichigo is under Transcendent Power, his attacks automatically consume Breach Marks to activate Breach, dealing extra Ailment DMG. Upon reaching 100 Breach Points, the enemy also gains 1 stack of Breach Mark.",
+    "Breach Mark": "When Ichigo is under Transcendent Power, his attacks automatically consume Breach Marks to activate Breach, dealing extra Ailment DMG. Upon reaching 100 Breach Points, the enemy also gains 1 stack of Breach Mark.",
     "Breach": "Triggered by consuming Breach Marks, dealing Ailment DMG equal to 60% of Ichigo's ATK to enemies.",
     "True Time Freeze": "Pauses time countdown of the stage. Timers for all buffs and states on characters and enemies will be stopped."
   }
