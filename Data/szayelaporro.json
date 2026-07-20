@@ -82,6 +82,33 @@
       "targets": {
         "ultChargeRate": "any%"
       }
+    },
+    {
+      "label": "188% Ult Charge",
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Curtain Falls",
+      "setPieces": [
+        {
+          "mainStat": "ATK%",
+          "slot": 1
+        },
+        {
+          "mainStat": "ATK%",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ult Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "ATK% (5280) > Crit DMG (175%) > Ult Charge Rate (188%) > Flat ATK",
+      "targets": {
+        "ultChargeRate": "188%"
+      }
     }
   ],
   "corePassives": [
@@ -231,6 +258,7 @@
     "hp": "581"
   },
   "rationale": [
+    "A certain chinese rotation supposedly requires 188% Ult Charge Rate.",
     "TBD."
   ]
 }
