@@ -118,6 +118,9 @@
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "20 Feb 2026",
   "role": "Tactician",
+  "tips": [
+    "In her Resurreccion, Nelliel can dodge Konjiki Ashisogijizo's One Hit KO Grab with a manual counter."
+  ],
   "rotations": [
     {
       "name": "Battlefield Setup",
