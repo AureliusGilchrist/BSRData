@@ -169,5 +169,17 @@
       "date": "TBD",
       "note": "She was added to the game files, however no details upon her were found."
     }
+  ],
+  "rumors": [
+    {
+      "text": "New Limited Spirit Support in the works.",
+      "by": "Developers",
+      "date": "2026-07-20"
+    },
+    {
+      "text": "Unohana and Inoue in the works.",
+      "by": "Developers",
+      "date": "2026-07-20"
+    }
   ]
 }
