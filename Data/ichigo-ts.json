@@ -241,10 +241,7 @@
         "Whenever any teammate inflicts a debuff on an enemy. Ichigo also applies 52.5 Breach Point(s) on the enemy.",
         "When either Zangetsu reaches maximum Spiritual Pressure, 43.75% of its excess Spiritual Pressure is transferred to the other Zangetsu if it's not fully charged."
       ],
-      "estimated": [
-        3,
-        4
-      ]
+      "estimated": []
     }
   },
   "tier": "S",
