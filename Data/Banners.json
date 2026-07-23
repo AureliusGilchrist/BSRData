@@ -168,18 +168,39 @@
       "rarity": "TBD",
       "date": "TBD",
       "note": "She was added to the game files, however no details upon her were found."
+    },
+    {
+      "name": "Inoue Orihime",
+      "role": "TBD",
+      "damageType": "TBD",
+      "rarity": "TBD",
+      "date": "TBD",
+      "note": "She was added to the game files, however no details upon her were found."
+    },
+    {
+      "name": "Ichigo Kurosaki (Vasto Lorde)",
+      "role": "TBD",
+      "damageType": "TBD",
+      "rarity": "TBD",
+      "date": "TBD",
+      "note": "He was added to the game files, however no details upon him were found."
     }
   ],
   "rumors": [
     {
       "text": "New Limited Spirit Support in the works.",
-      "by": "Developers",
+      "by": "Developers (According to Gikku)",
       "date": "2026-07-20"
     },
     {
       "text": "Unohana and Inoue in the works.",
-      "by": "Developers",
+      "by": "Developers (According to Gikku)",
       "date": "2026-07-20"
+    },
+    {
+      "text": "Unohana and Inoue in the works.",
+      "by": "Developers (According to Gikku)",
+      "date": "2026-04-02"
     }
   ]
 }
