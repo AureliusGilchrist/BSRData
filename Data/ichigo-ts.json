@@ -226,6 +226,7 @@
         "When either Zangetsu reaches maximum Spiritual Pressure, 50% of its excess Spiritual Pressure is transferred to the other Zangetsu if it's not fully charged."
       ],
       "ascend2": [
+        "Increases the Breach Mark stack limit to 76.",
         "Increases Crit Rate by 25%.",
         "After releasing the Technique, Getsuga Tensho, tap Basic Attack to perform a follow-up attack that deals damage equal to 1250% of ATK, increasing the Spiritual Pressure gained from the next 2 techniques by 100%. After the follow-up attack, the 3rd basic attack can be released directly.",
         "Whenever any teammate inflicts a debuff on an enemy. Ichigo also applies 37.5 Breach Point(s) on the enemy.",
@@ -239,6 +240,7 @@
         "When either Zangetsu reaches maximum Spiritual Pressure, 37.5% of its excess Spiritual Pressure is transferred to the other Zangetsu if it's not fully charged."
       ],
       "ascend4": [
+        "Increases the Breach Mark stack limit to 82.",
         "Increases Crit Rate by 35%.",
         "After releasing the Technique, Getsuga Tensho, tap Basic Attack to perform a follow-up attack that deals damage equal to 1750% of ATK, increasing the Spiritual Pressure gained from the next 2 techniques by 100%. After the follow-up attack, the 3rd basic attack can be released directly.",
         "Whenever any teammate inflicts a debuff on an enemy. Ichigo also applies 52.5 Breach Point(s) on the enemy.",
