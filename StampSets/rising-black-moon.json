@@ -1,0 +1,9 @@
+{
+  "id": "rising-black-moon",
+  "name": "Rising Black Moon",
+  "ownerSlug": "ichigo-bankai",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increases Slash DMG by 11%. Increase Base ATK by 18%. Each time aa technique is released, increase special attack DMG by 28% for 10s. Unstackable."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "fill-the-nothingness",
+  "name": "Fill the Nothingness",
+  "ownerSlug": "ulquiorra-resurreccion",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increases Spirit DMG by 15%. Each time the character deals Spirit DMG, their TTechnique DMG increases by 2.5%. Whenever they release a technique, their Ultimate DMG increases by 2.5%. These effects last 20 seconds and stack up to 15 times."
+  }
+}

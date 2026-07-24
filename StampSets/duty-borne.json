@@ -1,0 +1,9 @@
+{
+  "id": "duty-borne",
+  "name": "Duty Borne",
+  "ownerSlug": "ichigo-ts",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increases Thrust DMG by 15%. Each time an on-field enemy is inflicted with Breach, your Breach DMG is increased by 3% and Ultimate DMG by 5%. These effects last 15 seconds and stack up to 10 times."
+  }
+}

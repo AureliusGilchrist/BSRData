@@ -1,0 +1,9 @@
+{
+  "id": "mocking-visage",
+  "name": "Mocking Visage",
+  "ownerSlug": "gin",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increase Ailment DMG by 50%. Each time a debuff on an enemy is triggered, the character's Thrust DMG is increased by 15% for 10 seconds. Stacks up to 10 times. Upon reaching 10 stacks, Technique DMG and Ultimate DMG are increased by 25% and 25%, respectively."
+  }
+}
