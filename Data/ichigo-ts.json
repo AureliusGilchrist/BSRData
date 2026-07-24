@@ -57,7 +57,7 @@
       "level": 5
     },
     {
-      "description": "After releasing Getsuga Jujisho - Transcendence, all enemies take Breach DMG equal to 260% of Ichigo's ATK every 0.5 seconds for 3 second(s). Their Spiritual Pressure is also reduced whenever they take this damage. If an enemy has no remaining Spiritual Pressure or does not possess a Spiritual Pressure Bar, this damage-over-time effect is increased by an additional 20%.",
+      "description": "After releasing Getsuga Jujisho - Transcendence, all enemies take Breach DMG equal to 260% of Ichigo's ATK every 0.3 seconds for 3 second(s). Their Spiritual Pressure is also reduced whenever they take this damage. If an enemy has no remaining Spiritual Pressure or does not possess a Spiritual Pressure Bar, this damage-over-time effect is increased by an additional 20%.",
       "icon": "/Images/ichigo-ts/boundary-6.png",
       "level": 6,
       "name": "Number One Special Threat"
