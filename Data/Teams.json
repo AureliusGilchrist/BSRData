@@ -351,28 +351,22 @@
         ],
         "iconSteps": [
           {
-            "slug": "ulquiorra-resurreccion",
+            "slug": "szayelaporro",
             "actions": [
               {
                 "kind": "Technique"
               },
               {
-                "kind": "Basic Attack",
-                "label": "x3"
-              },
-              {
-                "kind": "Technique"
-              },
-              {
-                "kind": "Basic Attack",
-                "label": "x3"
-              },
-              {
-                "kind": "Technique"
-              },
-              {
                 "kind": "Swap",
-                "slug": "aizen"
+                "slug": "ulquiorra-resurreccion"
+              }
+            ]
+          },
+          {
+            "slug": "ulquiorra-resurreccion",
+            "actions": [
+              {
+                "kind": "Technique"
               }
             ]
           },
@@ -383,18 +377,14 @@
                 "kind": "Technique 3"
               },
               {
-                "kind": "Technique"
+                "kind": "Technique",
+                "label": "x2"
               },
               {
-                "kind": "Basic Attack",
-                "label": "x3"
+                "kind": "Basic Attack"
               },
               {
-                "kind": "Technique"
-              },
-              {
-                "kind": "Swap",
-                "slug": "szayelaporro"
+                "kind": "BFS"
               }
             ]
           },
@@ -406,13 +396,6 @@
               },
               {
                 "kind": "Ultimate"
-              },
-              {
-                "kind": "Technique"
-              },
-              {
-                "kind": "Swap",
-                "slug": "ulquiorra-resurreccion"
               }
             ]
           },
