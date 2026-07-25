@@ -209,10 +209,10 @@
             ]
           }
         ],
-        "notes": "Highest DPS team as of Segunda Etapa's release."
+        "notes": "2nd highest DPS team as of True Shikai's release."
       },
       {
-        "name": "F2P Burst (Momo swap)",
+        "name": "Momo Swap",
         "lineup": [
           "momo"
         ],
@@ -1203,7 +1203,7 @@
           "Burst"
         ],
         "steps": [
-          "Ichigo Technique → Battlefield → Nel Technique → Mayuri Ultimate → Technique → Special Attack",
+          "Ichigo Technique → Mayuri Ultimate → Technique → Battlefield → Nel Technique",
           "Ichigo Basic Attack (3x) → Technique → Basic Attack → Technique → Ultimate → Nel Manual Counter → Special Attack → Nel Ultimate",
           "Nel Special Attack → Manual Counter → Nel Technique (2x) → Mayuri Technique → Special Attack → Nel Ultimate",
           "Ichigo Counter → Technique → Basic Attack (2x) → Technique → Basic Attack → Technique → Ultimate → Nel Ultimate → Ichigo Dodge (Transcendent State) → Basic Attack Spam"
