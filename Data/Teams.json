@@ -254,14 +254,38 @@
             ]
           },
           {
+            "slug": "ulquiorra-resurreccion",
+            "actions": [
+              {
+                "kind": "Technique 2"
+              },
+              {
+                "kind": "Enhanced Technique 2"
+              },
+              {
+                "kind": "Technique 2",
+                "label": "x2"
+              },
+              {
+                "kind": "Ultimate 2",
+              },
+              {
+                "kind": "Technique 2",
+                "label": "x12"
+              },
+              {
+                "kind": "Ultimate 2",
+              },
+              {
+                "kind": "Technique"
+              }
+            ]
+          },
+          {
             "slug": "aizen",
             "actions": [
               {
                 "kind": "Technique 4"
-              },
-              {
-                "kind": "Repeat",
-                "label": "step 1"
               }
             ]
           }
