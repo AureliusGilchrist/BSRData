@@ -294,7 +294,7 @@
                 "kind": "Counter"
               },
               {
-                "kind": "Technique"
+                "kind": "Technique",
                 "label": "2x"
               },
               {
