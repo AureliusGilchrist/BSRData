@@ -29,13 +29,13 @@
   ],
   "boundaries": [
     {
-      "description": "The maximim number of Charge stacks is increased to 6. While Ichigo is at the backline, he automatically gains 1 stack(s) of Charge every 2 second(s). Upon entering battle, he immediately gain 6 stack(s) of Charge.",
+      "description": "Increases Ichigo's Thrust DMG by 20%. The maximim number of Charge stacks is increased to 6. While Ichigo is at the backline, he automatically gains 1 stack(s) of Charge every 2 second(s). Upon entering battle, he immediately gain 6 stack(s) of Charge.",
       "icon": "/Images/ichigo-ts/boundary-1.png",
       "level": 1,
       "name": "The True Zanpakuto"
     },
     {
-      "description": "Increases Ichigo's Thrust DMG by 30%. When the Ultimate, Getsuga Jujisho - Transcendence, is released, its final hit consumes all remaining Breach Marks on the target and triggers Breach based on the number of stacks consumed.",
+      "description": "When the Ultimate, Getsuga Jujisho - Transcendence, is released, its final hit consumes all remaining Breach Marks on the target and triggers Breach based on the number of stacks consumed.",
       "icon": "/Images/ichigo-ts/boundary-2.png",
       "level": 2,
       "name": "Strength of Twin Zangetsu"
