@@ -208,21 +208,48 @@
                 "kind": "Technique"
               },
               {
-                "kind": "Enhanced Technique 2"
+                "kind": "Basic Attack 2"
               },
               {
-                "kind": "Technique",
-                "label": "x2-4"
+                "kind": "Swap",
+                "slug": "aizen"
+              }
+            ]
+          },
+          {
+            "slug": "aizen",
+            "actions": [
+              {
+                "kind": "Basic Attack"
               },
               {
-                "kind": "Technique"
+                "kind": "Dodge"
               },
               {
-                "kind": "Enhanced Basic Attack 2",
-                "label": "spam"
+                "kind": "Basic Attack"
               },
               {
-                "kind": "Ultimate 2"
+                "kind": "Dodge"
+              },
+              {
+                "kind": "Basic Attack"
+              },
+              {
+                "kind": "BFS"
+              },
+              {
+                "kind": "Swap",
+                "slug": "szayelaporro"
+              },
+              {
+                "kind": "Counter"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ulquiorra-resurreccion"
+              },
+              {
+                "kind": "Counter"
               }
             ]
           },
