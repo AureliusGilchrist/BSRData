@@ -55,6 +55,61 @@
   ],
   "builds": [
     {
+      "label": "F2P",
+      "passiveSkills": [
+        "All DMG 9%",
+        "Ult DMG",
+        "Tech DMG"
+      ],
+      "range": "B0W1C1",
+      "setName": "Fill the Nothingness (3)",
+      "setPieces": [
+        {
+          "mainStat": "ATK% > Spirit DMG",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate > Crit DMG (Doesn't matter)",
+          "slot": 2
+        },
+        {
+          "mainStat": "ATK% > Ult Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Crit Rate > Ult Charge (168.8% at W5) > ATK% > Crit DMG > Flat ATK",
+      "targets": {
+        "ultChargeRate": "As high as possible"
+      }
+    },
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "All DMG 9%",
+        "Ult DMG"
+      ],
+      "range": "B1W5C5 - B6W5C5",
+      "setName": "Fill the Nothingness (3)",
+      "setPieces": [
+        {
+          "mainStat": "ATK% > Spirit DMG",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate > Crit DMG (Doesn't matter)",
+          "slot": 2
+        },
+        {
+          "mainStat": "ATK%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "ATK% > Crit Rate > Ult Charge (168.8% at W5) > Crit DMG > Flat ATK",
+      "targets": {
+        "ultChargeRate": "~168.8%"
+      }
+    },
+    {
       "label": "Hyper Optimized (multiple Crit substats)",
       "passiveSkills": [
         "All DMG > Ult DMG > Technique DMG"
