@@ -286,11 +286,38 @@
             "actions": [
               {
                 "kind": "Technique 4"
+              },
+              {
+                "kind": "BFS"
+              },
+              {
+                "kind": "Counter"
+              },
+              {
+                "kind": "Technique"
+                "label": "2x"
+              },
+              {
+                "kind": "Swap",
+                "slug": "szayelaporro"
+              },
+              {
+                "kind": "Counter"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ulquiorra-resurreccion"
+              },
+              {
+                "kind": "Counter"
               }
             ]
           }
         ],
-        "notes": "2nd highest DPS team as of True Shikai's release."
+        "notes": "This is only one way to start the rotation. There are many others, find the one that suits you best."
       },
       {
         "name": "Momo Swap",
