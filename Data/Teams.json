@@ -44,7 +44,299 @@
     ],
     "rotationP2W": "Szayelaporro technique → Ulquiorra technique → Battlefield → Manual counter → Aizen technique → Battlefield → Szayelaporro counter → Ultimate → Ulquiorra counter → Ulquiorra technique → Dodge → Basic attacks → Ulquiorra technique → Dodge → Ulquiorra Special Attack → Cero Oscuras → Ultimate",
     "rotationF2P": "Sub Momo for Szayelaporro — Momo plays the same role as Szayelaporro",
-    "rotations": [
+    "p2w-rotations": [
+      {
+        "name": "Spirit Setup",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          "In Segunda Etapa, use technique into basic attack to refresh, then technique once again before swapping out to Aizen using battlefield",
+          "Aizen Technique combo (finish it completely) → Battlefield (3 Pressure Stacks before using) → Ultimate",
+          "Counter with Szayelaporro → Ultimate → Technique → Counter with Ulquiorra → Technique → 1 basic attack → Swap to Aizen",
+          "Aizen basic attack OR technique (if it's available) → Hado 90: Kurohitsugi → Szayelaporro counter → Ulquiorra counter",
+          "Ulquiorra technique → Enhanced technique → Technique 2-4 → Ultimate → Technique spam → Ultimate → Aizen Battlefield"
+        ],
+        "iconSteps": [
+          {
+            "slug": "ulquiorra-resurreccion",
+            "actions": [
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "x3"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "x3"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "aizen"
+              }
+            ]
+          },
+          {
+            "slug": "aizen",
+            "actions": [
+              {
+                "kind": "Technique 3"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "x3"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "szayelaporro"
+              }
+            ]
+          },
+          {
+            "slug": "szayelaporro",
+            "actions": [
+              {
+                "kind": "Counter"
+              },
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ulquiorra-resurreccion"
+              }
+            ]
+          },
+          {
+            "slug": "ulquiorra-resurreccion",
+            "actions": [
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "Technique 2"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "x1"
+              },
+              {
+                "kind": "Swap",
+                "slug": "aizen"
+              }
+            ]
+          },
+          {
+            "slug": "aizen",
+            "actions": [
+              {
+                "kind": "Basic Attack",
+                "label": "x3"
+              },
+              {
+                "kind": "Technique 2"
+              },
+              {
+                "kind": "Swap",
+                "slug": "szayelaporro"
+              }
+            ]
+          },
+          {
+            "slug": "szayelaporro",
+            "actions": [
+              {
+                "kind": "Counter"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ulquiorra-resurreccion"
+              }
+            ]
+          },
+          {
+            "slug": "ulquiorra-resurreccion",
+            "actions": [
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Enhanced Technique 2"
+              },
+              {
+                "kind": "Technique",
+                "label": "x2-4"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Enhanced Basic Attack 2",
+                "label": "spam"
+              },
+              {
+                "kind": "Ultimate 2"
+              }
+            ]
+          },
+          {
+            "slug": "aizen",
+            "actions": [
+              {
+                "kind": "Technique 4"
+              },
+              {
+                "kind": "Repeat",
+                "label": "step 1"
+              }
+            ]
+          }
+        ],
+        "notes": "2nd highest DPS team as of True Shikai's release."
+      },
+      {
+        "name": "Momo Swap",
+        "lineup": [
+          "momo"
+        ],
+        "tags": [
+          "Burst",
+          "F2P"
+        ],
+        "steps": [
+          "Momo Technique → Special attack x2 → Ulquiorra technique",
+          "Battlefield → Technique (complete combo) → Battlefield → Momo counter → Momo Ultimate",
+          "Ulquiorra counter → Technique → Dodge → Basic attack to refresh Technique → Technique → Dodge → Special Attack → Cero Oscuras",
+          "Ulquiorra Ultimate → Technique → Basic attack to refresh Technique → Technique → Battlefield"
+        ],
+        "iconSteps": [
+          {
+            "slug": "momo",
+            "actions": [
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "SpcAtk",
+                "label": "x2"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ulquiorra-resurreccion"
+              }
+            ]
+          },
+          {
+            "slug": "ulquiorra-resurreccion",
+            "actions": [
+              {
+                "kind": "Technique"
+              }
+            ]
+          },
+          {
+            "slug": "aizen",
+            "actions": [
+              {
+                "kind": "BFS"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "BFS"
+              },
+              {
+                "kind": "Swap",
+                "slug": "momo"
+              }
+            ]
+          },
+          {
+            "slug": "momo",
+            "actions": [
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "SpcAtk",
+                "label": "x2"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ulquiorra-resurreccion"
+              }
+            ]
+          },
+          {
+            "slug": "ulquiorra-resurreccion",
+            "actions": [
+              {
+                "kind": "Counter"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Dodge"
+              },
+              {
+                "kind": "Basic Attack"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Dodge"
+              },
+              {
+                "kind": "SpcAtk"
+              },
+              {
+                "kind": "Cero Oscuras"
+              },
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Basic Attack"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Battlefield Skill"
+              },
+              {
+                "kind": "Repeat"
+              }
+            ]
+          }
+        ],
+        "notes": "Momo as a SR unit can replace Szayelaporro. Ulquiorra and Aizen remain required SSRs."
+      }
+    ],
+    "f2p-rotations": [
       {
         "name": "Spirit Setup",
         "tags": [
@@ -378,7 +670,243 @@
     ],
     "rotationP2W": "",
     "rotationF2P": "Rotation for lower boundary team should be similar, but Kenpachi will have a more difficult time charging his Spiritual Pressure.",
-    "rotations": [
+    "p2w-rotations": [
+      {
+        "name": "Kenpachi Team",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          "Kenpachi Technique → Mayuri Ultimate → White Special Attack → Basic attack x2 → Technique → Kenpachi Counter",
+          "Kenpachi Special Attack → Mayuri Technique → Mayuri Special Attack→ White Basic Attack (as much as possible before Kenpachi can be swapped back onto) → Kenpachi Swap → Enhanced Technique → Swap to White → White Special Attack → White Manual Counter → Kenpachi Counter → Kenpachi Special Attack",
+          "Swap to Mayuri for 1x Basic Attack → Swap to White → Basic Attack until Kenpachi is available to swap → Special Attack if available into White Technique → Kenpachi Counter → Kenpachi Enhanced Technique → Mayuri Technique → Mayuri Special Attack → Battlefield",
+          "White Ultimate → Basic Attack until Mayuri Ult is off cooldown → Mayuri Ultimate → Kenpachi Ultimate → Basic Attack until Ultimate is charged → Kenpachi Ultimate"
+        ],
+        "iconSteps": [
+          {
+            "slug": "kenpachi",
+            "actions": [
+              {
+                "kind": "Technique"
+              }
+            ]
+          },
+          {
+            "slug": "mayuri",
+            "actions": [
+              {
+                "kind": "Ultimate"
+              }
+            ]
+          },
+          {
+            "slug": "ichigo-white",
+            "actions": [
+              {
+                "kind": "SpcAtk"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "x2"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "kenpachi"
+              }
+            ]
+          },
+          {
+            "slug": "kenpachi",
+            "actions": [
+              {
+                "kind": "Technique 2"
+              },
+              {
+                "kind": "SpcAtk"
+              },
+              {
+                "kind": "Swap",
+                "slug": "mayuri"
+              }
+            ]
+          },
+          {
+            "slug": "mayuri",
+            "actions": [
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "SpcAtk"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ichigo-white"
+              }
+            ]
+          },
+          {
+            "slug": "ichigo-white",
+            "actions": [
+              {
+                "kind": "Basic Attack",
+                "label": "x3"
+              },
+              {
+                "kind": "Swap",
+                "slug": "kenpachi"
+              }
+            ]
+          },
+          {
+            "slug": "kenpachi",
+            "actions": [
+              {
+                "kind": "Enhanced Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ichigo-white"
+              }
+            ]
+          },
+          {
+            "slug": "ichigo-white",
+            "actions": [
+              {
+                "kind": "SpcAtk"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Enhanced Counter"
+              },
+              {
+                "kind": "Swap",
+                "slug": "mayuri"
+              }
+            ]
+          },
+          {
+            "slug": "mayuri",
+            "actions": [
+              {
+                "kind": "Basic Attack",
+                "label": "x1"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ichigo-white"
+              }
+            ]
+          },
+          {
+            "slug": "ichigo-white",
+            "actions": [
+              {
+                "kind": "Basic Attack",
+                "label": "x3"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "kenpachi"
+              }
+            ]
+          },
+          {
+            "slug": "kenpachi",
+            "actions": [
+              {
+                "kind": "Enhanced Counter"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ichigo-white"
+              }
+            ]
+          },
+          {
+            "slug": "mayuri",
+            "actions": [
+              {
+                "kind": "Enhanced Technique 2"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ichigo-white"
+              }
+            ]
+          },
+          {
+            "slug": "ichigo-white",
+            "actions": [
+              {
+                "kind": "BFS"
+              },
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "x3"
+              },
+              {
+                "kind": "Swap",
+                "slug": "mayuri"
+              }
+            ]
+          },
+          {
+            "slug": "kenpachi",
+            "actions": [
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "x5"
+              },
+              {
+                "kind": "Ultimate 2"
+              }
+            ]
+          },
+          {
+            "slug": "ichigo-white",
+            "actions": [
+              {
+                "kind": "Ultimate 2"
+              },
+              {
+                "kind": "Swap",
+                "slug": "kenpachi"
+              }
+            ]
+          },
+          {
+            "slug": "kenpachi",
+            "actions": [
+              {
+                "kind": "Repeat",
+                "label": "Step 01"
+              }
+            ]
+          }
+        ],
+        "notes": ""
+      }
+    ],
+    "f2p-rotations": [
       {
         "name": "Kenpachi Team",
         "tags": [
@@ -658,7 +1186,7 @@
     ],
     "rotationF2P": "At lower boundaries, Nel will require more field time to charge up her initial Ultimate (where she enters Resurreccion). If using Rangiku, simply use her Technique and Ultimate whenever it's up.",
     "rotationP2W": "",
-    "rotations": [
+    "p2w-rotations": [
       {
         "name": "Gin Mono Thrust",
         "tags": [
@@ -666,7 +1194,19 @@
         ],
         "steps": [
           "Nel Battlefield → Technique → Mayuri Ultimate (Wait for Nel to swipe left) → Basic Attack (Impale cooldown) → Mayuri Technique → Special Attack → Gin Technique (1x) → Gin Manual Counter → Gin Technique (2x) → Gin Technique (1x) → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Nel Ultimate",
-	        "Nel Manual Counter → Special Attack → Technique (2x) → Mayuri Technique → Gin Manual Counter → Technique (1x) → Nel Ultimate → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Technique (2x) → Technique (1x) → Gin Ultimate → Nel Ultimate"
+          "Nel Manual Counter → Special Attack → Technique (2x) → Mayuri Technique → Gin Manual Counter → Technique (1x) → Nel Ultimate → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Technique (2x) → Technique (1x) → Gin Ultimate → Nel Ultimate"
+        ]
+      }
+    ],
+    "f2p-rotations": [
+      {
+        "name": "Gin Mono Thrust",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          "Nel Battlefield → Technique → Mayuri Ultimate (Wait for Nel to swipe left) → Basic Attack (Impale cooldown) → Mayuri Technique → Special Attack → Gin Technique (1x) → Gin Manual Counter → Gin Technique (2x) → Gin Technique (1x) → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Nel Ultimate",
+          "Nel Manual Counter → Special Attack → Technique (2x) → Mayuri Technique → Gin Manual Counter → Technique (1x) → Nel Ultimate → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Technique (2x) → Technique (1x) → Gin Ultimate → Nel Ultimate"
         ]
       }
     ]
@@ -711,13 +1251,25 @@
       }
     ],
     "rotationP2W": "",
-    "rotationF2P": ["Rotation should be the exact same at lower boundaries. B1 Soi Fon will be required."],
-    "rotations": [
+    "rotationF2P": [
+      "Rotation should be the exact same at lower boundaries. B1 Soi Fon will be required."
+    ],
+    "p2w-rotations": [
       {
         "name": "Pantera Mono Strike",
         "tags": [],
         "steps": [
-          "Spawn in with Soi Fon (free Conviction stack) → Swap to any other character → Battlefield (free Conviction stack) → Manual Counter → Technique → Basic Attack to trigger counter → Swap to Pantera → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Pounce (Charge until max stacks) → Enhanced Technique → Quickswap Pounce → Soi Fon Windmill (at 10 battlefield energy) → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate", 
+          "Spawn in with Soi Fon (free Conviction stack) → Swap to any other character → Battlefield (free Conviction stack) → Manual Counter → Technique → Basic Attack to trigger counter → Swap to Pantera → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Pounce (Charge until max stacks) → Enhanced Technique → Quickswap Pounce → Soi Fon Windmill (at 10 battlefield energy) → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate",
+          "Pantera Quickswap Pounce → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Quickswap Pounce → Battlefield → Soi Fon Manual Counter → Technique → Trigger Homonka → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Pantera Quickswap Pounce → Soi Fon Windmill → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate"
+        ]
+      }
+    ],
+    "f2p-rotations": [
+      {
+        "name": "Pantera Mono Strike",
+        "tags": [],
+        "steps": [
+          "Spawn in with Soi Fon (free Conviction stack) → Swap to any other character → Battlefield (free Conviction stack) → Manual Counter → Technique → Basic Attack to trigger counter → Swap to Pantera → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Pounce (Charge until max stacks) → Enhanced Technique → Quickswap Pounce → Soi Fon Windmill (at 10 battlefield energy) → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate",
           "Pantera Quickswap Pounce → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Quickswap Pounce → Battlefield → Soi Fon Manual Counter → Technique → Trigger Homonka → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Pantera Quickswap Pounce → Soi Fon Windmill → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate"
         ]
       }
@@ -762,7 +1314,19 @@
       }
     ],
     "rotationP2W": "",
-    "rotations": [
+    "p2w-rotations": [
+      {
+        "name": "Bankai Ichigo Mono Slash",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          "Bichigo Technique → Special Attack → Kisuke Technique → White Special Attack → White Technique → Bichigo counter → Special Attack → Kisuke Special Attack (2x) → White Basic Attack (1-2) → Bichigo Basic Attack (3x) → Special attack → Kisuke Ultimate → White Basic Attack until Bichigo Technique is available → Bichigo Technique → Special Attack → White Basic Attack until Battlefield is available → Battlefield → Finish Combo (can quickswap out as the sword being thrown down animation plays) → Kisuke Technique (can be quickswapped out of) → Bichigo Ultimate",
+          "Special Attack (Cancel it immediately with counter) → Manual Counter → Special Attack → White Special Attack → Manual Counter → Technique → Bichigo Counter → Special Attack → Battlefield → White Ultimate → Kisuke Technique (1-2) → Bichigo Technique → Special Attack → Bichigo Technique → Special Attack → Bichigo Ultimate → Basic Attack (3) → Special Attack → Kisuke Ultimate → Manually release Kisuke Technique → White Ultimate"
+        ]
+      }
+    ],
+    "f2p-rotations": [
       {
         "name": "Bankai Ichigo Mono Slash",
         "tags": [
@@ -816,7 +1380,7 @@
       }
     ],
     "rotationP2W": "Pantera Technique → Battlefield → Nel Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Nel Manual Counter → Special Attack → Pantera Counter → Max Stack Pounce → Enhanced Technique → Quickswap Pounce → Nel Ultimate",
-    "rotations": [
+    "p2w-rotations": [
       {
         "name": "Pantera Nel Team",
         "tags": [
@@ -828,7 +1392,18 @@
         ]
       }
     ],
-
+    "f2p-rotations": [
+      {
+        "name": "Pantera Nel Team",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          "Manual Counter in Nel Resurreccion → Special Attack → Technique (2x) → Mayuri Technique → Special Attack → Pantera Quickswap Pounce → Nel Ultimate → Manual Counter → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Pantera Ultimate → Quickswap Pounce → Mayuri Ultimate → Nel Ultimate",
+          "Nel Technique → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Battlefield → Manual Counter → Basic Attack → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Nel Basic Attack → Pantera Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Nel Ultimate → Technique (2x) → Pantera Ultimate → Pounce → Enhanced Technique → Quickswap Pounce → Nel Manual Counter → Special Attack → Mayuri Ultimate → Mayuri Technique → Special Attack → Nel Ultimate → Pantera Counter → Pounce → Enhanced Technique → Pantera Technique → Nel Ultimate"
+        ]
+      }
+    ],
     "rotationF2P": "Lower boundaries team would require more fieldtime with Nel"
   },
   {
@@ -873,7 +1448,19 @@
       }
     ],
     "rotationP2W": "Szayelaporro Technique → Battlefield → Aizen Manual Counter → Technique (2x) → Battlefield → Szayelaporro Counter → Ultimate → Kisuke Counter → Special Attack (2x) → Ultimate → Aizen Basic Attack (until Battlefield is available) → Swap out → Battlefield",
-    "rotations": [
+    "p2w-rotations": [
+      {
+        "name": "Aizen Double Support",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          "Aizen Technique (2x) → Battlefield → Ultimate → Basic Attack (until lightning) → Kisuke Counter → Special Attack (2x) → Szayelaporro Counter → Ultimate → Technique → Basic Attack → Hado 90",
+          "Szayelaporro Counter → Kisuke Counter → Technique → Special Attack (2x) → Kisuke Ultimate → Aizen Battlefield"
+        ]
+      }
+    ],
+    "f2p-rotations": [
       {
         "name": "Aizen Double Support",
         "tags": [
@@ -929,7 +1516,18 @@
       }
     ],
     "rotationP2W": "Szayelaporro Technique → Toshiro Technique → Battlefield → Manual Counter → Technique (2x) → Battlefield → Szayelaporro Counter → Ultimate → Toshiro Counter → Technique → Basic Attack",
-    "rotations": [
+    "p2w-rotations": [
+      {
+        "name": "Toshiro Mono Spirit",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          "Toshiro Basic Attack until Battlefield is ready → Battlefield → Aizen Technique (2x) → Aizen Ultimate → Basic Attack combo → Hado 90 → Szayelaporro Counter → Ultimate → Technique → Toshiro Counter → Technique → Basic Attack (until 24 Illusion stacks) → Toshiro Ultimate → Basic Attack (while moving) → Get 5 Build Up stacks → Ultimate → Technique → Basic Attack (2 full combos) → Aizen Battlefield"
+        ]
+      }
+    ],
+    "f2p-rotations": [
       {
         "name": "Toshiro Mono Spirit",
         "tags": [
@@ -982,7 +1580,18 @@
       }
     ],
     "rotationP2W": "",
-    "rotations": [
+    "p2w-rotations": [
+      {
+        "name": "Standard Banner Thrust",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          "Tosen Battlefield → Rangiku Technique → Ikkaku Technique → Basic Attack spam → Special Attack (Whenever it's available) → Rangiku Ultimate"
+        ]
+      }
+    ],
+    "f2p-rotations": [
       {
         "name": "Standard Banner Thrust",
         "tags": [
@@ -1037,7 +1646,18 @@
       }
     ],
     "rotationP2W": "This comp is intentionally SR-only — the P2W path is to retire it and run any of #1–#5 as you pull SSRs.",
-    "rotations": [
+    "p2w-rotations": [
+      {
+        "name": "F2P Starter — Story Friendly",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          "Orihime Technique → Ichigo Technique → Special Attack → Battlefield → Technique → Ichigo Basic Attacks"
+        ]
+      }
+    ],
+    "f2p-rotations": [
       {
         "name": "F2P Starter — Story Friendly",
         "tags": [
@@ -1090,7 +1710,18 @@
       }
     ],
     "rotationP2W": "",
-    "rotations": [
+    "p2w-rotations": [
+      {
+        "name": "Nel Double Support",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          ""
+        ]
+      }
+    ],
+    "f2p-rotations": [
       {
         "name": "Nel Double Support",
         "tags": [
@@ -1143,7 +1774,18 @@
       }
     ],
     "rotationP2W": "",
-    "rotations": [
+    "p2w-rotations": [
+      {
+        "name": "White Double Support",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          ""
+        ]
+      }
+    ],
+    "f2p-rotations": [
       {
         "name": "White Double Support",
         "tags": [
@@ -1196,7 +1838,21 @@
       }
     ],
     "rotationP2W": "",
-    "rotations": [
+    "p2w-rotations": [
+      {
+        "name": "True Shikai Mono Thrust",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          "Ichigo Technique → Mayuri Ultimate → Technique → Battlefield → Nel Technique",
+          "Ichigo Basic Attack (3x) → Technique → Basic Attack → Technique → Ultimate → Nel Manual Counter → Special Attack → Nel Ultimate",
+          "Nel Special Attack → Manual Counter → Nel Technique (2x) → Mayuri Technique → Special Attack → Nel Ultimate",
+          "Ichigo Counter → Technique → Basic Attack (2x) → Technique → Basic Attack → Technique → Ultimate → Nel Ultimate → Ichigo Dodge (Transcendent State) → Basic Attack Spam"
+        ]
+      }
+    ],
+    "f2p-rotations": [
       {
         "name": "True Shikai Mono Thrust",
         "tags": [
@@ -1260,7 +1916,18 @@
       }
     ],
     "rotationP2W": "",
-    "rotations": [
+    "p2w-rotations": [
+      {
+        "name": "F2P Strike Team",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          ""
+        ]
+      }
+    ],
+    "f2p-rotations": [
       {
         "name": "F2P Strike Team",
         "tags": [
@@ -1313,7 +1980,18 @@
       }
     ],
     "rotationP2W": "",
-    "rotations": [
+    "p2w-rotations": [
+      {
+        "name": "Kenpachi F2P",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          ""
+        ]
+      }
+    ],
+    "f2p-rotations": [
       {
         "name": "Kenpachi F2P",
         "tags": [
@@ -1373,7 +2051,18 @@
       }
     ],
     "rotationP2W": "",
-    "rotations": [
+    "p2w-rotations": [
+      {
+        "name": "F2P Strike Team",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          ""
+        ]
+      }
+    ],
+    "f2p-rotations": [
       {
         "name": "F2P Strike Team",
         "tags": [
@@ -1434,7 +2123,18 @@
       }
     ],
     "rotationP2W": "",
-    "rotations": [
+    "p2w-rotations": [
+      {
+        "name": "F2P Thrust Team",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          ""
+        ]
+      }
+    ],
+    "f2p-rotations": [
       {
         "name": "F2P Thrust Team",
         "tags": [
@@ -1493,7 +2193,18 @@
       }
     ],
     "rotationP2W": "",
-    "rotations": [
+    "p2w-rotations": [
+      {
+        "name": "F2P True Shikai",
+        "tags": [
+          "Burst"
+        ],
+        "steps": [
+          ""
+        ]
+      }
+    ],
+    "f2p-rotations": [
       {
         "name": "F2P True Shikai",
         "tags": [
@@ -1506,5 +2217,4 @@
     ],
     "rotationF2P": ""
   }
-
 ]
