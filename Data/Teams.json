@@ -148,14 +148,14 @@
             "slug": "ulquiorra-resurreccion",
             "actions": [
               {
-                "kind": "Technique"
+                "kind": "Technique 2"
               },
               {
-                "kind": "Basic Attack",
+                "kind": "Basic Attack 2",
                 "label": "x3"
               },
               {
-                "kind": "Technique"
+                "kind": "Technique 2"
               }
             ]
           },
@@ -187,8 +187,17 @@
                 "kind": "Counter"
               },
               {
+                "kind": "Ultimate 2"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
                 "kind": "Swap",
                 "slug": "ulquiorra-resurreccion"
+              },
+              {
+                "kind": "Counter"
               }
             ]
           },
