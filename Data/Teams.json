@@ -2123,6 +2123,13 @@
             "actions": [
               {
                 "kind": "Ultimate 2"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ichigo-ts"
+              },
+              {
+                "kind": "Counter"
               }
             ]
           },
