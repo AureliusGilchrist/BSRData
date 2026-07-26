@@ -2067,7 +2067,7 @@
             "slug": "nelliel",
             "actions": [
               {
-                "kind": "Ultimate"
+                "kind": "Ultimate 2"
               },
               {
                 "kind": "Counter"
@@ -2081,6 +2081,48 @@
               },
               {
                 "kind": "Counter"
+              }
+            ]
+          },
+          {
+            "slug": "ichigo-ts",
+            "actions": [
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "2x"
+              },
+              {
+                "kind": "Technique 2"
+              },
+              {
+                "kind": "Basic Attack"
+              },
+              {
+                "kind": "Technique 4"
+              },
+              {
+                "kind": "Swap",
+                "slug": "mayuri"
+              }
+            ]
+          },
+          {
+            "slug": "mayuri",
+            "actions": [
+              {
+                "kind": "Basic Attack",
+                "label": "1x"
+              }
+            ]
+          },
+          {
+            "slug": "nelliel",
+            "actions": [
+              {
+                "kind": "Ultimate 2"
               }
             ]
           },
