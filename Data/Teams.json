@@ -2105,22 +2105,17 @@
               },
               {
                 "kind": "Swap",
-                "slug": "mayuri"
-              }
-            ]
-          },
-          {
-            "slug": "mayuri",
-            "actions": [
-              {
-                "kind": "Basic Attack",
-                "label": "1x"
+                "slug": "nelliel"
               }
             ]
           },
           {
             "slug": "nelliel",
             "actions": [
+              {
+                "kind": "Basic Attack 2",
+                "label": "1x"
+              },
               {
                 "kind": "Ultimate 2"
               },
