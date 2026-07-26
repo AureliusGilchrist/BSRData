@@ -8,7 +8,7 @@
   },
   "art": "/Images/ichigo-ts/art.png",
   "bestStamp": {
-    "mainStats": "1: ATK% > Thrust DMG  •  2: ATK% > Crit DMG  •  3: Ailment%",
+    "mainStats": "1: Thrust DMG > ATK%  •  2: ATK% > Crit DMG  •  3: Ailment%",
     "notes": "TBD",
     "setName": "Duty Borne (3)",
     "subStatPriority": "Ailment% (215%) > Crit Rate (24%) > ATK% > Crit DMG > Flat ATK"
@@ -74,7 +74,7 @@
       "setName": "Duty Borne (3)",
       "setPieces": [
         {
-          "mainStat": "ATK% > Thrust DMG",
+          "mainStat": "Thrust DMG > ATK%",
           "slot": 1
         },
         {
@@ -98,7 +98,7 @@
       "setName": "Duty Borne (3)",
       "setPieces": [
         {
-          "mainStat": "ATK% > Thrust DMG",
+          "mainStat": "Thrust DMG > ATK%",
           "slot": 1
         },
         {
@@ -145,6 +145,7 @@
   "releaseDate": "15 Jul 2026",
   "role": "Assault",
   "tips": [
+    "Tests suggest that Thrust DMG mainstat for first stamp piece is superior.",
     "For Coop specifically; Thrust has less time freeze capabilities than Spirit currently. It is recommended to run True Shikai Ichigo with another team who has the same issues (Slash or another True Shikai team)."
   ],
   "rotations": [
