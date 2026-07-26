@@ -21,6 +21,10 @@
     {
       "description": "Increases Ailment DMG Bonus by 60% during battle. When equipped by a Tactic character, increases an extra 60% Crit DMG.",
       "name": "Nelliel Bond"
+    },
+    {
+      "description": "Increase ATK of all team characters during battle by 6%.",
+      "name": "ATK Bond"
     }
   ],
   "boundaries": [
