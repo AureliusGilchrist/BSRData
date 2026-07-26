@@ -77,7 +77,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate > Ult Charge (168.8% at W5) > ATK% > Crit DMG > Flat ATK",
+      "subStatPriority": "Crit Rate > Ult Charge (As much as you'd like) > ATK% > Crit DMG > Flat ATK",
       "targets": {
         "ultChargeRate": "As high as possible"
       }
