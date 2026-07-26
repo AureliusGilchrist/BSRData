@@ -85,11 +85,11 @@
                 "kind": "Technique 3"
               },
               {
-                "kind": "Technique",
-                "label": "x2"
+                "kind": "Counter"
               },
               {
-                "kind": "Basic Attack"
+                "kind": "Technique",
+                "label": "x2"
               },
               {
                 "kind": "BFS"
