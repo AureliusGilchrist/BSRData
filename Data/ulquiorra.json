@@ -11,7 +11,7 @@
     "mainStats": "1: ATK% > Spirit DMG  •  2: Crit Rate  •  3: ATK%",
     "notes": "Spirit Full Assault whose main weapon is Cero.",
     "setName": "Fill the Nothingness (3)",
-    "subStatPriority": "Crit Rate > ATK% > Crit DMG > Flat Atk > Ult Charge Rate"
+    "subStatPriority": "Crit Rate > ATK% > Crit DMG > Flat Atk"
   },
   "bondPriority": [
     {
