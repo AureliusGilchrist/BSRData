@@ -11,7 +11,7 @@
     "mainStats": "1: ATK% > Slash DMG  •  2: Crit Rate  •  3: Ult Charge Rate",
     "notes": "Has stronger buffs when paired with Kenpachi",
     "setName": "Hidden Wisdom (3)",
-    "subStatPriority": "Ult Charge Rate > Crit Rate > Crit DMG > Crit DMG"
+    "subStatPriority": "Ult Charge Rate > Crit Rate > Crit DMG > ATK%"
   },
   "bondPriority": [
     {
@@ -82,7 +82,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Ult Charge Rate > Crit Rate > Crit DMG > Crit DMG",
+      "subStatPriority": "Ult Charge Rate > Crit Rate > Crit DMG > ATK%",
       "targets": {
         "ultChargeRate": "More = Better"
       }
