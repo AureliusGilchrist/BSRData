@@ -70,7 +70,7 @@
       "setName": "Hidden Wisdom",
       "setPieces": [
         {
-          "mainStat": "Slash DMG > ATK%",
+          "mainStat": "ATK% > Slash DMG",
           "slot": 1
         },
         {
