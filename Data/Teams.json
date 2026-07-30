@@ -2064,18 +2064,6 @@
     ],
     "f2p-rotations": [
       {
-        "name": "B1 TS B1 Nel",
-        "tags": [
-          "Burst"
-        ],
-        "steps": [
-          "Ichigo Technique → Mayuri Ultimate → Technique → Battlefield → Nel Technique",
-          "Ichigo Basic Attack (3x) → Technique → Basic Attack → Technique → Ultimate → Nel Manual Counter → Special Attack → Nel Ultimate",
-          "Nel Special Attack → Manual Counter → Nel Technique (2x) → Mayuri Technique → Special Attack → Nel Ultimate",
-          "Ichigo Counter → Technique → Basic Attack (2x) → Technique → Basic Attack → Technique → Ultimate → Nel Ultimate → Ichigo Dodge (Transcendent State) → Basic Attack Spam"
-        ]
-      }
-    ],
         "iconSteps": [
           {
             "slug": "ichigo-ts",
@@ -2292,8 +2280,7 @@
         ],
         "notes": "This is a training rotation. The rotation used in Coop will be different."
       }
-    ],
-    "rotationF2P": ""
+    ]
   },
   {
     "id": "f2pstrike-team",
