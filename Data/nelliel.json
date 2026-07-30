@@ -238,15 +238,15 @@
     "atk": "335",
     "critDamage": "+50%",
     "critRate": "5%",
-    "def": "327",
-    "hp": "1623"
+    "def": "325",
+    "hp": "1628"
   },
-  "tier": "S",
   "weaponStats": {
     "atk": "201",
-    "def": "119",
-    "hp": "581"
+    "def": "118",
+    "hp": "583"
   },
+  "tier": "S",
   "rationale": [
     "Nelliel is in Tier S as no other units provides as many benefits as she does. Her Verde Rush passive doubles Gin's Ailment DMG (Enemy has 50% Ailment resistance reduction) and similarly increases True Shikai Ichigo's ailment weighing. It's likely Ichigo will do less Ailment DMG with a new Thrust Tactic unless they also have a 50% Ailment resistance shred.",
     "The majority of Nel's damage comes from Ailment and Ultimates. Her own stamp set is too good to miss out on, though there have been cases where Kenpachi stamps could be used for Nel Double Support teams. Recommended passives are All DMG and Ult DMG for standard builds. With True Shikai's release, it is recommended to build Nel as a full support and give her Invigorate - Tactic.",

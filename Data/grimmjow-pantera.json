@@ -237,14 +237,14 @@
     "atk": "335",
     "critDamage": "+50%",
     "critRate": "5%",
-    "def": "327",
-    "hp": "1623"
+    "def": "325",
+    "hp": "1628"
   },
   "tier": "S",
   "weaponStats": {
     "atk": "201",
-    "def": "119",
-    "hp": "581"
+    "def": "118",
+    "hp": "583"
   },
   "rationale": [
     "TBD."

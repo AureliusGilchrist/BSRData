@@ -19,6 +19,18 @@
       "name": "Toshiro Bond"
     }
   ],
+  "stats": {
+    "atk": "335",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "325",
+    "hp": "1628"
+  },
+  "weaponStats": {
+    "atk": "201",
+    "def": "118",
+    "hp": "583"
+  },
   "boundaries": [
     {
       "description": "While releasing the special attack Crushing Charge, each time the enemy receives DMG, the DMG multiplier of the incoming 2nd follow-up attack increases by 15%, up to 75%.",

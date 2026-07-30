@@ -102,6 +102,18 @@
       "name": "Resolve"
     }
   ],
+  "stats": {
+    "atk": "335",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "325",
+    "hp": "1628"
+  },
+  "weaponStats": {
+    "atk": "201",
+    "def": "118",
+    "hp": "583"
+  },
   "damageType": "Slash",
   "name": "Ichigo Kurosaki (Initial)",
   "note": "No build necessary for him, replacement unit will be available almost immediately.",

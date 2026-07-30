@@ -13,6 +13,18 @@
     "setName": "Ready to Go (3)",
     "subStatPriority": "Crit Rate > ATK% > Crit DMG > Flat ATK > Ult Charge Rate"
   },
+  "stats": {
+    "atk": "335",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "325",
+    "hp": "1628"
+  },
+  "weaponStats": {
+    "atk": "201",
+    "def": "118",
+    "hp": "583"
+  },
   "bondPriority": [
     {
       "description": "Increases Slash DMG by 12% and All-Skill Mastery by 5% during battle. When Crit Rate is equal or higher than 60%, these effects are further increased by 100%.",

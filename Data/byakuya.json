@@ -180,17 +180,17 @@
     }
   },
   "stats": {
-    "atk": "333",
+    "atk": "335",
     "critDamage": "+50%",
     "critRate": "5%",
     "def": "325",
-    "hp": "1636"
+    "hp": "1628"
   },
   "tier": "C",
   "weaponStats": {
-    "atk": "200",
+    "atk": "201",
     "def": "118",
-    "hp": "588"
+    "hp": "583"
   },
   "wikiSource": "https://bleachsoulresonance.wiki.gg/wiki/Byakuya_Kuchiki",
   "rationale": [

@@ -205,18 +205,18 @@
     }
   },
   "stats": {
-    "atk": "284",
+    "atk": "335",
     "critDamage": "+50%",
     "critRate": "5%",
-    "def": "296",
-    "hp": "1426"
+    "def": "325",
+    "hp": "1628"
+  },
+  "weaponStats": {
+    "atk": "201",
+    "def": "118",
+    "hp": "583"
   },
   "tier": "B",
-  "weaponStats": {
-    "atk": "170",
-    "def": "108",
-    "hp": "520"
-  },
   "wikiSource": "https://bleachsoulresonance.wiki.gg/wiki/Momo_Hinamori",
   "rationale": [
     "TBD."

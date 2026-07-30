@@ -6,6 +6,18 @@
     "technique": "",
     "ultimate": ""
   },
+  "stats": {
+    "atk": "335",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "325",
+    "hp": "1628"
+  },
+  "weaponStats": {
+    "atk": "201",
+    "def": "118",
+    "hp": "583"
+  },
   "art": "/Images/rangiku/art.png",
   "bestStamp": {
     "mainStats": "1: ATK% > Thrust DMG  •  2: Crit Rate  •  3: Ailment% > Ult Charge Rate",
