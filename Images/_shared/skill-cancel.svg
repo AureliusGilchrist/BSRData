@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Cancel — the rotation action that interrupts the current animation so the next
+  move can start early. Drawn to sit beside skill-dodge.svg: same 736x736 box,
+  same dark #151922 body under a white #fefefe ring + glyph, so the two shared
+  icons read as a matched pair in a rotation chain.
+
+  The glyph is a broken cross: an X whose arms stop short of the centre, with a
+  slash cutting across it — "the action was cut off", rather than a plain close
+  button.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 736 736" width="736" height="736">
+  <!-- Dark body, so the icon keeps its weight on a light background too. -->
+  <circle cx="368" cy="368" r="326" fill="#151922"/>
+
+  <!-- Outer ring (matches the dodge badge's white rim). -->
+  <path
+    d="M368 42a326 326 0 1 0 0 652 326 326 0 1 0 0-652zm0 46a280 280 0 1 1 0 560 280 280 0 1 1 0-560z"
+    fill="#fefefe" fill-rule="evenodd" stroke="#fefefe" stroke-width="0.25" stroke-linejoin="round"/>
+
+  <!-- Broken X: four tapered arms pulled back from the centre. -->
+  <g fill="#fefefe" stroke="#fefefe" stroke-width="0.25" stroke-linejoin="round">
+    <path d="M236 200l58-40 118 150-46 34z"/>
+    <path d="M500 200l-58-40-118 150 46 34z"/>
+    <path d="M236 536l58 40 118-150-46-34z"/>
+    <path d="M500 536l-58 40-118-150 46-34z"/>
+  </g>
+
+  <!-- The cut: a bar sweeping through the break, marking the interrupt. -->
+  <path d="M180 402l376-102 22 74-376 102z" fill="#fefefe" stroke="#fefefe" stroke-width="0.25" stroke-linejoin="round"/>
+</svg>
