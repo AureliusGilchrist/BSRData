@@ -2271,7 +2271,7 @@
               },
               {
                 "kind": "Ultimate"
-              }
+              },
               {
                 "kind": "Swap",
                 "slug": "nelliel"
@@ -2293,7 +2293,7 @@
         "notes": "This is a training rotation. The rotation used in Coop will be different."
       }
     ],
-    "rotationF2P": ""
+    "rotationF2P": {""
   },
   {
     "id": "f2pstrike-team",
