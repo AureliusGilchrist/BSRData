@@ -2064,7 +2064,7 @@
     ],
     "f2p-rotations": [
       {
-        "name": "True Shikai Mono Thrust",
+        "name": "B1 TS B1 Nel",
         "tags": [
           "Burst"
         ],
@@ -2293,7 +2293,7 @@
         "notes": "This is a training rotation. The rotation used in Coop will be different."
       }
     ],
-    "rotationF2P": {""
+    "rotationF2P": ""
   },
   {
     "id": "f2pstrike-team",
