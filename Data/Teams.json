@@ -2076,6 +2076,223 @@
         ]
       }
     ],
+        "iconSteps": [
+          {
+            "slug": "ichigo-ts",
+            "actions": [
+              {
+                "kind": "Technique"
+              }
+            ]
+          },
+          {
+            "slug": "mayuri",
+            "actions": [
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "Technique"
+              }
+            ]
+          },
+          {
+            "slug": "nelliel",
+            "actions": [
+              {
+                "kind": "BFS"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ichigo-ts"
+              }
+            ]
+          },
+          {
+            "slug": "ichigo-ts",
+            "actions": [
+              {
+                "kind": "Basic Attack",
+                "label": "3x"
+              },
+              {
+                "kind": "Technique 2"
+              },
+              {
+                "kind": "Basic Attack"
+              },
+              {
+                "kind": "Technique 4"
+              },
+              {
+                "kind": "Ultimate"
+              }
+            ]
+          },
+          {
+            "slug": "nelliel",
+            "actions": [
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "Enhanced Basic Attack 2"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "2x"
+              },
+              {
+                "kind": "Enhanced Basic Attack 2",
+                "label": "cancel"
+              },
+              {
+                "kind": "Technique 2",
+                "label": "2x"
+              },
+              {
+                "kind": "Swap",
+                "slug": "mayuri"
+              }
+            ]
+          },
+          {
+            "slug": "mayuri",
+            "actions": [
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ichigo-ts"
+              }
+            ]
+          },
+          {
+            "slug": "ichigo-ts",
+            "actions": [
+              {
+                "kind": "Technique"
+              }
+            ]
+          },
+          {
+            "slug": "nelliel",
+            "actions": [
+              {
+                "kind": "Ultimate 2"
+              }
+            ]
+          },
+          {
+            "slug": "ichigo-ts",
+            "actions": [
+              {
+                "kind": "Counter"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "3x"
+              },
+              {
+                "kind": "Technique 2"
+              },
+              {
+                "kind": "Basic Attack"
+              },
+              {
+                "kind": "Technique 4"
+              },
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "Enhanced Basic Attack",
+                "label": "hold"
+              },
+              {
+                "kind": "Ultimate 2"
+              },
+              {
+                "kind": "Swap",
+                "slug": "mayuri"
+              }
+            ]
+          },
+          {
+            "slug": "mayuri",
+            "actions": [
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "nelliel"
+              }
+            ]
+          },
+          {
+            "slug": "nelliel",
+            "actions": [
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Enhanced Basic Attack"
+              }
+            ]
+          },
+          {
+            "slug": "ichigo-ts",
+            "actions": [
+              {
+                "kind": "Counter"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Basic Attack"
+              },
+              {
+                "kind": "Technique 2"
+              },
+              {
+                "kind": "Basic Attack"
+              },
+              {
+                "kind": "Technique 4"
+              },
+              {
+                "kind": "Ultimate"
+              }
+              {
+                "kind": "Swap",
+                "slug": "nelliel"
+              }
+            ]
+          },
+          {
+            "slug": "nelliel",
+            "actions": [
+              {
+                "kind": "BFS"
+              },
+              {
+                "kind": "Ultimate"
+              }
+            ]
+          }
+        ],
+        "notes": "This is a training rotation. The rotation used in Coop will be different."
+      }
+    ],
     "rotationF2P": ""
   },
   {
