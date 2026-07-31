@@ -1,0 +1,9 @@
+{
+  "id": "blooming-sakura",
+  "name": "Blooming Sakura",
+  "ownerSlug": "byakuya",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increases Ultimate Charge Rate by 22%. Increases Battlefield Skill DMG by 30%. Each time a battlefield Skill is released, increase Basic Attack DMG by 6% for 15s, Stacks up to 6 times."
+  }
+}

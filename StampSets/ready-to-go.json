@@ -1,0 +1,9 @@
+{
+  "id": "ready-to-go",
+  "name": "Ready to Go",
+  "ownerSlug": "kenpachi",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increase Base ATK by 20%. Increase Crit DMG by 50% Each time Cleave is applied to an enemy, the ailment DMG dealt by your Sever Attacks is increased by 12%. This effect lasts for 30 seconds and stacks up to 3 times."
+  }
+}

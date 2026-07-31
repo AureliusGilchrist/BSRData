@@ -1,0 +1,9 @@
+{
+  "id": "mindscape-encroachment",
+  "name": "Mindscape Encroachment",
+  "ownerSlug": "white-ichigo",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increase Slash DMG by 15%. After any team character releases a counterattack, the character equipping it gains 10% All-Skill Mastery. Releasing a Battlefield Skill each time increases the entire teams's Slash Mastery by 10%. These effects last 30 seconds. Unstackable."
+  }
+}

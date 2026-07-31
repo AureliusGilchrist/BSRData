@@ -1,0 +1,9 @@
+{
+  "id": "sample-collection",
+  "name": "Sample Collection",
+  "ownerSlug": "mayuri",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increase Ultimate Charge Rate by 22%. Each time Poison is inflicted on an enemy, the entire team's ATK is increased by 5% for 30 seconds, stacking up to 3 times."
+  }
+}

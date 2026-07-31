@@ -1,0 +1,9 @@
+{
+  "id": "immeasurable-gap",
+  "name": "Immeasurable Gap",
+  "ownerSlug": "aizen",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increase Spirit DMG by 11%. Increase Battlefield Skill DMG by 30%. Each time a battlefield skill is released, increases all damage by 10% and the damage of the next two counterattacks from any teammates is increased by 20%. Lasts 10 seconds. Unstackable."
+  }
+}

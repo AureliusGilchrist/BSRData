@@ -1,0 +1,9 @@
+{
+  "id": "unyielding-light",
+  "name": "Unyielding Light",
+  "ownerSlug": "ikkaku",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increases Thrust DMG by 11%. Increaess special attack DMG by 30%. Each time a special attack is released, increase Ultimate DMG by 14% for 15s. Stacks up to 2 times."
+  }
+}

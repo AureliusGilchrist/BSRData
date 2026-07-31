@@ -1,0 +1,9 @@
+{
+  "id": "curtain-falls",
+  "name": "Curtain Falls",
+  "ownerSlug": "szayelaporro",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increase Base ATK by 20%. Releasing counterattacks each time increases the entire team's Spirit DMG by 10%. Releasing Ultimate increases the entire team's Spirit Mastery by 4%. These effects last 30 seconds. Unstackable."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "knights-anthem",
+  "name": "Knight's Anthem",
+  "ownerSlug": "nelliel",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increase Crit DMG by 40%. After each Ultimate is released, increases Thrust DMG by 15% for 30 seconds. After each Battlefield Skill is released, all characters' Ailment DMG Bonus is increased by 40% for 30 seconds. These effects are not stackable."
+  }
+}

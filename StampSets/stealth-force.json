@@ -1,0 +1,9 @@
+{
+  "id": "stealth-force",
+  "name": "Stealth Force",
+  "ownerSlug": "soi-fon",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increase Basic Attack by 20%. After each Battlefield Skill is increased, increases Strike DMG by 30% and Ailment Mastery by 15% for 20 seconds. These effects are not stackable."
+  }
+}

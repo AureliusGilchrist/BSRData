@@ -1,0 +1,9 @@
+{
+  "id": "world-conquest",
+  "name": "World Conquest",
+  "ownerSlug": "toshiro",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increases Spirit DMG by 11%. Increases Ultimate DMG by 30%. Each time a technique is released, increases basic attack DMG by 36% for 8s. Unstackable."
+  }
+}

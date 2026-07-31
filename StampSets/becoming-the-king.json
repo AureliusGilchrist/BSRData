@@ -1,0 +1,9 @@
+{
+  "id": "becoming-the-king",
+  "name": "Becoming the King",
+  "ownerSlug": "grimmjow-pantera",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increase Strike Mastery by 10%. After inflicting Lacerate Points to an enemy and triggering Lacerate, increaes ATK by 18% and Crit DMG by 0% for 30 seconds. Unstackable."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "midnight-specter",
+  "name": "Midnight Specter",
+  "ownerSlug": "yoruichi",
+  "placeholder": false,
+  "threePiece": {
+    "text": "Increases Strike DMG by 11%. Increases Ultimate DMG by 30%. Each time a basic attack is released, increase special attack DMG by 5.5% for 10s. Stacks up to 5 times."
+  }
+}
