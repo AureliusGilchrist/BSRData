@@ -503,6 +503,169 @@
               },
               {
                 "kind": "Ultimate"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ulquiorra-resurreccion"
+              },
+              {
+                "kind": "Counter"
+              }
+            ]
+          },
+          {
+            "slug": "ulquiorra-resurreccion",
+            "actions": [
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Dodge"
+              },
+              {
+                "kind": "Basic Attack",
+                "label": "x4"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Dodge"
+              },
+              {
+                "kind": "Enhanced Basic Attack"
+              },
+              {
+                "kind": "Enhanced Technique"
+              },
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "Technique 2"
+              }
+            ]
+          },
+          {
+            "slug": "aizen",
+            "actions": [
+              {
+                "kind": "Technique 3"
+              },
+              {
+                "kind": "Technique",
+                "label": "x2"
+              },
+              {
+                "kind": "Basic Attack"
+              },
+              {
+                "kind": "BFS"
+              },
+              {
+                "kind": "Ultimate"
+              },
+              {
+                "kind": "Swap",
+                "slug": "szayelaporro"
+              },
+              {
+                "kind": "Counter"
+              }
+            ]
+          },
+          {
+            "slug": "szayelaporro",
+            "actions": [
+              {
+                "kind": "Ultimate 2"
+              },
+              {
+                "kind": "Technique"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ulquiorra-resurreccion"
+              },
+              {
+                "kind": "Counter"
+              }
+            ]
+          },
+          {
+            "slug": "ulquiorra-resurreccion",
+            "actions": [
+              {
+                "kind": "Technique 2"
+              },
+              {
+                "kind": "Basic Attack 2",
+                "label": "x3"
+              },
+              {
+                "kind": "Technique 2"
+              },
+              {
+                "kind": "Swap",
+                "slug": "aizen"
+              }
+            ]
+          },
+          {
+            "slug": "aizen",
+            "actions": [
+              {
+                "kind": "Technique",
+                "label": "x2"
+              },
+              {
+                "kind": "Basic Attack"
+              },
+              {
+                "kind": "BFS"
+              },
+              {
+                "kind": "Swap",
+                "slug": "szayelaporro"
+              },
+              {
+                "kind": "counter"
+              },
+              {
+                "kind": "Swap",
+                "slug": "ulquiorra-resurreccion"
+              },
+              {
+                "kind": "counter"
+              }
+            ]
+          },
+          {
+            "slug": "ulquiorra-resurreccion",
+            "actions": [
+              {
+                "kind": "Technique 2"
+              },
+              {
+                "kind": "Enhanced Technique 2"
+              },
+              {
+                "kind": "Technique 2",
+                "label": "x2"
+              },
+              {
+                "kind": "Ultimate 2"
+              },
+              {
+                "kind": "Technique"
+              }
+            ]
+          },
+          {
+            "slug": "aizen",
+            "actions": [
+              {
+                "kind": "Technique 4"
               }
             ]
           }
