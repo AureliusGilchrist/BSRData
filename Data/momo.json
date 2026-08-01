@@ -80,6 +80,33 @@
       "targets": {
         "ultChargeRate": "~170%"
       }
+    },
+    {
+      "label": "Szayelaporro Replacement",
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain"
+      ],
+      "range": "B0W1C1 - B6W5C5",
+      "setName": "Curtain Falls (3)",
+      "setPieces": [
+        {
+          "mainStat": "ATK% > Spirit DMG",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate",
+          "slot": 2
+        },
+        {
+          "mainStat": "Ult Charge Rate",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "Ult Charge Rate > Crit Rate > ATK% > Crit DMG",
+      "targets": {
+        "ultChargeRate": "~170%"
+      }
     }
   ],
   "color": "Blue",

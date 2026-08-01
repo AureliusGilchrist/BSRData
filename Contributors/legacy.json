@@ -1,0 +1,20 @@
+{
+  "slug": "legacy",
+  "displayName": "Legacy",
+  "role": "F2P helper",
+  "bio": "Strong player with the basics down.",
+  "pfp": "",
+  "banner": "",
+  "links": {
+    "youtube": "",
+    "twitter": "",
+    "discord": ""
+  },
+  "contributions": [
+    {
+      "charSlug": "ulquiorra-resurreccion",
+      "charName": "Ulquiorra Shifar (Resurrección)",
+      "rotationName": "F2P rotation"
+    }
+  ]
+}
