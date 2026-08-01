@@ -629,14 +629,14 @@
                 "slug": "szayelaporro"
               },
               {
-                "kind": "counter"
+                "kind": "Counter"
               },
               {
                 "kind": "Swap",
                 "slug": "ulquiorra-resurreccion"
               },
               {
-                "kind": "counter"
+                "kind": "Counter"
               }
             ]
           },
@@ -805,7 +805,7 @@
     "tier": "S",
     "difficulty": "Easy",
     "content": "Co-op / Guild Boss / Events",
-    "p2w-video": "",
+    "p2w-video": "https://youtu.be/IOyXxhmhqVs",
     "f2p-video": "",
     "members": [
       {
@@ -1391,7 +1391,7 @@
     "tier": "S",
     "difficulty": "Medium",
     "content": "Co-op / Guild Boss / Events",
-    "p2w-video": "",
+    "p2w-video": "https://youtu.be/J9pJhQp0tCM",
     "f2p-video": "",
     "members": [
       {
@@ -1457,7 +1457,7 @@
     "tier": "S",
     "difficulty": "Hard",
     "content": "Co-op / Guild Boss / Events",
-    "p2w-video": "",
+    "p2w-video": "https://youtu.be/dGwU8hOlvTk",
     "f2p-video": "",
     "members": [
       {
