@@ -1,0 +1,69 @@
+{
+  "group": "general",
+  "id": "pantera-nel",
+  "name": "Pantera Nel Team",
+  "rank": 10,
+  "tier": "A",
+  "difficulty": "Easy",
+  "content": "Co-op / Guild Boss / Events",
+  "p2w-video": "https://youtu.be/en1Vqh-7ZfA",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "grimmjow-pantera",
+      "name": "Grimmjow (Pantera)",
+      "role": "Assault",
+      "damageType": "Strike",
+      "notes": [
+        "As Pantera is an ailment unit, he will benefit fully from Mayuri's buffs"
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "nelliel",
+      "name": "Nelliel Tu Odelschwanck",
+      "role": "Tactician",
+      "damageType": "Thrust",
+      "notes": [
+        "Any Tactician who can provide counters and also have ailment can be used in tandem with Pantera"
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "mayuri",
+      "name": "Kurotsuchi Mayuri",
+      "role": "Support",
+      "damageType": "Thrust",
+      "notes": [
+        "Low field time support"
+      ],
+      "swappable": []
+    }
+  ],
+  "rotationP2W": "Pantera Technique → Battlefield → Nel Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Nel Manual Counter → Special Attack → Pantera Counter → Max Stack Pounce → Enhanced Technique → Quickswap Pounce → Nel Ultimate",
+  "p2w-rotations": [
+    {
+      "name": "Pantera Nel Team",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Manual Counter in Nel Resurreccion → Special Attack → Technique (2x) → Mayuri Technique → Special Attack → Pantera Quickswap Pounce → Nel Ultimate → Manual Counter → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Pantera Ultimate → Quickswap Pounce → Mayuri Ultimate → Nel Ultimate",
+        "Nel Technique → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Battlefield → Manual Counter → Basic Attack → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Nel Basic Attack → Pantera Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Nel Ultimate → Technique (2x) → Pantera Ultimate → Pounce → Enhanced Technique → Quickswap Pounce → Nel Manual Counter → Special Attack → Mayuri Ultimate → Mayuri Technique → Special Attack → Nel Ultimate → Pantera Counter → Pounce → Enhanced Technique → Pantera Technique → Nel Ultimate"
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Pantera Nel Team",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Manual Counter in Nel Resurreccion → Special Attack → Technique (2x) → Mayuri Technique → Special Attack → Pantera Quickswap Pounce → Nel Ultimate → Manual Counter → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Pantera Ultimate → Quickswap Pounce → Mayuri Ultimate → Nel Ultimate",
+        "Nel Technique → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Battlefield → Manual Counter → Basic Attack → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Nel Basic Attack → Pantera Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Nel Ultimate → Technique (2x) → Pantera Ultimate → Pounce → Enhanced Technique → Quickswap Pounce → Nel Manual Counter → Special Attack → Mayuri Ultimate → Mayuri Technique → Special Attack → Nel Ultimate → Pantera Counter → Pounce → Enhanced Technique → Pantera Technique → Nel Ultimate"
+      ]
+    }
+  ],
+  "rotationF2P": "Lower boundaries team would require more fieldtime with Nel"
+}

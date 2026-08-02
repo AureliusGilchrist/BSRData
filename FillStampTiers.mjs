@@ -7,8 +7,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const DIR = process.argv[2] ?? 'BSRData/Data';
-const SKIP = new Set(['Banners.json', 'Glossary.json', 'Index.json', 'Teams.json']);
+import { listCharacterFiles } from './Lib/Characters.mjs';
+
+// An explicit Characters folder can be passed as argv[2]; otherwise the one
+// next to this script is used. There is no aggregate-file skip list any more --
+// the folder holds nothing but characters.
+const DIR = process.argv[2];
 const NUM_RE = /\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?/g;
 
 const parseNums = (line) => [...line.matchAll(NUM_RE)].map((m) => Number(m[0].replace(/,/g, '')));
@@ -31,8 +35,7 @@ function interpLine(l1, l5, t) {
 
 let changed = 0;
 const report = [];
-for (const file of fs.readdirSync(DIR).filter((f) => f.endsWith('.json') && !SKIP.has(f))) {
-  const p = path.join(DIR, file);
+for (const { rel: file, file: p } of listCharacterFiles(...(DIR ? [DIR] : []))) {
   const c = JSON.parse(fs.readFileSync(p, 'utf8'));
   let touched = false;
   for (const kind of ['weapon']) {

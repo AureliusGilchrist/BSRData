@@ -1,0 +1,75 @@
+{
+  "group": "frenzy-feast",
+  "id": "f2pstrike-team",
+  "name": "F2P Strike Team",
+  "rank": 50,
+  "tier": "B",
+  "difficulty": "Easy",
+  "content": "Frenzy Feast",
+  "p2w-video": "",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "yoruichi",
+      "name": "Yoruichi Shihoin",
+      "role": "Assault",
+      "damageType": "Strike",
+      "notes": [
+        "Her only purpose is to buff Soi Fon's Ultimate."
+      ],
+      "swappable": [
+        "grimmjow",
+        "chad"
+      ]
+    },
+    {
+      "slug": "soi-fon",
+      "name": "Soi Fon",
+      "role": "Tactician",
+      "damageType": "Strike",
+      "notes": [
+        "B1 minimum."
+      ],
+      "swappable": [
+        "komamura"
+      ]
+    },
+    {
+      "slug": "mayuri",
+      "name": "Mayuri Kurotsuchi",
+      "role": "Support",
+      "damageType": "Thrust",
+      "notes": [
+        "Low field time support."
+      ],
+      "swappable": [
+        "kisuke",
+        "nemu"
+      ]
+    }
+  ],
+  "rotationP2W": "",
+  "p2w-rotations": [
+    {
+      "name": "F2P Strike Team",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "F2P Strike Team",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "rotationF2P": ""
+}

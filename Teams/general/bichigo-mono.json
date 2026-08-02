@@ -1,0 +1,68 @@
+{
+  "group": "general",
+  "id": "bichigo-mono",
+  "name": "Bankai Ichigo Mono Slash",
+  "rank": 6,
+  "tier": "S",
+  "difficulty": "Hard",
+  "content": "Co-op / Guild Boss / Events",
+  "p2w-video": "https://youtu.be/dGwU8hOlvTk",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "ichigo-bankai",
+      "name": "Ichigo Kurosaki (Bankai)",
+      "role": "Assault",
+      "damageType": "Slash",
+      "notes": [
+        "With the release of White, Bankai Ichigo has become a useable unit."
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "ichigo-white",
+      "name": "Ichigo Kurosaki (Inner Hollow)",
+      "role": "Tactician",
+      "damageType": "Slash",
+      "notes": [
+        "Slash damage buffs while also dealing a fair bit himself (almost as much as Bichigo)."
+      ]
+    },
+    {
+      "slug": "kisuke",
+      "name": "Kisuke Urahara",
+      "role": "Support",
+      "damageType": "Slash",
+      "notes": [
+        "Best standard banner support in the game"
+      ],
+      "swappable": []
+    }
+  ],
+  "rotationP2W": "",
+  "p2w-rotations": [
+    {
+      "name": "Bankai Ichigo Mono Slash",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Bichigo Technique → Special Attack → Kisuke Technique → White Special Attack → White Technique → Bichigo counter → Special Attack → Kisuke Special Attack (2x) → White Basic Attack (1-2) → Bichigo Basic Attack (3x) → Special attack → Kisuke Ultimate → White Basic Attack until Bichigo Technique is available → Bichigo Technique → Special Attack → White Basic Attack until Battlefield is available → Battlefield → Finish Combo (can quickswap out as the sword being thrown down animation plays) → Kisuke Technique (can be quickswapped out of) → Bichigo Ultimate",
+        "Special Attack (Cancel it immediately with counter) → Manual Counter → Special Attack → White Special Attack → Manual Counter → Technique → Bichigo Counter → Special Attack → Battlefield → White Ultimate → Kisuke Technique (1-2) → Bichigo Technique → Special Attack → Bichigo Technique → Special Attack → Bichigo Ultimate → Basic Attack (3) → Special Attack → Kisuke Ultimate → Manually release Kisuke Technique → White Ultimate"
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Bankai Ichigo Mono Slash",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Bichigo Technique → Special Attack → Kisuke Technique → White Special Attack → White Technique → Bichigo counter → Special Attack → Kisuke Special Attack (2x) → White Basic Attack (1-2) → Bichigo Basic Attack (3x) → Special attack → Kisuke Ultimate → White Basic Attack until Bichigo Technique is available → Bichigo Technique → Special Attack → White Basic Attack until Battlefield is available → Battlefield → Finish Combo (can quickswap out as the sword being thrown down animation plays) → Kisuke Technique (can be quickswapped out of) → Bichigo Ultimate",
+        "Special Attack (Cancel it immediately with counter) → Manual Counter → Special Attack → White Special Attack → Manual Counter → Technique → Bichigo Counter → Special Attack → Battlefield → White Ultimate → Kisuke Technique (1-2) → Bichigo Technique → Special Attack → Bichigo Technique → Special Attack → Bichigo Ultimate → Basic Attack (3) → Special Attack → Kisuke Ultimate → Manually release Kisuke Technique → White Ultimate"
+      ]
+    }
+  ],
+  "rotationF2P": "Rotation should be the exact same as P2W counterpart."
+}

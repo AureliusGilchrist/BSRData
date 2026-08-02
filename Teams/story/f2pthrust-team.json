@@ -1,0 +1,75 @@
+{
+  "group": "story",
+  "id": "f2pthrust-team",
+  "name": "F2P Thrust Team",
+  "rank": 99,
+  "tier": "B",
+  "difficulty": "Easy",
+  "content": "Story Mode",
+  "p2w-video": "",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "renji",
+      "name": "Renji Abarai",
+      "role": "Assault",
+      "damageType": "Thrust",
+      "notes": [
+        "Free unit"
+      ],
+      "swappable": [
+        "gin"
+      ]
+    },
+    {
+      "slug": "uryu",
+      "name": "Uryu Ishida",
+      "role": "Tactician",
+      "damageType": "Thrust",
+      "notes": [
+        "Free unit"
+      ],
+      "swappable": [
+        "rukia",
+        "nelliel"
+      ]
+    },
+    {
+      "slug": "rangiku",
+      "name": "Rangiku Matsumoto",
+      "role": "Support",
+      "damageType": "Thrust",
+      "notes": [
+        "Low field time support."
+      ],
+      "swappable": [
+        "kisuke",
+        "mayuri"
+      ]
+    }
+  ],
+  "rotationP2W": "",
+  "p2w-rotations": [
+    {
+      "name": "F2P Thrust Team",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "F2P Thrust Team",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "rotationF2P": ""
+}

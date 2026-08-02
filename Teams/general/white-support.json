@@ -1,0 +1,67 @@
+{
+  "group": "general",
+  "id": "white-support",
+  "name": "White Double Support",
+  "rank": 9,
+  "tier": "S",
+  "difficulty": "Easy",
+  "content": "Co-op / Guild Boss / Events",
+  "p2w-video": "",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "ichigo-white",
+      "name": "Ichigo Kurosaki (Inner Hollow)",
+      "role": "Tactician",
+      "damageType": "Slash",
+      "notes": [
+        "White is strong enough to take on the role of DPS."
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "mayuri",
+      "name": "Mayuri Kurotsuchi",
+      "role": "Support",
+      "damageType": "Thrust",
+      "notes": [
+        "Low field time support."
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "kisuke",
+      "name": "Kisuke Urahara",
+      "role": "Support",
+      "damageType": "Slash",
+      "notes": [
+        "Standard banner support."
+      ],
+      "swappable": []
+    }
+  ],
+  "rotationP2W": "",
+  "p2w-rotations": [
+    {
+      "name": "White Double Support",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "White Double Support",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "rotationF2P": ""
+}

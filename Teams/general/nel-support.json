@@ -1,0 +1,67 @@
+{
+  "group": "general",
+  "id": "nel-support",
+  "name": "Nel Double Support",
+  "rank": 11,
+  "tier": "A",
+  "difficulty": "Easy",
+  "content": "Co-op / Guild Boss / Events",
+  "p2w-video": "https://youtu.be/C0hAOv8AiME",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "nelliel",
+      "name": "Nelliel Tu Odelschwanck",
+      "role": "Tactician",
+      "damageType": "Thrust",
+      "notes": [
+        "Her long field time makes her a viable DMG carry."
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "mayuri",
+      "name": "Mayuri Kurotsuchi",
+      "role": "Support",
+      "damageType": "Thrust",
+      "notes": [
+        "Low field time support."
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "kisuke",
+      "name": "Kisuke Urahara",
+      "role": "Support",
+      "damageType": "Slash",
+      "notes": [
+        "Standard banner support."
+      ],
+      "swappable": []
+    }
+  ],
+  "rotationP2W": "",
+  "p2w-rotations": [
+    {
+      "name": "Nel Double Support",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Nel Double Support",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "rotationF2P": ""
+}

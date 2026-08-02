@@ -1,6 +1,8 @@
 [
   {
     "slug": "aizen",
+    "path": "2025/aizen.json",
+    "year": 2025,
     "name": "Sosuke Aizen",
     "role": "Tactician",
     "tier": "S",
@@ -11,6 +13,8 @@
   },
   {
     "slug": "byakuya",
+    "path": "2025/byakuya.json",
+    "year": 2025,
     "name": "Byakuya Kuchiki",
     "role": "Tactician",
     "tier": "C",
@@ -21,6 +25,8 @@
   },
   {
     "slug": "chad",
+    "path": "2025/chad.json",
+    "year": 2025,
     "name": "Yasutora Sado (Chad)",
     "role": "Assault",
     "tier": "D",
@@ -31,6 +37,8 @@
   },
   {
     "slug": "gin",
+    "path": "2026/gin.json",
+    "year": 2026,
     "name": "Gin Ichimaru",
     "role": "Assault",
     "tier": "A",
@@ -41,6 +49,8 @@
   },
   {
     "slug": "grimmjow",
+    "path": "2026/grimmjow.json",
+    "year": 2026,
     "name": "Grimmjow Jaegerjaquez",
     "role": "Assault",
     "tier": "B",
@@ -51,6 +61,8 @@
   },
   {
     "slug": "grimmjow-pantera",
+    "path": "2026/grimmjow-pantera.json",
+    "year": 2026,
     "name": "Grimmjow Jaegerjaquez (Pantera)",
     "role": "Assault",
     "tier": "S",
@@ -61,6 +73,8 @@
   },
   {
     "slug": "ichigo-bankai",
+    "path": "2025/ichigo-bankai.json",
+    "year": 2025,
     "name": "Ichigo Kurosaki (Bankai)",
     "role": "Assault",
     "tier": "A",
@@ -71,6 +85,8 @@
   },
   {
     "slug": "ichigo-initial",
+    "path": "2025/ichigo-initial.json",
+    "year": 2025,
     "name": "Ichigo Kurosaki (Initial)",
     "role": "Assault",
     "tier": "D",
@@ -81,6 +97,8 @@
   },
   {
     "slug": "ichigo-shikai",
+    "path": "2025/ichigo-shikai.json",
+    "year": 2025,
     "name": "Ichigo Kurosaki (Shikai)",
     "role": "Assault",
     "tier": "C",
@@ -91,6 +109,8 @@
   },
   {
     "slug": "ichigo-ts",
+    "path": "2026/ichigo-ts.json",
+    "year": 2026,
     "name": "Ichigo Kurosaki (Dual Zangetsu)",
     "role": "Assault",
     "tier": "S",
@@ -101,6 +121,8 @@
   },
   {
     "slug": "ichigo-white",
+    "path": "2026/ichigo-white.json",
+    "year": 2026,
     "name": "Ichigo Kurosaki (Inner Hollow)",
     "role": "Tactician",
     "tier": "S",
@@ -111,6 +133,8 @@
   },
   {
     "slug": "ikkaku",
+    "path": "2025/ikkaku.json",
+    "year": 2025,
     "name": "Ikkaku Madarame",
     "role": "Assault",
     "tier": "C",
@@ -121,6 +145,8 @@
   },
   {
     "slug": "kenpachi",
+    "path": "2026/kenpachi.json",
+    "year": 2026,
     "name": "Kenpachi Zaraki",
     "role": "Assault",
     "tier": "S",
@@ -131,6 +157,8 @@
   },
   {
     "slug": "kisuke",
+    "path": "2025/kisuke.json",
+    "year": 2025,
     "name": "Kisuke Urahara",
     "role": "Support",
     "tier": "A",
@@ -141,6 +169,8 @@
   },
   {
     "slug": "komamura",
+    "path": "2025/komamura.json",
+    "year": 2025,
     "name": "Sajin Komamura",
     "role": "Assault",
     "tier": "C",
@@ -151,6 +181,8 @@
   },
   {
     "slug": "mayuri",
+    "path": "2026/mayuri.json",
+    "year": 2026,
     "name": "Kurotsuchi Mayuri",
     "role": "Support",
     "tier": "S",
@@ -161,6 +193,8 @@
   },
   {
     "slug": "momo",
+    "path": "2025/momo.json",
+    "year": 2025,
     "name": "Momo Hinamori",
     "role": "Support",
     "tier": "B",
@@ -171,6 +205,8 @@
   },
   {
     "slug": "nelliel",
+    "path": "2026/nelliel.json",
+    "year": 2026,
     "name": "Nelliel Tu Odelschwanck",
     "role": "Tactician",
     "tier": "S",
@@ -181,6 +217,8 @@
   },
   {
     "slug": "nemu",
+    "path": "2025/nemu.json",
+    "year": 2025,
     "name": "Nemu Kurotsuchi",
     "role": "Support",
     "tier": "C",
@@ -191,6 +229,8 @@
   },
   {
     "slug": "orihime",
+    "path": "2025/orihime.json",
+    "year": 2025,
     "name": "Orihime Inoue",
     "role": "Support",
     "tier": "D",
@@ -201,6 +241,8 @@
   },
   {
     "slug": "rangiku",
+    "path": "2026/rangiku.json",
+    "year": 2026,
     "name": "Rangiku Matsumoto",
     "role": "Support",
     "tier": "B",
@@ -211,6 +253,8 @@
   },
   {
     "slug": "renji",
+    "path": "2025/renji.json",
+    "year": 2025,
     "name": "Renji Abarai",
     "role": "Assault",
     "tier": "D",
@@ -221,6 +265,8 @@
   },
   {
     "slug": "rukia",
+    "path": "2025/rukia.json",
+    "year": 2025,
     "name": "Rukia Kuchiki",
     "role": "Tactician",
     "tier": "C",
@@ -231,6 +277,8 @@
   },
   {
     "slug": "soi-fon",
+    "path": "2026/soi-fon.json",
+    "year": 2026,
     "name": "Soi Fon",
     "role": "Tactician",
     "tier": "S",
@@ -241,6 +289,8 @@
   },
   {
     "slug": "szayelaporro",
+    "path": "2026/szayelaporro.json",
+    "year": 2026,
     "name": "Szayelaporro Granz",
     "role": "Support",
     "tier": "S",
@@ -251,6 +301,8 @@
   },
   {
     "slug": "tosen",
+    "path": "2025/tosen.json",
+    "year": 2025,
     "name": "Kaname Tosen",
     "role": "Tactician",
     "tier": "B",
@@ -261,6 +313,8 @@
   },
   {
     "slug": "toshiro",
+    "path": "2025/toshiro.json",
+    "year": 2025,
     "name": "Toshiro Hitsugaya",
     "role": "Assault",
     "tier": "A",
@@ -271,6 +325,8 @@
   },
   {
     "slug": "ulquiorra",
+    "path": "2026/ulquiorra.json",
+    "year": 2026,
     "name": "Ulquiorra Shifar (SR+)",
     "role": "Assault",
     "tier": "B",
@@ -281,6 +337,8 @@
   },
   {
     "slug": "ulquiorra-resurreccion",
+    "path": "2026/ulquiorra-resurreccion.json",
+    "year": 2026,
     "name": "Ulquiorra Shifar (Resurrección)",
     "role": "Assault",
     "tier": "S",
@@ -291,6 +349,8 @@
   },
   {
     "slug": "ururu",
+    "path": "2025/ururu.json",
+    "year": 2025,
     "name": "Ururu Tsumugiya",
     "role": "Support",
     "tier": "D",
@@ -301,6 +361,8 @@
   },
   {
     "slug": "uryu",
+    "path": "2025/uryu.json",
+    "year": 2025,
     "name": "Uryu Ishida",
     "role": "Tactician",
     "tier": "D",
@@ -310,7 +372,20 @@
     "releaseDate": "21 Nov 2025"
   },
   {
+    "slug": "vollstandig-ishida",
+    "path": "2026/vollstandig-ishida.json",
+    "year": 2026,
+    "name": "Uryu Ishida (Vollständig)",
+    "role": "Tactician",
+    "tier": "S",
+    "damageType": "TBD",
+    "rarity": "SSR",
+    "releaseDate": "8 Aug 2026"
+  },
+  {
     "slug": "yachiru",
+    "path": "2025/yachiru.json",
+    "year": 2025,
     "name": "Yachiru Kusajishi",
     "role": "Support",
     "tier": "B",
@@ -321,6 +396,8 @@
   },
   {
     "slug": "yoruichi",
+    "path": "2025/yoruichi.json",
+    "year": 2025,
     "name": "Yoruichi Shihoin",
     "role": "Assault",
     "tier": "C",

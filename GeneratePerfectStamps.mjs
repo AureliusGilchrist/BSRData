@@ -62,8 +62,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import { listCharacterFiles, writeCharacter } from './Lib/Characters.mjs';
+
 const here = path.dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = path.join(here, 'Data');
 const SETS_DIR = path.join(here, 'StampSets');
 const PASSIVES_TS = path.join(here, '..', 'Web', 'Source', 'Lib', 'StampPassives.ts');
 const OUT_FILE = path.join(here, '..', 'Web', 'Source', 'Data', 'PerfectStamps.json');
@@ -189,25 +190,22 @@ function validatePiece(slug, piece, index, seenSlots) {
 
 /* -------------------------------------------------------------------------- */
 
-const files = fs
-  .readdirSync(DATA_DIR)
-  .filter((f) => f.endsWith('.json') && !/^[A-Z]/.test(f)) // skip Index/Teams/Banners/…
-  .sort();
+// Every character, resolved through the shared layout helper — the year
+// folders are none of this script's business.
+const files = listCharacterFiles();
 
 const characters = {};
 let scaffolded = 0;
 let authored = 0;
 
-for (const file of files) {
-  const full = path.join(DATA_DIR, file);
-  const raw = fs.readFileSync(full, 'utf8');
-  const char = JSON.parse(raw);
-  const slug = char.slug ?? path.basename(file, '.json');
+for (const { slug: fileSlug, file: full, rel: file } of files) {
+  const char = JSON.parse(fs.readFileSync(full, 'utf8'));
+  const slug = char.slug ?? fileSlug;
 
   // 1. Scaffold — give every character somewhere to author them, once.
   if (!Array.isArray(char.perfectStamps)) {
     char.perfectStamps = [];
-    fs.writeFileSync(full, `${JSON.stringify(char, null, 2)}\n`);
+    writeCharacter(full, char);
     scaffolded += 1;
   }
 

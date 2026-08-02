@@ -1,0 +1,67 @@
+{
+  "group": "story",
+  "id": "standard-thrust",
+  "name": "Standard Banner Thrust",
+  "rank": 94,
+  "tier": "C",
+  "difficulty": "Easy",
+  "content": "Story Mode",
+  "p2w-video": "",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "ikkaku",
+      "name": "Ikkaku Madarame",
+      "role": "Assault",
+      "damageType": "Thrust",
+      "notes": [
+        "Applies wound on Special Attack"
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "tosen",
+      "name": "Kaname Tosen",
+      "role": "Tactician",
+      "damageType": "Thrust",
+      "notes": [
+        "Provides buffs for his team while applying ailment"
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "rangiku",
+      "name": "Rangiku Matsumoto",
+      "role": "Support",
+      "damageType": "Thrust",
+      "notes": [
+        "Off field ailment dmg while buffing ailment and thrust damage"
+      ],
+      "swappable": []
+    }
+  ],
+  "rotationP2W": "",
+  "p2w-rotations": [
+    {
+      "name": "Standard Banner Thrust",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Tosen Battlefield → Rangiku Technique → Ikkaku Technique → Basic Attack spam → Special Attack (Whenever it's available) → Rangiku Ultimate"
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Standard Banner Thrust",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Tosen Battlefield → Rangiku Technique → Ikkaku Technique → Basic Attack spam → Special Attack (Whenever it's available) → Rangiku Ultimate"
+      ]
+    }
+  ],
+  "rotationF2P": ""
+}

@@ -1,0 +1,67 @@
+{
+  "group": "frenzy-feast",
+  "id": "kenny-f2p",
+  "name": "Kenpachi F2P",
+  "rank": 95,
+  "tier": "C",
+  "difficulty": "Easy",
+  "content": "Frenzy Feast",
+  "p2w-video": "",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "kenpachi",
+      "name": "Kenpachi Zaraki",
+      "role": "Assault",
+      "damageType": "Slash",
+      "notes": [
+        "Slash Full Assault with ailment. Unfortunately this team cannot bring out his full potential as a lot of quickswaps are required to fully maximize his damage output. Neither Byakuya or Yachiru provide enough fieldtime to quickswap Kenpachi out."
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "byakuya",
+      "name": "Byakuya Kuchiki",
+      "role": "Tactician",
+      "damageType": "Slash",
+      "notes": [
+        "Unfortunately, any teams with Byakuya will automatically offer subpar performance."
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "yachiru",
+      "name": "Yachiru Kusajishi",
+      "role": "Support",
+      "damageType": "Slash",
+      "notes": [
+        "Low field time support."
+      ],
+      "swappable": []
+    }
+  ],
+  "rotationP2W": "",
+  "p2w-rotations": [
+    {
+      "name": "Kenpachi F2P",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Kenpachi F2P",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "rotationF2P": ""
+}

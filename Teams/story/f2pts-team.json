@@ -1,0 +1,73 @@
+{
+  "group": "story",
+  "id": "f2pts-team",
+  "name": "F2P True Shikai",
+  "rank": 51,
+  "tier": "C",
+  "difficulty": "Easy",
+  "content": "Story Mode",
+  "p2w-video": "",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "ichigo-ts",
+      "name": "Ichigo Kurosaki (Dual Zangetsu)",
+      "role": "Assault",
+      "damageType": "Thrust",
+      "notes": [
+        "Collaboration unit. Strong DPS even at B1."
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "tosen",
+      "name": "Kaname Tosen",
+      "role": "Tactician",
+      "damageType": "Thrust",
+      "notes": [
+        "Standard SSR unit who allows greater field time for Ichigo."
+      ],
+      "swappable": [
+        "nelliel",
+        "uryu"
+      ]
+    },
+    {
+      "slug": "rangiku",
+      "name": "Rangiku Matsumoto",
+      "role": "Support",
+      "damageType": "Thrust",
+      "notes": [
+        "Low field time support."
+      ],
+      "swappable": [
+        "kisuke",
+        "mayuri"
+      ]
+    }
+  ],
+  "rotationP2W": "",
+  "p2w-rotations": [
+    {
+      "name": "F2P True Shikai",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "F2P True Shikai",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "rotationF2P": ""
+}

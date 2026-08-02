@@ -1,0 +1,71 @@
+{
+  "group": "general",
+  "id": "gin-mono",
+  "name": "Gin Mono Thrust",
+  "rank": 8,
+  "tier": "S",
+  "difficulty": "Easy",
+  "content": "Co-op / Guild Boss / Events",
+  "p2w-video": "https://youtu.be/6Nx4qL64BV4",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "gin",
+      "name": "Gin Ichimaru",
+      "role": "Assault",
+      "damageType": "Thrust",
+      "notes": [
+        "Ailment DMG off-field. 70% of DMG comes from Ailment."
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "nelliel",
+      "name": "Nelliel Tu Odelschwanck",
+      "role": "Tactician",
+      "damageType": "Thrust",
+      "notes": [
+        "Her most important kit is locked behind B6"
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "mayuri",
+      "name": "Kurotsuchi Mayuri",
+      "role": "Support",
+      "damageType": "Thrust",
+      "notes": [
+        "Low field time support"
+      ],
+      "swappable": [
+        "rangiku"
+      ]
+    }
+  ],
+  "rotationF2P": "At lower boundaries, Nel will require more field time to charge up her initial Ultimate (where she enters Resurreccion). If using Rangiku, simply use her Technique and Ultimate whenever it's up.",
+  "rotationP2W": "",
+  "p2w-rotations": [
+    {
+      "name": "Gin Mono Thrust",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Nel Battlefield → Technique → Mayuri Ultimate (Wait for Nel to swipe left) → Basic Attack (Impale cooldown) → Mayuri Technique → Special Attack → Gin Technique (1x) → Gin Manual Counter → Gin Technique (2x) → Gin Technique (1x) → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Nel Ultimate",
+        "Nel Manual Counter → Special Attack → Technique (2x) → Mayuri Technique → Gin Manual Counter → Technique (1x) → Nel Ultimate → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Technique (2x) → Technique (1x) → Gin Ultimate → Nel Ultimate"
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Gin Mono Thrust",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Nel Battlefield → Technique → Mayuri Ultimate (Wait for Nel to swipe left) → Basic Attack (Impale cooldown) → Mayuri Technique → Special Attack → Gin Technique (1x) → Gin Manual Counter → Gin Technique (2x) → Gin Technique (1x) → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Nel Ultimate",
+        "Nel Manual Counter → Special Attack → Technique (2x) → Mayuri Technique → Gin Manual Counter → Technique (1x) → Nel Ultimate → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Technique (2x) → Technique (1x) → Gin Ultimate → Nel Ultimate"
+      ]
+    }
+  ]
+}

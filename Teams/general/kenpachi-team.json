@@ -1,0 +1,517 @@
+{
+  "group": "general",
+  "id": "kenpachi-team",
+  "name": "Kenpachi Team",
+  "rank": 3,
+  "tier": "S",
+  "difficulty": "Easy",
+  "content": "Co-op / Guild Boss / Events",
+  "p2w-video": "https://youtu.be/IOyXxhmhqVs",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "kenpachi",
+      "name": "Kenpachi Zaraki",
+      "role": "Assault",
+      "damageType": "Slash",
+      "notes": [
+        "Quickswap everything"
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "ichigo-white",
+      "name": "Ichigo Kurosaki (Inner Hollow)",
+      "role": "Tactician",
+      "damageType": "Slash",
+      "notes": [
+        "Slash damage amplification. We use Mayuri just to hyperbuff Kenpachi. White's damage is negligible in this team."
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "mayuri",
+      "name": "Mayuri Kurotsuchi",
+      "role": "Support",
+      "damageType": "Thrust",
+      "notes": [
+        "Ailment buffer to boost Kenpachi further"
+      ],
+      "swappable": []
+    }
+  ],
+  "rotationP2W": "",
+  "rotationF2P": "Rotation for lower boundary team should be similar, but Kenpachi will have a more difficult time charging his Spiritual Pressure.",
+  "p2w-rotations": [
+    {
+      "name": "Kenpachi Team",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Kenpachi Technique → Mayuri Ultimate → White Special Attack → Basic attack x2 → Technique → Kenpachi Counter",
+        "Kenpachi Special Attack → Mayuri Technique → Mayuri Special Attack→ White Basic Attack (as much as possible before Kenpachi can be swapped back onto) → Kenpachi Swap → Enhanced Technique → Swap to White → White Special Attack → White Manual Counter → Kenpachi Counter → Kenpachi Special Attack",
+        "Swap to Mayuri for 1x Basic Attack → Swap to White → Basic Attack until Kenpachi is available to swap → Special Attack if available into White Technique → Kenpachi Counter → Kenpachi Enhanced Technique → Mayuri Technique → Mayuri Special Attack → Battlefield",
+        "White Ultimate → Basic Attack until Mayuri Ult is off cooldown → Mayuri Ultimate → Kenpachi Ultimate → Basic Attack until Ultimate is charged → Kenpachi Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "SpcAtk"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "SpcAtk"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "SpcAtk"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "SpcAtk"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Enhanced Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Enhanced Technique 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x5"
+            },
+            {
+              "kind": "Ultimate 2"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Kenpachi Team",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Kenpachi Technique → Mayuri Ultimate → White Special Attack → Basic attack x2 → Technique → Kenpachi Counter",
+        "Kenpachi Special Attack → Mayuri Technique → Mayuri Special Attack→ White Basic Attack (as much as possible before Kenpachi can be swapped back onto) → Kenpachi Swap → Enhanced Technique → Swap to White → White Special Attack → White Manual Counter → Kenpachi Counter → Kenpachi Special Attack",
+        "Swap to Mayuri for 1x Basic Attack → Swap to White → Basic Attack until Kenpachi is available to swap → Special Attack if available into White Technique → Kenpachi Counter → Kenpachi Enhanced Technique → Mayuri Technique → Mayuri Special Attack → Battlefield",
+        "White Ultimate → Basic Attack until Mayuri Ult is off cooldown → Mayuri Ultimate → Kenpachi Ultimate → Basic Attack until Ultimate is charged → Kenpachi Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "SpcAtk"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "SpcAtk"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "SpcAtk"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "SpcAtk"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Enhanced Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Enhanced Technique 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x5"
+            },
+            {
+              "kind": "Ultimate 2"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

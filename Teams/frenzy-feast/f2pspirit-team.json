@@ -1,0 +1,74 @@
+{
+  "group": "frenzy-feast",
+  "id": "f2pspirit-team",
+  "name": "F2P Spirit Team",
+  "rank": 49,
+  "tier": "B",
+  "difficulty": "Easy",
+  "content": "Frenzy Feast",
+  "p2w-video": "",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "ulquiorra",
+      "name": "Ulquiorra Shifar (SR+)",
+      "role": "Assault",
+      "damageType": "Spirit",
+      "notes": [
+        "Free unit"
+      ],
+      "swappable": [
+        "ururu"
+      ]
+    },
+    {
+      "slug": "aizen",
+      "name": "Sosuke Aizen",
+      "role": "Tactician",
+      "damageType": "Spirit",
+      "notes": [
+        "B1 minimum."
+      ],
+      "swappable": [
+        "rukia"
+      ]
+    },
+    {
+      "slug": "szayelaporro",
+      "name": "Szayelaporro Granz",
+      "role": "Support",
+      "damageType": "Spirit",
+      "notes": [
+        "Low field time support."
+      ],
+      "swappable": [
+        "kisuke",
+        "momo"
+      ]
+    }
+  ],
+  "rotationP2W": "",
+  "p2w-rotations": [
+    {
+      "name": "F2P Strike Team",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "F2P Strike Team",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "rotationF2P": ""
+}

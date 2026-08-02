@@ -1,0 +1,69 @@
+{
+  "group": "story",
+  "id": "f2p-starter",
+  "name": "F2P Starter — Story Friendly",
+  "rank": 100,
+  "tier": "D",
+  "difficulty": "Easy",
+  "content": "Story Mode",
+  "p2w-video": "",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "ichigo-initial",
+      "name": "Ichigo Kurosaki (Initial)",
+      "role": "Assault",
+      "damageType": "Slash",
+      "notes": [
+        "Story-given starter"
+      ],
+      "swappable": [
+        "ichigo-shikai"
+      ]
+    },
+    {
+      "slug": "uryu",
+      "name": "Uryu Ishida",
+      "role": "Tactician",
+      "damageType": "Thrust",
+      "notes": [
+        "Story-given starter"
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "orihime",
+      "name": "Inoue Orihime",
+      "role": "Support",
+      "damageType": "Spirit",
+      "notes": [
+        "Story-given starter"
+      ],
+      "swappable": []
+    }
+  ],
+  "rotationP2W": "This comp is intentionally SR-only — the P2W path is to retire it and run any of #1–#5 as you pull SSRs.",
+  "p2w-rotations": [
+    {
+      "name": "F2P Starter — Story Friendly",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Orihime Technique → Ichigo Technique → Special Attack → Battlefield → Technique → Ichigo Basic Attacks"
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "F2P Starter — Story Friendly",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Orihime Technique → Ichigo Technique → Special Attack → Battlefield → Technique → Ichigo Basic Attacks"
+      ]
+    }
+  ],
+  "rotationF2P": "Story friendly team."
+}

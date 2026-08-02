@@ -1,0 +1,69 @@
+{
+  "group": "general",
+  "id": "toshiro-mono",
+  "name": "Toshiro Mono Spirit",
+  "rank": 7,
+  "tier": "S",
+  "difficulty": "Medium",
+  "content": "Co-op / Guild Boss / Events",
+  "p2w-video": "",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "szayelaporro",
+      "name": "Szayelaporro Granz",
+      "role": "Support",
+      "damageType": "Spirit",
+      "notes": [
+        "Low field time support"
+      ],
+      "swappable": [
+        "momo"
+      ]
+    },
+    {
+      "slug": "toshiro",
+      "name": "Toshiro Hitsugaya",
+      "role": "Assault",
+      "damageType": "Spirit",
+      "notes": [
+        "Unfortunately falls off in comparison to Ulquiorra. Toshiro teams may derank to A tier once more teams are available."
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "aizen",
+      "name": "Sosuke Aizen",
+      "role": "Tactician",
+      "damageType": "Spirit",
+      "notes": [
+        "Aizen's kit provides buffs for his team"
+      ],
+      "swappable": []
+    }
+  ],
+  "rotationP2W": "Szayelaporro Technique → Toshiro Technique → Battlefield → Manual Counter → Technique (2x) → Battlefield → Szayelaporro Counter → Ultimate → Toshiro Counter → Technique → Basic Attack",
+  "p2w-rotations": [
+    {
+      "name": "Toshiro Mono Spirit",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Toshiro Basic Attack until Battlefield is ready → Battlefield → Aizen Technique (2x) → Aizen Ultimate → Basic Attack combo → Hado 90 → Szayelaporro Counter → Ultimate → Technique → Toshiro Counter → Technique → Basic Attack (until 24 Illusion stacks) → Toshiro Ultimate → Basic Attack (while moving) → Get 5 Build Up stacks → Ultimate → Technique → Basic Attack (2 full combos) → Aizen Battlefield"
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Toshiro Mono Spirit",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Toshiro Basic Attack until Battlefield is ready → Battlefield → Aizen Technique (2x) → Aizen Ultimate → Basic Attack combo → Hado 90 → Szayelaporro Counter → Ultimate → Technique → Toshiro Counter → Technique → Basic Attack (until 24 Illusion stacks) → Toshiro Ultimate → Basic Attack (while moving) → Get 5 Build Up stacks → Ultimate → Technique → Basic Attack (2 full combos) → Aizen Battlefield"
+      ]
+    }
+  ],
+  "rotationF2P": "Momo should function the same as Szayelaporro."
+}

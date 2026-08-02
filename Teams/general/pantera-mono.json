@@ -1,0 +1,67 @@
+{
+  "group": "general",
+  "id": "pantera-mono",
+  "name": "Pantera Strike Team",
+  "rank": 4,
+  "tier": "S",
+  "difficulty": "Medium",
+  "content": "Co-op / Guild Boss / Events",
+  "p2w-video": "https://youtu.be/J9pJhQp0tCM",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "soi-fon",
+      "name": "Soi Fon",
+      "role": "Tactician",
+      "damageType": "Strike",
+      "notes": [
+        "Two rotation Tactician."
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "grimmjow-pantera",
+      "name": "Grimmjow (Pantera)",
+      "role": "Assault",
+      "damageType": "Strike",
+      "notes": [
+        "Trigger Lacerate as often as possible"
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "mayuri",
+      "name": "Kurotsuchi Mayuri",
+      "role": "Support",
+      "damageType": "Thrust",
+      "notes": [
+        "Low field time support"
+      ],
+      "swappable": []
+    }
+  ],
+  "rotationP2W": "",
+  "rotationF2P": [
+    "Rotation should be the exact same at lower boundaries. B1 Soi Fon will be required."
+  ],
+  "p2w-rotations": [
+    {
+      "name": "Pantera Mono Strike",
+      "tags": [],
+      "steps": [
+        "Spawn in with Soi Fon (free Conviction stack) → Swap to any other character → Battlefield (free Conviction stack) → Manual Counter → Technique → Basic Attack to trigger counter → Swap to Pantera → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Pounce (Charge until max stacks) → Enhanced Technique → Quickswap Pounce → Soi Fon Windmill (at 10 battlefield energy) → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate",
+        "Pantera Quickswap Pounce → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Quickswap Pounce → Battlefield → Soi Fon Manual Counter → Technique → Trigger Homonka → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Pantera Quickswap Pounce → Soi Fon Windmill → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate"
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Pantera Mono Strike",
+      "tags": [],
+      "steps": [
+        "Spawn in with Soi Fon (free Conviction stack) → Swap to any other character → Battlefield (free Conviction stack) → Manual Counter → Technique → Basic Attack to trigger counter → Swap to Pantera → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Pounce (Charge until max stacks) → Enhanced Technique → Quickswap Pounce → Soi Fon Windmill (at 10 battlefield energy) → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate",
+        "Pantera Quickswap Pounce → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Quickswap Pounce → Battlefield → Soi Fon Manual Counter → Technique → Trigger Homonka → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Pantera Quickswap Pounce → Soi Fon Windmill → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate"
+      ]
+    }
+  ]
+}

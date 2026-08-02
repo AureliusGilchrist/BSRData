@@ -1,0 +1,71 @@
+{
+  "group": "general",
+  "id": "aizen-support",
+  "name": "Aizen Double Support",
+  "rank": 5,
+  "tier": "S",
+  "difficulty": "Medium",
+  "content": "Co-op / Guild Boss / Events / Frenzy Feast",
+  "p2w-video": "",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "aizen",
+      "name": "Sosuke Aizen",
+      "role": "Tactician",
+      "damageType": "Spirit",
+      "notes": [
+        "Tactician whose basic attack, technique and counter ignore defense"
+      ]
+    },
+    {
+      "slug": "szayelaporro",
+      "name": "Szayelaporro Granz",
+      "role": "Support",
+      "damageType": "Spirit",
+      "notes": [
+        "Low field time support"
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "kisuke",
+      "name": "Kisuke Urahara",
+      "role": "Support",
+      "damageType": "Slash",
+      "notes": [
+        "A Spirit Support — Santen Kesshun shield + heal"
+      ],
+      "swappable": [
+        "momo",
+        "orihime"
+      ]
+    }
+  ],
+  "rotationP2W": "Szayelaporro Technique → Battlefield → Aizen Manual Counter → Technique (2x) → Battlefield → Szayelaporro Counter → Ultimate → Kisuke Counter → Special Attack (2x) → Ultimate → Aizen Basic Attack (until Battlefield is available) → Swap out → Battlefield",
+  "p2w-rotations": [
+    {
+      "name": "Aizen Double Support",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Aizen Technique (2x) → Battlefield → Ultimate → Basic Attack (until lightning) → Kisuke Counter → Special Attack (2x) → Szayelaporro Counter → Ultimate → Technique → Basic Attack → Hado 90",
+        "Szayelaporro Counter → Kisuke Counter → Technique → Special Attack (2x) → Kisuke Ultimate → Aizen Battlefield"
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Aizen Double Support",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Aizen Technique (2x) → Battlefield → Ultimate → Basic Attack (until lightning) → Kisuke Counter → Special Attack (2x) → Szayelaporro Counter → Ultimate → Technique → Basic Attack → Hado 90",
+        "Szayelaporro Counter → Kisuke Counter → Technique → Special Attack (2x) → Kisuke Ultimate → Aizen Battlefield"
+      ]
+    }
+  ],
+  "rotationF2P": "Using Momo or Orihime will cause difficulty in increasing Aizen's Suppression Gauge. Would recommend entering Aizen Ultimate with his Battlefield already half full. Damage will also be much lower without B4 Aizen."
+}

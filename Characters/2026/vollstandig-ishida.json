@@ -1,0 +1,180 @@
+{
+  "art": "",
+  "bestStamp": {
+    "mainStats": "1: TBD  •  2: TBD  •  3: TBD",
+    "notes": "TBD",
+    "setName": "Ishida Stamp (3)",
+    "subStatPriority": "TBD"
+  },
+  "bondPriority": [],
+  "boundaries": [
+    {
+      "description": "TBD",
+      "icon": "",
+      "level": 1,
+      "name": ""
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "level": 2,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 3
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "level": 4,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 5
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "level": 6,
+      "name": ""
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "TBD",
+        "TBD"
+      ],
+      "range": "B6W5C5",
+      "setName": "Ishida Stamp (3)",
+      "setPieces": [
+        {
+          "mainStat": "TBD",
+          "slot": 1
+        },
+        {
+          "mainStat": "TBD",
+          "slot": 2
+        },
+        {
+          "mainStat": "TBD",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "TBD"
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "TBD",
+      "icon": "",
+      "name": ""
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "name": ""
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "name": ""
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "name": ""
+    }
+  ],
+  "damageType": "TBD",
+  "name": "Uryu Ishida (Vollständig)",
+  "note": "Collaboration event unit",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "8 Aug 2026",
+  "role": "Tactician",
+  "tips": [],
+  "rotations": [
+    {
+      "name": "TBD",
+      "steps": [],
+      "tags": [
+        "Standard"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "TBD",
+      "icon": "",
+      "kind": "Basic Attack",
+      "name": ""
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "kind": "Technique",
+      "name": ""
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "kind": "Ultimate",
+      "name": ""
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "kind": "Counter",
+      "name": ""
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "kind": "Dodge",
+      "name": ""
+    }
+  ],
+  "slug": "vollstandig-ishida",
+  "source": null,
+  "stamps": {
+    "core": {
+      "ascend1": [],
+      "ascend5": []
+    },
+    "coreScope": "self",
+    "weapon": {
+      "ascend1": [],
+      "ascend5": [],
+      "ascend2": [],
+      "ascend3": [],
+      "ascend4": [],
+      "estimated": []
+    },
+    "weaponScope": "self"
+  },
+  "tier": "S",
+  "rationale": [
+    "TBD."
+  ],
+  "stats": {
+    "atk": "",
+    "critDamage": "",
+    "critRate": "",
+    "def": "",
+    "hp": ""
+  },
+  "weaponStats": {
+    "atk": "",
+    "def": "",
+    "hp": ""
+  },
+  "perfectStamps": []
+}

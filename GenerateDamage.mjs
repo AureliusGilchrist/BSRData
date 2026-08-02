@@ -19,8 +19,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const DIR = process.argv[2] ?? 'BSRData/Data';
-const SKIP = new Set(['Banners.json', 'Glossary.json', 'Index.json', 'Teams.json']);
+import { listCharacterFiles } from './Lib/Characters.mjs';
+
+// An explicit Characters folder can be passed as argv[2]; otherwise the one
+// next to this script is used.
+const DIR = process.argv[2];
 
 // ---- Regexes ---------------------------------------------------------------
 
@@ -271,8 +274,7 @@ function buildDamage(c) {
 
 let changed = 0;
 const report = [];
-for (const file of fs.readdirSync(DIR).filter((f) => f.endsWith('.json') && !SKIP.has(f))) {
-  const p = path.join(DIR, file);
+for (const { rel: file, file: p } of listCharacterFiles(...(DIR ? [DIR] : []))) {
   const c = JSON.parse(fs.readFileSync(p, 'utf8'));
   if (!Array.isArray(c.skills)) continue; // not a character file
   c.damage = buildDamage(c);

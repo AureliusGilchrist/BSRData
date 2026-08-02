@@ -2,17 +2,23 @@
 //
 // Pulls character data from https://bleachsoulresonance.wiki.gg via the
 // MediaWiki API, parses the rendered HTML, downloads images, and writes a
-// per-character JSON file under ../Data/.
+// per-character JSON file under ../Characters/<release-year>/.
+//
+// Where a character's file lives is owned by internal/charstore, not by this
+// file: a character is addressed by slug, and charstore resolves that slug to
+// whichever year folder holds it (and relocates the file if a later pass learns
+// a release date). Nothing here should join a character path by hand.
 //
 // IMPORTANT: the scraper only ever creates JSON for NEW characters. Any slug
-// that already has a ../Data/<slug>.json is skipped entirely on every run, so
+// that already has a JSON is skipped entirely on every run, so
 // existing per-character data (build/stamp/bond/curated text) is never
 // modified. To onboard a new character, add it to slugToEspPage (and
 // slugToPage if it has a full English wiki page); the next run scrapes it and
 // creates its JSON.
 //
 // Run from inside the "BSRData/Scraper" folder:
-//   go run .
+//
+//	go run .
 package main
 
 import (
@@ -30,6 +36,8 @@ import (
 	"sort"
 	"strings"
 	"time"
+
+	"bsrdata/internal/charstore"
 )
 
 // backfillAll, when set via -backfill, makes the ESP pass re-run on characters
@@ -68,7 +76,11 @@ var canonicalKindLabel = map[string]string{
 var canonicalKindOrder = []string{"basic", "technique", "ultimate", "counter", "dodge"}
 
 var (
+	// bsrRoot is the BSRData repo root, relative to BSRData/Scraper. Character
+	// paths are derived from it via charstore rather than joined by hand.
+	bsrRoot   = filepath.FromSlash("..")
 	dataDir   = filepath.FromSlash("../Data")
+	bannerDir = filepath.FromSlash("../Banners")
 	imagesDir = filepath.FromSlash("../Images")
 )
 
@@ -103,24 +115,24 @@ var slugToEspPage = map[string]string{
 	// than the usual parenthesised form suffix.
 	"ichigo-ts":    "Kurosaki Ichigo - Zangetsu Dual",
 	"ichigo-white": "Kurosaki Ichigo (Hollow Interior)",
-	"ikkaku":         "Ikkaku Madarame",
-	"kenpachi":       "Zaraki Kenpachi",
-	"kisuke":         "Urahara Kisuke",
-	"komamura":       "Komamura Sajin",
-	"ulquiorra": "Ulquiorra Cifer",
+	"ikkaku":       "Ikkaku Madarame",
+	"kenpachi":     "Zaraki Kenpachi",
+	"kisuke":       "Urahara Kisuke",
+	"komamura":     "Komamura Sajin",
+	"ulquiorra":    "Ulquiorra Cifer",
 	// The Resurrección form's text stays hand-curated in its JSON (the merge is
 	// additive and never overwrites populated fields); the ESP wiki gained a
 	// dedicated page for it, which we scrape for images. A prior misspelled
 	// slug ("ulquiorra-ressurection") produced an empty duplicate stub and has
 	// been removed; don't recreate it.
 	"ulquiorra-resurreccion": "Ulquiorra Cifer (Resurrección)",
-	"mayuri":  "Kurotsuchi Mayuri",
-	"momo":    "Hinamori Momo",
-	"nelliel": "Nelliel Tu Odelschwanck",
-	"nemu":    "Kurotsuchi Nemu",
-	"orihime": "Inoue Orihime",
-	"rangiku": "Matsumoto Rangiku",
-	"renji":   "Abarai Renji",
+	"mayuri":                 "Kurotsuchi Mayuri",
+	"momo":                   "Hinamori Momo",
+	"nelliel":                "Nelliel Tu Odelschwanck",
+	"nemu":                   "Kurotsuchi Nemu",
+	"orihime":                "Inoue Orihime",
+	"rangiku":                "Matsumoto Rangiku",
+	"renji":                  "Abarai Renji",
 	// The ESP wiki's only Rukia page is the Shikai form ("Kuchiki Rukia (Shikai)");
 	// the bare "Kuchiki Rukia" title 404s. Corrected.
 	"rukia":        "Kuchiki Rukia (Shikai)",
@@ -280,28 +292,12 @@ func main() {
 	log.Printf("done")
 }
 
-// existingCharacterSlugs returns the set of slugs that already have a
-// ../Data/<slug>.json file (excluding the aggregate files). The scraper uses
-// this to skip characters that already exist: only BRAND-NEW characters get a
-// JSON created, and existing per-character JSON is never rewritten.
+// existingCharacterSlugs returns the set of slugs that already have a character
+// JSON. The scraper uses this to skip characters that already exist: only
+// BRAND-NEW characters get a JSON created, and existing per-character JSON is
+// never rewritten.
 func existingCharacterSlugs() map[string]bool {
-	out := map[string]bool{}
-	files, err := os.ReadDir(dataDir)
-	if err != nil {
-		return out
-	}
-	skip := map[string]bool{
-		"Index.json": true, "Stamps.json": true,
-		"Teams.json": true, "Banners.json": true, "Glossary.json": true,
-	}
-	for _, f := range files {
-		name := f.Name()
-		if f.IsDir() || filepath.Ext(name) != ".json" || skip[name] {
-			continue
-		}
-		out[strings.TrimSuffix(name, ".json")] = true
-	}
-	return out
+	return charstore.Slugs(bsrRoot)
 }
 
 // hasImages reports whether ../Images/<slug>/ exists and contains at least one
@@ -322,11 +318,11 @@ func hasImages(slug string) bool {
 }
 
 // warnMissingScraperEntries cross-checks the roster the rest of the pipeline
-// already knows about (per-character JSON files in ../Data and the slugs that
-// appear in Banners.json) against the scraper's own slugToEspPage / slugToPage
-// maps. Any slug that has data or a banner reference but no scraper entry is
-// reported so a freshly-added character/banner can't silently fall out of the
-// scrape. It only logs — it never edits maps or fails the run.
+// already knows about (per-character JSON under ../Characters and the slugs
+// that appear in the banner index) against the scraper's own slugToEspPage /
+// slugToPage maps. Any slug that has data or a banner reference but no scraper
+// entry is reported so a freshly-added character/banner can't silently fall out
+// of the scrape. It only logs — it never edits maps or fails the run.
 func warnMissingScraperEntries() {
 	known := func(slug string) bool {
 		if _, ok := slugToEspPage[slug]; ok {
@@ -338,50 +334,35 @@ func warnMissingScraperEntries() {
 
 	missing := map[string]string{} // slug -> where we saw it
 
-	// 1) Every Data/<slug>.json (skip the aggregate files).
-	if files, err := os.ReadDir(dataDir); err == nil {
-		skip := map[string]bool{
-			"Index.json": true, "Stamps.json": true,
-			"Teams.json": true, "Banners.json": true, "Glossary.json": true,
-		}
-		for _, f := range files {
-			name := f.Name()
-			if f.IsDir() || filepath.Ext(name) != ".json" || skip[name] {
-				continue
-			}
-			slug := strings.TrimSuffix(name, ".json")
-			if !known(slug) {
-				missing[slug] = "Data/" + name
-			}
+	// 1) Every character that already has a JSON.
+	for slug := range charstore.Slugs(bsrRoot) {
+		if !known(slug) {
+			missing[slug] = charstore.DirName + "/" + slug + ".json"
 		}
 	}
 
-	// 2) Every slug referenced by the current + upcoming banners.
-	if raw, err := os.ReadFile(filepath.Join(dataDir, "Banners.json")); err == nil {
+	// 2) Every slug featured by a banner. The banner index is the flat manifest
+	// GenerateBannerIndex.mjs builds from Banners/<year>/*.json, so this sees
+	// archived, live and upcoming banners alike — an upcoming character with no
+	// scraper entry is exactly the case worth warning about.
+	if raw, err := os.ReadFile(filepath.Join(bannerDir, "Index.json")); err == nil {
 		var bd struct {
-			Current *struct {
+			Banners []struct {
+				Slug  string   `json:"slug"`
 				Slugs []string `json:"slugs"`
-			} `json:"current"`
-			Upcoming []struct {
-				Slugs []string `json:"slugs"`
-			} `json:"upcoming"`
+			} `json:"banners"`
 		}
 		if json.Unmarshal(raw, &bd) == nil {
-			collect := func(slugs []string) {
-				for _, s := range slugs {
+			for _, b := range bd.Banners {
+				for _, s := range b.Slugs {
 					s = strings.TrimSpace(s)
-					if s != "" && !known(s) {
-						if _, seen := missing[s]; !seen {
-							missing[s] = "Banners.json"
-						}
+					if s == "" || known(s) {
+						continue
+					}
+					if _, seen := missing[s]; !seen {
+						missing[s] = "Banners/…/" + b.Slug + ".json"
 					}
 				}
-			}
-			if bd.Current != nil {
-				collect(bd.Current.Slugs)
-			}
-			for _, b := range bd.Upcoming {
-				collect(b.Slugs)
 			}
 		}
 	}
@@ -417,11 +398,7 @@ func processRawURLArt(slug, rawURL string) error {
 	}
 	webPath := toWebPath(local)
 
-	jsonPath := filepath.Join(dataDir, slug+".json")
-	doc := map[string]interface{}{}
-	if data, err := os.ReadFile(jsonPath); err == nil {
-		_ = json.Unmarshal(data, &doc)
-	}
+	doc, _ := charstore.Load(bsrRoot, slug)
 	if doc["slug"] == nil {
 		doc["slug"] = slug
 	}
@@ -437,7 +414,7 @@ func processRawURLArt(slug, rawURL string) error {
 			"core":   map[string]interface{}{"ascend1": []interface{}{}, "ascend5": []interface{}{}},
 		}
 	}
-	return writeJSON(jsonPath, doc)
+	return charstore.Save(bsrRoot, slug, doc)
 }
 
 // downloadRawURL fetches any image URL (Fandom CDN, etc.) with retries.
@@ -669,22 +646,22 @@ var (
 	//   e.g. Soi Fon's technique is "Tecsoi.png", which never matched before
 	//   and so her Technique was silently dropped. `[\w-]` (not just `\w`)
 	//   because enhanced variants use hyphenated names: "Skilltoshi2-2.png".
-	reEspTecnica   = regexp.MustCompile(`(?i)^(?:Tecnica|Tenica|Tec|Teq|Skill)[\w-]*\.(?:png|jpg|jpeg|webp)$`)
-	reEspUlti      = regexp.MustCompile(`(?i)^Ulti(?:mate)?[\w-]*\.(?:png|jpg|jpeg|webp)$`)
+	reEspTecnica = regexp.MustCompile(`(?i)^(?:Tecnica|Tenica|Tec|Teq|Skill)[\w-]*\.(?:png|jpg|jpeg|webp)$`)
+	reEspUlti    = regexp.MustCompile(`(?i)^Ulti(?:mate)?[\w-]*\.(?:png|jpg|jpeg|webp)$`)
 	// Battlefield Skill icons: "Campo" (field) names — Campkoma2, Camptose1,
 	// Fieldsoi — plus camp-infixed Skill* names (Skillrcamp1, Skillcamishi),
 	// which must be checked BEFORE the broad technique pattern that also
 	// matches anything starting with "Skill".
 	reEspCampo      = regexp.MustCompile(`(?i)^(?:Camp|Field)[\w-]*\.(?:png|jpg|jpeg|webp)$`)
 	reEspSkillCampo = regexp.MustCompile(`(?i)^Skill[\w-]*?cam[\w-]*\.(?:png|jpg|jpeg|webp)$`)
-	reEspCounter   = regexp.MustCompile(`(?i)^(?:Counter|Contra)[\w-]*\.(?:png|jpg|jpeg|webp)$`)
-	reEspPasiva    = regexp.MustCompile(`(?i)^Pasiv?[ac]\w*\.(?:png|jpg|jpeg|webp)$`)
-	reEspNada      = regexp.MustCompile(`(?i)^Nada\.(?:png|jpg|jpeg|webp)$`)
-	reEspIconArma  = regexp.MustCompile(`(?i)^Iconarma\w*\.(?:png|jpg|jpeg|webp)$`)
-	reEspIconNuc   = regexp.MustCompile(`(?i)^Iconnucleo\w*\.(?:png|jpg|jpeg|webp)$`)
-	reEspIconSuper = regexp.MustCompile(`(?i)^Iconsuper\d+\.(?:png|jpg|jpeg|webp)$`)
-	reEspIconSet   = regexp.MustCompile(`(?i)^(?:Iconset|Iconesta)\w*\.(?:png|jpg|jpeg|webp)$`)
-	reEspTCard     = regexp.MustCompile(`(?i)^T[A-Z]\w+\.(?:png|jpg|jpeg|webp)$`)
+	reEspCounter    = regexp.MustCompile(`(?i)^(?:Counter|Contra)[\w-]*\.(?:png|jpg|jpeg|webp)$`)
+	reEspPasiva     = regexp.MustCompile(`(?i)^Pasiv?[ac]\w*\.(?:png|jpg|jpeg|webp)$`)
+	reEspNada       = regexp.MustCompile(`(?i)^Nada\.(?:png|jpg|jpeg|webp)$`)
+	reEspIconArma   = regexp.MustCompile(`(?i)^Iconarma\w*\.(?:png|jpg|jpeg|webp)$`)
+	reEspIconNuc    = regexp.MustCompile(`(?i)^Iconnucleo\w*\.(?:png|jpg|jpeg|webp)$`)
+	reEspIconSuper  = regexp.MustCompile(`(?i)^Iconsuper\d+\.(?:png|jpg|jpeg|webp)$`)
+	reEspIconSet    = regexp.MustCompile(`(?i)^(?:Iconset|Iconesta)\w*\.(?:png|jpg|jpeg|webp)$`)
+	reEspTCard      = regexp.MustCompile(`(?i)^T[A-Z]\w+\.(?:png|jpg|jpeg|webp)$`)
 )
 
 // classifyEspImage returns one of: "portrait", "boundary-N", "skill-basic",
@@ -993,11 +970,7 @@ func processEspFandomCharacter(slug, page string) error {
 // or where existing paths point to nothing. Raw Spanish text is stored under
 // a `_spanish` sub-object for a follow-up translation pass.
 func mergeEspIntoJSON(slug, page, artPath string, boundaryPaths map[int]string, skillPaths map[string]string, passivePaths []string, spanishText map[string]string, releaseDate string) error {
-	jsonPath := filepath.Join(dataDir, slug+".json")
-	doc := map[string]interface{}{}
-	if data, err := os.ReadFile(jsonPath); err == nil {
-		_ = json.Unmarshal(data, &doc)
-	}
+	doc, _ := charstore.Load(bsrRoot, slug)
 	if doc["slug"] == nil {
 		doc["slug"] = slug
 	}
@@ -1223,7 +1196,7 @@ func mergeEspIntoJSON(slug, page, artPath string, boundaryPaths map[int]string, 
 		}
 	}
 
-	return writeJSON(jsonPath, doc)
+	return charstore.Save(bsrRoot, slug, doc)
 }
 
 func processCharacter(slug, page string) error {
@@ -1645,11 +1618,7 @@ func parsePassives(region string) []Passive {
 // mergeIntoJSON loads the existing ../Data/<slug>.json (if any) and
 // overwrites wiki-sourced fields, preserving build/stamp/bond data.
 func mergeIntoJSON(slug, page string, wd WikiData, artPath string) error {
-	jsonPath := filepath.Join(dataDir, slug+".json")
-	doc := map[string]interface{}{}
-	if data, err := os.ReadFile(jsonPath); err == nil {
-		_ = json.Unmarshal(data, &doc)
-	}
+	doc, _ := charstore.Load(bsrRoot, slug)
 	if doc["slug"] == nil {
 		doc["slug"] = slug
 	}
@@ -1741,7 +1710,7 @@ func mergeIntoJSON(slug, page string, wd WikiData, artPath string) error {
 		doc["source"] = nil
 	}
 
-	return writeJSON(jsonPath, doc)
+	return charstore.Save(bsrRoot, slug, doc)
 }
 
 func hasAnyStat(s Stats) bool {
@@ -1750,55 +1719,13 @@ func hasAnyStat(s Stats) bool {
 
 // ---------- index ----------
 
-type indexEntry struct {
-	Slug        string `json:"slug"`
-	Name        string `json:"name,omitempty"`
-	Role        string `json:"role,omitempty"`
-	Tier        string `json:"tier,omitempty"`
-	DamageType  string `json:"damageType,omitempty"`
-	Rarity      string `json:"rarity,omitempty"`
-	Art         string `json:"art,omitempty"`
-	ReleaseDate string `json:"releaseDate,omitempty"`
-}
-
+// writeIndex regenerates Characters/Index.json. The walk, the "keep the
+// previous row when a file won't parse" fallback, and the row shape all live in
+// internal/charstore so the scraper and BSRData/Curate can't disagree about
+// what the index contains.
 func writeIndex() error {
-	entries := []indexEntry{}
-	files, err := os.ReadDir(dataDir)
-	if err != nil {
-		return err
-	}
-	for _, f := range files {
-		if f.IsDir() || !strings.HasSuffix(f.Name(), ".json") {
-			continue
-		}
-		if f.Name() == "Index.json" || f.Name() == "Stamps.json" || f.Name() == "Teams.json" || f.Name() == "Banners.json" || f.Name() == "Glossary.json" {
-			continue
-		}
-		raw, err := os.ReadFile(filepath.Join(dataDir, f.Name()))
-		if err != nil {
-			continue
-		}
-		var d map[string]interface{}
-		if err := json.Unmarshal(raw, &d); err != nil {
-			continue
-		}
-		e := indexEntry{
-			Slug:        getStr(d, "slug"),
-			Name:        getStr(d, "name"),
-			Role:        getStr(d, "role"),
-			Tier:        getStr(d, "tier"),
-			DamageType:  getStr(d, "damageType"),
-			Rarity:      getStr(d, "rarity"),
-			Art:         getStr(d, "art"),
-			ReleaseDate: getStr(d, "releaseDate"),
-		}
-		if e.Slug == "" {
-			e.Slug = strings.TrimSuffix(f.Name(), ".json")
-		}
-		entries = append(entries, e)
-	}
-	sort.Slice(entries, func(i, j int) bool { return entries[i].Slug < entries[j].Slug })
-	return writeJSON(filepath.Join(dataDir, "Index.json"), entries)
+	_, err := charstore.WriteIndex(bsrRoot, func(msg string) { log.Printf("index: %s", msg) })
+	return err
 }
 
 // ---------- utils ----------
