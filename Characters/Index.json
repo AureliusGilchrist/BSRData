@@ -372,17 +372,6 @@
     "releaseDate": "21 Nov 2025"
   },
   {
-    "slug": "vollstandig-ishida",
-    "path": "2026/vollstandig-ishida.json",
-    "year": 2026,
-    "name": "Uryu Ishida (Vollständig)",
-    "role": "Tactician",
-    "tier": "S",
-    "damageType": "TBD",
-    "rarity": "SSR",
-    "releaseDate": "8 Aug 2026"
-  },
-  {
     "slug": "yachiru",
     "path": "2025/yachiru.json",
     "year": 2025,
