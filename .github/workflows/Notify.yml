@@ -20,10 +20,20 @@ name: Notify Site
 on:
   push:
     branches: [main]
-    paths:
-      - 'Data/**'
-      - 'Images/**'
-      - 'Contributors/**'
+    # An IGNORE list, deliberately, not an allow list. This was an allow list of
+    # 'Data/**', 'Images/**' and 'Contributors/**' — written when characters,
+    # banners and teams all still lived under Data/. The restructure moved them
+    # to Characters/<year>/, Banners/<year>/ and Teams/<group>/, and the filter
+    # was never updated, so every hand-edit to a character, banner or team
+    # pushed to main silently matched nothing and the beta site was never told
+    # to rebuild. Data/ has held only Glossary.json since.
+    #
+    # Listing what CANNOT affect the served data fails safe: a new data folder
+    # is covered the day it is added, and the worst case is a redundant staging
+    # rebuild rather than a beta site that quietly serves stale JSON.
+    paths-ignore:
+      - '.github/**'
+      - '**/*.md'
   workflow_dispatch:
 
 permissions:
