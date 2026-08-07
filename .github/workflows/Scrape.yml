@@ -1,13 +1,13 @@
-# Scheduled scrape + curate (every 3 hours). Commits fresh Data/ and Images/
-# back to main. Runs on the schedule below whenever there isn't already a
-# manual push driving an update.
+# Scheduled scrape + curate (every 2 hours). Commits fresh Characters/, Data/
+# and Images/ back to main. Runs on the schedule below whenever there isn't
+# already a manual push driving an update.
 
 name: Scrape
 
 on:
   schedule:
-    # Every 3 hours, on the hour (00:00, 03:00, 06:00, … UTC).
-    - cron: '0 */3 * * *'
+    # Every 2 hours, on the hour (00:00, 02:00, 04:00, … UTC).
+    - cron: '0 */2 * * *'
   workflow_dispatch:
 
 permissions:
@@ -42,7 +42,12 @@ jobs:
         run: |
           git config user.name "bsrdata-bot"
           git config user.email "bsrdata-bot@users.noreply.github.com"
-          git add Data Images
+          # Characters/ is where the scraper writes per-character JSON and where
+          # curate writes Index.json — without it the run pushes freshly
+          # downloaded art but drops the `art`/icon paths that point at it, so
+          # the images land in the repo and nothing on the site references them.
+          # Data/ is the hand-maintained aggregates, Images/ the downloads.
+          git add Characters Data Images
           if git diff --cached --quiet; then
             echo "No data changes."
             echo "changed=false" >> "$GITHUB_OUTPUT"

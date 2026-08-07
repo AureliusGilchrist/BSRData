@@ -1,5 +1,12 @@
 {
-  "art": "",
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Bambietta_Basterbine",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/bambietta-basterbine/art.png",
   "bestStamp": {
     "mainStats": "1: TBD  •  2: TBD  •  3: TBD",
     "notes": "",
@@ -15,33 +22,33 @@
   "boundaries": [
     {
       "description": "TBD",
-      "icon": "",
+      "icon": "/Images/bambietta-basterbine/boundary-1.png",
       "level": 1,
       "name": ""
     },
     {
       "description": "TBD",
-      "icon": "",
+      "icon": "/Images/bambietta-basterbine/boundary-2.png",
       "level": 2,
       "name": ""
     },
     {
-      "icon": "",
+      "icon": "/Images/bambietta-basterbine/boundary-3.png",
       "level": 3
     },
     {
       "description": "TBD",
-      "icon": "",
+      "icon": "/Images/bambietta-basterbine/boundary-4.png",
       "level": 4,
       "name": ""
     },
     {
-      "icon": "",
+      "icon": "/Images/bambietta-basterbine/boundary-5.png",
       "level": 5
     },
     {
       "description": "TBD",
-      "icon": "",
+      "icon": "/Images/bambietta-basterbine/boundary-6.png",
       "level": 6,
       "name": ""
     }
@@ -103,36 +110,37 @@
   "corePassives": [
     {
       "description": "TBD",
-      "icon": "",
+      "icon": "/Images/bambietta-basterbine/passive-1.png",
       "name": ""
     },
     {
       "description": "TBD",
-      "icon": "",
+      "icon": "/Images/bambietta-basterbine/passive-2.png",
       "name": ""
     },
     {
       "description": "TBD",
-      "icon": "",
+      "icon": "/Images/bambietta-basterbine/passive-3.png",
       "name": ""
     },
     {
       "description": "TBD",
-      "icon": "",
+      "icon": "/Images/bambietta-basterbine/passive-4.png",
       "name": ""
     }
   ],
   "damageType": "Finesse",
   "name": "Bambietta Basterbine",
+  "perfectStamps": [],
   "rarity": "SSR",
+  "rationale": [
+    "TBD."
+  ],
   "recommendedStopBoundary": 6,
   "recommendedStopBoundaryF2P": 1,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "7 Aug 2026",
   "role": "Assault",
-  "tips": [
-    ""
-  ],
   "rotations": [
     {
       "name": "TBD",
@@ -149,30 +157,31 @@
   "skills": [
     {
       "description": "TBD",
-      "icon": "",
+      "icon": "/Images/bambietta-basterbine/skill-basic.png",
       "kind": "Basic Attack",
       "name": "TBD"
     },
     {
       "description": "TBD",
-      "icon": "",
+      "icon": "/Images/bambietta-basterbine/skill-technique.png",
       "kind": "Technique",
       "name": "TBD"
     },
     {
       "description": "TBD",
-      "icon": "",
+      "icon": "/Images/bambietta-basterbine/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "TBD"
     },
     {
       "description": "",
-      "icon": "",
+      "icon": "/Images/bambietta-basterbine/skill-counter.png",
       "kind": "Counter",
       "name": "TBD"
     },
     {
       "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "TBD"
     }
@@ -202,13 +211,12 @@
     "hp": "1623"
   },
   "tier": "S",
+  "tips": [
+    ""
+  ],
   "weaponStats": {
     "atk": "201",
     "def": "119",
     "hp": "581"
-  },
-  "rationale": [
-    "TBD."
-  ],
-  "perfectStamps": []
+  }
 }

@@ -12,6 +12,18 @@
     "releaseDate": "19 Dec 2025"
   },
   {
+    "slug": "bambietta-basterbine",
+    "path": "2026/bambietta-basterbine.json",
+    "year": 2026,
+    "name": "Bambietta Basterbine",
+    "role": "Assault",
+    "tier": "S",
+    "damageType": "Finesse",
+    "rarity": "SSR",
+    "art": "/Images/bambietta-basterbine/art.png",
+    "releaseDate": "7 Aug 2026"
+  },
+  {
     "slug": "byakuya",
     "path": "2025/byakuya.json",
     "year": 2025,
@@ -394,17 +406,5 @@
     "rarity": "SSR",
     "art": "/Images/yoruichi/art.png",
     "releaseDate": "21 Nov 2025"
-  },
-  {
-    "slug": "bambietta-basterbine",
-    "path": "2026/bambietta-basterbine.json",
-    "year": 2026,
-    "name": "Bambietta Basterbine",
-    "role": "Assault",
-    "tier": "S",
-    "damageType": "Finesse",
-    "rarity": "SSR",
-    "art": "",
-    "releaseDate": "7 Aug 2026"
   }
 ]
