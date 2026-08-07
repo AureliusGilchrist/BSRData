@@ -98,8 +98,11 @@ var slugToPage = map[string]string{
 // portrait + skill + boundary + passive icons plus ability text in Spanish.
 // Text is translated to English in a separate pass.
 var slugToEspPage = map[string]string{
-	"aizen":   "Sōsuke Aizen",
-	"byakuya": "Kuchiki Byakuya",
+	"aizen": "Sōsuke Aizen",
+	// Quincy names on the ESP wiki keep western order rather than the
+	// surname-first form used for the Shinigami pages.
+	"bambietta-basterbine": "Bambietta Basterbine",
+	"byakuya":              "Kuchiki Byakuya",
 	// chad's ESP page is titled plainly "Yasutora Sado" — the "(Chad)" suffix
 	// is a 404 (missingtitle), so it never scraped. Corrected.
 	"chad":             "Yasutora Sado",
@@ -227,9 +230,11 @@ func main() {
 	mustMk(cacheDir)
 	mustMk(imagesDir)
 
-	// Guard against roster drift: warn loudly about any character that the
-	// curate step / data already knows about but that has no scraper entry, so
+	// Guard against roster drift. First try to close the gap automatically —
+	// a new character whose JSON exists but who nobody has mapped yet gets its
+	// ESP page resolved by name — then warn loudly about whatever is left, so
 	// brand-new banners/characters can't silently stop being scraped.
+	autoResolveEspPages()
 	warnMissingScraperEntries()
 
 	// Snapshot which characters already have a JSON BEFORE this run starts. The
@@ -315,6 +320,111 @@ func hasImages(slug string) bool {
 		}
 	}
 	return false
+}
+
+// espSearchResult is the shape of the ESP Fandom list=search API response.
+type espSearchResult struct {
+	Query struct {
+		Search []struct {
+			Title string `json:"title"`
+		} `json:"search"`
+	} `json:"query"`
+}
+
+// foldTitle normalises a wiki title or character name for comparison: lower
+// case, diacritics folded to ASCII, everything that isn't a letter or digit
+// dropped. "Sōsuke Aizen" and "sosuke-aizen" both fold to "sosukeaizen".
+func foldTitle(s string) string {
+	repl := strings.NewReplacer(
+		"ō", "o", "Ō", "o", "ū", "u", "Ū", "u",
+		"á", "a", "é", "e", "í", "i", "ó", "o", "ú", "u",
+		"Á", "a", "É", "e", "Í", "i", "Ó", "o", "Ú", "u",
+		"ñ", "n", "Ñ", "n", "ç", "c", "Ç", "c",
+	)
+	var b strings.Builder
+	for _, r := range strings.ToLower(repl.Replace(s)) {
+		if (r >= 'a' && r <= 'z') || (r >= '0' && r <= '9') {
+			b.WriteRune(r)
+		}
+	}
+	return b.String()
+}
+
+// resolveEspPage looks up the ESP Fandom page for a character that has no
+// hand-written slugToEspPage entry, so a brand-new character's art gets pulled
+// on the very next scheduled scrape instead of waiting for someone to notice
+// the warning and edit the map by hand.
+//
+// The match is deliberately strict: a search hit is accepted ONLY when its
+// title folds to exactly the character's own name (see foldTitle). The ESP
+// wiki's search happily returns near misses — querying "Bambietta" also
+// surfaces "Nucleo de Bambietta" and "Ruina Total" — and attaching the wrong
+// page's art to a character is far worse than pulling no art at all, because
+// the result looks plausible and nothing fails. Anything short of an exact
+// name match falls through to the warning and stays a human decision.
+func resolveEspPage(name string) (string, bool) {
+	if strings.TrimSpace(name) == "" {
+		return "", false
+	}
+	u := fmt.Sprintf("%s?action=query&list=search&srsearch=%s&format=json&srlimit=10",
+		espApiBase, url.QueryEscape(name))
+	req, _ := http.NewRequest("GET", u, nil)
+	req.Header.Set("User-Agent", userAgent)
+	client := &http.Client{Timeout: 30 * time.Second}
+	resp, err := client.Do(req)
+	if err != nil {
+		log.Printf("esp page lookup for %q failed: %v", name, err)
+		return "", false
+	}
+	defer resp.Body.Close()
+	if resp.StatusCode != 200 {
+		log.Printf("esp page lookup for %q: HTTP %d", name, resp.StatusCode)
+		return "", false
+	}
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		log.Printf("esp page lookup for %q: %v", name, err)
+		return "", false
+	}
+	var sr espSearchResult
+	if err := json.Unmarshal(body, &sr); err != nil {
+		log.Printf("esp page lookup for %q: %v", name, err)
+		return "", false
+	}
+	want := foldTitle(name)
+	for _, hit := range sr.Query.Search {
+		if foldTitle(hit.Title) == want {
+			return hit.Title, true
+		}
+	}
+	return "", false
+}
+
+// autoResolveEspPages fills slugToEspPage for any character that already has a
+// JSON but no map entry, by searching the ESP wiki for its name. Called before
+// warnMissingScraperEntries so the warning is left reporting only the slugs
+// that genuinely need a human to map them.
+//
+// Only characters with their own JSON are candidates: a banner can reference a
+// slug for an unannounced character ("vollstandig-candice") that has no record
+// and therefore no name to search on, and those must stay warnings.
+func autoResolveEspPages() {
+	for _, slug := range sortedKeys(charstore.Slugs(bsrRoot)) {
+		if _, ok := slugToEspPage[slug]; ok {
+			continue
+		}
+		if _, ok := slugToPage[slug]; ok {
+			continue
+		}
+		doc, _ := charstore.Load(bsrRoot, slug)
+		name, _ := doc["name"].(string)
+		page, ok := resolveEspPage(name)
+		if !ok {
+			continue
+		}
+		log.Printf("[%s] esp page auto-resolved to %q — add it to slugToEspPage to pin it", slug, page)
+		slugToEspPage[slug] = page
+	}
 }
 
 // warnMissingScraperEntries cross-checks the roster the rest of the pipeline
@@ -1742,7 +1852,7 @@ func writeJSON(path string, v interface{}) error {
 	return os.WriteFile(path, buf, 0644)
 }
 
-func sortedKeys(m map[string]string) []string {
+func sortedKeys[V any](m map[string]V) []string {
 	out := make([]string, 0, len(m))
 	for k := range m {
 		out = append(out, k)
