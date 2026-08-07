@@ -1,0 +1,214 @@
+{
+  "art": "",
+  "bestStamp": {
+    "mainStats": "1: TBD  •  2: TBD  •  3: TBD",
+    "notes": "",
+    "setName": "Bambietta set (3)",
+    "subStatPriority": "TBD"
+  },
+  "bondPriority": [
+    {
+      "description": "TBD",
+      "name": "Bambietta Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "TBD",
+      "icon": "",
+      "level": 1,
+      "name": ""
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "level": 2,
+      "name": ""
+    },
+    {
+      "icon": "",
+      "level": 3
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "level": 4,
+      "name": ""
+    },
+    {
+      "icon": "",
+      "level": 5
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "level": 6,
+      "name": ""
+    }
+  ],
+  "builds": [
+    {
+      "label": "F2P",
+      "passiveSkills": [
+        "All DMG 9%"
+      ],
+      "range": "B0W1C1",
+      "setName": "Bambietta Stamp (3)",
+      "setPieces": [
+        {
+          "mainStat": "TBD",
+          "slot": 1
+        },
+        {
+          "mainStat": "TBD",
+          "slot": 2
+        },
+        {
+          "mainStat": "TBD",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "TBD",
+      "targets": {
+        "ultChargeRate": "As high as possible"
+      }
+    },
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "TBD"
+      ],
+      "range": "B1W5C5 - B6W5C5",
+      "setName": "Bambietta Stamp (3)",
+      "setPieces": [
+        {
+          "mainStat": "TBD",
+          "slot": 1
+        },
+        {
+          "mainStat": "TBD",
+          "slot": 2
+        },
+        {
+          "mainStat": "TBD",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "TBD",
+      "targets": {
+        "ultChargeRate": "~168.8%"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "TBD",
+      "icon": "",
+      "name": ""
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "name": ""
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "name": ""
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "name": ""
+    }
+  ],
+  "damageType": "Finesse",
+  "name": "Bambietta Basterbine",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "7 Aug 2026",
+  "role": "Assault",
+  "tips": [
+    ""
+  ],
+  "rotations": [
+    {
+      "name": "TBD",
+      "notes": "",
+      "steps": [
+        "TBD"
+      ],
+      "tags": [
+        "Opener",
+        "Boss"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "TBD",
+      "icon": "",
+      "kind": "Basic Attack",
+      "name": "TBD"
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "kind": "Technique",
+      "name": "TBD"
+    },
+    {
+      "description": "TBD",
+      "icon": "",
+      "kind": "Ultimate",
+      "name": "TBD"
+    },
+    {
+      "description": "",
+      "icon": "",
+      "kind": "Counter",
+      "name": "TBD"
+    },
+    {
+      "description": "",
+      "kind": "Dodge",
+      "name": "TBD"
+    }
+  ],
+  "slug": "bambietta-basterbine",
+  "stamps": {
+    "core": {
+      "ascend1": [],
+      "ascend5": [
+        "TBD"
+      ]
+    },
+    "coreScope": "self",
+    "weapon": {
+      "ascend1": [],
+      "ascend5": [
+        "TBD"
+      ]
+    },
+    "weaponScope": "self"
+  },
+  "stats": {
+    "atk": "335",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "327",
+    "hp": "1623"
+  },
+  "tier": "S",
+  "weaponStats": {
+    "atk": "201",
+    "def": "119",
+    "hp": "581"
+  },
+  "rationale": [
+    "TBD."
+  ],
+  "perfectStamps": []
+}

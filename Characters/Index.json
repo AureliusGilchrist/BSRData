@@ -394,5 +394,17 @@
     "rarity": "SSR",
     "art": "/Images/yoruichi/art.png",
     "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "bambietta-basterbine",
+    "path": "2025/bambietta-basterbine.json",
+    "year": 2025,
+    "name": "Bambietta Basterbine",
+    "role": "Assault",
+    "tier": "S",
+    "damageType": "Finesse",
+    "rarity": "SSR",
+    "art": "",
+    "releaseDate": "7 Aug 2026"
   }
 ]
