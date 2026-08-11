@@ -1,0 +1,277 @@
+{
+  "$comment": [
+    "REFERENCE ONLY — not a real comp, not indexed. Lives in BSRData/Examples/ so",
+    "GenerateTeamIndex.mjs (which only reads BSRData/Teams/<group>/*.json) never picks it up.",
+    "",
+    "This shows how to give one comp a rotation per button in the Team Builder's",
+    "\"What would you like to optimize for?\" picker. Copy the shapes below into a real",
+    "team file at BSRData/Teams/<group>/<team-id>.json, then run:",
+    "    node BSRData/GenerateTeamIndex.mjs",
+    "",
+    "See BSRData/Examples/README.md for the full field-by-field walkthrough."
+  ],
+
+  "group": "general",
+  "id": "example-team",
+  "name": "Example Team",
+  "tier": "S",
+  "difficulty": "Medium",
+  "content": "Co-op / Guild Boss / Events",
+  "p2w-video": "",
+  "f2p-video": "",
+
+  "members": [
+    { "slug": "kenpachi", "name": "Kenpachi Zaraki", "role": "Assault", "damageType": "Slash", "swappable": [] },
+    { "slug": "ichigo-white", "name": "Ichigo Kurosaki (Inner Hollow)", "role": "Tactician", "damageType": "Slash", "swappable": [] },
+    { "slug": "mayuri", "name": "Mayuri Kurotsuchi", "role": "Support", "damageType": "Thrust", "swappable": ["rangiku"] }
+  ],
+
+  "p2w-rotations": [
+    {
+      "$comment": [
+        "ONE BUTTON = ONE ENTRY IN THIS ARRAY.",
+        "`goal` decides which button reveals it. Valid goals, in the order they render:",
+        "    general | coop-boss | events | frenzy-feast",
+        "A rotation with no `goal` is treated as \"general\".",
+        "A button with no entry here renders greyed out and unclickable, so you only",
+        "get a live button once you have actually written the rotation behind it."
+      ],
+      "name": "Example Team",
+      "goal": "general",
+      "tags": ["Burst"],
+      "video": "",
+      "steps": [
+        "Plain-text fallback, one line per phase. Shown when icons can't resolve.",
+        "Kenpachi Technique → Mayuri Ultimate → White Special Attack → Kenpachi Counter"
+      ],
+      "iconSteps": [
+        {
+          "$comment": [
+            "`slug` is who leads the step — must be a member above (or one of their",
+            "`swappable` alternatives). `actions` is the chain they perform.",
+            "`kind` resolves that character's real skill icon. Kinds every character has:",
+            "    Basic Attack | Technique | Ultimate | Counter | Dodge | Swap | Repeat",
+            "Also accepted: BFS (Battlefield Skill), SpcAtk (Special Attack), Cancel,",
+            "an \"Enhanced \" prefix on any kind (orange border), and a trailing number",
+            "for extra icon variants (\"Technique 2\", \"Ultimate 2\").",
+            "`label` is the small text under the chip, e.g. \"x3\".",
+            "`kind: \"Swap\"` takes its own `slug` — the character being swapped TO."
+          ],
+          "slug": "kenpachi",
+          "actions": [
+            { "kind": "Technique" },
+            { "kind": "Basic Attack", "label": "x2" },
+            { "kind": "Swap", "slug": "mayuri" }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [{ "kind": "Ultimate" }, { "kind": "Swap", "slug": "ichigo-white" }]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            { "kind": "Enhanced Technique" },
+            { "kind": "Counter" },
+            { "kind": "Swap", "slug": "kenpachi" }
+          ]
+        },
+        {
+          "$comment": "End on Repeat so the rotation reads as a loop rather than stopping dead.",
+          "slug": "kenpachi",
+          "actions": [{ "kind": "Repeat", "label": "Step 01" }]
+        }
+      ],
+      "notes": "What this route is for and when to pick it."
+    },
+
+    {
+      "$comment": [
+        "CO-OP BOSSES — the one NESTED button. Clicking it opens a second row, and",
+        "each entry with goal \"coop-boss\" becomes one boss button in that row.",
+        "`boss` says WHICH button reaches this rotation. Valid ids (rename labels in",
+        "Web/Source/Lib/RotationGoals.ts -> BOSS_CATALOG):",
+        "    ranuganga | yammy-llargo | sajin-komamura | ashisougi-jizo",
+        "`boss` is REQUIRED on coop-boss entries and FORBIDDEN on every other goal —",
+        "GenerateTeamIndex.mjs fails the build if you get that wrong.",
+        "Add one entry per boss you have a rotation for; the rest stay greyed."
+      ],
+      "name": "Example Team — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": ["Boss", "Burst"],
+      "video": "https://youtu.be/REPLACE_ME",
+      "steps": ["Short fight — one buffed window is the whole rotation."],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [{ "kind": "Ultimate" }, { "kind": "Swap", "slug": "kenpachi" }]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            { "kind": "Technique" },
+            { "kind": "Ultimate" },
+            { "kind": "Repeat", "label": "Step 01" }
+          ]
+        }
+      ],
+      "notes": "Nothing held in reserve — this tier should die inside the first window."
+    },
+
+    {
+      "$comment": "A second boss button. Same shape, different `boss` id.",
+      "name": "Example Team — Sajin Komamura",
+      "goal": "coop-boss",
+      "boss": "sajin-komamura",
+      "tags": ["Boss", "Defensive"],
+      "video": "",
+      "steps": ["Counter windows over greed — a death costs more than the damage."],
+      "iconSteps": [
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            { "kind": "Technique" },
+            { "kind": "Counter" },
+            { "kind": "Swap", "slug": "kenpachi" }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            { "kind": "Counter" },
+            { "kind": "Enhanced Technique" },
+            { "kind": "Repeat", "label": "Step 01" }
+          ]
+        }
+      ],
+      "notes": "Slower than the General route, but it survives the phase transitions."
+    },
+
+    {
+      "$comment": [
+        "LINEUP VARIANTS stack on top of goals. `lineup` lists the slugs this",
+        "version assumes are active — only the slots that DIFFER from `members`.",
+        "The UI narrows to the chosen goal first, then picks the lineup variant",
+        "inside it, so this is the Events rotation *when Rangiku replaces Mayuri*.",
+        "Without `lineup`, an entry is the default for its goal."
+      ],
+      "name": "Example Team — Events (Rangiku)",
+      "goal": "events",
+      "lineup": ["rangiku"],
+      "tags": ["Sustain"],
+      "video": "",
+      "steps": ["Long stage, no reset — hold the loop and bank Ultimates."],
+      "iconSteps": [
+        {
+          "slug": "kenpachi",
+          "actions": [
+            { "kind": "Technique" },
+            { "kind": "Basic Attack", "label": "x3" },
+            { "kind": "Swap", "slug": "rangiku" }
+          ]
+        },
+        {
+          "slug": "rangiku",
+          "actions": [
+            { "kind": "Technique" },
+            { "kind": "Swap", "slug": "kenpachi" },
+            { "kind": "Repeat", "label": "Step 01" }
+          ]
+        }
+      ],
+      "notes": "Bank the Ultimate for whatever damage window the stage gives you."
+    },
+
+    {
+      "$comment": [
+        "`unverified: true` marks a rotation you have written but NOT play-tested.",
+        "The button greys out and locks exactly as if it were missing, and an",
+        "\"Unverified\" chip shows next to the rotation name. Delete the flag once",
+        "you have actually run it and the button goes live."
+      ],
+      "name": "Example Team — Frenzy Feast",
+      "goal": "frenzy-feast",
+      "tags": ["Burst", "Speed"],
+      "video": "",
+      "unverified": true,
+      "steps": ["Draft — buffs first, then everything Kenpachi has in one pass."],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [{ "kind": "Ultimate" }, { "kind": "Swap", "slug": "kenpachi" }]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            { "kind": "Technique" },
+            { "kind": "Ultimate" },
+            { "kind": "Repeat", "label": "Step 01" }
+          ]
+        }
+      ],
+      "notes": "Not play-tested yet."
+    }
+  ],
+
+  "f2p-rotations": [
+    {
+      "$comment": [
+        "The two lists are INDEPENDENT — the P2W/F2P toggle swaps between them, and",
+        "the goal buttons are rebuilt from whichever list is showing. So a goal that",
+        "exists only under p2w-rotations is lit on P2W and greyed on F2P.",
+        "Give a goal an entry in BOTH lists to have it live on both routes.",
+        "F2P versions usually drop the \"Enhanced \" prefixes, since that tier isn't available."
+      ],
+      "name": "Example Team",
+      "goal": "general",
+      "tags": ["Burst"],
+      "video": "",
+      "steps": ["Same phases, no Enhanced tier."],
+      "iconSteps": [
+        {
+          "slug": "kenpachi",
+          "actions": [
+            { "kind": "Technique" },
+            { "kind": "SpcAtk" },
+            { "kind": "Swap", "slug": "ichigo-white" }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            { "kind": "Technique" },
+            { "kind": "Swap", "slug": "kenpachi" },
+            { "kind": "Repeat", "label": "Step 01" }
+          ]
+        }
+      ],
+      "notes": "Lower boundary charges Spiritual Pressure slower — expect one Ultimate, not two."
+    },
+
+    {
+      "$comment": "Only Ranuganga is written for F2P here, so on the F2P route the other three bosses stay greyed.",
+      "name": "Example Team — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": ["Boss", "Burst"],
+      "video": "",
+      "steps": ["One buffed pass is enough at this tier."],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [{ "kind": "Ultimate" }, { "kind": "Swap", "slug": "kenpachi" }]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            { "kind": "Technique" },
+            { "kind": "Ultimate" },
+            { "kind": "Repeat", "label": "Step 01" }
+          ]
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}
