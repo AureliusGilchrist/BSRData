@@ -43,16 +43,598 @@
   "rotationP2W": "",
   "p2w-rotations": [
     {
-      "name": "Kenpachi F2P",
+      "name": "Kenpachi F2P — Frenzy Feast",
+      "goal": "frenzy-feast",
       "tags": [
+        "Burst",
+        "Speed"
+      ],
+      "unverified": true,
+      "steps": [
+        "Yachiru: Technique → swap to Byakuya",
+        "Byakuya: Technique → swap to Kenpachi",
+        "Kenpachi: Technique → Basic Attack x2 → Enhanced Technique",
+        "Kenpachi: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "byakuya"
+            }
+          ]
+        },
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Enhanced Technique"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Kenpachi swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Kenpachi F2P — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": [
+        "Boss",
         "Burst"
       ],
+      "unverified": true,
       "steps": [
-        ""
-      ]
-    }
-  ],
-  "f2p-rotations": [
+        "Byakuya: Technique → swap to Kenpachi",
+        "Kenpachi: Technique → Basic Attack x2 → swap to Yachiru",
+        "Yachiru: Ultimate → swap to Kenpachi",
+        "Kenpachi: Ultimate → Repeat Step 01"
+      ],
+      "iconSteps": [
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "yachiru"
+            }
+          ]
+        },
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Opener only: Kenpachi should not need a rebuild at this tier. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Kenpachi F2P — Yammy Llargo",
+      "goal": "coop-boss",
+      "boss": "yammy-llargo",
+      "tags": [
+        "Boss"
+      ],
+      "unverified": true,
+      "steps": [
+        "Yachiru: Ultimate → swap to Byakuya",
+        "Byakuya: Technique → Basic Attack x2 → swap to Kenpachi",
+        "Kenpachi: Technique → Basic Attack x3 → Ultimate",
+        "Kenpachi: Basic Attack x4 → swap to Yachiru"
+      ],
+      "iconSteps": [
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "byakuya"
+            }
+          ]
+        },
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x4"
+            },
+            {
+              "kind": "Swap",
+              "slug": "yachiru"
+            }
+          ]
+        },
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Two cycles — the filler between them exists to get Kenpachi back to a second Ultimate rather than to add damage. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Kenpachi F2P — Sajin Komamura",
+      "goal": "coop-boss",
+      "boss": "sajin-komamura",
+      "tags": [
+        "Boss",
+        "Defensive"
+      ],
+      "unverified": true,
+      "steps": [
+        "Byakuya: Technique → Counter → swap to Kenpachi",
+        "Kenpachi: Counter → Technique → swap to Yachiru",
+        "Yachiru: Technique → Basic Attack x2 → swap to Byakuya",
+        "Byakuya: Enhanced Counter → Basic Attack x2 → swap to Kenpachi"
+      ],
+      "iconSteps": [
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "yachiru"
+            }
+          ]
+        },
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "byakuya"
+            }
+          ]
+        },
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Enhanced Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "yachiru"
+            }
+          ]
+        },
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Counter windows over greed. Slower than the General route, but it survives the phase transitions instead of trading Kenpachi for them. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Kenpachi F2P — Ashisougi Jizo",
+      "goal": "coop-boss",
+      "boss": "ashisougi-jizo",
+      "tags": [
+        "Boss",
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Yachiru: Technique → Ultimate → swap to Byakuya",
+        "Byakuya: Technique → Basic Attack x2 → swap to Kenpachi",
+        "Kenpachi: Technique → Basic Attack x3 → Counter → swap to Byakuya",
+        "Byakuya: Counter → swap to Kenpachi"
+      ],
+      "iconSteps": [
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "byakuya"
+            }
+          ]
+        },
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "byakuya"
+            }
+          ]
+        },
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "yachiru"
+            }
+          ]
+        },
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x5"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "The longest of the set — assumes the fight outlives two full Ultimate cycles and that Kenpachi needs every buff window twice. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Kenpachi F2P — Events",
+      "goal": "events",
+      "tags": [
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kenpachi: Technique → Basic Attack x3 → swap to Byakuya",
+        "Byakuya: Technique → Basic Attack x2 → swap to Yachiru",
+        "Yachiru: Technique → Basic Attack x1 → swap to Kenpachi",
+        "Kenpachi: Enhanced Technique → Counter → Basic Attack x3 → swap to Byakuya"
+      ],
+      "iconSteps": [
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "byakuya"
+            }
+          ]
+        },
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "yachiru"
+            }
+          ]
+        },
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "byakuya"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Kenpachi's Ultimate for whatever window the stage gives you. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
     {
       "name": "Kenpachi F2P",
       "tags": [
@@ -60,7 +642,613 @@
       ],
       "steps": [
         ""
-      ]
+      ],
+      "goal": "general"
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Kenpachi F2P — Frenzy Feast",
+      "goal": "frenzy-feast",
+      "tags": [
+        "Burst",
+        "Speed"
+      ],
+      "unverified": true,
+      "steps": [
+        "Yachiru: Technique → swap to Byakuya",
+        "Byakuya: Technique → swap to Kenpachi",
+        "Kenpachi: Technique → Basic Attack x2 → Technique",
+        "Kenpachi: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "byakuya"
+            }
+          ]
+        },
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Kenpachi swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Kenpachi F2P — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": [
+        "Boss",
+        "Burst"
+      ],
+      "unverified": true,
+      "steps": [
+        "Byakuya: Technique → swap to Kenpachi",
+        "Kenpachi: Technique → Basic Attack x2 → swap to Yachiru",
+        "Yachiru: Ultimate → swap to Kenpachi",
+        "Kenpachi: Ultimate → Repeat Step 01"
+      ],
+      "iconSteps": [
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "yachiru"
+            }
+          ]
+        },
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Opener only: Kenpachi should not need a rebuild at this tier. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Kenpachi F2P — Yammy Llargo",
+      "goal": "coop-boss",
+      "boss": "yammy-llargo",
+      "tags": [
+        "Boss"
+      ],
+      "unverified": true,
+      "steps": [
+        "Yachiru: Ultimate → swap to Byakuya",
+        "Byakuya: Technique → Basic Attack x2 → swap to Kenpachi",
+        "Kenpachi: Technique → Basic Attack x3 → Ultimate",
+        "Kenpachi: Basic Attack x4 → swap to Yachiru"
+      ],
+      "iconSteps": [
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "byakuya"
+            }
+          ]
+        },
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x4"
+            },
+            {
+              "kind": "Swap",
+              "slug": "yachiru"
+            }
+          ]
+        },
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Two cycles — the filler between them exists to get Kenpachi back to a second Ultimate rather than to add damage. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Kenpachi F2P — Sajin Komamura",
+      "goal": "coop-boss",
+      "boss": "sajin-komamura",
+      "tags": [
+        "Boss",
+        "Defensive"
+      ],
+      "unverified": true,
+      "steps": [
+        "Byakuya: Technique → Counter → swap to Kenpachi",
+        "Kenpachi: Counter → Technique → swap to Yachiru",
+        "Yachiru: Technique → Basic Attack x2 → swap to Byakuya",
+        "Byakuya: Counter → Basic Attack x2 → swap to Kenpachi"
+      ],
+      "iconSteps": [
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "yachiru"
+            }
+          ]
+        },
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "byakuya"
+            }
+          ]
+        },
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "yachiru"
+            }
+          ]
+        },
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Counter windows over greed. Slower than the General route, but it survives the phase transitions instead of trading Kenpachi for them. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Kenpachi F2P — Ashisougi Jizo",
+      "goal": "coop-boss",
+      "boss": "ashisougi-jizo",
+      "tags": [
+        "Boss",
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Yachiru: Technique → Ultimate → swap to Byakuya",
+        "Byakuya: Technique → Basic Attack x2 → swap to Kenpachi",
+        "Kenpachi: Technique → Basic Attack x3 → Counter → swap to Byakuya",
+        "Byakuya: Counter → swap to Kenpachi"
+      ],
+      "iconSteps": [
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "byakuya"
+            }
+          ]
+        },
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "byakuya"
+            }
+          ]
+        },
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "yachiru"
+            }
+          ]
+        },
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x5"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "The longest of the set — assumes the fight outlives two full Ultimate cycles and that Kenpachi needs every buff window twice. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Kenpachi F2P — Events",
+      "goal": "events",
+      "tags": [
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kenpachi: Technique → Basic Attack x3 → swap to Byakuya",
+        "Byakuya: Technique → Basic Attack x2 → swap to Yachiru",
+        "Yachiru: Technique → Basic Attack x1 → swap to Kenpachi",
+        "Kenpachi: Technique → Counter → Basic Attack x3 → swap to Byakuya"
+      ],
+      "iconSteps": [
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "byakuya"
+            }
+          ]
+        },
+        {
+          "slug": "byakuya",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "yachiru"
+            }
+          ]
+        },
+        {
+          "slug": "yachiru",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "byakuya"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Kenpachi's Ultimate for whatever window the stage gives you. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Kenpachi F2P",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        ""
+      ],
+      "goal": "general"
     }
   ],
   "rotationF2P": ""

@@ -46,22 +46,1210 @@
   ],
   "p2w-rotations": [
     {
-      "name": "Pantera Mono Strike",
-      "tags": [],
+      "name": "Pantera Strike Team — Frenzy Feast",
+      "goal": "frenzy-feast",
+      "tags": [
+        "Burst",
+        "Speed"
+      ],
+      "unverified": true,
       "steps": [
-        "Spawn in with Soi Fon (free Conviction stack) → Swap to any other character → Battlefield (free Conviction stack) → Manual Counter → Technique → Basic Attack to trigger counter → Swap to Pantera → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Pounce (Charge until max stacks) → Enhanced Technique → Quickswap Pounce → Soi Fon Windmill (at 10 battlefield energy) → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate",
-        "Pantera Quickswap Pounce → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Quickswap Pounce → Battlefield → Soi Fon Manual Counter → Technique → Trigger Homonka → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Pantera Quickswap Pounce → Soi Fon Windmill → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate"
-      ]
-    }
-  ],
-  "f2p-rotations": [
+        "Kurotsuchi: Technique → swap to Soi",
+        "Soi: Technique → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x2 → Enhanced Technique",
+        "Grimmjow: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "soi-fon"
+            }
+          ]
+        },
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Enhanced Technique"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Grimmjow swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Strike Team — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": [
+        "Boss",
+        "Burst"
+      ],
+      "unverified": true,
+      "steps": [
+        "Soi: Technique → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x2 → swap to Kurotsuchi",
+        "Kurotsuchi: Ultimate → swap to Grimmjow",
+        "Grimmjow: Ultimate → Repeat Step 01"
+      ],
+      "iconSteps": [
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Opener only: Grimmjow should not need a rebuild at this tier. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Strike Team — Yammy Llargo",
+      "goal": "coop-boss",
+      "boss": "yammy-llargo",
+      "tags": [
+        "Boss"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kurotsuchi: Ultimate → swap to Soi",
+        "Soi: Technique → Basic Attack x2 → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x3 → Ultimate",
+        "Grimmjow: Basic Attack x4 → swap to Kurotsuchi"
+      ],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "soi-fon"
+            }
+          ]
+        },
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x4"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Two cycles — the filler between them exists to get Grimmjow back to a second Ultimate rather than to add damage. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Strike Team — Sajin Komamura",
+      "goal": "coop-boss",
+      "boss": "sajin-komamura",
+      "tags": [
+        "Boss",
+        "Defensive"
+      ],
+      "unverified": true,
+      "steps": [
+        "Soi: Technique → Counter → swap to Grimmjow",
+        "Grimmjow: Counter → Technique → swap to Kurotsuchi",
+        "Kurotsuchi: Technique → Basic Attack x2 → swap to Soi",
+        "Soi: Enhanced Counter → Basic Attack x2 → swap to Grimmjow"
+      ],
+      "iconSteps": [
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "soi-fon"
+            }
+          ]
+        },
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Enhanced Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Counter windows over greed. Slower than the General route, but it survives the phase transitions instead of trading Grimmjow for them. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Strike Team — Ashisougi Jizo",
+      "goal": "coop-boss",
+      "boss": "ashisougi-jizo",
+      "tags": [
+        "Boss",
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kurotsuchi: Technique → Ultimate → swap to Soi",
+        "Soi: Technique → Basic Attack x2 → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x3 → Counter → swap to Soi",
+        "Soi: Counter → swap to Grimmjow"
+      ],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "soi-fon"
+            }
+          ]
+        },
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "soi-fon"
+            }
+          ]
+        },
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x5"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "The longest of the set — assumes the fight outlives two full Ultimate cycles and that Grimmjow needs every buff window twice. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Strike Team — Events",
+      "goal": "events",
+      "tags": [
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Grimmjow: Technique → Basic Attack x3 → swap to Soi",
+        "Soi: Technique → Basic Attack x2 → swap to Kurotsuchi",
+        "Kurotsuchi: Technique → Basic Attack x1 → swap to Grimmjow",
+        "Grimmjow: Enhanced Technique → Counter → Basic Attack x3 → swap to Soi"
+      ],
+      "iconSteps": [
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "soi-fon"
+            }
+          ]
+        },
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "soi-fon"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Grimmjow's Ultimate for whatever window the stage gives you. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
     {
       "name": "Pantera Mono Strike",
       "tags": [],
       "steps": [
         "Spawn in with Soi Fon (free Conviction stack) → Swap to any other character → Battlefield (free Conviction stack) → Manual Counter → Technique → Basic Attack to trigger counter → Swap to Pantera → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Pounce (Charge until max stacks) → Enhanced Technique → Quickswap Pounce → Soi Fon Windmill (at 10 battlefield energy) → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate",
         "Pantera Quickswap Pounce → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Quickswap Pounce → Battlefield → Soi Fon Manual Counter → Technique → Trigger Homonka → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Pantera Quickswap Pounce → Soi Fon Windmill → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate"
-      ]
+      ],
+      "goal": "general"
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Pantera Strike Team — Frenzy Feast",
+      "goal": "frenzy-feast",
+      "tags": [
+        "Burst",
+        "Speed"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kurotsuchi: Technique → swap to Soi",
+        "Soi: Technique → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x2 → Technique",
+        "Grimmjow: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "soi-fon"
+            }
+          ]
+        },
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Grimmjow swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Strike Team — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": [
+        "Boss",
+        "Burst"
+      ],
+      "unverified": true,
+      "steps": [
+        "Soi: Technique → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x2 → swap to Kurotsuchi",
+        "Kurotsuchi: Ultimate → swap to Grimmjow",
+        "Grimmjow: Ultimate → Repeat Step 01"
+      ],
+      "iconSteps": [
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Opener only: Grimmjow should not need a rebuild at this tier. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Strike Team — Yammy Llargo",
+      "goal": "coop-boss",
+      "boss": "yammy-llargo",
+      "tags": [
+        "Boss"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kurotsuchi: Ultimate → swap to Soi",
+        "Soi: Technique → Basic Attack x2 → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x3 → Ultimate",
+        "Grimmjow: Basic Attack x4 → swap to Kurotsuchi"
+      ],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "soi-fon"
+            }
+          ]
+        },
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x4"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Two cycles — the filler between them exists to get Grimmjow back to a second Ultimate rather than to add damage. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Strike Team — Sajin Komamura",
+      "goal": "coop-boss",
+      "boss": "sajin-komamura",
+      "tags": [
+        "Boss",
+        "Defensive"
+      ],
+      "unverified": true,
+      "steps": [
+        "Soi: Technique → Counter → swap to Grimmjow",
+        "Grimmjow: Counter → Technique → swap to Kurotsuchi",
+        "Kurotsuchi: Technique → Basic Attack x2 → swap to Soi",
+        "Soi: Counter → Basic Attack x2 → swap to Grimmjow"
+      ],
+      "iconSteps": [
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "soi-fon"
+            }
+          ]
+        },
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Counter windows over greed. Slower than the General route, but it survives the phase transitions instead of trading Grimmjow for them. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Strike Team — Ashisougi Jizo",
+      "goal": "coop-boss",
+      "boss": "ashisougi-jizo",
+      "tags": [
+        "Boss",
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kurotsuchi: Technique → Ultimate → swap to Soi",
+        "Soi: Technique → Basic Attack x2 → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x3 → Counter → swap to Soi",
+        "Soi: Counter → swap to Grimmjow"
+      ],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "soi-fon"
+            }
+          ]
+        },
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "soi-fon"
+            }
+          ]
+        },
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x5"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "The longest of the set — assumes the fight outlives two full Ultimate cycles and that Grimmjow needs every buff window twice. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Strike Team — Events",
+      "goal": "events",
+      "tags": [
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Grimmjow: Technique → Basic Attack x3 → swap to Soi",
+        "Soi: Technique → Basic Attack x2 → swap to Kurotsuchi",
+        "Kurotsuchi: Technique → Basic Attack x1 → swap to Grimmjow",
+        "Grimmjow: Technique → Counter → Basic Attack x3 → swap to Soi"
+      ],
+      "iconSteps": [
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "soi-fon"
+            }
+          ]
+        },
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "soi-fon"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Grimmjow's Ultimate for whatever window the stage gives you. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Mono Strike",
+      "tags": [],
+      "steps": [
+        "Spawn in with Soi Fon (free Conviction stack) → Swap to any other character → Battlefield (free Conviction stack) → Manual Counter → Technique → Basic Attack to trigger counter → Swap to Pantera → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Pounce (Charge until max stacks) → Enhanced Technique → Quickswap Pounce → Soi Fon Windmill (at 10 battlefield energy) → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate",
+        "Pantera Quickswap Pounce → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Quickswap Pounce → Battlefield → Soi Fon Manual Counter → Technique → Trigger Homonka → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Pantera Quickswap Pounce → Soi Fon Windmill → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate"
+      ],
+      "goal": "general"
     }
   ]
 }

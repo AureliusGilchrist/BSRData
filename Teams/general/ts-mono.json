@@ -43,6 +43,870 @@
   "rotationP2W": "",
   "p2w-rotations": [
     {
+      "name": "True Shikai Mono Thrust — Frenzy Feast",
+      "goal": "frenzy-feast",
+      "tags": [
+        "Burst",
+        "Speed"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ichigo: Technique",
+        "Mayuri: Ultimate → Technique",
+        "Nelliel: BFS → Technique → swap to Ichigo",
+        "Mayuri: Ultimate → Technique"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "True Shikai Mono Thrust — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": [
+        "Boss",
+        "Burst"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ichigo: Technique",
+        "Mayuri: Ultimate → Technique",
+        "Nelliel: BFS → Technique → swap to Ichigo",
+        "Ichigo: Repeat Step 01"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Opener only: Ichigo should not need a rebuild at this tier. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "True Shikai Mono Thrust — Yammy Llargo",
+      "goal": "coop-boss",
+      "boss": "yammy-llargo",
+      "tags": [
+        "Boss"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ichigo: Technique",
+        "Mayuri: Ultimate → Technique",
+        "Nelliel: BFS → Technique → swap to Ichigo",
+        "Ichigo: Basic Attack 3x → Technique 2 → Basic Attack → Technique 4 → Ultimate → swap to Nelliel"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "3x"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack 2"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique 2",
+              "label": "2x"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "3x"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack 2"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique 2",
+              "label": "2x"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Enhanced Basic Attack 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Basic Attack 2",
+              "label": "1x"
+            },
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Ultimate 2"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Two cycles — the filler between them exists to get Ichigo back to a second Ultimate rather than to add damage. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "True Shikai Mono Thrust — Sajin Komamura",
+      "goal": "coop-boss",
+      "boss": "sajin-komamura",
+      "tags": [
+        "Boss",
+        "Defensive"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ichigo: Counter → Technique",
+        "Mayuri: Counter → Ultimate → Technique",
+        "Nelliel: Counter → BFS → Technique → swap to Ichigo",
+        "Ichigo: Counter → Technique 2 → Basic Attack → Technique 4 → Ultimate → swap to Nelliel"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack 2"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique 2",
+              "label": "2x"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Enhanced Basic Attack 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Ultimate 2"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Counter windows over greed. Slower than the General route, but it survives the phase transitions instead of trading Ichigo for them. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "True Shikai Mono Thrust — Ashisougi Jizo",
+      "goal": "coop-boss",
+      "boss": "ashisougi-jizo",
+      "tags": [
+        "Boss",
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ichigo: Technique",
+        "Mayuri: Ultimate → Technique",
+        "Nelliel: BFS → Technique → swap to Ichigo",
+        "Ichigo: Basic Attack 3x → Technique 2 → Basic Attack → Technique 4 → Ultimate → swap to Nelliel"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "3x"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack 2"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique 2",
+              "label": "2x"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Enhanced Basic Attack 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "2x"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Basic Attack 2",
+              "label": "1x"
+            },
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Ultimate 2"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "The longest of the set — assumes the fight outlives two full Ultimate cycles and that Ichigo needs every buff window twice. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "True Shikai Mono Thrust — Events",
+      "goal": "events",
+      "tags": [
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ichigo: Technique",
+        "Mayuri: Technique → Enhanced Basic Attack",
+        "Ichigo: Technique → Basic Attack 2x → Technique 2 → Basic Attack → Technique 4 → swap to Nelliel",
+        "Ichigo: Repeat Step 01"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "2x"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ichigo's Ultimate for whatever window the stage gives you. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
       "name": "True Shikai Mono Thrust",
       "tags": [
         "Burst"
@@ -232,10 +1096,1017 @@
           ]
         }
       ],
-      "notes": "This is a training rotation. The rotation used in Coop will be different."
+      "notes": "This is a training rotation. The rotation used in Coop will be different.",
+      "goal": "general"
     }
   ],
   "f2p-rotations": [
+    {
+      "name": "True Shikai Mono Thrust — Frenzy Feast",
+      "goal": "frenzy-feast",
+      "tags": [
+        "Burst",
+        "Speed"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ichigo: Technique",
+        "Mayuri: Ultimate → Technique",
+        "Nelliel: BFS → Technique → swap to Ichigo",
+        "Ichigo: Basic Attack 3x → Technique 2 → Basic Attack → Technique 4 → Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "3x"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "True Shikai Mono Thrust — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": [
+        "Boss",
+        "Burst"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ichigo: Technique",
+        "Mayuri: Ultimate → Technique",
+        "Nelliel: BFS → Technique → swap to Ichigo",
+        "Ichigo: Repeat Step 01"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Opener only: Ichigo should not need a rebuild at this tier. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "True Shikai Mono Thrust — Yammy Llargo",
+      "goal": "coop-boss",
+      "boss": "yammy-llargo",
+      "tags": [
+        "Boss"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ichigo: Technique",
+        "Mayuri: Ultimate → Technique",
+        "Nelliel: BFS → Technique → swap to Ichigo",
+        "Ichigo: Basic Attack 3x → Technique 2 → Basic Attack → Technique 4 → Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "3x"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack 2"
+            },
+            {
+              "kind": "Basic Attack 2",
+              "label": "2x"
+            },
+            {
+              "kind": "Enhanced Basic Attack 2",
+              "label": "cancel"
+            },
+            {
+              "kind": "Technique 2",
+              "label": "2x"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "3x"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack 2"
+            },
+            {
+              "kind": "Basic Attack 2",
+              "label": "2x"
+            },
+            {
+              "kind": "Enhanced Basic Attack 2",
+              "label": "cancel"
+            },
+            {
+              "kind": "Technique 2",
+              "label": "2x"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Ultimate 2"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "3x"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack",
+              "label": "hold"
+            },
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Two cycles — the filler between them exists to get Ichigo back to a second Ultimate rather than to add damage. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "True Shikai Mono Thrust — Sajin Komamura",
+      "goal": "coop-boss",
+      "boss": "sajin-komamura",
+      "tags": [
+        "Boss",
+        "Defensive"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ichigo: Counter → Technique",
+        "Mayuri: Counter → Ultimate → Technique",
+        "Nelliel: Counter → BFS → Technique → swap to Ichigo",
+        "Ichigo: Counter → Technique 2 → Basic Attack → Technique 4 → Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack 2"
+            },
+            {
+              "kind": "Technique 2",
+              "label": "2x"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Ultimate 2"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Counter windows over greed. Slower than the General route, but it survives the phase transitions instead of trading Ichigo for them. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "True Shikai Mono Thrust — Ashisougi Jizo",
+      "goal": "coop-boss",
+      "boss": "ashisougi-jizo",
+      "tags": [
+        "Boss",
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ichigo: Technique",
+        "Mayuri: Ultimate → Technique",
+        "Nelliel: BFS → Technique → swap to Ichigo",
+        "Ichigo: Basic Attack 3x → Technique 2 → Basic Attack → Technique 4 → Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "3x"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack 2"
+            },
+            {
+              "kind": "Basic Attack 2",
+              "label": "2x"
+            },
+            {
+              "kind": "Enhanced Basic Attack 2",
+              "label": "cancel"
+            },
+            {
+              "kind": "Technique 2",
+              "label": "2x"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Ultimate 2"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "3x"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack",
+              "label": "hold"
+            },
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "The longest of the set — assumes the fight outlives two full Ultimate cycles and that Ichigo needs every buff window twice. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "True Shikai Mono Thrust — Events",
+      "goal": "events",
+      "tags": [
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ichigo: Technique",
+        "Mayuri: Technique → swap to Ichigo",
+        "Ichigo: Technique",
+        "Nelliel: Technique → Enhanced Basic Attack"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ichigo's Ultimate for whatever window the stage gives you. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
     {
       "iconSteps": [
         {
@@ -451,7 +2322,8 @@
           ]
         }
       ],
-      "notes": "This is a training rotation. The rotation used in Coop will be different."
+      "notes": "This is a training rotation. The rotation used in Coop will be different.",
+      "goal": "general"
     }
   ]
 }

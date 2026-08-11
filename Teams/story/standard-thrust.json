@@ -43,16 +43,598 @@
   "rotationP2W": "",
   "p2w-rotations": [
     {
-      "name": "Standard Banner Thrust",
+      "name": "Standard Banner Thrust — Frenzy Feast",
+      "goal": "frenzy-feast",
       "tags": [
+        "Burst",
+        "Speed"
+      ],
+      "unverified": true,
+      "steps": [
+        "Rangiku: Technique → swap to Kaname",
+        "Kaname: Technique → swap to Ikkaku",
+        "Ikkaku: Technique → Basic Attack x2 → Enhanced Technique",
+        "Ikkaku: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "tosen"
+            }
+          ]
+        },
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Enhanced Technique"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Ikkaku swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Standard Banner Thrust — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": [
+        "Boss",
         "Burst"
       ],
+      "unverified": true,
       "steps": [
-        "Tosen Battlefield → Rangiku Technique → Ikkaku Technique → Basic Attack spam → Special Attack (Whenever it's available) → Rangiku Ultimate"
-      ]
-    }
-  ],
-  "f2p-rotations": [
+        "Kaname: Technique → swap to Ikkaku",
+        "Ikkaku: Technique → Basic Attack x2 → swap to Rangiku",
+        "Rangiku: Ultimate → swap to Ikkaku",
+        "Ikkaku: Ultimate → Repeat Step 01"
+      ],
+      "iconSteps": [
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "rangiku"
+            }
+          ]
+        },
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Opener only: Ikkaku should not need a rebuild at this tier. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Standard Banner Thrust — Yammy Llargo",
+      "goal": "coop-boss",
+      "boss": "yammy-llargo",
+      "tags": [
+        "Boss"
+      ],
+      "unverified": true,
+      "steps": [
+        "Rangiku: Ultimate → swap to Kaname",
+        "Kaname: Technique → Basic Attack x2 → swap to Ikkaku",
+        "Ikkaku: Technique → Basic Attack x3 → Ultimate",
+        "Ikkaku: Basic Attack x4 → swap to Rangiku"
+      ],
+      "iconSteps": [
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "tosen"
+            }
+          ]
+        },
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x4"
+            },
+            {
+              "kind": "Swap",
+              "slug": "rangiku"
+            }
+          ]
+        },
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Two cycles — the filler between them exists to get Ikkaku back to a second Ultimate rather than to add damage. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Standard Banner Thrust — Sajin Komamura",
+      "goal": "coop-boss",
+      "boss": "sajin-komamura",
+      "tags": [
+        "Boss",
+        "Defensive"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kaname: Technique → Counter → swap to Ikkaku",
+        "Ikkaku: Counter → Technique → swap to Rangiku",
+        "Rangiku: Technique → Basic Attack x2 → swap to Kaname",
+        "Kaname: Enhanced Counter → Basic Attack x2 → swap to Ikkaku"
+      ],
+      "iconSteps": [
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "rangiku"
+            }
+          ]
+        },
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "tosen"
+            }
+          ]
+        },
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Enhanced Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "rangiku"
+            }
+          ]
+        },
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Counter windows over greed. Slower than the General route, but it survives the phase transitions instead of trading Ikkaku for them. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Standard Banner Thrust — Ashisougi Jizo",
+      "goal": "coop-boss",
+      "boss": "ashisougi-jizo",
+      "tags": [
+        "Boss",
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Rangiku: Technique → Ultimate → swap to Kaname",
+        "Kaname: Technique → Basic Attack x2 → swap to Ikkaku",
+        "Ikkaku: Technique → Basic Attack x3 → Counter → swap to Kaname",
+        "Kaname: Counter → swap to Ikkaku"
+      ],
+      "iconSteps": [
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "tosen"
+            }
+          ]
+        },
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "tosen"
+            }
+          ]
+        },
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "rangiku"
+            }
+          ]
+        },
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x5"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "The longest of the set — assumes the fight outlives two full Ultimate cycles and that Ikkaku needs every buff window twice. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Standard Banner Thrust — Events",
+      "goal": "events",
+      "tags": [
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ikkaku: Technique → Basic Attack x3 → swap to Kaname",
+        "Kaname: Technique → Basic Attack x2 → swap to Rangiku",
+        "Rangiku: Technique → Basic Attack x1 → swap to Ikkaku",
+        "Ikkaku: Enhanced Technique → Counter → Basic Attack x3 → swap to Kaname"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "tosen"
+            }
+          ]
+        },
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "rangiku"
+            }
+          ]
+        },
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "tosen"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ikkaku's Ultimate for whatever window the stage gives you. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
     {
       "name": "Standard Banner Thrust",
       "tags": [
@@ -60,7 +642,613 @@
       ],
       "steps": [
         "Tosen Battlefield → Rangiku Technique → Ikkaku Technique → Basic Attack spam → Special Attack (Whenever it's available) → Rangiku Ultimate"
-      ]
+      ],
+      "goal": "general"
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Standard Banner Thrust — Frenzy Feast",
+      "goal": "frenzy-feast",
+      "tags": [
+        "Burst",
+        "Speed"
+      ],
+      "unverified": true,
+      "steps": [
+        "Rangiku: Technique → swap to Kaname",
+        "Kaname: Technique → swap to Ikkaku",
+        "Ikkaku: Technique → Basic Attack x2 → Technique",
+        "Ikkaku: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "tosen"
+            }
+          ]
+        },
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Ikkaku swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Standard Banner Thrust — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": [
+        "Boss",
+        "Burst"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kaname: Technique → swap to Ikkaku",
+        "Ikkaku: Technique → Basic Attack x2 → swap to Rangiku",
+        "Rangiku: Ultimate → swap to Ikkaku",
+        "Ikkaku: Ultimate → Repeat Step 01"
+      ],
+      "iconSteps": [
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "rangiku"
+            }
+          ]
+        },
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Opener only: Ikkaku should not need a rebuild at this tier. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Standard Banner Thrust — Yammy Llargo",
+      "goal": "coop-boss",
+      "boss": "yammy-llargo",
+      "tags": [
+        "Boss"
+      ],
+      "unverified": true,
+      "steps": [
+        "Rangiku: Ultimate → swap to Kaname",
+        "Kaname: Technique → Basic Attack x2 → swap to Ikkaku",
+        "Ikkaku: Technique → Basic Attack x3 → Ultimate",
+        "Ikkaku: Basic Attack x4 → swap to Rangiku"
+      ],
+      "iconSteps": [
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "tosen"
+            }
+          ]
+        },
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x4"
+            },
+            {
+              "kind": "Swap",
+              "slug": "rangiku"
+            }
+          ]
+        },
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Two cycles — the filler between them exists to get Ikkaku back to a second Ultimate rather than to add damage. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Standard Banner Thrust — Sajin Komamura",
+      "goal": "coop-boss",
+      "boss": "sajin-komamura",
+      "tags": [
+        "Boss",
+        "Defensive"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kaname: Technique → Counter → swap to Ikkaku",
+        "Ikkaku: Counter → Technique → swap to Rangiku",
+        "Rangiku: Technique → Basic Attack x2 → swap to Kaname",
+        "Kaname: Counter → Basic Attack x2 → swap to Ikkaku"
+      ],
+      "iconSteps": [
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "rangiku"
+            }
+          ]
+        },
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "tosen"
+            }
+          ]
+        },
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "rangiku"
+            }
+          ]
+        },
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Counter windows over greed. Slower than the General route, but it survives the phase transitions instead of trading Ikkaku for them. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Standard Banner Thrust — Ashisougi Jizo",
+      "goal": "coop-boss",
+      "boss": "ashisougi-jizo",
+      "tags": [
+        "Boss",
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Rangiku: Technique → Ultimate → swap to Kaname",
+        "Kaname: Technique → Basic Attack x2 → swap to Ikkaku",
+        "Ikkaku: Technique → Basic Attack x3 → Counter → swap to Kaname",
+        "Kaname: Counter → swap to Ikkaku"
+      ],
+      "iconSteps": [
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "tosen"
+            }
+          ]
+        },
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "tosen"
+            }
+          ]
+        },
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "rangiku"
+            }
+          ]
+        },
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x5"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "The longest of the set — assumes the fight outlives two full Ultimate cycles and that Ikkaku needs every buff window twice. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Standard Banner Thrust — Events",
+      "goal": "events",
+      "tags": [
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ikkaku: Technique → Basic Attack x3 → swap to Kaname",
+        "Kaname: Technique → Basic Attack x2 → swap to Rangiku",
+        "Rangiku: Technique → Basic Attack x1 → swap to Ikkaku",
+        "Ikkaku: Technique → Counter → Basic Attack x3 → swap to Kaname"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "tosen"
+            }
+          ]
+        },
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "rangiku"
+            }
+          ]
+        },
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ikkaku"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "tosen"
+            }
+          ]
+        },
+        {
+          "slug": "ikkaku",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ikkaku's Ultimate for whatever window the stage gives you. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Standard Banner Thrust",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Tosen Battlefield → Rangiku Technique → Ikkaku Technique → Basic Attack spam → Special Attack (Whenever it's available) → Rangiku Ultimate"
+      ],
+      "goal": "general"
     }
   ],
   "rotationF2P": ""

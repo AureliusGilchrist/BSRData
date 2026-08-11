@@ -43,17 +43,598 @@
   "rotationP2W": "Pantera Technique → Battlefield → Nel Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Nel Manual Counter → Special Attack → Pantera Counter → Max Stack Pounce → Enhanced Technique → Quickswap Pounce → Nel Ultimate",
   "p2w-rotations": [
     {
-      "name": "Pantera Nel Team",
+      "name": "Pantera Nel Team — Frenzy Feast",
+      "goal": "frenzy-feast",
       "tags": [
+        "Burst",
+        "Speed"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kurotsuchi: Technique → swap to Nelliel",
+        "Nelliel: Technique → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x2 → Enhanced Technique",
+        "Grimmjow: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Enhanced Technique"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Grimmjow swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Nel Team — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": [
+        "Boss",
         "Burst"
       ],
+      "unverified": true,
       "steps": [
-        "Manual Counter in Nel Resurreccion → Special Attack → Technique (2x) → Mayuri Technique → Special Attack → Pantera Quickswap Pounce → Nel Ultimate → Manual Counter → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Pantera Ultimate → Quickswap Pounce → Mayuri Ultimate → Nel Ultimate",
-        "Nel Technique → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Battlefield → Manual Counter → Basic Attack → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Nel Basic Attack → Pantera Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Nel Ultimate → Technique (2x) → Pantera Ultimate → Pounce → Enhanced Technique → Quickswap Pounce → Nel Manual Counter → Special Attack → Mayuri Ultimate → Mayuri Technique → Special Attack → Nel Ultimate → Pantera Counter → Pounce → Enhanced Technique → Pantera Technique → Nel Ultimate"
-      ]
-    }
-  ],
-  "f2p-rotations": [
+        "Nelliel: Technique → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x2 → swap to Kurotsuchi",
+        "Kurotsuchi: Ultimate → swap to Grimmjow",
+        "Grimmjow: Ultimate → Repeat Step 01"
+      ],
+      "iconSteps": [
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Opener only: Grimmjow should not need a rebuild at this tier. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Nel Team — Yammy Llargo",
+      "goal": "coop-boss",
+      "boss": "yammy-llargo",
+      "tags": [
+        "Boss"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kurotsuchi: Ultimate → swap to Nelliel",
+        "Nelliel: Technique → Basic Attack x2 → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x3 → Ultimate",
+        "Grimmjow: Basic Attack x4 → swap to Kurotsuchi"
+      ],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x4"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Two cycles — the filler between them exists to get Grimmjow back to a second Ultimate rather than to add damage. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Nel Team — Sajin Komamura",
+      "goal": "coop-boss",
+      "boss": "sajin-komamura",
+      "tags": [
+        "Boss",
+        "Defensive"
+      ],
+      "unverified": true,
+      "steps": [
+        "Nelliel: Technique → Counter → swap to Grimmjow",
+        "Grimmjow: Counter → Technique → swap to Kurotsuchi",
+        "Kurotsuchi: Technique → Basic Attack x2 → swap to Nelliel",
+        "Nelliel: Enhanced Counter → Basic Attack x2 → swap to Grimmjow"
+      ],
+      "iconSteps": [
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Enhanced Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Counter windows over greed. Slower than the General route, but it survives the phase transitions instead of trading Grimmjow for them. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Nel Team — Ashisougi Jizo",
+      "goal": "coop-boss",
+      "boss": "ashisougi-jizo",
+      "tags": [
+        "Boss",
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kurotsuchi: Technique → Ultimate → swap to Nelliel",
+        "Nelliel: Technique → Basic Attack x2 → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x3 → Counter → swap to Nelliel",
+        "Nelliel: Counter → swap to Grimmjow"
+      ],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x5"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "The longest of the set — assumes the fight outlives two full Ultimate cycles and that Grimmjow needs every buff window twice. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Nel Team — Events",
+      "goal": "events",
+      "tags": [
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Grimmjow: Technique → Basic Attack x3 → swap to Nelliel",
+        "Nelliel: Technique → Basic Attack x2 → swap to Kurotsuchi",
+        "Kurotsuchi: Technique → Basic Attack x1 → swap to Grimmjow",
+        "Grimmjow: Enhanced Technique → Counter → Basic Attack x3 → swap to Nelliel"
+      ],
+      "iconSteps": [
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Grimmjow's Ultimate for whatever window the stage gives you. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
     {
       "name": "Pantera Nel Team",
       "tags": [
@@ -62,7 +643,614 @@
       "steps": [
         "Manual Counter in Nel Resurreccion → Special Attack → Technique (2x) → Mayuri Technique → Special Attack → Pantera Quickswap Pounce → Nel Ultimate → Manual Counter → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Pantera Ultimate → Quickswap Pounce → Mayuri Ultimate → Nel Ultimate",
         "Nel Technique → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Battlefield → Manual Counter → Basic Attack → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Nel Basic Attack → Pantera Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Nel Ultimate → Technique (2x) → Pantera Ultimate → Pounce → Enhanced Technique → Quickswap Pounce → Nel Manual Counter → Special Attack → Mayuri Ultimate → Mayuri Technique → Special Attack → Nel Ultimate → Pantera Counter → Pounce → Enhanced Technique → Pantera Technique → Nel Ultimate"
-      ]
+      ],
+      "goal": "general"
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Pantera Nel Team — Frenzy Feast",
+      "goal": "frenzy-feast",
+      "tags": [
+        "Burst",
+        "Speed"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kurotsuchi: Technique → swap to Nelliel",
+        "Nelliel: Technique → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x2 → Technique",
+        "Grimmjow: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Grimmjow swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Nel Team — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": [
+        "Boss",
+        "Burst"
+      ],
+      "unverified": true,
+      "steps": [
+        "Nelliel: Technique → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x2 → swap to Kurotsuchi",
+        "Kurotsuchi: Ultimate → swap to Grimmjow",
+        "Grimmjow: Ultimate → Repeat Step 01"
+      ],
+      "iconSteps": [
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Opener only: Grimmjow should not need a rebuild at this tier. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Nel Team — Yammy Llargo",
+      "goal": "coop-boss",
+      "boss": "yammy-llargo",
+      "tags": [
+        "Boss"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kurotsuchi: Ultimate → swap to Nelliel",
+        "Nelliel: Technique → Basic Attack x2 → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x3 → Ultimate",
+        "Grimmjow: Basic Attack x4 → swap to Kurotsuchi"
+      ],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x4"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Two cycles — the filler between them exists to get Grimmjow back to a second Ultimate rather than to add damage. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Nel Team — Sajin Komamura",
+      "goal": "coop-boss",
+      "boss": "sajin-komamura",
+      "tags": [
+        "Boss",
+        "Defensive"
+      ],
+      "unverified": true,
+      "steps": [
+        "Nelliel: Technique → Counter → swap to Grimmjow",
+        "Grimmjow: Counter → Technique → swap to Kurotsuchi",
+        "Kurotsuchi: Technique → Basic Attack x2 → swap to Nelliel",
+        "Nelliel: Counter → Basic Attack x2 → swap to Grimmjow"
+      ],
+      "iconSteps": [
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Counter windows over greed. Slower than the General route, but it survives the phase transitions instead of trading Grimmjow for them. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Nel Team — Ashisougi Jizo",
+      "goal": "coop-boss",
+      "boss": "ashisougi-jizo",
+      "tags": [
+        "Boss",
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Kurotsuchi: Technique → Ultimate → swap to Nelliel",
+        "Nelliel: Technique → Basic Attack x2 → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x3 → Counter → swap to Nelliel",
+        "Nelliel: Counter → swap to Grimmjow"
+      ],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x5"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "The longest of the set — assumes the fight outlives two full Ultimate cycles and that Grimmjow needs every buff window twice. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Nel Team — Events",
+      "goal": "events",
+      "tags": [
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Grimmjow: Technique → Basic Attack x3 → swap to Nelliel",
+        "Nelliel: Technique → Basic Attack x2 → swap to Kurotsuchi",
+        "Kurotsuchi: Technique → Basic Attack x1 → swap to Grimmjow",
+        "Grimmjow: Technique → Counter → Basic Attack x3 → swap to Nelliel"
+      ],
+      "iconSteps": [
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Grimmjow's Ultimate for whatever window the stage gives you. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Pantera Nel Team",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Manual Counter in Nel Resurreccion → Special Attack → Technique (2x) → Mayuri Technique → Special Attack → Pantera Quickswap Pounce → Nel Ultimate → Manual Counter → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Pantera Ultimate → Quickswap Pounce → Mayuri Ultimate → Nel Ultimate",
+        "Nel Technique → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Battlefield → Manual Counter → Basic Attack → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Nel Basic Attack → Pantera Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Nel Ultimate → Technique (2x) → Pantera Ultimate → Pounce → Enhanced Technique → Quickswap Pounce → Nel Manual Counter → Special Attack → Mayuri Ultimate → Mayuri Technique → Special Attack → Nel Ultimate → Pantera Counter → Pounce → Enhanced Technique → Pantera Technique → Nel Ultimate"
+      ],
+      "goal": "general"
     }
   ],
   "rotationF2P": "Lower boundaries team would require more fieldtime with Nel"

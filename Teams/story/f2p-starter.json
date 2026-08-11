@@ -45,16 +45,598 @@
   "rotationP2W": "This comp is intentionally SR-only — the P2W path is to retire it and run any of #1–#5 as you pull SSRs.",
   "p2w-rotations": [
     {
-      "name": "F2P Starter — Story Friendly",
+      "name": "F2P Starter — Story Friendly — Frenzy Feast",
+      "goal": "frenzy-feast",
       "tags": [
+        "Burst",
+        "Speed"
+      ],
+      "unverified": true,
+      "steps": [
+        "Inoue: Technique → swap to Uryu",
+        "Uryu: Technique → swap to Ichigo",
+        "Ichigo: Technique → Basic Attack x2 → Enhanced Technique",
+        "Ichigo: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "uryu"
+            }
+          ]
+        },
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Enhanced Technique"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "F2P Starter — Story Friendly — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": [
+        "Boss",
         "Burst"
       ],
+      "unverified": true,
       "steps": [
-        "Orihime Technique → Ichigo Technique → Special Attack → Battlefield → Technique → Ichigo Basic Attacks"
-      ]
-    }
-  ],
-  "f2p-rotations": [
+        "Uryu: Technique → swap to Ichigo",
+        "Ichigo: Technique → Basic Attack x2 → swap to Inoue",
+        "Inoue: Ultimate → swap to Ichigo",
+        "Ichigo: Ultimate → Repeat Step 01"
+      ],
+      "iconSteps": [
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "orihime"
+            }
+          ]
+        },
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Opener only: Ichigo should not need a rebuild at this tier. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "F2P Starter — Story Friendly — Yammy Llargo",
+      "goal": "coop-boss",
+      "boss": "yammy-llargo",
+      "tags": [
+        "Boss"
+      ],
+      "unverified": true,
+      "steps": [
+        "Inoue: Ultimate → swap to Uryu",
+        "Uryu: Technique → Basic Attack x2 → swap to Ichigo",
+        "Ichigo: Technique → Basic Attack x3 → Ultimate",
+        "Ichigo: Basic Attack x4 → swap to Inoue"
+      ],
+      "iconSteps": [
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "uryu"
+            }
+          ]
+        },
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x4"
+            },
+            {
+              "kind": "Swap",
+              "slug": "orihime"
+            }
+          ]
+        },
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Two cycles — the filler between them exists to get Ichigo back to a second Ultimate rather than to add damage. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "F2P Starter — Story Friendly — Sajin Komamura",
+      "goal": "coop-boss",
+      "boss": "sajin-komamura",
+      "tags": [
+        "Boss",
+        "Defensive"
+      ],
+      "unverified": true,
+      "steps": [
+        "Uryu: Technique → Counter → swap to Ichigo",
+        "Ichigo: Counter → Technique → swap to Inoue",
+        "Inoue: Technique → Basic Attack x2 → swap to Uryu",
+        "Uryu: Enhanced Counter → Basic Attack x2 → swap to Ichigo"
+      ],
+      "iconSteps": [
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "orihime"
+            }
+          ]
+        },
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "uryu"
+            }
+          ]
+        },
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Enhanced Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "orihime"
+            }
+          ]
+        },
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Counter windows over greed. Slower than the General route, but it survives the phase transitions instead of trading Ichigo for them. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "F2P Starter — Story Friendly — Ashisougi Jizo",
+      "goal": "coop-boss",
+      "boss": "ashisougi-jizo",
+      "tags": [
+        "Boss",
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Inoue: Technique → Ultimate → swap to Uryu",
+        "Uryu: Technique → Basic Attack x2 → swap to Ichigo",
+        "Ichigo: Technique → Basic Attack x3 → Counter → swap to Uryu",
+        "Uryu: Counter → swap to Ichigo"
+      ],
+      "iconSteps": [
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "uryu"
+            }
+          ]
+        },
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "uryu"
+            }
+          ]
+        },
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "orihime"
+            }
+          ]
+        },
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x5"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "The longest of the set — assumes the fight outlives two full Ultimate cycles and that Ichigo needs every buff window twice. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "F2P Starter — Story Friendly — Events",
+      "goal": "events",
+      "tags": [
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ichigo: Technique → Basic Attack x3 → swap to Uryu",
+        "Uryu: Technique → Basic Attack x2 → swap to Inoue",
+        "Inoue: Technique → Basic Attack x1 → swap to Ichigo",
+        "Ichigo: Enhanced Technique → Counter → Basic Attack x3 → swap to Uryu"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "uryu"
+            }
+          ]
+        },
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "orihime"
+            }
+          ]
+        },
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "uryu"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ichigo's Ultimate for whatever window the stage gives you. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
     {
       "name": "F2P Starter — Story Friendly",
       "tags": [
@@ -62,7 +644,613 @@
       ],
       "steps": [
         "Orihime Technique → Ichigo Technique → Special Attack → Battlefield → Technique → Ichigo Basic Attacks"
-      ]
+      ],
+      "goal": "general"
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "F2P Starter — Story Friendly — Frenzy Feast",
+      "goal": "frenzy-feast",
+      "tags": [
+        "Burst",
+        "Speed"
+      ],
+      "unverified": true,
+      "steps": [
+        "Inoue: Technique → swap to Uryu",
+        "Uryu: Technique → swap to Ichigo",
+        "Ichigo: Technique → Basic Attack x2 → Technique",
+        "Ichigo: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "uryu"
+            }
+          ]
+        },
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "F2P Starter — Story Friendly — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": [
+        "Boss",
+        "Burst"
+      ],
+      "unverified": true,
+      "steps": [
+        "Uryu: Technique → swap to Ichigo",
+        "Ichigo: Technique → Basic Attack x2 → swap to Inoue",
+        "Inoue: Ultimate → swap to Ichigo",
+        "Ichigo: Ultimate → Repeat Step 01"
+      ],
+      "iconSteps": [
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "orihime"
+            }
+          ]
+        },
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Opener only: Ichigo should not need a rebuild at this tier. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "F2P Starter — Story Friendly — Yammy Llargo",
+      "goal": "coop-boss",
+      "boss": "yammy-llargo",
+      "tags": [
+        "Boss"
+      ],
+      "unverified": true,
+      "steps": [
+        "Inoue: Ultimate → swap to Uryu",
+        "Uryu: Technique → Basic Attack x2 → swap to Ichigo",
+        "Ichigo: Technique → Basic Attack x3 → Ultimate",
+        "Ichigo: Basic Attack x4 → swap to Inoue"
+      ],
+      "iconSteps": [
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "uryu"
+            }
+          ]
+        },
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x4"
+            },
+            {
+              "kind": "Swap",
+              "slug": "orihime"
+            }
+          ]
+        },
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Two cycles — the filler between them exists to get Ichigo back to a second Ultimate rather than to add damage. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "F2P Starter — Story Friendly — Sajin Komamura",
+      "goal": "coop-boss",
+      "boss": "sajin-komamura",
+      "tags": [
+        "Boss",
+        "Defensive"
+      ],
+      "unverified": true,
+      "steps": [
+        "Uryu: Technique → Counter → swap to Ichigo",
+        "Ichigo: Counter → Technique → swap to Inoue",
+        "Inoue: Technique → Basic Attack x2 → swap to Uryu",
+        "Uryu: Counter → Basic Attack x2 → swap to Ichigo"
+      ],
+      "iconSteps": [
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "orihime"
+            }
+          ]
+        },
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "uryu"
+            }
+          ]
+        },
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "orihime"
+            }
+          ]
+        },
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Counter windows over greed. Slower than the General route, but it survives the phase transitions instead of trading Ichigo for them. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "F2P Starter — Story Friendly — Ashisougi Jizo",
+      "goal": "coop-boss",
+      "boss": "ashisougi-jizo",
+      "tags": [
+        "Boss",
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Inoue: Technique → Ultimate → swap to Uryu",
+        "Uryu: Technique → Basic Attack x2 → swap to Ichigo",
+        "Ichigo: Technique → Basic Attack x3 → Counter → swap to Uryu",
+        "Uryu: Counter → swap to Ichigo"
+      ],
+      "iconSteps": [
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "uryu"
+            }
+          ]
+        },
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "uryu"
+            }
+          ]
+        },
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "orihime"
+            }
+          ]
+        },
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x5"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "The longest of the set — assumes the fight outlives two full Ultimate cycles and that Ichigo needs every buff window twice. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "F2P Starter — Story Friendly — Events",
+      "goal": "events",
+      "tags": [
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Ichigo: Technique → Basic Attack x3 → swap to Uryu",
+        "Uryu: Technique → Basic Attack x2 → swap to Inoue",
+        "Inoue: Technique → Basic Attack x1 → swap to Ichigo",
+        "Ichigo: Technique → Counter → Basic Attack x3 → swap to Uryu"
+      ],
+      "iconSteps": [
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "uryu"
+            }
+          ]
+        },
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "orihime"
+            }
+          ]
+        },
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "uryu"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ichigo's Ultimate for whatever window the stage gives you. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "F2P Starter — Story Friendly",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Orihime Technique → Ichigo Technique → Special Attack → Battlefield → Technique → Ichigo Basic Attacks"
+      ],
+      "goal": "general"
     }
   ],
   "rotationF2P": "Story friendly team."

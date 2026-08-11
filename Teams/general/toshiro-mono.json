@@ -45,16 +45,598 @@
   "rotationP2W": "Szayelaporro Technique → Toshiro Technique → Battlefield → Manual Counter → Technique (2x) → Battlefield → Szayelaporro Counter → Ultimate → Toshiro Counter → Technique → Basic Attack",
   "p2w-rotations": [
     {
-      "name": "Toshiro Mono Spirit",
+      "name": "Toshiro Mono Spirit — Frenzy Feast",
+      "goal": "frenzy-feast",
       "tags": [
+        "Burst",
+        "Speed"
+      ],
+      "unverified": true,
+      "steps": [
+        "Sosuke: Technique → swap to Szayelaporro",
+        "Szayelaporro: Technique → swap to Toshiro",
+        "Toshiro: Technique → Basic Attack x2 → Enhanced Technique",
+        "Toshiro: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            }
+          ]
+        },
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Enhanced Technique"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Toshiro swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Toshiro Mono Spirit — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": [
+        "Boss",
         "Burst"
       ],
+      "unverified": true,
       "steps": [
-        "Toshiro Basic Attack until Battlefield is ready → Battlefield → Aizen Technique (2x) → Aizen Ultimate → Basic Attack combo → Hado 90 → Szayelaporro Counter → Ultimate → Technique → Toshiro Counter → Technique → Basic Attack (until 24 Illusion stacks) → Toshiro Ultimate → Basic Attack (while moving) → Get 5 Build Up stacks → Ultimate → Technique → Basic Attack (2 full combos) → Aizen Battlefield"
-      ]
-    }
-  ],
-  "f2p-rotations": [
+        "Szayelaporro: Technique → swap to Toshiro",
+        "Toshiro: Technique → Basic Attack x2 → swap to Sosuke",
+        "Sosuke: Ultimate → swap to Toshiro",
+        "Toshiro: Ultimate → Repeat Step 01"
+      ],
+      "iconSteps": [
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "aizen"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Opener only: Toshiro should not need a rebuild at this tier. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Toshiro Mono Spirit — Yammy Llargo",
+      "goal": "coop-boss",
+      "boss": "yammy-llargo",
+      "tags": [
+        "Boss"
+      ],
+      "unverified": true,
+      "steps": [
+        "Sosuke: Ultimate → swap to Szayelaporro",
+        "Szayelaporro: Technique → Basic Attack x2 → swap to Toshiro",
+        "Toshiro: Technique → Basic Attack x3 → Ultimate",
+        "Toshiro: Basic Attack x4 → swap to Sosuke"
+      ],
+      "iconSteps": [
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            }
+          ]
+        },
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x4"
+            },
+            {
+              "kind": "Swap",
+              "slug": "aizen"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Two cycles — the filler between them exists to get Toshiro back to a second Ultimate rather than to add damage. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Toshiro Mono Spirit — Sajin Komamura",
+      "goal": "coop-boss",
+      "boss": "sajin-komamura",
+      "tags": [
+        "Boss",
+        "Defensive"
+      ],
+      "unverified": true,
+      "steps": [
+        "Szayelaporro: Technique → Counter → swap to Toshiro",
+        "Toshiro: Counter → Technique → swap to Sosuke",
+        "Sosuke: Technique → Basic Attack x2 → swap to Szayelaporro",
+        "Szayelaporro: Enhanced Counter → Basic Attack x2 → swap to Toshiro"
+      ],
+      "iconSteps": [
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "aizen"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            }
+          ]
+        },
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Enhanced Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "aizen"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Counter windows over greed. Slower than the General route, but it survives the phase transitions instead of trading Toshiro for them. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Toshiro Mono Spirit — Ashisougi Jizo",
+      "goal": "coop-boss",
+      "boss": "ashisougi-jizo",
+      "tags": [
+        "Boss",
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Sosuke: Technique → Ultimate → swap to Szayelaporro",
+        "Szayelaporro: Technique → Basic Attack x2 → swap to Toshiro",
+        "Toshiro: Technique → Basic Attack x3 → Counter → swap to Szayelaporro",
+        "Szayelaporro: Counter → swap to Toshiro"
+      ],
+      "iconSteps": [
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            }
+          ]
+        },
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            }
+          ]
+        },
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "aizen"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x5"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "The longest of the set — assumes the fight outlives two full Ultimate cycles and that Toshiro needs every buff window twice. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Toshiro Mono Spirit — Events",
+      "goal": "events",
+      "tags": [
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Toshiro: Technique → Basic Attack x3 → swap to Szayelaporro",
+        "Szayelaporro: Technique → Basic Attack x2 → swap to Sosuke",
+        "Sosuke: Technique → Basic Attack x1 → swap to Toshiro",
+        "Toshiro: Enhanced Technique → Counter → Basic Attack x3 → swap to Szayelaporro"
+      ],
+      "iconSteps": [
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            }
+          ]
+        },
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "aizen"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Toshiro's Ultimate for whatever window the stage gives you. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    },
     {
       "name": "Toshiro Mono Spirit",
       "tags": [
@@ -62,7 +644,613 @@
       ],
       "steps": [
         "Toshiro Basic Attack until Battlefield is ready → Battlefield → Aizen Technique (2x) → Aizen Ultimate → Basic Attack combo → Hado 90 → Szayelaporro Counter → Ultimate → Technique → Toshiro Counter → Technique → Basic Attack (until 24 Illusion stacks) → Toshiro Ultimate → Basic Attack (while moving) → Get 5 Build Up stacks → Ultimate → Technique → Basic Attack (2 full combos) → Aizen Battlefield"
-      ]
+      ],
+      "goal": "general"
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Toshiro Mono Spirit — Frenzy Feast",
+      "goal": "frenzy-feast",
+      "tags": [
+        "Burst",
+        "Speed"
+      ],
+      "unverified": true,
+      "steps": [
+        "Sosuke: Technique → swap to Szayelaporro",
+        "Szayelaporro: Technique → swap to Toshiro",
+        "Toshiro: Technique → Basic Attack x2 → Technique",
+        "Toshiro: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            }
+          ]
+        },
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Toshiro swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Toshiro Mono Spirit — Ranuganga",
+      "goal": "coop-boss",
+      "boss": "ranuganga",
+      "tags": [
+        "Boss",
+        "Burst"
+      ],
+      "unverified": true,
+      "steps": [
+        "Szayelaporro: Technique → swap to Toshiro",
+        "Toshiro: Technique → Basic Attack x2 → swap to Sosuke",
+        "Sosuke: Ultimate → swap to Toshiro",
+        "Toshiro: Ultimate → Repeat Step 01"
+      ],
+      "iconSteps": [
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "aizen"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Opener only: Toshiro should not need a rebuild at this tier. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Toshiro Mono Spirit — Yammy Llargo",
+      "goal": "coop-boss",
+      "boss": "yammy-llargo",
+      "tags": [
+        "Boss"
+      ],
+      "unverified": true,
+      "steps": [
+        "Sosuke: Ultimate → swap to Szayelaporro",
+        "Szayelaporro: Technique → Basic Attack x2 → swap to Toshiro",
+        "Toshiro: Technique → Basic Attack x3 → Ultimate",
+        "Toshiro: Basic Attack x4 → swap to Sosuke"
+      ],
+      "iconSteps": [
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            }
+          ]
+        },
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x4"
+            },
+            {
+              "kind": "Swap",
+              "slug": "aizen"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Two cycles — the filler between them exists to get Toshiro back to a second Ultimate rather than to add damage. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Toshiro Mono Spirit — Sajin Komamura",
+      "goal": "coop-boss",
+      "boss": "sajin-komamura",
+      "tags": [
+        "Boss",
+        "Defensive"
+      ],
+      "unverified": true,
+      "steps": [
+        "Szayelaporro: Technique → Counter → swap to Toshiro",
+        "Toshiro: Counter → Technique → swap to Sosuke",
+        "Sosuke: Technique → Basic Attack x2 → swap to Szayelaporro",
+        "Szayelaporro: Counter → Basic Attack x2 → swap to Toshiro"
+      ],
+      "iconSteps": [
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "aizen"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            }
+          ]
+        },
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "aizen"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Counter windows over greed. Slower than the General route, but it survives the phase transitions instead of trading Toshiro for them. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Toshiro Mono Spirit — Ashisougi Jizo",
+      "goal": "coop-boss",
+      "boss": "ashisougi-jizo",
+      "tags": [
+        "Boss",
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Sosuke: Technique → Ultimate → swap to Szayelaporro",
+        "Szayelaporro: Technique → Basic Attack x2 → swap to Toshiro",
+        "Toshiro: Technique → Basic Attack x3 → Counter → swap to Szayelaporro",
+        "Szayelaporro: Counter → swap to Toshiro"
+      ],
+      "iconSteps": [
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            }
+          ]
+        },
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            }
+          ]
+        },
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "aizen"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x5"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "The longest of the set — assumes the fight outlives two full Ultimate cycles and that Toshiro needs every buff window twice. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Toshiro Mono Spirit — Events",
+      "goal": "events",
+      "tags": [
+        "Sustain"
+      ],
+      "unverified": true,
+      "steps": [
+        "Toshiro: Technique → Basic Attack x3 → swap to Szayelaporro",
+        "Szayelaporro: Technique → Basic Attack x2 → swap to Sosuke",
+        "Sosuke: Technique → Basic Attack x1 → swap to Toshiro",
+        "Toshiro: Technique → Counter → Basic Attack x3 → swap to Szayelaporro"
+      ],
+      "iconSteps": [
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            }
+          ]
+        },
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "aizen"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "toshiro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            }
+          ]
+        },
+        {
+          "slug": "toshiro",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Toshiro's Ultimate for whatever window the stage gives you. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+    },
+    {
+      "name": "Toshiro Mono Spirit",
+      "tags": [
+        "Burst"
+      ],
+      "steps": [
+        "Toshiro Basic Attack until Battlefield is ready → Battlefield → Aizen Technique (2x) → Aizen Ultimate → Basic Attack combo → Hado 90 → Szayelaporro Counter → Ultimate → Technique → Toshiro Counter → Technique → Basic Attack (until 24 Illusion stacks) → Toshiro Ultimate → Basic Attack (while moving) → Get 5 Build Up stacks → Ultimate → Technique → Basic Attack (2 full combos) → Aizen Battlefield"
+      ],
+      "goal": "general"
     }
   ],
   "rotationF2P": "Momo should function the same as Szayelaporro."
