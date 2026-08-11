@@ -49,6 +49,7 @@
         "Burst"
       ],
       "video": "",
+      "note": "",
       "steps": [
         "Ichigo Technique → Mayuri Ultimate → Technique → Battlefield → Nel Technique",
         "Ichigo Basic Attack (3x) → Technique → Basic Attack → Technique → Ultimate → Nel Manual Counter → Special Attack → Nel Ultimate",
@@ -241,6 +242,7 @@
     {
       "goal": "general",
       "video": "",
+      "note": "",
       "iconSteps": [
         {
           "slug": "ichigo-ts",

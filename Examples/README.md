@@ -78,6 +78,16 @@ buttons *and* between boss buttons. Resolution order:
 
 Leave `video` as `""` to fall back.
 
+### Two note fields
+
+| Field | Where it shows | Use it for |
+|---|---|---|
+| `notes` | inline under the steps, left-aligned | what the rotation does and when to pick it |
+| `note` | centred + muted at the bottom, like the character page footnote | caveats about the entry — provenance, assumptions, what is unconfirmed |
+
+Both are per rotation, so **every goal and every boss can carry its own**. Every rotation
+in the data ships with `"note": ""`; blank renders nothing at all.
+
 ### Lineup variants
 
 `lineup` stacks on top of goals. The UI narrows to the chosen goal first, then picks the

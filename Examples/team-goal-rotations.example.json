@@ -40,6 +40,7 @@
       "goal": "general",
       "tags": ["Burst"],
       "video": "",
+      "note": "",
       "steps": [
         "Plain-text fallback, one line per phase. Shown when icons can't resolve.",
         "Kenpachi Technique → Mayuri Ultimate → White Special Attack → Kenpachi Counter"
@@ -101,6 +102,14 @@
       "boss": "ranuganga",
       "tags": ["Boss", "Burst"],
       "video": "https://youtu.be/REPLACE_ME",
+      "$comment2": [
+        "`note` is the quiet centred footnote under the rotation, matching the one on",
+        "character pages. Use it for caveats ABOUT this entry — where it came from, what",
+        "it assumes, what is still unconfirmed — not for instructions (that is `notes`).",
+        "It is per BUTTON, so each goal and each boss can carry its own.",
+        "Every rotation in the real data ships with \"note\": \"\" — blank renders nothing."
+      ],
+      "note": "Verified at B6W5C5 against the 2026-07 balance pass.",
       "steps": ["Short fight — one buffed window is the whole rotation."],
       "iconSteps": [
         {
