@@ -46,79 +46,14 @@
   ],
   "p2w-rotations": [
     {
-      "name": "Pantera Strike Team — Frenzy Feast",
-      "goal": "frenzy-feast",
-      "tags": [
-        "Burst",
-        "Speed"
-      ],
+      "name": "Pantera Mono Strike",
+      "goal": "general",
+      "tags": [],
       "video": "",
-      "unverified": true,
       "steps": [
-        "Kurotsuchi: Technique → swap to Soi",
-        "Soi: Technique → swap to Grimmjow",
-        "Grimmjow: Technique → Basic Attack x2 → Enhanced Technique",
-        "Grimmjow: Ultimate"
-      ],
-      "iconSteps": [
-        {
-          "slug": "mayuri",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "soi-fon"
-            }
-          ]
-        },
-        {
-          "slug": "soi-fon",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "grimmjow-pantera"
-            }
-          ]
-        },
-        {
-          "slug": "grimmjow-pantera",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Basic Attack",
-              "label": "x2"
-            },
-            {
-              "kind": "Enhanced Technique"
-            }
-          ]
-        },
-        {
-          "slug": "grimmjow-pantera",
-          "actions": [
-            {
-              "kind": "Ultimate"
-            }
-          ]
-        },
-        {
-          "slug": "grimmjow-pantera",
-          "actions": [
-            {
-              "kind": "Repeat",
-              "label": "Step 01"
-            }
-          ]
-        }
-      ],
-      "notes": "Front-loads every buff so Grimmjow swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+        "Spawn in with Soi Fon (free Conviction stack) → Swap to any other character → Battlefield (free Conviction stack) → Manual Counter → Technique → Basic Attack to trigger counter → Swap to Pantera → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Pounce (Charge until max stacks) → Enhanced Technique → Quickswap Pounce → Soi Fon Windmill (at 10 battlefield energy) → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate",
+        "Pantera Quickswap Pounce → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Quickswap Pounce → Battlefield → Soi Fon Manual Counter → Technique → Trigger Homonka → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Pantera Quickswap Pounce → Soi Fon Windmill → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate"
+      ]
     },
     {
       "name": "Pantera Strike Team — Ranuganga",
@@ -645,18 +580,6 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Grimmjow's Ultimate for whatever window the stage gives you. Generated for the P2W route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "Pantera Mono Strike",
-      "goal": "general",
-      "tags": [],
-      "video": "",
-      "steps": [
-        "Spawn in with Soi Fon (free Conviction stack) → Swap to any other character → Battlefield (free Conviction stack) → Manual Counter → Technique → Basic Attack to trigger counter → Swap to Pantera → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Pounce (Charge until max stacks) → Enhanced Technique → Quickswap Pounce → Soi Fon Windmill (at 10 battlefield energy) → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate",
-        "Pantera Quickswap Pounce → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Quickswap Pounce → Battlefield → Soi Fon Manual Counter → Technique → Trigger Homonka → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Pantera Quickswap Pounce → Soi Fon Windmill → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate"
-      ]
-    }
-  ],
-  "f2p-rotations": [
-    {
       "name": "Pantera Strike Team — Frenzy Feast",
       "goal": "frenzy-feast",
       "tags": [
@@ -668,7 +591,7 @@
       "steps": [
         "Kurotsuchi: Technique → swap to Soi",
         "Soi: Technique → swap to Grimmjow",
-        "Grimmjow: Technique → Basic Attack x2 → Technique",
+        "Grimmjow: Technique → Basic Attack x2 → Enhanced Technique",
         "Grimmjow: Ultimate"
       ],
       "iconSteps": [
@@ -707,7 +630,7 @@
               "label": "x2"
             },
             {
-              "kind": "Technique"
+              "kind": "Enhanced Technique"
             }
           ]
         },
@@ -729,7 +652,19 @@
           ]
         }
       ],
-      "notes": "Front-loads every buff so Grimmjow swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+      "notes": "Front-loads every buff so Grimmjow swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Pantera Mono Strike",
+      "goal": "general",
+      "tags": [],
+      "video": "",
+      "steps": [
+        "Spawn in with Soi Fon (free Conviction stack) → Swap to any other character → Battlefield (free Conviction stack) → Manual Counter → Technique → Basic Attack to trigger counter → Swap to Pantera → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Pounce (Charge until max stacks) → Enhanced Technique → Quickswap Pounce → Soi Fon Windmill (at 10 battlefield energy) → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate",
+        "Pantera Quickswap Pounce → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Quickswap Pounce → Battlefield → Soi Fon Manual Counter → Technique → Trigger Homonka → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Pantera Quickswap Pounce → Soi Fon Windmill → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate"
+      ]
     },
     {
       "name": "Pantera Strike Team — Ranuganga",
@@ -1256,14 +1191,79 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Grimmjow's Ultimate for whatever window the stage gives you. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "Pantera Mono Strike",
-      "goal": "general",
-      "tags": [],
+      "name": "Pantera Strike Team — Frenzy Feast",
+      "goal": "frenzy-feast",
+      "tags": [
+        "Burst",
+        "Speed"
+      ],
       "video": "",
+      "unverified": true,
       "steps": [
-        "Spawn in with Soi Fon (free Conviction stack) → Swap to any other character → Battlefield (free Conviction stack) → Manual Counter → Technique → Basic Attack to trigger counter → Swap to Pantera → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Pounce (Charge until max stacks) → Enhanced Technique → Quickswap Pounce → Soi Fon Windmill (at 10 battlefield energy) → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate",
-        "Pantera Quickswap Pounce → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Quickswap Pounce → Battlefield → Soi Fon Manual Counter → Technique → Trigger Homonka → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Pantera Quick Pounce → Enhanced Technique → Pantera Quickswap Pounce → Soi Fon Windmill → Basic Attack until Homonka is triggered → Soi Fon Ultimate → Pantera Counter → Quick Pounce → Enhanced Technique → Pantera Ultimate"
-      ]
+        "Kurotsuchi: Technique → swap to Soi",
+        "Soi: Technique → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x2 → Technique",
+        "Grimmjow: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "soi-fon"
+            }
+          ]
+        },
+        {
+          "slug": "soi-fon",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Grimmjow swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     }
   ]
 }

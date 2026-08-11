@@ -1,8 +1,8 @@
 /**
  * Seed a full per-goal rotation set onto every comp that doesn't already have
  * one, so the Team Builder's "What would you like to optimize for?" picker
- * offers all four goals — Frenzy Feast, the four Co-op Bosses, Events and
- * General — on BOTH spend routes.
+ * offers all four goals — General, the four Co-op Bosses, Events and Frenzy
+ * Feast — on BOTH spend routes.
  *
  *   BSRData/Teams/<group>/<team>.json   <- rewritten in place
  *
@@ -262,8 +262,9 @@ for (const g of fs.readdirSync(TEAMS, { withFileTypes: true }).filter((d) => d.i
         touched = true;
       }
 
-      // Catalog order: Frenzy Feast, the four bosses, Events, General.
-      const ORDER = ['frenzy-feast', 'coop-boss', 'events', 'general'];
+      // Catalog order: General, the four bosses, Events, Frenzy Feast —
+      // matching GOAL_CATALOG in Web/Source/Lib/RotationGoals.ts.
+      const ORDER = ['general', 'coop-boss', 'events', 'frenzy-feast'];
       const BOSS_ORDER = BOSSES.map(([id]) => id);
       list.sort(
         (a, b) =>

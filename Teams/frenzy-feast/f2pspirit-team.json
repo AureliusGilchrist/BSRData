@@ -50,79 +50,15 @@
   "rotationP2W": "",
   "p2w-rotations": [
     {
-      "name": "F2P Spirit Team — Frenzy Feast",
-      "goal": "frenzy-feast",
+      "name": "F2P Strike Team",
+      "goal": "general",
       "tags": [
-        "Burst",
-        "Speed"
+        "Burst"
       ],
       "video": "",
-      "unverified": true,
       "steps": [
-        "Szayelaporro: Technique → swap to Sosuke",
-        "Sosuke: Technique → swap to Ulquiorra",
-        "Ulquiorra: Technique → Basic Attack x2 → Enhanced Technique",
-        "Ulquiorra: Ultimate"
-      ],
-      "iconSteps": [
-        {
-          "slug": "szayelaporro",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "aizen"
-            }
-          ]
-        },
-        {
-          "slug": "aizen",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ulquiorra"
-            }
-          ]
-        },
-        {
-          "slug": "ulquiorra",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Basic Attack",
-              "label": "x2"
-            },
-            {
-              "kind": "Enhanced Technique"
-            }
-          ]
-        },
-        {
-          "slug": "ulquiorra",
-          "actions": [
-            {
-              "kind": "Ultimate"
-            }
-          ]
-        },
-        {
-          "slug": "ulquiorra",
-          "actions": [
-            {
-              "kind": "Repeat",
-              "label": "Step 01"
-            }
-          ]
-        }
-      ],
-      "notes": "Front-loads every buff so Ulquiorra swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+        ""
+      ]
     },
     {
       "name": "F2P Spirit Team — Ranuganga",
@@ -649,19 +585,6 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ulquiorra's Ultimate for whatever window the stage gives you. Generated for the P2W route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "F2P Strike Team",
-      "goal": "general",
-      "tags": [
-        "Burst"
-      ],
-      "video": "",
-      "steps": [
-        ""
-      ]
-    }
-  ],
-  "f2p-rotations": [
-    {
       "name": "F2P Spirit Team — Frenzy Feast",
       "goal": "frenzy-feast",
       "tags": [
@@ -673,7 +596,7 @@
       "steps": [
         "Szayelaporro: Technique → swap to Sosuke",
         "Sosuke: Technique → swap to Ulquiorra",
-        "Ulquiorra: Technique → Basic Attack x2 → Technique",
+        "Ulquiorra: Technique → Basic Attack x2 → Enhanced Technique",
         "Ulquiorra: Ultimate"
       ],
       "iconSteps": [
@@ -712,7 +635,7 @@
               "label": "x2"
             },
             {
-              "kind": "Technique"
+              "kind": "Enhanced Technique"
             }
           ]
         },
@@ -734,7 +657,20 @@
           ]
         }
       ],
-      "notes": "Front-loads every buff so Ulquiorra swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+      "notes": "Front-loads every buff so Ulquiorra swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "F2P Strike Team",
+      "goal": "general",
+      "tags": [
+        "Burst"
+      ],
+      "video": "",
+      "steps": [
+        ""
+      ]
     },
     {
       "name": "F2P Spirit Team — Ranuganga",
@@ -1261,15 +1197,79 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ulquiorra's Ultimate for whatever window the stage gives you. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "F2P Strike Team",
-      "goal": "general",
+      "name": "F2P Spirit Team — Frenzy Feast",
+      "goal": "frenzy-feast",
       "tags": [
-        "Burst"
+        "Burst",
+        "Speed"
       ],
       "video": "",
+      "unverified": true,
       "steps": [
-        ""
-      ]
+        "Szayelaporro: Technique → swap to Sosuke",
+        "Sosuke: Technique → swap to Ulquiorra",
+        "Ulquiorra: Technique → Basic Attack x2 → Technique",
+        "Ulquiorra: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "aizen"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ulquiorra"
+            }
+          ]
+        },
+        {
+          "slug": "ulquiorra",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "ulquiorra",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ulquiorra",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Ulquiorra swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     }
   ],
   "rotationF2P": ""

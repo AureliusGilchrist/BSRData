@@ -45,79 +45,16 @@
   "rotationP2W": "Szayelaporro Technique → Battlefield → Aizen Manual Counter → Technique (2x) → Battlefield → Szayelaporro Counter → Ultimate → Kisuke Counter → Special Attack (2x) → Ultimate → Aizen Basic Attack (until Battlefield is available) → Swap out → Battlefield",
   "p2w-rotations": [
     {
-      "name": "Aizen Double Support — Frenzy Feast",
-      "goal": "frenzy-feast",
+      "name": "Aizen Double Support",
+      "goal": "general",
       "tags": [
-        "Burst",
-        "Speed"
+        "Burst"
       ],
       "video": "",
-      "unverified": true,
       "steps": [
-        "Kisuke: Technique → swap to Szayelaporro",
-        "Szayelaporro: Technique → swap to Sosuke",
-        "Sosuke: Technique → Basic Attack x2 → Enhanced Technique",
-        "Sosuke: Ultimate"
-      ],
-      "iconSteps": [
-        {
-          "slug": "kisuke",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "szayelaporro"
-            }
-          ]
-        },
-        {
-          "slug": "szayelaporro",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "aizen"
-            }
-          ]
-        },
-        {
-          "slug": "aizen",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Basic Attack",
-              "label": "x2"
-            },
-            {
-              "kind": "Enhanced Technique"
-            }
-          ]
-        },
-        {
-          "slug": "aizen",
-          "actions": [
-            {
-              "kind": "Ultimate"
-            }
-          ]
-        },
-        {
-          "slug": "aizen",
-          "actions": [
-            {
-              "kind": "Repeat",
-              "label": "Step 01"
-            }
-          ]
-        }
-      ],
-      "notes": "Front-loads every buff so Sosuke swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+        "Aizen Technique (2x) → Battlefield → Ultimate → Basic Attack (until lightning) → Kisuke Counter → Special Attack (2x) → Szayelaporro Counter → Ultimate → Technique → Basic Attack → Hado 90",
+        "Szayelaporro Counter → Kisuke Counter → Technique → Special Attack (2x) → Kisuke Ultimate → Aizen Battlefield"
+      ]
     },
     {
       "name": "Aizen Double Support — Ranuganga",
@@ -644,20 +581,6 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Sosuke's Ultimate for whatever window the stage gives you. Generated for the P2W route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "Aizen Double Support",
-      "goal": "general",
-      "tags": [
-        "Burst"
-      ],
-      "video": "",
-      "steps": [
-        "Aizen Technique (2x) → Battlefield → Ultimate → Basic Attack (until lightning) → Kisuke Counter → Special Attack (2x) → Szayelaporro Counter → Ultimate → Technique → Basic Attack → Hado 90",
-        "Szayelaporro Counter → Kisuke Counter → Technique → Special Attack (2x) → Kisuke Ultimate → Aizen Battlefield"
-      ]
-    }
-  ],
-  "f2p-rotations": [
-    {
       "name": "Aizen Double Support — Frenzy Feast",
       "goal": "frenzy-feast",
       "tags": [
@@ -669,7 +592,7 @@
       "steps": [
         "Kisuke: Technique → swap to Szayelaporro",
         "Szayelaporro: Technique → swap to Sosuke",
-        "Sosuke: Technique → Basic Attack x2 → Technique",
+        "Sosuke: Technique → Basic Attack x2 → Enhanced Technique",
         "Sosuke: Ultimate"
       ],
       "iconSteps": [
@@ -708,7 +631,7 @@
               "label": "x2"
             },
             {
-              "kind": "Technique"
+              "kind": "Enhanced Technique"
             }
           ]
         },
@@ -730,7 +653,21 @@
           ]
         }
       ],
-      "notes": "Front-loads every buff so Sosuke swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+      "notes": "Front-loads every buff so Sosuke swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Aizen Double Support",
+      "goal": "general",
+      "tags": [
+        "Burst"
+      ],
+      "video": "",
+      "steps": [
+        "Aizen Technique (2x) → Battlefield → Ultimate → Basic Attack (until lightning) → Kisuke Counter → Special Attack (2x) → Szayelaporro Counter → Ultimate → Technique → Basic Attack → Hado 90",
+        "Szayelaporro Counter → Kisuke Counter → Technique → Special Attack (2x) → Kisuke Ultimate → Aizen Battlefield"
+      ]
     },
     {
       "name": "Aizen Double Support — Ranuganga",
@@ -1257,16 +1194,79 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Sosuke's Ultimate for whatever window the stage gives you. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "Aizen Double Support",
-      "goal": "general",
+      "name": "Aizen Double Support — Frenzy Feast",
+      "goal": "frenzy-feast",
       "tags": [
-        "Burst"
+        "Burst",
+        "Speed"
       ],
       "video": "",
+      "unverified": true,
       "steps": [
-        "Aizen Technique (2x) → Battlefield → Ultimate → Basic Attack (until lightning) → Kisuke Counter → Special Attack (2x) → Szayelaporro Counter → Ultimate → Technique → Basic Attack → Hado 90",
-        "Szayelaporro Counter → Kisuke Counter → Technique → Special Attack (2x) → Kisuke Ultimate → Aizen Battlefield"
-      ]
+        "Kisuke: Technique → swap to Szayelaporro",
+        "Szayelaporro: Technique → swap to Sosuke",
+        "Sosuke: Technique → Basic Attack x2 → Technique",
+        "Sosuke: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "kisuke",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            }
+          ]
+        },
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "aizen"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Sosuke swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     }
   ],
   "rotationF2P": "Using Momo or Orihime will cause difficulty in increasing Aizen's Suppression Gauge. Would recommend entering Aizen Ultimate with his Battlefield already half full. Damage will also be much lower without B4 Aizen."

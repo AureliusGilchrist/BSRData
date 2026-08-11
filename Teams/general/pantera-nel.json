@@ -43,79 +43,16 @@
   "rotationP2W": "Pantera Technique → Battlefield → Nel Technique → Mayuri Ultimate → Mayuri Technique → Mayuri Special Attack → Nel Manual Counter → Special Attack → Pantera Counter → Max Stack Pounce → Enhanced Technique → Quickswap Pounce → Nel Ultimate",
   "p2w-rotations": [
     {
-      "name": "Pantera Nel Team — Frenzy Feast",
-      "goal": "frenzy-feast",
+      "name": "Pantera Nel Team",
+      "goal": "general",
       "tags": [
-        "Burst",
-        "Speed"
+        "Burst"
       ],
       "video": "",
-      "unverified": true,
       "steps": [
-        "Kurotsuchi: Technique → swap to Nelliel",
-        "Nelliel: Technique → swap to Grimmjow",
-        "Grimmjow: Technique → Basic Attack x2 → Enhanced Technique",
-        "Grimmjow: Ultimate"
-      ],
-      "iconSteps": [
-        {
-          "slug": "mayuri",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "nelliel"
-            }
-          ]
-        },
-        {
-          "slug": "nelliel",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "grimmjow-pantera"
-            }
-          ]
-        },
-        {
-          "slug": "grimmjow-pantera",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Basic Attack",
-              "label": "x2"
-            },
-            {
-              "kind": "Enhanced Technique"
-            }
-          ]
-        },
-        {
-          "slug": "grimmjow-pantera",
-          "actions": [
-            {
-              "kind": "Ultimate"
-            }
-          ]
-        },
-        {
-          "slug": "grimmjow-pantera",
-          "actions": [
-            {
-              "kind": "Repeat",
-              "label": "Step 01"
-            }
-          ]
-        }
-      ],
-      "notes": "Front-loads every buff so Grimmjow swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+        "Manual Counter in Nel Resurreccion → Special Attack → Technique (2x) → Mayuri Technique → Special Attack → Pantera Quickswap Pounce → Nel Ultimate → Manual Counter → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Pantera Ultimate → Quickswap Pounce → Mayuri Ultimate → Nel Ultimate",
+        "Nel Technique → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Battlefield → Manual Counter → Basic Attack → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Nel Basic Attack → Pantera Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Nel Ultimate → Technique (2x) → Pantera Ultimate → Pounce → Enhanced Technique → Quickswap Pounce → Nel Manual Counter → Special Attack → Mayuri Ultimate → Mayuri Technique → Special Attack → Nel Ultimate → Pantera Counter → Pounce → Enhanced Technique → Pantera Technique → Nel Ultimate"
+      ]
     },
     {
       "name": "Pantera Nel Team — Ranuganga",
@@ -642,20 +579,6 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Grimmjow's Ultimate for whatever window the stage gives you. Generated for the P2W route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "Pantera Nel Team",
-      "goal": "general",
-      "tags": [
-        "Burst"
-      ],
-      "video": "",
-      "steps": [
-        "Manual Counter in Nel Resurreccion → Special Attack → Technique (2x) → Mayuri Technique → Special Attack → Pantera Quickswap Pounce → Nel Ultimate → Manual Counter → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Pantera Ultimate → Quickswap Pounce → Mayuri Ultimate → Nel Ultimate",
-        "Nel Technique → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Battlefield → Manual Counter → Basic Attack → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Nel Basic Attack → Pantera Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Nel Ultimate → Technique (2x) → Pantera Ultimate → Pounce → Enhanced Technique → Quickswap Pounce → Nel Manual Counter → Special Attack → Mayuri Ultimate → Mayuri Technique → Special Attack → Nel Ultimate → Pantera Counter → Pounce → Enhanced Technique → Pantera Technique → Nel Ultimate"
-      ]
-    }
-  ],
-  "f2p-rotations": [
-    {
       "name": "Pantera Nel Team — Frenzy Feast",
       "goal": "frenzy-feast",
       "tags": [
@@ -667,7 +590,7 @@
       "steps": [
         "Kurotsuchi: Technique → swap to Nelliel",
         "Nelliel: Technique → swap to Grimmjow",
-        "Grimmjow: Technique → Basic Attack x2 → Technique",
+        "Grimmjow: Technique → Basic Attack x2 → Enhanced Technique",
         "Grimmjow: Ultimate"
       ],
       "iconSteps": [
@@ -706,7 +629,7 @@
               "label": "x2"
             },
             {
-              "kind": "Technique"
+              "kind": "Enhanced Technique"
             }
           ]
         },
@@ -728,7 +651,21 @@
           ]
         }
       ],
-      "notes": "Front-loads every buff so Grimmjow swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+      "notes": "Front-loads every buff so Grimmjow swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Pantera Nel Team",
+      "goal": "general",
+      "tags": [
+        "Burst"
+      ],
+      "video": "",
+      "steps": [
+        "Manual Counter in Nel Resurreccion → Special Attack → Technique (2x) → Mayuri Technique → Special Attack → Pantera Quickswap Pounce → Nel Ultimate → Manual Counter → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Pantera Ultimate → Quickswap Pounce → Mayuri Ultimate → Nel Ultimate",
+        "Nel Technique → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Battlefield → Manual Counter → Basic Attack → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Nel Basic Attack → Pantera Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Nel Ultimate → Technique (2x) → Pantera Ultimate → Pounce → Enhanced Technique → Quickswap Pounce → Nel Manual Counter → Special Attack → Mayuri Ultimate → Mayuri Technique → Special Attack → Nel Ultimate → Pantera Counter → Pounce → Enhanced Technique → Pantera Technique → Nel Ultimate"
+      ]
     },
     {
       "name": "Pantera Nel Team — Ranuganga",
@@ -1255,16 +1192,79 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Grimmjow's Ultimate for whatever window the stage gives you. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "Pantera Nel Team",
-      "goal": "general",
+      "name": "Pantera Nel Team — Frenzy Feast",
+      "goal": "frenzy-feast",
       "tags": [
-        "Burst"
+        "Burst",
+        "Speed"
       ],
       "video": "",
+      "unverified": true,
       "steps": [
-        "Manual Counter in Nel Resurreccion → Special Attack → Technique (2x) → Mayuri Technique → Special Attack → Pantera Quickswap Pounce → Nel Ultimate → Manual Counter → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Pantera Ultimate → Quickswap Pounce → Mayuri Ultimate → Nel Ultimate",
-        "Nel Technique → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Battlefield → Manual Counter → Basic Attack → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Nel Basic Attack → Pantera Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Nel Ultimate → Technique (2x) → Pantera Ultimate → Pounce → Enhanced Technique → Quickswap Pounce → Nel Manual Counter → Special Attack → Mayuri Ultimate → Mayuri Technique → Special Attack → Nel Ultimate → Pantera Counter → Pounce → Enhanced Technique → Pantera Technique → Nel Ultimate"
-      ]
+        "Kurotsuchi: Technique → swap to Nelliel",
+        "Nelliel: Technique → swap to Grimmjow",
+        "Grimmjow: Technique → Basic Attack x2 → Technique",
+        "Grimmjow: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "nelliel"
+            }
+          ]
+        },
+        {
+          "slug": "nelliel",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "grimmjow-pantera"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "grimmjow-pantera",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Grimmjow swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     }
   ],
   "rotationF2P": "Lower boundaries team would require more fieldtime with Nel"

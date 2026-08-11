@@ -51,7 +51,7 @@ const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
  * otherwise show up as a silently missing button — the kind of thing nobody
  * notices until someone asks where their rotation went.
  */
-const GOAL_IDS = new Set(['frenzy-feast', 'coop-boss', 'events', 'general']);
+const GOAL_IDS = new Set(['general', 'coop-boss', 'events', 'frenzy-feast']);
 const ROTATION_KEYS = ['p2w-rotations', 'f2p-rotations', 'rotations'];
 
 /** Validates every rotation's goal/boss and returns the distinct goal ids the

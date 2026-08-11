@@ -44,24 +44,44 @@
   "rotationF2P": "Rotation for lower boundary team should be similar, but Kenpachi will have a more difficult time charging his Spiritual Pressure.",
   "p2w-rotations": [
     {
-      "name": "Kenpachi Team — Frenzy Feast",
-      "goal": "frenzy-feast",
+      "name": "Kenpachi Team — General",
+      "goal": "general",
       "tags": [
-        "Burst",
-        "Speed"
+        "Burst"
       ],
       "video": "",
       "steps": [
-        "Mayuri Ultimate first (ailment buff up before anything swings) → Kenpachi Technique → Enhanced Special Attack",
-        "White Special Attack → Technique for the Slash amp → swap straight back to Kenpachi",
-        "Kenpachi Enhanced Technique → Ultimate → Basic ×5 to recharge → Ultimate again"
+        "Kenpachi Technique → Mayuri Ultimate → White Special Attack → Basic attack x2 → Technique → Kenpachi Counter",
+        "Kenpachi Special Attack → Mayuri Technique → Mayuri Special Attack→ White Basic Attack (as much as possible before Kenpachi can be swapped back onto) → Kenpachi Swap → Enhanced Technique → Swap to White → White Special Attack → White Manual Counter → Kenpachi Counter → Kenpachi Special Attack",
+        "Swap to Mayuri for 1x Basic Attack → Swap to White → Basic Attack until Kenpachi is available to swap → Special Attack if available into White Technique → Kenpachi Counter → Kenpachi Enhanced Technique → Mayuri Technique → Mayuri Special Attack → Battlefield",
+        "White Ultimate → Basic Attack until Mayuri Ult is off cooldown → Mayuri Ultimate → Kenpachi Ultimate → Basic Attack until Ultimate is charged → Kenpachi Ultimate"
       ],
       "iconSteps": [
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
         {
           "slug": "mayuri",
           "actions": [
             {
               "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
             },
             {
               "kind": "Technique"
@@ -69,6 +89,9 @@
             {
               "kind": "Swap",
               "slug": "kenpachi"
+            },
+            {
+              "kind": "Counter"
             }
           ]
         },
@@ -76,10 +99,22 @@
           "slug": "kenpachi",
           "actions": [
             {
+              "kind": "Enhanced Special Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
               "kind": "Technique"
             },
             {
-              "kind": "Enhanced Special Attack"
+              "kind": "Enhanced Basic Attack"
             },
             {
               "kind": "Swap",
@@ -91,7 +126,98 @@
           "slug": "ichigo-white",
           "actions": [
             {
-              "kind": "Special Attack"
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x3"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x1"
             },
             {
               "kind": "Technique"
@@ -106,13 +232,40 @@
           "slug": "kenpachi",
           "actions": [
             {
-              "kind": "Enhanced Technique"
-            },
+              "kind": "Technique 2"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
             {
-              "kind": "Counter"
+              "kind": "BFS"
             },
             {
               "kind": "Ultimate"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "mayuri"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
             }
           ]
         },
@@ -120,11 +273,26 @@
           "slug": "kenpachi",
           "actions": [
             {
+              "kind": "Ultimate"
+            },
+            {
               "kind": "Basic Attack",
               "label": "x5"
             },
             {
               "kind": "Ultimate 2"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
             }
           ]
         },
@@ -138,7 +306,7 @@
           ]
         }
       ],
-      "notes": "Cuts every filler basic that only exists to charge a second cycle. Buffs go up before Kenpachi ever swings, so the first Ultimate lands inside the full Mayuri + White window — best when the target dies inside one burst."
+      "notes": ""
     },
     {
       "name": "Kenpachi Team — Ranuganga",
@@ -746,6 +914,105 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up over a long fight where the Frenzy Feast route runs dry after its first cycle. Bank Ultimates for whatever damage window the fight gives you."
     },
     {
+      "name": "Kenpachi Team — Frenzy Feast",
+      "goal": "frenzy-feast",
+      "tags": [
+        "Burst",
+        "Speed"
+      ],
+      "video": "",
+      "steps": [
+        "Mayuri Ultimate first (ailment buff up before anything swings) → Kenpachi Technique → Enhanced Special Attack",
+        "White Special Attack → Technique for the Slash amp → swap straight back to Kenpachi",
+        "Kenpachi Enhanced Technique → Ultimate → Basic ×5 to recharge → Ultimate again"
+      ],
+      "iconSteps": [
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Special Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "Special Attack"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Basic Attack",
+              "label": "x5"
+            },
+            {
+              "kind": "Ultimate 2"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Cuts every filler basic that only exists to charge a second cycle. Buffs go up before Kenpachi ever swings, so the first Ultimate lands inside the full Mayuri + White window — best when the target dies inside one burst."
+    }
+  ],
+  "f2p-rotations": [
+    {
       "name": "Kenpachi Team — General",
       "goal": "general",
       "tags": [
@@ -779,7 +1046,7 @@
           "slug": "ichigo-white",
           "actions": [
             {
-              "kind": "Enhanced Basic Attack"
+              "kind": "SpcAtk"
             },
             {
               "kind": "Basic Attack",
@@ -791,9 +1058,6 @@
             {
               "kind": "Swap",
               "slug": "kenpachi"
-            },
-            {
-              "kind": "Counter"
             }
           ]
         },
@@ -801,7 +1065,10 @@
           "slug": "kenpachi",
           "actions": [
             {
-              "kind": "Enhanced Special Attack"
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "SpcAtk"
             },
             {
               "kind": "Swap",
@@ -816,7 +1083,7 @@
               "kind": "Technique"
             },
             {
-              "kind": "Enhanced Basic Attack"
+              "kind": "SpcAtk"
             },
             {
               "kind": "Swap",
@@ -841,7 +1108,7 @@
           "slug": "kenpachi",
           "actions": [
             {
-              "kind": "Technique 2"
+              "kind": "Enhanced Technique"
             },
             {
               "kind": "Swap",
@@ -853,31 +1120,13 @@
           "slug": "ichigo-white",
           "actions": [
             {
-              "kind": "Basic Attack"
+              "kind": "SpcAtk"
             },
             {
-              "kind": "Enhanced Basic Attack"
+              "kind": "Technique"
             },
             {
-              "kind": "Counter"
-            },
-            {
-              "kind": "Basic Attack"
-            },
-            {
-              "kind": "Swap",
-              "slug": "kenpachi"
-            },
-            {
-              "kind": "Counter"
-            }
-          ]
-        },
-        {
-          "slug": "kenpachi",
-          "actions": [
-            {
-              "kind": "Enhanced Basic Attack"
+              "kind": "Enhanced Counter"
             },
             {
               "kind": "Swap",
@@ -910,22 +1159,6 @@
             },
             {
               "kind": "Swap",
-              "slug": "mayuri"
-            }
-          ]
-        },
-        {
-          "slug": "mayuri",
-          "actions": [
-            {
-              "kind": "Basic Attack",
-              "label": "x1"
-            },
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
               "slug": "kenpachi"
             }
           ]
@@ -934,7 +1167,26 @@
           "slug": "kenpachi",
           "actions": [
             {
-              "kind": "Technique 2"
+              "kind": "Enhanced Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
+            }
+          ]
+        },
+        {
+          "slug": "mayuri",
+          "actions": [
+            {
+              "kind": "Enhanced Technique 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
             }
           ]
         },
@@ -948,26 +1200,12 @@
               "kind": "Ultimate"
             },
             {
-              "kind": "Basic Attack"
+              "kind": "Basic Attack",
+              "label": "x3"
             },
             {
               "kind": "Swap",
               "slug": "mayuri"
-            }
-          ]
-        },
-        {
-          "slug": "mayuri",
-          "actions": [
-            {
-              "kind": "Basic Attack"
-            },
-            {
-              "kind": "Ultimate"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ichigo-white"
             }
           ]
         },
@@ -1009,86 +1247,6 @@
         }
       ],
       "notes": ""
-    }
-  ],
-  "f2p-rotations": [
-    {
-      "name": "Kenpachi Team — Frenzy Feast",
-      "goal": "frenzy-feast",
-      "tags": [
-        "Burst",
-        "Speed"
-      ],
-      "video": "",
-      "steps": [
-        "Mayuri Ultimate up front, then everything Kenpachi has in one pass",
-        "No second cycle — if it lives, you wanted the Sustained route instead"
-      ],
-      "iconSteps": [
-        {
-          "slug": "mayuri",
-          "actions": [
-            {
-              "kind": "Ultimate"
-            },
-            {
-              "kind": "Swap",
-              "slug": "kenpachi"
-            }
-          ]
-        },
-        {
-          "slug": "kenpachi",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "SpcAtk"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ichigo-white"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-white",
-          "actions": [
-            {
-              "kind": "SpcAtk"
-            },
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "kenpachi"
-            }
-          ]
-        },
-        {
-          "slug": "kenpachi",
-          "actions": [
-            {
-              "kind": "Technique 2"
-            },
-            {
-              "kind": "Ultimate"
-            }
-          ]
-        },
-        {
-          "slug": "kenpachi",
-          "actions": [
-            {
-              "kind": "Repeat",
-              "label": "Step 01"
-            }
-          ]
-        }
-      ],
-      "notes": "Lower boundary Kenpachi charges Spiritual Pressure slower, so this route accepts one Ultimate rather than waiting for two."
     },
     {
       "name": "Kenpachi Team — Ranuganga",
@@ -1690,32 +1848,42 @@
       "notes": "The most forgiving F2P route: no burst window to miss, and Kenpachi’s slower Spiritual Pressure charge stops being a problem across a long fight."
     },
     {
-      "name": "Kenpachi Team — General",
-      "goal": "general",
+      "name": "Kenpachi Team — Frenzy Feast",
+      "goal": "frenzy-feast",
       "tags": [
-        "Burst"
+        "Burst",
+        "Speed"
       ],
       "video": "",
       "steps": [
-        "Kenpachi Technique → Mayuri Ultimate → White Special Attack → Basic attack x2 → Technique → Kenpachi Counter",
-        "Kenpachi Special Attack → Mayuri Technique → Mayuri Special Attack→ White Basic Attack (as much as possible before Kenpachi can be swapped back onto) → Kenpachi Swap → Enhanced Technique → Swap to White → White Special Attack → White Manual Counter → Kenpachi Counter → Kenpachi Special Attack",
-        "Swap to Mayuri for 1x Basic Attack → Swap to White → Basic Attack until Kenpachi is available to swap → Special Attack if available into White Technique → Kenpachi Counter → Kenpachi Enhanced Technique → Mayuri Technique → Mayuri Special Attack → Battlefield",
-        "White Ultimate → Basic Attack until Mayuri Ult is off cooldown → Mayuri Ultimate → Kenpachi Ultimate → Basic Attack until Ultimate is charged → Kenpachi Ultimate"
+        "Mayuri Ultimate up front, then everything Kenpachi has in one pass",
+        "No second cycle — if it lives, you wanted the Sustained route instead"
       ],
       "iconSteps": [
-        {
-          "slug": "kenpachi",
-          "actions": [
-            {
-              "kind": "Technique"
-            }
-          ]
-        },
         {
           "slug": "mayuri",
           "actions": [
             {
               "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kenpachi"
+            }
+          ]
+        },
+        {
+          "slug": "kenpachi",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "SpcAtk"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
             }
           ]
         },
@@ -1724,10 +1892,6 @@
           "actions": [
             {
               "kind": "SpcAtk"
-            },
-            {
-              "kind": "Basic Attack",
-              "label": "x2"
             },
             {
               "kind": "Technique"
@@ -1745,171 +1909,7 @@
               "kind": "Technique 2"
             },
             {
-              "kind": "SpcAtk"
-            },
-            {
-              "kind": "Swap",
-              "slug": "mayuri"
-            }
-          ]
-        },
-        {
-          "slug": "mayuri",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "SpcAtk"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ichigo-white"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-white",
-          "actions": [
-            {
-              "kind": "Basic Attack",
-              "label": "x3"
-            },
-            {
-              "kind": "Swap",
-              "slug": "kenpachi"
-            }
-          ]
-        },
-        {
-          "slug": "kenpachi",
-          "actions": [
-            {
-              "kind": "Enhanced Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ichigo-white"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-white",
-          "actions": [
-            {
-              "kind": "SpcAtk"
-            },
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Enhanced Counter"
-            },
-            {
-              "kind": "Swap",
-              "slug": "mayuri"
-            }
-          ]
-        },
-        {
-          "slug": "mayuri",
-          "actions": [
-            {
-              "kind": "Basic Attack",
-              "label": "x1"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ichigo-white"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-white",
-          "actions": [
-            {
-              "kind": "Basic Attack",
-              "label": "x3"
-            },
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "kenpachi"
-            }
-          ]
-        },
-        {
-          "slug": "kenpachi",
-          "actions": [
-            {
-              "kind": "Enhanced Counter"
-            },
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ichigo-white"
-            }
-          ]
-        },
-        {
-          "slug": "mayuri",
-          "actions": [
-            {
-              "kind": "Enhanced Technique 2"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ichigo-white"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-white",
-          "actions": [
-            {
-              "kind": "BFS"
-            },
-            {
               "kind": "Ultimate"
-            },
-            {
-              "kind": "Basic Attack",
-              "label": "x3"
-            },
-            {
-              "kind": "Swap",
-              "slug": "mayuri"
-            }
-          ]
-        },
-        {
-          "slug": "kenpachi",
-          "actions": [
-            {
-              "kind": "Ultimate"
-            },
-            {
-              "kind": "Basic Attack",
-              "label": "x5"
-            },
-            {
-              "kind": "Ultimate 2"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-white",
-          "actions": [
-            {
-              "kind": "Ultimate 2"
-            },
-            {
-              "kind": "Swap",
-              "slug": "kenpachi"
             }
           ]
         },
@@ -1923,7 +1923,7 @@
           ]
         }
       ],
-      "notes": ""
+      "notes": "Lower boundary Kenpachi charges Spiritual Pressure slower, so this route accepts one Ultimate rather than waiting for two."
     }
   ]
 }

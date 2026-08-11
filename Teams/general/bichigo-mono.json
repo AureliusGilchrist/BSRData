@@ -42,79 +42,16 @@
   "rotationP2W": "",
   "p2w-rotations": [
     {
-      "name": "Bankai Ichigo Mono Slash — Frenzy Feast",
-      "goal": "frenzy-feast",
+      "name": "Bankai Ichigo Mono Slash",
+      "goal": "general",
       "tags": [
-        "Burst",
-        "Speed"
+        "Burst"
       ],
       "video": "",
-      "unverified": true,
       "steps": [
-        "Kisuke: Technique → swap to Ichigo",
-        "Ichigo: Technique → swap to Ichigo",
-        "Ichigo: Technique → Basic Attack x2 → Enhanced Technique",
-        "Ichigo: Ultimate"
-      ],
-      "iconSteps": [
-        {
-          "slug": "kisuke",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ichigo-white"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-white",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ichigo-bankai"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-bankai",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Basic Attack",
-              "label": "x2"
-            },
-            {
-              "kind": "Enhanced Technique"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-bankai",
-          "actions": [
-            {
-              "kind": "Ultimate"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-bankai",
-          "actions": [
-            {
-              "kind": "Repeat",
-              "label": "Step 01"
-            }
-          ]
-        }
-      ],
-      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+        "Bichigo Technique → Special Attack → Kisuke Technique → White Special Attack → White Technique → Bichigo counter → Special Attack → Kisuke Special Attack (2x) → White Basic Attack (1-2) → Bichigo Basic Attack (3x) → Special attack → Kisuke Ultimate → White Basic Attack until Bichigo Technique is available → Bichigo Technique → Special Attack → White Basic Attack until Battlefield is available → Battlefield → Finish Combo (can quickswap out as the sword being thrown down animation plays) → Kisuke Technique (can be quickswapped out of) → Bichigo Ultimate",
+        "Special Attack (Cancel it immediately with counter) → Manual Counter → Special Attack → White Special Attack → Manual Counter → Technique → Bichigo Counter → Special Attack → Battlefield → White Ultimate → Kisuke Technique (1-2) → Bichigo Technique → Special Attack → Bichigo Technique → Special Attack → Bichigo Ultimate → Basic Attack (3) → Special Attack → Kisuke Ultimate → Manually release Kisuke Technique → White Ultimate"
+      ]
     },
     {
       "name": "Bankai Ichigo Mono Slash — Ranuganga",
@@ -641,20 +578,6 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ichigo's Ultimate for whatever window the stage gives you. Generated for the P2W route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "Bankai Ichigo Mono Slash",
-      "goal": "general",
-      "tags": [
-        "Burst"
-      ],
-      "video": "",
-      "steps": [
-        "Bichigo Technique → Special Attack → Kisuke Technique → White Special Attack → White Technique → Bichigo counter → Special Attack → Kisuke Special Attack (2x) → White Basic Attack (1-2) → Bichigo Basic Attack (3x) → Special attack → Kisuke Ultimate → White Basic Attack until Bichigo Technique is available → Bichigo Technique → Special Attack → White Basic Attack until Battlefield is available → Battlefield → Finish Combo (can quickswap out as the sword being thrown down animation plays) → Kisuke Technique (can be quickswapped out of) → Bichigo Ultimate",
-        "Special Attack (Cancel it immediately with counter) → Manual Counter → Special Attack → White Special Attack → Manual Counter → Technique → Bichigo Counter → Special Attack → Battlefield → White Ultimate → Kisuke Technique (1-2) → Bichigo Technique → Special Attack → Bichigo Technique → Special Attack → Bichigo Ultimate → Basic Attack (3) → Special Attack → Kisuke Ultimate → Manually release Kisuke Technique → White Ultimate"
-      ]
-    }
-  ],
-  "f2p-rotations": [
-    {
       "name": "Bankai Ichigo Mono Slash — Frenzy Feast",
       "goal": "frenzy-feast",
       "tags": [
@@ -666,7 +589,7 @@
       "steps": [
         "Kisuke: Technique → swap to Ichigo",
         "Ichigo: Technique → swap to Ichigo",
-        "Ichigo: Technique → Basic Attack x2 → Technique",
+        "Ichigo: Technique → Basic Attack x2 → Enhanced Technique",
         "Ichigo: Ultimate"
       ],
       "iconSteps": [
@@ -705,7 +628,7 @@
               "label": "x2"
             },
             {
-              "kind": "Technique"
+              "kind": "Enhanced Technique"
             }
           ]
         },
@@ -727,7 +650,21 @@
           ]
         }
       ],
-      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Bankai Ichigo Mono Slash",
+      "goal": "general",
+      "tags": [
+        "Burst"
+      ],
+      "video": "",
+      "steps": [
+        "Bichigo Technique → Special Attack → Kisuke Technique → White Special Attack → White Technique → Bichigo counter → Special Attack → Kisuke Special Attack (2x) → White Basic Attack (1-2) → Bichigo Basic Attack (3x) → Special attack → Kisuke Ultimate → White Basic Attack until Bichigo Technique is available → Bichigo Technique → Special Attack → White Basic Attack until Battlefield is available → Battlefield → Finish Combo (can quickswap out as the sword being thrown down animation plays) → Kisuke Technique (can be quickswapped out of) → Bichigo Ultimate",
+        "Special Attack (Cancel it immediately with counter) → Manual Counter → Special Attack → White Special Attack → Manual Counter → Technique → Bichigo Counter → Special Attack → Battlefield → White Ultimate → Kisuke Technique (1-2) → Bichigo Technique → Special Attack → Bichigo Technique → Special Attack → Bichigo Ultimate → Basic Attack (3) → Special Attack → Kisuke Ultimate → Manually release Kisuke Technique → White Ultimate"
+      ]
     },
     {
       "name": "Bankai Ichigo Mono Slash — Ranuganga",
@@ -1254,16 +1191,79 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ichigo's Ultimate for whatever window the stage gives you. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "Bankai Ichigo Mono Slash",
-      "goal": "general",
+      "name": "Bankai Ichigo Mono Slash — Frenzy Feast",
+      "goal": "frenzy-feast",
       "tags": [
-        "Burst"
+        "Burst",
+        "Speed"
       ],
       "video": "",
+      "unverified": true,
       "steps": [
-        "Bichigo Technique → Special Attack → Kisuke Technique → White Special Attack → White Technique → Bichigo counter → Special Attack → Kisuke Special Attack (2x) → White Basic Attack (1-2) → Bichigo Basic Attack (3x) → Special attack → Kisuke Ultimate → White Basic Attack until Bichigo Technique is available → Bichigo Technique → Special Attack → White Basic Attack until Battlefield is available → Battlefield → Finish Combo (can quickswap out as the sword being thrown down animation plays) → Kisuke Technique (can be quickswapped out of) → Bichigo Ultimate",
-        "Special Attack (Cancel it immediately with counter) → Manual Counter → Special Attack → White Special Attack → Manual Counter → Technique → Bichigo Counter → Special Attack → Battlefield → White Ultimate → Kisuke Technique (1-2) → Bichigo Technique → Special Attack → Bichigo Technique → Special Attack → Bichigo Ultimate → Basic Attack (3) → Special Attack → Kisuke Ultimate → Manually release Kisuke Technique → White Ultimate"
-      ]
+        "Kisuke: Technique → swap to Ichigo",
+        "Ichigo: Technique → swap to Ichigo",
+        "Ichigo: Technique → Basic Attack x2 → Technique",
+        "Ichigo: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "kisuke",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-white"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-white",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-bankai"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-bankai",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-bankai",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-bankai",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     }
   ],
   "rotationF2P": "Rotation should be the exact same as P2W counterpart."

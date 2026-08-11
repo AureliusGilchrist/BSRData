@@ -49,79 +49,15 @@
   "rotationP2W": "",
   "p2w-rotations": [
     {
-      "name": "F2P True Shikai — Frenzy Feast",
-      "goal": "frenzy-feast",
+      "name": "F2P True Shikai",
+      "goal": "general",
       "tags": [
-        "Burst",
-        "Speed"
+        "Burst"
       ],
       "video": "",
-      "unverified": true,
       "steps": [
-        "Rangiku: Technique → swap to Kaname",
-        "Kaname: Technique → swap to Ichigo",
-        "Ichigo: Technique → Basic Attack x2 → Enhanced Technique",
-        "Ichigo: Ultimate"
-      ],
-      "iconSteps": [
-        {
-          "slug": "rangiku",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "tosen"
-            }
-          ]
-        },
-        {
-          "slug": "tosen",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ichigo-ts"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-ts",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Basic Attack",
-              "label": "x2"
-            },
-            {
-              "kind": "Enhanced Technique"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-ts",
-          "actions": [
-            {
-              "kind": "Ultimate"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-ts",
-          "actions": [
-            {
-              "kind": "Repeat",
-              "label": "Step 01"
-            }
-          ]
-        }
-      ],
-      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+        ""
+      ]
     },
     {
       "name": "F2P True Shikai — Ranuganga",
@@ -648,19 +584,6 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ichigo's Ultimate for whatever window the stage gives you. Generated for the P2W route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "F2P True Shikai",
-      "goal": "general",
-      "tags": [
-        "Burst"
-      ],
-      "video": "",
-      "steps": [
-        ""
-      ]
-    }
-  ],
-  "f2p-rotations": [
-    {
       "name": "F2P True Shikai — Frenzy Feast",
       "goal": "frenzy-feast",
       "tags": [
@@ -672,7 +595,7 @@
       "steps": [
         "Rangiku: Technique → swap to Kaname",
         "Kaname: Technique → swap to Ichigo",
-        "Ichigo: Technique → Basic Attack x2 → Technique",
+        "Ichigo: Technique → Basic Attack x2 → Enhanced Technique",
         "Ichigo: Ultimate"
       ],
       "iconSteps": [
@@ -711,7 +634,7 @@
               "label": "x2"
             },
             {
-              "kind": "Technique"
+              "kind": "Enhanced Technique"
             }
           ]
         },
@@ -733,7 +656,20 @@
           ]
         }
       ],
-      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "F2P True Shikai",
+      "goal": "general",
+      "tags": [
+        "Burst"
+      ],
+      "video": "",
+      "steps": [
+        ""
+      ]
     },
     {
       "name": "F2P True Shikai — Ranuganga",
@@ -1260,15 +1196,79 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ichigo's Ultimate for whatever window the stage gives you. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "F2P True Shikai",
-      "goal": "general",
+      "name": "F2P True Shikai — Frenzy Feast",
+      "goal": "frenzy-feast",
       "tags": [
-        "Burst"
+        "Burst",
+        "Speed"
       ],
       "video": "",
+      "unverified": true,
       "steps": [
-        ""
-      ]
+        "Rangiku: Technique → swap to Kaname",
+        "Kaname: Technique → swap to Ichigo",
+        "Ichigo: Technique → Basic Attack x2 → Technique",
+        "Ichigo: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "rangiku",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "tosen"
+            }
+          ]
+        },
+        {
+          "slug": "tosen",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-ts"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-ts",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     }
   ],
   "rotationF2P": ""

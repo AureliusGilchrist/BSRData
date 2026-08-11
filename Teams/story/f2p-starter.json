@@ -45,79 +45,15 @@
   "rotationP2W": "This comp is intentionally SR-only — the P2W path is to retire it and run any of #1–#5 as you pull SSRs.",
   "p2w-rotations": [
     {
-      "name": "F2P Starter — Story Friendly — Frenzy Feast",
-      "goal": "frenzy-feast",
+      "name": "F2P Starter — Story Friendly",
+      "goal": "general",
       "tags": [
-        "Burst",
-        "Speed"
+        "Burst"
       ],
       "video": "",
-      "unverified": true,
       "steps": [
-        "Inoue: Technique → swap to Uryu",
-        "Uryu: Technique → swap to Ichigo",
-        "Ichigo: Technique → Basic Attack x2 → Enhanced Technique",
-        "Ichigo: Ultimate"
-      ],
-      "iconSteps": [
-        {
-          "slug": "orihime",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "uryu"
-            }
-          ]
-        },
-        {
-          "slug": "uryu",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ichigo-initial"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-initial",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Basic Attack",
-              "label": "x2"
-            },
-            {
-              "kind": "Enhanced Technique"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-initial",
-          "actions": [
-            {
-              "kind": "Ultimate"
-            }
-          ]
-        },
-        {
-          "slug": "ichigo-initial",
-          "actions": [
-            {
-              "kind": "Repeat",
-              "label": "Step 01"
-            }
-          ]
-        }
-      ],
-      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+        "Orihime Technique → Ichigo Technique → Special Attack → Battlefield → Technique → Ichigo Basic Attacks"
+      ]
     },
     {
       "name": "F2P Starter — Story Friendly — Ranuganga",
@@ -644,19 +580,6 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ichigo's Ultimate for whatever window the stage gives you. Generated for the P2W route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "F2P Starter — Story Friendly",
-      "goal": "general",
-      "tags": [
-        "Burst"
-      ],
-      "video": "",
-      "steps": [
-        "Orihime Technique → Ichigo Technique → Special Attack → Battlefield → Technique → Ichigo Basic Attacks"
-      ]
-    }
-  ],
-  "f2p-rotations": [
-    {
       "name": "F2P Starter — Story Friendly — Frenzy Feast",
       "goal": "frenzy-feast",
       "tags": [
@@ -668,7 +591,7 @@
       "steps": [
         "Inoue: Technique → swap to Uryu",
         "Uryu: Technique → swap to Ichigo",
-        "Ichigo: Technique → Basic Attack x2 → Technique",
+        "Ichigo: Technique → Basic Attack x2 → Enhanced Technique",
         "Ichigo: Ultimate"
       ],
       "iconSteps": [
@@ -707,7 +630,7 @@
               "label": "x2"
             },
             {
-              "kind": "Technique"
+              "kind": "Enhanced Technique"
             }
           ]
         },
@@ -729,7 +652,20 @@
           ]
         }
       ],
-      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
+      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "F2P Starter — Story Friendly",
+      "goal": "general",
+      "tags": [
+        "Burst"
+      ],
+      "video": "",
+      "steps": [
+        "Orihime Technique → Ichigo Technique → Special Attack → Battlefield → Technique → Ichigo Basic Attacks"
+      ]
     },
     {
       "name": "F2P Starter — Story Friendly — Ranuganga",
@@ -1256,15 +1192,79 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ichigo's Ultimate for whatever window the stage gives you. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "F2P Starter — Story Friendly",
-      "goal": "general",
+      "name": "F2P Starter — Story Friendly — Frenzy Feast",
+      "goal": "frenzy-feast",
       "tags": [
-        "Burst"
+        "Burst",
+        "Speed"
       ],
       "video": "",
+      "unverified": true,
       "steps": [
-        "Orihime Technique → Ichigo Technique → Special Attack → Battlefield → Technique → Ichigo Basic Attacks"
-      ]
+        "Inoue: Technique → swap to Uryu",
+        "Uryu: Technique → swap to Ichigo",
+        "Ichigo: Technique → Basic Attack x2 → Technique",
+        "Ichigo: Ultimate"
+      ],
+      "iconSteps": [
+        {
+          "slug": "orihime",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "uryu"
+            }
+          ]
+        },
+        {
+          "slug": "uryu",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ichigo-initial"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ichigo-initial",
+          "actions": [
+            {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Ichigo swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     }
   ],
   "rotationF2P": "Story friendly team."

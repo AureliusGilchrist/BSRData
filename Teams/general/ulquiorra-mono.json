@@ -48,19 +48,18 @@
   "rotationF2P": "Sub Momo for Szayelaporro — Momo plays the same role as Szayelaporro",
   "p2w-rotations": [
     {
-      "name": "Ulquiorra Mono Spirit — Frenzy Feast",
-      "goal": "frenzy-feast",
+      "name": "B6W5C5",
+      "goal": "general",
       "tags": [
-        "Burst",
-        "Speed"
+        "Burst"
       ],
       "video": "",
-      "unverified": true,
       "steps": [
-        "Szayelaporro: Technique → swap to Ulquiorra",
-        "Ulquiorra: Technique",
-        "Sosuke: Technique 3 → Counter → Technique x2 → BFS",
-        "Szayelaporro: Counter → Ultimate → swap to Ulquiorra → Counter"
+        "In Segunda Etapa, use technique into basic attack to refresh, then technique once again before swapping out to Aizen using battlefield",
+        "Aizen Technique combo (finish it completely) → Battlefield (3 Pressure Stacks before using) → Ultimate",
+        "Counter with Szayelaporro → Ultimate → Technique → Counter with Ulquiorra → Technique → 1 basic attack → Swap to Aizen",
+        "Aizen basic attack OR technique (if it's available) → Hado 90: Kurohitsugi → Szayelaporro counter → Ulquiorra counter",
+        "Ulquiorra technique → Enhanced technique → Technique 2-4 → Ultimate → Technique spam → Ultimate → Aizen Battlefield"
       ],
       "iconSteps": [
         {
@@ -123,13 +122,329 @@
           "slug": "ulquiorra-resurreccion",
           "actions": [
             {
-              "kind": "Repeat",
-              "label": "Step 01"
+              "kind": "Technique"
+            },
+            {
+              "kind": "Dodge"
+            },
+            {
+              "kind": "Basic Attack",
+              "label": "x4"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Dodge"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Enhanced Technique"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "ulquiorra-resurreccion",
+          "actions": [
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack 2",
+              "label": "x3"
+            },
+            {
+              "kind": "Technique 2"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Technique",
+              "label": "x2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ulquiorra-resurreccion"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "ulquiorra-resurreccion",
+          "actions": [
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Basic Attack 2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "aizen"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Dodge"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Dodge"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ulquiorra-resurreccion"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "ulquiorra-resurreccion",
+          "actions": [
+            {
+              "kind": "Technique 2"
+            },
+            {
+              "kind": "Enhanced Technique 2"
+            },
+            {
+              "kind": "Technique 2",
+              "label": "x2"
+            },
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Technique 2",
+              "label": "x12"
+            },
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique 4"
+            },
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique",
+              "label": "2x"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ulquiorra-resurreccion"
+            },
+            {
+              "kind": "Counter"
             }
           ]
         }
       ],
-      "notes": "Front-loads every buff so Ulquiorra swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+      "notes": "This is only one way to start the rotation. There are many others, find the one that suits you best."
+    },
+    {
+      "name": "Momo Swap",
+      "goal": "general",
+      "tags": [
+        "Burst",
+        "F2P"
+      ],
+      "video": "",
+      "lineup": [
+        "momo"
+      ],
+      "steps": [
+        "Momo Technique → Special attack x2 → Ulquiorra technique",
+        "Battlefield → Technique (complete combo) → Battlefield → Momo counter → Momo Ultimate",
+        "Ulquiorra counter → Technique → Dodge → Basic attack to refresh Technique → Technique → Dodge → Special Attack → Cero Oscuras",
+        "Ulquiorra Ultimate → Technique → Basic attack to refresh Technique → Technique → Battlefield"
+      ],
+      "iconSteps": [
+        {
+          "slug": "momo",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "SpcAtk",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ulquiorra-resurreccion"
+            }
+          ]
+        },
+        {
+          "slug": "ulquiorra-resurreccion",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Swap",
+              "slug": "momo"
+            }
+          ]
+        },
+        {
+          "slug": "momo",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "SpcAtk",
+              "label": "x2"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ulquiorra-resurreccion"
+            }
+          ]
+        },
+        {
+          "slug": "ulquiorra-resurreccion",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Dodge"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Dodge"
+            },
+            {
+              "kind": "SpcAtk"
+            },
+            {
+              "kind": "Cero Oscuras"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Battlefield Skill"
+            },
+            {
+              "kind": "Repeat"
+            }
+          ]
+        }
+      ],
+      "notes": "Momo as a SR unit can replace Szayelaporro. Ulquiorra and Aizen remain required SSRs."
     },
     {
       "name": "Ulquiorra Mono Spirit — Ranuganga",
@@ -1119,18 +1434,19 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ulquiorra's Ultimate for whatever window the stage gives you. Generated for the P2W route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "B6W5C5",
-      "goal": "general",
+      "name": "Ulquiorra Mono Spirit — Frenzy Feast",
+      "goal": "frenzy-feast",
       "tags": [
-        "Burst"
+        "Burst",
+        "Speed"
       ],
       "video": "",
+      "unverified": true,
       "steps": [
-        "In Segunda Etapa, use technique into basic attack to refresh, then technique once again before swapping out to Aizen using battlefield",
-        "Aizen Technique combo (finish it completely) → Battlefield (3 Pressure Stacks before using) → Ultimate",
-        "Counter with Szayelaporro → Ultimate → Technique → Counter with Ulquiorra → Technique → 1 basic attack → Swap to Aizen",
-        "Aizen basic attack OR technique (if it's available) → Hado 90: Kurohitsugi → Szayelaporro counter → Ulquiorra counter",
-        "Ulquiorra technique → Enhanced technique → Technique 2-4 → Ultimate → Technique spam → Ultimate → Aizen Battlefield"
+        "Szayelaporro: Technique → swap to Ulquiorra",
+        "Ulquiorra: Technique",
+        "Sosuke: Technique 3 → Counter → Technique x2 → BFS",
+        "Szayelaporro: Counter → Ultimate → swap to Ulquiorra → Counter"
       ],
       "iconSteps": [
         {
@@ -1193,6 +1509,91 @@
           "slug": "ulquiorra-resurreccion",
           "actions": [
             {
+              "kind": "Repeat",
+              "label": "Step 01"
+            }
+          ]
+        }
+      ],
+      "notes": "Front-loads every buff so Ulquiorra swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the P2W route from this comp's own rotation — not play-tested yet."
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "B0 Ulq B1 Aizen (Rotation by Legacy)",
+      "goal": "general",
+      "tags": [
+        "Burst"
+      ],
+      "video": "",
+      "steps": [
+        "In Segunda Etapa, use technique into basic attack to refresh, then technique once again before swapping out to Aizen using battlefield",
+        "Aizen Technique combo (finish it completely) → Battlefield (3 Pressure Stacks before using) → Ultimate",
+        "Counter with Szayelaporro → Ultimate → Technique → Counter with Ulquiorra → Technique → 1 basic attack → Swap to Aizen",
+        "Aizen basic attack OR technique (if it's available) → Hado 90: Kurohitsugi → Szayelaporro counter → Ulquiorra counter",
+        "Ulquiorra technique → Enhanced technique → Technique 2-4 → Ultimate → Technique spam → Ultimate → Aizen Battlefield"
+      ],
+      "iconSteps": [
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ulquiorra-resurreccion"
+            }
+          ]
+        },
+        {
+          "slug": "ulquiorra-resurreccion",
+          "actions": [
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique 3"
+            },
+            {
+              "kind": "Technique",
+              "label": "x2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "BFS"
+            }
+          ]
+        },
+        {
+          "slug": "szayelaporro",
+          "actions": [
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "ulquiorra-resurreccion"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "ulquiorra-resurreccion",
+          "actions": [
+            {
               "kind": "Technique"
             },
             {
@@ -1216,18 +1617,6 @@
             },
             {
               "kind": "Ultimate"
-            }
-          ]
-        },
-        {
-          "slug": "ulquiorra-resurreccion",
-          "actions": [
-            {
-              "kind": "Technique 2"
-            },
-            {
-              "kind": "Basic Attack 2",
-              "label": "x3"
             },
             {
               "kind": "Technique 2"
@@ -1238,7 +1627,7 @@
           "slug": "aizen",
           "actions": [
             {
-              "kind": "Technique 2"
+              "kind": "Technique 3"
             },
             {
               "kind": "Technique",
@@ -1252,15 +1641,19 @@
             },
             {
               "kind": "Ultimate"
+            },
+            {
+              "kind": "Swap",
+              "slug": "szayelaporro"
+            },
+            {
+              "kind": "Counter"
             }
           ]
         },
         {
           "slug": "szayelaporro",
           "actions": [
-            {
-              "kind": "Counter"
-            },
             {
               "kind": "Ultimate 2"
             },
@@ -1283,7 +1676,11 @@
               "kind": "Technique 2"
             },
             {
-              "kind": "Basic Attack 2"
+              "kind": "Basic Attack 2",
+              "label": "x3"
+            },
+            {
+              "kind": "Technique 2"
             },
             {
               "kind": "Swap",
@@ -1295,16 +1692,8 @@
           "slug": "aizen",
           "actions": [
             {
-              "kind": "Basic Attack"
-            },
-            {
-              "kind": "Dodge"
-            },
-            {
-              "kind": "Basic Attack"
-            },
-            {
-              "kind": "Dodge"
+              "kind": "Technique",
+              "label": "x2"
             },
             {
               "kind": "Basic Attack"
@@ -1345,13 +1734,6 @@
               "kind": "Ultimate 2"
             },
             {
-              "kind": "Technique 2",
-              "label": "x12"
-            },
-            {
-              "kind": "Ultimate 2"
-            },
-            {
               "kind": "Technique"
             }
           ]
@@ -1361,35 +1743,11 @@
           "actions": [
             {
               "kind": "Technique 4"
-            },
-            {
-              "kind": "BFS"
-            },
-            {
-              "kind": "Counter"
-            },
-            {
-              "kind": "Technique",
-              "label": "2x"
-            },
-            {
-              "kind": "Swap",
-              "slug": "szayelaporro"
-            },
-            {
-              "kind": "Counter"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ulquiorra-resurreccion"
-            },
-            {
-              "kind": "Counter"
             }
           ]
         }
       ],
-      "notes": "This is only one way to start the rotation. There are many others, find the one that suits you best."
+      "notes": "2nd highest DPS team as of True Shikai's release."
     },
     {
       "name": "Momo Swap",
@@ -1516,92 +1874,6 @@
         }
       ],
       "notes": "Momo as a SR unit can replace Szayelaporro. Ulquiorra and Aizen remain required SSRs."
-    }
-  ],
-  "f2p-rotations": [
-    {
-      "name": "Ulquiorra Mono Spirit — Frenzy Feast",
-      "goal": "frenzy-feast",
-      "tags": [
-        "Burst",
-        "Speed"
-      ],
-      "video": "",
-      "unverified": true,
-      "steps": [
-        "Szayelaporro: Technique → swap to Ulquiorra",
-        "Ulquiorra: Technique",
-        "Sosuke: Technique 3 → Technique x2 → Basic Attack → BFS",
-        "Szayelaporro: Counter → Ultimate → swap to Ulquiorra → Counter"
-      ],
-      "iconSteps": [
-        {
-          "slug": "szayelaporro",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ulquiorra-resurreccion"
-            }
-          ]
-        },
-        {
-          "slug": "ulquiorra-resurreccion",
-          "actions": [
-            {
-              "kind": "Technique"
-            }
-          ]
-        },
-        {
-          "slug": "aizen",
-          "actions": [
-            {
-              "kind": "Technique 3"
-            },
-            {
-              "kind": "Technique",
-              "label": "x2"
-            },
-            {
-              "kind": "Basic Attack"
-            },
-            {
-              "kind": "BFS"
-            }
-          ]
-        },
-        {
-          "slug": "szayelaporro",
-          "actions": [
-            {
-              "kind": "Counter"
-            },
-            {
-              "kind": "Ultimate"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ulquiorra-resurreccion"
-            },
-            {
-              "kind": "Counter"
-            }
-          ]
-        },
-        {
-          "slug": "ulquiorra-resurreccion",
-          "actions": [
-            {
-              "kind": "Repeat",
-              "label": "Step 01"
-            }
-          ]
-        }
-      ],
-      "notes": "Front-loads every buff so Ulquiorra swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     },
     {
       "name": "Ulquiorra Mono Spirit — Ranuganga",
@@ -2515,262 +2787,26 @@
       "notes": "A closed loop with no opener and no Ultimate dump, so it holds up after the burst routes run dry. Bank Ulquiorra's Ultimate for whatever window the stage gives you. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     },
     {
-      "name": "B0 Ulq B1 Aizen (Rotation by Legacy)",
-      "goal": "general",
-      "tags": [
-        "Burst"
-      ],
-      "video": "",
-      "steps": [
-        "In Segunda Etapa, use technique into basic attack to refresh, then technique once again before swapping out to Aizen using battlefield",
-        "Aizen Technique combo (finish it completely) → Battlefield (3 Pressure Stacks before using) → Ultimate",
-        "Counter with Szayelaporro → Ultimate → Technique → Counter with Ulquiorra → Technique → 1 basic attack → Swap to Aizen",
-        "Aizen basic attack OR technique (if it's available) → Hado 90: Kurohitsugi → Szayelaporro counter → Ulquiorra counter",
-        "Ulquiorra technique → Enhanced technique → Technique 2-4 → Ultimate → Technique spam → Ultimate → Aizen Battlefield"
-      ],
-      "iconSteps": [
-        {
-          "slug": "szayelaporro",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ulquiorra-resurreccion"
-            }
-          ]
-        },
-        {
-          "slug": "ulquiorra-resurreccion",
-          "actions": [
-            {
-              "kind": "Technique"
-            }
-          ]
-        },
-        {
-          "slug": "aizen",
-          "actions": [
-            {
-              "kind": "Technique 3"
-            },
-            {
-              "kind": "Technique",
-              "label": "x2"
-            },
-            {
-              "kind": "Basic Attack"
-            },
-            {
-              "kind": "BFS"
-            }
-          ]
-        },
-        {
-          "slug": "szayelaporro",
-          "actions": [
-            {
-              "kind": "Counter"
-            },
-            {
-              "kind": "Ultimate"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ulquiorra-resurreccion"
-            },
-            {
-              "kind": "Counter"
-            }
-          ]
-        },
-        {
-          "slug": "ulquiorra-resurreccion",
-          "actions": [
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Dodge"
-            },
-            {
-              "kind": "Basic Attack",
-              "label": "x4"
-            },
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Dodge"
-            },
-            {
-              "kind": "Enhanced Basic Attack"
-            },
-            {
-              "kind": "Enhanced Technique"
-            },
-            {
-              "kind": "Ultimate"
-            },
-            {
-              "kind": "Technique 2"
-            }
-          ]
-        },
-        {
-          "slug": "aizen",
-          "actions": [
-            {
-              "kind": "Technique 3"
-            },
-            {
-              "kind": "Technique",
-              "label": "x2"
-            },
-            {
-              "kind": "Basic Attack"
-            },
-            {
-              "kind": "BFS"
-            },
-            {
-              "kind": "Ultimate"
-            },
-            {
-              "kind": "Swap",
-              "slug": "szayelaporro"
-            },
-            {
-              "kind": "Counter"
-            }
-          ]
-        },
-        {
-          "slug": "szayelaporro",
-          "actions": [
-            {
-              "kind": "Ultimate 2"
-            },
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ulquiorra-resurreccion"
-            },
-            {
-              "kind": "Counter"
-            }
-          ]
-        },
-        {
-          "slug": "ulquiorra-resurreccion",
-          "actions": [
-            {
-              "kind": "Technique 2"
-            },
-            {
-              "kind": "Basic Attack 2",
-              "label": "x3"
-            },
-            {
-              "kind": "Technique 2"
-            },
-            {
-              "kind": "Swap",
-              "slug": "aizen"
-            }
-          ]
-        },
-        {
-          "slug": "aizen",
-          "actions": [
-            {
-              "kind": "Technique",
-              "label": "x2"
-            },
-            {
-              "kind": "Basic Attack"
-            },
-            {
-              "kind": "BFS"
-            },
-            {
-              "kind": "Swap",
-              "slug": "szayelaporro"
-            },
-            {
-              "kind": "Counter"
-            },
-            {
-              "kind": "Swap",
-              "slug": "ulquiorra-resurreccion"
-            },
-            {
-              "kind": "Counter"
-            }
-          ]
-        },
-        {
-          "slug": "ulquiorra-resurreccion",
-          "actions": [
-            {
-              "kind": "Technique 2"
-            },
-            {
-              "kind": "Enhanced Technique 2"
-            },
-            {
-              "kind": "Technique 2",
-              "label": "x2"
-            },
-            {
-              "kind": "Ultimate 2"
-            },
-            {
-              "kind": "Technique"
-            }
-          ]
-        },
-        {
-          "slug": "aizen",
-          "actions": [
-            {
-              "kind": "Technique 4"
-            }
-          ]
-        }
-      ],
-      "notes": "2nd highest DPS team as of True Shikai's release."
-    },
-    {
-      "name": "Momo Swap",
-      "goal": "general",
+      "name": "Ulquiorra Mono Spirit — Frenzy Feast",
+      "goal": "frenzy-feast",
       "tags": [
         "Burst",
-        "F2P"
+        "Speed"
       ],
       "video": "",
-      "lineup": [
-        "momo"
-      ],
+      "unverified": true,
       "steps": [
-        "Momo Technique → Special attack x2 → Ulquiorra technique",
-        "Battlefield → Technique (complete combo) → Battlefield → Momo counter → Momo Ultimate",
-        "Ulquiorra counter → Technique → Dodge → Basic attack to refresh Technique → Technique → Dodge → Special Attack → Cero Oscuras",
-        "Ulquiorra Ultimate → Technique → Basic attack to refresh Technique → Technique → Battlefield"
+        "Szayelaporro: Technique → swap to Ulquiorra",
+        "Ulquiorra: Technique",
+        "Sosuke: Technique 3 → Technique x2 → Basic Attack → BFS",
+        "Szayelaporro: Counter → Ultimate → swap to Ulquiorra → Counter"
       ],
       "iconSteps": [
         {
-          "slug": "momo",
+          "slug": "szayelaporro",
           "actions": [
             {
               "kind": "Technique"
-            },
-            {
-              "kind": "SpcAtk",
-              "label": "x2"
             },
             {
               "kind": "Swap",
@@ -2790,33 +2826,35 @@
           "slug": "aizen",
           "actions": [
             {
+              "kind": "Technique 3"
+            },
+            {
+              "kind": "Technique",
+              "label": "x2"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
               "kind": "BFS"
-            },
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "BFS"
-            },
-            {
-              "kind": "Swap",
-              "slug": "momo"
             }
           ]
         },
         {
-          "slug": "momo",
+          "slug": "szayelaporro",
           "actions": [
+            {
+              "kind": "Counter"
+            },
             {
               "kind": "Ultimate"
             },
             {
-              "kind": "SpcAtk",
-              "label": "x2"
-            },
-            {
               "kind": "Swap",
               "slug": "ulquiorra-resurreccion"
+            },
+            {
+              "kind": "Counter"
             }
           ]
         },
@@ -2824,51 +2862,13 @@
           "slug": "ulquiorra-resurreccion",
           "actions": [
             {
-              "kind": "Counter"
-            },
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Dodge"
-            },
-            {
-              "kind": "Basic Attack"
-            },
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Dodge"
-            },
-            {
-              "kind": "SpcAtk"
-            },
-            {
-              "kind": "Cero Oscuras"
-            },
-            {
-              "kind": "Ultimate"
-            },
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Basic Attack"
-            },
-            {
-              "kind": "Technique"
-            },
-            {
-              "kind": "Battlefield Skill"
-            },
-            {
-              "kind": "Repeat"
+              "kind": "Repeat",
+              "label": "Step 01"
             }
           ]
         }
       ],
-      "notes": "Momo as a SR unit can replace Szayelaporro. Ulquiorra and Aizen remain required SSRs."
+      "notes": "Front-loads every buff so Ulquiorra swings inside the full window — no second cycle, which is the trade a timed score push wants. Generated for the F2P route from this comp's own rotation — not play-tested yet."
     }
   ]
 }
