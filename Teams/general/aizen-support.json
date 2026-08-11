@@ -51,6 +51,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Technique → swap to Szayelaporro",
@@ -126,6 +127,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Sosuke",
@@ -196,6 +198,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Ultimate → swap to Szayelaporro",
@@ -298,6 +301,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → Counter → swap to Sosuke",
@@ -415,6 +419,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Technique → Ultimate → swap to Szayelaporro",
@@ -550,6 +555,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Sosuke: Technique → Basic Attack x3 → swap to Szayelaporro",
@@ -639,14 +645,15 @@
     },
     {
       "name": "Aizen Double Support",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Aizen Technique (2x) → Battlefield → Ultimate → Basic Attack (until lightning) → Kisuke Counter → Special Attack (2x) → Szayelaporro Counter → Ultimate → Technique → Basic Attack → Hado 90",
         "Szayelaporro Counter → Kisuke Counter → Technique → Special Attack (2x) → Kisuke Ultimate → Aizen Battlefield"
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "f2p-rotations": [
@@ -657,6 +664,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Technique → swap to Szayelaporro",
@@ -732,6 +740,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Sosuke",
@@ -802,6 +811,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Ultimate → swap to Szayelaporro",
@@ -904,6 +914,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → Counter → swap to Sosuke",
@@ -1021,6 +1032,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Technique → Ultimate → swap to Szayelaporro",
@@ -1156,6 +1168,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Sosuke: Technique → Basic Attack x3 → swap to Szayelaporro",
@@ -1245,14 +1258,15 @@
     },
     {
       "name": "Aizen Double Support",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Aizen Technique (2x) → Battlefield → Ultimate → Basic Attack (until lightning) → Kisuke Counter → Special Attack (2x) → Szayelaporro Counter → Ultimate → Technique → Basic Attack → Hado 90",
         "Szayelaporro Counter → Kisuke Counter → Technique → Special Attack (2x) → Kisuke Ultimate → Aizen Battlefield"
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "rotationF2P": "Using Momo or Orihime will cause difficulty in increasing Aizen's Suppression Gauge. Would recommend entering Aizen Ultimate with his Battlefield already half full. Damage will also be much lower without B4 Aizen."

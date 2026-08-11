@@ -49,6 +49,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Technique → swap to Mayuri",
@@ -124,6 +125,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Mayuri: Technique → swap to Ichigo",
@@ -194,6 +196,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Ultimate → swap to Mayuri",
@@ -296,6 +299,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Mayuri: Technique → Counter → swap to Ichigo",
@@ -413,6 +417,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Technique → Ultimate → swap to Mayuri",
@@ -548,6 +553,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ichigo: Technique → Basic Attack x3 → swap to Mayuri",
@@ -637,13 +643,14 @@
     },
     {
       "name": "White Double Support",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         ""
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "f2p-rotations": [
@@ -654,6 +661,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Technique → swap to Mayuri",
@@ -729,6 +737,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Mayuri: Technique → swap to Ichigo",
@@ -799,6 +808,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Ultimate → swap to Mayuri",
@@ -901,6 +911,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Mayuri: Technique → Counter → swap to Ichigo",
@@ -1018,6 +1029,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Technique → Ultimate → swap to Mayuri",
@@ -1153,6 +1165,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ichigo: Technique → Basic Attack x3 → swap to Mayuri",
@@ -1242,13 +1255,14 @@
     },
     {
       "name": "White Double Support",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         ""
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "rotationF2P": ""

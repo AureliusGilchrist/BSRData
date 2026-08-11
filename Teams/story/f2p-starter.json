@@ -51,6 +51,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Inoue: Technique → swap to Uryu",
@@ -126,6 +127,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Uryu: Technique → swap to Ichigo",
@@ -196,6 +198,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Inoue: Ultimate → swap to Uryu",
@@ -298,6 +301,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Uryu: Technique → Counter → swap to Ichigo",
@@ -415,6 +419,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Inoue: Technique → Ultimate → swap to Uryu",
@@ -550,6 +555,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ichigo: Technique → Basic Attack x3 → swap to Uryu",
@@ -639,13 +645,14 @@
     },
     {
       "name": "F2P Starter — Story Friendly",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Orihime Technique → Ichigo Technique → Special Attack → Battlefield → Technique → Ichigo Basic Attacks"
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "f2p-rotations": [
@@ -656,6 +663,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Inoue: Technique → swap to Uryu",
@@ -731,6 +739,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Uryu: Technique → swap to Ichigo",
@@ -801,6 +810,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Inoue: Ultimate → swap to Uryu",
@@ -903,6 +913,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Uryu: Technique → Counter → swap to Ichigo",
@@ -1020,6 +1031,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Inoue: Technique → Ultimate → swap to Uryu",
@@ -1155,6 +1167,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ichigo: Technique → Basic Attack x3 → swap to Uryu",
@@ -1244,13 +1257,14 @@
     },
     {
       "name": "F2P Starter — Story Friendly",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Orihime Technique → Ichigo Technique → Special Attack → Battlefield → Technique → Ichigo Basic Attacks"
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "rotationF2P": "Story friendly team."

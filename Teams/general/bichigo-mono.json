@@ -48,6 +48,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Technique → swap to Ichigo",
@@ -123,6 +124,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ichigo: Technique → swap to Ichigo",
@@ -193,6 +195,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Ultimate → swap to Ichigo",
@@ -295,6 +298,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ichigo: Technique → Counter → swap to Ichigo",
@@ -412,6 +416,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Technique → Ultimate → swap to Ichigo",
@@ -547,6 +552,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ichigo: Technique → Basic Attack x3 → swap to Ichigo",
@@ -636,14 +642,15 @@
     },
     {
       "name": "Bankai Ichigo Mono Slash",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Bichigo Technique → Special Attack → Kisuke Technique → White Special Attack → White Technique → Bichigo counter → Special Attack → Kisuke Special Attack (2x) → White Basic Attack (1-2) → Bichigo Basic Attack (3x) → Special attack → Kisuke Ultimate → White Basic Attack until Bichigo Technique is available → Bichigo Technique → Special Attack → White Basic Attack until Battlefield is available → Battlefield → Finish Combo (can quickswap out as the sword being thrown down animation plays) → Kisuke Technique (can be quickswapped out of) → Bichigo Ultimate",
         "Special Attack (Cancel it immediately with counter) → Manual Counter → Special Attack → White Special Attack → Manual Counter → Technique → Bichigo Counter → Special Attack → Battlefield → White Ultimate → Kisuke Technique (1-2) → Bichigo Technique → Special Attack → Bichigo Technique → Special Attack → Bichigo Ultimate → Basic Attack (3) → Special Attack → Kisuke Ultimate → Manually release Kisuke Technique → White Ultimate"
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "f2p-rotations": [
@@ -654,6 +661,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Technique → swap to Ichigo",
@@ -729,6 +737,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ichigo: Technique → swap to Ichigo",
@@ -799,6 +808,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Ultimate → swap to Ichigo",
@@ -901,6 +911,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ichigo: Technique → Counter → swap to Ichigo",
@@ -1018,6 +1029,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kisuke: Technique → Ultimate → swap to Ichigo",
@@ -1153,6 +1165,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ichigo: Technique → Basic Attack x3 → swap to Ichigo",
@@ -1242,14 +1255,15 @@
     },
     {
       "name": "Bankai Ichigo Mono Slash",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Bichigo Technique → Special Attack → Kisuke Technique → White Special Attack → White Technique → Bichigo counter → Special Attack → Kisuke Special Attack (2x) → White Basic Attack (1-2) → Bichigo Basic Attack (3x) → Special attack → Kisuke Ultimate → White Basic Attack until Bichigo Technique is available → Bichigo Technique → Special Attack → White Basic Attack until Battlefield is available → Battlefield → Finish Combo (can quickswap out as the sword being thrown down animation plays) → Kisuke Technique (can be quickswapped out of) → Bichigo Ultimate",
         "Special Attack (Cancel it immediately with counter) → Manual Counter → Special Attack → White Special Attack → Manual Counter → Technique → Bichigo Counter → Special Attack → Battlefield → White Ultimate → Kisuke Technique (1-2) → Bichigo Technique → Special Attack → Bichigo Technique → Special Attack → Bichigo Ultimate → Basic Attack (3) → Special Attack → Kisuke Ultimate → Manually release Kisuke Technique → White Ultimate"
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "rotationF2P": "Rotation should be the exact same as P2W counterpart."

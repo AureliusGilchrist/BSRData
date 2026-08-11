@@ -54,6 +54,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Ulquiorra",
@@ -138,6 +139,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Ulquiorra",
@@ -203,6 +205,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Ulquiorra",
@@ -450,6 +453,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Counter → Technique → swap to Ulquiorra",
@@ -761,6 +765,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Ulquiorra",
@@ -1042,6 +1047,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Ulquiorra",
@@ -1114,9 +1120,11 @@
     },
     {
       "name": "B6W5C5",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "In Segunda Etapa, use technique into basic attack to refresh, then technique once again before swapping out to Aizen using battlefield",
         "Aizen Technique combo (finish it completely) → Battlefield (3 Pressure Stacks before using) → Ultimate",
@@ -1381,17 +1389,18 @@
           ]
         }
       ],
-      "notes": "This is only one way to start the rotation. There are many others, find the one that suits you best.",
-      "goal": "general"
+      "notes": "This is only one way to start the rotation. There are many others, find the one that suits you best."
     },
     {
       "name": "Momo Swap",
-      "lineup": [
-        "momo"
-      ],
+      "goal": "general",
       "tags": [
         "Burst",
         "F2P"
+      ],
+      "video": "",
+      "lineup": [
+        "momo"
       ],
       "steps": [
         "Momo Technique → Special attack x2 → Ulquiorra technique",
@@ -1506,8 +1515,7 @@
           ]
         }
       ],
-      "notes": "Momo as a SR unit can replace Szayelaporro. Ulquiorra and Aizen remain required SSRs.",
-      "goal": "general"
+      "notes": "Momo as a SR unit can replace Szayelaporro. Ulquiorra and Aizen remain required SSRs."
     }
   ],
   "f2p-rotations": [
@@ -1518,6 +1526,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Ulquiorra",
@@ -1602,6 +1611,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Ulquiorra",
@@ -1667,6 +1677,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Ulquiorra",
@@ -1930,6 +1941,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Counter → Technique → swap to Ulquiorra",
@@ -2195,6 +2207,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Ulquiorra",
@@ -2433,6 +2446,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Ulquiorra",
@@ -2502,9 +2516,11 @@
     },
     {
       "name": "B0 Ulq B1 Aizen (Rotation by Legacy)",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "In Segunda Etapa, use technique into basic attack to refresh, then technique once again before swapping out to Aizen using battlefield",
         "Aizen Technique combo (finish it completely) → Battlefield (3 Pressure Stacks before using) → Ultimate",
@@ -2726,17 +2742,18 @@
           ]
         }
       ],
-      "notes": "2nd highest DPS team as of True Shikai's release.",
-      "goal": "general"
+      "notes": "2nd highest DPS team as of True Shikai's release."
     },
     {
       "name": "Momo Swap",
-      "lineup": [
-        "momo"
-      ],
+      "goal": "general",
       "tags": [
         "Burst",
         "F2P"
+      ],
+      "video": "",
+      "lineup": [
+        "momo"
       ],
       "steps": [
         "Momo Technique → Special attack x2 → Ulquiorra technique",
@@ -2851,8 +2868,7 @@
           ]
         }
       ],
-      "notes": "Momo as a SR unit can replace Szayelaporro. Ulquiorra and Aizen remain required SSRs.",
-      "goal": "general"
+      "notes": "Momo as a SR unit can replace Szayelaporro. Ulquiorra and Aizen remain required SSRs."
     }
   ]
 }

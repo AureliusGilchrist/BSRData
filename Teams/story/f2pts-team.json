@@ -55,6 +55,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Technique → swap to Kaname",
@@ -130,6 +131,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kaname: Technique → swap to Ichigo",
@@ -200,6 +202,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Ultimate → swap to Kaname",
@@ -302,6 +305,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kaname: Technique → Counter → swap to Ichigo",
@@ -419,6 +423,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Technique → Ultimate → swap to Kaname",
@@ -554,6 +559,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ichigo: Technique → Basic Attack x3 → swap to Kaname",
@@ -643,13 +649,14 @@
     },
     {
       "name": "F2P True Shikai",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         ""
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "f2p-rotations": [
@@ -660,6 +667,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Technique → swap to Kaname",
@@ -735,6 +743,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kaname: Technique → swap to Ichigo",
@@ -805,6 +814,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Ultimate → swap to Kaname",
@@ -907,6 +917,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kaname: Technique → Counter → swap to Ichigo",
@@ -1024,6 +1035,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Technique → Ultimate → swap to Kaname",
@@ -1159,6 +1171,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ichigo: Technique → Basic Attack x3 → swap to Kaname",
@@ -1248,13 +1261,14 @@
     },
     {
       "name": "F2P True Shikai",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         ""
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "rotationF2P": ""

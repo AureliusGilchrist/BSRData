@@ -51,6 +51,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Sosuke: Technique → swap to Szayelaporro",
@@ -126,6 +127,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Toshiro",
@@ -196,6 +198,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Sosuke: Ultimate → swap to Szayelaporro",
@@ -298,6 +301,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → Counter → swap to Toshiro",
@@ -415,6 +419,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Sosuke: Technique → Ultimate → swap to Szayelaporro",
@@ -550,6 +555,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Toshiro: Technique → Basic Attack x3 → swap to Szayelaporro",
@@ -639,13 +645,14 @@
     },
     {
       "name": "Toshiro Mono Spirit",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Toshiro Basic Attack until Battlefield is ready → Battlefield → Aizen Technique (2x) → Aizen Ultimate → Basic Attack combo → Hado 90 → Szayelaporro Counter → Ultimate → Technique → Toshiro Counter → Technique → Basic Attack (until 24 Illusion stacks) → Toshiro Ultimate → Basic Attack (while moving) → Get 5 Build Up stacks → Ultimate → Technique → Basic Attack (2 full combos) → Aizen Battlefield"
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "f2p-rotations": [
@@ -656,6 +663,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Sosuke: Technique → swap to Szayelaporro",
@@ -731,6 +739,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Toshiro",
@@ -801,6 +810,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Sosuke: Ultimate → swap to Szayelaporro",
@@ -903,6 +913,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → Counter → swap to Toshiro",
@@ -1020,6 +1031,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Sosuke: Technique → Ultimate → swap to Szayelaporro",
@@ -1155,6 +1167,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Toshiro: Technique → Basic Attack x3 → swap to Szayelaporro",
@@ -1244,13 +1257,14 @@
     },
     {
       "name": "Toshiro Mono Spirit",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Toshiro Basic Attack until Battlefield is ready → Battlefield → Aizen Technique (2x) → Aizen Ultimate → Basic Attack combo → Hado 90 → Szayelaporro Counter → Ultimate → Technique → Toshiro Counter → Technique → Basic Attack (until 24 Illusion stacks) → Toshiro Ultimate → Basic Attack (while moving) → Get 5 Build Up stacks → Ultimate → Technique → Basic Attack (2 full combos) → Aizen Battlefield"
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "rotationF2P": "Momo should function the same as Szayelaporro."

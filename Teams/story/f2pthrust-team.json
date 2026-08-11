@@ -57,6 +57,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Technique → swap to Uryu",
@@ -132,6 +133,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Uryu: Technique → swap to Renji",
@@ -202,6 +204,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Ultimate → swap to Uryu",
@@ -304,6 +307,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Uryu: Technique → Counter → swap to Renji",
@@ -421,6 +425,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Technique → Ultimate → swap to Uryu",
@@ -556,6 +561,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Renji: Technique → Basic Attack x3 → swap to Uryu",
@@ -645,13 +651,14 @@
     },
     {
       "name": "F2P Thrust Team",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         ""
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "f2p-rotations": [
@@ -662,6 +669,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Technique → swap to Uryu",
@@ -737,6 +745,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Uryu: Technique → swap to Renji",
@@ -807,6 +816,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Ultimate → swap to Uryu",
@@ -909,6 +919,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Uryu: Technique → Counter → swap to Renji",
@@ -1026,6 +1037,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Technique → Ultimate → swap to Uryu",
@@ -1161,6 +1173,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Renji: Technique → Basic Attack x3 → swap to Uryu",
@@ -1250,13 +1263,14 @@
     },
     {
       "name": "F2P Thrust Team",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         ""
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "rotationF2P": ""

@@ -57,6 +57,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Mayuri: Technique → swap to Soi",
@@ -132,6 +133,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Soi: Technique → swap to Yoruichi",
@@ -202,6 +204,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Mayuri: Ultimate → swap to Soi",
@@ -304,6 +307,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Soi: Technique → Counter → swap to Yoruichi",
@@ -421,6 +425,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Mayuri: Technique → Ultimate → swap to Soi",
@@ -556,6 +561,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Yoruichi: Technique → Basic Attack x3 → swap to Soi",
@@ -645,13 +651,14 @@
     },
     {
       "name": "F2P Strike Team",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         ""
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "f2p-rotations": [
@@ -662,6 +669,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Mayuri: Technique → swap to Soi",
@@ -737,6 +745,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Soi: Technique → swap to Yoruichi",
@@ -807,6 +816,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Mayuri: Ultimate → swap to Soi",
@@ -909,6 +919,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Soi: Technique → Counter → swap to Yoruichi",
@@ -1026,6 +1037,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Mayuri: Technique → Ultimate → swap to Soi",
@@ -1161,6 +1173,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Yoruichi: Technique → Basic Attack x3 → swap to Soi",
@@ -1250,13 +1263,14 @@
     },
     {
       "name": "F2P Strike Team",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         ""
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "rotationF2P": ""

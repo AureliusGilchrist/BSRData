@@ -49,6 +49,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kurotsuchi: Technique → swap to Nelliel",
@@ -124,6 +125,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Nelliel: Technique → swap to Grimmjow",
@@ -194,6 +196,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kurotsuchi: Ultimate → swap to Nelliel",
@@ -296,6 +299,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Nelliel: Technique → Counter → swap to Grimmjow",
@@ -413,6 +417,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kurotsuchi: Technique → Ultimate → swap to Nelliel",
@@ -548,6 +553,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Grimmjow: Technique → Basic Attack x3 → swap to Nelliel",
@@ -637,14 +643,15 @@
     },
     {
       "name": "Pantera Nel Team",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Manual Counter in Nel Resurreccion → Special Attack → Technique (2x) → Mayuri Technique → Special Attack → Pantera Quickswap Pounce → Nel Ultimate → Manual Counter → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Pantera Ultimate → Quickswap Pounce → Mayuri Ultimate → Nel Ultimate",
         "Nel Technique → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Battlefield → Manual Counter → Basic Attack → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Nel Basic Attack → Pantera Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Nel Ultimate → Technique (2x) → Pantera Ultimate → Pounce → Enhanced Technique → Quickswap Pounce → Nel Manual Counter → Special Attack → Mayuri Ultimate → Mayuri Technique → Special Attack → Nel Ultimate → Pantera Counter → Pounce → Enhanced Technique → Pantera Technique → Nel Ultimate"
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "f2p-rotations": [
@@ -655,6 +662,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kurotsuchi: Technique → swap to Nelliel",
@@ -730,6 +738,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Nelliel: Technique → swap to Grimmjow",
@@ -800,6 +809,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kurotsuchi: Ultimate → swap to Nelliel",
@@ -902,6 +912,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Nelliel: Technique → Counter → swap to Grimmjow",
@@ -1019,6 +1030,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kurotsuchi: Technique → Ultimate → swap to Nelliel",
@@ -1154,6 +1166,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Grimmjow: Technique → Basic Attack x3 → swap to Nelliel",
@@ -1243,14 +1256,15 @@
     },
     {
       "name": "Pantera Nel Team",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Manual Counter in Nel Resurreccion → Special Attack → Technique (2x) → Mayuri Technique → Special Attack → Pantera Quickswap Pounce → Nel Ultimate → Manual Counter → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Pantera Ultimate → Quickswap Pounce → Mayuri Ultimate → Nel Ultimate",
         "Nel Technique → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Battlefield → Manual Counter → Basic Attack → Special Attack → Pantera Counter → Pounce → Enhanced Technique → Quickswap Pounce → Nel Basic Attack → Pantera Pounce → Enhanced Technique → Quickswap Pounce → Mayuri Technique → Special Attack → Nel Ultimate → Technique (2x) → Pantera Ultimate → Pounce → Enhanced Technique → Quickswap Pounce → Nel Manual Counter → Special Attack → Mayuri Ultimate → Mayuri Technique → Special Attack → Nel Ultimate → Pantera Counter → Pounce → Enhanced Technique → Pantera Technique → Nel Ultimate"
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "rotationF2P": "Lower boundaries team would require more fieldtime with Nel"

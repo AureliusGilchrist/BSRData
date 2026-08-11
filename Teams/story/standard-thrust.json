@@ -49,6 +49,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Technique → swap to Kaname",
@@ -124,6 +125,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kaname: Technique → swap to Ikkaku",
@@ -194,6 +196,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Ultimate → swap to Kaname",
@@ -296,6 +299,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kaname: Technique → Counter → swap to Ikkaku",
@@ -413,6 +417,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Technique → Ultimate → swap to Kaname",
@@ -548,6 +553,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ikkaku: Technique → Basic Attack x3 → swap to Kaname",
@@ -637,13 +643,14 @@
     },
     {
       "name": "Standard Banner Thrust",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Tosen Battlefield → Rangiku Technique → Ikkaku Technique → Basic Attack spam → Special Attack (Whenever it's available) → Rangiku Ultimate"
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "f2p-rotations": [
@@ -654,6 +661,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Technique → swap to Kaname",
@@ -729,6 +737,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kaname: Technique → swap to Ikkaku",
@@ -799,6 +808,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Ultimate → swap to Kaname",
@@ -901,6 +911,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kaname: Technique → Counter → swap to Ikkaku",
@@ -1018,6 +1029,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Rangiku: Technique → Ultimate → swap to Kaname",
@@ -1153,6 +1165,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ikkaku: Technique → Basic Attack x3 → swap to Kaname",
@@ -1242,13 +1255,14 @@
     },
     {
       "name": "Standard Banner Thrust",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Tosen Battlefield → Rangiku Technique → Ikkaku Technique → Basic Attack spam → Special Attack (Whenever it's available) → Rangiku Ultimate"
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "rotationF2P": ""

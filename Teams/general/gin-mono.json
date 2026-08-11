@@ -52,6 +52,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kurotsuchi: Technique → swap to Nelliel",
@@ -127,6 +128,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Nelliel: Technique → swap to Gin",
@@ -197,6 +199,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kurotsuchi: Ultimate → swap to Nelliel",
@@ -299,6 +302,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Nelliel: Technique → Counter → swap to Gin",
@@ -416,6 +420,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kurotsuchi: Technique → Ultimate → swap to Nelliel",
@@ -551,6 +556,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Gin: Technique → Basic Attack x3 → swap to Nelliel",
@@ -640,14 +646,15 @@
     },
     {
       "name": "Gin Mono Thrust",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Nel Battlefield → Technique → Mayuri Ultimate (Wait for Nel to swipe left) → Basic Attack (Impale cooldown) → Mayuri Technique → Special Attack → Gin Technique (1x) → Gin Manual Counter → Gin Technique (2x) → Gin Technique (1x) → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Nel Ultimate",
         "Nel Manual Counter → Special Attack → Technique (2x) → Mayuri Technique → Gin Manual Counter → Technique (1x) → Nel Ultimate → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Technique (2x) → Technique (1x) → Gin Ultimate → Nel Ultimate"
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "f2p-rotations": [
@@ -658,6 +665,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kurotsuchi: Technique → swap to Nelliel",
@@ -733,6 +741,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Nelliel: Technique → swap to Gin",
@@ -803,6 +812,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kurotsuchi: Ultimate → swap to Nelliel",
@@ -905,6 +915,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Nelliel: Technique → Counter → swap to Gin",
@@ -1022,6 +1033,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Kurotsuchi: Technique → Ultimate → swap to Nelliel",
@@ -1157,6 +1169,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Gin: Technique → Basic Attack x3 → swap to Nelliel",
@@ -1246,14 +1259,15 @@
     },
     {
       "name": "Gin Mono Thrust",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Nel Battlefield → Technique → Mayuri Ultimate (Wait for Nel to swipe left) → Basic Attack (Impale cooldown) → Mayuri Technique → Special Attack → Gin Technique (1x) → Gin Manual Counter → Gin Technique (2x) → Gin Technique (1x) → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Nel Ultimate",
         "Nel Manual Counter → Special Attack → Technique (2x) → Mayuri Technique → Gin Manual Counter → Technique (1x) → Nel Ultimate → Nel Manual Counter → Special Attack → Gin Counter → Technique (1x) → Manual Counter → Technique (2x) → Technique (1x) → Gin Ultimate → Nel Ultimate"
-      ],
-      "goal": "general"
+      ]
     }
   ]
 }

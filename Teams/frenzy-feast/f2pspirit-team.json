@@ -56,6 +56,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Sosuke",
@@ -131,6 +132,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Sosuke: Technique → swap to Ulquiorra",
@@ -201,6 +203,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Ultimate → swap to Sosuke",
@@ -303,6 +306,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Sosuke: Technique → Counter → swap to Ulquiorra",
@@ -420,6 +424,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → Ultimate → swap to Sosuke",
@@ -555,6 +560,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ulquiorra: Technique → Basic Attack x3 → swap to Sosuke",
@@ -644,13 +650,14 @@
     },
     {
       "name": "F2P Strike Team",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         ""
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "f2p-rotations": [
@@ -661,6 +668,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → swap to Sosuke",
@@ -736,6 +744,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Sosuke: Technique → swap to Ulquiorra",
@@ -806,6 +815,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Ultimate → swap to Sosuke",
@@ -908,6 +918,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Sosuke: Technique → Counter → swap to Ulquiorra",
@@ -1025,6 +1036,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Szayelaporro: Technique → Ultimate → swap to Sosuke",
@@ -1160,6 +1172,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "unverified": true,
       "steps": [
         "Ulquiorra: Technique → Basic Attack x3 → swap to Sosuke",
@@ -1249,13 +1262,14 @@
     },
     {
       "name": "F2P Strike Team",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         ""
-      ],
-      "goal": "general"
+      ]
     }
   ],
   "rotationF2P": ""

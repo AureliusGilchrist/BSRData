@@ -50,6 +50,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "steps": [
         "Mayuri Ultimate first (ailment buff up before anything swings) → Kenpachi Technique → Enhanced Special Attack",
         "White Special Attack → Technique for the Slash amp → swap straight back to Kenpachi",
@@ -147,6 +148,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Short fight — one full burst is the whole rotation",
         "Mayuri Ultimate → Kenpachi Technique → Enhanced Special Attack → Ultimate"
@@ -221,6 +223,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "steps": [
         "Two-cycle fight: burst, rebuild, burst again",
         "Full opener, then loop basics until Mayuri Ultimate is back before the second Kenpachi Ultimate"
@@ -336,6 +339,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "steps": [
         "Hits hard enough that raw burst gets you killed — Counter windows are mandatory",
         "White holds the front between Kenpachi windows; Battlefield Skill saved for the damage phase"
@@ -479,6 +483,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "steps": [
         "Enrage timer fight: nothing is banked, but nothing is wasted either",
         "Open into the full buff stack, then hold the sustain loop and dump Ultimates on every damage window"
@@ -639,6 +644,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "steps": [
         "Skip the burst opener entirely — go straight into the repeatable loop",
         "Kenpachi Technique → Basic ×3 → swap to White for the Slash amp → back to Kenpachi",
@@ -741,9 +747,11 @@
     },
     {
       "name": "Kenpachi Team — General",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Kenpachi Technique → Mayuri Ultimate → White Special Attack → Basic attack x2 → Technique → Kenpachi Counter",
         "Kenpachi Special Attack → Mayuri Technique → Mayuri Special Attack→ White Basic Attack (as much as possible before Kenpachi can be swapped back onto) → Kenpachi Swap → Enhanced Technique → Swap to White → White Special Attack → White Manual Counter → Kenpachi Counter → Kenpachi Special Attack",
@@ -1000,8 +1008,7 @@
           ]
         }
       ],
-      "notes": "",
-      "goal": "general"
+      "notes": ""
     }
   ],
   "f2p-rotations": [
@@ -1012,6 +1019,7 @@
         "Burst",
         "Speed"
       ],
+      "video": "",
       "steps": [
         "Mayuri Ultimate up front, then everything Kenpachi has in one pass",
         "No second cycle — if it lives, you wanted the Sustained route instead"
@@ -1090,6 +1098,7 @@
         "Boss",
         "Burst"
       ],
+      "video": "",
       "steps": [
         "One buffed pass is enough at this tier",
         "Mayuri Ultimate → Kenpachi Technique → Special Attack → Ultimate"
@@ -1164,6 +1173,7 @@
       "tags": [
         "Boss"
       ],
+      "video": "",
       "steps": [
         "Two cycles, with basics in between purely to recharge",
         "Wait on Mayuri’s Ultimate before the second Kenpachi Ultimate"
@@ -1276,6 +1286,7 @@
         "Boss",
         "Defensive"
       ],
+      "video": "",
       "steps": [
         "Counter windows over greed — a death here costs more than the damage does",
         "White holds the front between Kenpachi entries"
@@ -1419,6 +1430,7 @@
         "Boss",
         "Sustain"
       ],
+      "video": "",
       "steps": [
         "Long fight against an enrage timer — open once, then hold the loop",
         "Dump every Ultimate on the damage windows rather than on cooldown"
@@ -1580,6 +1592,7 @@
       "tags": [
         "Sustain"
       ],
+      "video": "",
       "steps": [
         "No opener — straight into the loop, which is what F2P Kenpachi is actually good at",
         "Rotate Technique cooldowns and let Spiritual Pressure build across cycles"
@@ -1678,9 +1691,11 @@
     },
     {
       "name": "Kenpachi Team — General",
+      "goal": "general",
       "tags": [
         "Burst"
       ],
+      "video": "",
       "steps": [
         "Kenpachi Technique → Mayuri Ultimate → White Special Attack → Basic attack x2 → Technique → Kenpachi Counter",
         "Kenpachi Special Attack → Mayuri Technique → Mayuri Special Attack→ White Basic Attack (as much as possible before Kenpachi can be swapped back onto) → Kenpachi Swap → Enhanced Technique → Swap to White → White Special Attack → White Manual Counter → Kenpachi Counter → Kenpachi Special Attack",
@@ -1908,8 +1923,7 @@
           ]
         }
       ],
-      "notes": "",
-      "goal": "general"
+      "notes": ""
     }
   ]
 }
