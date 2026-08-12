@@ -389,6 +389,40 @@
       "p2w-video": "https://youtu.be/C0hAOv8AiME"
     },
     {
+      "id": "bambi-team",
+      "group": "general",
+      "path": "general/bambi-team.json",
+      "name": "Bambietta Team",
+      "rank": 12,
+      "tier": "A",
+      "difficulty": "Medium",
+      "content": "Co-op / Guild Boss / Events",
+      "goals": [
+        "general"
+      ],
+      "members": [
+        {
+          "slug": "bambietta-basterbine",
+          "name": "Bambietta Basterbine",
+          "role": "Assault",
+          "damageType": "Finesse"
+        },
+        {
+          "slug": "aizen",
+          "name": "Sosuke Aizen",
+          "role": "Tactician",
+          "damageType": "Spirit"
+        },
+        {
+          "slug": "kisuke",
+          "name": "Kisuke Urahara",
+          "role": "Support",
+          "damageType": "Slash"
+        }
+      ],
+      "p2w-video": "https://youtu.be/C0hAOv8AiME"
+    },
+    {
       "id": "f2pspirit-team",
       "group": "frenzy-feast",
       "path": "frenzy-feast/f2pspirit-team.json",

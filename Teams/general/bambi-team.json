@@ -1,0 +1,73 @@
+{
+  "group": "general",
+  "id": "bambi-team",
+  "name": "Bambietta Team",
+  "rank": 12,
+  "tier": "A",
+  "difficulty": "Medium",
+  "content": "Co-op / Guild Boss / Events",
+  "p2w-video": "",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "bambietta-basterbine",
+      "name": "Bambietta Basterbine",
+      "role": "Assault",
+      "damageType": "Finesse",
+      "notes": [
+        "Without a proper team, she will unfortunately do very little damage."
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "aizen",
+      "name": "Sosuke Aizen",
+      "role": "Tactician",
+      "damageType": "Spirit",
+      "notes": [
+        "The only tactician who works with Bambietta as of August 11."
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "kisuke",
+      "name": "Kisuke Urahara",
+      "role": "Support",
+      "damageType": "Slash",
+      "notes": [
+        "Standard banner support."
+      ],
+      "swappable": []
+    }
+  ],
+  "rotationP2W": "",
+  "p2w-rotations": [
+    {
+      "name": "Bambietta Team",
+      "goal": "general",
+      "tags": [
+        "Burst"
+      ],
+      "video": "",
+      "note": "",
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Bambietta Team",
+      "goal": "general",
+      "tags": [
+        "Burst"
+      ],
+      "video": "",
+      "note": "",
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "rotationF2P": ""
+}
