@@ -8,14 +8,14 @@
   },
   "art": "/Images/bambietta-basterbine/art.png",
   "bestStamp": {
-    "mainStats": "1: TBD  •  2: TBD  •  3: TBD",
-    "notes": "",
-    "setName": "Bambietta set (3)",
-    "subStatPriority": "TBD"
+    "mainStats": "1: Finesse DMG > ATK%  •  2: Crit Rate > Crit DMG  •  3: ATK%",
+    "notes": "W5 provides 50% Crit Rate.",
+    "setName": "Crushing Force (3)",
+    "subStatPriority": "Crit Rate (45%) > Crit DMG > ATK% > Ult Charge Rate > Flat ATK"
   },
   "bondPriority": [
     {
-      "description": "TBD",
+      "description": "Increases Finesse Mastery by 5% during battle. When equipped by a Full Assault character, Basic Attack DMG is increased by 7.5%. When Crit Rate is equal or higher than 60%, Ultimate DMG is increased by 7.5%.",
       "name": "Bambietta Bond"
     }
   ],
@@ -57,27 +57,27 @@
     {
       "label": "F2P",
       "passiveSkills": [
-        "All DMG 9%"
+        "TBD"
       ],
       "range": "B0W1C1",
-      "setName": "Bambietta Stamp (3)",
+      "setName": "Crushing Force (3)",
       "setPieces": [
         {
-          "mainStat": "TBD",
+          "mainStat": "Finesse DMG > ATK%",
           "slot": 1
         },
         {
-          "mainStat": "TBD",
+          "mainStat": "Crit Rate",
           "slot": 2
         },
         {
-          "mainStat": "TBD",
+          "mainStat": "ATK% > Ult Charge Rate",
           "slot": 3
         }
       ],
       "subStatPriority": "TBD",
       "targets": {
-        "ultChargeRate": "As high as possible"
+        "ultChargeRate": "Before B6, more Ult Charge may be necessary"
       }
     },
     {
@@ -86,24 +86,24 @@
         "TBD"
       ],
       "range": "B1W5C5 - B6W5C5",
-      "setName": "Bambietta Stamp (3)",
+      "setName": "Crushing Force (3)",
       "setPieces": [
         {
-          "mainStat": "TBD",
+          "mainStat": "Finesse DMG > ATK%",
           "slot": 1
         },
         {
-          "mainStat": "TBD",
+          "mainStat": "Crit Rate > Crit DMG",
           "slot": 2
         },
         {
-          "mainStat": "TBD",
+          "mainStat": "ATK%",
           "slot": 3
         }
       ],
-      "subStatPriority": "TBD",
+      "subStatPriority": "Crit Rate (45%) > Crit DMG > ATK% > Ult Charge Rate > Flat ATK",
       "targets": {
-        "ultChargeRate": "~168.8%"
+        "ultChargeRate": "~119%"
       }
     }
   ],
