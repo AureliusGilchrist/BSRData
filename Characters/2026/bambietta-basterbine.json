@@ -21,36 +21,36 @@
   ],
   "boundaries": [
     {
-      "description": "TBD",
+      "description": "-Increases Finesse DMG by 25%. \n -At the start of battle, Spiritual Pressure is immediately increased to maximum.",
       "icon": "/Images/bambietta-basterbine/boundary-1.png",
       "level": 1,
-      "name": ""
+      "name": "Unblockable Bomb"
     },
     {
-      "description": "TBD",
+      "description": "The maximum number of Explosion stacks that can be applied to enemies increases to 100. \n When the Entry Skill Gliding Bombardment hits an enemy, it can apply up to 30 stacks of Explosion.",
       "icon": "/Images/bambietta-basterbine/boundary-2.png",
       "level": 2,
-      "name": ""
+      "name": "Your Bankai Is Mine"
     },
     {
       "icon": "/Images/bambietta-basterbine/boundary-3.png",
       "level": 3
     },
     {
-      "description": "TBD",
+      "description": "Increases the damage multiplier of the Entry Skill Gliding Bombardment by 200%. Increases All-Skill Mastery by 25%.",
       "icon": "/Images/bambietta-basterbine/boundary-4.png",
       "level": 4,
-      "name": ""
+      "name": "Get Out Everyone!"
     },
     {
       "icon": "/Images/bambietta-basterbine/boundary-5.png",
       "level": 5
     },
     {
-      "description": "TBD",
+      "description": "Gains 3 stacks of Detonation Charge at the start of battle and 1 stacks upon entering Vollstandig, up to 4 stacks. When using the Ultimate Unrestrained Barrage, if 3 stacks of Detonation Charge are present, consumes 3 stacks of Detonation Charge to enhance it into the Ultimate Total Devastation. \n At the start of battle, gains 50% Ultimate Energy. \n Increases Ultimate DMG by 50%.",
       "icon": "/Images/bambietta-basterbine/boundary-6.png",
       "level": 6,
-      "name": ""
+      "name": "Toll of Bell of Despair"
     }
   ],
   "builds": [
@@ -109,24 +109,24 @@
   ],
   "corePassives": [
     {
-      "description": "TBD",
+      "description": "Bambietta stores excess Spiritual Pressure. Upon exiting the Vollstandig state, stored Spiritual Pressure is converted into non-Vollstandig state Spiritual Pressure at a ratio of 1:0.5. \n Bambietta can enter the Vollstandig state via Special Attack, Entry Skill, or Ultimate. The Vollstandig state lasts 18 seconds, during which her interruption resistance is increased. Upon ending the Vollstandig state, she automatically releases Technique: Diving Slash. \n While in the Vollstandig state, as as her Spiritual Pressure is above zero, hits from Basic Attack Chain Bombardment apply Explosion to enemies for 10 seconds, stacking up to 70 times. \n Additionally Bambietta continuously tracks the historical maximum stacks of Explopsion she has applied. Upon inflicting Explosion on a target whose current Explosion count is below the recorded max, she directly applies Explosion equal to that recorded count. After Basic Attack Chain Bombardment deals additional damage, the recorded maximum stack count is reset.",
       "icon": "/Images/bambietta-basterbine/passive-1.png",
-      "name": ""
+      "name": "Shrift E"
     },
     {
-      "description": "TBD",
+      "description": "If a character other than Bambietta uses an Entry Skill, Bambietta gains Spiritual Pressure. When another character uses counterattack, Bambiatta gains 15% Spiritual Pressure.",
       "icon": "/Images/bambietta-basterbine/passive-2.png",
-      "name": ""
+      "name": "Bambi Squad Captain"
     },
     {
-      "description": "TBD",
+      "description": "Whenever Bambietta releases an Ultimate while in Vollstandig, the attack ignores 37.5% of the target's DEF.",
       "icon": "/Images/bambietta-basterbine/passive-3.png",
-      "name": ""
+      "name": "Bombification"
     },
     {
-      "description": "TBD",
+      "description": "When Bambietta enters the field through an Entry Skill, her ATK increases by 18.75% for 30 second(s).",
       "icon": "/Images/bambietta-basterbine/passive-4.png",
-      "name": ""
+      "name": "The Cost of Disgracing the Captain"
     }
   ],
   "damageType": "Finesse",
@@ -156,49 +156,63 @@
   ],
   "skills": [
     {
-      "description": "TBD",
+      "description": "Bambietta swings her blade and releases Reishi Bombs, striking enemies multiple times for a total damage equal to 308% of ATK and accumulating Spiritual Pressure. ~~Dashing Follow-up Attack~~ Tap Basic Attack when Follow-up Attack is active \n Bambietta dashes in front of the enemy and releases a Reishi Bomb, dealing damage equal to 268% of ATK and accumulating Spiritual Pressure. \n After releasing this skill, she can directly chain into the 3rd basic attack. ~~Thanks to You All~~ Tap and hold Basic Attack when Spiritual Pressure is full \n Bambietta consumes all Spiritual Pressure to enter Vollstandig. If Bambietta is switched to the backline while Vollstandig is active, the state ends early. ~~Chain Bombardment~~ Vollstandig State \n Bambietta launches even more powerful Reishi Bombs to attack enemies, dealing damage equal to 616% of ATK in total. \n Upon hitting a target with the final strike of Basic Attack Chain Bombardment, consumes all Spiritual Pressure (if sufficient) to release an extra Finishing Bombardment, dealing damage equal to 900% of ATK. For every 10 stacks of Explosion on the target, Finishing Bombardment ignores 5% DEF. Once this damage settles, all stacks of Explosion on the target are cleared, and the recorded historical maximum stack count is reset.",
       "icon": "/Images/bambietta-basterbine/skill-basic.png",
       "kind": "Basic Attack",
-      "name": "TBD"
+      "name": "Don't Understimate Me!"
     },
     {
-      "description": "TBD",
+      "description": "Bambietta releases a Reishi Bomb and kicks it toward the enemy, dealing damage equal to 220% of ATK and accumulating Spiritual Prssure. \n After releasing this skill, she gains Follow-up Attack. ~~Diving Slash~~ Vollstandig State \n Bambietta dives towards the enemy and slashes them, dealing damage equal to 260% of ATK. \n Releasing this technique clears all of her Spiritual Pressure ends Vollstandig. This technique is automatically released when Vollstandig ends. \n After releasing this skill, she gains Follow-up Attack.",
       "icon": "/Images/bambietta-basterbine/skill-technique.png",
       "kind": "Technique",
-      "name": "TBD"
+      "name": "Reishi Bomb"
     },
     {
-      "description": "TBD",
+      "description": "Bambietta unleashes a massive burst of Spiritual Pressure, dealing damage equal to 400% of ATK and entering Vollstandig. Switching her to the backline during the state causes Vollstandig to end early. ~~Unrestrained Barrage~~ Enter Vollstandig through a Special Attack and consume all Spiritual Pressure to activate \n Bambietta unleashes a relentless torrent of Reishi Bombs, dealing total damage equal to 940% of ATK. ~~Total Devastation~~ Enter Vollstandig through an Ultimate and consume all Spiritual Pressure to activate \n Bambietta releases a massive Reishi Bomb and slams it into the ground, dealing damage equal to 2960% of ATK.",
       "icon": "/Images/bambietta-basterbine/skill-ultimate.png",
       "kind": "Ultimate",
-      "name": "TBD"
+      "name": "Quincy: Vollstandig"
     },
     {
-      "description": "",
+      "description": "After countering an enemy attack, Bambietta swiftly moves behind the enemy and counterattacks with a Reishi Bomb, dealing damage equal to 640% of ATK, accumulating Spiritual Pressure, and gaining Follow-up Attack. ~~Now What?~~ Vollstanding State \n Bambietta evades backward, then fires a series of Reishi Bombs at enemies in front of her, dealing damage equal to 640% of ATK. \n While in Vollstanding, tapping Basic Attack after triggering a Perfect Dodge immediately releases this skill, dealing damage equal to 320% of ATK. \n After releasing this skill, Bambietta can directly chain into the 3rd hit of the basic attack.",
       "icon": "/Images/bambietta-basterbine/skill-counter.png",
       "kind": "Counter",
-      "name": "TBD"
+      "name": "Counter"
     },
     {
-      "description": "",
+      "description": "Use Hirenkyaku to avoid attacks right before they hit. \n Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Bambietta gains 15% ASPD and 25% MSPD for 4 seconds, plus Follow-up Attack. Cooldown: 15 seconds.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
-      "name": "TBD"
+      "name": "Hirenkyaku"
     }
   ],
   "slug": "bambietta-basterbine",
   "stamps": {
     "core": {
-      "ascend1": [],
+      "ascend1": [
+        "Increases Basic Attack DMG by 75%. While in Vollstandig, reduces Spiritual Pressure cost by 50% and allows Gliding Bombardment to chain directly into the 3rd Basic Attack.",
+        "While in Vollstandig, all Ultimates deal 75% more damage.",
+        "Immediately gains Follow-up Attack at the start of battle. When the Follow-up Attack is not activated at the backline, it is automatically granted after 3 seconds."
+      ],
       "ascend5": [
         "TBD"
       ]
     },
     "coreScope": "self",
     "weapon": {
-      "ascend1": [],
+      "ascend1": [
+        "Increases Crit Rate by 25%.",
+        "Increases Spiritual Pressure gained through the passive skill Bambi Squad Captain to 1.5 times the original amount.",
+        "While in the Vollstandig state, for each stack of Explosion on the target, increases the damage dealt by 0.5%.",
+        "When releasing Finishing Bombardment via the final hit of Basic Attack Chain Bombardment, DEF ignored through Explosion increases by 2.5%, and the Explosion stacks are no longer cleared.",
+        "When exiting the Vollstandig state and converting stored excess Spiritual Pressure, the conversion ratio increases to 1:1."
+      ],
       "ascend5": [
-        "TBD"
+        "Increases Crit Rate by 50%.",
+        "Increases Spiritual Pressure gained through the passive skill Bambi Squad Captain to 1.5 times the original amount.",
+        "While in the Vollstandig state, for each stack of Explosion on the target, increases the damage dealt by 1%.",
+        "When releasing Finishing Bombardment via the final hit of Basic Attack Chain Bombardment, DEF ignored through Explosion increases by 5%, and the Explosion stacks are no longer cleared.",
+        "When exiting the Vollstandig state and converting stored excess Spiritual Pressure, the conversion ratio increases to 1:1."
       ]
     },
     "weaponScope": "self"
