@@ -145,7 +145,7 @@
   "role": "Assault",
   "rotations": [
     {
-      "name": "100% Crit Rate",
+      "name": "100% Crit Rate on stats page",
       "notes": "",
       "steps": [
         "TBD"
