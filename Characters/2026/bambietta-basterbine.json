@@ -11,7 +11,7 @@
     "mainStats": "1: Finesse DMG > ATK%  •  2: Crit Rate > Crit DMG  •  3: ATK%",
     "notes": "W5 provides 50% Crit Rate.",
     "setName": "Crushing Force (3)",
-    "subStatPriority": "Crit Rate (45%) > Crit DMG > ATK% > Ult Charge Rate > Flat ATK"
+    "subStatPriority": "Crit Rate (45%) > Crit DMG > ATK% > Ult Charge Rate (124% at B6) > Flat ATK"
   },
   "bondPriority": [
     {
@@ -101,9 +101,9 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate (45%) > Crit DMG > ATK% > Ult Charge Rate > Flat ATK",
+      "subStatPriority": "Crit Rate (45%) > Crit DMG > ATK% > Ult Charge Rate (124%) > Flat ATK",
       "targets": {
-        "ultChargeRate": "~119%"
+        "ultChargeRate": "~124%"
       }
     }
   ],
