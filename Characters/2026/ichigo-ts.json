@@ -139,7 +139,8 @@
   "role": "Assault",
   "tips": [
     "Tests suggest that Thrust DMG mainstat for first stamp piece is superior.",
-    "For Coop specifically; Thrust has less time freeze capabilities than Spirit currently. It is recommended to run True Shikai Ichigo with another team who has the same issues (Slash or another True Shikai team)."
+    "For Coop specifically; Thrust has less time freeze capabilities than Spirit currently. It is recommended to run True Shikai Ichigo with another team who has the same issues (Slash or another True Shikai team).",
+    "Ichigo's hitbox follows him when he jumps into the air (from his technique). He can thus counter falling rocks in mid air."
   ],
   "rotations": [
     {
