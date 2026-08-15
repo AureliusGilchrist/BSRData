@@ -143,6 +143,9 @@
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "11 Aug 2026",
   "role": "Assault",
+  "tips": [
+    "As Bambietta requires the completion of her basic attack chain to activate her ult, she is the worst unit to use in the current coop boss, Runuganga. She will be unable to grab falling rocks in the middle of her rotation."
+  ],
   "rotations": [
     {
       "name": "100% Crit Rate on stats page / 124% Ult Charge",
