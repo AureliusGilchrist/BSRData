@@ -106,6 +106,9 @@
   "recommendedStopBoundaryP2W": 0,
   "releaseDate": "21 Nov 2025",
   "role": "Tactician",
+  "tips": [
+    "Byakuya has the easiest battlefield skill to spam; useful in certain events that require battlefield to be  used a certain number of times."
+  ],
   "rotations": [
     {
       "name": "Opener",
