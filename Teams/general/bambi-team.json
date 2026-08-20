@@ -49,10 +49,733 @@
         "Burst"
       ],
       "video": "",
-      "note": "",
+      "note": "Aizen 173% Ult Charge / Kisuke 183.2% Ult Charge",
       "steps": [
-        "Aizen 173% Ult Charge / Kisuke 183.2% Ult Charge"
-      ]
+        "Ichigo Technique → Mayuri Ultimate → Technique → Battlefield → Nel Technique",
+        "Ichigo Basic Attack (3x) → Technique → Basic Attack → Technique → Ultimate → Nel Manual Counter → Special Attack → Nel Ultimate",
+        "Nel Special Attack → Manual Counter → Nel Technique (2x) → Mayuri Technique → Special Attack → Nel Ultimate",
+        "Ichigo Counter → Technique → Basic Attack (2x) → Technique → Basic Attack → Technique → Ultimate → Nel Ultimate → Ichigo Dodge (Transcendent State) → Basic Attack Spam"
+      ],
+      "iconSteps": [
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kisuke"
+            }
+          ]
+        },
+        {
+          "slug": "kisuke",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Ultimate"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique 3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Swap",
+              "slug": "bambietta-basterbine"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kisuke"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "kisuke",
+          "actions": [
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "bambietta-basterbine"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Ultimate 3"
+            },
+            {
+              "kind": "Basic Attack 3",
+              "label": "10x"
+            },
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique 3"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Dodge"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Dodge"
+            },
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Swap",
+              "slug": "bambietta-basterbine"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kisuke"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "kisuke",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },         
+            {
+              "kind": "Basic Attack 3",
+              "label": "10x"
+            },
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique 4"
+            },         
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "bambietta-basterbine"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kisuke"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "kisuke",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "bambietta-basterbine"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Ultimate 3"
+            },
+            {
+              "kind": "Basic Attack 3",
+              "label": "10x"
+            },
+            {
+              "kind": "Ultimate 2"
+            }
+          ]
+        },
+        {
+          "slug": "kisuke",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique 3"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Swap",
+              "slug": "bambietta-basterbine"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kisuke"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "kisuke",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "bambietta-basterbine"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Ultimate 3"
+            },
+            {
+              "kind": "Basic Attack 3",
+              "label": "10x"
+            },
+            {
+              "kind": "Ultimate 2"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique 3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Dodge"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Dodge"
+            },
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Swap",
+              "slug": "bambietta-basterbine"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kisuke"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "kisuke",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },         
+            {
+              "kind": "Basic Attack 3",
+              "label": "10x"
+            },
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique 4"
+            },         
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "bambietta-basterbine"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kisuke"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "kisuke",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "bambietta-basterbine"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Ultimate 3"
+            },
+            {
+              "kind": "Basic Attack 3",
+              "label": "10x"
+            },
+            {
+              "kind": "Ultimate 2"
+            }
+          ]
+        },
+        {
+          "slug": "kisuke",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique 3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Swap",
+              "slug": "bambietta-basterbine"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+      {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kisuke"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "kisuke",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "bambietta-basterbine"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Ultimate 3"
+            },
+            {
+              "kind": "Basic Attack 3",
+              "label": "10x"
+            },
+            {
+              "kind": "Ultimate 2"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique 3"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Dodge"
+            },
+            {
+              "kind": "Basic Attack"
+            },
+            {
+              "kind": "Dodge"
+            },
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Swap",
+              "slug": "bambietta-basterbine"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kisuke"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "kisuke",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Ultimate"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Ultimate"
+            },         
+            {
+              "kind": "Basic Attack 3",
+              "label": "10x"
+            },
+            {
+              "kind": "Ultimate 2"
+            },
+            {
+              "kind": "Technique"
+            }
+          ]
+        },
+        {
+          "slug": "aizen",
+          "actions": [
+            {
+              "kind": "Technique 4"
+            },         
+            {
+              "kind": "BFS"
+            },
+            {
+              "kind": "Counter"
+            },
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "bambietta-basterbine"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+      {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Enhanced Basic Attack"
+            },
+            {
+              "kind": "Swap",
+              "slug": "kisuke"
+            },
+            {
+              "kind": "Counter"
+            }
+          ]
+        },
+        {
+          "slug": "kisuke",
+          "actions": [
+            {
+              "kind": "Technique"
+            },
+            {
+              "kind": "Swap",
+              "slug": "bambietta-basterbine"
+            }
+          ]
+        },
+        {
+          "slug": "bambietta-basterbine",
+          "actions": [
+            {
+              "kind": "Ultimate 3"
+            },
+            {
+              "kind": "Basic Attack 3",
+              "label": "10x"
+            },
+            {
+              "kind": "Ultimate 2"
+            }
+          ]
+        }
+      ],
+      "notes": "173% Ult charge Aizen / 183% Ult Charge Kisuke"
     }
   ],
   "f2p-rotations": [
