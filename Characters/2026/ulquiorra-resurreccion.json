@@ -105,7 +105,7 @@
     {
       "label": "Hyper Optimized (multiple Crit substats)",
       "passiveSkills": [
-        "All DMG > Ult DMG > Technique DMG"
+        "All DMG > Technique DMG > Ult DMG"
       ],
       "range": "B6W5C5",
       "setName": "Fill the Nothingness (3)",
