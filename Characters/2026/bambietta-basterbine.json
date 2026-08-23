@@ -84,9 +84,7 @@
     {
       "label": "Whale",
       "passiveSkills": [
-        "All DMG",
-        "Ult DMG",
-        "Basic Attack DMG"
+        "All DMG > Basic Attack DMG > Ult DMG"
       ],
       "range": "B6W5C5",
       "setName": "Crushing Force (3)",
