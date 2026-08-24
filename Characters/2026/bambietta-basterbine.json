@@ -21,7 +21,7 @@
   ],
   "boundaries": [
     {
-      "description": "-Increases Finesse DMG by 25%. \n -At the start of battle, Spiritual Pressure is immediately increased to maximum.",
+      "description": "Increases Finesse DMG by 25%. At the start of battle, Spiritual Pressure is immediately increased to maximum.",
       "icon": "/Images/bambietta-basterbine/boundary-1.png",
       "level": 1,
       "name": "Unblockable Bomb"
