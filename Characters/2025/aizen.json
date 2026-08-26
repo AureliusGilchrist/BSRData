@@ -143,6 +143,9 @@
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "19 Dec 2025",
   "role": "Tactician",
+  "tips": [
+    "Aizen's Kurohitsugi can hit Yammy while he's flying."
+  ],
   "rotations": [
     {
       "name": "Opener",
