@@ -791,9 +791,10 @@
     },
     {
       "name": "Bambietta Team",
-      "goal": "co-op bosses yammy-llargo",
+      "goal": "co-op bosses",
+      "boss": "yammy-llargo",
       "tags": [
-        "Burst"
+        "Boss"
       ],
       "video": "https://www.youtube.com/watch?v=_bF7HMNQZ4s",
       "note": "",
