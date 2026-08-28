@@ -791,7 +791,7 @@
     },
     {
       "name": "Bambietta Team",
-      "goal": "co-op boss",
+      "goal": "coop-boss",
       "boss": "yammy-llargo",
       "tags": [
         "Boss"
