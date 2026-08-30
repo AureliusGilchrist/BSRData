@@ -15,7 +15,7 @@
       "role": "Assault",
       "damageType": "Finesse",
       "notes": [
-        "Without a proper team, she will unfortunately do very little damage."
+        "Without a proper team, she will unfortunately do very little damage. Her coop dmg is currently superior to Gin's B6 Thrust team as Finesse DMG is being boosted significantly."
       ],
       "swappable": []
     },
@@ -25,7 +25,7 @@
       "role": "Tactician",
       "damageType": "Spirit",
       "notes": [
-        "The only tactician who works with Bambietta as of August 11."
+        "To fully benefit Bambi, Aizen needs enough Ult Charge to minimize his field time. Tester uses 173% but lower might be possible."
       ],
       "swappable": []
     },
@@ -35,7 +35,7 @@
       "role": "Support",
       "damageType": "Slash",
       "notes": [
-        "Standard banner support."
+        "Needs enough Ult Charge to gain Ultimate after using Technique and one Special Attack."
       ],
       "swappable": []
     }
