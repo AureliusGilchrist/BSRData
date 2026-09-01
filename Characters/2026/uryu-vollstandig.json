@@ -1,0 +1,186 @@
+{
+  "art": "",
+  "bestStamp": {
+    "mainStats": "1: TBD  •  2: TBD •  3: TBD",
+    "notes": "",
+    "setName": "Uryu Stamp (3)",
+    "subStatPriority": "TBD"
+  },
+  "bondPriority": [],
+  "boundaries": [
+    {
+      "description": "",
+      "icon": "",
+      "level": 1,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 2,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 3,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 4,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 5,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 6,
+      "name": ""
+    }
+  ],
+  "builds": [
+    {
+      "label": "TBD",
+      "passiveSkills": [
+        "TBD"
+      ],
+      "range": "B6W5C5",
+      "setName": "Uryu Stamp (3)",
+      "setPieces": [
+        {
+          "mainStat": "TBD",
+          "slot": 1
+        },
+        {
+          "mainStat": "TBD",
+          "slot": 2
+        },
+        {
+          "mainStat": "TBD",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": ""
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "",
+      "icon": "",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "name": ""
+    }
+  ],
+  "damageType": "Finesse",
+  "name": "Uryu Ishida (Vollstandig)",
+  "note": "",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 0,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "2 Sep 2026",
+  "role": "Tactician",
+  "rotation": [
+  {
+    "name": "TBD",
+    "notes": "",
+    "steps": [
+      "TBD"
+    ],
+    "tags": [
+      "Burst",
+      "Boss"
+    ]
+  }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "",
+      "kind": "Basic Attack",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "kind": "Technique",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "kind": "",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "kind": "Counter",
+      "name": "Counter"
+    },
+    {
+      "description": "",
+      "icon": "",
+      "kind": "Battlefield Skill",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "kind": "Dodge",
+      "name": ""
+    }
+  ],
+  "slug": "uryu-vollstandig",
+  "source": null,
+  "stamps": {
+    "core": {
+      "ascend1": [],
+      "ascend5": []
+    },
+    "coreScope": "self",
+    "weapon": {
+      "ascend1": [],
+      "ascend5": []
+    },
+    "weaponScope": "self"
+  },
+  "stats": {
+    "atk": "335",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "327",
+    "hp": "1623"
+  },
+  "tier": "S",
+  "weaponStats": {
+    "atk": "201",
+    "def": "119",
+    "hp": "581"
+  },
+  "rationale": [
+    "TBD."
+  ],
+  "perfectStamps": []
+}
