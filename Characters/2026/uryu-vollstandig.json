@@ -103,10 +103,10 @@
   "role": "Tactician",
   "rotation": [
   {
-    "name": "TBD",
+    "name": "Stats to be determined",
     "notes": "",
     "steps": [
-      "TBD"
+      "Stats to be determined"
     ],
     "tags": [
       "Burst",
@@ -130,7 +130,7 @@
     {
       "description": "",
       "icon": "",
-      "kind": "",
+      "kind": "Ultimate",
       "name": ""
     },
     {
