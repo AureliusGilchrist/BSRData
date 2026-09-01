@@ -1,31 +1,31 @@
 {
   "group": "general",
-  "id": "nel-support",
-  "name": "Nel Double Support",
-  "rank": 13,
-  "tier": "A",
-  "difficulty": "Easy",
+  "id": "bambi-team",
+  "name": "Bambietta Uryu",
+  "rank": 2,
+  "tier": "S",
+  "difficulty": "Medium",
   "content": "Co-op / Guild Boss / Events",
-  "p2w-video": "https://youtu.be/C0hAOv8AiME",
+  "p2w-video": "",
   "f2p-video": "",
   "members": [
     {
-      "slug": "nelliel",
-      "name": "Nelliel Tu Odelschwanck",
-      "role": "Tactician",
-      "damageType": "Thrust",
+      "slug": "bambietta-basterbine",
+      "name": "Bambietta Basterbine",
+      "role": "Assault",
+      "damageType": "Finesse",
       "notes": [
-        "Her long field time makes her a viable DMG carry."
+        ""
       ],
       "swappable": []
     },
     {
-      "slug": "mayuri",
-      "name": "Mayuri Kurotsuchi",
-      "role": "Support",
-      "damageType": "Thrust",
+      "slug": "uryu-vollstandig",
+      "name": "Uryu Ishida (Vollstandig)",
+      "role": "Tactician",
+      "damageType": "Finesse",
       "notes": [
-        "Low field time support."
+        ""
       ],
       "swappable": []
     },
@@ -35,7 +35,7 @@
       "role": "Support",
       "damageType": "Slash",
       "notes": [
-        "Standard banner support."
+        "Needs enough Ult Charge to gain Ultimate after using Technique and one Special Attack."
       ],
       "swappable": []
     }
@@ -43,7 +43,7 @@
   "rotationP2W": "",
   "p2w-rotations": [
     {
-      "name": "Nel Double Support",
+      "name": "Bambietta Uryu",
       "goal": "general",
       "tags": [
         "Burst"
@@ -51,13 +51,15 @@
       "video": "",
       "note": "",
       "steps": [
-        ""
-      ]
+      ],
+      "iconSteps": [
+      ],
+      "notes": ""
     }
   ],
   "f2p-rotations": [
     {
-      "name": "Nel Double Support",
+      "name": "Bambietta Uryu",
       "goal": "general",
       "tags": [
         "Burst"
