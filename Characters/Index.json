@@ -24,6 +24,18 @@
     "releaseDate": "11 Aug 2026"
   },
   {
+    "slug": "uryu-vollstandig",
+    "path": "2026/uryu-vollstandig.json",
+    "year": 2026,
+    "name": "Uryu Ishida (Vollstandig)",
+    "role": "Tactician",
+    "tier": "S",
+    "damageType": "Finesse",
+    "rarity": "SSR",
+    "art": "",
+    "releaseDate": "2 Sep 2026"
+  },
+  {
     "slug": "byakuya",
     "path": "2025/byakuya.json",
     "year": 2025,
