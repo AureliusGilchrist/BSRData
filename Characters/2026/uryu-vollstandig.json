@@ -104,10 +104,10 @@
   "role": "Tactician",
   "rotation": [
   {
-    "name": "20% Crit Rate on stats page / No extra Ult Charge needed at B1",
-    "notes": "",
+    "name": "20% Crit Rate on stats page / No extra Ult Charge needed",
+    "notes": "No ult charge is needed at any boundary",
     "steps": [
-      "Stats to be determined"
+      "Technique into basic attack"
     ],
     "tags": [
       "Burst",
