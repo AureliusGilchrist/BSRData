@@ -11,7 +11,7 @@
     "mainStats": "1: Finesse DMG > ATK%  •  2: Crit Rate > Crit DMG  •  3: ATK%",
     "notes": "W5 provides 50% Crit Rate.",
     "setName": "Crushing Force (3)",
-    "subStatPriority": "Crit Rate (100% on stats page) > Crit DMG > ATK% > Ult Charge Rate (124% at B6) > Flat ATK"
+    "subStatPriority": "Crit Rate (100% on stats page) > Crit DMG > ATK% > Ult Charge Rate (133% at B6) > Flat ATK"
   },
   "bondPriority": [
     {
@@ -102,9 +102,9 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Crit Rate (100% stats page) > Crit DMG > ATK% > Ult Charge Rate (124%) > Flat ATK",
+      "subStatPriority": "Crit Rate (100% stats page) > Crit DMG > ATK% > Ult Charge Rate (133%) > Flat ATK",
       "targets": {
-        "ultChargeRate": "~124%"
+        "ultChargeRate": "~133%"
       }
     }
   ],
@@ -136,7 +136,7 @@
   "rarity": "SSR",
   "rationale": [
     "Her weapon stamp provides 50% Crit Rate at W5. Adjust stats as necessary based on your weapon ascension.",
-    "Tests reveal that 119% Ult Charge is not enough at B6 (you will still need a few extra basic attacks to have Ultimate ready). 124% is the minimum required.",
+    "Tests reveal that 119% Ult Charge is not enough at B6 (you will still need a few extra basic attacks to have Ultimate ready). 124% is the minimum required for Aizen teams. For Uryu team, 133% Ult Charge on Bambi will be required.",
     "Bambietta's current highest recorded damage against Runuganga is 18,208,427,382 in NA. Her team is currently stronger than B6 Gin thrust team in coop."
   ],
   "recommendedStopBoundary": 6,
@@ -146,7 +146,7 @@
   "role": "Assault",
   "rotations": [
     {
-      "name": "100% Crit Rate on stats page / 124% Ult Charge",
+      "name": "100% Crit Rate on stats page / 133% Ult Charge",
       "notes": "",
       "steps": [
         "Followup",
