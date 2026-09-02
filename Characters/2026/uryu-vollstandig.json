@@ -9,16 +9,16 @@
   "bondPriority": [],
   "boundaries": [
     {
-      "description": "",
+      "description": "Reduces technique cooldown by 5 second(s). Increases all damage dealt by 25%.",
       "icon": "",
       "level": 1,
-      "name": ""
+      "name": "Blood of the Quincy"
     },
     {
-      "description": "",
+      "description": "While at the backline, gains 1 stack of Blut Arterie every second: Increases Crit Rate by 3.5%, stacking up to 10 times. Releasing Battlefield Skill Feather Surge reduces the target's Finesse Resistance by 10% for 35 seconds.",
       "icon": "",
       "level": 2,
-      "name": ""
+      "name": "Parting Arrow"
     },
     {
       "description": "",
@@ -27,10 +27,10 @@
       "name": ""
     },
     {
-      "description": "",
+      "description": "Whenever any character on the team releases an Entry Skill, Uryu gains 1 stack of Steadfast Will: Increases Battlefield Skill DMG by 15%, stacking up to 4 times.",
       "icon": "",
       "level": 4,
-      "name": ""
+      "name": "Strength Awakened"
     },
     {
       "description": "",
@@ -39,10 +39,10 @@
       "name": ""
     },
     {
-      "description": "",
+      "description": "While Uryu is in Sklave Rai, he gains the following buffs one by one according to his current stage, lasting for 30 secnods. Stage 1: Increases Spiritual Pressure Reduction Rate by 30%. Stage 2: Increases Finesse Mstery by 10%. Stage 3: Increases Battlefield Skill DMG by 30%. Stage 4: Increases All-Skill Mastery by 10%. Stage 5: Damage dealt ignores 20% of the target's DEF.",
       "icon": "",
       "level": 6,
-      "name": ""
+      "name": "Overturned"
     }
   ],
   "builds": [
@@ -72,24 +72,24 @@
   ],
   "corePassives": [
     {
-      "description": "",
+      "description": "When Uryu Ishida - Vollstandig's Battlefield Skill is active, the entire team gains increased resistance to interruption. In addition, after taking damage, they restore all HP 10 seconds later. When Uryu enters Sklave Rai, he gains 100 Convergence Points. While in this state, his Technique, Battlefield Skill - Feather Surge, Counterattack, or Entry Skill are no longer restricted by their original trigger condition. Instead, each consumes 50 Convergence Points. The active Counter and Entry Skill can only be released once. During this period, Uryu cannot generate Spiritual Pressure, Battlefield Skill Energy, or Ultimate Energy through any other means. Each release of these skills increases Sklave Rai by 1 stage and the damage of subsequent skills by 25%. Upon reaching Sklave Rai Stage 5, Uryu can no longer gain Convergence Points, and the Battlefield Skill - Feather Torrent is activated. Releasing the Battlefield Skill - Feather Torrent clears all energy and removes Sklave Rai. Convergence Points can be gained in the following ways: 1. While Uryu is at the backline, he gains 5 every second. 2. Gains 10 when the Battlefield Skill - Combo Attack is triggered. 3. Gains it by performing Basic Attacks. Max Convergence Points: 100",
       "icon": "",
-      "name": ""
+      "name": "Schrift A"
     },
     {
-      "description": "",
+      "description": "Increases the damage of Battlefield Skill - Combo Attack by 50%.",
       "icon": "",
-      "name": ""
+      "name": "Farewell"
     },
     {
-      "description": "",
+      "description": "Increases Finesse DMG by 25%.",
       "icon": "",
-      "name": ""
+      "name": "Bloodline"
     },
     {
-      "description": "",
+      "description": "Increases Ultimate Charge Rate by 60%.",
       "icon": "",
-      "name": ""
+      "name": "Interrogation"
     }
   ],
   "damageType": "Finesse",
@@ -116,53 +116,95 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Uryu commands Reishi Feather Arrows to bombard enemies, dealing 4 hits of damage equal to 682.5% of ATK in total while generating Spiritual Pressure. Based on Uryu's current state, he gains either Battlefield Skill Energy or Convergence Points.",
       "icon": "",
       "kind": "Basic Attack",
-      "name": ""
+      "name": "Reishi Feather Arrow"
     },
     {
-      "description": "",
+      "description": "Uryu gathers Reishi into a pentagram and fires it at the enemy, dealing damage equal to 1437.5% of ATK and building Spiritual Pressure.",
       "icon": "",
       "kind": "Technique",
-      "name": ""
+      "name": "Reishi Rush"
     },
     {
-      "description": "",
+      "description": "While at the backline, Uryu enters the Battlefield alongside a barrage of Reishi Feather Arrows to launch a series of attacks, then fires a massive arrow at the enemy, dealing a total damage equal to 3795% of ATK. Gains Battlefield Skill Energy or consumes Convergence Points depending on Uryu's current state.",
+      "icon": "",
+      "kind": "Entry Skill",
+      "name": "Heilig Pfeil"
+    },
+    {
+      "description": "Uryu leaps into the air and fires a powerful Spirit Arrow, dealing damage equal to 8937.5% of ATK, then clears all Battlefield Skill Energy and enters Sklave Rai.",
       "icon": "",
       "kind": "Ultimate",
-      "name": ""
+      "name": "Stardust"
     },
     {
-      "description": "",
+      "description": "Uryu condenses Reishi into a shield to block attacks, then creates a Reishi Cage to trap the enemy and detonates it, dealing damage equal to 1585% of ATK.",
       "icon": "",
       "kind": "Counter",
       "name": "Counter"
     },
     {
-      "description": "",
+      "description": "~~While Uryu Ishida - Vollstandig's Battlefield Skill is active, Finesse DMG dealt by all teammates increase by 40%.~~ \n Uryu Ishida - Vollstandig's Battlefield Skill uses two type of energy: Battlefield Skill Energy and Convergence Points. In his normal state, he gains Battlefield Skill Energy, while in Sklave Rai, he gains Convergence Poinuts. ~~Combo Attack~~ Automatically triggers when a teammate inflicts damage while Battlefield Skill Energy is below max capacitiy. \n Uryu commands Reishi Feather Arrows to perform a co-strike, dealing damage equal to 205% of ATK and gaining either Battlefield Skill Energy or Convergence Points depending on his current state. ~~Feather Surge~~ Reach Maximum Battlefield Skill Energy \n Uryu surrounds the enemy with Reishi Feather Arrows, forming a spherical carge and detonating it for damage equal to 2975% of ATK. ~~Feather Torret~~ Reach Sklave Rai Stage 5 \n Uryu commands countless Reishi Feather Arrows to converge into a massive torrent that crashes into the  enemy, dealing damage equal to 3750% of ATK and ending Sklave Rai.",
       "icon": "",
       "kind": "Battlefield Skill",
-      "name": ""
+      "name": "This Is My Resolve"
     },
     {
-      "description": "",
+      "description": "Use Hirenkyaku to avoid attacks right before they hit. \n Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Uryu gains 15% ASPD and 25% MSPD for 4 seconds.",
       "icon": "",
       "kind": "Dodge",
-      "name": ""
+      "name": "Hirenkyaku"
     }
   ],
   "slug": "uryu-vollstandig",
   "source": null,
   "stamps": {
     "core": {
-      "ascend1": [],
-      "ascend5": []
+      "ascend1": [
+        "Increases the entire team's ATK by 7.5% While Uryu is in the Sklave Rai state, his ATK is increased by an extra 7.5%.",
+        "Every time a Battlefield Skill Combo Attack is triggered, gain 1 stack of Pride, increases the Crit DMG of all Finesse characters by 4% for 15 seconds, up to 10 stacks.",
+        "While in the Sklave Rai state, releasing Technique, Battlefield Skill - Feather Surge, Counter Attack, or Entry Skill grants 1 stack of Resolve: Increases the damage of the Battlefield Skill - Feather Torrent by 12.5%. Each skill type can grant Resolve only once per Sklave Rai.",
+        "After releasing Battlefeild Skill - Feather Torrent, all stacks of Resolve are cleared."
+      ],
+      "ascend2": [
+        "Increases the entire team's ATK by 9.375% While Uryu is in the Sklave Rai state, his ATK is increased by an extra 9.375%.",
+        "Every time a Battlefield Skill Combo Attack is triggered, gain 1 stack of Pride, increases the Crit DMG of all Finesse characters by 5% for 15 seconds, up to 10 stacks.",
+        "While in the Sklave Rai state, releasing Technique, Battlefield Skill - Feather Surge, Counter Attack, or Entry Skill grants 1 stack of Resolve: Increases the damage of the Battlefield Skill - Feather Torrent by 15.625%. Each skill type can grant Resolve only once per Sklave Rai.",
+        "After releasing Battlefeild Skill - Feather Torrent, all stacks of Resolve are cleared."
+      ],
+      "ascend3": [
+        "Increases the entire team's ATK by 11.25% While Uryu is in the Sklave Rai state, his ATK is increased by an extra 11.25%.",
+        "Every time a Battlefield Skill Combo Attack is triggered, gain 1 stack of Pride, increases the Crit DMG of all Finesse characters by 6% for 15 seconds, up to 10 stacks.",
+        "While in the Sklave Rai state, releasing Technique, Battlefield Skill - Feather Surge, Counter Attack, or Entry Skill grants 1 stack of Resolve: Increases the damage of the Battlefield Skill - Feather Torrent by 18.75%. Each skill type can grant Resolve only once per Sklave Rai.",
+        "After releasing Battlefeild Skill - Feather Torrent, all stacks of Resolve are cleared."
+      ],
+      "ascend4": [
+        "Increases the entire team's ATK by 13.125% While Uryu is in the Sklave Rai state, his ATK is increased by an extra 13.125%.",
+        "Every time a Battlefield Skill Combo Attack is triggered, gain 1 stack of Pride, increases the Crit DMG of all Finesse characters by 7% for 15 seconds, up to 10 stacks.",
+        "While in the Sklave Rai state, releasing Technique, Battlefield Skill - Feather Surge, Counter Attack, or Entry Skill grants 1 stack of Resolve: Increases the damage of the Battlefield Skill - Feather Torrent by 21.875%. Each skill type can grant Resolve only once per Sklave Rai.",
+        "After releasing Battlefeild Skill - Feather Torrent, all stacks of Resolve are cleared."
+      ],
+      "ascend5": [
+        "Increases the entire team's ATK by 15% While Uryu is in the Sklave Rai state, his ATK is increased by an extra 15%.",
+        "Every time a Battlefield Skill Combo Attack is triggered, gain 1 stack of Pride, increases the Crit DMG of all Finesse characters by 8% for 15 seconds, up to 10 stacks.",
+        "While in the Sklave Rai state, releasing Technique, Battlefield Skill - Feather Surge, Counter Attack, or Entry Skill grants 1 stack of Resolve: Increases the damage of the Battlefield Skill - Feather Torrent by 25%. Each skill type can grant Resolve only once per Sklave Rai.",
+        "After releasing Battlefeild Skill - Feather Torrent, all stacks of Resolve are cleared."
+      ]
     },
     "coreScope": "self",
     "weapon": {
-      "ascend1": [],
-      "ascend5": []
+      "ascend1": [
+        "Counterattack inflicts Spiritual Pressure Drain on the target: Reduces Finesse Resistance by 15% for 45 seconds.",
+        "Battlefield Skill - Feather Surge grants Spiritual Pressure Boost to yourself: Increases Crit Rate by 22.5% for 35 seconds.",
+        "While in the Sklave Rai state, each stage gained increases Crit DMG by 15%."
+      ],
+      "ascend5": [
+        "Counterattack inflicts Spiritual Pressure Drain on the target: Reduces Finesse Resistance by 30% for 45 seconds.",
+        "Battlefield Skill - Feather Surge grants Spiritual Pressure Boost to yourself: Increases Crit Rate by 45% for 35 seconds.",
+        "While in the Sklave Rai state, each stage gained increases Crit DMG by 30%."
+      ]
     },
     "weaponScope": "self"
   },
@@ -170,14 +212,14 @@
     "atk": "335",
     "critDamage": "+50%",
     "critRate": "5%",
-    "def": "327",
-    "hp": "1623"
+    "def": "325",
+    "hp": "1628"
   },
   "tier": "S",
   "weaponStats": {
     "atk": "201",
-    "def": "119",
-    "hp": "581"
+    "def": "118",
+    "hp": "583"
   },
   "rationale": [
     "TBD."
