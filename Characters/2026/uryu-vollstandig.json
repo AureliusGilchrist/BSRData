@@ -1,10 +1,10 @@
 {
   "art": "",
   "bestStamp": {
-    "mainStats": "1: TBD  •  2: TBD •  3: TBD",
+    "mainStats": "1: Finesse DMG > ATK%  •  2: Crit DMG > ATK% •  3: ATK%",
     "notes": "",
-    "setName": "Uryu Stamp (3)",
-    "subStatPriority": "TBD"
+    "setName": "Fate Reversed (3)",
+    "subStatPriority": "Crit DMG > ATK% > Crit Rate (20% W5) > Flat ATK > Ult Charge"
   },
   "bondPriority": [],
   "boundaries": [
@@ -47,27 +47,28 @@
   ],
   "builds": [
     {
-      "label": "TBD",
+      "label": "Whale",
       "passiveSkills": [
-        "TBD"
+        "Battlefield DMG",
+        "All DMG"
       ],
       "range": "B6W5C5",
-      "setName": "Uryu Stamp (3)",
+      "setName": "Fate Reversed (3)",
       "setPieces": [
         {
-          "mainStat": "TBD",
+          "mainStat": "Finesse DMG > ATK%",
           "slot": 1
         },
         {
-          "mainStat": "TBD",
+          "mainStat": "Crit DMG > ATK%",
           "slot": 2
         },
         {
-          "mainStat": "TBD",
+          "mainStat": "ATK%",
           "slot": 3
         }
       ],
-      "subStatPriority": ""
+      "subStatPriority": "Crit DMG > ATK% > Crit Rate (20%) > Flat ATK > Ult Charge Rate"
     }
   ],
   "corePassives": [
@@ -103,7 +104,7 @@
   "role": "Tactician",
   "rotation": [
   {
-    "name": "Stats to be determined",
+    "name": "20% Crit Rate on stats page / No extra Ult Charge needed at B1",
     "notes": "",
     "steps": [
       "Stats to be determined"
