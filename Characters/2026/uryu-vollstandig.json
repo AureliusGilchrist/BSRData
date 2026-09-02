@@ -6,7 +6,12 @@
     "setName": "Fate Reversed (3)",
     "subStatPriority": "Crit DMG > ATK% > Crit Rate (20% W5) > Flat ATK > Ult Charge"
   },
-  "bondPriority": [],
+  "bondPriority": [
+    {
+      "description": "Increases Finesse DMG by 12% during battle and ATK by 9%. When equipped by a Tactic character, increases the above effects by an extra 100%.",
+      "name": "Uryu Bond"
+    }
+  ],
   "boundaries": [
     {
       "description": "Reduces technique cooldown by 5 second(s). Increases all damage dealt by 25%.",
