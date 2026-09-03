@@ -20,7 +20,7 @@
       "name": "Blood of the Quincy"
     },
     {
-      "description": "While at the backline, gains 1 stack of Blut Arterie every second: Increases Crit Rate by 3.5%, stacking up to 10 times. Releasing Battlefield Skill Feather Surge and the last hit of basic attack reduces the target's Finesse Resistance by 10% for 35 seconds.",
+      "description": "While at the backline, gains 1 stack of Blut Arterie every second: Increases Crit Rate by 3.5%, stacking up to 10 times. Releasing Battlefield Skill Feather Surge and the last hit of basic attack reduce the target's Finesse Resistance by 10% for 35 seconds.",
       "icon": "",
       "level": 2,
       "name": "Parting Arrow"
@@ -202,17 +202,27 @@
     "coreScope": "self",
     "weapon": {
       "ascend1": [
-        "Counterattack and the last hit of basic attack inflicts Spiritual Pressure Drain on the target: Reduces Finesse Resistance by 15% for 45 seconds.",
+        "Counterattack and the last hit of basic attack inflict Spiritual Pressure Drain on the target: Reduces Finesse Resistance by 15% for 45 seconds.",
         "Battlefield Skill - Feather Surge grants Spiritual Pressure Boost to yourself: Increases Crit Rate by 22.5% for 35 seconds.",
         "While in the Sklave Rai state, each stage gained increases Crit DMG by 15%."
       ],
       "ascend2": [
-        "Counterattack and the last hit of basic attack inflicts Spiritual Pressure Drain on the target: Reduces Finesse Resistance by 18.75% for 45 seconds.",
+        "Counterattack and the last hit of basic attack inflict Spiritual Pressure Drain on the target: Reduces Finesse Resistance by 18.75% for 45 seconds.",
         "Battlefield Skill - Feather Surge grants Spiritual Pressure Boost to yourself: Increases Crit Rate by 28.125% for 35 seconds.",
         "While in the Sklave Rai state, each stage gained increases Crit DMG by 18.75%."
       ],
+      "ascend3": [
+        "Counterattack and the last hit of basic attack inflict Spiritual Pressure Drain on the target: Reduces Finesse Resistance by 22.5% for 45 seconds.",
+        "Battlefield Skill - Feather Surge grants Spiritual Pressure Boost to yourself: Increases Crit Rate by 33.75% for 35 seconds.",
+        "While in the Sklave Rai state, each stage gained increases Crit DMG by 22.5%."
+      ],
+      "ascend4": [
+        "Counterattack and the last hit of basic attack inflict Spiritual Pressure Drain on the target: Reduces Finesse Resistance by 26.25% for 45 seconds.",
+        "Battlefield Skill - Feather Surge grants Spiritual Pressure Boost to yourself: Increases Crit Rate by 39.375% for 35 seconds.",
+        "While in the Sklave Rai state, each stage gained increases Crit DMG by 26.25%."
+      ],
       "ascend5": [
-        "Counterattack and the last hit of basic attack inflicts Spiritual Pressure Drain on the target: Reduces Finesse Resistance by 30% for 45 seconds.",
+        "Counterattack and the last hit of basic attack inflict Spiritual Pressure Drain on the target: Reduces Finesse Resistance by 30% for 45 seconds.",
         "Battlefield Skill - Feather Surge grants Spiritual Pressure Boost to yourself: Increases Crit Rate by 45% for 35 seconds.",
         "While in the Sklave Rai state, each stage gained increases Crit DMG by 30%."
       ]
