@@ -84,17 +84,17 @@
     },
     {
       "description": "Increases the damage of Battlefield Skill - Combo Attack by 50%.",
-      "icon": "",
+      "icon": "/Images/uryu-vollstandig/passive-2.png",
       "name": "Farewell"
     },
     {
       "description": "Increases Finesse DMG by 40%.",
-      "icon": "",
+      "icon": "/Images/uryu-vollstandig/passive-3.png",
       "name": "Bloodline"
     },
     {
       "description": "Increases Ultimate Charge Rate by 60% and Ultimate DMG by 100%.",
-      "icon": "",
+      "icon": "/Images/uryu-vollstandig/passive-4.png",
       "name": "Interrogation"
     }
   ],
