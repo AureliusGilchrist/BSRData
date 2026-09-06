@@ -129,7 +129,7 @@
     },
     {
       "description": "Uryu gathers Reishi into a pentagram and fires it at the enemy, dealing damage equal to 1437.5% of ATK and building Spiritual Pressure.",
-      "icon": "Images\uryu-vollstandig/skill-technique.webp",
+      "icon": "Images\uryu-vollstandig/skill-technique.png",
       "kind": "Technique",
       "name": "Reishi Rush"
     },
