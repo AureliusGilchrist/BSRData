@@ -1,5 +1,5 @@
 {
-  "art": "",
+  "art": "/Images/uryu-vollstandig/art.png",
   "bestStamp": {
     "mainStats": "1: ATK% > Finesse DMG  •  2: Crit DMG > ATK% •  3: ATK%",
     "notes": "",
@@ -15,37 +15,37 @@
   "boundaries": [
     {
       "description": "Reduces technique cooldown by 5 second(s). Increases all damage dealt by 25%.",
-      "icon": "",
+      "icon": "/Images/uryu-vollstandig/boundary-1.png",
       "level": 1,
       "name": "Blood of the Quincy"
     },
     {
       "description": "While at the backline, gains 1 stack of Blut Arterie every second: Increases Crit Rate by 3.5%, stacking up to 10 times. Releasing Battlefield Skill Feather Surge and the last hit of basic attack reduce the target's Finesse Resistance by 10% for 35 seconds.",
-      "icon": "",
+      "icon": "/Images/uryu-vollstandig/boundary-2.png",
       "level": 2,
       "name": "Parting Arrow"
     },
     {
       "description": "",
-      "icon": "",
+      "icon": "/Images/uryu-vollstandig/boundary-3.png",
       "level": 3,
       "name": ""
     },
     {
       "description": "Whenever any character on the team releases an Entry Skill, Uryu gains 1 stack of Steadfast Will: Increases Battlefield Skill DMG by 15%, stacking up to 4 times.",
-      "icon": "",
+      "icon": "/Images/uryu-vollstandig/boundary-4.png",
       "level": 4,
       "name": "Strength Awakened"
     },
     {
       "description": "",
-      "icon": "",
+      "icon": "/Images/uryu-vollstandig/boundary-5.png",
       "level": 5,
       "name": ""
     },
     {
       "description": "While Uryu is in Sklave Rai, he gains the following buffs one by one according to his current stage, lasting for 30 seconds. Stage 1: Increases Spiritual Pressure Reduction Rate by 30%. Stage 2: Increases Finesse Mstery by 10%. Stage 3: Increases Battlefield Skill DMG by 30%. Stage 4: Increases All-Skill Mastery by 10%. Stage 5: Damage dealt ignores 20% of the target's DEF.",
-      "icon": "",
+      "icon": "/Images/uryu-vollstandig/boundary-6.png",
       "level": 6,
       "name": "Overturned"
     }
