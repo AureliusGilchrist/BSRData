@@ -169,34 +169,34 @@
   "stamps": {
     "core": {
       "ascend1": [
-        "Increases the entire team's ATK by 7.5% While Uryu is in the Sklave Rai state, his ATK is increased by an extra 7.5%.",
+        "Increases the entire team's ATK by 7.5%. While Uryu is in the Sklave Rai state, his ATK is increased by an extra 7.5%.",
         "Every time a Battlefield Skill Combo Attack is triggered, gain 1 stack of Pride, increases the Crit DMG of all Finesse characters by 4% for 15 seconds, up to 10 stacks.",
         "While in the Sklave Rai state, releasing Technique, Battlefield Skill - Feather Surge, Counter Attack, or Entry Skill grants 1 stack of Resolve: Increases the damage of the Battlefield Skill - Feather Torrent by 12.5%. Each skill type can grant Resolve only once per Sklave Rai.",
-        "After releasing Battlefeild Skill - Feather Torrent, all stacks of Resolve are cleared."
+        "After releasing Battlefield Skill - Feather Torrent, all stacks of Resolve are cleared."
       ],
       "ascend2": [
-        "Increases the entire team's ATK by 9.375% While Uryu is in the Sklave Rai state, his ATK is increased by an extra 9.375%.",
+        "Increases the entire team's ATK by 9.375%. While Uryu is in the Sklave Rai state, his ATK is increased by an extra 9.375%.",
         "Every time a Battlefield Skill Combo Attack is triggered, gain 1 stack of Pride, increases the Crit DMG of all Finesse characters by 5% for 15 seconds, up to 10 stacks.",
         "While in the Sklave Rai state, releasing Technique, Battlefield Skill - Feather Surge, Counter Attack, or Entry Skill grants 1 stack of Resolve: Increases the damage of the Battlefield Skill - Feather Torrent by 15.625%. Each skill type can grant Resolve only once per Sklave Rai.",
-        "After releasing Battlefeild Skill - Feather Torrent, all stacks of Resolve are cleared."
+        "After releasing Battlefield Skill - Feather Torrent, all stacks of Resolve are cleared."
       ],
       "ascend3": [
-        "Increases the entire team's ATK by 11.25% While Uryu is in the Sklave Rai state, his ATK is increased by an extra 11.25%.",
+        "Increases the entire team's ATK by 11.25%. While Uryu is in the Sklave Rai state, his ATK is increased by an extra 11.25%.",
         "Every time a Battlefield Skill Combo Attack is triggered, gain 1 stack of Pride, increases the Crit DMG of all Finesse characters by 6% for 15 seconds, up to 10 stacks.",
         "While in the Sklave Rai state, releasing Technique, Battlefield Skill - Feather Surge, Counter Attack, or Entry Skill grants 1 stack of Resolve: Increases the damage of the Battlefield Skill - Feather Torrent by 18.75%. Each skill type can grant Resolve only once per Sklave Rai.",
-        "After releasing Battlefeild Skill - Feather Torrent, all stacks of Resolve are cleared."
+        "After releasing Battlefield Skill - Feather Torrent, all stacks of Resolve are cleared."
       ],
       "ascend4": [
-        "Increases the entire team's ATK by 13.125% While Uryu is in the Sklave Rai state, his ATK is increased by an extra 13.125%.",
+        "Increases the entire team's ATK by 13.125%. While Uryu is in the Sklave Rai state, his ATK is increased by an extra 13.125%.",
         "Every time a Battlefield Skill Combo Attack is triggered, gain 1 stack of Pride, increases the Crit DMG of all Finesse characters by 7% for 15 seconds, up to 10 stacks.",
         "While in the Sklave Rai state, releasing Technique, Battlefield Skill - Feather Surge, Counter Attack, or Entry Skill grants 1 stack of Resolve: Increases the damage of the Battlefield Skill - Feather Torrent by 21.875%. Each skill type can grant Resolve only once per Sklave Rai.",
-        "After releasing Battlefeild Skill - Feather Torrent, all stacks of Resolve are cleared."
+        "After releasing Battlefield Skill - Feather Torrent, all stacks of Resolve are cleared."
       ],
       "ascend5": [
-        "Increases the entire team's ATK by 15% While Uryu is in the Sklave Rai state, his ATK is increased by an extra 15%.",
+        "Increases the entire team's ATK by 15%. While Uryu is in the Sklave Rai state, his ATK is increased by an extra 15%.",
         "Every time a Battlefield Skill Combo Attack is triggered, gain 1 stack of Pride, increases the Crit DMG of all Finesse characters by 8% for 15 seconds, up to 10 stacks.",
         "While in the Sklave Rai state, releasing Technique, Battlefield Skill - Feather Surge, Counter Attack, or Entry Skill grants 1 stack of Resolve: Increases the damage of the Battlefield Skill - Feather Torrent by 25%. Each skill type can grant Resolve only once per Sklave Rai.",
-        "After releasing Battlefeild Skill - Feather Torrent, all stacks of Resolve are cleared."
+        "After releasing Battlefield Skill - Feather Torrent, all stacks of Resolve are cleared."
       ]
     },
     "coreScope": "self",
