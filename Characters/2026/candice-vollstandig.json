@@ -1,0 +1,206 @@
+{
+  "art": "",
+  "bestStamp": {
+    "mainStats": "1: TBD  •  2: TBD •  3:TBD",
+    "notes": "",
+    "setName": "Candice set (3)",
+    "subStatPriority": ""
+  },
+  "bondPriority": [
+    {
+      "description": "",
+      "name": "Candice Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "",
+      "icon": "",
+      "level": 1,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 2,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 3,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 4,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 5,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 6,
+      "name": ""
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        ""
+      ],
+      "range": "B6W5C5",
+      "setName": "Candice set (3)",
+      "setPieces": [
+        {
+          "mainStat": "TBD",
+          "slot": 1
+        },
+        {
+          "mainStat": "TBD",
+          "slot": 2
+        },
+        {
+          "mainStat": "TBD",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "TBD"
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "",
+      "icon": "",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "name": ""
+    }
+  ],
+  "damageType": "Finesse",
+  "name": "Candice Catnipp (Vollstandig)",
+  "note": "",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "23 Sep 2026",
+  "role": "Support",
+  "rotation": [
+    {
+      "name": "",
+      "notes": "",
+      "steps": [
+      ""
+      ],
+      "tags": [
+        "Opener",
+        "Boss"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "",
+      "kind": "",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "kind": "",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "kind": "",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "kind": "",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "kind": "",
+      "name": ""
+    },
+    {
+      "description": "Use Hirenkyaku to avoid attacks right before they hit. \n Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Candice gains 15% ASPD and 25% MSPD for 4 seconds.",
+      "icon": "",
+      "kind": "Dodge",
+      "name": "Hirenkyaku"
+    }
+  ],
+  "slug": "candice-vollstandig",
+  "source": null,
+  "stamps": {
+    "core": {
+      "ascend1": [
+      ],
+      "ascend2": [
+      ],
+      "ascend3": [
+      ],
+      "ascend4": [
+      ],
+      "ascend5": [
+      ]
+    },
+    "coreScope": "self",
+    "weapon": {
+      "ascend1": [
+      ],
+      "ascend2": [
+      ],
+      "ascend3": [
+      ],
+      "ascend4": [
+      ],
+      "ascend5": [
+      ]
+    },
+    "weaponScope": "self"
+  },
+  "stats": {
+    "atk": "335",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "325",
+    "hp": "1628"
+  },
+  "tier": "S",
+  "weaponStats": {
+    "atk": "201",
+    "def": "118",
+    "hp": "583"
+  },
+  "rationale": [
+  ],
+  "perfectStamps": []
+}
