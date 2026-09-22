@@ -24,6 +24,18 @@
     "releaseDate": "11 Aug 2026"
   },
   {
+    "slug": "candice-catnipp",
+    "path": "2026/candice-catnipp.json",
+    "year": 2026,
+    "name": "Candice Catnipp",
+    "role": "Support",
+    "tier": "S",
+    "damageType": "Finesse",
+    "rarity": "SSR",
+    "art": "",
+    "releaseDate": "23 Sep 2026"
+  },
+  {
     "slug": "byakuya",
     "path": "2025/byakuya.json",
     "year": 2025,
