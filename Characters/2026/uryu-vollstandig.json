@@ -54,8 +54,7 @@
     {
       "label": "Whale",
       "passiveSkills": [
-        "Battlefield DMG",
-        "All DMG"
+        "Invigorate/Restrain > Battlefield/Enhanced DMG"
       ],
       "range": "B6W5C5",
       "setName": "Fate Reversed (3)",
@@ -79,7 +78,7 @@
   "corePassives": [
     {
       "description": "When Uryu Ishida - Vollstandig's Battlefield Skill is active, the entire team gains increased resistance to interruption. In addition, after taking damage, they restore all HP 10 seconds later. When Uryu enters Sklave Rai, he gains 100 Convergence Points. While in this state, his Technique, Battlefield Skill - Feather Surge, Counterattack, or Entry Skill are no longer restricted by their original trigger condition. Instead, each consumes 50 Convergence Points. The active Counter and Entry Skill can only be released once. During this period, Uryu cannot generate Spiritual Pressure, Battlefield Skill Energy, or Ultimate Energy through any other means. Each release of these skills increases Sklave Rai by 1 stage and the damage of subsequent skills by 25%. Upon reaching Sklave Rai Stage 5, Uryu can no longer gain Convergence Points, and the Battlefield Skill - Feather Torrent is activated. Releasing the Battlefield Skill - Feather Torrent clears all energy and removes Sklave Rai. Convergence Points can be gained in the following ways: 1. While Uryu is at the backline, he gains 5 every second. 2. Gains 10 when the Battlefield Skill - Combo Attack is triggered. 3. Gains it by performing Basic Attacks. Max Convergence Points: 100",
-      "icon": "",
+      "icon": "/Images/uryu-vollstandig/passive-1.png",
       "name": "Schrift A"
     },
     {
