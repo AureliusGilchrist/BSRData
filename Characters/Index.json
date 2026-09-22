@@ -24,18 +24,6 @@
     "releaseDate": "11 Aug 2026"
   },
   {
-    "slug": "candice-catnipp",
-    "path": "2026/candice-catnipp.json",
-    "year": 2026,
-    "name": "Candice Catnipp",
-    "role": "Support",
-    "tier": "S",
-    "damageType": "Finesse",
-    "rarity": "SSR",
-    "art": "",
-    "releaseDate": "23 Sep 2026"
-  },
-  {
     "slug": "byakuya",
     "path": "2025/byakuya.json",
     "year": 2025,
@@ -46,6 +34,17 @@
     "rarity": "SSR",
     "art": "/Images/byakuya/art.png",
     "releaseDate": "21 Nov 2025"
+  },
+  {
+    "slug": "candice-catnipp",
+    "path": "2026/candice-catnipp.json",
+    "year": 2026,
+    "name": "Candice Catnipp (Vollstandig)",
+    "role": "Support",
+    "tier": "S",
+    "damageType": "Finesse",
+    "rarity": "SSR",
+    "releaseDate": "23 Sep 2026"
   },
   {
     "slug": "chad",
