@@ -37,46 +37,11 @@
       "f2p-video": "https://youtu.be/NSbxamNMTFo"
     },
     {
-      "id": "bambi-uryu",
-      "group": "general",
-      "path": "general/bambi-uryu.json",
-      "name": "Bambietta Uryu",
-      "rank": 2,
-      "tier": "S",
-      "difficulty": "Medium",
-      "content": "Co-op / Guild Boss / Events",
-      "goals": [
-        "general"
-      ],
-      "members": [
-        {
-          "slug": "bambietta-basterbine",
-          "name": "Bambietta Basterbine",
-          "role": "Assault",
-          "damageType": "Finesse"
-        },
-        {
-          "slug": "uryu-vollstandig",
-          "name": "Uryu Ishida (Vollstandig)",
-          "role": "Tactician",
-          "damageType": "Finesse"
-        },
-        {
-          "slug": "kisuke",
-          "name": "Kisuke Urahara",
-          "role": "Support",
-          "damageType": "Slash"
-        }
-      ],
-      "p2w-video": "",
-      "f2p-video": ""
-    },
-    {
       "id": "ulquiorra-mono",
       "group": "general",
       "path": "general/ulquiorra-mono.json",
       "name": "Ulquiorra Mono Spirit",
-      "rank": 3,
+      "rank": 2,
       "tier": "S",
       "difficulty": "Medium",
       "content": "Co-op / Guild Boss / Events",
@@ -109,6 +74,41 @@
         }
       ],
       "p2w-video": "https://youtu.be/9E93c3KL934"
+    },
+    {
+      "id": "bambi-uryu",
+      "group": "general",
+      "path": "general/bambi-uryu.json",
+      "name": "Bambietta Uryu",
+      "rank": 3,
+      "tier": "S",
+      "difficulty": "Medium",
+      "content": "Co-op / Guild Boss / Events",
+      "goals": [
+        "general"
+      ],
+      "members": [
+        {
+          "slug": "bambietta-basterbine",
+          "name": "Bambietta Basterbine",
+          "role": "Assault",
+          "damageType": "Finesse"
+        },
+        {
+          "slug": "uryu-vollstandig",
+          "name": "Uryu Ishida (Vollstandig)",
+          "role": "Tactician",
+          "damageType": "Finesse"
+        },
+        {
+          "slug": "kisuke",
+          "name": "Kisuke Urahara",
+          "role": "Support",
+          "damageType": "Slash"
+        }
+      ],
+      "p2w-video": "",
+      "f2p-video": ""
     },
     {
       "id": "kenpachi-team",
