@@ -108,7 +108,7 @@
   "role": "Support",
   "rotation": [
     {
-      "name": "3300 HP / 134.8% Ult Charge",
+      "name": "33000 HP / 134.8% Ult Charge",
       "steps": [
       "Technique",
       "Basic Attack x2",
@@ -227,7 +227,7 @@
   },
   "rationale": [
     "138.4% Ult charge should be enough to use her normally, more than 190% will let you skip some parts of her animation, allowing for faster rotation.",
-    "3300 HP is required to benefit fully from her buffs/passives."
+    "33000 HP is required to benefit fully from her buffs/passives."
   ],
   "perfectStamps": []
 }
