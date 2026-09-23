@@ -54,7 +54,7 @@
     {
       "label": "Main",
       "passiveSkills": [
-        ""
+        "Invigorate/Restrain"
       ],
       "range": "B6W5C5",
       "setName": "Thunder of Judgment (3)",
@@ -78,7 +78,7 @@
   "corePassives": [
     {
       "description": "Candice increases the entire team's Fixed ATK by (Candice's Max HP x 2.5% x the number of Finesse teammates), up to 500 x the number of Finesse teammates. For each Quincy on the team other than herself, Candice's Technique and Ultimate DMG increases by 50%.",
-      "icon": "",
+      "icon": "/Images/candice-catnipp/passive1.png",
       "name": "Schrift T"
     },
     {
@@ -125,7 +125,7 @@
   "skills": [
     {
       "description": "Candice performs a lightning-infused melee combo, dealing 4 hits for a total damage equal to 310% of ATK and generating Spiritual Pressure. \n When the fourth hit lands, she gains 1 point(s) of Charge Up. ~~Galvano Javelin~~ Vollstandig state \n Candice swings the Galvano Javelin before hurling it, dealing 4 hits for a total damage equal to 390% of ATK and generating Spiritual Pressure. \n Landing the 4th hit grants 1 point(s) of Charge Up. ~~Lightning Bombardment~~ At max Spiritual Pressure, tap Basic Attack after releasing the 4th hit of Basic Attack \n Candice leaps high into the air, gathers lightning, and crashes down on the enemy, dealing damage equal to 600% of ATK. \n Upon release, she gains 1 point(s) of Charge Up.",
-      "icon": "",
+      "icon": "/Images/candice-catnipp/skill-basic1.png",
       "kind": "Basic Attack",
       "name": "Thunder Strike"
     },
