@@ -3,27 +3,27 @@
   "bestStamp": {
     "mainStats": "1: TBD  •  2: TBD •  3:TBD",
     "notes": "",
-    "setName": "Candice set (3)",
+    "setName": "Thunder of Judgment (3)",
     "subStatPriority": ""
   },
   "bondPriority": [
     {
-      "description": "",
-      "name": "Candice Bond"
+      "description": "During battle, teammates other than yourself gain 40% Crit DMG. Unstackable.",
+      "name": "Mayuri Bond"
     }
   ],
   "boundaries": [
     {
-      "description": "",
+      "description": "Increases Max HP by 10%. When any teammate's Entry Skill hits, it inflicts 1 stack of Shocked on the enemy, reducing Finesse Resistance by 5%, up to 2 time(s) for 30 second(s).",
       "icon": "",
       "level": 1,
-      "name": ""
+      "name": "Electric Web"
     },
     {
-      "description": "",
+      "description": "Increases Technique DMG by 50%. When releasing Lightning Flash - Finale, the entire team gains 10% Finesse DMG bonus for 45 second(s).",
       "icon": "",
       "level": 2,
-      "name": ""
+      "name": "Bolt Rush"
     },
     {
       "description": "",
@@ -32,10 +32,10 @@
       "name": ""
     },
     {
-      "description": "",
+      "description": "The Core Passive Schrift T gains the following enhancements: 1. The Fixed ATK gained by Candice is doubled and no longer has an upper limit. 2. The damage bonus Candice gains baased on the number of teammates is doubled. Increases the entire team's All-Skill Mastery by 8%.",
       "icon": "",
       "level": 4,
-      "name": ""
+      "name": "Roaring Tempest"
     },
     {
       "description": "",
@@ -44,10 +44,10 @@
       "name": ""
     },
     {
-      "description": "",
+      "description": "For every 6,600 Max HP Candice has, the entire team's Ultimate Mastery increases by 4%, up to 20%.",
       "icon": "",
       "level": 6,
-      "name": ""
+      "name": "Divine Thunder"
     }
   ],
   "builds": [
@@ -57,7 +57,7 @@
         ""
       ],
       "range": "B6W5C5",
-      "setName": "Candice set (3)",
+      "setName": "Thunder of Judgment (3)",
       "setPieces": [
         {
           "mainStat": "TBD",
@@ -77,24 +77,24 @@
   ],
   "corePassives": [
     {
-      "description": "",
+      "description": "Candice increases the entire team's Fixed ATK by (Candice's Max HP x 2.5% x the number of Finesse teammates), up to 500 x the number of Finesse teammates. For each Quincy on the team other than herself, Candice's Technique and Ultimate DMG increases by 50%.",
       "icon": "",
-      "name": ""
+      "name": "Schrift T"
     },
     {
-      "description": "",
+      "description": "Increases Candice's Max HP by 1800.",
       "icon": "",
-      "name": ""
+      "name": "Barrier"
     },
     {
-      "description": "",
+      "description": "Whenever Candice releases a Technique, Special Attack, or Entry Skill, the entire team gains 1 stack of Electrofield Boost: Increases ATK by 2% x the number of Finesse teammates. Stacks up to 5 time(s) and lasts 40 second(s).",
       "icon": "",
-      "name": ""
+      "name": "Electrofield"
     },
     {
-      "description": "",
+      "description": "For every 3000 Max HP Candice has in battle, her Crit Rate increases by 5%, up to a maximum increase of 80%.",
       "icon": "",
-      "name": ""
+      "name": "High Voltage"
     }
   ],
   "damageType": "Finesse",
