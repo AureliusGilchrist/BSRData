@@ -1,5 +1,5 @@
 {
-  "art": "",
+  "art": "/Images/candice-catnipp/art.png",
   "bestStamp": {
     "mainStats": "1: TBD  •  2: TBD •  3:TBD",
     "notes": "",
@@ -15,37 +15,37 @@
   "boundaries": [
     {
       "description": "Increases Max HP by 10%. When any teammate's Entry Skill hits, it inflicts 1 stack of Shocked on the enemy, reducing Finesse Resistance by 5%, up to 2 time(s) for 30 second(s).",
-      "icon": "",
+      "icon": "/Images/candice-catnipp/boundary-1.png",
       "level": 1,
       "name": "Electric Web"
     },
     {
       "description": "Increases Technique DMG by 50%. When releasing Lightning Flash - Finale, the entire team gains 10% Finesse DMG bonus for 45 second(s).",
-      "icon": "",
+      "icon": "/Images/candice-catnipp/boundary-2.png"",
       "level": 2,
       "name": "Bolt Rush"
     },
     {
       "description": "",
-      "icon": "",
+      "icon": "/Images/candice-catnipp/boundary-3.png"",
       "level": 3,
       "name": ""
     },
     {
       "description": "The Core Passive Schrift T gains the following enhancements: 1. The Fixed ATK gained by Candice is doubled and no longer has an upper limit. 2. The damage bonus Candice gains baased on the number of teammates is doubled. Increases the entire team's All-Skill Mastery by 8%.",
-      "icon": "",
+      "icon": "/Images/candice-catnipp/boundary-4.png"",
       "level": 4,
       "name": "Roaring Tempest"
     },
     {
       "description": "",
-      "icon": "",
+      "icon": "/Images/candice-catnipp/boundary-5.png"",
       "level": 5,
       "name": ""
     },
     {
       "description": "For every 6,600 Max HP Candice has, the entire team's Ultimate Mastery increases by 4%, up to 20%.",
-      "icon": "",
+      "icon": "/Images/candice-catnipp/boundary-6.png"",
       "level": 6,
       "name": "Divine Thunder"
     }
