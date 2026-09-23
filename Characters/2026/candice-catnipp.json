@@ -109,7 +109,6 @@
   "rotation": [
     {
       "name": "3300 HP / 134.8% Ult Charge",
-      "notes": "",
       "steps": [
       "Technique",
       "Basic Attack x2",
@@ -117,8 +116,7 @@
       "Entry into Ultimate"
       ],
       "tags": [
-        "Opener",
-        "Boss"
+        "Standard"
       ]
     }
   ],
@@ -131,19 +129,19 @@
     },
     {
       "description": "Candice leaps backward and fires a powerful shockwave from her Heilig Bogen, dealing damage equal to 630% and generating Spiritual Pressure. \n Upon release, she gains 1 point(s) of Charge Up. \n Tap Basic Attack after release to immediately follow up with the 4th Basic Attack Hit. ~~Lightning Flash~~ While in Vollstandig, consume 1 Charge Up \n Candice charges at the enemy with her Galvano Javeling, dealing damage equal to 160% of ATK. \n Upon release, she gains 1 point(s) of Reishi Charge. ~~Lightning Flash - Finale~~ When Reishi Charge reaches its maximum \n Candice consumes all Reishi Charge and performs a series of lightning-charged dashes toward the enemy before delivering a final strike, dealing damage equal to 800% of ATK.",
-      "icon": "",
+      "icon": "/Images/candice-catnipp/skill-technique1.png",
       "kind": "Technique",
       "name": "Galvano Blast"
     },
     {
       "description": "At the backline, Candice gathers lightning before entering the battlefield and launching a firce assault, dealing damage equal to 1200% of ATK and gaining 1 point(s) of Charge Up. ~~Twin Lightning~~ When in Vollstandig and in the backline with maximum Spiritual Pressure \n At the backline, Candice enters the battlefield wielding her Galvano Javelin, dealing damage equal to 1200% of ATK and gaining 1 point(s) of Charge Up.",
-      "icon": "",
+      "icon": "Images/candice-catnipp/skill-entry.png",
       "kind": "Entry Skill",
       "name": "Energy Shift"
     },
     {
       "description": "Candice activates Sklave Rai and enters Vollstandig, dealing damage equal to 900% of ATK and gaining 1 point(s) of Charge Up. ~~Electrocution~~ Vollstandig state \n Candice unleashes her amassed lightning at the enemy in a devastating execution strike, dealing damage equal to 1420% of ATK, and grants herself and Finesse teammates the bonus Ion Surge: Increases Crit DMG by (number of Finesse teammates x 50%) for 45 seconds, then exits Vollstandig Form",
-      "icon": "",
+      "icon": "Images/candice-catnipp/skill-ultimate1.png",
       "kind": "Ultimate",
       "name": "Quincy: Vollstandig"
     },
@@ -155,7 +153,7 @@
     },
     {
       "description": "Use Hirenkyaku to avoid attacks right before they hit. \n Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Candice gains 15% ASPD and 25% MSPD for 4 seconds.",
-      "icon": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Hirenkyaku"
     }
@@ -228,7 +226,8 @@
     "hp": "583"
   },
   "rationale": [
-    "138.4% Ult charge should be enough to use her normally, more than 190% will let you skip some parts of her animation, allowing for faster rotation."
+    "138.4% Ult charge should be enough to use her normally, more than 190% will let you skip some parts of her animation, allowing for faster rotation.",
+    "3300 HP is required to benefit fully from her buffs/passives."
   ],
   "perfectStamps": []
 }
