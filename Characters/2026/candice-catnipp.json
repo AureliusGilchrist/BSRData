@@ -102,7 +102,7 @@
   "note": "",
   "rarity": "SSR",
   "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryF2P": 0,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "23 Sep 2026",
   "role": "Support",
@@ -121,34 +121,34 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Candice performs a lightning-infused melee combo, dealing 4 hits for a total damage equal to 310% of ATK and generating Spiritual Pressure. \n When the fourth hit lands, she gains 1 point(s) of Charge Up. ~~Galvano Javelin~~ Vollstandig state \n Candice swings the Galvano Javelin before hurling it, dealing 4 hits for a total damage equal to 390% of ATK and generating Spiritual Pressure. \n Landing the 4th hit grants 1 point(s) of Charge Up. ~~Lightning Bombardment~~ At max Spiritual Pressure, tap Basic Attack after releasing the 4th hit of Basic Attack \n Candice leaps high into the air, gathers lightning, and crashes down on the enemy, dealing damage equal to 600% of ATK. \n Upon release, she gains 1 point(s) of Charge Up.",
       "icon": "",
-      "kind": "",
-      "name": ""
+      "kind": "Basic Attack",
+      "name": "Thunder Strike"
     },
     {
-      "description": "",
+      "description": "Candice leaps backward and fires a powerful shockwave from her Heilig Bogen, dealing damage equal to 630% and generating Spiritual Pressure. \n Upon release, she gains 1 point(s) of Charge Up. \n Tap Basic Attack after release to immediately follow up with the 4th Basic Attack Hit. ~~Lightning Flash~~ While in Vollstandig, consume 1 Charge Up \n Candice charges at the enemy with her Galvano Javeling, dealing damage equal to 160% of ATK. \n Upon release, she gains 1 point(s) of Reishi Charge. ~~Lightning Flash - Finale~~ When Reishi Charge reaches its maximum \n Candice consumes all Reishi Charge and performs a series of lightning-charged dashes toward the enemy before delivering a final strike, dealing damage equal to 800% of ATK.",
       "icon": "",
-      "kind": "",
-      "name": ""
+      "kind": "Technique",
+      "name": "Galvano Blast"
     },
     {
-      "description": "",
+      "description": "At the backline, Candice gathers lightning before entering the battlefield and launching a firce assault, dealing damage equal to 1200% of ATK and gaining 1 point(s) of Charge Up. ~~Twin Lightning~~ When in Vollstandig and in the backline with maximum Spiritual Pressure \n At the backline, Candice enters the battlefield wielding her Galvano Javelin, dealing damage equal to 1200% of ATK and gaining 1 point(s) of Charge Up.",
       "icon": "",
-      "kind": "",
-      "name": ""
+      "kind": "Entry Skill",
+      "name": "Energy Shift"
     },
     {
-      "description": "",
+      "description": "Candice activates Sklave Rai and enters Vollstandig, dealing damage equal to 900% of ATK and gaining 1 point(s) of Charge Up. ~~Electrocution~~ Vollstandig state \n Candice unleashes her amassed lightning at the enemy in a devastating execution strike, dealing damage equal to 1420% of ATK, and grants herself and Finesse teammates the bonus Ion Surge: Increases Crit DMG by (number of Finesse teammates x 50%) for 45 seconds, then exits Vollstandig Form",
       "icon": "",
-      "kind": "",
-      "name": ""
+      "kind": "Ultimate",
+      "name": "Quincy: Vollstandig"
     },
     {
-      "description": "",
+      "description": "After countering an enemy attack, Candice calls down multiple lightning bolts at the enemy's location, dealing damage equal to 660% of ATK. \n Successfully countering an enemy's Spiritual Pressure Attack grants 1 point(s) of Charge Up. ~~Galvano Retaliation~~ In Vollstandig state \n After countering an enemy attack, Candice launches a series of rapid assaults, dealing damage equal to 660% of ATK. \n Successfully countering an enemy's Spiritual Pressure Attack grants 1 point(s) of Charge Up.",
       "icon": "",
-      "kind": "",
-      "name": ""
+      "kind": "Counter",
+      "name": "Counterattack"
     },
     {
       "description": "Use Hirenkyaku to avoid attacks right before they hit. \n Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Candice gains 15% ASPD and 25% MSPD for 4 seconds.",
@@ -162,19 +162,43 @@
   "stamps": {
     "core": {
       "ascend1": [
+        "Increases Ultimate DMG by 50%.",
+        "For every 3,000 Max HP Candice has, the Crit DMG bonus granted by her Ultimate - Electrocution increases by an extra 3%, up to 30%.",
+        "In her normal state, after releasing a Technique, her next Special Attack no longer consumes Spiritual Pressure.",
+        "For every 1 Charge Up consumed, the entire team gains 1 stack of Finesse Mastery, increasing Finesse Mastery by 1% for 45 second(s), up to 6 stack(s)."
       ],
       "ascend2": [
+        "Increases Ultimate DMG by 62.5%.",
+        "For every 3,000 Max HP Candice has, the Crit DMG bonus granted by her Ultimate - Electrocution increases by an extra 3.75%, up to 37.5%.",
+        "In her normal state, after releasing a Technique, her next Special Attack no longer consumes Spiritual Pressure.",
+        "For every 1 Charge Up consumed, the entire team gains 1 stack of Finesse Mastery, increasing Finesse Mastery by 1.25% for 45 second(s), up to 6 stack(s)."
       ],
       "ascend3": [
+        "Increases Ultimate DMG by 75%.",
+        "For every 3,000 Max HP Candice has, the Crit DMG bonus granted by her Ultimate - Electrocution increases by an extra 4.5%, up to 45%.",
+        "In her normal state, after releasing a Technique, her next Special Attack no longer consumes Spiritual Pressure.",
+        "For every 1 Charge Up consumed, the entire team gains 1 stack of Finesse Mastery, increasing Finesse Mastery by 1.5% for 45 second(s), up to 6 stack(s)."
       ],
       "ascend4": [
+        "Increases Ultimate DMG by 87.5%.",
+        "For every 3,000 Max HP Candice has, the Crit DMG bonus granted by her Ultimate - Electrocution increases by an extra 5.25%, up to 52.5%.",
+        "In her normal state, after releasing a Technique, her next Special Attack no longer consumes Spiritual Pressure.",
+        "For every 1 Charge Up consumed, the entire team gains 1 stack of Finesse Mastery, increasing Finesse Mastery by 1.75% for 45 second(s), up to 6 stack(s)."
       ],
       "ascend5": [
+        "Increases Ultimate DMG by 100%.",
+        "For every 3,000 Max HP Candice has, the Crit DMG bonus granted by her Ultimate - Electrocution increases by an extra 6%, up to 60%.",
+        "In her normal state, after releasing a Technique, her next Special Attack no longer consumes Spiritual Pressure.",
+        "For every 1 Charge Up consumed, the entire team gains 1 stack of Finesse Mastery, increasing Finesse Mastery by 2% for 45 second(s), up to 6 stack(s)."
       ]
     },
     "coreScope": "self",
     "weapon": {
       "ascend1": [
+        "The Core Passive - Schrift T is enhanced to: Increase the entire team's Fixed ATK based on (Candice's Max HP x 2.9% x the number of Finesse teammates), up to 700 x the number of Finesse teammates.",
+        "The ATK Boost granted by Electrofield Boost (via Passive Boost - Electrofield) is increased by an additional 1%.",
+        "The Crit Rate Boost granted by Passive Boost - High Voltage is increased by an additional 1.5%.",
+        "Releasing the Ultimate - Quincy: Vollstandig grants 1 extra Charge Up."
       ],
       "ascend2": [
       ],
