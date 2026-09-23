@@ -4,7 +4,7 @@
     "mainStats": "1: HP%  •  2: HP% •  3:Ult Charge Rate",
     "notes": "",
     "setName": "Thunder of Judgment (3)",
-    "subStatPriority": ""
+    "subStatPriority": "HP% > Flat HP > Ult Charge Rate (~190%)> Crit Rate (20%) > Crit DMG"
   },
   "bondPriority": [
     {
@@ -60,19 +60,19 @@
       "setName": "Thunder of Judgment (3)",
       "setPieces": [
         {
-          "mainStat": "TBD",
+          "mainStat": "HP%",
           "slot": 1
         },
         {
-          "mainStat": "TBD",
+          "mainStat": "HP%",
           "slot": 2
         },
         {
-          "mainStat": "TBD",
+          "mainStat": "Ult Charge Rate",
           "slot": 3
         }
       ],
-      "subStatPriority": "TBD"
+      "subStatPriority": "HP% > Flat HP > Ult Charge Rate (~190%)> Crit Rate (20%) > Crit DMG"
     }
   ],
   "corePassives": [
@@ -108,10 +108,13 @@
   "role": "Support",
   "rotation": [
     {
-      "name": "",
+      "name": "3300 HP / 134.8% Ult Charge",
       "notes": "",
       "steps": [
-      ""
+      "Technique",
+      "Basic Attack x2",
+      "Swap out",
+      "Entry into Ultimate"
       ],
       "tags": [
         "Opener",
