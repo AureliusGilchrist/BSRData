@@ -1,0 +1,75 @@
+{
+  "group": "general",
+  "id": "bambi-uryu-candice",
+  "name": "Bambietta Uryu Candice",
+  "rank": 3,
+  "tier": "S",
+  "difficulty": "Medium",
+  "content": "Co-op / Guild Boss / Events",
+  "p2w-video": "",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "bambietta-basterbine",
+      "name": "Bambietta Basterbine",
+      "role": "Assault",
+      "damageType": "Finesse",
+      "notes": [
+        ""
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "uryu-vollstandig",
+      "name": "Uryu Ishida (Vollstandig)",
+      "role": "Tactician",
+      "damageType": "Finesse",
+      "notes": [
+        ""
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "candice-catnipp",
+      "name": "Candice Catnipp",
+      "role": "Support",
+      "damageType": "Finesse",
+      "notes": [
+        ""
+      ],
+      "swappable": []
+    }
+  ],
+  "rotationP2W": "",
+  "p2w-rotations": [
+    {
+      "name": "Bambietta Uryu Candice",
+      "goal": "general",
+      "tags": [
+        "Burst"
+      ],
+      "video": "",
+      "note": "",
+      "steps": [
+      ],
+      "iconSteps": [
+      ],
+      "notes": ""
+    }
+  ],
+  "f2p-rotations": [
+    {
+      "name": "Bambietta Uryu Candice",
+      "goal": "general",
+      "tags": [
+        "Burst"
+      ],
+      "video": "",
+      "note": "",
+      "steps": [
+        ""
+      ]
+    }
+  ],
+  "rotationF2P": ""
+}
