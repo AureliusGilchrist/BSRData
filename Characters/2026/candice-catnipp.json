@@ -4,7 +4,7 @@
     "mainStats": "1: HP%  •  2: HP% •  3:Ult Charge Rate",
     "notes": "",
     "setName": "Thunder of Judgment (3)",
-    "subStatPriority": "HP% > Flat HP > Ult Charge Rate (~190%)> Crit Rate (20%) > Crit DMG"
+    "subStatPriority": "HP% > Flat HP > Ult Charge Rate (138.4%)> Crit Rate (20%) > Crit DMG"
   },
   "bondPriority": [
     {
@@ -72,7 +72,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "HP% > Flat HP > Ult Charge Rate (~190%)> Crit Rate (20%) > Crit DMG"
+      "subStatPriority": "HP% > Flat HP > Ult Charge Rate (138.4%)> Crit Rate (20%) > Crit DMG"
     }
   ],
   "corePassives": [
