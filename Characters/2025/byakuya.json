@@ -4,7 +4,7 @@
   "bestStamp": {
     "mainStats": "1: Slash DMG > ATK%  •  2: Crit Rate  •  3: ATK% > Ult Charge Rate",
     "notes": "Tactician who does not provide counters.",
-    "setName": "Blooming Sakura (3)",
+    "setName": "Mindscape Encroachment (3)",
     "subStatPriority": "Crit Rate > Crit DMG > ATK% > Ult Charge Rate > Flat ATK"
   },
   "bondPriority": [],
@@ -52,7 +52,7 @@
         "Restrain"
       ],
       "range": "B0W1C1 - B6W5C5",
-      "setName": "Blooming Sakura (3)",
+      "setName": "Mindscape Encroachment (3)",
       "setPieces": [
         {
           "mainStat": "Slash DMG > ATK%",
@@ -192,7 +192,7 @@
   },
   "wikiSource": "https://bleachsoulresonance.wiki.gg/wiki/Byakuya_Kuchiki",
   "rationale": [
-    "TBD."
+    "As Byakuya's own stamp set does not provide any buffs for the team, White's stamp set is superior."
   ],
   "perfectStamps": []
 }
