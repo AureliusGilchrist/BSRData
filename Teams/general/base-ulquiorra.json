@@ -1,0 +1,61 @@
+{
+  "group": "general",
+  "id": "base-ulquiorra",
+  "name": "SR+ Ulquiorra",
+  "rank": 5,
+  "tier": "S",
+  "difficulty": "Easy",
+  "content": "Co-op / Guild Boss / Events",
+  "p2w-video": "",
+  "f2p-video": "",
+  "members": [
+    {
+      "slug": "ulquiorra",
+      "name": "Ulquiorra Shifar (SR+)",
+      "role": "Assault",
+      "damageType": "Spirit",
+      "notes": [
+        ""
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "aizen",
+      "name": "Sosuke Aizen",
+      "role": "Tactician",
+      "damageType": "Spirit",
+      "notes": [
+        "Maintain Ravage stacks while giving Ulquiorra as much field time as possible"
+      ],
+      "swappable": []
+    },
+    {
+      "slug": "szayelaporro",
+      "name": "Szayelaporro Granz",
+      "role": "Support",
+      "damageType": "Spirit",
+      "notes": [
+        "The only limited SSR Spirit support as of now"
+      ],
+      "swappable": [
+        "momo",
+        "kisuke",
+        "orihime"
+      ]
+    }
+  ],
+  "rotationP2W": "",
+  "p2w-rotations": [
+    {
+      "name": "B6W5C5",
+      "goal": "general",
+      "tags": [
+        "Burst"
+      ],
+      "video": "",
+      "note": "",
+      "steps": [],
+      "notes": ""
+    }
+  ]
+}
