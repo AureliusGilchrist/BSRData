@@ -91,7 +91,7 @@
     {
       "description": "After releasing the Ultimate, the entire team gains Valor, increasing ATK by 8% for 30 seconds. Kensei also gains Reproach, increasing his ATK by 1.5% for 30 seconds.",
       "icon": "",
-      "name": "Rigthteous Fury"
+      "name": "Righteous Fury"
     },
     {
       "description": "Increases Ultimate Charge Rate by 10%.",
@@ -224,7 +224,7 @@
     "hp": "600"
   },
   "rationale": [
-    "Maxed core will give Kensei 320% crit DMG. His B4 also provides him with an additional 50%. As with any characters, he also has a base of 50% Crit DMG. He does not need any Crit DMG substats."
+    "Maxed core will give Kensei 320% Crit DMG. His B4 also provides him with an additional 50%. As with any characters, he also has a base of 50% Crit DMG. He does not need any Crit DMG substats."
   ],
   "perfectStamps": []
 }
