@@ -109,12 +109,12 @@
   "role": "Support",
   "rotations": [
     {
-      "name": "",
+      "name": "No Ult Charge",
       "notes": "Use Technique then swap out immediately.",
       "steps": [
-        "Ultimate",
         "Technique",
-        "Swap out"
+        "Swap out",
+        "Ultimate off cooldown"
       ],
       "tags": [
         "Sustain",
