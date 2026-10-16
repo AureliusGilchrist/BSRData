@@ -1,0 +1,230 @@
+{
+  "art": "",
+  "bestStamp": {
+    "mainStats": "1: ATK%  •  2: ATK%  •  3: ATK%",
+    "notes": "Doesn't need any Ult Charge",
+    "setName": "Blastwave Gust (3)",
+    "subStatPriority": "ATK > Flat ATK > Crit DMG (if not B4) > Crit Rate"
+  },
+  "bondPriority": [
+    {
+      "description": "During battle, teammates other than yourself gain 40% Crit DMG. Unstackable.",
+      "name": "Mayuri Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "When the Core Passive - Surging Fistwind reduces other teammates' Ultimate cooldowns, the entire team gains 1 stack of Valiant Assault, increasing Strike DMG by 15% for 25 seconds. Increases Crit Rate by 20%.",
+      "icon": "",
+      "level": 1,
+      "name": "Like-Minded"
+    },
+    {
+      "description": "Each hit of a Special Attack applies 1 stack of Fragile to the target, reducing their All-Type Resistance by 1.2% for 25 seconds, stacking up to 10 times. Increases Special Attack DMG by 50%.",
+      "icon": "",
+      "level": 2,
+      "name": "Blade of Rupture"
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 3
+    },
+    {
+      "description": "When Kensei lands a critical hit, the  entire team gains 1 stack of Merciless, increasing ATK by 0.8% for 25 seconds, stacking up to 20 times. After releasing a Special Attack, increases Crit DMG by 50% for 25 seconds.",
+      "icon": "",
+      "level": 4,
+      "name": "Merciless"
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 5
+    },
+    {
+      "description": "Each hit of a Special Attack applies 1 stack of Turbulence to the target, stacking up to 20 times. When a teammate other than Kensei hits the target with an Ultimate, all Turbulence stacks are consumed to trigger Turbulence Rupture, dealing massive admage equal to (75% of Kensei's ATK (up to 10,000) x Turbulence stacks) and additionally reducing the target's Spiritual Pressure. The t arget is then a fflicted with Rending Wound, increasing damage taken by 10% for 25 seconds. Turbulence Rupture counts as an Ultimate and is affected by the triggering teammate's buffs.",
+      "icon": "",
+      "level": 6,
+      "name": "Blasting Strike"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain"
+      ],
+      "range": "B6W5C5",
+      "setName": "Blastwave Gust",
+      "setPieces": [
+        {
+          "mainStat": "ATK%",
+          "slot": 1
+        },
+        {
+          "mainStat": "ATK%",
+          "slot": 2
+        },
+        {
+          "mainStat": "ATK%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "ATK % > Flat ATK > Crit Rate",
+      "targets": {
+        "ultChargeRate": "None"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "When Kensei releases his Ultimate - Explosive Uppercut, the remaining cooldowns of other teammates' Ultimates are reduced by 1.25 second(s). If the team has 1/2 other Strike characters, the cooldown reduction from his Core Passive - Surging Fistwind is multiplied by 2/4, and the buff effects from his Passive Boost - Crushing Gale, Righteous Fury, and Impatient are multiplied by 2/4.",
+      "icon": "",
+      "name": "Surging Fistwind"
+    },
+    {
+      "description": "Each hit of a Special Attack applies 1 stack of Wind Pressure to the target, stacking up to 20 times. When a Strike teammate other than Kensei lands an attack, 1 Wind Pressure stack is consumed to trigger Wind Pressure Rupture, dealing extra Strike DMG equal to (Kensei's ATK x 25%). The Strike characters in the team then gain 1 stack of Wind Pressure Boost, increasing Crit DMG by 2% for 25 seconds, stacking up to 20 times. Wind Pressure Rupture counts as a Special Attack and is affected by the triggering teammate's buffs.",
+      "icon": "",
+      "name": "Crushing Gale"
+    },
+    {
+      "description": "After releasing the Ultimate, the entire team gains Valor, increasing ATK by 8% for 30 seconds. Kensei also gains Reproach, increasing his ATK by 1.5% for 30 seconds.",
+      "icon": "",
+      "name": "Rigthteous Fury"
+    },
+    {
+      "description": "Increases Ultimate Charge Rate by 10%.",
+      "icon": "",
+      "name": "Impatient"
+    }
+  ],
+  "damageType": "Strike",
+  "name": "Kensei Muguruma (Bankai)",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "16 Oct 2026",
+  "role": "Support",
+  "rotations": [
+    {
+      "name": "",
+      "notes": "Use Technique then swap out immediately.",
+      "steps": [
+        "Ultimate",
+        "Technique",
+        "Swap out"
+      ],
+      "tags": [
+        "Sustain",
+        "Boss"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "Kensei pummels the enemy with four consecutive punches, dealing a total damage equal to 276% of ATK and gaining Spiritual Pressure. ~~Infused Strike~~ When Spiritual Pressure is above 50, tap Basic Attack after finishing the final hit of Basick Attack or releasing a Technique /n Kensei delivers a fierce punch, causing the power infused into the enemy to erupt repeatedly. This consumes 50 Spiritual Pressure and deals 10 hits for a total damage equal to 360% of ATK. \n After releasing this skill, if Kensei still has more than 50 Spiritual Pressure, tap Basic Attack to cousume another 50 and use Infused Strike again, with its damage increased by 50%.",
+      "icon": "",
+      "kind": "Basic Attack",
+      "name": "Bankai - Tekken Tachikaze",
+      "variant": null
+    },
+    {
+      "description": "Kensei charges forward and strikes with hiss tored power, dealing damage equal to 536% of ATK and gaining Spiritual Pressure.",
+      "icon": "",
+      "kind": "Technique",
+      "name": "Power Straight",
+      "variant": null
+    },
+    {
+      "description": "Kensei lands a mighty blow that triggers an explosion, dealing damage equal 796% of ATK. After releasing this skill, he gains 1 stack of Intent. ~~Thunderous Barrage~~ While having 3 stacks of Intent \n Kensei channels  power into both fists and pummels the enemy, finishing with an explosive strike. He consumes all stacks of Intent and deals damage equal to 2760% of ATK.",
+      "icon": "",
+      "kind": "Ultimate",
+      "name": "Explosive Uppercut",
+      "variant": null
+    },
+    {
+      "description": "Upon blocking an enemy attack, Kensei counters with a ground-shaking blow that deals damage equal to 844% of ATK.",
+      "icon": "",
+      "kind": "Counter",
+      "name": "Counter",
+      "variant": null
+    },
+    {
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Kensei gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": "Flash Step"
+    }
+  ],
+  "slug": "kensei-bankai",
+  "source": "",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "Increases Technique's Spiritual Pressure Charge Rate by 100%.",
+        "When a teammate triggers a Perfect Dodge, the entire team's Strike DMG increases by 10% for 20 seconds.",
+        "Each stack of Wind Pressure Boost increases Crit DMG by an extra 1%.",
+        "Releasing the Ultimate - Explosive Uppercut grants 1 stack of Barrage Boost, increasing the damage of the Enhanced Ultimate - Thunderous Barrage by 25% for 30 seconds, stacking up to 3 times."
+      ],
+      "ascend5": [
+        "Increases Technique's Spiritual Pressure Charge Rate by 100%.",
+        "When a teammate triggers a Perfect Dodge, the entire team's Strike DMG increases by 20% for 20 seconds.",
+        "Each stack of Wind Pressure Boost increases Crit DMG by an extra 2%.",
+        "Releasing the Ultimate - Explosive Uppercut grants 1 stack of Barrage Boost, increasing the damage of the Enhanced Ultimate - Thunderous Barrage by 50% for 30 seconds, stacking up to 3 times."
+      ],
+      "ascend2": [
+        "Increases Technique's Spiritual Pressure Charge Rate by 100%.",
+        "When a teammate triggers a Perfect Dodge, the entire team's Strike DMG increases by 12.5% for 20 seconds.",
+        "Each stack of Wind Pressure Boost increases Crit DMG by an extra 1.25%.",
+        "Releasing the Ultimate - Explosive Uppercut grants 1 stack of Barrage Boost, increasing the damage of the Enhanced Ultimate - Thunderous Barrage by 31.25% for 30 seconds, stacking up to 3 times."
+      ],
+      "ascend3": [
+        "Increases Technique's Spiritual Pressure Charge Rate by 100%.",
+        "When a teammate triggers a Perfect Dodge, the entire team's Strike DMG increases by 15% for 20 seconds.",
+        "Each stack of Wind Pressure Boost increases Crit DMG by an extra 1.5%.",
+        "Releasing the Ultimate - Explosive Uppercut grants 1 stack of Barrage Boost, increasing the damage of the Enhanced Ultimate - Thunderous Barrage by 37.5% for 30 seconds, stacking up to 3 times."
+      ],
+      "ascend4": [
+        "Increases Technique's Spiritual Pressure Charge Rate by 100%.",
+        "When a teammate triggers a Perfect Dodge, the entire team's Strike DMG increases by 17.5% for 20 seconds.",
+        "Each stack of Wind Pressure Boost increases Crit DMG by an extra 1.75%.",
+        "Releasing the Ultimate - Explosive Uppercut grants 1 stack of Barrage Boost, increasing the damage of the Enhanced Ultimate - Thunderous Barrage by 43.75% for 30 seconds, stacking up to 3 times."
+      ]
+    },
+    "coreScope": "team",
+    "weapon": {
+      "ascend1": [
+        "Increases Crit rate by 20%.",
+        "During battle, for every 1% Crit DMG Kensei possesses, his ATK increases by 0.05%, up to 20%.",
+        "When a teammate triggers Wind Pressure Rupture through Kensei's Passive Boost - Crushing Gale, all teammates except Kensei gain 1 stack of Rupture Boost, increasing Strike Mastery by 0.5% and All-Skill Mastery by 0.5% for 25 seconds, up to 20 stacks.",
+        "After releasing a Technique, if Kensei has sufficient Spiritual Pressure and is at the backline, he automatically releases Special Attacks until all his Spiritual Pressure is consumed."
+      ],
+      "ascend5": [
+        "Increases Crit rate by 40%.",
+        "During battle, for every 1% Crit DMG Kensei possesses, his ATK increases by 0.1%, up to 40%.",
+        "When a teammate triggers Wind Pressure Rupture through Kensei's Passive Boost - Crushing Gale, all teammates except Kensei gain 1 stack of Rupture Boost, increasing Strike Mastery by 1% and All-Skill Mastery by 1% for 25 seconds, up to 20 stacks.",
+        "After releasing a Technique, if Kensei has sufficient Spiritual Pressure and is at the backline, he automatically releases Special Attacks until all his Spiritual Pressure is consumed."
+      ]
+    },
+    "weaponScope": "team"
+  },
+  "stats": {
+    "atk": "327",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "330",
+    "hp": "1650"
+  },
+  "tier": "S",
+  "weaponStats": {
+    "atk": "196",
+    "def": "120",
+    "hp": "600"
+  },
+  "rationale": [
+    "Maxed core will give Kensei 320% crit DMG. His B4 also provides him with an additional 50%. As with any characters, he also has a base of 50% Crit DMG. He does not need any Crit DMG substats."
+  ],
+  "perfectStamps": []
+}

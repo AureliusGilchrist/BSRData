@@ -180,6 +180,18 @@
     "releaseDate": "30 Jan 2026"
   },
   {
+    "slug": "kensei-bankai",
+    "path": "2026/kenpachi-bankai.json",
+    "year": 2026,
+    "name": "Kensei Muguruma (Bankai)",
+    "role": "Support",
+    "tier": "S",
+    "damageType": "Strike",
+    "rarity": "SSR",
+    "art": "",
+    "releaseDate": "10 Oct 2026"
+  },
+  {
     "slug": "kisuke",
     "path": "2025/kisuke.json",
     "year": 2025,
