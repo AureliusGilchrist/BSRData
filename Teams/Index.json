@@ -146,11 +146,50 @@
       "f2p-video": ""
     },
     {
+      "id": "base-ulquiorra",
+      "group": "general",
+      "path": "general/ulquiorra-mono.json",
+      "name": "SR+ Ulquiorra",
+      "rank": 5,
+      "tier": "S",
+      "difficulty": "Easy",
+      "content": "Co-op / Guild Boss / Events",
+      "goals": [
+        "general"
+      ],
+      "members": [
+        {
+          "slug": "ulquiorra",
+          "name": "Ulquiorra Shifar (SR+)",
+          "role": "Assault",
+          "damageType": "Spirit"
+        },
+        {
+          "slug": "aizen",
+          "name": "Sosuke Aizen",
+          "role": "Tactician",
+          "damageType": "Spirit"
+        },
+        {
+          "slug": "szayelaporro",
+          "name": "Szayelaporro Granz",
+          "role": "Support",
+          "damageType": "Spirit",
+          "swappable": [
+            "momo",
+            "kisuke",
+            "orihime"
+          ]
+        }
+      ],
+      "p2w-video": ""
+    },
+    {
       "id": "kenpachi-team",
       "group": "general",
       "path": "general/kenpachi-team.json",
       "name": "Kenpachi Team",
-      "rank": 5,
+      "rank": 6,
       "tier": "S",
       "difficulty": "Easy",
       "content": "Co-op / Guild Boss / Events",
@@ -184,7 +223,7 @@
       "group": "general",
       "path": "general/pantera-mono.json",
       "name": "Pantera Strike Team",
-      "rank": 6,
+      "rank": 7,
       "tier": "S",
       "difficulty": "Medium",
       "content": "Co-op / Guild Boss / Events",
@@ -218,7 +257,7 @@
       "group": "general",
       "path": "general/aizen-support.json",
       "name": "Aizen Double Support",
-      "rank": 7,
+      "rank": 8,
       "tier": "S",
       "difficulty": "Medium",
       "content": "Co-op / Guild Boss / Events / Frenzy Feast",
@@ -255,7 +294,7 @@
       "group": "general",
       "path": "general/bichigo-mono.json",
       "name": "Bankai Ichigo Mono Slash",
-      "rank": 8,
+      "rank": 9,
       "tier": "S",
       "difficulty": "Hard",
       "content": "Co-op / Guild Boss / Events",
@@ -289,7 +328,7 @@
       "group": "general",
       "path": "general/toshiro-mono.json",
       "name": "Toshiro Mono Spirit",
-      "rank": 9,
+      "rank": 10,
       "tier": "S",
       "difficulty": "Medium",
       "content": "Co-op / Guild Boss / Events",
@@ -325,7 +364,7 @@
       "group": "general",
       "path": "general/gin-mono.json",
       "name": "Gin Mono Thrust",
-      "rank": 10,
+      "rank": 11,
       "tier": "S",
       "difficulty": "Easy",
       "content": "Co-op / Guild Boss / Events",
@@ -362,7 +401,7 @@
       "group": "general",
       "path": "general/white-support.json",
       "name": "White Double Support",
-      "rank": 11,
+      "rank": 12,
       "tier": "S",
       "difficulty": "Easy",
       "content": "Co-op / Guild Boss / Events",
@@ -395,7 +434,7 @@
       "group": "general",
       "path": "general/pantera-nel.json",
       "name": "Pantera Nel Team",
-      "rank": 12,
+      "rank": 13,
       "tier": "A",
       "difficulty": "Easy",
       "content": "Co-op / Guild Boss / Events",
@@ -429,7 +468,7 @@
       "group": "general",
       "path": "general/nel-support.json",
       "name": "Nel Double Support",
-      "rank": 13,
+      "rank": 14,
       "tier": "A",
       "difficulty": "Easy",
       "content": "Co-op / Guild Boss / Events",
@@ -463,7 +502,7 @@
       "group": "general",
       "path": "general/bambi-team.json",
       "name": "Bambietta Team",
-      "rank": 14,
+      "rank": 15,
       "tier": "A",
       "difficulty": "Medium",
       "content": "Co-op / Guild Boss / Events",
