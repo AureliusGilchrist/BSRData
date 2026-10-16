@@ -4,7 +4,7 @@
     "mainStats": "1: ATK%  •  2: ATK%  •  3: ATK%",
     "notes": "Doesn't need any Ult Charge",
     "setName": "Blastwave Gust (3)",
-    "subStatPriority": "ATK > Flat ATK > Crit DMG (if not B4) > Crit Rate"
+    "subStatPriority": "ATK > Flat ATK > Crit Rate > Crit DMG"
   },
   "bondPriority": [
     {
@@ -71,7 +71,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "ATK % > Flat ATK > Crit Rate",
+      "subStatPriority": "ATK % > Flat ATK > Crit Rate > Crit DMG",
       "targets": {
         "ultChargeRate": "None"
       }
