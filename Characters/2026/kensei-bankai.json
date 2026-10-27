@@ -26,8 +26,8 @@
       "name": "Blade of Rupture"
     },
     {
-      "description": "/Images/kensei-bankai/boundary-3.png",
-      "icon": "",
+      "description": "",
+      "icon": "/Images/kensei-bankai/boundary-3.png",
       "level": 3
     },
     {
@@ -37,8 +37,8 @@
       "name": "Merciless"
     },
     {
-      "description": "/Images/kensei-bankai/boundary-5.png",
-      "icon": "",
+      "description": "",
+      "icon": "/Images/kensei-bankai/boundary-5.png",
       "level": 5
     },
     {
@@ -224,7 +224,7 @@
     "hp": "600"
   },
   "rationale": [
-    "Maxed core will give Kensei 320% Crit DMG. His B4 also provides him with an additional 50%. As with any characters, he also has a base of 50% Crit DMG. He does not need any Crit DMG substats."
+    "Maxed core will give Kensei 320% Crit DMG. His B4 also provides him with an additional 50%. As with any characters, he also has a base of 50% Crit DMG. His weapon requirement of 400% crit dmg is automatically met at B4 and maxed core stamp."
   ],
   "perfectStamps": []
 }
