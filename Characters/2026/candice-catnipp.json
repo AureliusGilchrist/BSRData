@@ -108,15 +108,15 @@
   "role": "Support",
   "rotation": [
     {
-      "name": "33,000 HP / 134.8% Ult Charge",
+      "name": "33,000 HP / 193% Ult Charge",
       "steps": [
       "Technique",
-      "Basic Attack x2",
       "Swap out",
       "Entry into Ultimate"
       ],
       "tags": [
-        "Standard"
+        "Sustain",
+        "Boss"
       ]
     }
   ],
