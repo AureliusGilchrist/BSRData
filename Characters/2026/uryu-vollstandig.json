@@ -121,31 +121,31 @@
   "skills": [
     {
       "description": "Uryu commands Reishi Feather Arrows to bombard enemies, dealing 4 hits of damage equal to 682.5% of ATK in total while generating Spiritual Pressure. Based on Uryu's current state, he gains either Battlefield Skill Energy or Convergence Points.",
-      "icon": "Images/uryu-vollstandig/skill-basic.png",
+      "icon": "/Images/uryu-vollstandig/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Reishi Feather Arrow"
     },
     {
       "description": "Uryu gathers Reishi into a pentagram and fires it at the enemy, dealing damage equal to 1437.5% of ATK and building Spiritual Pressure.",
-      "icon": "Images/uryu-vollstandig/skill-technique.png",
+      "icon": "/Images/uryu-vollstandig/skill-technique.png",
       "kind": "Technique",
       "name": "Reishi Rush"
     },
     {
       "description": "While at the backline, Uryu enters the Battlefield alongside a barrage of Reishi Feather Arrows to launch a series of attacks, then fires a massive arrow at the enemy, dealing a total damage equal to 3795% of ATK. Gains Battlefield Skill Energy or consumes Convergence Points depending on Uryu's current state.",
-      "icon": "Images/uryu-vollstandig/skill-ultimate3.png",
+      "icon": "/Images/uryu-vollstandig/skill-ultimate3.png",
       "kind": "Entry Skill",
       "name": "Heilig Pfeil"
     },
     {
       "description": "Uryu leaps into the air and fires a powerful Spirit Arrow, dealing damage equal to 8937.5% of ATK, then clears all Battlefield Skill Energy and enters Sklave Rai.",
-      "icon": "Images/uryu-vollstandig/skill-ultimate.png",
+      "icon": "/Images/uryu-vollstandig/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Stardust"
     },
     {
       "description": "Uryu condenses Reishi into a shield to block attacks, then creates a Reishi Cage to trap the enemy and detonates it, dealing damage equal to 1585% of ATK.",
-      "icon": "Images/uryu-vollstandig/skill-counter.png",
+      "icon": "/Images/uryu-vollstandig/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"
     },

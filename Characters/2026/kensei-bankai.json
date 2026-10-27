@@ -1,5 +1,5 @@
 {
-  "art": "",
+  "art": "/Images/kensei-bankai/art.png",
   "bestStamp": {
     "mainStats": "1: ATK%  •  2: ATK%  •  3: ATK%",
     "notes": "Doesn't need any Ult Charge",
@@ -15,35 +15,35 @@
   "boundaries": [
     {
       "description": "When the Core Passive - Surging Fistwind reduces other teammates' Ultimate cooldowns, the entire team gains 1 stack of Valiant Assault, increasing Strike DMG by 15% for 25 seconds. Increases Crit Rate by 20%.",
-      "icon": "",
+      "icon": "/Images/kensei-bankai/boundary-1.png",
       "level": 1,
       "name": "Like-Minded"
     },
     {
       "description": "Each hit of a Special Attack applies 1 stack of Fragile to the target, reducing their All-Type Resistance by 1.2% for 25 seconds, stacking up to 10 times. Increases Special Attack DMG by 50%.",
-      "icon": "",
+      "icon": "/Images/kensei-bankai/boundary-2.png",
       "level": 2,
       "name": "Blade of Rupture"
     },
     {
-      "description": "",
+      "description": "/Images/kensei-bankai/boundary-3.png",
       "icon": "",
       "level": 3
     },
     {
       "description": "When Kensei lands a critical hit, the  entire team gains 1 stack of Merciless, increasing ATK by 0.8% for 25 seconds, stacking up to 20 times. After releasing a Special Attack, increases Crit DMG by 50% for 25 seconds.",
-      "icon": "",
+      "icon": "/Images/kensei-bankai/boundary-4.png",
       "level": 4,
       "name": "Merciless"
     },
     {
-      "description": "",
+      "description": "/Images/kensei-bankai/boundary-5.png",
       "icon": "",
       "level": 5
     },
     {
       "description": "Each hit of a Special Attack applies 1 stack of Turbulence to the target, stacking up to 20 times. When a teammate other than Kensei hits the target with an Ultimate, all Turbulence stacks are consumed to trigger Turbulence Rupture, dealing massive admage equal to (75% of Kensei's ATK (up to 10,000) x Turbulence stacks) and additionally reducing the target's Spiritual Pressure. The t arget is then a fflicted with Rending Wound, increasing damage taken by 10% for 25 seconds. Turbulence Rupture counts as an Ultimate and is affected by the triggering teammate's buffs.",
-      "icon": "",
+      "icon": "/Images/kensei-bankai/boundary-6.png",
       "level": 6,
       "name": "Blasting Strike"
     }
