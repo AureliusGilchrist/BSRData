@@ -1,0 +1,209 @@
+{
+  "art": "",
+  "bestStamp": {
+    "mainStats": "1: TBD  •  2: TBD  •  3: TBD",
+    "notes": "",
+    "setName": "Kisuke Bankai Stamp (3)",
+    "subStatPriority": "TBD"
+  },
+  "bondPriority": [
+    {
+      "description": "During battle, teammates other than yourself gain 40% Crit DMG. Unstackable.",
+      "name": "Mayuri Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "",
+      "icon": "",
+      "level": 1,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 2,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 3
+    },
+    {
+      "description": "When Kensei lands a critical hit, the  entire team gains 1 stack of Merciless, increasing ATK by 0.8% for 25 seconds, stacking up to 20 times. After releasing a Special Attack, increases Crit DMG by 50% for 25 seconds.",
+      "icon": "",
+      "level": 4,
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 5
+    },
+    {
+      "description": "",
+      "icon": "",
+      "level": 6,
+      "name": ""
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "Invigorate",
+        "Restrain"
+      ],
+      "range": "B6W5C5",
+      "setName": "",
+      "setPieces": [
+        {
+          "mainStat": "TBD",
+          "slot": 1
+        },
+        {
+          "mainStat": "TBD",
+          "slot": 2
+        },
+        {
+          "mainStat": "TBD",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "TBD",
+      "targets": {
+        "ultChargeRate": "None"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "",
+      "icon": "",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "",
+      "name": ""
+    }
+  ],
+  "damageType": "Slash",
+  "name": "Kisuke Urahara (Bankai)",
+  "rarity": "SSR",
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "05 Nov 2026",
+  "role": "Support",
+  "rotations": [
+    {
+      "name": "No Ult Charge",
+      "notes": "Use Technique then swap out immediately.",
+      "steps": [
+        "Technique",
+        "Swap out",
+        "Ultimate off cooldown"
+      ],
+      "tags": [
+        "Sustain",
+        "Boss"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "",
+      "icon": "",
+      "kind": "Basic Attack",
+      "name": "",
+      "variant": null
+    },
+    {
+      "description": ".",
+      "icon": "",
+      "kind": "Technique",
+      "name": "",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "",
+      "kind": "Ultimate",
+      "name": "",
+      "variant": null
+    },
+    {
+      "description": "",
+      "icon": "",
+      "kind": "Counter",
+      "name": "Counter",
+      "variant": null
+    },
+    {
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Kisuke gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": "Flash Step"
+    }
+  ],
+  "slug": "kisuke-bankai",
+  "source": "",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        ""
+      ],
+      "ascend5": [
+        ""
+      ],
+      "ascend2": [
+        ""
+      ],
+      "ascend3": [
+        ""
+      ],
+      "ascend4": [
+        ""
+      ]
+    },
+    "coreScope": "team",
+    "weapon": {
+      "ascend1": [
+        ""
+      ],
+      "ascend5": [
+        ""
+      ]
+    },
+    "weaponScope": "team"
+  },
+  "stats": {
+    "atk": "327",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "330",
+    "hp": "1650"
+  },
+  "tier": "S",
+  "weaponStats": {
+    "atk": "196",
+    "def": "120",
+    "hp": "600"
+  },
+  "rationale": [
+    ""
+  ],
+  "perfectStamps": []
+}
