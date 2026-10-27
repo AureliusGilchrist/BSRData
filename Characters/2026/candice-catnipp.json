@@ -78,22 +78,22 @@
   "corePassives": [
     {
       "description": "Candice increases the entire team's Fixed ATK by (Candice's Max HP x 2.5% x the number of Finesse teammates), up to 500 x the number of Finesse teammates. For each Quincy on the team other than herself, Candice's Technique and Ultimate DMG increases by 50%.",
-      "icon": "/Images/candice-catnipp/passive1.png",
+      "icon": "/Images/candice-catnipp/passive-1.png",
       "name": "Schrift T"
     },
     {
       "description": "Increases Candice's Max HP by 1800.",
-      "icon": "/Images/candice-catnipp/passive2.png",
+      "icon": "/Images/candice-catnipp/passive-2.png",
       "name": "Barrier"
     },
     {
       "description": "Whenever Candice releases a Technique, Special Attack, or Entry Skill, the entire team gains 1 stack of Electrofield Boost: Increases ATK by 2% x the number of Finesse teammates. Stacks up to 5 time(s) and lasts 40 second(s).",
-      "icon": "/Images/candice-catnipp/passive3.png",
+      "icon": "/Images/candice-catnipp/passive-3.png",
       "name": "Electrofield"
     },
     {
       "description": "For every 3000 Max HP Candice has in battle, her Crit Rate increases by 5%, up to a maximum increase of 80%.",
-      "icon": "/Images/candice-catnipp/passive4.png",
+      "icon": "/Images/candice-catnipp/passive-4.png",
       "name": "High Voltage"
     }
   ],
