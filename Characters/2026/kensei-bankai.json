@@ -125,7 +125,7 @@
   "skills": [
     {
       "description": "Kensei pummels the enemy with four consecutive punches, dealing a total damage equal to 276% of ATK and gaining Spiritual Pressure. ~~Infused Strike~~ When Spiritual Pressure is above 50, tap Basic Attack after finishing the final hit of Basick Attack or releasing a Technique /n Kensei delivers a fierce punch, causing the power infused into the enemy to erupt repeatedly. This consumes 50 Spiritual Pressure and deals 10 hits for a total damage equal to 360% of ATK. \n After releasing this skill, if Kensei still has more than 50 Spiritual Pressure, tap Basic Attack to cousume another 50 and use Infused Strike again, with its damage increased by 50%.",
-      "icon": "",
+      "icon": "/Images/kensei-bankai/skill-basic1.png",
       "kind": "Basic Attack",
       "name": "Bankai - Tekken Tachikaze",
       "variant": null
