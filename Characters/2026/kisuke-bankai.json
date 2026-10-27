@@ -31,7 +31,7 @@
       "level": 3
     },
     {
-      "description": "When Kensei lands a critical hit, the  entire team gains 1 stack of Merciless, increasing ATK by 0.8% for 25 seconds, stacking up to 20 times. After releasing a Special Attack, increases Crit DMG by 50% for 25 seconds.",
+      "description": "",
       "icon": "",
       "level": 4,
       "name": ""
@@ -105,7 +105,7 @@
   "recommendedStopBoundary": 6,
   "recommendedStopBoundaryF2P": 1,
   "recommendedStopBoundaryP2W": 6,
-  "releaseDate": "05 Nov 2026",
+  "releaseDate": "06 Nov 2026",
   "role": "Support",
   "rotations": [
     {
