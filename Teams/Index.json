@@ -148,7 +148,7 @@
     {
       "id": "base-ulquiorra",
       "group": "general",
-      "path": "general/ulquiorra-mono.json",
+      "path": "general/base-ulquiorra.json",
       "name": "SR+ Ulquiorra",
       "rank": 5,
       "tier": "S",
