@@ -204,6 +204,17 @@
     "releaseDate": "21 Nov 2025"
   },
   {
+    "slug": "kisuke-bankai",
+    "path": "2026/kisuke-bankai.json",
+    "year": 2026,
+    "name": "Kisuke Urahara (Bankai)",
+    "role": "Support",
+    "tier": "S",
+    "damageType": "Slash",
+    "rarity": "SSR",
+    "releaseDate": "05 Nov 2026"
+  },
+  {
     "slug": "komamura",
     "path": "2025/komamura.json",
     "year": 2025,
