@@ -80,22 +80,22 @@
   "corePassives": [
     {
       "description": "When Kensei releases his Ultimate - Explosive Uppercut, the remaining cooldowns of other teammates' Ultimates are reduced by 1.25 second(s). If the team has 1/2 other Strike characters, the cooldown reduction from his Core Passive - Surging Fistwind is multiplied by 2/4, and the buff effects from his Passive Boost - Crushing Gale, Righteous Fury, and Impatient are multiplied by 2/4.",
-      "icon": "",
+      "icon": "/Images/kensei-bankai/passive-1.png",
       "name": "Surging Fistwind"
     },
     {
       "description": "Each hit of a Special Attack applies 1 stack of Wind Pressure to the target, stacking up to 20 times. When a Strike teammate other than Kensei lands an attack, 1 Wind Pressure stack is consumed to trigger Wind Pressure Rupture, dealing extra Strike DMG equal to (Kensei's ATK x 25%). The Strike characters in the team then gain 1 stack of Wind Pressure Boost, increasing Crit DMG by 2% for 25 seconds, stacking up to 20 times. Wind Pressure Rupture counts as a Special Attack and is affected by the triggering teammate's buffs.",
-      "icon": "",
+      "icon": "/Images/kensei-bankai/passive-2.png",
       "name": "Crushing Gale"
     },
     {
       "description": "After releasing the Ultimate, the entire team gains Valor, increasing ATK by 8% for 30 seconds. Kensei also gains Reproach, increasing his ATK by 1.5% for 30 seconds.",
-      "icon": "",
+      "icon": "/Images/kensei-bankai/passive-3.png",
       "name": "Righteous Fury"
     },
     {
       "description": "Increases Ultimate Charge Rate by 10%.",
-      "icon": "",
+      "icon": "/Images/kensei-bankai/passive-4.png",
       "name": "Impatient"
     }
   ],
@@ -132,14 +132,14 @@
     },
     {
       "description": "Kensei charges forward and strikes with hiss tored power, dealing damage equal to 536% of ATK and gaining Spiritual Pressure.",
-      "icon": "",
+      "icon": "/Images/kensei-bankai/skill-technique.png",
       "kind": "Technique",
       "name": "Power Straight",
       "variant": null
     },
     {
       "description": "Kensei lands a mighty blow that triggers an explosion, dealing damage equal 796% of ATK. After releasing this skill, he gains 1 stack of Intent. ~~Thunderous Barrage~~ While having 3 stacks of Intent \n Kensei channels  power into both fists and pummels the enemy, finishing with an explosive strike. He consumes all stacks of Intent and deals damage equal to 2760% of ATK.",
-      "icon": "",
+      "icon": "/Images/kensei-bankai/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Explosive Uppercut",
       "variant": null

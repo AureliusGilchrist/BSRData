@@ -151,7 +151,7 @@
     },
     {
       "description": "~~While Uryu Ishida - Vollstandig's Battlefield Skill is active, Finesse DMG dealt by all teammates increase by 40%.~~ \n Uryu Ishida - Vollstandig's Battlefield Skill uses two type of energy: Battlefield Skill Energy and Convergence Points. In his normal state, he gains Battlefield Skill Energy, while in Sklave Rai, he gains Convergence Poinuts. ~~Combo Attack~~ Automatically triggers when a teammate inflicts damage while Battlefield Skill Energy is below max capacitiy. \n Uryu commands Reishi Feather Arrows to perform a co-strike, dealing damage equal to 205% of ATK and gaining either Battlefield Skill Energy or Convergence Points depending on his current state. ~~Feather Surge~~ Reach Maximum Battlefield Skill Energy \n Uryu surrounds the enemy with Reishi Feather Arrows, forming a spherical carge and detonating it for damage equal to 2975% of ATK. ~~Feather Torret~~ Reach Sklave Rai Stage 5 \n Uryu commands countless Reishi Feather Arrows to converge into a massive torrent that crashes into the  enemy, dealing damage equal to 3750% of ATK and ending Sklave Rai.",
-      "icon": "Images/uryu-vollstandig/skill-bfs.png",
+      "icon": "/Images/uryu-vollstandig/skill-bfs.png",
       "kind": "Battlefield Skill",
       "name": "This Is My Resolve"
     },

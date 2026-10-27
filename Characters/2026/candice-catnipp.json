@@ -135,13 +135,13 @@
     },
     {
       "description": "At the backline, Candice gathers lightning before entering the battlefield and launching a firce assault, dealing damage equal to 1200% of ATK and gaining 1 point(s) of Charge Up. ~~Twin Lightning~~ When in Vollstandig and in the backline with maximum Spiritual Pressure \n At the backline, Candice enters the battlefield wielding her Galvano Javelin, dealing damage equal to 1200% of ATK and gaining 1 point(s) of Charge Up.",
-      "icon": "Images/candice-catnipp/skill-entry.png",
+      "icon": "/Images/candice-catnipp/skill-entry.png",
       "kind": "Entry Skill",
       "name": "Energy Shift"
     },
     {
       "description": "Candice activates Sklave Rai and enters Vollstandig, dealing damage equal to 900% of ATK and gaining 1 point(s) of Charge Up. ~~Electrocution~~ Vollstandig state \n Candice unleashes her amassed lightning at the enemy in a devastating execution strike, dealing damage equal to 1420% of ATK, and grants herself and Finesse teammates the bonus Ion Surge: Increases Crit DMG by (number of Finesse teammates x 50%) for 45 seconds, then exits Vollstandig Form",
-      "icon": "Images/candice-catnipp/skill-ultimate1.png",
+      "icon": "/Images/candice-catnipp/skill-ultimate1.png",
       "kind": "Ultimate",
       "name": "Quincy: Vollstandig"
     },
