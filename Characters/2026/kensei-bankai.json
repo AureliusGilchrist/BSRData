@@ -224,7 +224,8 @@
     "hp": "600"
   },
   "rationale": [
-    "Maxed core will give Kensei 320% Crit DMG. His B4 also provides him with an additional 50%. As with any characters, he also has a base of 50% Crit DMG. His weapon requirement of 400% crit dmg is automatically met at B4 and maxed core stamp."
+    "Maxed core will give Kensei 320% Crit DMG. His B4 also provides him with an additional 50%. As with any characters, he also has a base of 50% Crit DMG. His weapon requirement of 400% Crit Dmg is automatically met at B4 and maxed Core stamp.",
+    "His passive and stamp set provide all the Ult Charge he needs. No additional substats are required."
   ],
   "perfectStamps": []
 }
