@@ -106,6 +106,9 @@
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "23 Sep 2026",
   "role": "Support",
+  "tips": [
+    "Despite being shown as a Thrust unit ingame, Candice is a Finesse support."
+  ],
   "rotation": [
     {
       "name": "33,000 HP / 193% Ult Charge",
