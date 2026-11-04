@@ -59,19 +59,19 @@
       "setName": "",
       "setPieces": [
         {
-          "mainStat": "TBD",
+          "mainStat": "ATK%",
           "slot": 1
         },
         {
-          "mainStat": "TBD",
+          "mainStat": "ATK%",
           "slot": 2
         },
         {
-          "mainStat": "TBD",
+          "mainStat": "Ult Charge",
           "slot": 3
         }
       ],
-      "subStatPriority": "TBD",
+      "subStatPriority": "Ult Charge > ATK% > Flat ATK > Crit Rate > Crit DMG",
       "targets": {
         "ultChargeRate": "None"
       }
@@ -103,7 +103,7 @@
   "name": "Kisuke Urahara (Bankai)",
   "rarity": "SSR",
   "recommendedStopBoundary": 6,
-  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryF2P": 0,
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "06 Nov 2026",
   "role": "Support",
@@ -222,7 +222,7 @@
     "hp": "600"
   },
   "rationale": [
-    ""
+    "5,600 ATK is needed for maximum buffs. As it is easy to obtain, it is recommended to get as many Ult Charge substat rolls as possible. CN supposedly is aiming for 215%. 148% is enough to play Bankai Kisuke normally."
   ],
   "perfectStamps": []
 }
