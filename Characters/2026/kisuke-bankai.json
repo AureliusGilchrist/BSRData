@@ -14,16 +14,16 @@
   ],
   "boundaries": [
     {
-      "description": "",
+      "description": "At the  start of battle, increases the entire team's Slash DMG by 10%. \n Increases the character's Crit Rate by 75%.",
       "icon": "",
       "level": 1,
-      "name": ""
+      "name": "Perfect Timing"
     },
     {
-      "description": "",
+      "description": "While Mod Enhancement is active, all enemies' DEF decreases by 15%.",
       "icon": "",
       "level": 2,
-      "name": ""
+      "name": "Complete Analysis"
     },
     {
       "description": "",
@@ -31,10 +31,10 @@
       "level": 3
     },
     {
-      "description": "",
+      "description": "Increases the character's Crit DMG by an amount equal to 20% of their Ultimate Charte Rate, up to 40%.",
       "icon": "",
       "level": 4,
-      "name": ""
+      "name": "Dangerous Bankai"
     },
     {
       "description": "",
@@ -42,10 +42,10 @@
       "level": 5
     },
     {
-      "description": "",
+      "description": "During Mod Enhancement, landing a Special Attack deals extra damage equal to 2,000% of the character's ATK and boosts the entire team's All-Skill Mastery by 10% for 25 seconds.",
       "icon": "",
       "level": 6,
-      "name": ""
+      "name": "Unrevealed Tactics"
     }
   ],
   "builds": [
@@ -79,24 +79,24 @@
   ],
   "corePassives": [
     {
-      "description": "",
+      "description": "After entering Mod Enhancement, Urahara applies 1 stack of Mod Scars to enemies every 4.5 seconds: Each stack reduces Slash Resistance by 3%, up to 3 stacks for 12 seconds. Additionally, when Urahara's Special Attack hits an enemy, it applies 1 stack of Scar Exposure for each stack of Mod Scars on the target: Increases damage taken by 1% per stack, up to 3 stacks for 25 seconds. \n When the team includes three different types, the entire team gains 80% Crit DMG Bonus. The effects provided by Urahara's own Core Passive and Passive Boost are also multiplied by 2.",
       "icon": "",
-      "name": ""
+      "name": "Mod"
     },
     {
-      "description": "",
+      "description": "During battle, increases Ultimate Charge Rate by 22.5%.",
       "icon": "",
-      "name": ""
+      "name": "Revelation"
     },
     {
-      "description": "",
+      "description": "At the start of battle, if Urahara's ATK exceeds 3200, the entire team gains 3.75% Slash DMG Bonus. \n For every additional 480 ATK above this threshold, the entire team gains an extra 1.5% Slash DMG Bonus, up to a maximum extra bonus of 7.5%.",
       "icon": "",
-      "name": ""
+      "name": "Construction
     },
     {
-      "description": "",
+      "description": "While Mod Enhancement  is active, increases all Slash characters' ATK by 7.5%.",
       "icon": "",
-      "name": ""
+      "name": "Tactics"
     }
   ],
   "damageType": "Slash",
@@ -109,7 +109,7 @@
   "role": "Support",
   "rotations": [
     {
-      "name": "No Ult Charge",
+      "name": "140? Ult charge",
       "notes": "Use Technique then swap out immediately.",
       "steps": [
         "Technique",
@@ -124,35 +124,36 @@
   ],
   "skills": [
     {
-      "description": "",
+      "description": "Urahara swings Benihime in a series of 5 slashes, dealing total damage equal to 84% of ATK. 
+~~Self-Mod~~ With 3 Mod Marks, tap and hold Basic Attack or switch in from the backline \n Urahara modifies his hands, then grips his Zanpakuto with both hands to deliver a powerful slash, consuming 3 Mod Marks and dealing damage equal to 97% of ATK.",
       "icon": "",
       "kind": "Basic Attack",
-      "name": "",
+      "name": "Bankai - Kannon-Biraki Benihime Aratame",
       "variant": null
     },
     {
-      "description": ".",
+      "description": "Urahara rapidly delivers two powerful slashes imbued with mod power, dealing damage equal to 80% of ATK. ~~Environmental Reconstruction~~ Usable once during the Mod Enhancement state \n Urahara rushes toward the enemy, modifying the terrain to partially gather enemies in his path, then strikes with a powerful slash. Deals total damage equal to 141% of ATK, applies 3 stacks of Mod Scars to the target, and gains 3 Mod Marks.",
       "icon": "",
       "kind": "Technique",
-      "name": "",
+      "name": "Enemy Mod",
       "variant": null
     },
     {
-      "description": "",
+      "description": "After being reconstructed by the manifested Benihime, Urahara leaps at the enemy and unleashes a powerful slash, dealing total damage equal to 170% of ATK and entering Mod Enhancement for 21 seconds. \n While in this state, he periodically applies 1 stack of Mod Scars to all enemies and gain 1 Mod Mark. ~~Already Too Late~~ Mod Enhancement State \n Urahara moves swiftly along suture lines created by reconstructing space, unleashing several immensely powerful slashes that deal total damage equal to 211% of ATK and ending his Mod Enhancement state.",
       "icon": "",
       "kind": "Ultimate",
-      "name": "",
+      "name": "Already Modified",
       "variant": null
     },
     {
-      "description": "",
+      "description": "After parrying an enemy attack, Urahara quickly dashes toward the enemy and delivers a slash, dealing total damage equal to 320% of ATK.",
       "icon": "",
       "kind": "Counter",
       "name": "Counter",
       "variant": null
     },
     {
-      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Kisuke gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
+      "description": "Use Flash Step to avoid attacks right before they hit. Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Urahara gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds.",
       "icon": "/Images/_shared/skill-dodge.svg",
       "kind": "Dodge",
       "name": "Flash Step"
@@ -163,7 +164,10 @@
   "stamps": {
     "core": {
       "ascend1": [
-        ""
+        "Passive Boost - Strategy gains an extra effect: During Mod Enhancement, all allied Slash characters gain 15% Crit DMG Bonus.",
+        "Core Passive - Mod gains an extra effect: Applying Scar Exposure grants the entire team 1 stack of Ultimate Enhancement, increasing Ultimate Mastery by 2.5% for 25 seconds. Stacks up to 2 times.",
+        "During Mod Enhancement, each Mod Mark consumed grants the character 1 stack of Mod Charge, increasing the damage of his next Enhanced Ultimate - Already Too Late by 3.5% per stack. Stacks up to 6 times.",
+        "When the Enhanced Ultimate - Already Too Late hits an enemy, it deals an additional instance of damage equal to 4% of the total Slash DMG the enemy takes from the character during Mod Enhancement."
       ],
       "ascend5": [
         ""
@@ -181,10 +185,14 @@
     "coreScope": "team",
     "weapon": {
       "ascend1": [
-        ""
+        "Increases ATK by 10%",
+        "When the Ultimate - Already Modified hits, applies Mod Dismantling to the target, reducing their Slash Resistance by 7.5% for 25 seconds.",
+        "Increases the maximum stacks of Scar Exposure applied by the character to 8. When his Special attacks hit a target, it now applies 2 stacks of Scar Exposure for each stack of Mod Scars on that target."
       ],
       "ascend5": [
-        ""
+        "Increases ATK by 20%",
+        "When the Ultimate - Already Modified hits, applies Mod Dismantling to the target, reducing their Slash Resistance by 15% for 25 seconds.",
+        "Increases the maximum stacks of Scar Exposure applied by the character to 12. When his Special attacks hit a target, it now applies 2 stacks of Scar Exposure for each stack of Mod Scars on that target."
       ]
     },
     "weaponScope": "team"
