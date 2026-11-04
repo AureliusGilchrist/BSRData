@@ -211,9 +211,9 @@
     "role": "Support",
     "tier": "S",
     "damageType": "Slash",
-    "art": "/Images/kisuke-bankai/art.png",
     "rarity": "SSR",
-    "releaseDate": "4 Nov 2026"
+    "art": "/Images/kisuke-bankai/art.png",
+    "releaseDate": "06 Nov 2026"
   },
   {
     "slug": "komamura",
