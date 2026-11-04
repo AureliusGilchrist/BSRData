@@ -211,6 +211,7 @@
     "role": "Support",
     "tier": "S",
     "damageType": "Slash",
+    "art": "/Images/kisuke-bankai/art.png",
     "rarity": "SSR",
     "releaseDate": "06 Nov 2026"
   },
