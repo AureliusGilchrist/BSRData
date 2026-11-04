@@ -91,7 +91,7 @@
     {
       "description": "At the start of battle, if Urahara's ATK exceeds 3200, the entire team gains 3.75% Slash DMG Bonus. \n For every additional 480 ATK above this threshold, the entire team gains an extra 1.5% Slash DMG Bonus, up to a maximum extra bonus of 7.5%.",
       "icon": "",
-      "name": "Construction
+      "name": "Construction"
     },
     {
       "description": "While Mod Enhancement  is active, increases all Slash characters' ATK by 7.5%.",
@@ -124,8 +124,7 @@
   ],
   "skills": [
     {
-      "description": "Urahara swings Benihime in a series of 5 slashes, dealing total damage equal to 84% of ATK. 
-~~Self-Mod~~ With 3 Mod Marks, tap and hold Basic Attack or switch in from the backline \n Urahara modifies his hands, then grips his Zanpakuto with both hands to deliver a powerful slash, consuming 3 Mod Marks and dealing damage equal to 97% of ATK.",
+      "description": "Urahara swings Benihime in a series of 5 slashes, dealing total damage equal to 84% of ATK ~~Self-Mod~~ With 3 Mod Marks, tap and hold Basic Attack or switch in from the backline \n Urahara modifies his hands, then grips his Zanpakuto with both hands to deliver a powerful slash, consuming 3 Mod Marks and dealing damage equal to 97% of ATK.",
       "icon": "",
       "kind": "Basic Attack",
       "name": "Bankai - Kannon-Biraki Benihime Aratame",
