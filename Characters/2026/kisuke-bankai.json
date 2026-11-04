@@ -169,16 +169,28 @@
         "When the Enhanced Ultimate - Already Too Late hits an enemy, it deals an additional instance of damage equal to 4% of the total Slash DMG the enemy takes from the character during Mod Enhancement."
       ],
       "ascend5": [
-        ""
+        "Passive Boost - Strategy gains an extra effect: During Mod Enhancement, all allied Slash characters gain 30% Crit DMG Bonus.",
+        "Core Passive - Mod gains an extra effect: Applying Scar Exposure grants the entire team 1 stack of Ultimate Enhancement, increasing Ultimate Mastery by 5% for 25 seconds. Stacks up to 2 times.",
+        "During Mod Enhancement, each Mod Mark consumed grants the character 1 stack of Mod Charge, increasing the damage of his next Enhanced Ultimate - Already Too Late by 7% per stack. Stacks up to 6 times.",
+        "When the Enhanced Ultimate - Already Too Late hits an enemy, it deals an additional instance of damage equal to 8% of the total Slash DMG the enemy takes from the character during Mod Enhancement."
       ],
       "ascend2": [
-        ""
+        "Passive Boost - Strategy gains an extra effect: During Mod Enhancement, all allied Slash characters gain 18.75% Crit DMG Bonus.",
+        "Core Passive - Mod gains an extra effect: Applying Scar Exposure grants the entire team 1 stack of Ultimate Enhancement, increasing Ultimate Mastery by 3.125% for 25 seconds. Stacks up to 2 times.",
+        "During Mod Enhancement, each Mod Mark consumed grants the character 1 stack of Mod Charge, increasing the damage of his next Enhanced Ultimate - Already Too Late by 4.375% per stack. Stacks up to 6 times.",
+        "When the Enhanced Ultimate - Already Too Late hits an enemy, it deals an additional instance of damage equal to 5% of the total Slash DMG the enemy takes from the character during Mod Enhancement."
       ],
       "ascend3": [
-        ""
+        "Passive Boost - Strategy gains an extra effect: During Mod Enhancement, all allied Slash characters gain 22.5% Crit DMG Bonus.",
+        "Core Passive - Mod gains an extra effect: Applying Scar Exposure grants the entire team 1 stack of Ultimate Enhancement, increasing Ultimate Mastery by 3.75% for 25 seconds. Stacks up to 2 times.",
+        "During Mod Enhancement, each Mod Mark consumed grants the character 1 stack of Mod Charge, increasing the damage of his next Enhanced Ultimate - Already Too Late by 5.25% per stack. Stacks up to 6 times.",
+        "When the Enhanced Ultimate - Already Too Late hits an enemy, it deals an additional instance of damage equal to 6% of the total Slash DMG the enemy takes from the character during Mod Enhancement."
       ],
       "ascend4": [
-        ""
+        "Passive Boost - Strategy gains an extra effect: During Mod Enhancement, all allied Slash characters gain 26.25% Crit DMG Bonus.",
+        "Core Passive - Mod gains an extra effect: Applying Scar Exposure grants the entire team 1 stack of Ultimate Enhancement, increasing Ultimate Mastery by 4.375% for 25 seconds. Stacks up to 2 times.",
+        "During Mod Enhancement, each Mod Mark consumed grants the character 1 stack of Mod Charge, increasing the damage of his next Enhanced Ultimate - Already Too Late by 6.125% per stack. Stacks up to 6 times.",
+        "When the Enhanced Ultimate - Already Too Late hits an enemy, it deals an additional instance of damage equal to 7% of the total Slash DMG the enemy takes from the character during Mod Enhancement."
       ]
     },
     "coreScope": "team",
