@@ -1,10 +1,10 @@
 {
   "art": "",
   "bestStamp": {
-    "mainStats": "1: TBD  •  2: TBD  •  3: TBD",
+    "mainStats": "1: ATK%  •  2: ATK%  •  3: Ult Charge",
     "notes": "",
     "setName": "Kisuke Bankai Stamp (3)",
-    "subStatPriority": "TBD"
+    "subStatPriority": "Ult Charge > ATK% > Flat ATK> Crit Rate > Crit DMG"
   },
   "bondPriority": [
     {
@@ -109,8 +109,8 @@
   "role": "Support",
   "rotations": [
     {
-      "name": "140? Ult charge",
-      "notes": "Use Technique then swap out immediately.",
+      "name": "215% Ult Charge",
+      "notes": "Use Technique then swap out immediately for Kenny team.",
       "steps": [
         "Technique",
         "Swap out",
