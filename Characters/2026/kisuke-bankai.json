@@ -114,7 +114,11 @@
       "steps": [
         "Technique",
         "Swap out",
-        "Ultimate off cooldown"
+        "Ultimate",
+        "Technique",
+        "Special Attack or Backline Special",
+        "Repeat Special Attack or use Basic Attacks to fill Ult",
+        "Ultimate"
       ],
       "tags": [
         "Sustain",
