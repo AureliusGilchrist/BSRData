@@ -110,10 +110,13 @@
     {
       "name": "20% Crit Rate on stats page / No Ult Charge needed",
       "steps": [
-      "Technique into basic attack"
+      "Technique into basic attack",
+      "Swap out",
+      "Repeat",
+      "Ultimate"
       ],
       "tags": [
-        "Opener",
+        "Sustain",
         "Boss"
       ]
     }
