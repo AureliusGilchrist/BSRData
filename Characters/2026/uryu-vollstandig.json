@@ -108,7 +108,7 @@
   "role": "Tactician",
   "rotation": [
     {
-      "name": "20% Crit Rate on stats page / No Ult Charge needed",
+      "name": "20% Crit Rate on stats page",
       "steps": [
       "Technique into basic attack",
       "Swap out",
