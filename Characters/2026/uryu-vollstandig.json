@@ -106,22 +106,6 @@
   "recommendedStopBoundaryP2W": 6,
   "releaseDate": "2 Sep 2026",
   "role": "Tactician",
-  "rotation": {
-    "name": "Opener (Cleaving Throw)",
-    "notes": "White's Special Attack provides a manual counter. ",
-    "steps": [
-      "Start with Slash Full Assault's Technique",
-      "Swap to White → Special Attack",
-      "Technique",
-      "Enter Ultimate whenever available",
-      "Swap to another character (White will continuously shoot Getsuga Tensho whenever you hit the enemy)",
-      "Use the Ultimate Finisher whenever it's charged"
-    ],
-    "tags": [
-      "Burst",
-      "Boss"
-    ]
-  },
   "rotation": [
     {
       "name": "20% Crit Rate on stats page",
