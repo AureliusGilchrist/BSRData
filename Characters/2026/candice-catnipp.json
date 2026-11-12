@@ -150,7 +150,7 @@
     },
     {
       "description": "After countering an enemy attack, Candice calls down multiple lightning bolts at the enemy's location, dealing damage equal to 660% of ATK. \n Successfully countering an enemy's Spiritual Pressure Attack grants 1 point(s) of Charge Up. ~~Galvano Retaliation~~ In Vollstandig state \n After countering an enemy attack, Candice launches a series of rapid assaults, dealing damage equal to 660% of ATK. \n Successfully countering an enemy's Spiritual Pressure Attack grants 1 point(s) of Charge Up.",
-      "icon": "/Images/candice-catnipp/skill-counter.png",
+      "icon": "/Images/_shared/skill-counter.png",
       "kind": "Counter",
       "name": "Counterattack"
     },

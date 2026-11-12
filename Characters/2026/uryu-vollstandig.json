@@ -148,7 +148,7 @@
     },
     {
       "description": "Uryu condenses Reishi into a shield to block attacks, then creates a Reishi Cage to trap the enemy and detonates it, dealing damage equal to 1585% of ATK.",
-      "icon": "/Images/uryu-vollstandig/skill-counter.png",
+      "icon": "/Images/_shared/skill-counter.png",
       "kind": "Counter",
       "name": "Counter"
     },

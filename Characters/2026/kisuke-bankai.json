@@ -15,35 +15,35 @@
   "boundaries": [
     {
       "description": "At the  start of battle, increases the entire team's Slash DMG by 10%. \n Increases the character's Crit Rate by 75%.",
-      "icon": "",
+      "icon": "/Images/kisuke-bankai/boundary-1.png",
       "level": 1,
       "name": "Perfect Timing"
     },
     {
       "description": "While Mod Enhancement is active, all enemies' DEF decreases by 15%.",
-      "icon": "",
+      "icon": "/Images/kisuke-bankai/boundary-2.png",
       "level": 2,
       "name": "Complete Analysis"
     },
     {
       "description": "",
-      "icon": "",
+      "icon": "/Images/kisuke-bankai/boundary-3.png",
       "level": 3
     },
     {
       "description": "Increases the character's Crit DMG by an amount equal to 20% of their Ultimate Charte Rate, up to 40%.",
-      "icon": "",
+      "icon": "/Images/kisuke-bankai/boundary-4.png",
       "level": 4,
       "name": "Dangerous Bankai"
     },
     {
       "description": "",
-      "icon": "",
+      "icon": "/Images/kisuke-bankai/boundary-5.png",
       "level": 5
     },
     {
       "description": "During Mod Enhancement, landing a Special Attack deals extra damage equal to 2,000% of the character's ATK and boosts the entire team's All-Skill Mastery by 10% for 25 seconds.",
-      "icon": "",
+      "icon": "/Images/kisuke-bankai/boundary-6.png",
       "level": 6,
       "name": "Unrevealed Tactics"
     }
@@ -136,21 +136,21 @@
     },
     {
       "description": "Urahara rapidly delivers two powerful slashes imbued with mod power, dealing damage equal to 80% of ATK. ~~Environmental Reconstruction~~ Usable once during the Mod Enhancement state \n Urahara rushes toward the enemy, modifying the terrain to partially gather enemies in his path, then strikes with a powerful slash. Deals total damage equal to 141% of ATK, applies 3 stacks of Mod Scars to the target, and gains 3 Mod Marks.",
-      "icon": "",
+      "icon": "/Images/kisuke-bankai/skill-technique.png",
       "kind": "Technique",
       "name": "Enemy Mod",
       "variant": null
     },
     {
       "description": "After being reconstructed by the manifested Benihime, Urahara leaps at the enemy and unleashes a powerful slash, dealing total damage equal to 170% of ATK and entering Mod Enhancement for 21 seconds. \n While in this state, he periodically applies 1 stack of Mod Scars to all enemies and gain 1 Mod Mark. ~~Already Too Late~~ Mod Enhancement State \n Urahara moves swiftly along suture lines created by reconstructing space, unleashing several immensely powerful slashes that deal total damage equal to 211% of ATK and ending his Mod Enhancement state.",
-      "icon": "",
+      "icon": "/Images/kisuke-bankai/skill-ultimate.png",
       "kind": "Ultimate",
       "name": "Already Modified",
       "variant": null
     },
     {
       "description": "After parrying an enemy attack, Urahara quickly dashes toward the enemy and delivers a slash, dealing total damage equal to 320% of ATK.",
-      "icon": "",
+      "icon": "/Images/_shared/skill-counter.png",
       "kind": "Counter",
       "name": "Counter",
       "variant": null
