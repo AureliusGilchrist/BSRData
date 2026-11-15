@@ -147,6 +147,24 @@ var slugToEspPage = map[string]string{
 	"uryu":         "Uryū Ishida",
 	"yachiru":      "Yachiru Kusajishi",
 	"yoruichi":     "Yoruichi Shihōin",
+
+	// Characters added by hand before the scraper knew them. Their names don't
+	// fold to the ESP title (word order / form suffix), so auto-resolve never
+	// matched them and their missing icons were never backfilled.
+	"kisuke-bankai":    "Urahara Kisuke (Bankai)",
+	"kensei-bankai":    "Kensei Muguruma",
+	"candice-catnipp":  "Candice Catnipp",
+	"uryu-vollstandig": "Ishida Uryu (Vollstandig)",
+
+	// Leaked as "Ichigo Kurosaki (Vasto Lorde)"; the ESP wiki calls the form
+	// "Hollow Completo" (Full Hollow). Brand-new slug — created on first scrape.
+	"ichigo-vasto-lorde": "Kurosaki Ichigo (Hollow Completo)",
+}
+
+// Display names for slugs the scraper CREATES. The ESP page title is Spanish
+// and surname-first, so it is only the fallback name for a new character.
+var slugToDisplayName = map[string]string{
+	"ichigo-vasto-lorde": "Ichigo Kurosaki (Vasto Lorde)",
 }
 
 // Universal icon filenames to skip when classifying images on ESP Fandom pages.
@@ -163,7 +181,20 @@ var espUniversalIcons = map[string]bool{
 	"Hollowicon.png": true, "Shiniicon.png": true, "Soulreapericon.png": true,
 	"Arrancaricon.png": true, "Quincyicon.png": true, "Fullbringericon.png": true,
 	"Nada.png": true,
+	// Server / availability badges. Kisuke Bankai's page lists them AFTER the
+	// portrait, but a page published before its art (Ichigo Hollow Completo)
+	// has them first, and the "first unclassified image = portrait" rule then
+	// saved the China flag as the character's art.
+	"Chinaicon.png": true, "Globalicon.png": true, "Limitedchara.png": true,
 }
+
+// reEspPlaceholder matches the stand-in files the ESP wiki uses while a new
+// character's page is still being filled in ("Test1.png", "Test.jpg",
+// "PlaceholderAutoSkill.png") and the per-affiliation dodge badges
+// ("Arrandod.png", "Shinidod.png"). None is ever real character art, so they are
+// skipped — the character's art stays missing and is retried every run until
+// the wiki publishes the real portrait.
+var reEspPlaceholder = regexp.MustCompile(`(?i)^(?:test\d*|placeholder\w*|\w+dod)\.(?:png|jpg|jpeg|webp)$`)
 
 // ---------- types ----------
 
@@ -235,6 +266,7 @@ func main() {
 	// ESP page resolved by name — then warn loudly about whatever is left, so
 	// brand-new banners/characters can't silently stop being scraped.
 	autoResolveEspPages()
+	onboardLeakedCharacters()
 	warnMissingScraperEntries()
 
 	// Snapshot which characters already have a JSON BEFORE this run starts. The
@@ -267,15 +299,18 @@ func main() {
 		page := slugToEspPage[slug]
 		if existing[slug] {
 			// JSON already exists — normally we leave it untouched. But re-run
-			// the ESP pass (additively) when EITHER the image folder is
-			// missing/empty (a prior run's downloads failed after the JSON was
-			// committed) OR -backfill was passed to refresh the whole roster.
-			// mergeEspIntoJSON preserves all existing curated text.
-			if hasImages(slug) && !backfillAll {
+			// the ESP pass (additively) when its images are INCOMPLETE — no art,
+			// a blank icon, or an icon path pointing at no file (the wiki often
+			// publishes a new character's icons in stages, so a first scrape can
+			// land half of them) — OR -backfill was passed. Downloads skip files
+			// that exist and mergeEspIntoJSON preserves all curated text, so this
+			// just picks up whatever the wiki has published since.
+			missing := missingImages(slug)
+			if missing == "" && !backfillAll {
 				log.Printf("[%s] esp-fandom skip — existing character with images", slug)
 				continue
 			}
-			reason := "missing images"
+			reason := "missing images: " + missing
 			if backfillAll {
 				reason = "-backfill"
 			}
@@ -322,6 +357,78 @@ func hasImages(slug string) bool {
 	return false
 }
 
+// missingImages describes what is missing from a character's images, or ""
+// when they are complete: no image folder, no art, a blank icon on a skill /
+// boundary / passive, or an /Images/ path that points at no file. Dodge is
+// exempt — it uses a shared placeholder because the wiki has no dodge icon.
+func missingImages(slug string) string {
+	if !hasImages(slug) {
+		return "no image folder"
+	}
+	doc, _ := charstore.Load(bsrRoot, slug)
+	if doc == nil {
+		return ""
+	}
+	var gaps []string
+	fileMissing := func(p string) bool {
+		if !strings.HasPrefix(p, "/Images/") {
+			return false
+		}
+		_, err := os.Stat(filepath.Join(imagesDir, filepath.FromSlash(strings.TrimPrefix(p, "/Images/"))))
+		return err != nil
+	}
+	if art, _ := doc["art"].(string); art == "" || fileMissing(art) {
+		gaps = append(gaps, "art")
+	}
+	// A character created before the wiki published their boundaries has an
+	// empty list — every released character has six.
+	if list, _ := doc["boundaries"].([]interface{}); len(list) == 0 {
+		gaps = append(gaps, "boundaries")
+	}
+	for _, key := range []string{"skills", "boundaries", "corePassives"} {
+		list, _ := doc[key].([]interface{})
+		for i, item := range list {
+			m, _ := item.(map[string]interface{})
+			if m == nil {
+				continue
+			}
+			if kind, _ := m["kind"].(string); strings.EqualFold(kind, "dodge") {
+				continue
+			}
+			icon, _ := m["icon"].(string)
+			if icon == "" || fileMissing(icon) {
+				gaps = append(gaps, fmt.Sprintf("%s[%d]", key, i))
+			}
+		}
+	}
+	return strings.Join(gaps, ", ")
+}
+
+// nameWords folds a character name into its sorted set of words, so names
+// that differ only in word order ("Kisuke Urahara" / "Urahara Kisuke") or
+// punctuation compare equal. The form in parentheses stays part of the name.
+func nameWords(s string) string {
+	words := strings.FieldsFunc(s, func(r rune) bool {
+		return r == ' ' || r == '-' || r == '(' || r == ')' || r == '_' || r == ','
+	})
+	out := make([]string, 0, len(words))
+	for _, w := range words {
+		if f := foldTitle(w); f != "" {
+			out = append(out, f)
+		}
+	}
+	sort.Strings(out)
+	return strings.Join(out, " ")
+}
+
+// baseName strips a trailing "(form)" — "Kensei Muguruma (Bankai)" → "Kensei Muguruma".
+func baseName(s string) string {
+	if i := strings.Index(s, "("); i > 0 {
+		return strings.TrimSpace(s[:i])
+	}
+	return strings.TrimSpace(s)
+}
+
 // espSearchResult is the shape of the ESP Fandom list=search API response.
 type espSearchResult struct {
 	Query struct {
@@ -339,6 +446,8 @@ func foldTitle(s string) string {
 		"ō", "o", "Ō", "o", "ū", "u", "Ū", "u",
 		"á", "a", "é", "e", "í", "i", "ó", "o", "ú", "u",
 		"Á", "a", "É", "e", "Í", "i", "Ó", "o", "Ú", "u",
+		"ä", "a", "ë", "e", "ï", "i", "ö", "o", "ü", "u",
+		"Ä", "a", "Ë", "e", "Ï", "i", "Ö", "o", "Ü", "u",
 		"ñ", "n", "Ñ", "n", "ç", "c", "Ç", "c",
 	)
 	var b strings.Builder
@@ -391,13 +500,109 @@ func resolveEspPage(name string) (string, bool) {
 		log.Printf("esp page lookup for %q: %v", name, err)
 		return "", false
 	}
-	want := foldTitle(name)
+	want := nameWords(name)
 	for _, hit := range sr.Query.Search {
-		if foldTitle(hit.Title) == want {
+		if nameWords(hit.Title) == want {
 			return hit.Title, true
 		}
 	}
 	return "", false
+}
+
+// resolveEspPageFor resolves a character's ESP page by name, trying the full
+// name first and then — only when no OTHER character shares the base name —
+// the name without its "(form)" suffix. The ESP wiki titles some forms plainly
+// ("Kensei Muguruma" for Kensei's Bankai unit); allowing that for a name like
+// Ichigo, who has many forms, would attach the wrong form's art.
+func resolveEspPageFor(slug, name string) (string, bool) {
+	if page, ok := resolveEspPage(name); ok {
+		return page, true
+	}
+	base := baseName(name)
+	if base == name || base == "" {
+		return "", false
+	}
+	for other := range charstore.Slugs(bsrRoot) {
+		if other == slug {
+			continue
+		}
+		doc, _ := charstore.Load(bsrRoot, other)
+		if n, _ := doc["name"].(string); nameWords(baseName(n)) == nameWords(base) {
+			return "", false
+		}
+	}
+	return resolveEspPage(base)
+}
+
+// slugify turns a display name into a slug in the roster's style:
+// "Ichigo Kurosaki (Vasto Lorde)" → "ichigo-kurosaki-vasto-lorde".
+func slugify(name string) string {
+	var parts []string
+	for _, w := range strings.FieldsFunc(name, func(r rune) bool {
+		return r == ' ' || r == '-' || r == '(' || r == ')' || r == '_' || r == ','
+	}) {
+		if f := foldTitle(w); f != "" {
+			parts = append(parts, f)
+		}
+	}
+	return strings.Join(parts, "-")
+}
+
+// onboardLeakedCharacters gives every character in Banners/Leaks.json a slug
+// and starts scraping it the moment the ESP wiki publishes its page — so a
+// new character's art lands on the next scheduled run instead of waiting for
+// someone to hand-map it.
+//
+// A leak whose name matches a character we ALREADY have (word order ignored)
+// reuses that slug, so its images are added to the existing character rather
+// than creating a duplicate. Otherwise the slug is derived from the name and
+// the ESP pass creates the character's JSON on first success. Leaks with no
+// wiki page yet are skipped quietly and retried every run.
+func onboardLeakedCharacters() {
+	raw, err := os.ReadFile(filepath.Join(bannerDir, "Leaks.json"))
+	if err != nil {
+		return
+	}
+	var leaks []struct {
+		Name string `json:"name"`
+	}
+	if json.Unmarshal(raw, &leaks) != nil {
+		return
+	}
+	existingByName := map[string]string{}
+	for slug := range charstore.Slugs(bsrRoot) {
+		doc, _ := charstore.Load(bsrRoot, slug)
+		if n, _ := doc["name"].(string); n != "" {
+			existingByName[nameWords(n)] = slug
+		}
+	}
+	for _, leak := range leaks {
+		name := strings.TrimSpace(leak.Name)
+		if name == "" {
+			continue
+		}
+		slug, exists := existingByName[nameWords(name)]
+		if !exists {
+			slug = slugify(name)
+		}
+		if !charstore.ValidSlug(slug) {
+			continue
+		}
+		if _, ok := slugToEspPage[slug]; ok {
+			continue
+		}
+		page, ok := resolveEspPage(name)
+		if !ok {
+			continue
+		}
+		log.Printf("[%s] leaked character %q found on ESP wiki as %q — scraping", slug, name, page)
+		slugToEspPage[slug] = page
+		if !exists {
+			if _, ok := slugToDisplayName[slug]; !ok {
+				slugToDisplayName[slug] = name
+			}
+		}
+	}
 }
 
 // autoResolveEspPages fills slugToEspPage for any character that already has a
@@ -418,7 +623,7 @@ func autoResolveEspPages() {
 		}
 		doc, _ := charstore.Load(bsrRoot, slug)
 		name, _ := doc["name"].(string)
-		page, ok := resolveEspPage(name)
+		page, ok := resolveEspPageFor(slug, name)
 		if !ok {
 			continue
 		}
@@ -667,6 +872,10 @@ func atoiSafe(s string) int {
 
 const espApiBase = "https://bleach-soul-resonance-esp.fandom.com/es/api.php"
 
+// espCacheTTL is how long a fetched ESP page is reused before it is fetched
+// again, so new icons on the wiki are picked up by the next run after it.
+const espCacheTTL = time.Hour
+
 // EspImage is one image found on an ESP Fandom page.
 type EspImage struct {
 	Filename string // e.g. "Dupe1grimh.png"
@@ -703,6 +912,12 @@ type EspSkill struct {
 // fetchEspFandom retrieves and caches the parsed HTML of an ESP Fandom page.
 func fetchEspFandom(page string) (string, error) {
 	cp := filepath.Join(cacheDir, "esp_"+strings.NewReplacer("(", "", ")", "", " ", "_", "/", "_").Replace(page)+".json")
+	// The cache only spares repeat fetches within one sitting. It used to never
+	// expire, so a page cached before the wiki finished a new character's
+	// icons was re-read forever and the late icons were never pulled.
+	if info, err := os.Stat(cp); err == nil && time.Since(info.ModTime()) > espCacheTTL {
+		_ = os.Remove(cp)
+	}
 	if data, err := os.ReadFile(cp); err == nil {
 		var r apiResp
 		if err := json.Unmarshal(data, &r); err == nil && r.Parse.Text != "" {
@@ -778,7 +993,7 @@ var (
 // "skill-technique", "skill-ultimate", "skill-counter", "skill-bfs",
 // "passive", or "" to skip.
 func classifyEspImage(filename string, alreadySeenPortrait bool) string {
-	if espUniversalIcons[filename] {
+	if espUniversalIcons[filename] || reEspPlaceholder.MatchString(filename) {
 		return ""
 	}
 	if reEspNada.MatchString(filename) {
@@ -1081,8 +1296,20 @@ func processEspFandomCharacter(slug, page string) error {
 // a `_spanish` sub-object for a follow-up translation pass.
 func mergeEspIntoJSON(slug, page, artPath string, boundaryPaths map[int]string, skillPaths map[string]string, passivePaths []string, spanishText map[string]string, releaseDate string) error {
 	doc, _ := charstore.Load(bsrRoot, slug)
+	if doc == nil {
+		doc = map[string]interface{}{}
+	}
 	if doc["slug"] == nil {
 		doc["slug"] = slug
+	}
+	// A character this pass CREATES has no name yet — without one it shows up
+	// blank. Prefer the English display name, else the ESP page title.
+	if n, _ := doc["name"].(string); n == "" {
+		if display, ok := slugToDisplayName[slug]; ok {
+			doc["name"] = display
+		} else {
+			doc["name"] = page
+		}
 	}
 
 	// Art: ESP Fandom is the authoritative source for portrait art (it's the

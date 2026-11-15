@@ -1,10 +1,17 @@
 {
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Urahara_Kisuke_%28Bankai%29",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
   "art": "/Images/kisuke-bankai/art.png",
   "bestStamp": {
     "mainStats": "1: ATK%  •  2: ATK%  •  3: Ult Charge",
     "notes": "",
     "setName": "Kisuke Bankai Stamp (3)",
-    "subStatPriority": "Ult Charge > ATK% > Flat ATK> Crit Rate > Crit DMG"
+    "subStatPriority": "Ult Charge \u003e ATK% \u003e Flat ATK\u003e Crit Rate \u003e Crit DMG"
   },
   "bondPriority": [
     {
@@ -71,7 +78,7 @@
           "slot": 3
         }
       ],
-      "subStatPriority": "Ult Charge > ATK% > Flat ATK > Crit Rate > Crit DMG",
+      "subStatPriority": "Ult Charge \u003e ATK% \u003e Flat ATK \u003e Crit Rate \u003e Crit DMG",
       "targets": {
         "ultChargeRate": "None"
       }
@@ -80,28 +87,32 @@
   "corePassives": [
     {
       "description": "After entering Mod Enhancement, Urahara applies 1 stack of Mod Scars to enemies every 4.5 seconds: Each stack reduces Slash Resistance by 3%, up to 3 stacks for 12 seconds. Additionally, when Urahara's Special Attack hits an enemy, it applies 1 stack of Scar Exposure for each stack of Mod Scars on the target: Increases damage taken by 1% per stack, up to 3 stacks for 25 seconds. \n When the team includes three different types, the entire team gains 80% Crit DMG Bonus. The effects provided by Urahara's own Core Passive and Passive Boost are also multiplied by 2.",
-      "icon": "",
+      "icon": "/Images/kisuke-bankai/passive-1.png",
       "name": "Mod"
     },
     {
       "description": "During battle, increases Ultimate Charge Rate by 22.5%.",
-      "icon": "",
+      "icon": "/Images/kisuke-bankai/passive-2.png",
       "name": "Revelation"
     },
     {
       "description": "At the start of battle, if Urahara's ATK exceeds 3200, the entire team gains 3.75% Slash DMG Bonus. \n For every additional 480 ATK above this threshold, the entire team gains an extra 1.5% Slash DMG Bonus, up to a maximum extra bonus of 7.5%.",
-      "icon": "",
+      "icon": "/Images/kisuke-bankai/passive-3.png",
       "name": "Construction"
     },
     {
       "description": "While Mod Enhancement  is active, increases all Slash characters' ATK by 7.5%.",
-      "icon": "",
+      "icon": "/Images/kisuke-bankai/passive-4.png",
       "name": "Tactics"
     }
   ],
   "damageType": "Slash",
   "name": "Kisuke Urahara (Bankai)",
+  "perfectStamps": [],
   "rarity": "SSR",
+  "rationale": [
+    "5,600 ATK is needed for maximum buffs. As it is easy to obtain, it is recommended to get as many Ult Charge substat rolls as possible. CN supposedly is aiming for 215%. 148% is enough to play Bankai Kisuke normally. 192.8% is the next breakpoint. 188% requires you to do two full basic rotations to have Enhanced Ult ready. 197% will let you save 2 basic attacks"
+  ],
   "recommendedStopBoundary": 6,
   "recommendedStopBoundaryF2P": 0,
   "recommendedStopBoundaryP2W": 6,
@@ -129,7 +140,7 @@
   "skills": [
     {
       "description": "Urahara swings Benihime in a series of 5 slashes, dealing total damage equal to 84% of ATK ~~Self-Mod~~ With 3 Mod Marks, tap and hold Basic Attack or switch in from the backline \n Urahara modifies his hands, then grips his Zanpakuto with both hands to deliver a powerful slash, consuming 3 Mod Marks and dealing damage equal to 97% of ATK.",
-      "icon": "",
+      "icon": "/Images/kisuke-bankai/skill-basic.png",
       "kind": "Basic Attack",
       "name": "Bankai - Kannon-Biraki Benihime Aratame",
       "variant": null
@@ -172,12 +183,6 @@
         "During Mod Enhancement, each Mod Mark consumed grants the character 1 stack of Mod Charge, increasing the damage of his next Enhanced Ultimate - Already Too Late by 3.5% per stack. Stacks up to 6 times.",
         "When the Enhanced Ultimate - Already Too Late hits an enemy, it deals an additional instance of damage equal to 4% of the total Slash DMG the enemy takes from the character during Mod Enhancement."
       ],
-      "ascend5": [
-        "Passive Boost - Strategy gains an extra effect: During Mod Enhancement, all allied Slash characters gain 30% Crit DMG Bonus.",
-        "Core Passive - Mod gains an extra effect: Applying Scar Exposure grants the entire team 1 stack of Ultimate Enhancement, increasing Ultimate Mastery by 5% for 25 seconds. Stacks up to 2 times.",
-        "During Mod Enhancement, each Mod Mark consumed grants the character 1 stack of Mod Charge, increasing the damage of his next Enhanced Ultimate - Already Too Late by 7% per stack. Stacks up to 6 times.",
-        "When the Enhanced Ultimate - Already Too Late hits an enemy, it deals an additional instance of damage equal to 8% of the total Slash DMG the enemy takes from the character during Mod Enhancement."
-      ],
       "ascend2": [
         "Passive Boost - Strategy gains an extra effect: During Mod Enhancement, all allied Slash characters gain 18.75% Crit DMG Bonus.",
         "Core Passive - Mod gains an extra effect: Applying Scar Exposure grants the entire team 1 stack of Ultimate Enhancement, increasing Ultimate Mastery by 3.125% for 25 seconds. Stacks up to 2 times.",
@@ -195,6 +200,12 @@
         "Core Passive - Mod gains an extra effect: Applying Scar Exposure grants the entire team 1 stack of Ultimate Enhancement, increasing Ultimate Mastery by 4.375% for 25 seconds. Stacks up to 2 times.",
         "During Mod Enhancement, each Mod Mark consumed grants the character 1 stack of Mod Charge, increasing the damage of his next Enhanced Ultimate - Already Too Late by 6.125% per stack. Stacks up to 6 times.",
         "When the Enhanced Ultimate - Already Too Late hits an enemy, it deals an additional instance of damage equal to 7% of the total Slash DMG the enemy takes from the character during Mod Enhancement."
+      ],
+      "ascend5": [
+        "Passive Boost - Strategy gains an extra effect: During Mod Enhancement, all allied Slash characters gain 30% Crit DMG Bonus.",
+        "Core Passive - Mod gains an extra effect: Applying Scar Exposure grants the entire team 1 stack of Ultimate Enhancement, increasing Ultimate Mastery by 5% for 25 seconds. Stacks up to 2 times.",
+        "During Mod Enhancement, each Mod Mark consumed grants the character 1 stack of Mod Charge, increasing the damage of his next Enhanced Ultimate - Already Too Late by 7% per stack. Stacks up to 6 times.",
+        "When the Enhanced Ultimate - Already Too Late hits an enemy, it deals an additional instance of damage equal to 8% of the total Slash DMG the enemy takes from the character during Mod Enhancement."
       ]
     },
     "coreScope": "team",
@@ -224,9 +235,5 @@
     "atk": "196",
     "def": "120",
     "hp": "600"
-  },
-  "rationale": [
-    "5,600 ATK is needed for maximum buffs. As it is easy to obtain, it is recommended to get as many Ult Charge substat rolls as possible. CN supposedly is aiming for 215%. 148% is enough to play Bankai Kisuke normally. 192.8% is the next breakpoint. 188% requires you to do two full basic rotations to have Enhanced Ult ready. 197% will let you save 2 basic attacks"
-  ],
-  "perfectStamps": []
+  }
 }

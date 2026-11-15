@@ -144,6 +144,11 @@
     "releaseDate": "15 Jul 2026"
   },
   {
+    "slug": "ichigo-vasto-lorde",
+    "path": "unknown/ichigo-vasto-lorde.json",
+    "name": "Ichigo Kurosaki (Vasto Lorde)"
+  },
+  {
     "slug": "ichigo-white",
     "path": "2026/ichigo-white.json",
     "year": 2026,

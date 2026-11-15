@@ -1,0 +1,56 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Kurosaki_Ichigo_%28Hollow_Completo%29",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "",
+  "bondPriority": [],
+  "boundaries": [],
+  "builds": [],
+  "corePassives": [
+    {
+      "description": "",
+      "icon": "/Images/ichigo-vasto-lorde/passive-1.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-vasto-lorde/passive-2.png",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-vasto-lorde/passive-3.png",
+      "name": ""
+    }
+  ],
+  "name": "Ichigo Kurosaki (Vasto Lorde)",
+  "skills": [
+    {
+      "description": "",
+      "icon": "/Images/ichigo-vasto-lorde/skill-counter.png",
+      "kind": "Counter",
+      "name": ""
+    },
+    {
+      "description": "",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": ""
+    }
+  ],
+  "slug": "ichigo-vasto-lorde",
+  "stamps": {
+    "core": {
+      "ascend1": [],
+      "ascend5": []
+    },
+    "weapon": {
+      "ascend1": [],
+      "ascend5": []
+    }
+  }
+}
