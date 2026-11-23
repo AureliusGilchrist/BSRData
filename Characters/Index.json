@@ -146,7 +146,8 @@
   {
     "slug": "ichigo-vasto-lorde",
     "path": "unknown/ichigo-vasto-lorde.json",
-    "name": "Ichigo Kurosaki (Vasto Lorde)"
+    "name": "Ichigo Kurosaki (Vasto Lorde)",
+    "art": "/Images/ichigo-vasto-lorde/art.png"
   },
   {
     "slug": "ichigo-white",
