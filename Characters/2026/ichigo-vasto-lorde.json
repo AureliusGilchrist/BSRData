@@ -1,0 +1,278 @@
+{
+  "_spanishSource": "https://bleach-soul-resonance-esp.fandom.com/es/wiki/Kurosaki_Ichigo_(Hollow_Completo)",
+  "_spanishText": {
+    "basic": "",
+    "counter": "",
+    "technique": "",
+    "ultimate": ""
+  },
+  "art": "/Images/ichigo-vasto-lorde/art.png",
+  "bestStamp": {
+    "mainStats": "1: HP%  •  2: Crit Rate  •  3: HP%",
+    "notes": "",
+    "setName": "Full Hollowfication (3)",
+    "subStatPriority": "HP% \u003e Crit Rate \u003e Crit DMG \u003e Flat HP \u003e ATK%"
+  },
+  "bondPriority": [
+    {
+      "description": "Increases Slash Mastery by 10%. If the activating character belongs to the Full Assault role and the Hollow & Arrancar lineup, grants the following bonuses: 1. Increases Slash DMG by 20%. 2. If their Crit Rate reaches 60%, increases Ultimate DMG by 15%.",
+      "name": "VL Bond"
+    }
+  ],
+  "boundaries": [
+    {
+      "description": "Increases Ultimate Charge Rate by 50%. \n Releasing the Ultimate - Cero of Ruin grants 1 extra Void Point.",
+      "icon": "/Images/ichigo-vasto-lorde/boundary-1.png",
+      "level": 1,
+      "name": "The Call"
+    },
+    {
+      "description": "The Enhanced Cero ignores 35% of the target's DEF. \n Triggering Destruction grants Resurgence, increasing Crit DMG by 50% for 40 seconds.",
+      "icon": "/Images/ichigo-vasto-lorde/boundary-2.png",
+      "level": 2,
+      "name": "Resurgence"
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-vasto-lorde/boundary-3.png",
+      "level": 3
+    },
+    {
+      "description": "Whenever any skill triggers Destruction, its damage multiplier increases by an extra 25%.",
+      "icon": "/Images/ichigo-vasto-lorde/boundary-4.png",
+      "level": 4,
+      "name": "Guard"
+    },
+    {
+      "description": "",
+      "icon": "/Images/ichigo-vasto-lorde/boundary-5.png",
+      "level": 5
+    },
+    {
+      "description": "When attacking enemies not in the Spiritual Pressure Dissipation, attacks also benefit from Dissipation DMG Bonus; \n Can also trigger Destruction against enemies not in the Spiritual Pressure Dissipation state. \n Further increases own Dissipation DMG Bonus by 15%.",
+      "icon": "/Images/ichigo-vasto-lorde/boundary-6.png",
+      "level": 6,
+      "name": "Rescue"
+    }
+  ],
+  "builds": [
+    {
+      "label": "Main",
+      "passiveSkills": [
+        "Ult DMG - Full Assault",
+        "Ult DMG - Full Assault",
+        "Overdrive - Full Assault"
+      ],
+      "range": "B6W5C5",
+      "setName": "Full Hollowfication",
+      "setPieces": [
+        {
+          "mainStat": "HP%",
+          "slot": 1
+        },
+        {
+          "mainStat": "Crit Rate",
+          "slot": 2
+        },
+        {
+          "mainStat": "HP%",
+          "slot": 3
+        }
+      ],
+      "subStatPriority": "HP% \u003e Crit Rate \u003e Crit DMG \u003e Flat HP \u003e ATK%",
+      "targets": {
+        "ultChargeRate": "None"
+      }
+    }
+  ],
+  "corePassives": [
+    {
+      "description": "State Switching \n Fully-Hollowed Ichigo has two states: Obsession State and Ferocity State. He starts in Obsession State. The appearance of his Spiritual Pressure Bar indicates his current state. \n Releasing the final hit of his Basic Attack activates a Special Attack or Special Technique, depending on his  current state. At full Spiritual Pressure, these attacks become enhanced. Using an Enhanced Special attack or Enhanced Special Technique switches him to the other state. \n When Fully-Hollowfied Ichigo switches in from the backjline, he immediately uses one of the following skills according to the priority below: \n 1. Upon reaching 4 Void Points, immediately releases the Enhanced Ultimate - Cero of Destruction. \n 2. At max Spiritual Pressure, immediately uses the enhanced skill conrresponding to his current state, then switches states. \n 3. While Brutal is active, immediately releases the 5th hit of his Basic Attack - Berserk Strike. \n 4. Otherwise, he releases the Dodge Attack - Fierce Pierce. \n Full Hollowfication \n Increases his resistance to interruption. Gains Hollowfication Levels based on his Max HP: For the portion of Max HP up to 18,800, every 25 HP grants 1 Hollowfication Level. For the portion above 18,000, every 5 HP grants 1 Hollowfication Level. \n At the start of battle, each Hollowfication Level grants 1 ATK. \n Dissipation and Destruction \n When any Ultimate hits an enemy in Spiritual Pressure Dissipation or without a Spiritual Pressure Bar, it triggers Destruction, increasing the damage multiplier of that hit by 20%.",
+      "icon": "/Images/ichigo-vasto-lorde/passive-1.png",
+      "name": "Destruction"
+    },
+    {
+      "description": "Increases Dissipation DMG Bonus by 20%.",
+      "icon": "/Images/ichigo-vasto-lorde/passive-2.png",
+      "name": "Heartless"
+    },
+    {
+      "description": "Increases Slash DMG by 40% after a sucecssful counter for 35 second(s).",
+      "icon": "/Images/ichigo-vasto-lorde/passive-3.png",
+      "name": "Ferocious"
+    },
+    {
+      "description": "At the start of battle, every 60 Hollowfication Level(s) increases Crit Rate by 1%, up to 35%. \n During battle, Crit Rate above 100% is convertedinto Crit DMG at a ratio of 1:2.",
+      "icon": "/Images/ichigo-vasto-lorde/passive-4.png",
+      "name": "Rampage"
+    }
+  ],
+  "damageType": "Slash",
+  "name": "Ichigo Kurosaki (Full Hollowfication)",
+  "perfectStamps": [],
+  "rarity": "SSR",
+  "rationale": [
+    "At B1 and higher, no Ult Charge is required."
+  ],
+  "recommendedStopBoundary": 6,
+  "recommendedStopBoundaryF2P": 1,
+  "recommendedStopBoundaryP2W": 6,
+  "releaseDate": "06 Nov 2026",
+  "role": "Support",
+  "rotations": [
+    {
+      "name": "150% Ult Charge",
+      "notes": "Similar playstyle to Kenny, but will require basic attack spam in addition to quickswaps.",
+      "steps": [
+        "Technique",
+        "Bankai Kisuke Technique",
+        "White Special Attack into Technique",
+        "Counter with Bankai Kisuke, Ultimate into Technique and Special Attack",
+        "Swap VL from backline, finish the combo chain into Technique",
+        "Special Attack",
+        "Manual Counter into basic attack combo",
+        "Special Attack",
+        "Battlefield",
+        "White Special Attack into Manual Counter into Technique",
+        "Counter with VL",
+        "Technique",
+        "Battlefield",
+        "White Ultimate",
+        "Bankai Kisuke Special Attack into Ultimate, re-enter Ultimate",
+        "Swap VL from backline, finish combo chain into Special Attack",
+        "White Ultimate into Special Attack",
+        "Counter with VL",
+        "Enhanced Technique into Ultimate followed by Enhanced Ultimate"
+      ],
+      "tags": [
+        "Sustain",
+        "Boss"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "description": "Fully-Hollowfied Ichigo launches a swift, savage assault, dealing a total damage equal to 1142.5% of ATK over 6 hits while accumulating Spiritual Pressure. \n The final hit activates the Special Technique - Intimidating Howl or Special Attack - Cero Blast, according to his current state. ~~Savage Combo~~ Tap and hold Basic Attack \n Fully-Hollowfied Ichigo leaps into the air and launches an even more savage assault, dealing a total damage equal to 1480% of ATK over 6 hits while accumulating Spiritual Pressure. \n The final hit activates the Special Technique - Intimidating Howl or Special Attack - Cero Blast, according to his current state. ~~Cero Blast~~ While in Ferocity, tap and hold Basic Attack after releasing the final hit of Basic Attack \n Fully-Hollowfied Ichigo leaps into the air and fires a Cero at enemies, dealing damage equalt o 1720% of ATK and building a large amount of Spiritual Pressure. ~~Cero Roar~~ While in Obsession, tap and hold Basic Attack when Spiritual Pressure is full \n Fully-Hollowfied Ichigo roars, then leaps into the air and fires a Cero at enemies, dealing damage equal to 2675.5% of ATK. He then gains 1 Void Point and switches to Ferocity. \n Tap Basic Attack afterward to immediately follow up with the 4th hit of the Basic Attack - Savage Combo. \n This skill counts as an Enhanced Cero skill.",
+      "icon": "/Images/ichigo-vasto-lorde/skill-basic.png",
+      "kind": "Basic Attack",
+      "name": "Berserk Strike",
+      "variant": null
+    },
+    {
+      "description": "Fully-Hollowfied Ichigo leaps toward enemies and rams into them, then delivers an overpowering downward claw strike, dealing damage equal to 1392.5% of ATK. He then gains Brutal. ~~Intimidating Howl~~ While in Obsession, tap Technique after releasing the final hit of the Basic Attack \n Fully-Hollowfied Ichigo unleashes and intimidating howl, knocking back and terrifying nearby enemies, dealing damage equal to 1192.5% of ATK and building a large amount of Spiritual Pressure. ~~Cero of Intimidation~~ While in Ferocity, tap Technique when Spiritual Pressure is full \n Fully Hollowfied Ichigo howls, then fires a Cero at enemies, dealing damage equal to 2680% of ATK. He then gains 1 Void Point and switches to Obsession. \n This skill counts as an Enhanced Cero skill.",
+      "icon": "/Images/ichigo-vasto-lorde/skill-technique.png",
+      "kind": "Technique",
+      "name": "Suppressive Claw",
+      "variant": null
+    },
+    {
+      "description": "Fully-Hollowfied Ichigo pins an enemy beneath his foot and fires a Cero capable of shattering the void, dealing damage equal to 3367.5% of ATK. He then gains 1 Void Point. \n This skill counts as an Enhanced Cero skill. ~~Cero of Destruction~~ With 4 Void Points, tap Technique or Ultimate, or tap and hold Bsic Attack \n Fully-Hollowfied Ichigo leaps high into the air and fires a powerful, destructive Cero at enemies, dealing damage equal to 5455% of ATK. \n This skill counts as an Enhanced Cero skill.",
+      "icon": "/Images/ichigo-vasto-lorde/skill-ultimate.png",
+      "kind": "Ultimate",
+      "name": "Cero if Ruin",
+      "variant": null
+    },
+    {
+      "description": "Fully-Hollowfied Ichigo swings downward with brute force, dealing damage equal to 45% of ATK and allowing him to counter an enemy's Spiritual Pressure attack. \n If successful, tap Basic Attack to follow up with a counterattack. Fully-Hollowfied Ichigo quickly overpowers the enemy, then drags and slams them, dealing damage equal to 1765% of ATK. Gains Brutal upon successfully countering an enemy's Spiritual Pressure attack. ~~Counter~~ Sucecssfully perform a Counter during the Basic Attack - Savage Combo or any Special Attack, then tap Basic Attack \n After blocking an enemy's attack, Fully-Hollowfied Ichigo overpowers them, then drags and brutally slams them, dealing damage equal to 1765% of ATK. \n Tap Basic Attack afterwards to immediately follow up with the 4th hit of his Basic Attack - Savage Combo.",
+      "icon": "/Images/_shared/skill-counter.png",
+      "kind": "Counter",
+      "name": "Counter",
+      "variant": null
+    },
+    {
+      "description": "Use Sonido to avoid attacks right before they hit. \n Perfect Dodges inflict True Time Freeze for 1.5 seconds, during which Fully-Hollowfied Ichigo gains 15% ASPD and 25% MSPD for 4 seconds. Cooldown: 15 seconds. \n Tap and hold the Dodge button to charge. Release it to perform a different follow-up attack depending on whether the charge is complete. Taking a hit while charging instantly completes the charge. ~~Fierce Pierce~~ Release Dodge before charging is complete \n While charging, Ichigo dodges backward, then thrusts forward, dealing damage equal to 42.5% of ATK. \n Tap Basic Attack afterward to immediately follow up with the 2nd hit of his Basic Attack - Berserk Strike. \n This attack counts as a basic attack. ~~Charged Slash~~ Release Dodge once charging is complete \n Once fully charged, Ichigo rushes at enemies and unleashes a barrage of powerful slashes, dealing damage equal to 145% of ATK. \n Tap Basic Attack afterward to immediately follow up with the 3rd hit of his Basic Attack - Berserk  Strike. \n This attack counts as a Special Attack.",
+      "icon": "/Images/_shared/skill-dodge.svg",
+      "kind": "Dodge",
+      "name": "Sonido"
+    }
+  ],
+  "slug": "ichigo-vasto-lorde",
+  "source": "",
+  "stamps": {
+    "core": {
+      "ascend1": [
+        "Increases Hollowfication Level by an extra 50%.",
+        "The Enhanced Special Technique - Cero of Intimidation and Enhanced Special Attack - Cero Roar can also trigger Destruction when hitting enemies in Spiritual Pressure Dissipation or without Spiritual Pressure Bar.",
+        "Each release of an Enhanced Cero skill grants 1 Stack of Selfless: Increases damage dealt by 3.5%, up to 4 stacks.",
+        "Each Void Point consumed restores 5% of HP.",
+        "After releasing the Enhanced Ultimate - Cero of Destruction, gains 15% Ultimate Mastery."
+      ],
+      "ascend2": [
+        "Increases Hollowfication Level by an extra 50%.",
+        "The Enhanced Special Technique - Cero of Intimidation and Enhanced Special Attack - Cero Roar can also trigger Destruction when hitting enemies in Spiritual Pressure Dissipation or without Spiritual Pressure Bar.",
+        "Each release of an Enhanced Cero skill grants 1 Stack of Selfless: Increases damage dealt by 4.375%, up to 4 stacks.",
+        "Each Void Point consumed restores 6.25% of HP.",
+        "After releasing the Enhanced Ultimate - Cero of Destruction, gains 18.75% Ultimate Mastery."
+      ],
+      "ascend3": [
+        "Increases Hollowfication Level by an extra 50%.",
+        "The Enhanced Special Technique - Cero of Intimidation and Enhanced Special Attack - Cero Roar can also trigger Destruction when hitting enemies in Spiritual Pressure Dissipation or without Spiritual Pressure Bar.",
+        "Each release of an Enhanced Cero skill grants 1 Stack of Selfless: Increases damage dealt by 5.25%, up to 4 stacks.",
+        "Each Void Point consumed restores 7.5% of HP.",
+        "After releasing the Enhanced Ultimate - Cero of Destruction, gains 22.5% Ultimate Mastery."
+      ],
+      "ascend4": [
+        "Increases Hollowfication Level by an extra 50%.",
+        "The Enhanced Special Technique - Cero of Intimidation and Enhanced Special Attack - Cero Roar can also trigger Destruction when hitting enemies in Spiritual Pressure Dissipation or without Spiritual Pressure Bar.",
+        "Each release of an Enhanced Cero skill grants 1 Stack of Selfless: Increases damage dealt by 6.125%, up to 4 stacks.",
+        "Each Void Point consumed restores 8.75% of HP.",
+        "After releasing the Enhanced Ultimate - Cero of Destruction, gains 26.25% Ultimate Mastery."
+      ],
+      "ascend5": [
+        "Increases Hollowfication Level by an extra 50%.",
+        "The Enhanced Special Technique - Cero of Intimidation and Enhanced Special Attack - Cero Roar can also trigger Destruction when hitting enemies in Spiritual Pressure Dissipation or without Spiritual Pressure Bar.",
+        "Each release of an Enhanced Cero skill grants 1 Stack of Selfless: Increases damage dealt by 7%, up to 4 stacks.",
+        "Each Void Point consumed restores 10% of HP.",
+        "After releasing the Enhanced Ultimate - Cero of Destruction, gains 30% Ultimate Mastery."
+      ]
+    },
+    "coreScope": "team",
+    "weapon": {
+      "ascend1": [
+        "Increases Crit rate by 25%.",
+        "Switching to Ferocity State grants Ferocity, increasing damage dealt by all Basic Attacks and Special Attacks by 50% for 25 seconds.",
+        "Switching to Obsession State grants Obsession, increasing damage dealt by all Techniques and Ultimates by 50% for 25 seconds.",
+        "If the downward slash performed by tapping the Counter button hits an enemy, it counts as a successful counter. This effect can trigger once every 25 second(s)."
+      ],
+      "ascend5": [
+        "Increases Crit rate by 50%.",
+        "Switching to Ferocity State grants Ferocity, increasing damage dealt by all Basic Attacks and Special Attacks by 100% for 25 seconds.",
+        "Switching to Obsession State grants Obsession, increasing damage dealt by all Techniques and Ultimates by 100% for 25 seconds.",
+        "If the downward slash performed by tapping the Counter button hits an enemy, it counts as a successful counter. This effect can trigger once every 25 second(s)."
+      ],
+      "ascend2": [
+        "Increases Crit rate by 31.25%.",
+        "Switching to Ferocity State grants Ferocity, increasing damage dealt by all Basic Attacks and Special Attacks by 62.5% for 25 seconds.",
+        "Switching to Obsession State grants Obsession, increasing damage dealt by all Techniques and Ultimates by 62.5% for 25 seconds.",
+        "If the downward slash performed by tapping the Counter button hits an enemy, it counts as a successful counter. This effect can trigger once every 25 second(s)."
+      ],
+      "ascend3": [
+        "Increases Crit rate by 37.5%.",
+        "Switching to Ferocity State grants Ferocity, increasing damage dealt by all Basic Attacks and Special Attacks by 75% for 25 seconds.",
+        "Switching to Obsession State grants Obsession, increasing damage dealt by all Techniques and Ultimates by 75% for 25 seconds.",
+        "If the downward slash performed by tapping the Counter button hits an enemy, it counts as a successful counter. This effect can trigger once every 25 second(s)."
+      ],
+      "ascend4": [
+        "Increases Crit rate by 43.75%.",
+        "Switching to Ferocity State grants Ferocity, increasing damage dealt by all Basic Attacks and Special Attacks by 87.5% for 25 seconds.",
+        "Switching to Obsession State grants Obsession, increasing damage dealt by all Techniques and Ultimates by 87.5% for 25 seconds.",
+        "If the downward slash performed by tapping the Counter button hits an enemy, it counts as a successful counter. This effect can trigger once every 25 second(s)."
+      ]
+    },
+    },
+    "weaponScope": "team"
+  },
+  "stats": {
+    "atk": "335",
+    "critDamage": "+50%",
+    "critRate": "5%",
+    "def": "327",
+    "hp": "1623"
+  },
+  "tier": "S",
+  "weaponStats": {
+    "atk": "201",
+    "def": "119",
+    "hp": "581"
+  }
+}
