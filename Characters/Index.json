@@ -145,16 +145,15 @@
   },
   {
     "slug": "ichigo-vasto-lorde",
-    "path": "unknown/ichigo-vasto-lorde.json",
-    "name": "Ichigo Kurosaki (Vasto Lorde)",
-    "art": "/Images/ichigo-vasto-lorde/art.png"
-  },
-  {
-    "slug": "ichigo-vasto-lorde",
     "path": "2026/ichigo-vasto-lorde.json",
     "year": 2026,
-    "name": "Ichigo Kurosaki (Vasto Lorde)",
-    "art": "/Images/ichigo-vasto-lorde/art.png"
+    "name": "Ichigo Kurosaki (Full Hollowfication)",
+    "role": "Assault",
+    "tier": "S",
+    "damageType": "Slash",
+    "rarity": "SSR",
+    "art": "/Images/ichigo-vasto-lorde/art.png",
+    "releaseDate": "25 Nov 2026"
   },
   {
     "slug": "ichigo-white",
