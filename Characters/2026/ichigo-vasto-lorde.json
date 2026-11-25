@@ -259,7 +259,6 @@
         "If the downward slash performed by tapping the Counter button hits an enemy, it counts as a successful counter. This effect can trigger once every 25 second(s)."
       ]
     },
-    },
     "weaponScope": "team"
   },
   "stats": {
