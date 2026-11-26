@@ -102,7 +102,7 @@
       "name": "Ferocious"
     },
     {
-      "description": "At the start of battle, every 60 Hollowfication Level(s) increases Crit Rate by 1%, up to 35%. \n During battle, Crit Rate above 100% is convertedinto Crit DMG at a ratio of 1:2.",
+      "description": "At the start of battle, every 60 Hollowfication Level(s) increases Crit Rate by 1%, up to 35%. \n During battle, Crit Rate above 100% is converted into Crit DMG at a ratio of 1:2.",
       "icon": "/Images/ichigo-vasto-lorde/passive-4.png",
       "name": "Rampage"
     }
